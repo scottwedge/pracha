@@ -787,7 +787,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-unique">Rs @ 6999</a>
+								<a href="<?php echo base_url('price/details/'.base64_encode(1)); ?>" class="btn btn-unique">Rs @ 6999</a>
 							</div>
 						</div>
 						<!--/.Panel-->

@@ -32,8 +32,16 @@ class Price extends CI_Controller {
 	}
 	public function details()
 	{
+		
 		$this->load->view('header');
-		$this->load->view('price');
+		$id=base64_decode($this->uri->segment(3));
+		if($id==1){
+			$this->load->view('webdesignprice');
+		}else{
+		$this->load->view('price');	
+		}
+		
+		
 		$this->load->view('footer');
 	}
 	
