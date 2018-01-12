@@ -881,7 +881,6 @@
 	</div>
 
 	<hr>
-	<a class="btn btn-info btn-lg" id="alert-target" >Click me!</a>
 	<div class="row">
 
 	<div class="col-md-6">
@@ -903,25 +902,25 @@
 
     <div class="md-form">
         <i class="fa fa-user prefix grey-text"></i>
-        <input type="text" id="name" name="name" class="form-control">
+        <input type="text" id="name" name="name" class="form-control" required>
         <label for="form3">Your name</label>
     </div>
 
     <div class="md-form">
         <i class="fa fa-envelope prefix grey-text"></i>
-        <input type="email" id="email" name="email" class="form-control">
+        <input type="email" id="email" name="email" class="form-control" required>
         <label for="form2">Your email</label>
     </div>
 
     <div class="md-form">
         <i class="fa fa-tag prefix grey-text"></i>
-        <input type="text" id="subject" name="subject" class="form-control">
+        <input type="text" id="subject" name="subject" class="form-control" required>
         <label for="form34">Subject</label>
     </div>
 
     <div class="md-form">
         <i class="fa fa-pencil prefix grey-text"></i>
-        <textarea type="text" id="message" name="message" class="md-textarea" style="height: 100px"></textarea>
+        <textarea type="text" id="message" name="message" class="md-textarea" style="height: 100px" required></textarea>
         <label for="form8">Your message</label>
     </div>
 
