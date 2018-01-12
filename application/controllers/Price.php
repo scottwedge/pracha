@@ -30,5 +30,11 @@ class Price extends CI_Controller {
 		$this->load->view('priceviewpage');
 		$this->load->view('footer');
 	}
+	public function details()
+	{
+		$this->load->view('header');
+		$this->load->view('price');
+		$this->load->view('footer');
+	}
 	
 }
