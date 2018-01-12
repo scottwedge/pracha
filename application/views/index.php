@@ -858,7 +858,7 @@
 					</div>
 					<div class=" row justify-content-md-center mar-t30">
 			<div class="col-2">
-				<a href="priceviewpage.php"><button type="button" class="btn btn-elegant btn-rounded">View All</button></a>
+				<a href="<?php echo base_url('price/details');?>"><button type="button" class="btn btn-elegant btn-rounded">View All</button></a>
 			</div>
 		</div>
 			<div class="clearfix">&nbsp;</div>
