@@ -143,7 +143,7 @@
             <div class="card pricing-card">
                 <!--Price-->
                 <div class="price header deep-purple">
-                    <h1>30</h1>
+                    <h1>₹ 19,999</h1>
                     <div class="version">
                        <h5>Gamma</h5>
                     </div>
@@ -152,21 +152,36 @@
 
                 <!--Features-->
                 <div class="card-body striped">
-                   <ul class="text-left">
+                    <ul class="text-left">
                         <li>
-                            <p class="mt-1"><i class="fa fa-check"></i> 30 GB Of Storage</p>
+                            <p class="mt-1"><i class="fa fa-check"></i> 13-20 Page</p>
                         </li>
                         <li>
-                            <p><i class="fa fa-check"></i> 5 Email Accounts</p>
+                            <p><i class="fa fa-check"></i>Custom Design: Yes</p>
                         </li>
                         <li>
-                            <p><i class="fa fa-check"></i> 24h Tech Support</p>
+                            <p><i class="fa fa-check"></i> Design Revisions:Unlimited</p>
                         </li>
                         <li>
-                            <p><i class="fa fa-check"></i> 300 GB Bandwidth</p>
+                            <p><i class="fa fa-check"></i> Responsive Design :Yes</p>
                         </li>
                         <li>
-                            <p><i class="fa fa-check"></i> User Management </p>
+                            <p><i class="fa fa-check"></i> Logo:3 Samples </p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> Contact Us Form :Yes </p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> Image Gallery :yes </p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> Banner :Max 5 </p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> SEO Submission :Basic</p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> Image Gallery :yes </p>
                         </li>
                     </ul>
 
@@ -182,9 +197,9 @@
             <div class="card pricing-card">
                 <!--Price-->
                 <div class="price header bg-info">
-                    <h1>30</h1>
+                    <h1>₹ 25,999</h1>
                     <div class="version">
-                       <h5>Delta</h5>
+                       <h5>PI</h5>
                     </div>
                 </div>
                 <!--Price-->
@@ -193,19 +208,34 @@
                 <div class="card-body striped">
                      <ul class="text-left">
                         <li>
-                            <p class="mt-1"><i class="fa fa-check"></i> 30 GB Of Storage</p>
+                            <p class="mt-1"><i class="fa fa-check"></i> Unlimited</p>
                         </li>
                         <li>
-                            <p><i class="fa fa-check"></i> 5 Email Accounts</p>
+                            <p><i class="fa fa-check"></i>Custom Design: Yes</p>
                         </li>
                         <li>
-                            <p><i class="fa fa-check"></i> 24h Tech Support</p>
+                            <p><i class="fa fa-check"></i> Design Revisions:Unlimited</p>
                         </li>
                         <li>
-                            <p><i class="fa fa-check"></i> 300 GB Bandwidth</p>
+                            <p><i class="fa fa-check"></i> Responsive Design :Yes</p>
                         </li>
                         <li>
-                            <p><i class="fa fa-check"></i> User Management </p>
+                            <p><i class="fa fa-check"></i> Logo:3 Samples </p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> Contact Us Form :Yes </p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> Image Gallery :yes </p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> Banner :Max 5 </p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> SEO Submission :Advanced</p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> Image Gallery :yes </p>
                         </li>
                     </ul>
 
@@ -222,30 +252,45 @@
             <div class="card pricing-card">
                 <!--Price-->
                 <div class="price header bg-info">
-                    <h1>30</h1>
+                    <h1>₹ 34,999</h1>
                     <div class="version">
-                       <h5>Delta</h5>
+                       <h5>Ecommerce</h5>
                     </div>
                 </div>
                 <!--Price-->
 
                 <!--Features-->
                 <div class="card-body striped">
-                    <ul class="text-left">
+                  <ul class="text-left">
                         <li>
-                            <p class="mt-1"><i class="fa fa-check"></i> 30 GB Of Storage</p>
+                            <p class="mt-1"><i class="fa fa-check"></i> Ecommerce</p>
                         </li>
                         <li>
-                            <p><i class="fa fa-check"></i> 5 Email Accounts</p>
+                            <p><i class="fa fa-check"></i>Custom Design: Yes</p>
                         </li>
                         <li>
-                            <p><i class="fa fa-check"></i> 24h Tech Support</p>
+                            <p><i class="fa fa-check"></i> Design Revisions:Unlimited</p>
                         </li>
                         <li>
-                            <p><i class="fa fa-check"></i> 300 GB Bandwidth</p>
+                            <p><i class="fa fa-check"></i> Responsive Design :Yes</p>
                         </li>
                         <li>
-                            <p><i class="fa fa-check"></i> User Management </p>
+                            <p><i class="fa fa-check"></i> Logo:3 Samples </p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> Contact Us Form :Yes </p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> Image Gallery :yes </p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> Banner :Max 5 </p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> SEO Submission :Advanced</p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> Image Gallery :yes </p>
                         </li>
                     </ul>
 
