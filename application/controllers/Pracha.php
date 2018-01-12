@@ -55,7 +55,7 @@ class Pracha extends CI_Controller {
 			$this->session->set_flashdata('error','Technical problem will occured . try again after some time');
 
 		}
-		redirect('pracha/contactus');
+		redirect('#contact-scroll');
 
 			
 		

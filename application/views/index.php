@@ -885,14 +885,10 @@
 
 	<div class="col-md-6">
 	<?php if($this->session->flashdata('success')): ?>
-		<div class="alert alert-success">
-		<strong><?php echo $this->session->flashdata('success');?>!</strong> 
-		</div>
-	<?php endif; ?>
-	<?php if($this->session->flashdata('error')): ?>
-		<div class="alert alert-success">
-		<strong><?php echo $this->session->flashdata('error');?>!</strong> 
-		</div>
+	<div class="alert alert-success">
+	<strong><?php echo $this->session->flashdata('success'); ?></strong> 
+	</div>
+		
 	<?php endif; ?>
 	<form action="<?php echo base_url('pracha/contactpost');?>" method="post" enctype="multipart/form-data" >
 
@@ -932,7 +928,7 @@
 			  </div>
 			  <div class="col-md-6">
 				<div>
-					<h5><strong>Company Technologies</strong></h5>
+					<h5><strong>Prachatech software solutions</strong></h5>
 					<p>
 					H.No: 16-2-227/177,<br>
 					1st Floor,<br>
