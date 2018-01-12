@@ -881,6 +881,7 @@
 	</div>
 
 	<hr>
+	<a class="btn btn-info btn-lg" id="alert-target" >Click me!</a>
 	<div class="row">
 
 	<div class="col-md-6">
@@ -950,4 +951,9 @@ Hyderabad, Telangana 500085.</p>
 
 
 <div class="clearfix">&nbsp;</div>
-
+<script>
+$("#alert-target").click(function () {
+    toastr["info"]("test alert!")
+});
+ 
+</script>
