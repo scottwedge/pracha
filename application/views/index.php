@@ -26,11 +26,13 @@
             <!--Caption-->
             <div class="carousel-caption">
                 <div class="animated fadeInDown">
-                    <h2 ><span class="caption-sty">Create Your Online Presece HERE!</span></h2>
+                    <h2 ><span class="caption-sty">Create Your Online Presence HERE!</span></h2>
 					<div class="clearfix">&nbsp;</div>
+					<div class="row justify-content-md-center help-btn-sl">
 					<a href="<?php echo base_url('services'); ?>" type="button" class="btn btn-warning">Our Services</a>
 					<a href="<?php echo base_url('pracha/contactus'); ?>" type="button" class="btn btn-warning">Talk to Us</a>
 					<div class="clearfix">&nbsp;</div>
+					</div>
 					<div class="row">
 						<div class="col-4 caption-tit">
 							<span class="">Web designing, Development &<br> Maintenance</span>
@@ -129,10 +131,10 @@
 			</div>
 				  <div class="clearfix">&nbsp;</div>
 			<div class=" row justify-content-md-center">
-			<div class="col-4">
+		
 				<a href="services.php"><button type="button" class="btn btn-elegant btn-rounded">Call US</button></a>
 			<a href="services.php"><button type="button" class="btn btn-elegant btn-rounded">Send Message</button></a>
-			</div>
+			
 		</div>
        <div class="clearfix">&nbsp;</div>
        
@@ -432,10 +434,10 @@
 
         </div>
 		<div class=" row justify-content-md-center">
-				<div class="col-4">
+				
 					<a href="services.php"><button type="button" class="btn btn-elegant btn-rounded">Call US</button></a>
 					<a href="services.php"><button type="button" class="btn btn-elegant btn-rounded">Send Message</button></a>
-				</div>
+				
 			</div>
         <div class="clearfix">&nbsp;</div>
     </div>
@@ -470,7 +472,7 @@
         <!--Grid row-->
         <div class="row mb-2">
         <div class="col-2">
-            <i class="fa fa-2x fa-flag-checkered deep-purple-text"></i>
+            <i class="fa fa-2x fa-check-circle text-dark"></i>
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Digital presence makes Everything</h5>
@@ -482,7 +484,7 @@
         <!--Grid row-->
         <div class="row mb-2">
         <div class="col-2">
-            <i class="fa fa-2x fa-flask deep-purple-text"></i>
+            <i class="fa fa-2x  fa-laptop text-dark"></i>
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Technical support & Consultation</h5>
@@ -490,25 +492,24 @@
         </div>
         </div>
         <!--Grid row-->
-
-        <!--Grid row-->
-        <div class="row mb-2">
+		 <div class="row mb-2">
         <div class="col-2">
-            <i class="fa fa-2x fa-glass deep-purple-text"></i>
+            <i class="fa fa-2x fa-recycle text-dark"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Marketing , Advertising support & Consultation</h5>
-            <p class="grey-text">We help you make effective decisions about where to target your resources and how to achieve accelerated growth.</p>
+            <h5 class="font-bold">Market consultation</h5>
+            <p class="grey-text">Each company and organization has unique requirements. These needs will be identified through the rigorous Essential or Advanced Consultation process, and your growth plan will be laid out step by step to achieve desired results. </p>
         </div>
         </div>
-        <!--Grid row-->
+
+        
 
     </div>
     <!--Grid column-->
 
     <!--Grid column-->
     <div class="col-md-4 mb-2 center-on-small-only flex-center">
-        <img src="img/busin-grow.png" alt="" class="z-depth-0 img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/busin-grow.png" alt="" class="z-depth-0 img-fluid">
     </div>
     <!--Grid column-->
 
@@ -518,11 +519,21 @@
         <!--Grid row-->
         <div class="row mb-2">
         <div class="col-2">
-            <i class="fa fa-2x fa-heart deep-purple-text"></i>
+            <i class="fa fa-2x fa-check-circle text-dark"></i>
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Get the right Business - Every business wants Customers not Visitors.</h5>
-            <p class="grey-text">Every business wants Customers not Visitors. Watching the number of visitors to your site grow is pretty awesome. But, visits alone do not equate to a successful business. To make money, you’ve got to convert at least some of those visitors and turn them into customers. </p>
+            <p class="grey-text">Every business wants Customers not Visitors. Watching the number of visitors to your site grow is pretty awesome. But, visits alone do not equate to a successful business. </p>
+        </div>
+        </div>
+        <!--Grid row--><!--Grid row-->
+        <div class="row mb-2">
+        <div class="col-2">
+            <i class="fa fa-2x fa-phone-square text-dark"></i>
+        </div>
+        <div class="col-10 text-left">
+            <h5 class="font-bold">Marketing , Advertising support & Consultation</h5>
+            <p class="grey-text">We help you make effective decisions about where to target your resources and how to achieve accelerated growth.</p>
         </div>
         </div>
         <!--Grid row-->
@@ -530,7 +541,7 @@
         <!--Grid row-->
         <div class="row mb-2">
         <div class="col-2">
-            <i class="fa fa-2x fa-flash deep-purple-text"></i>
+            <i class="fa fa-2x fa-universal-access text-dark"></i>
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Make your Business Reach to the right peolple.</h5>
@@ -540,15 +551,7 @@
         <!--Grid row-->
 
         <!--Grid row-->
-        <div class="row mb-2">
-        <div class="col-2">
-            <i class="fa fa-2x fa-magic deep-purple-text"></i>
-        </div>
-        <div class="col-10 text-left">
-            <h5 class="font-bold">Market consultation</h5>
-            <p class="grey-text">Each company and organization has unique requirements. These needs will be identified through the rigorous Essential or Advanced Consultation process, and your growth plan will be laid out step by step to achieve desired results. </p>
-        </div>
-        </div>
+       
         <!--Grid row-->
 
     </div>
@@ -856,9 +859,9 @@
 					</div>
 					</div>
 					<div class=" row justify-content-md-center mar-t30">
-			<div class="col-2">
+			
 				<a href="<?php echo base_url('price/details');?>"><button type="button" class="btn btn-elegant btn-rounded">View All</button></a>
-			</div>
+			
 		</div>
 			<div class="clearfix">&nbsp;</div>
 			</div>

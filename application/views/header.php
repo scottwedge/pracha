@@ -35,6 +35,11 @@
                 <a href="<?php echo base_url(); ?>" class="nav-link"> <span class=" ">Home</span></a>
             </li>  
 			<li class="nav-item">
+				
+					<a href="#seric-sc" class="nav-link "> <span class=" ">Our Services</span></a>
+				
+            </li>
+				<!--<li class="nav-item">
 				<div class="dropdown">
 					<a href="#seric-sc" class="nav-link dropdown-toggle"> <span class=" ">Our Products</span></a>
 				  <div class="dropdown-content1">
@@ -43,15 +48,23 @@
 					<a href="#">Our unique benefits</a>
 				  </div>
 				</div>
-            </li>
+            </li>-->
 			
             
 			<li class="nav-item">
-                <a href="<?php echo base_url('pracha/howwework');?>" class="nav-link"> <span class=" ">How We work?</span></a>
+                <a href="#proc-scroll" class="nav-link"> <span class=" ">How We work?</span></a>
             </li>
+			<!--<li class="nav-item">
+                <a href="<?php echo base_url('pracha/howwework');?>" class="nav-link"> <span class=" ">How We work?</span></a>
+            </li>-->
 			
 		
 			<li class="nav-item">
+				
+					<a href="#pricings" class="nav-link "> <span class=" ">Pricing</span></a>
+				
+            </li>
+				<!--<li class="nav-item">
 				<div class="dropdown">
 					<a href="#pricings" class="nav-link dropdown-toggle"> <span class=" ">Pricing</span></a>
 				  <div class="dropdown-content1">
@@ -60,7 +73,7 @@
 					
 				  </div>
 				</div>
-            </li>
+            </li>-->
 			
 				
 			

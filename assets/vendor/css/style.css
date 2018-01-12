@@ -5,6 +5,13 @@
 .help-pric{
 	margin-left:10px;
 }
+/* .bg-grow{ */
+	   /* background-image: url("../img/busin-grow.png "); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+	
+/* } */
 h1 {
 	font-size: 60px;
 	margin-top: 0;
@@ -628,6 +635,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   .bod-st{
 	margin-top:50px;
 } 
+h2 {
+	font-size: 18px;
+	/* font-weight: 800; */
+	margin-top: 0;
+	font-family: 'Raleway', sans-serif;
+	/* color:#0c1f38; */
+	text-transform:capitalize;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+	top:20px;
+    bottom: 0;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.caption-tit {
+    font-size: 10px;
+    border: 2px solid #fff;
+    padding: 2px;
+    border-radius: 6px;
+    margin: 4px;
+    max-width: 28.33333%;
+    color: #000;
+    font-weight: 400;
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+}
+.caption-sty {
+    font-size: 13px;
+    border: 2px solid #fff;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+.help-btn-sl .btn {
+	padding:5px 10px;
+
+	margin:5px auto;
+}
 .proc-plu{
 	display:none;
 }
