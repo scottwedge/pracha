@@ -24,5 +24,11 @@ class Services extends CI_Controller {
 		$this->load->view('services');
 		$this->load->view('footer');
 	}
+	public function combo()
+	{
+		$this->load->view('header');
+		$this->load->view('comboprice');
+		$this->load->view('footer');
+	}
 	
 }

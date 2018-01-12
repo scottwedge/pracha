@@ -850,7 +850,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="<?php echo base_url('price/details'); ?>" href="comboprice.php" class="btn btn-unique">View </a>
+								<a href="<?php echo base_url('services/combo'); ?>" href="comboprice.php" class="btn btn-unique">View </a>
 							</div>
 						</div>
 						<!--/.Panel-->
