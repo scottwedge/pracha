@@ -1,4 +1,3 @@
-<?php include('header.php'); ?>
 <br>
 	<section class="bod-st">
 		<div class="container card ">
@@ -139,4 +138,3 @@
             
 		</div>
 	</section>
-<?php include('footer.php'); ?>

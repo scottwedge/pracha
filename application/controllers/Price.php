@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Pracha extends CI_Controller {
+class Price extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -21,13 +21,14 @@ class Pracha extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('header');
-		$this->load->view('index');
+		$this->load->view('priceviewpage');
 		$this->load->view('footer');
 	}
-	public function services()
+	public function estimate()
 	{
 		$this->load->view('header');
-		$this->load->view('services');
+		$this->load->view('priceviewpage');
 		$this->load->view('footer');
 	}
+	
 }

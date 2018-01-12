@@ -1,7 +1,6 @@
-<?php include('header.php'); ?>
 <section class="bod-st">
 	<div class="img-responsive">
-	<img class="img-fluid"  src="img/serp1.png">
+	<img class="img-fluid"  src="<?php echo base_url(); ?>assets/vendor/img/serp1.png">
 	</div>
 </section>
 
@@ -51,7 +50,7 @@
     <div class="col-lg-5 col-xl-5 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="img/se1.png" alt="Sample image for first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/se1.png" alt="Sample image for first version of blog listing"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -111,7 +110,7 @@
     <div class="col-lg-5 col-xl-5 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="img/se2.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/se2.png" alt="Second image in the first version of blog listing"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -329,4 +328,3 @@
 </section>
 
                 
-<?php include('footer.php'); ?>

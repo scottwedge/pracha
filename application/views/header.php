@@ -38,8 +38,8 @@
 				<div class="dropdown">
 					<a href="#seric-sc" class="nav-link dropdown-toggle"> <span class=" ">Our Products</span></a>
 				  <div class="dropdown-content1">
-					<a href="services.php">Our services!</a>
-					<a href="solutions.php">Our solutions!</a>
+					<a href="<?php echo base_url('services'); ?>">Our services!</a>
+					<a href="<?php echo base_url('solutions'); ?>">Our solutions!</a>
 					<a href="#">Our unique benefits</a>
 				  </div>
 				</div>
@@ -47,7 +47,7 @@
 			
             
 			<li class="nav-item">
-                <a href="#proc-scroll" class="nav-link"> <span class=" ">How We work?</span></a>
+                <a href="<?php echo base_url();?>#proc-scroll" class="nav-link"> <span class=" ">How We work?</span></a>
             </li>
 			
 		
@@ -55,8 +55,8 @@
 				<div class="dropdown">
 					<a href="#pricings" class="nav-link dropdown-toggle"> <span class=" ">Pricing</span></a>
 				  <div class="dropdown-content1">
-					<a href="#">Pricing</a>
-					<a href="#">Estimate your project?</a>
+					<a href="<?php echo base_url('price'); ?>">Pricing</a>
+					<a href="<?php echo base_url('price/priceviewpage'); ?>">Estimate your project?</a>
 					
 				  </div>
 				</div>
@@ -65,7 +65,7 @@
 				
 			
 			<li class="nav-item">
-                <a href="Carriers.php" class="nav-link"> <span class=" ">Carriers</span></a>
+                <a href="<?php echo base_url('carriers'); ?>" class="nav-link"> <span class=" ">Carriers</span></a>
             </li>
 			<li class="nav-item">
                 <a href="#contact-scroll" class="nav-link"> <span class=" ">Contact us</span></a>
