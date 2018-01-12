@@ -68,7 +68,7 @@
                 <a href="<?php echo base_url('carriers'); ?>" class="nav-link"> <span class=" ">Carriers</span></a>
             </li>
 			<li class="nav-item">
-                <a href="#contact-scroll" class="nav-link"> <span class=" ">Contact us</span></a>
+                <a href="<?php echo base_url();?>#contact-scroll" class="nav-link"> <span class=" ">Contact us</span></a>
             </li>
             
         
