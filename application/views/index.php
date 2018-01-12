@@ -161,7 +161,7 @@
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
 
-                        <i class="hi-icon fa fa-plane" aria-hidden="true"></i>
+                        <i class="hi-icon fa fa-globe" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
                         <h5 class="font-color_base no_stripe"><a href="#">UI/UX DESIGNING
@@ -193,7 +193,7 @@
             <div class="col-sm-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon ">
-                        <i class="hi-icon fa fa-bolt" aria-hidden="true"></i>
+                        <i class="hi-icon fa fa-television" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
                         <h5 class="font-color_base no_stripe"><a href="#">WEB DEVELOPMENT</a></h5>
@@ -206,6 +206,7 @@
 							  <li>Content Management System (CMS)</li>
 							  <li>Ecommerce Development</li>
 							  <li>MEAN Stack Development</li>
+							  <br>
 							</ul>
 						</div>
 							<p> <span class="btn btn-primary btn-sm">Know more...</span> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
@@ -215,7 +216,7 @@
             <div class="col-sm-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
-                        <i class="hi-icon fa fa-umbrella" aria-hidden="true"></i>
+                        <i class="hi-icon fa fa-mobile" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
                         <h5 class="font-color_base no_stripe"><a href="#"> MOBILE APPLICATIONS </a></h5>
@@ -228,7 +229,7 @@
 								  <li>Integration</li>
 								  <li>Mobile Testing & Security</li>
 								  <li>Support Maintenance</li>
-								  <li>Full Stack Services</li>
+								
 								</ul>
 							</div>
 							<p> <span class="btn btn-primary btn-sm">Know more...</span> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
@@ -255,9 +256,7 @@
 								  <li>SEM & PPC</li>
 								  <li>Social Media Optimization</li>
 								  <li>Analytics Consultation</li>
-								  <li>Online Reputation Management</li>
-								  <li>Content Marketing</li>
-								  <li>Email Marketing</li>
+								  
 								</ul></div>
 							<p> <span class="btn btn-primary btn-sm">Know more...</span> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
                     </div>
@@ -266,7 +265,7 @@
             <div class="col-sm-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
-                        <i class="hi-icon fa fa-expand" aria-hidden="true"></i>
+                        <i class="hi-icon fa fa-shopping-basket" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
                         <h5 class="font-color_base no_stripe"><a href="#">E-COMMERCE DEVELOPMENT</a></h5>
@@ -282,12 +281,7 @@
 								  <li>Diverse and Secure Payment Options</li>
 								  <li>Real-time support (phone, live chat)</li>
 								  <li>UX for E-Commerce</li>
-								  <li>Omni-Channel Solution</li>
-								  <li>Advanced Features Development</li>
-								  <li>Third-Party Integrations</li>
-								  <li>Customer experience</li>
-								  <li>Data analysis and business intelligence</li>
-								  <li>Quality and Security</li>
+								  
 								
 								</ul></div>
 								<p> <span class="btn btn-primary btn-sm">Know more...</span> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
@@ -297,7 +291,7 @@
             <div class="col-sm-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
-                        <i class="hi-icon fa fa-space-shuttle" aria-hidden="true"></i>
+                        <i class="hi-icon fa fa-group" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
                         <h5 class="font-color_base no_stripe"><a href="#"> BUSINESS SOLUTIONS</a></h5>
@@ -311,7 +305,8 @@
 								  <li>Solutions for E-Commerce </li>
 								  <li>Solutions for Finance </li>
 								  <li>Solutions for Hotels & Restarunts </li>
-								  <li>Solutions for Health Care & Other Industries </li>
+								  <li>Solutions for Health Care & Other  </li>
+								  <br>
 								  
 								</ul></div>
 								
@@ -340,8 +335,8 @@
             <div class="col-sm-12 mb-20 pt-30">
 
                 <h2>
-                    <span class="tit">
-									<span class="des_t">Our</span> Process
+                    <span class="tit"> 
+									How <span class="des_t">We</span>  Work?
                     </span>
                 </h2>
 
@@ -375,14 +370,14 @@
                     </span>
                 </h2>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center mb-5 pb-3">Leave your responsibility of online presene to US & Focus on your Core Business.</p>
+				 <p class="text-center mb-5 ">Leave your responsibility of online presene to US & Focus on your Core Business.</p>
 
 
             </div>
 
         </div>
 
-        <div class="row mt-80">
+        <div class="row ">
             <div class="col-sm-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
@@ -393,6 +388,8 @@
                         <p>
                            Expose Your Business creates opportunities for your business to connect with its target market. Having evolved into a publishing/marketing firm with digital & print assets, let us expose your business!
                         </p>
+						<p>Our low-cost packages make it so you can easily fix any problem, or receive ongoing support for little, medium, and big problems. <a href="#" class="text-info">Learn more </a>about our pricing options.</p>
+						
                     </div>
                 </div>
                 <div class="proc-icon"><img src="<?php echo base_url(); ?>assets/vendor/img/pc2.png"></div>
@@ -410,7 +407,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="proc-icon"><img src="<?php echo base_url(); ?>assets/vendor/img/pc1.png"></div>
+                <div class="proc-icon"><img src="<?php echo base_url(); ?>assets/vendor/img/mar-sup.png"></div>
                 
             </div>
             <div class="col-sm-4">
@@ -421,13 +418,15 @@
                     </div>
                     <div class="service_content">
                         <p>
-                           Just like a house or a business, a website needs to be maintained. When things break, they need to be fixed. When it gets old, it needs to be updated. Website maintenance can be difficult and time consuming, so why not ask CommonPlaces for assistance? We offer website maintenance, website security, application management, hotline support, hosting, security scanning and remedy, mentoring, training, consulting, and more.</p>
+                           Just like a house or a business, a website needs to be maintained. When things break, they need to be fixed. When it gets old, it needs to be updated. Website maintenance can be difficult and time consuming, so why not ask CommonPlaces for assistance? We offer website maintenance, website security, application management,marketing services and more.</p>
 
-						<p>Our low-cost packages make it so you can easily fix any problem, or receive ongoing support for little, medium, and big problems. Learn more about our pricing options.</p>
+						
                         </p>
+					
+						
                     </div>
                 </div>
-                <div class="proc-icon"><img src="<?php echo base_url(); ?>assets/vendor/img/pc1.png"></div>
+                <div class="proc-icon"><img src="<?php echo base_url(); ?>assets/vendor/img/web-sup.png"></div>
             </div><div class="clearfix">&nbsp;</div>
 			
 
@@ -509,7 +508,7 @@
 
     <!--Grid column-->
     <div class="col-md-4 mb-2 center-on-small-only flex-center">
-        <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/iphone-portfolio1.png" alt="" class="z-depth-0">
+        <img src="img/busin-grow.png" alt="" class="z-depth-0 img-fluid">
     </div>
     <!--Grid column-->
 

@@ -23997,13 +23997,7 @@ button.toast-close-button {
 	margin-left:-1.2rem;
 	margin-top:.7rem
 }
-.pricing-card .price h1:after,
-.pricing-card .price h2:after {
-	content:"/mo";
-	font-size:30px;
-	position:absolute;
-	margin-top:3rem
-}
+
 .pricing-card .price .version {
 	position:absolute;
 	top:0;

@@ -422,7 +422,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .service_box {
 	background: #fff;
-	padding: 40px 20px;
+	padding-top: 40px;
+	padding-left:20px;
+	padding-right:20px;
+	min-height:400px
 }
 
 .service_box:hover {
