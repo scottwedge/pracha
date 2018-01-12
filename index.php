@@ -368,6 +368,7 @@
 									Not <span class="des_t">Just a </span> Software Solutions
                     </span>
                 </h2>
+				<div class="clearfix">&nbsp;</div>
 				 <p class="text-center mb-5 pb-3">Leave your responsibility of online presene to US & Focus on your Core Business.</p>
 
 
@@ -410,11 +411,13 @@
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
-                        <h5 class=""><a href="#">Showoff </a></h5>
+                        <h5 class=""><a href="#">Website Support Services </a></h5>
                     </div>
                     <div class="service_content">
                         <p>
-                            You may assume delivery as roll-out, but we foresee beyond that. We'll anyway take pride in rollout of your new system, but it's an ongoing process for us including 1st, 2nd or 3rd line support: maintenance, helpdesk, upgrades and training.
+                           Just like a house or a business, a website needs to be maintained. When things break, they need to be fixed. When it gets old, it needs to be updated. Website maintenance can be difficult and time consuming, so why not ask CommonPlaces for assistance? We offer website maintenance, website security, application management, hotline support, hosting, security scanning and remedy, mentoring, training, consulting, and more.</p>
+
+						<p>Our low-cost packages make it so you can easily fix any problem, or receive ongoing support for little, medium, and big problems. Learn more about our pricing options.</p>
                         </p>
                     </div>
                 </div>
@@ -443,6 +446,8 @@
 									We <span class="des_t">Help Your Business </span> To Grow
                     </span>
                 </h2>
+				<div class="clearfix">&nbsp;</div>
+				 <p class="text-center mb-5 pb-3">Technology is the only thing that can truly perform a miracle and make ideas success in the real world.</p>
 
 
             </div>
@@ -463,7 +468,7 @@
             <i class="fa fa-2x fa-flag-checkered deep-purple-text"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">International</h5>
+            <h5 class="font-bold">Digital presence makes Everything</h5>
             <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
             deleniti hic.</p>
         </div>
@@ -476,7 +481,7 @@
             <i class="fa fa-2x fa-flask deep-purple-text"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Experimental</h5>
+            <h5 class="font-bold">Technical support & Consultation</h5>
             <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
             deleniti hic.</p>
         </div>
@@ -489,7 +494,7 @@
             <i class="fa fa-2x fa-glass deep-purple-text"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Relaxing</h5>
+            <h5 class="font-bold">Marketing , Advertising support & Consultation</h5>
             <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
             deleniti hic.</p>
         </div>
@@ -514,7 +519,7 @@
             <i class="fa fa-2x fa-heart deep-purple-text"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Beloved</h5>
+            <h5 class="font-bold">Get the right Business - Every business wants Customers not Visitors.</h5>
             <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
             deleniti hic.</p>
         </div>
@@ -527,7 +532,7 @@
             <i class="fa fa-2x fa-flash deep-purple-text"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Rapid</h5>
+            <h5 class="font-bold">Make your Business Reach to the right peolple.</h5>
             <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
             deleniti hic.</p>
         </div>
@@ -540,7 +545,7 @@
             <i class="fa fa-2x fa-magic deep-purple-text"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Magical</h5>
+            <h5 class="font-bold">Market consultation</h5>
             <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
             deleniti hic.</p>
         </div>
@@ -568,6 +573,8 @@
 									Why <span class="des_t">Choose </span>Us ?
                     </span>
                 </h2>
+				<div class="clearfix">&nbsp;</div>
+				 <p class="text-center mb-5 pb-3">Try US! Yeah, You make it worth of Trying US.</p>
 
 
             </div>
@@ -594,9 +601,8 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">Safety</h5>
-            <p class="grey-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
-            deleniti hic.</p>
+            <h5 class="font-bold text-left mb-3 dark-grey-text">Entrusted with the most professional and advanced resources</h5>
+            
         </div>
         </div>
         <!--Grid row-->
@@ -607,9 +613,8 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">Technology</h5>
-            <p class="grey-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
-            deleniti hic.</p>
+            <h5 class="font-bold text-left mb-3 dark-grey-text">Paper driven work.</h5>
+            
         </div>
         </div>
         <!--Grid row-->
@@ -620,9 +625,50 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">Finance</h5>
-            <p class="grey-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
-            deleniti hic.</p>
+            <h5 class="font-bold text-left mb-3 dark-grey-text">A culture of Passion, Creativity, Community and Possibility. </h5>
+            
+        </div>
+        </div>
+		<div class="row pb-3">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <h5 class="font-bold text-left mb-3 dark-grey-text">Find everything at One Place</h5>
+            
+        </div>
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row pb-3">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <h5 class="font-bold text-left mb-3 dark-grey-text">Focus On your Core Business.</h5>
+            
+        </div>
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row pb-3">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <h5 class="font-bold text-left mb-3 dark-grey-text">Amazing support</h5>
+            <p class="grey-text text-left"></p>
+        </div>
+        </div>
+		<div class="row pb-3">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <h5 class="font-bold text-left mb-3 dark-grey-text">Dedicated Software partner for You & Your Buisness.</h5>
+            
         </div>
         </div>
         <!--Grid row-->

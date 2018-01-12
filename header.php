@@ -50,9 +50,7 @@
                 <a href="#proc-scroll" class="nav-link"> <span class=" ">How We work?</span></a>
             </li>
 			
-			<li class="nav-item">
-                <a href="#team-scroll" class="nav-link"> <span class=" ">Team</span></a>
-            </li>
+		
 			<li class="nav-item">
 				<div class="dropdown">
 					<a href="#pricings" class="nav-link dropdown-toggle"> <span class=" ">Pricing</span></a>
