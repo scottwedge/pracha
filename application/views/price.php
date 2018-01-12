@@ -1,3 +1,4 @@
+
 <section class="bod-st">
 	<div class="img-responsive">
 	<img class="img-fluid"  src="<?php echo base_url(); ?>assets/vendor/img/prib1.png">
