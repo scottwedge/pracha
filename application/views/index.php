@@ -849,7 +849,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="<?php echo base_url('price/details'); ?>" href="comboprice.php" class="btn btn-unique">View </a>
+								<a href="<?php echo base_url('services/combo'); ?>" href="comboprice.php" class="btn btn-unique">View </a>
 							</div>
 						</div>
 						<!--/.Panel-->
@@ -880,19 +880,20 @@
 	</div>
 
 	<hr>
-	<a class="btn btn-info btn-lg" id="alert-target" >Click me!</a>
 	<div class="row">
 
 	<div class="col-md-6">
 	<?php if($this->session->flashdata('success')): ?>
-		<div class="alert alert-success">
-		<strong><?php echo $this->session->flashdata('success');?>!</strong> 
-		</div>
+	<div class="alert alert-success">
+	<strong><?php echo $this->session->flashdata('success'); ?></strong> 
+	</div>
+		
 	<?php endif; ?>
 	<?php if($this->session->flashdata('error')): ?>
-		<div class="alert alert-success">
-		<strong><?php echo $this->session->flashdata('error');?>!</strong> 
-		</div>
+	<div class="alert alert-warning">
+	<strong><?php echo $this->session->flashdata('error'); ?></strong> 
+	</div>
+		
 	<?php endif; ?>
 	<form action="<?php echo base_url('pracha/contactpost');?>" method="post" enctype="multipart/form-data" >
 
@@ -900,25 +901,25 @@
 
     <div class="md-form">
         <i class="fa fa-user prefix grey-text"></i>
-        <input type="text" id="name" name="name" class="form-control">
+        <input type="text" id="name" name="name" class="form-control" required>
         <label for="form3">Your name</label>
     </div>
 
     <div class="md-form">
         <i class="fa fa-envelope prefix grey-text"></i>
-        <input type="email" id="email" name="email" class="form-control">
+        <input type="email" id="email" name="email" class="form-control" required>
         <label for="form2">Your email</label>
     </div>
 
     <div class="md-form">
         <i class="fa fa-tag prefix grey-text"></i>
-        <input type="text" id="subject" name="subject" class="form-control">
+        <input type="text" id="subject" name="subject" class="form-control" required>
         <label for="form34">Subject</label>
     </div>
 
     <div class="md-form">
         <i class="fa fa-pencil prefix grey-text"></i>
-        <textarea type="text" id="message" name="message" class="md-textarea" style="height: 100px"></textarea>
+        <textarea type="text" id="message" name="message" class="md-textarea" style="height: 100px" required></textarea>
         <label for="form8">Your message</label>
     </div>
 
@@ -932,7 +933,7 @@
 			  </div>
 			  <div class="col-md-6">
 				<div>
-					<h5><strong>Company Technologies</strong></h5>
+					<h5><strong>Prachatech software solutions</strong></h5>
 					<p>
 					H.No: 16-2-227/177,<br>
 					1st Floor,<br>
