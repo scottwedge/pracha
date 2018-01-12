@@ -4,7 +4,7 @@
 		<h2 class="pb-40">Discuss Your Project With Our Team</h2>
 		<p>Want to grow your business online, contact us for a FREE Analysis !!</p>
 		<p class="dis-team">
-			<a href=""><span><i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 040 - 30484950 / 51</span></a>
+			<a href=""><span><i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 040 - 48541273</span></a>
 			<a href=""><span><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; support@shofus.com</span></a>
 			<a href=""><span><i class="fa fa-skype" aria-hidden="true"></i> &nbsp; shopfus@gmail.com</span></a>
 		</p>
