@@ -884,7 +884,17 @@
 	<div class="row">
 
 	<div class="col-md-6">
-				<form action="<?php echo base_url('pracha/contactpost');?>" method="post" enctype="multipart/form-data" >
+	<?php if($this->session->flashdata('success')): ?>
+		<div class="alert alert-success">
+		<strong><?php echo $this->session->flashdata('success');?>!</strong> 
+		</div>
+	<?php endif; ?>
+	<?php if($this->session->flashdata('error')): ?>
+		<div class="alert alert-success">
+		<strong><?php echo $this->session->flashdata('error');?>!</strong> 
+		</div>
+	<?php endif; ?>
+	<form action="<?php echo base_url('pracha/contactpost');?>" method="post" enctype="multipart/form-data" >
 
    
 
