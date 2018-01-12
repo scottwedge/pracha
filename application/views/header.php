@@ -47,7 +47,7 @@
 			
             
 			<li class="nav-item">
-                <a href="<?php echo base_url();?>#proc-scroll" class="nav-link"> <span class=" ">How We work?</span></a>
+                <a href="<?php echo base_url('pracha/howwework');?>" class="nav-link"> <span class=" ">How We work?</span></a>
             </li>
 			
 		
@@ -68,7 +68,7 @@
                 <a href="<?php echo base_url('carriers'); ?>" class="nav-link"> <span class=" ">Carriers</span></a>
             </li>
 			<li class="nav-item">
-                <a href="<?php echo base_url();?>#contact-scroll" class="nav-link"> <span class=" ">Contact us</span></a>
+                <a href="<?php echo base_url('pracha/contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a>
             </li>
             
         

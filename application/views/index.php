@@ -780,7 +780,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="price.php" class="btn btn-unique">Rs @ 6999</a>
+								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-unique">Rs @ 6999</a>
 							</div>
 						</div>
 						<!--/.Panel-->
@@ -792,7 +792,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a class="btn btn-unique">Rs @ 3999</a>
+								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-unique">Rs @ 3999</a>
 							</div>
 						</div>
 						<!--/.Panel-->
@@ -804,7 +804,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a class="btn btn-unique">Rs @ 5499</a>
+								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-unique">Rs @ 5499</a>
 							</div>
 						</div>
 						<!--/.Panel-->
@@ -819,7 +819,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="price.php" class="btn btn-unique">Rs @ 7999</a>
+								<a href="<?php echo base_url('price/details'); ?>" href="price.php" class="btn btn-unique">Rs @ 7999</a>
 							</div>
 						</div>
 						<!--/.Panel-->
@@ -831,7 +831,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a class="btn btn-unique">Rs @ 7999</a>
+								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-unique">Rs @ 7999</a>
 							</div>
 						</div>
 						<!--/.Panel-->
@@ -843,7 +843,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="comboprice.php" class="btn btn-unique">View </a>
+								<a href="<?php echo base_url('price/details'); ?>" href="comboprice.php" class="btn btn-unique">View </a>
 							</div>
 						</div>
 						<!--/.Panel-->
