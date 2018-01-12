@@ -469,8 +469,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Digital presence makes Everything</h5>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
-            deleniti hic.</p>
+            <p class="grey-text">Your digital presence is your online reputation. And the million dollar question is, how have you presented yourself? </p>
         </div>
         </div>
         <!--Grid row-->
@@ -482,8 +481,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Technical support & Consultation</h5>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
-            deleniti hic.</p>
+            <p class="grey-text">We have highly qualified openstack admins available 24/7 ie round the clock to support your infrastructure. The main mode of communication will be depending on the subscription plan.</p>
         </div>
         </div>
         <!--Grid row-->
@@ -495,8 +493,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Marketing , Advertising support & Consultation</h5>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
-            deleniti hic.</p>
+            <p class="grey-text">We help you make effective decisions about where to target your resources and how to achieve accelerated growth.</p>
         </div>
         </div>
         <!--Grid row-->
@@ -520,8 +517,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Get the right Business - Every business wants Customers not Visitors.</h5>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
-            deleniti hic.</p>
+            <p class="grey-text">Every business wants Customers not Visitors. Watching the number of visitors to your site grow is pretty awesome. But, visits alone do not equate to a successful business. To make money, you’ve got to convert at least some of those visitors and turn them into customers. </p>
         </div>
         </div>
         <!--Grid row-->
@@ -533,8 +529,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Make your Business Reach to the right peolple.</h5>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
-            deleniti hic.</p>
+            <p class="grey-text">Reach new customers with our New targeting statergy.We Understand your target audience, Be specific about who you want to reach & Reach interested and engaged audiences</p>
         </div>
         </div>
         <!--Grid row-->
@@ -546,8 +541,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Market consultation</h5>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
-            deleniti hic.</p>
+            <p class="grey-text">Each company and organization has unique requirements. These needs will be identified through the rigorous Essential or Advanced Consultation process, and your growth plan will be laid out step by step to achieve desired results. </p>
         </div>
         </div>
         <!--Grid row-->
