@@ -28,8 +28,8 @@
                 <div class="animated fadeInDown">
                     <h2 ><span class="caption-sty">Create Your Online Presece HERE!</span></h2>
 					<div class="clearfix">&nbsp;</div>
-					<button type="button" class="btn btn-warning">Our Services</button>
-					<button type="button" class="btn btn-warning">Talk to Us</button>
+					<a href="<?php echo base_url('services'); ?>" type="button" class="btn btn-warning">Our Services</a>
+					<a href="<?php echo base_url('pracha/contactus'); ?>" type="button" class="btn btn-warning">Talk to Us</a>
 					<div class="clearfix">&nbsp;</div>
 					<div class="row">
 						<div class="col-4 caption-tit">
