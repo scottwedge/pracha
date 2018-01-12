@@ -876,38 +876,37 @@
 	<hr>
 	<div class="row">
 
-	
-			  <div class="col-md-6">
-				<form>
+	<div class="col-md-6">
+				<form action="<?php echo base_url('pracha/contactpost');?>" method="post" enctype="multipart/form-data" >
 
    
 
     <div class="md-form">
         <i class="fa fa-user prefix grey-text"></i>
-        <input type="text" id="form3" class="form-control">
+        <input type="text" id="name" name="name" class="form-control">
         <label for="form3">Your name</label>
     </div>
 
     <div class="md-form">
         <i class="fa fa-envelope prefix grey-text"></i>
-        <input type="text" id="form2" class="form-control">
+        <input type="email" id="email" name="email" class="form-control">
         <label for="form2">Your email</label>
     </div>
 
     <div class="md-form">
         <i class="fa fa-tag prefix grey-text"></i>
-        <input type="text" id="form32" class="form-control">
+        <input type="text" id="subject" name="subject" class="form-control">
         <label for="form34">Subject</label>
     </div>
 
     <div class="md-form">
         <i class="fa fa-pencil prefix grey-text"></i>
-        <textarea type="text" id="form8" class="md-textarea" style="height: 100px"></textarea>
+        <textarea type="text" id="message" name="message" class="md-textarea" style="height: 100px"></textarea>
         <label for="form8">Your message</label>
     </div>
 
     <div class="text-center">
-        <button class="btn btn-unique">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+        <button type="submit" class="btn btn-unique">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
     </div>
 
 </form>
