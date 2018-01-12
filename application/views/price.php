@@ -43,7 +43,7 @@
     <div class="row">
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-12 mb-r">
+        <div class="col mb-r">
 
             <!--Pricing card-->
             <div class="card pricing-card">
@@ -58,7 +58,7 @@
 
                 <!--Features-->
                 <div class="card-body striped">
-                    <ul>
+                    <ul class="text-left">
                         <li>
                             <p class="mt-1"><i class="fa fa-check"></i> 20 GB Of Storage</p>
                         </li>
@@ -87,7 +87,7 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-r">
+        <div class="col mb-r">
 
             <!--Pricing card-->
             <div class="card pricing-card">
@@ -102,7 +102,7 @@
 
                 <!--Features-->
                 <div class="card-body striped">
-                    <ul>
+                    <ul class="text-left">
                         <li>
                             <p class="mt-1"><i class="fa fa-check"></i> 20 GB Of Storage</p>
                         </li>
@@ -131,7 +131,7 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-r">
+        <div class="col mb-r">
             <!--Pricing card-->
             <div class="card pricing-card">
                 <!--Price-->
@@ -145,7 +145,7 @@
 
                 <!--Features-->
                 <div class="card-body striped">
-                    <ul>
+                    <ul class="text-left">
                         <li>
                             <p class="mt-1"><i class="fa fa-check"></i> 30 GB Of Storage</p>
                         </li>
@@ -170,7 +170,7 @@
             </div>
             <!--Pricing card-->
         </div>
-		<div class="col-lg-3 col-md-6 mb-r">
+		<div class="col mb-r">
             <!--Pricing card-->
             <div class="card pricing-card">
                 <!--Price-->
@@ -184,7 +184,7 @@
 
                 <!--Features-->
                 <div class="card-body striped">
-                    <ul>
+                    <ul class="text-left">
                         <li>
                             <p class="mt-1"><i class="fa fa-check"></i> 30 GB Of Storage</p>
                         </li>
@@ -208,6 +208,48 @@
 
             </div>
             <!--Pricing card-->
+        </div>
+        <!--Grid column-->
+		<div class="col mb-r">
+
+            <!--Pricing card-->
+            <div class="card pricing-card">
+                <!--Price-->
+                <div class="price header blue">
+                    <h1>10</h1>
+                    <div class="version">
+                        <h5>Alpha</h5>
+                    </div>
+                </div>
+                <!--Price-->
+
+                <!--Features-->
+                <div class="card-body striped">
+                    <ul class="text-left">
+                        <li>
+                            <p class="mt-1"><i class="fa fa-check"></i> 20 GB Of Storage</p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-check"></i> 2 Email Accounts</p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-times"></i> 24h Tech Support</p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-times"></i> 300 GB Bandwidth</p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-times"></i> User Management </p>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-blue">Buy now</button>
+                </div>
+                <!--Features-->
+
+            </div>
+            <!--Pricing card-->
+
         </div>
         <!--Grid column-->
 
@@ -235,7 +277,7 @@
     <div class="row">
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-12 mb-r">
+        <div class="col mb-r">
 
             <!--Pricing card-->
             <div class="card pricing-card">
@@ -426,7 +468,7 @@
     <div class="row">
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-12 mb-r">
+        <div class="col mb-r">
 
             <!--Pricing card-->
             <div class="card pricing-card">
