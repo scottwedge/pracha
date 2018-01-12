@@ -891,6 +891,12 @@
 	</div>
 		
 	<?php endif; ?>
+	<?php if($this->session->flashdata('error')): ?>
+	<div class="alert alert-warning">
+	<strong><?php echo $this->session->flashdata('error'); ?></strong> 
+	</div>
+		
+	<?php endif; ?>
 	<form action="<?php echo base_url('pracha/contactpost');?>" method="post" enctype="multipart/form-data" >
 
    
