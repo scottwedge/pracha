@@ -1,4 +1,3 @@
-<?php include('header.php'); ?>
 
 <div>
 <section class=" bod-st" >
@@ -19,7 +18,7 @@
             <div class="view hm-indigo-light " >
                 <!--Video source-->
                 <video class="video-fluid" autoplay loop >
-                    <source src="videos/vid3.mp4" type="video/mp4" />
+                    <source src="<?php echo base_url(); ?>assets/videos/vid3.mp4" type="video/mp4" />
                 </video>
                 <div class="full-bg-img"></div>
             </div>
@@ -348,7 +347,7 @@
         <div class="row  justify-content-md-center">
             <div class="col-md-8 ">
              
-                <div style=""><img  class="img-fluid" src="img/process.png" ></div>
+                <div style=""><img  class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/process.png" ></div>
             
             </div>
             
@@ -389,7 +388,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="proc-icon"><img src="img/pc2.png"></div>
+                <div class="proc-icon"><img src="<?php echo base_url(); ?>assets/vendor/img/pc2.png"></div>
                
             </div>
             <div class="col-sm-4">
@@ -404,7 +403,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="proc-icon"><img src="img/pc1.png"></div>
+                <div class="proc-icon"><img src="<?php echo base_url(); ?>assets/vendor/img/pc1.png"></div>
                 
             </div>
             <div class="col-sm-4">
@@ -421,7 +420,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="proc-icon"><img src="img/pc1.png"></div>
+                <div class="proc-icon"><img src="<?php echo base_url(); ?>assets/vendor/img/pc1.png"></div>
             </div><div class="clearfix">&nbsp;</div>
 			
 
@@ -582,7 +581,7 @@
 
     <!--Grid column-->
     <div class="col-lg-5 mb-r center-on-small-only">
-        <img src="img/whychoose.png" alt="" class="img-fluid " style="margin-top:-100px;">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/whychoose.png" alt="" class="img-fluid " style="margin-top:-100px;">
     </div>
     <!--Grid column-->
 
@@ -936,4 +935,3 @@ Hyderabad, Telangana 500085.</p>
 
 <div class="clearfix">&nbsp;</div>
 
-<?php include('footer.php'); ?>
