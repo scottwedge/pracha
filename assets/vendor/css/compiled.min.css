@@ -7485,7 +7485,7 @@ a.bg-dark:hover {
 .classic-tabs li a,
 .font-up,
 footer.page-footer .title {
-	text-transform: uppercase
+	text-transform: capitalize
 }
 .font-weight-bold {
 	font-weight: 700

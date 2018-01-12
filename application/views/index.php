@@ -115,13 +115,19 @@
 			
 
         </div>
-		<div >
-				<p class="">prachaTECH Software Solutions is a renowned offshore Software development company, engaged in catering incredible Software development, Maintenance & Digital Marketing services.</p>
-				<p class="">At prachaTECH software solutions, Entrusted with the most professional and advanced resources, we bring the most satisfactory outcomes for your online business presence.</p>
+		  <div class="clearfix">&nbsp;</div>
+			<div class="row">
 				
-				<p class="">We at prachaTECH believe in working with passion and complete dedication at the one thing we truly believe in - software solutions.</p>
+				<div class="col-1 "> 
+					&nbsp;
+				</div>
+				<div class="col-10 text-center"> 
+					prachaTECH Software Solutions is a renowned offshore Software development company, engaged in catering incredible Software development, Maintenance & Digital Marketing services.At prachaTECH software solutions, Entrusted with the most professional and advanced resources, we bring the most satisfactory outcomes for your online business presence.We at prachaTECH believe in working with passion and complete dedication at the one thing we truly believe in - software solutions.
+				</div>
+				
+				
 			</div>
-			
+				  <div class="clearfix">&nbsp;</div>
 			<div class=" row justify-content-md-center">
 			<div class="col-4">
 				<a href="services.php"><button type="button" class="btn btn-elegant btn-rounded">Call US</button></a>
@@ -171,6 +177,7 @@
 							  <li>Corporate Website Design</li>
 							  <li>Web Portal Design</li>
 							  <li>Template Design & Customization</li>
+							 
 							</ul>  
 						</div>
 						<p> <span class="btn btn-primary btn-sm">Know more...</span> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
