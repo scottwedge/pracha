@@ -28,8 +28,8 @@
                 <div class="animated fadeInDown">
                     <h2 ><span class="caption-sty">Create Your Online Presece HERE!</span></h2>
 					<div class="clearfix">&nbsp;</div>
-					<button type="button" class="btn btn-warning">Our Services</button>
-					<button type="button" class="btn btn-warning">Talk to Us</button>
+					<a href="<?php echo base_url('services'); ?>" type="button" class="btn btn-warning">Our Services</a>
+					<a href="<?php echo base_url('pracha/contactus'); ?>" type="button" class="btn btn-warning">Talk to Us</a>
 					<div class="clearfix">&nbsp;</div>
 					<div class="row">
 						<div class="col-4 caption-tit">
@@ -858,7 +858,7 @@
 					</div>
 					<div class=" row justify-content-md-center mar-t30">
 			<div class="col-2">
-				<a href="priceviewpage.php"><button type="button" class="btn btn-elegant btn-rounded">View All</button></a>
+				<a href="<?php echo base_url('price/details');?>"><button type="button" class="btn btn-elegant btn-rounded">View All</button></a>
 			</div>
 		</div>
 			<div class="clearfix">&nbsp;</div>
