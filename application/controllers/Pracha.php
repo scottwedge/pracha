@@ -24,10 +24,12 @@ class Pracha extends CI_Controller {
 		$this->load->view('index');
 		$this->load->view('footer');
 	}
-	public function services()
+	public function howwework()
 	{
-		$this->load->view('header');
-		$this->load->view('services');
-		$this->load->view('footer');
+		redirect('#proc-scroll');
+	}
+	public function contactus()
+	{
+		redirect('#contact-scroll');
 	}
 }
