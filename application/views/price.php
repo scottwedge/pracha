@@ -43,7 +43,7 @@
     <div class="row">
 
         <!--Grid column-->
-        <div class="col mb-r">
+        <div class="col col-xs-12 mb-r">
 
             <!--Pricing card-->
             <div class="card pricing-card">
@@ -87,7 +87,7 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col mb-r">
+        <div class="col col-xs-12 mb-r">
 
             <!--Pricing card-->
             <div class="card pricing-card">
@@ -131,7 +131,7 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col mb-r">
+        <div class="col col-xs-12 mb-r">
             <!--Pricing card-->
             <div class="card pricing-card">
                 <!--Price-->

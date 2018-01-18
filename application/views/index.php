@@ -182,7 +182,7 @@
 							 
 							</ul>  
 						</div>
-						<p> <span class="btn btn-primary btn-sm">Know more...</span> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
+						<p> <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-primary btn-sm">Know more...</a> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
 
 
 
@@ -779,6 +779,8 @@
 						 Pricing
 						</span>
 					</h2>
+					<div class="clearfix">&nbsp;</div>
+				 <p class="text-center mb-5 ">This is not an expenditure, but an investment on your business.</p>
 				</div>
 				</div>
 				<div class="row  text-center">
