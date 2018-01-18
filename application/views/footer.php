@@ -15,13 +15,12 @@
 
     <!--Footer Links-->
     <div class="container">
-        <div class="row">
+        <div class="row text-left">
 
             <!--First column-->
             <div class="col-md-4">
-                <h5 class="title mb-4 mt-3 font-bold">Footer Content</h5>
-                <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
-                    amet, consectetur adipisicing elit.</p>
+                <h5 class="title-footer mb-4 mt-3 font-bold">REACH US</h5>
+                <p>Plot No. 177, Sri Vani Nilayam, 1st floor,Beside Sri Chaitanya High School, Sardar Patel Nagar, Nizampet Road, after JNTU , Hyderabad, Telangana, 500072</p>
             </div>
             <!--/.First column-->
 
@@ -29,12 +28,12 @@
 
             <!--Second column-->
             <div class="col-md-2 mx-auto">
-                <h5 class="title mb-4 mt-3 font-bold">Links</h5>
+                <h5 class="title-footer mb-4 mt-3 font-bold">QUICK LINKS</h5>
                 <ul>
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
+                    <li><a href="#!">Home</a></li>
+                    <li><a href="#!">Our Services</a></li>
+                    <li><a href="#!">How We Work</a></li>
+                    <li><a href="#!">Team</a></li>
                 </ul>
             </div>
             <!--/.Second column-->
@@ -43,12 +42,17 @@
 
             <!--Third column-->
             <div class="col-md-2 mx-auto">
-                <h5 class="title mb-4 mt-3 font-bold">Links</h5>
+                <h5 class="title-footer mb-4 mt-3 font-bold">Services</h5>
                 <ul>
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
+				     
+          
+
+                    <li><a href="#!">UI/UX Designing </a></li>
+                    <li><a href="#!">Web Development</a></li>
+                    <li><a href="#!">Mobile Applications</a></li>
+                    <li><a href="#!">Digital Marketing & Seo</a></li>
+                    <li><a href="#!"> E-Commerce Development </a></li>
+                    <li><a href="#!"> Business Solutions </a></li>
                 </ul>
             </div>
             <!--/.Third column-->
@@ -57,12 +61,16 @@
 
             <!--Fourth column-->
             <div class="col-md-2 mx-auto">
-                <h5 class="title mb-4 mt-3 font-bold ">Links</h5>
+                <h5 class="title-footer mb-4 mt-3 font-bold ">INFORMATION</h5>
                 <ul>
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
+				
+
+
+
+                    <li><a href="#!">Careers</a></li>
+                    <li><a href="#!">About Us</a></li>
+                    <li><a href="#!">Contact Us</a></li>
+                    <li><a href="#!">Pricing</a></li>
                 </ul>
             </div>
             <!--/.Fourth column-->
@@ -72,21 +80,10 @@
 
     <hr>
 
-    <!--Call to action-->
-    <div class="call-to-action">
-        <ul>
-            <li>
-                <h5 class="mb-1">Register for free</h5>
-            </li>
-            <li><a href="" class="btn btn-danger btn-rounded">Sign up!</a></li>
-        </ul>
-    </div>
-    <!--/.Call to action-->
-
-    <hr>
+ 
 
     <!--Social buttons-->
-    <div class="social-section text-center">
+    <div class="social-section text-center footer-copyright">
         <ul>
 
             <li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
@@ -99,14 +96,14 @@
     </div>
     <!--/.Social buttons-->
 
-    <!--Copyright-->
+    <!--Copyright
     <div class="footer-copyright">
         <div class="container-fluid">
             © 2017 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
 
         </div>
-    </div>
-    <!--/.Copyright-->
+    </div>-->
+   
 
 </footer>
 <!--/.Footer-->

@@ -230,6 +230,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 /* services read more pages css */
 
+.li-help{
+	font-size:12px;
+}
 
 .wrap {
     animation: pulse 1s infinite;
@@ -495,6 +498,7 @@ margin:0 auto;
 padding:0;
 }
 
+
 /* =====[ COLORS ]============================================================================== */
 
 .color-1-bg {
@@ -602,6 +606,7 @@ display:inline-block;
 .price-ani{
 	font-size:18px;
 	font-weight:600;
+	color:#fff;
 }
 .price .total {
 font-size:45px;
@@ -616,9 +621,9 @@ text-align:center;
 }
 
 .front .description {
-color:#9b9b9b!important;
+color:#ff9800!important;
 font-size:14px;
-padding:4px 45px 0;
+padding:12px 45px 0;
 
 
 }
@@ -642,7 +647,7 @@ line-height:1.4;
 }
 
 .popular {
-font-size:4y0px;
+font-size:35px;
 color:#60bad7;
 position:absolute;
 left:0;
@@ -783,6 +788,9 @@ z-index:0;
 }
 .ml-0 {
 	margin-left: 0px ;
+}
+.marlr20{
+	margin:5px 30px;
 }
 .mr-0 {
 	margin-right: 0px ;
@@ -934,7 +942,7 @@ z-index:0;
 	position: relative;
 	z-index: 9;
 	background: #fff;
-	padding: 40px 10px;
+	/* padding: 40px 10px; */
 	border:1px solid #ddd;
 }
 .service_box:hover {
@@ -974,7 +982,7 @@ z-index:0;
 	padding-top: 40px;
 	padding-left:20px;
 	padding-right:20px;
-	min-height:400px
+	min-height:360px
 }
 
 .service_box:hover {

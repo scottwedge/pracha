@@ -182,7 +182,7 @@
 							 
 							</ul>  
 						</div>
-						<p> <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-primary btn-sm">Know more...</a> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
+						<p class="text-center"> <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
 
 
 
@@ -211,7 +211,7 @@
 							  <br>
 							</ul>
 						</div>
-							<p> <span class="btn btn-primary btn-sm">Know more...</span> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
+							<p class="text-center"> <a href="<?php echo base_url('develop_service'); ?>" class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
 						</div>
                 </div>
             </div>
@@ -234,37 +234,69 @@
 								
 								</ul>
 							</div>
-							<p> <span class="btn btn-primary btn-sm">Know more...</span> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
+							<p class="text-center"> <a href="<?php echo base_url('mobile_application'); ?>" class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            </div>
+			 <div class="row">
+            <div class="col-sm-3">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-industry" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe"><a href="#">DIGITAL MARKETING & SEO</a></h5>
+                        <h5 class="font-color_base no_stripe"><a href="#">DIGITAL MARKETING </a></h5>
                     </div>
                     <div class="service_content">
 							<div class="pad-lr30">
 								<ul>
-								  
 								  <li>Social Media Marketing</li>
 								  <li>Google AdWords & Analytics</li>
 								  <li>Bulk SMS marketing</li>
-								  <li>Inbound Marketing</li>
-								  <li>SEO</li>
-								  <li>SEM & PPC</li>
-								  <li>Social Media Optimization</li>
 								  <li>Analytics Consultation</li>
-								  
+								  <li>Online Reputation Management</li>
+								  <li>Content Marketing</li>
+								  <li>Email Marketing</li>
+								  <li>Branding</li>
+								  <li>Affiliate Management</li>
 								</ul></div>
-							<p> <span class="btn btn-primary btn-sm">Know more...</span> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
+							<p class="text-center"> <a href="<?php echo base_url('digital_marketing'); ?>" class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+			<div class="col-sm-3">
+                <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
+                    <div class="service_icon">
+                        <i class="hi-icon fa fa-group" aria-hidden="true"></i>
+                    </div>
+                    <div class="service_details">
+                        <h5 class="font-color_base no_stripe"><a href="#"> SEO</a></h5>
+                    </div>
+                    <div class="service_content">
+							<div class="pad-lr30">
+							<p>Each website is unique in its own way and hence our search engine optimization (SEO) plans differs from website to website. </p>
+								<ul>
+								  <li>Inbound Marketing</li>
+								  <li>SEO</li>
+								  <li>SEM & PPC</li>
+								
+								
+	
+
+								</ul>
+								  <br>
+								</div>
+								
+
+
+
+
+								<p class="text-center"> <a href="<?php echo base_url('seo'); ?>" class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-shopping-basket" aria-hidden="true"></i>
@@ -285,41 +317,39 @@
 								  <li>UX for E-Commerce</li>
 								  
 								
-								</ul></div>
-								<p> <span class="btn btn-primary btn-sm">Know more...</span> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
+								</ul>
+								<br>
+								</div>
+								<p class="text-center"> <a href="<?php echo base_url('develop_service'); ?>"class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+			<div class="col-sm-3">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
-                        <i class="hi-icon fa fa-group" aria-hidden="true"></i>
+                        <i class="hi-icon fa fa-keyboard-o" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe"><a href="#"> BUSINESS SOLUTIONS</a></h5>
+                        <h5 class="font-color_base no_stripe"><a href="#">MAINTAINENCE </a></h5>
                     </div>
                     <div class="service_content">
-							<div class="pad-lr30">
+                        <div class="pad-lr30">
 								<ul>
-								  <li>Solutions for Educational Institutions </li>
-								  <li>Solutions for Hospitals</li>
-								  <li>Solutions for Businesses</li>
-								  <li>Solutions for E-Commerce </li>
-								  <li>Solutions for Finance </li>
-								  <li>Solutions for Hotels & Restarunts </li>
-								  <li>Solutions for Health Care & Other  </li>
-								  <br>
-								  
-								</ul></div>
+								  <li>Website Maintenance </li>
+								  <li>Mobile Applications Maintenance</li>
+								  <li>Digital Marketing Maintenance</li>
+								  <li>SEO Maintenance</li>
+								  <li>Software Partner</li>
+								 
 								
-
-
-
-
-								<p> <span class="btn btn-primary btn-sm">Know more...</span> &nbsp;<span class="btn btn-primary btn-sm">View Packages</span></p>
+								</ul>
+								<br>
+								</div>
+								<p class="text-center"> <a href="<?php echo base_url('maintainence'); ?>" class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div>
+            
         </div>
         <div class="clearfix">&nbsp;</div>
 		<div class="text-right">

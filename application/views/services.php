@@ -23,7 +23,8 @@
 	</div>
 </section>
 
-<section class="py-4 text-center text-lg-left  " id="navbarSupportedContent">
+<div class=" "  id="navbarSupportedContent" >
+<section class="py-4 text-center text-lg-left">
 <div id="sticky-anchor"></div>
 	<div class="container-sty card " id="sticky">
 
@@ -58,7 +59,8 @@
 	
 </ul>
 </div>
-
+</section>
+<section class="py-4 text-center text-lg-left  jarallax"   data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/ui-bac.png'); height: 100%;">
 <div class="container-sty card mar-t2" >
 <!-- Tab panels -->
 <div class="tab-content">
@@ -352,7 +354,8 @@ Whatever may be your requirement - be it a simple website design, a complex data
 
 </div>
 	</div>
-</section>
+	</section>
+</div>
 <script>
 	function sticky_relocate() {
     var window_top = $(window).scrollTop();

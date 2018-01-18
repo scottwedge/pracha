@@ -15618,8 +15618,8 @@ footer.page-footer .container-fluid {
 }
 footer.page-footer .footer-copyright {
 	overflow:hidden;
-	height:50px;
-	line-height:50px;
+	height:80px;
+	line-height:80px;
 	color:rgba(255,
 	255,
 	255,
@@ -15629,7 +15629,8 @@ footer.page-footer .footer-copyright {
 	0,
 	.2);
 	text-align:center;
-	font-size:.9rem
+	font-size:.9rem;
+	padding:10px;
 }
 footer.page-footer a {
 	color:#fff
@@ -18962,7 +18963,7 @@ input[type=range]:focus::-ms-fill-upper {
 	background-position:center
 }
 .jarallax {
-	min-height:700px
+	min-height:500px
 }
 .side-nav {
 	position:fixed;
