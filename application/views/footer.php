@@ -4,14 +4,14 @@
 		<h2 class="pb-40">Discuss Your Project With Our Team</h2>
 		<p>Want to grow your business online, contact us for a FREE Analysis !!</p>
 		<p class="dis-team">
-			<a href=""><span><i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 040 - 48541273</span></a>
-			<a href=""><span><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; support@shofus.com</span></a>
-			<a href=""><span><i class="fa fa-skype" aria-hidden="true"></i> &nbsp; shopfus@gmail.com</span></a>
+			<a href="#"><span><i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 040 - 48541273</span></a>
+			<a href="#"><span><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; support@prachatech.com</span></a>
+			<a href="#"><span><i class="fa fa-skype" aria-hidden="true"></i> &nbsp; prachatech@gmail.com</span></a>
 		</p>
-		<button type="button" class="btn btn-primary btn-rounded">REQUEST A FREE QUOTE</button>
+		<button type="button" class="btn btn-dark btn-rounded">REQUEST A FREE QUOTE</button>
 	</div>
 </section>
-<footer class="page-footer center-on-small-only stylish-color-dark">
+<footer class="page-footer center-on-small-only stylish-color-dark sm-hide">
 
     <!--Footer Links-->
     <div class="container">
@@ -30,10 +30,10 @@
             <div class="col-md-2 mx-auto">
                 <h5 class="title-footer mb-4 mt-3 font-bold">QUICK LINKS</h5>
                 <ul>
-                    <li><a href="#!">Home</a></li>
-                    <li><a href="#!">Our Services</a></li>
-                    <li><a href="#!">How We Work</a></li>
-                    <li><a href="#!">Team</a></li>
+                    <li><a href="<?php echo base_url(); ?>" class="nav-link">Home</a></li>
+                    <li><a href="#seric-sc">Our Services</a></li>
+                    <li><a href="#proc-scroll">How We Work</a></li>
+                    <li><a href="#">Team</a></li>
                 </ul>
             </div>
             <!--/.Second column-->
@@ -47,12 +47,12 @@
 				     
           
 
-                    <li><a href="#!">UI/UX Designing </a></li>
-                    <li><a href="#!">Web Development</a></li>
-                    <li><a href="#!">Mobile Applications</a></li>
-                    <li><a href="#!">Digital Marketing & Seo</a></li>
-                    <li><a href="#!"> E-Commerce Development </a></li>
-                    <li><a href="#!"> Business Solutions </a></li>
+                    <li><a href="<?php echo base_url('servicesrm'); ?>">UI/UX Designing </a></li>
+                    <li><a href="<?php echo base_url('develop_service'); ?>">Web Development</a></li>
+                    <li><a href="<?php echo base_url('mobile_application'); ?>">Mobile Applications</a></li>
+                    <li><a href="<?php echo base_url('digital_marketing'); ?>">Digital Marketing </a></li>
+                    <li><a href="<?php echo base_url('seo'); ?>">  SEO </a></li>
+                    <li><a href="<?php echo base_url('maintainence'); ?>"> Maintenance </a></li>
                 </ul>
             </div>
             <!--/.Third column-->
@@ -67,10 +67,10 @@
 
 
 
-                    <li><a href="#!">Careers</a></li>
-                    <li><a href="#!">About Us</a></li>
-                    <li><a href="#!">Contact Us</a></li>
-                    <li><a href="#!">Pricing</a></li>
+                    <li><a href="<?php echo base_url('carriers'); ?>">Careers</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="<?php echo base_url('pracha/contactus');?>">Contact Us</a></li>
+                    <li><a href="#pricings">Pricing</a></li>
                 </ul>
             </div>
             <!--/.Fourth column-->

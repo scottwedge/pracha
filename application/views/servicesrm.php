@@ -27,7 +27,7 @@
 	<div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox">
                 <div class="service-icon">
-                    <span><i class="fa fa-id-card-o"></i></span>
+                    <span><i class="fa fa-desktop"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Static & Dynamic Website Design</h3>
@@ -41,7 +41,7 @@
         <div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox green">
                 <div class="service-icon">
-                    <span><i class="fa fa-desktop"></i></span>
+                    <span><i class="fa fa-tablet"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Responsive Web Design</h3>
@@ -54,7 +54,7 @@
         <div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox orange">
                 <div class="service-icon">
-                    <span><i class="fa fa-tablet"></i></span>
+                    <span><i class="fa fa-keyboard-o"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Custom Web Design</h3>
@@ -67,7 +67,7 @@
         <div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox blue">
                 <div class="service-icon">
-                    <span><i class="fa fa-shopping-cart"></i></span>
+                    <span><i class="fa fa-window-restore"></i>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Corporate Website Design</h3>
@@ -85,7 +85,7 @@
 		<div class="col-md-4 col-sm-6 col-xsx-6 ">
             <div class="serviceBox blue">
                 <div class="service-icon">
-                    <span><i class="fa fa-shopping-cart"></i></span>
+                    <span><i class="fa fa-pencil"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Template Design & Customization</h3>
@@ -238,7 +238,7 @@
 	</div>
 </section>-->
 
-	<section class="content_wrap    jarallax" data-jarallax-video="https://vimeo.com/groups/freehd/videos/153749651" >
+	<section class="content_wrap    jarallax" data-jarallax-video="https://www.youtube.com/watch?v=k2gJaZ9xqD8" >
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">

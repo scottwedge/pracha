@@ -78,7 +78,7 @@
 				
 			
 			<li class="nav-item">
-                <a href="<?php echo base_url('carriers'); ?>" class="nav-link"> <span class=" ">Careers</span></a>
+                <a href="#" class="nav-link"> <span class=" ">Careers</span></a>
             </li>
 			<li class="nav-item">
                 <a href="<?php echo base_url('pracha/contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a>

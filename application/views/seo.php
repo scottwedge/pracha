@@ -20,7 +20,7 @@
 	<div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox">
                 <div class="service-icon">
-                    <span><i class="fa fa-id-card-o"></i></span>
+                    <span><i class="fa fa-line-chart"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Inbound Marketing</h3>
@@ -35,7 +35,7 @@
         <div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox green">
                 <div class="service-icon">
-                    <span><i class="fa fa-desktop"></i></span>
+                    <span><i class="fa  fa-search"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">SEO</h3>
@@ -48,7 +48,7 @@
         <div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox orange">
                 <div class="service-icon">
-                    <span><i class="fa fa-tablet"></i></span>
+                    <span><i class="fa fa-bullseye"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">SEM & PPC</h3>
@@ -71,7 +71,7 @@
 <div class="clearfix">&nbsp;</div>
 
 
-	<section class="content_wrap    jarallax" data-jarallax-video="https://vimeo.com/groups/freehd/videos/153749651" >
+	<section class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/seobac1.png'); height: 100%;">
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
@@ -321,7 +321,7 @@
   </ul>
 <!--END LIST -->
 </section>
-<section class="content_wrap  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/bac2.png'); height: 500px;" >
+<section class="content_wrap  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/bac2.png'); background-repeat: repeat; height: 500px;" >
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">

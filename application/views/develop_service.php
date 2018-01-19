@@ -21,7 +21,7 @@
 	<div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox">
                 <div class="service-icon">
-                    <span><i class="fa fa-id-card-o"></i></span>
+                    <span><i class="fa fa-desktop"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Custom Application Development <span style="font-size:12px;">(PHP, Python, Ruby .NET, Java)</span> </h3>
@@ -36,7 +36,7 @@
         <div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox green">
                 <div class="service-icon">
-                    <span><i class="fa fa-desktop"></i></span>
+                    <span><i class="fa  fa-id-card-o "></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Content Management System (CMS)</h3>
@@ -49,7 +49,7 @@
         <div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox orange">
                 <div class="service-icon">
-                    <span><i class="fa fa-tablet"></i></span>
+                    <span><i class="fa fa-shopping-cart "></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Ecommerce Development</h3>
@@ -62,7 +62,7 @@
         <div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox blue">
                 <div class="service-icon">
-                    <span><i class="fa fa-shopping-cart"></i></span>
+                    <span><i class="fa fa-rocket "></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">MEAN Stack Development</h3>
@@ -80,7 +80,7 @@
 <div class="clearfix">&nbsp;</div>
 
 
-	<section class="content_wrap    jarallax" data-jarallax-video="https://vimeo.com/groups/freehd/videos/153749651" >
+	<section class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/devpbac1.png'); height: 100%;">
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
@@ -196,10 +196,10 @@
   </ul>
 <!--END LIST -->
 </section>
-<div class="clearfix">&nbsp;</div>
 
 
-	<section class="content_wrap    jarallax" data-jarallax-video="https://vimeo.com/groups/freehd/videos/153749651" >
+
+	<section class="content_wrap    jarallax bord-t4" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/devpbac2.png'); height: 100%;">
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">

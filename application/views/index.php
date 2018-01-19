@@ -22,18 +22,18 @@
                 </video>
                 <div class="full-bg-img"></div>
             </div>
-
+				
             <!--Caption-->
             <div class="carousel-caption">
                 <div class="animated fadeInDown">
                     <h2 ><span class="caption-sty">Create Your Online Presence HERE!</span></h2>
 					<div class="clearfix">&nbsp;</div>
 					<div class="row justify-content-md-center help-btn-sl">
-					<a href="<?php echo base_url('services'); ?>" type="button" class="btn btn-warning">Our Services</a>
-					<a href="<?php echo base_url('pracha/contactus'); ?>" type="button" class="btn btn-warning">Talk to Us</a>
+						<a href="<?php echo base_url('services'); ?>"  class="btn btn-blue-grey"><i class="fa fa-gears mr-1"></i> &nbsp; Our Services</a>
+						<a href="<?php echo base_url('pracha/contactus'); ?>" class="btn btn-success"> <i class="fa fa-volume-control-phone  ml-1"></i> &nbsp; Talk to Us</a>
 					<div class="clearfix">&nbsp;</div>
 					</div>
-					<div class="row">
+					<div class="row mt-15-ban">
 						<div class="col-4 caption-tit">
 							<span class="">Web designing, Development &<br> Maintenance</span>
 						</div>
@@ -132,8 +132,7 @@
 				  <div class="clearfix">&nbsp;</div>
 			<div class=" row justify-content-md-center">
 		
-				<a href="services.php"><button type="button" class="btn btn-elegant btn-rounded">Call US</button></a>
-			<a href="services.php"><button type="button" class="btn btn-elegant btn-rounded">Send Message</button></a>
+				<a href="<?php echo base_url('pracha/contactus');?>"><button type="button" class="btn btn-unique btn-rounded">Send Message</button></a>
 			
 		</div>
        <div class="clearfix">&nbsp;</div>
@@ -182,7 +181,7 @@
 							 
 							</ul>  
 						</div>
-						<p class="text-center"> <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
+						<p class="text-center"> <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
 
 
 
@@ -211,7 +210,7 @@
 							  <br>
 							</ul>
 						</div>
-							<p class="text-center"> <a href="<?php echo base_url('develop_service'); ?>" class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
+							<p class="text-center"> <a href="<?php echo base_url('develop_service'); ?>" class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
 						</div>
                 </div>
             </div>
@@ -234,7 +233,7 @@
 								
 								</ul>
 							</div>
-							<p class="text-center"> <a href="<?php echo base_url('mobile_application'); ?>" class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
+							<p class="text-center"> <a href="<?php echo base_url('mobile_application'); ?>" class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div>
@@ -261,7 +260,9 @@
 								  <li>Branding</li>
 								  <li>Affiliate Management</li>
 								</ul></div>
-							<p class="text-center"> <a href="<?php echo base_url('digital_marketing'); ?>" class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
+								<br>
+								<br>
+							<p class="text-center"> <a href="<?php echo base_url('digital_marketing'); ?>" class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div>
@@ -280,19 +281,18 @@
 								  <li>Inbound Marketing</li>
 								  <li>SEO</li>
 								  <li>SEM & PPC</li>
-								
-								
-	
-
-								</ul>
-								  <br>
+								  </ul>
+								 
+								  <br class="sm-hide">
+								  <br class="sm-hide">
+								  <br class="sm-hide">
 								</div>
 								
 
 
 
 
-								<p class="text-center"> <a href="<?php echo base_url('seo'); ?>" class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
+								<p class="text-center"> <a href="<?php echo base_url('seo'); ?>" class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div>
@@ -320,7 +320,7 @@
 								</ul>
 								<br>
 								</div>
-								<p class="text-center"> <a href="<?php echo base_url('develop_service'); ?>"class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
+								<p class="text-center"> <a href="<?php echo base_url('develop_service'); ?>"class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div>
@@ -340,12 +340,15 @@
 								  <li>Digital Marketing Maintenance</li>
 								  <li>SEO Maintenance</li>
 								  <li>Software Partner</li>
-								 
-								
 								</ul>
-								<br>
+								  <br class="sm-hide">
+								  <br class="sm-hide">
+								  <br class="sm-hide">
+								  <br class="sm-hide">
+								  <br class="sm-hide">
+								  <br class="sm-hide">
 								</div>
-								<p class="text-center"> <a href="<?php echo base_url('maintainence'); ?>" class="btn btn-primary btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-primary btn-sm">View Packages</span>--></p>
+								<p class="text-center"> <a href="<?php echo base_url('maintainence'); ?>" class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div>
@@ -353,7 +356,7 @@
         </div>
         <div class="clearfix">&nbsp;</div>
 		<div class="text-right">
-			<a href="services.php"><button type="button" class="btn btn-elegant btn-rounded">See More</button></a>
+			<a href="<?php echo base_url('services'); ?>"><button type="button" class="btn btn-dark btn-rounded">See More</button></a>
 
 		</div>
 		<div class="clearfix">&nbsp;</div>
@@ -465,8 +468,8 @@
         </div>
 		<div class=" row justify-content-md-center">
 				
-					<a href="services.php"><button type="button" class="btn btn-elegant btn-rounded">Call US</button></a>
-					<a href="services.php"><button type="button" class="btn btn-elegant btn-rounded">Send Message</button></a>
+					
+					<a href="<?php echo base_url('pracha/contactus');?>"><button type="button" class="btn btn-unique btn-rounded">Send Message</button></a>
 				
 			</div>
         <div class="clearfix">&nbsp;</div>
@@ -813,9 +816,160 @@
 				 <p class="text-center mb-5 ">This is not an expenditure, but an investment on your business.</p>
 				</div>
 				</div>
+				
+					<div class="row  text-center">
+						<ul class="box">
+						  <!-- BEGIN LIST ELEMENT -->
+							<li><a href="<?php echo base_url('servicesrm'); ?>">
+							  <div class="circle">
+								<div class="front-home bg-mdb-color " >
+								<p class="clearfix ">&nbsp;</p>
+							
+							
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 6,999</span></p>
+									<div class="pric-tit-pos bg-dark">
+										UI/UX Designing
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+							 </a>
+							</li>
+							<li>
+								<a href="<?php echo base_url('develop_service'); ?>">
+							  <div class="circle">
+								<div class="front-home bg-primary " >
+								<p class="clearfix ">&nbsp;</p>
+							
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 3,999</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+										Web Development
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								</a>
+							</li>
+							<li>
+								<a href="<?php echo base_url('develop_service'); ?>">
+							  <div class="circle">
+								<div class="front-home bg-pink " >
+								<p class="clearfix ">&nbsp;</p>
+							
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 69,999</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+										E-Commerce
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								</a>
+							</li>
+							</ul>
+							<ul class="box">
+							<li>
+								<a href="<?php echo base_url('mobile_application'); ?>">
+							  <div class="circle">
+								<div class="front-home bg-info " >
+								<p class="clearfix ">&nbsp;</p>
+							
+							<p class="text-white">Starting At <br><span class="pric-rate">₹ 5,499</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+										Mobile Applications
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								</a>
+							</li>
+							<li>
+								<a href="<?php echo base_url('seo'); ?>">
+							  <div class="circle">
+								<div class="front-home bg-warning " >
+								<p class="clearfix ">&nbsp;</p>
+							
+							<p class="text-white">Starting At <br><span class="pric-rate">₹ 7,999</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+										SEO
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								</a>
+							</li>
+							<li>
+							<a href="<?php echo base_url('digital_marketing'); ?>">
+							  <div class="circle">
+								<div class="front-home bg-secondary " >
+								<p class="clearfix ">&nbsp;</p>
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 7,999</span></p>
+							
+								
+									<div class="pric-tit-pos bg-dark">
+										Digital Marketing
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								</a>
+							</li>
+							<li>
+							<a href="<?php echo base_url('maintainence'); ?>">
+							  <div class="circle">
+								<div class="front-home bg-blue-grey " >
+								<p class="clearfix ">&nbsp;</p>
+								<p class="text-white">Starting At <br><span class="pric-rate">View</span></p>
+							
+								
+									<div class="pric-tit-pos bg-dark">
+										Maintenance
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+							 </a>
+							</li>
+							
+							</ul>
+					</div>
+					<div class=" row justify-content-md-center mar-t30">
+			
+				<a href="<?php echo base_url('price/details');?>"><button type="button" class="btn btn-dark btn-rounded">View All</button></a>
+			
+		</div>
+			<div class="clearfix">&nbsp;</div>
+			</div>
+        
+	<div class="clearfix">&nbsp;</div>
+</section>
+
+ <!--<section id="pricings" class="our_service padding-10 ptb-xs-60">
+    <div class="container-sty card ">
+			<div class="row  text-center">
+				<div class="col-sm-12 mb-20 pt-30">
+					<h2 class="tex-lef-mob">
+						<span class="tit">
+						 Pricing
+						</span>
+					</h2>
+					<div class="clearfix">&nbsp;</div>
+				 <p class="text-center mb-5 ">This is not an expenditure, but an investment on your business.</p>
+				</div>
+				</div>
 				<div class="row  text-center">
 					<div class="col-md-4 col-xs-12">
-						<!--Panel-->
+						
 						<div class="card">
 							<h3 class="card-header bg-warning white-text">Web Design</h3>
 							<div class="card-body">
@@ -824,10 +978,10 @@
 								<a href="<?php echo base_url('price/details/'.base64_encode(1)); ?>" class="btn btn-unique">Rs @ 6999</a>
 							</div>
 						</div>
-						<!--/.Panel-->
+						
 					</div>
 					<div class="col-md-4 col-xs-12">
-						<!--Panel-->
+						
 						<div class="card">
 							<h3 class="card-header bg-info white-text">Web Development</h3>
 							<div class="card-body">
@@ -836,70 +990,70 @@
 								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-unique">Rs @ 3999</a>
 							</div>
 						</div>
-						<!--/.Panel-->
+						
 					</div>
 					<div class="col-md-4 col-xs-12">
-						<!--Panel-->
+					
 						<div class="card">
-							<h3 class="card-header bg-primary white-text">Mobile Applications</h3>
+							<h3 class="card-header bg-success white-text">Mobile Applications</h3>
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-unique">Rs @ 5499</a>
 							</div>
 						</div>
-						<!--/.Panel-->
+						
 					</div>
 					</div>
 					<br>
 					<div class="row  text-center">
 					<div class="col-md-4 col-xs-12">
-						<!--Panel-->
+						
 						<div class="card">
-							<h3 class="card-header bg-warning white-text">SEO</h3>
+							<h3 class="card-header bg-secondary white-text">SEO</h3>
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 								<a href="<?php echo base_url('price/details'); ?>" href="price.php" class="btn btn-unique">Rs @ 7999</a>
 							</div>
 						</div>
-						<!--/.Panel-->
+						
 					</div>
 					<div class="col-md-4 col-xs-12">
-						<!--Panel-->
+						
 						<div class="card">
-							<h3 class="card-header bg-info white-text">Digital Marketing</h3>
+							<h3 class="card-header bg-default white-text">Digital Marketing</h3>
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-unique">Rs @ 7999</a>
 							</div>
 						</div>
-						<!--/.Panel-->
+					
 					</div>
 					<div class="col-md-4 col-xs-12">
-						<!--Panel-->
+						
 						<div class="card">
-							<h3 class="card-header bg-primary white-text">Combo Packages</h3>
+							<h3 class="card-header bg btn-mdb white-text"> Maintenance MAINTAINENCE</h3>
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 								<a href="<?php echo base_url('services/combo'); ?>" href="comboprice.php" class="btn btn-unique">View </a>
 							</div>
 						</div>
-						<!--/.Panel-->
+					
 					</div>
 					</div>
 					<div class=" row justify-content-md-center mar-t30">
 			
-				<a href="<?php echo base_url('price/details');?>"><button type="button" class="btn btn-elegant btn-rounded">View All</button></a>
+				<a href="<?php echo base_url('price/details');?>"><button type="button" class="btn btn-dark btn-rounded">View All</button></a>
 			
 		</div>
 			<div class="clearfix">&nbsp;</div>
 			</div>
         
 	<div class="clearfix">&nbsp;</div>
-</section>
+</section>-->
   
 
  <section id="contact-scroll" class="our_service padding-10 ptb-xs-60">

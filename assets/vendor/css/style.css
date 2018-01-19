@@ -212,6 +212,7 @@ a {
 	border:2px solid #fff;
 	padding:15px 20px;
 	border-radius:6px;
+	background: #192f5d;
 }
 .caption-tit{
 	font-size:18px;
@@ -331,7 +332,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   position: relative;
   top: 180px;
   max-width: 90%;
-  z-index: 100;
+  z-index: 1;
   word-spacing: 0.3em;
   text-transform: uppercase;
   text-align: center;
@@ -556,6 +557,40 @@ background: -o-linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,
 background: -ms-linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 71%, rgba(25,47,93,1) 72%, rgba(25,47,93,1) 100%); /* ie10+ */
 background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 71%, rgba(25,47,93,1) 72%, rgba(25,47,93,1) 100%); /* w3c */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#192f5d',GradientType=0 ); /* ie6-9 */
+}
+.front-home  {
+font-family:Lato, sans-serif;
+float:left;
+width:150px;
+height:150px;
+
+-webkit-border-radius:100%;
+-moz-border-radius:100%;
+border-radius:100%;
+-webkit-box-shadow: 0px 3px 36px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 36px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 36px -3px rgba(0,0,0,0.75);
+
+
+}
+.bg-Secondary{
+	background:#880e4f !important;
+	color:#fff !important;
+}
+.pric-tit-pos{
+	position:absolute;
+	bottom:0;
+	padding:6px ;
+	color:#fff;
+	width:200px;
+	margin-left:-24px;
+	border-radius:10px;
+	
+}
+.pric-rate{
+	font-weight:600;
+	color:#fff;
+	font-size:20px;
 }
 
 
@@ -894,6 +929,12 @@ z-index:0;
 .mt-15 {
 	margin-top: 15px;
 }
+.mt-15-ban {
+	margin-top: 15px;
+}
+.bord-t4{
+	border-top:4px solid #eee;
+}
 .mt-10 {
 	margin-top: 10px;
 }
@@ -1182,6 +1223,32 @@ z-index:0;
   .bod-st{
 	margin-top:50px;
 } 
+.mt-15-ban {
+	margin-top: 0px;
+}
+.sm-hide{
+	display:none;
+}
+.wrap {
+    animation: pulse 1s infinite;
+	font-size:20px !important;
+}
+
+#masthead h1 {
+    color: #fff;
+    line-height: 1;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 100;
+    position: relative;
+    top: 180px;
+    max-width: 90%;
+    z-index: 1;
+    word-spacing: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+}
 h2 {
 	font-size: 18px;
 	/* font-weight: 800; */
@@ -1189,6 +1256,9 @@ h2 {
 	font-family: 'Raleway', sans-serif;
 	/* color:#0c1f38; */
 	text-transform:capitalize;
+}
+.font-14{
+	font-size:14px !important;
 }
 .carousel-caption {
     position: absolute;

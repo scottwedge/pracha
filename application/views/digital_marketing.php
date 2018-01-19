@@ -20,7 +20,7 @@
 	<div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox">
                 <div class="service-icon">
-                    <span><i class="fa fa-id-card-o"></i></span>
+                    <span><i class="fa fa-share-square-o"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Social Media Marketing</h3>
@@ -35,7 +35,7 @@
         <div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox green">
                 <div class="service-icon">
-                    <span><i class="fa fa-desktop"></i></span>
+                    <span><i class="fa fa-google"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Google AdWords& Analytics</h3>
@@ -48,7 +48,7 @@
         <div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox orange">
                 <div class="service-icon">
-                    <span><i class="fa fa-tablet"></i></span>
+                    <span><i class="fa fa-envelope-open"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Bulk SMS marketing</h3>
@@ -61,7 +61,7 @@
         <div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox blue">
                 <div class="service-icon">
-                    <span><i class="fa fa-shopping-cart"></i></span>
+                    <span><i class="fa fa-area-chart"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Analytics Consultation</h3>
@@ -77,7 +77,7 @@
         <div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox green">
                 <div class="service-icon">
-                    <span><i class="fa fa-desktop"></i></span>
+                    <span><i class="fa  fa-bullseye"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Online Reputation Management</h3>
@@ -91,7 +91,7 @@
         <div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox orange">
                 <div class="service-icon">
-                    <span><i class="fa fa-tablet"></i></span>
+                    <span><i class="fa fa-pencil-square-o"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Content Marketing</h3>
@@ -105,7 +105,7 @@
         <div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox blue">
                 <div class="service-icon">
-                    <span><i class="fa fa-shopping-cart"></i></span>
+                    <span><i class="fa fa-envelope"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Email Marketing</h3>
@@ -117,7 +117,7 @@
 			<div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox">
                 <div class="service-icon">
-                    <span><i class="fa fa-id-card-o"></i></span>
+                    <span><i class="fa fa-bandcamp"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Branding  </h3>
@@ -132,7 +132,7 @@
 		<div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox">
                 <div class="service-icon">
-                    <span><i class="fa fa-id-card-o"></i></span>
+                    <span><i class="fa fa-american-sign-language-interpreting"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title"> Affiliate Management </h3>
@@ -155,7 +155,7 @@
 <div class="clearfix">&nbsp;</div>
 
 
-	<section class="content_wrap    jarallax" data-jarallax-video="https://vimeo.com/groups/freehd/videos/153749651" >
+	<section class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/digitbac1.png'); height: 100%;">
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">

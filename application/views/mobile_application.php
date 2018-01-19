@@ -21,7 +21,7 @@
 	<div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox">
                 <div class="service-icon">
-                    <span><i class="fa fa-id-card-o"></i></span>
+                    <span><i class="fa fa-apple"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">IOS Application Development </h3>
@@ -36,7 +36,7 @@
         <div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox green">
                 <div class="service-icon">
-                    <span><i class="fa fa-desktop"></i></span>
+                    <span><i class="fa fa-android"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Android Application Development</h3>
@@ -49,7 +49,7 @@
         <div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox orange">
                 <div class="service-icon">
-                    <span><i class="fa fa-tablet"></i></span>
+                    <span><i class="fa fa-mobile"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Mobile Application Strategy & Development</h3>
@@ -68,7 +68,7 @@
         <div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox blue">
                 <div class="service-icon">
-                    <span><i class="fa fa-shopping-cart"></i></span>
+                    <span><i class="fa fa-user"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">User Experience & Interface Design</h3>
@@ -91,7 +91,7 @@
         <div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox green">
                 <div class="service-icon">
-                    <span><i class="fa fa-desktop"></i></span>
+                    <span><i class="fa fa-mobile"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Mobile Integration</h3>
@@ -111,7 +111,7 @@
         <div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox orange">
                 <div class="service-icon">
-                    <span><i class="fa fa-tablet"></i></span>
+                    <span><i class="fa fa-check-square"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Mobile Testing & Security</h3>
@@ -131,7 +131,7 @@
         <div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox blue">
                 <div class="service-icon">
-                    <span><i class="fa fa-shopping-cart"></i></span>
+                    <span><i class="fa fa-phone-square"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Support Maintenance</h3>
@@ -149,7 +149,7 @@
 			<div class="col-md-3 col-sm-6 col-xsx-6">
             <div class="serviceBox">
                 <div class="service-icon">
-                    <span><i class="fa fa-id-card-o"></i></span>
+                    <span><i class="fa fa-cubes"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Full Stack Services </h3>
@@ -181,7 +181,7 @@
 <div class="clearfix">&nbsp;</div>
 
 
-	<section class="content_wrap    jarallax" data-jarallax-video="https://vimeo.com/groups/freehd/videos/153749651" >
+	<section class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/mobbac1.png'); height: 100%;">
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">

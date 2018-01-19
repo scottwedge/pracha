@@ -3,7 +3,12 @@
 
   <h1>
  Maintainence<br /><br>
-	<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Social Media Marketing", "Google AdWords& Analytics", "Bulk SMS marketing","Analytics Consultation","Online Reputation Management","Content Marketing","Email Marketing","Branding","Affiliate Management",  " " ]'>
+ 
+
+
+
+
+	<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Website Maintenance", "Mobile Applications Maintenance", "Digital Marketing Maintenance","SEO Maintenance","Software Partner",  " " ]'>
    
   </p>
  
@@ -16,6 +21,29 @@
 <div class="clearfix">&nbsp;</div>
 <section class="mar-mi140">
 <div class="container-sty card  padding-10 " >
+ 
+	<div class="row justify-content-md-center">
+		<div class="col-sm-12 mb-20 pt-30 text-center">
+
+			<h2 class="font-14">
+				<span class="tit"> 
+								 Let's talk about   <span class="des_t"> what we can build  </span> together
+				</span>
+			</h2>
+			
+		</div>
+	</div>
+	<div class="row justify-content-md-center">
+		<div class="col-sm-8">
+
+			<p class="text-center">
+				let us be your Software & marketing partner. You feel it worthy having us. 
+				Whatever may be your requirement - be it a simple website design, a complex data driven web application development, an ecommerce website, a native or cross platform mobile app development, a logo and brand identity design, a full-fledged digital marketing campaign & even maintenance of all these  - we have a solution for you.
+			</p>
+			
+		</div>
+	</div>
+			
 <div class="table-responsive" >
 		<table class="table table-bordered ">
   <thead>
@@ -103,13 +131,13 @@
             </div>
 			<hr>
 			<div class="row justify-content-md-center">
-				<div class="col-4">
+				<div class="col-md-4  col-sm-12 col-xs-12 ">
 					<div class="row pb-3">
 						<div class="col-2 col-md-1">
 							<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 						</div>
 						<div class="col-10">
-							<h5 class="font-bold text-left mb-3 dark-grey-text">Content Updates</h5>
+							<h5 class=" text-left mb-3 dark-grey-text">Content Updates</h5>
 							
 						</div>
 					</div>
@@ -118,7 +146,7 @@
 							<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 						</div>
 						<div class="col-10">
-							<h5 class="font-bold text-left mb-3 dark-grey-text">Onpage SEO</h5>
+							<h5 class=" text-left mb-3 dark-grey-text">Onpage SEO</h5>
 							
 						</div>
 					</div>
@@ -127,7 +155,7 @@
 							<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 						</div>
 						<div class="col-10">
-							<h5 class="font-bold text-left mb-3 dark-grey-text">Fixing Broken Links</h5>
+							<h5 class=" text-left mb-3 dark-grey-text">Fixing Broken Links</h5>
 							
 						</div>
 					</div>
@@ -136,7 +164,7 @@
 							<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 						</div>
 						<div class="col-10">
-							<h5 class="font-bold text-left mb-3 dark-grey-text">Regular backups</h5>
+							<h5 class=" text-left mb-3 dark-grey-text">Regular backups</h5>
 							
 						</div>
 					</div>
@@ -145,7 +173,7 @@
 							<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 						</div>
 						<div class="col-10">
-							<h5 class="font-bold text-left mb-3 dark-grey-text">Security & Maleware Check</h5>
+							<h5 class=" text-left mb-3 dark-grey-text">Security & Maleware Check</h5>
 							
 						</div>
 					</div>
@@ -154,20 +182,20 @@
 							<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 						</div>
 						<div class="col-10">
-							<h5 class="font-bold text-left mb-3 dark-grey-text">Support Desk Access</h5>
+							<h5 class=" text-left mb-3 dark-grey-text">Support Desk Access</h5>
 							
 						</div>
 					</div>
 				</div>
 				
 				
-				<div class="col-4">
+				<div class="col-md-4  col-sm-12 col-xs-12">
 					<div class="row pb-3">
 						<div class="col-2 col-md-1">
 							<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 						</div>
 						<div class="col-10">
-							<h5 class="font-bold text-left mb-3 dark-grey-text">Consultation and Guidance</h5>
+							<h5 class=" text-left mb-3 dark-grey-text">Consultation and Guidance</h5>
 							
 						</div>
 					</div>
@@ -176,7 +204,7 @@
 							<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 						</div>
 						<div class="col-10">
-							<h5 class="font-bold text-left mb-3 dark-grey-text">Regular Monitoring</h5>
+							<h5 class=" text-left mb-3 dark-grey-text">Regular Monitoring</h5>
 							
 						</div>
 					</div>
@@ -185,7 +213,7 @@
 							<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 						</div>
 						<div class="col-10">
-							<h5 class="font-bold text-left mb-3 dark-grey-text">Hack proof</h5>
+							<h5 class=" text-left mb-3 dark-grey-text">Hack proof</h5>
 							
 						</div>
 					</div>
@@ -194,7 +222,7 @@
 							<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 						</div>
 						<div class="col-10">
-							<h5 class="font-bold text-left mb-3 dark-grey-text">Advice on any improvements</h5>
+							<h5 class=" text-left mb-3 dark-grey-text">Advice on any improvements</h5>
 							
 						</div>
 					</div>
@@ -203,7 +231,7 @@
 							<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 						</div>
 						<div class="col-10">
-							<h5 class="font-bold text-left mb-3 dark-grey-text">Plug-in Updates</h5>
+							<h5 class=" text-left mb-3 dark-grey-text">Plug-in Updates</h5>
 							
 						</div>
 					</div>
@@ -212,7 +240,7 @@
 							<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 						</div>
 						<div class="col-10">
-							<h5 class="font-bold text-left mb-3 dark-grey-text">Content Updates</h5>
+							<h5 class=" text-left mb-3 dark-grey-text">Content Updates</h5>
 							
 						</div>
 					</div>
