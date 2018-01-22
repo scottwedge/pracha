@@ -4,11 +4,13 @@
 		<h2 class="pb-40">Discuss Your Project With Our Team</h2>
 		<p>Want to grow your business online, contact us for a FREE Analysis !!</p>
 		<p class="dis-team">
-			<a href="#"><span><i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 040 - 48541273</span></a>
-			<a href="#"><span><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; support@prachatech.com</span></a>
+			<span><i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 040 - 48541273</span>
+			
+			<a href="mailto:support@prachatech.com" target="_top"><span><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; support@prachatech.com</span></a>
 			<a href="#"><span><i class="fa fa-skype" aria-hidden="true"></i> &nbsp; prachatech@gmail.com</span></a>
 		</p>
-		<button type="button" class="btn btn-dark btn-rounded">REQUEST A FREE QUOTE</button>
+		
+		<a href="<?php echo base_url('pracha/contactus');?>"><button type="button" class="btn btn-dark btn-rounded">REQUEST A FREE QUOTE</button></a>
 	</div>
 </section>
 <footer class="page-footer center-on-small-only stylish-color-dark sm-hide">
@@ -20,7 +22,7 @@
             <!--First column-->
             <div class="col-md-4">
                 <h5 class="title-footer mb-4 mt-3 font-bold">REACH US</h5>
-                <p>Plot No. 177, Sri Vani Nilayam, 1st floor,Beside Sri Chaitanya High School, Sardar Patel Nagar, Nizampet Road, after JNTU , Hyderabad, Telangana, 500072</p>
+                <p>Plot No. 177, Sri Vani Nilayam, 1st floor,Beside Sri Chaitanya High School, Sardar Patel Nagar, Nizampet Road,  Hyderabad, Telangana, 500072</p>
             </div>
             <!--/.First column-->
 
@@ -30,7 +32,7 @@
             <div class="col-md-2 mx-auto">
                 <h5 class="title-footer mb-4 mt-3 font-bold">QUICK LINKS</h5>
                 <ul>
-                    <li><a href="<?php echo base_url(); ?>" class="nav-link">Home</a></li>
+                    <li><a href="<?php echo base_url(); ?>" >Home</a></li>
                     <li><a href="#seric-sc">Our Services</a></li>
                     <li><a href="#proc-scroll">How We Work</a></li>
                     <li><a href="#">Team</a></li>

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Servicesrm extends CI_Controller {
+class Overview extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,8 +20,8 @@ class Servicesrm extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('header1');
-		$this->load->view('servicesrm');
+		$this->load->view('header');
+		$this->load->view('overview');
 		$this->load->view('footer');
 	}
 	

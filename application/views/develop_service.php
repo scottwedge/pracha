@@ -28,7 +28,7 @@
 					
                     <p class="description">Our expert in-house team uses cutting edge technologies to build custom web applications that are stunning, robust, secure and scalable and we follow agile development methodology to ensure flexibility and faster delivery.</p>
 					
-                    <a href="WebDesigning.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                  
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
                 <div class="service-content">
                     <h3 class="title">Content Management System (CMS)</h3>
                     <p class="description">We are experts at designing and creating content management systems for the web. We analyse and research the market trends and collaborate these with your business requirements to mould a perfect CMS framework for your business.</p>
-                    <a href="WebDevelopment.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                   
                 </div>
             </div>
         </div>
@@ -53,8 +53,9 @@
                 </div>
                 <div class="service-content">
                     <h3 class="title">Ecommerce Development</h3>
+					<div class="clearfix">&nbsp;</div>
                     <p class="description">We create custom designed ecommerce websites that’d make you stand out from your competitors. From our experience of creating more than 150 ecommerce sites, we know how to do it best.</p>
-                    <a href="MobileAppDevelopment.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                   
                 </div>
             </div>
         </div>
@@ -66,8 +67,9 @@
                 </div>
                 <div class="service-content">
                     <h3 class="title">MEAN Stack Development</h3>
+					<div class="clearfix">&nbsp;</div>
                     <p class="description">A full-stack Javascript solution with Mongo DB as database system, Express as backend web framework, Angular js as front-end framework and Nodejs as back-end runtime environment, to create high performing and highly scalable web applications.</p>
-                    <a href="ECommarce.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                    
                 </div>
             </div>
         </div>

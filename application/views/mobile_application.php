@@ -28,7 +28,7 @@
 					
                     <p class="description">Our experienced team of IOS app developers is always in a thrust to provide the best solutions to our clients. Whether it is a simple utility App or App related to particular industry need we have the acumen and experience to develop any kind of app. </p>
 					
-                    <a href="WebDesigning.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                    
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
                 <div class="service-content">
                     <h3 class="title">Android Application Development</h3>
                     <p class="description">We know that developing an app for android platform is bit complex and thus we have the team which makes us one of the best android application development company in Hyderabad. <br><br><br></p>
-                    <a href="WebDevelopment.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                    
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
 						<li>Ensure maximum Uniqueness.</li>
 						<br>
 					</ul>
-                    <a href="MobileAppDevelopment.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                   
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
 						<li>Design</li>
 						<br>
 					</ul>
-                    <a href="ECommarce.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                    
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@
 						<li>Integration with Analytics tools.</li>
 					</ul>
 					<br>
-                    <a href="WebDevelopment.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                    
                 </div>
             </div>
         </div>
@@ -123,7 +123,7 @@
 						<li>Performance Testing</li>
 					</ul>
 					<br><br>
-                    <a href="MobileAppDevelopment.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                    
                 </div>
             </div>
         </div>
@@ -142,7 +142,7 @@
 						<li>Update on OS related enhancements</li>
 						<li>Periodic monitoring</li>
 					</ul>
-                    <a href="ECommarce.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                   
                 </div>
             </div>
         </div>
@@ -153,13 +153,6 @@
                 </div>
                 <div class="service-content">
                     <h3 class="title">Full Stack Services </h3>
-					
-
-
-
-
-
-					
 						<ul class="description text-left plr-20" >
 						<li>Fluid & Responsive web design</li>
 						<li>WireFrame to PSD </li>
@@ -168,7 +161,7 @@
 						<li>Cloud services</li>
 					</ul>
 					
-                    <a href="WebDesigning.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                   
                 </div>
             </div>
         </div>

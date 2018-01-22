@@ -26,22 +26,22 @@
             <!--Caption-->
             <div class="carousel-caption">
                 <div class="animated fadeInDown">
-                    <h2 ><span class="caption-sty">Create Your Online Presence HERE!</span></h2>
+                    <a href="<?php echo base_url('services'); ?>" class="text-white"><h2 ><span class="caption-sty">Create Your Online Presence HERE!</span></h2></a>
 					<div class="clearfix">&nbsp;</div>
 					<div class="row justify-content-md-center help-btn-sl">
 						<a href="<?php echo base_url('services'); ?>"  class="btn btn-blue-grey"><i class="fa fa-gears mr-1"></i> &nbsp; Our Services</a>
-						<a href="<?php echo base_url('pracha/contactus'); ?>" class="btn btn-success"> <i class="fa fa-volume-control-phone  ml-1"></i> &nbsp; Talk to Us</a>
+						<!--<a href="<?php echo base_url('pracha/contactus'); ?>" class="btn btn-success"> <i class="fa fa-volume-control-phone  ml-1"></i> &nbsp; Talk to Us</a>-->
 					<div class="clearfix">&nbsp;</div>
 					</div>
 					<div class="row mt-15-ban">
 						<div class="col-4 caption-tit">
-							<span class="">Web designing, Development &<br> Maintenance</span>
+							<span class=""><a href="<?php echo base_url('servicesrm'); ?>">Web designing</a>, <a href="<?php echo base_url('develop_service'); ?>">Web Development </a><br> <a href="<?php echo base_url('maintainence'); ?>">Maintenance</a></span>
 						</div>
 						<div class="col-4 caption-tit">
-							<span class="">Android, iOS Application Development <br>& Maintenance</span>
+							<span class=""><a href="<?php echo base_url('mobile_application'); ?>">Android, iOS Application Development </a><br>& <a href="<?php echo base_url('maintainence'); ?>">Maintenance</a></span>
 						</div>
 						<div class="col-4 caption-tit">
-							<span class=""> SEO, Digital Marketing & Advertisements.</span>
+							<span class=""> <a href="<?php echo base_url('seo'); ?>">SEO</a>, <a href="<?php echo base_url('digital_marketing'); ?>">Digital Marketing & Advertisements.</a></span>
 						</div>
 					</div>
 					
@@ -129,10 +129,11 @@
 				
 				
 			</div>
+			
 				  <div class="clearfix">&nbsp;</div>
 			<div class=" row justify-content-md-center">
 		
-				<a href="<?php echo base_url('pracha/contactus');?>"><button type="button" class="btn btn-unique btn-rounded">Send Message</button></a>
+				<a href="<?php echo base_url('pracha/contactus');?>"><button type="button" class="btn btn-warning btn-rounded">Send Message</button></a>
 			
 		</div>
        <div class="clearfix">&nbsp;</div>
@@ -158,16 +159,19 @@
         </div>
 
         <div class="row">
+		<a href="<?php echo base_url('servicesrm'); ?>">
             <div class="col-sm-4">
+			
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
+				
                     <div class="service_icon">
 
                         <i class="hi-icon fa fa-globe" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe"><a href="#">UI/UX DESIGNING
+                        <h5 class="font-color_base no_stripe">UI/UX DESIGNING
 								
-									</a></h5>
+									</h5>
                     </div>
                     <div class="service_content">
 						<div class="pad-lr30">
@@ -181,7 +185,7 @@
 							 
 							</ul>  
 						</div>
-						<p class="text-center"> <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
+						<p class="text-center"> <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
 
 
 
@@ -189,15 +193,17 @@
 
 
                     </div>
+					
                 </div>
-            </div>
+            </div></a>
+			<a href="<?php echo base_url('develop_service'); ?>">
             <div class="col-sm-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon ">
                         <i class="hi-icon fa fa-television" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe"><a href="#">WEB DEVELOPMENT</a></h5>
+                        <h5 class="font-color_base no_stripe">WEB DEVELOPMENT</h5>
                     </div>
                     <div class="service_content">
 						<div class="pad-lr30">
@@ -210,17 +216,19 @@
 							  <br>
 							</ul>
 						</div>
-							<p class="text-center"> <a href="<?php echo base_url('develop_service'); ?>" class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
+							<p class="text-center"> <a href="<?php echo base_url('develop_service'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
 						</div>
                 </div>
             </div>
+			</a>
+		<a href="<?php echo base_url('mobile_application'); ?>">
             <div class="col-sm-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-mobile" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe"><a href="#"> MOBILE APPLICATIONS </a></h5>
+                        <h5 class="font-color_base no_stripe"> MOBILE APPLICATIONS</h5>
                     </div>
                     <div class="service_content">
 							<div class="pad-lr30">
@@ -233,19 +241,21 @@
 								
 								</ul>
 							</div>
-							<p class="text-center"> <a href="<?php echo base_url('mobile_application'); ?>" class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
+							<p class="text-center"> <a href="<?php echo base_url('mobile_application'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div>
+			</a>
             </div>
 			 <div class="row">
+			 <a href="<?php echo base_url('digital_marketing'); ?>">
             <div class="col-sm-3">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-industry" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe"><a href="#">DIGITAL MARKETING </a></h5>
+                        <h5 class="font-color_base no_stripe">DIGITAL MARKETING </h5>
                     </div>
                     <div class="service_content">
 							<div class="pad-lr30">
@@ -262,17 +272,18 @@
 								</ul></div>
 								<br>
 								<br>
-							<p class="text-center"> <a href="<?php echo base_url('digital_marketing'); ?>" class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
+							<p class="text-center"> <a href="<?php echo base_url('digital_marketing'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
-            </div>
+            </div></a>
+			 <a href="<?php echo base_url('seo'); ?>">
 			<div class="col-sm-3">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-group" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe"><a href="#"> SEO</a></h5>
+                        <h5 class="font-color_base no_stripe"> SEO</h5>
                     </div>
                     <div class="service_content">
 							<div class="pad-lr30">
@@ -292,17 +303,19 @@
 
 
 
-								<p class="text-center"> <a href="<?php echo base_url('seo'); ?>" class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
+								<p class="text-center"> <a href="<?php echo base_url('seo'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div>
+			</a>
+			 <a href="<?php echo base_url('develop_service'); ?>">
             <div class="col-sm-3">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-shopping-basket" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe"><a href="#">E-COMMERCE DEVELOPMENT</a></h5>
+                        <h5 class="font-color_base no_stripe">E-COMMERCE DEVELOPMENT</h5>
                     </div>
                     <div class="service_content">
                         <div class="pad-lr30">
@@ -320,17 +333,18 @@
 								</ul>
 								<br>
 								</div>
-								<p class="text-center"> <a href="<?php echo base_url('develop_service'); ?>"class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
+								<p class="text-center"> <a href="<?php echo base_url('develop_service'); ?>"class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
-            </div>
+            </div></a>
+			 <a href="<?php echo base_url('maintainence'); ?>">
 			<div class="col-sm-3">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-keyboard-o" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe"><a href="#">MAINTAINENCE </a></h5>
+                        <h5 class="font-color_base no_stripe">MAINTAINENCE </h5>
                     </div>
                     <div class="service_content">
                         <div class="pad-lr30">
@@ -348,10 +362,10 @@
 								  <br class="sm-hide">
 								  <br class="sm-hide">
 								</div>
-								<p class="text-center"> <a href="<?php echo base_url('maintainence'); ?>" class="btn btn-unique btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-unique btn-sm">View Packages</span>--></p>
+								<p class="text-center"> <a href="<?php echo base_url('maintainence'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
-            </div>
+            </div></a>
             
         </div>
         <div class="clearfix">&nbsp;</div>
@@ -405,7 +419,7 @@
                     </span>
                 </h2>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center mb-5 ">Leave your responsibility of online presene to US & Focus on your Core Business.</p>
+				 <p class="text-center mb-5 ">Leave your responsibility of online presence to US & Focus on your Core Business.</p>
 
 
             </div>
@@ -469,7 +483,7 @@
 		<div class=" row justify-content-md-center">
 				
 					
-					<a href="<?php echo base_url('pracha/contactus');?>"><button type="button" class="btn btn-unique btn-rounded">Send Message</button></a>
+					<a href="<?php echo base_url('pracha/contactus');?>"><button type="button" class="btn btn-warning btn-rounded">Send Message</button></a>
 				
 			</div>
         <div class="clearfix">&nbsp;</div>
@@ -975,7 +989,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="<?php echo base_url('price/details/'.base64_encode(1)); ?>" class="btn btn-unique">Rs @ 6999</a>
+								<a href="<?php echo base_url('price/details/'.base64_encode(1)); ?>" class="btn btn-warning">Rs @ 6999</a>
 							</div>
 						</div>
 						
@@ -987,7 +1001,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-unique">Rs @ 3999</a>
+								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-warning">Rs @ 3999</a>
 							</div>
 						</div>
 						
@@ -999,7 +1013,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-unique">Rs @ 5499</a>
+								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-warning">Rs @ 5499</a>
 							</div>
 						</div>
 						
@@ -1014,7 +1028,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="<?php echo base_url('price/details'); ?>" href="price.php" class="btn btn-unique">Rs @ 7999</a>
+								<a href="<?php echo base_url('price/details'); ?>" href="price.php" class="btn btn-warning">Rs @ 7999</a>
 							</div>
 						</div>
 						
@@ -1026,7 +1040,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-unique">Rs @ 7999</a>
+								<a href="<?php echo base_url('price/details'); ?>" class="btn btn-warning">Rs @ 7999</a>
 							</div>
 						</div>
 					
@@ -1038,7 +1052,7 @@
 							<div class="card-body">
 								<h4 class="card-title">Special title treatment</h4>
 								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="<?php echo base_url('services/combo'); ?>" href="comboprice.php" class="btn btn-unique">View </a>
+								<a href="<?php echo base_url('services/combo'); ?>" href="comboprice.php" class="btn btn-warning">View </a>
 							</div>
 						</div>
 					
@@ -1113,7 +1127,7 @@
     </div>
 
     <div class="text-center">
-        <button type="submit" class="btn btn-unique">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+        <button type="submit" class="btn btn-warning">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
     </div>
 
 </form>

@@ -31,10 +31,10 @@
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
     <li class="nav-item">
-        <a class="nav-link active"  href="#ui-ux" role="tab">UI/UX Designing</a>
+        <a class="nav-link "  href="#ui-ux" role="tab">UI/UX Designing</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#web-dev" role="tab">Web Development </a>
+        <a class="nav-link active"  href="#web-dev" role="tab">Web Development </a>
     </li>
     <li class="nav-item">
         <a class="nav-link"  href="#mob-app" role="tab"> Mobile Applications </a>

@@ -27,7 +27,7 @@
 					
                     <p class="description">We have a perfectly designed inbound marketing strategy customized to meet your business requirements. We guarantee that this ideal chain of inbound marketing tools and channels will help in generating a great ROI for your business today, tomorrow and forever.</p>
 					
-                    <a href="WebDesigning.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                    
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
                 <div class="service-content">
                     <h3 class="title">SEO</h3>
                     <p class="description">We have a perfectly planned SEO strategy that will fit into your business requirements. Optimizing your site based on our effective keyword research analogy will drive your site to the top of the search engine results.<br><br></p>
-                    <a href="WebDevelopment.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                    
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
                 <div class="service-content">
                     <h3 class="title">SEM & PPC</h3>
                     <p class="description">SEM is audience driven. Finding out who exactly your audience is and targeting them is what forms the major idea of our SEM strategy. We create compelling advertisements that will attract, engage and convert your customer.</p>
-                    <a href="MobileAppDevelopment.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                   
                 </div>
             </div>
         </div>

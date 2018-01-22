@@ -33,7 +33,7 @@
                     <h3 class="title">Static & Dynamic Website Design</h3>
                     <p class="description">Our static & Dynamic web design services endeavor to showcase your business as well as service online that won’t much require frequent updates.
 </p>
-                    <a href="WebDesigning.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                   
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
                 <div class="service-content">
                     <h3 class="title">Responsive Web Design</h3>
                     <p class="description">Our professionals have the capability of featuring websites over desktop, smart phones and tables alike with responsive web design services</p>
-                    <a href="WebDevelopment.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                    
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
                 <div class="service-content">
                     <h3 class="title">Custom Web Design</h3>
                     <p class="description">Under the services, the aim is to customize the web design as per the requirement of the clients in the most creative way.</p>
-                    <a href="MobileAppDevelopment.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                   
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
                 <div class="service-content">
                     <h3 class="title">Corporate Website Design</h3>
                     <p class="description">Our corporate clients have some specific requirements to be fulfilled that we accomplish with our corporate website design solutions.</p>
-                    <a href="ECommarce.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                   
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@
                 <div class="service-content">
                     <h3 class="title">Template Design & Customization</h3>
                     <p class="description">Through our template design services, we concentrate on the details that have been specified by the clients. We customize the designs over the templates prior to developing one to suit specifically the business requirements.</p>
-                    <a href="ECommarce.html" class="read-more fa fa-plus" data-toggle="tooltip" title="Read More"></a>
+                    
                 </div>
             </div>
         </div>
@@ -271,7 +271,7 @@
           <div class="title">Alpha</div>
           <div class="description">
             <h3>₹ 6,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+            <a href="<?php echo base_url('overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
       </div><!-- end div .circle -->
@@ -290,7 +290,7 @@
           <div class="title">BETA</div>
           <div class="description">
             <h3>₹ 13,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+           <a href="<?php echo base_url('overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
       </div><!-- end div .circle -->
@@ -309,7 +309,7 @@
           <div class="title">GAAMA</div>
           <div class="description">
          <h3>₹ 19,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+           <a href="<?php echo base_url('overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-3-bg info -->
       </div><!-- end div .circle -->
@@ -328,7 +328,7 @@
           <div class="title">PI</div>
           <div class="description">
              <h3>₹ 25,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+           <a href="<?php echo base_url('overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-4-bg info -->
       </div><!-- end div .circle -->
@@ -345,7 +345,7 @@
           <div class="title" style="font-size:20px;">Ecommerce</div><br>
           <div class="description">
             <h3>₹ 34,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+           <a href="<?php echo base_url('overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
       </div><!-- end div .circle -->
