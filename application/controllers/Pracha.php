@@ -45,7 +45,7 @@ class Pracha extends CI_Controller {
 			$this->email->set_newline("\r\n");
 			$this->email->set_mailtype("html");
 			$this->email->from($post['email']);
-			$this->email->to('pushkar.avi@gmail.com');
+			$this->email->to('prachatechit@gmail.com');
 			$this->email->subject($post['subject']);
 			$this->email->message($post['message']);
 			$this->email->send();
