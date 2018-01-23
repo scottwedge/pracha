@@ -115,7 +115,7 @@
           <div class="title">Alpha</div>
           <div class="description">
             <h3>₹ 5,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+            <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
       </div><!-- end div .circle -->
@@ -134,7 +134,7 @@
           <div class="title">BETA</div>
           <div class="description">
             <h3>₹ 11,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+            <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
       </div><!-- end div .circle -->
@@ -153,7 +153,7 @@
           <div class="title">GAAMA</div>
           <div class="description">
          <h3>₹ 14,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+            <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-3-bg info -->
       </div><!-- end div .circle -->
@@ -172,7 +172,7 @@
           <div class="title">DELTA</div>
           <div class="description">
              <h3>₹ 19,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+            <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-4-bg info -->
       </div><!-- end div .circle -->
@@ -189,7 +189,7 @@
           <div class="title" style="font-size:20px;">PI</div><br>
           <div class="description">
             <h3>₹ 27,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+            <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
       </div><!-- end div .circle -->
@@ -234,7 +234,7 @@
           <div class="title">Alpha</div>
           <div class="description">
             <h3>₹ 69,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+            <a href="<?php echo base_url('ecom_overflow');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
       </div><!-- end div .circle -->
@@ -253,7 +253,7 @@
           <div class="title">BETA</div>
           <div class="description">
             <h3>₹ 1,39,999 </h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+            <a href="<?php echo base_url('ecom_overflow');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
       </div><!-- end div .circle -->
@@ -272,7 +272,7 @@
           <div class="title">GAAMA</div>
           <div class="description">
          <h3>₹ 1,79,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+            <a href="<?php echo base_url('ecom_overflow');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-3-bg info -->
       </div><!-- end div .circle -->
@@ -291,7 +291,7 @@
           <div class="title">DELTA</div>
           <div class="description">
              <h3>₹ 2,39,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
+            <a href="<?php echo base_url('ecom_overflow');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-4-bg info -->
       </div><!-- end div .circle -->

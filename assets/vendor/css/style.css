@@ -1223,6 +1223,33 @@ z-index:0;
 	background:#343a40;
 	color:#fff;
 }
+/* downlaod pdf */
+.down-pdf{
+	position:absolute;
+	right:10%;
+	top:5%;
+}
+.down-pdf i{
+	font-size:20px;
+	color:#192f5d;
+}
+.down-pdf i:hover{
+	font-size:20px;
+	color:#bbb;
+}
+.down-pdf1{
+	position:absolute;
+	right:10%;
+	top:2%;
+}
+.down-pdf1 i{
+	font-size:20px;
+	color:#192f5d;
+}
+.down-pdf1 i:hover{
+	font-size:20px;
+	color:#bbb;
+}
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
   .bod-st{
