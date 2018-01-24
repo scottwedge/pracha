@@ -31,10 +31,10 @@
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
     <li class="nav-item">
-        <a class="nav-link "  href="#ui-ux" role="tab">UI/UX Designing</a>
+        <a class="nav-link active"  href="#ui-ux" role="tab">UI/UX Designing</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link active"  href="#web-dev" role="tab">Web Development </a>
+        <a class="nav-link "  href="#web-dev" role="tab">Web Development </a>
     </li>
     <li class="nav-item">
         <a class="nav-link"  href="#mob-app" role="tab"> Mobile Applications </a>
@@ -174,7 +174,7 @@ Software not only smooths the businesses processes, but it also creates a huge n
     <!--Grid column-->
 
     </div>
-	<hr class="mb-5 mt-5 pb-3" id="e-comm-scroll ">
+	<hr class="mb-5 mt-5 pb-3" id="e-comm-scroll">
 
     <!--Grid row-->
     <div class="row">
@@ -357,6 +357,50 @@ Whatever may be your requirement - be it a simple website design, a complex data
 	</section>
 </div>
 <script>
+
+$(document).ready(function () {
+    $(document).on("scroll", onScroll);
+    
+    //smoothscroll
+    $('a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        $(document).off("scroll");
+        
+        $('a').each(function () {
+            $(this).removeClass('active');
+        })
+        $(this).addClass('active');
+      
+        var target = this.hash,
+            menu = target;
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top+2
+        }, 500, 'swing', function () {
+            window.location.hash = target;
+            $(document).on("scroll", onScroll);
+        });
+    });
+});
+
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('#menu-center a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#menu-center ul li a').removeClass("active");
+            currLink.addClass("active");
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+}
+
+
+
+
 	function sticky_relocate() {
     var window_top = $(window).scrollTop();
     var div_top = $('#sticky-anchor').offset().top;
@@ -365,7 +409,7 @@ Whatever may be your requirement - be it a simple website design, a complex data
         $('#sticky-anchor').height($('#sticky').outerHeight());
     } else {
         $('#sticky').removeClass('stick');
-        $('#sticky-anchor').height(0);
+        $('#sticky-anchor').height();
     }
 }
 

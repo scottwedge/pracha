@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Digital_marketing extends CI_Controller {
+class Howwework extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -18,11 +18,11 @@ class Digital_marketing extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
+	public function howweworks()
 	{
-		$this->load->view('header');
-		$this->load->view('digital_marketing');
-		$this->load->view('footer');
+	
+		redirect('#proc-scroll');
+	
 	}
 	
 }

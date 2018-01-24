@@ -4,18 +4,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Pracha extends CI_Controller {
 
 	public function __construct() 
-  {
-
+	{
 		parent::__construct();	
 		$this->load->helper(array('url','html','form'));
 		$this->load->library('session','form_validation');
 		$this->load->library('email');
 		$this->load->model('Pracha_model');
-		
- 
- }
+		$this->load->library('user_agent');
+	}
 	public function index()
 	{
+		
 		$this->load->view('header');
 		$this->load->view('index');
 		$this->load->view('footer');
@@ -24,9 +23,17 @@ class Pracha extends CI_Controller {
 	{
 		redirect('#proc-scroll');
 	}
+	public function services()
+	{
+		redirect('#seric-sc');
+	}
+	public function pricings()
+	{
+		redirect('#pricings');
+	}
 	public function contactus()
 	{
-		redirect('#contact-scroll');
+	redirect('#contact-scroll');
 	}
 	
 	public function contactpost(){
@@ -49,7 +56,7 @@ class Pracha extends CI_Controller {
 			$this->email->subject($post['subject']);
 			$this->email->message($post['message']);
 			$this->email->send();
-			$this->session->set_flashdata('success','Your query successfully sent.Our team get in touch with you');
+			$this->session->set_flashdata('success','Your Query is successfully sent. Our team will contact you soon.');
 
 		}else{
 			$this->session->set_flashdata('error','Technical problem will occured . try again after some time');

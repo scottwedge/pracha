@@ -1,5 +1,5 @@
 
-<div>
+<div class="selectstate">
 <section class=" bod-st" >
     <!--Carousel Wrapper-->
 <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel" style="height:500%">
@@ -41,7 +41,7 @@
 							<span class=""><a href="<?php echo base_url('mobile_application'); ?>">Android, iOS Application Development </a><br>& <a href="<?php echo base_url('maintainence'); ?>">Maintenance</a></span>
 						</div>
 						<div class="col-4 caption-tit">
-							<span class=""> <a href="<?php echo base_url('seo'); ?>">SEO</a>, <a href="<?php echo base_url('digital_marketing'); ?>">Digital Marketing & Advertisements.</a></span>
+							<span class=""> <a href="<?php echo base_url('seo'); ?>">SEO</a>, <a href="<?php echo base_url('digitalmarketing'); ?>">Digital Marketing & Advertisements.</a></span>
 						</div>
 					</div>
 					
@@ -248,7 +248,7 @@
 			</a>
             </div>
 			 <div class="row">
-			 <a href="<?php echo base_url('digital_marketing'); ?>">
+			 <a href="<?php echo base_url('digitalmarketing'); ?>">
             <div class="col-sm-3">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
@@ -272,7 +272,7 @@
 								</ul></div>
 								<br>
 								<br>
-							<p class="text-center"> <a href="<?php echo base_url('digital_marketing'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+							<p class="text-center"> <a href="<?php echo base_url('digitalmarketing'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div></a>
@@ -921,7 +921,7 @@
 								</a>
 							</li>
 							<li>
-							<a href="<?php echo base_url('digital_marketing'); ?>">
+							<a href="<?php echo base_url('digitalmarketing'); ?>">
 							  <div class="circle">
 								<div class="front-home bg-secondary " >
 								<p class="clearfix ">&nbsp;</p>

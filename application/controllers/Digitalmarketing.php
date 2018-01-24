@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Seo extends CI_Controller {
+class Digitalmarketing extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -21,27 +21,14 @@ class Seo extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('header');
-		$this->load->view('seo');
+		$this->load->view('digital_marketing');
 		$this->load->view('footer');
 	}
-	
 	public function readmore()
 	{
-	$this->load->view('header');
-	$this->load->view('seoreadmore');
-	$this->load->view('footer');
+		$this->load->view('header');
+		$this->load->view('digital_marketing_readmore');
+		$this->load->view('footer');
 	}
-	public function ppc()
-	{
-	$this->load->view('header');
-	$this->load->view('ppc');
-	$this->load->view('footer');
-	}public function affilatemanagement()
-	{
-	$this->load->view('header');
-	$this->load->view('affilatemanagement');
-	$this->load->view('footer');
-	}
-	
 	
 }
