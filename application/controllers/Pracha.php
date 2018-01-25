@@ -19,22 +19,7 @@ class Pracha extends CI_Controller {
 		$this->load->view('index');
 		$this->load->view('footer');
 	}
-	public function howwework()
-	{
-		redirect('#proc-scroll');
-	}
-	public function services()
-	{
-		redirect('#seric-sc');
-	}
-	public function pricings()
-	{
-		redirect('#pricings');
-	}
-	public function contactus()
-	{
-	redirect('#contact-scroll');
-	}
+	
 	
 	public function contactpost(){
 		$post=$this->input->post();

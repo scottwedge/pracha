@@ -959,7 +959,7 @@
 					</div>
 					<div class=" row justify-content-md-center mar-t30">
 			
-				<a href="<?php echo base_url('price/details');?>"><button type="button" class="btn btn-dark btn-rounded">View All</button></a>
+				<!---<a href="<?php echo base_url('price/details');?>"><button type="button" class="btn btn-dark btn-rounded">View All</button></a>-->
 			
 		</div>
 			<div class="clearfix">&nbsp;</div>

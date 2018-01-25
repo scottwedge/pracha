@@ -28,16 +28,6 @@
 
             <hr class="clearfix w-100 d-md-none">
 
-            <!--Second column-->
-            <div class="col-md-2 mx-auto">
-                <h5 class="title-footer mb-4 mt-3 font-bold">QUICK LINKS</h5>
-                <ul>
-                    <li><a href="<?php echo base_url(); ?>" >Home</a></li>
-                    <li><a href="#seric-sc">Our Services</a></li>
-                    <li><a href="#proc-scroll">How We Work</a></li>
-                    <li><a href="#">Team</a></li>
-                </ul>
-            </div>
             <!--/.Second column-->
 
             <hr class="clearfix w-100 d-md-none">
@@ -69,10 +59,13 @@
 
 
 
+                     <li><a href="<?php echo base_url(); ?>" >Home</a></li>
+					 <li><a href="#">About Us</a></li>
+					  <li><a href="<?php echo base_url('price'); ?>">Pricing</a></li>
                     <li><a href="<?php echo base_url('carriers'); ?>">Careers</a></li>
-                    <li><a href="#">About Us</a></li>
+                    
                     <li><a href="<?php echo base_url('pracha/contactus');?>">Contact Us</a></li>
-                    <li><a href="#pricings">Pricing</a></li>
+                   
                 </ul>
             </div>
             <!--/.Fourth column-->

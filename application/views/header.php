@@ -28,11 +28,41 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
 			<ul class="nav navbar-nav  ml-auto">
 				<li class="nav-item active " id="homepageative"><a href="<?php echo base_url(); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
-				<li class="nav-item"><a href="<?php echo base_url('pracha/services');?>" class="nav-link "> <span class=" ">Our Services</span></a></li>
-				<li class="nav-item"><a href="<?php echo base_url('pracha/howwework');?>" class="nav-link"> <span class=" ">How We work?</span></a></li>
-				<li class="nav-item"><a href="<?php echo base_url('pracha/pricings');?>" class="nav-link "> <span class=" ">Pricing</span></a></li>
+				<li class="nav-item">
+				<div class="dropdown">
+					<a  class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
+				  <div class="dropdown-content1">
+					<a href="<?php echo base_url('servicesrm'); ?>">UI/UX Designing</a>
+					<a href="<?php echo base_url('develop_service'); ?>">Web Development</a>
+					<a href="<?php echo base_url('mobile_application'); ?>">Mobile Applications</a>
+					<a href="<?php echo base_url('digitalmarketing'); ?>"> Digital Marketing</a>
+					<a href="<?php echo base_url('seo'); ?>">SEO</a>
+					<a href="<?php echo base_url('develop_service'); ?>">E-Commerce</a>
+					<a href="<?php echo base_url('maintainence'); ?>"> Maintenance</a>
+					
+				  </div>
+				</div>
+            </li>
+				
+				<!--<li class="nav-item"><a href="<?php echo base_url('pracha/howwework');?>" class="nav-link"> <span class=" ">How We work?</span></a></li>-->
+			
+				<li class="nav-item">
+				<div class="dropdown">
+					<a   class="nav-link dropdown-toggle"> <span class=" ">Pricing</span></a>
+				  <div class="dropdown-content1">
+					<a href="<?php echo base_url('servicesrm'); ?>">UI/UX Designing</a>
+					<a href="<?php echo base_url('develop_service'); ?>">Web Development</a>
+					<a href="<?php echo base_url('mobile_application'); ?>">Mobile Applications</a>
+					<a href="<?php echo base_url('digitalmarketing'); ?>"> Digital Marketing</a>
+					<a href="<?php echo base_url('seo'); ?>">SEO</a>
+					<a href="<?php echo base_url('develop_service'); ?>">E-Commerce</a>
+					<a href="<?php echo base_url('maintainence'); ?>"> Maintenance</a>
+					
+				  </div>
+				</div>
+            </li>
 				<!--<li class="nav-item"><a href="<?php echo base_url('carriers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>-->
-				<li class="nav-item"><a href="<?php echo base_url('pracha/contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>
+				<li class="nav-item"><a href="<?php echo base_url('contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>
 			</ul>
         </div>
    </nav>

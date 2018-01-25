@@ -20,7 +20,7 @@ class Servicesrm extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('header1');
+		$this->load->view('header');
 		$this->load->view('servicesrm');
 		$this->load->view('footer');
 	}
