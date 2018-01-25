@@ -244,7 +244,7 @@
             <div class="col-sm-12 mb-20 pt-30">
 
                 <h2>
-                    <span class="tit bg-white" >
+                    <span class="tit bg-dark" >
 									UI/UX<span class="des_t">  Designing 
                     </span> Pricing
                 </h2>

@@ -160,7 +160,7 @@
             <div class="col-sm-12 mb-20 pt-30">
 
                 <h2>
-                    <span class="tit bg-white" >
+                    <span class="tit bg-dark" >
 									Social  Media <span class="des_t"> Optimization
                     </span> Pricing 
                 </h2>

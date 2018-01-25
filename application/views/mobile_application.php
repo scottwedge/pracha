@@ -180,7 +180,7 @@
             <div class="col-sm-12 mb-20 pt-30">
 
                 <h2>
-                    <span class="tit bg-white" >
+                    <span class="tit bg-dark" >
 									Mobile  <span class="des_t"> Applications
                     </span> Pricing ( Android or iOS )
                 </h2>

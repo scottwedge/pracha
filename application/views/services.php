@@ -99,7 +99,7 @@
         <p>Our team of UI/UX designers at PrachaTECH have ample of years of experience in the core areas of user experience, which helps them collaborate the finer modules of usability and functionality in-line with business goals and end-user needs.</p>
        
         <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
-        <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Packages</a>
+       
     </div>
     <!--Grid column-->
 
@@ -123,8 +123,8 @@ We offer the below Web Development Services
 Software not only smooths the businesses processes, but it also creates a huge new market, but coupling the right target environment with the right technology can be challenging task for the software development companies.
 </p>
         
-         <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
-        <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Packages</a>
+         <a href="<?php echo base_url('develop_service'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
+       
     </div>
     <!--Grid column-->
 
@@ -169,7 +169,8 @@ Software not only smooths the businesses processes, but it also creates a huge n
         <strong>Mobile Application Development</strong>
         </h3>
         <p>Mobile apps have changed the life of the people from health to finance apps are prepared for every sector to cater the need of users. Every day thousands of apps are coming into market to download and use. PrachaTECH main objective is to create state-of-the-art mobile applications which will provide our clients an upper edge in the market.</p>
-         <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a><a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Packages</a>
+         <a href="<?php echo base_url('mobile_application'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
+		 
     </div>
     <!--Grid column-->
 
@@ -187,7 +188,7 @@ Software not only smooths the businesses processes, but it also creates a huge n
         <strong>E-commerce Solutions</strong>
         </h3>
         <p>Our vast experience in developing ecommerce websites has made us one of the best choices for ecommerce website Development Company in Hyderabad. We understand the need of each client is different and thus we plan the e commerce application development accordingly. Though from top its look all the e commerce websites are same but there is huge difference in each and every website. It depends mainly on the target market and thus the design and functionalities also change according to that. Our vast experience helps us not only in developing e commerce websites, but we are also providing our consultancy to many ecommerce companies.</p>
-        <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a><a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Packages</a>
+        <a href="<?php echo base_url('develop_service'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
     </div>
     <!--Grid column-->
 
@@ -234,7 +235,8 @@ Software not only smooths the businesses processes, but it also creates a huge n
         <p>Digital marketing comprises of several activities for the web apart from marketing and each and every activity needs to be executed with focus on the end users to ensure success. Fortunately, we have an excellent team of digital marketing experts, who are working 24/7 to attract, engage and convert your customers into sales.
 SEO, SEM, PPC, SMO, Content marketing and social media networking, etc. comprise a perfect digital marketing strategy. We are Google certified marketing professionals as well as Bing ads accredited agency, and each member of our digital marketing team flaunts a great deal of experience and expertise in their field of marketing and are always on the hunt for new and innovative ideas to connect businesses to people across the globe.
 </p>
-        <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a><a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Packages</a>
+        <a href="<?php echo base_url('digitalmarketing'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
+		
     </div>
     <!--Grid column-->
 
@@ -254,7 +256,7 @@ SEO, SEM, PPC, SMO, Content marketing and social media networking, etc. comprise
         <strong>SEO</strong>
         </h3>
         <p>Each website is unique in its own way and hence our search engine optimization (SEO) plans differs from website to website. However, we are providing a comparison chart of our five major SEO services to give you a brief overview</p>
-        <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a><a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Packages</a>
+        <a href="<?php echo base_url('seo'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
     </div>
     <!--Grid column-->
 
@@ -306,7 +308,7 @@ Whatever may be your requirement - be it a simple website design, a complex data
 
 
 
-        <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a><a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Packages</a>
+        <a href="<?php echo base_url('maintainence'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
     </div>
     <!--Grid column-->
 

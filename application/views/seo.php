@@ -77,7 +77,7 @@
             <div class="col-sm-12 mb-20 pt-30">
 
                 <h2>
-                    <span class="tit bg-white" >
+                    <span class="tit bg-dark" >
 									Search Engine <span class="des_t"> Optimization
                     </span> Pricing 
                 </h2>
@@ -210,7 +210,7 @@
             <div class="col-sm-12 mb-20 pt-30">
 
                 <h2>
-                    <span class="tit bg-white" >
+                    <span class="tit bg-dark" >
 									PPC  <span class="des_t">( pay-per-click )
                     </span> Pricing 
                 </h2>
@@ -327,7 +327,7 @@
             <div class="col-sm-12 mb-20 pt-30">
 
                 <h2>
-                    <span class="tit bg-white" >
+                    <span class="tit bg-dark" >
 									Affilate   <span class="des_t">Management
                     </span> Pricing 
                 </h2>

@@ -64,7 +64,7 @@
 					  <li><a href="<?php echo base_url('price'); ?>">Pricing</a></li>
                     <li><a href="<?php echo base_url('carriers'); ?>">Careers</a></li>
                     
-                    <li><a href="<?php echo base_url('pracha/contactus');?>">Contact Us</a></li>
+                    <li><a href="<?php echo base_url('contactus');?>">Contact Us</a></li>
                    
                 </ul>
             </div>
@@ -110,7 +110,6 @@
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
-	<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/compiled.min.js"></script>
     
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/mdb.min.js"></script>

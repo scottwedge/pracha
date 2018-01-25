@@ -2,7 +2,7 @@
 <section id="masthead" role="banner" class="bod-st">
 
   <h1>
- Maintainence<br /><br>
+ Maintenance<br /><br>
  
 
 
@@ -38,7 +38,7 @@
 
 			<p class="text-center">
 				let us be your Software & marketing partner. You feel it worthy having us. 
-				Whatever may be your requirement - be it a simple website design, a complex data driven web application development, an ecommerce website, a native or cross platform mobile app development, a logo and brand identity design, a full-fledged digital marketing campaign & even maintenance of all these  - we have a solution for you.
+				Whatever may be your requirement ,be it a simple website design, a complex data driven web application development, an ecommerce website, a native or cross platform mobile app development, a logo and brand identity design, a full-fledged digital marketing campaign & even maintenance of all these  - we have a solution for you.
 			</p>
 			
 		</div>
