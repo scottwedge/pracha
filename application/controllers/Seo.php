@@ -47,8 +47,6 @@ class Seo extends CI_Controller {
 		ini_set('memory_limit','320M'); // boost the memory limit if it's low <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="??" draggable="false" class="emoji">
 		$html =$this->load->view('affilatemanagement',$data, true); // render the view into HTML
 		//echo '<pre>';print_r($html);exit;
-		$stylesheet1 = file_get_contents(base_url('assets/vendor/css/bootstrap.min.css')); // external css
-		$stylesheet6 = file_get_contents('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 		$this->load->library('pdf');
 		$pdf = $this->pdf->load();
 		$pdf->SetFooter($_SERVER['HTTP_HOST'].'|{PAGENO}|'.date('M-d-Y')); // Add a footer for good measure <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="??" draggable="false" class="emoji">
