@@ -73,8 +73,8 @@
 
 
 
-
-	<section id="digitalmarketing_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/seobac1.png'); height: 100%;">
+	<div class="" style="padding:0px 30px;">
+	<section id="digitalmarketing_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/bac2.png'); height: 100%;">
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
@@ -207,7 +207,10 @@
   </ul>
 <!--END LIST -->
 </section>
-<section class="content_wrap  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/bac1.png'); height: 500px;" >
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="" style="padding:0px 30px;">
+<section class="content_wrap  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/seobac1.png'); height: 500px;" >
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
@@ -324,6 +327,8 @@
   </ul>
 <!--END LIST -->
 </section>
+</div>
+<div class="" style="padding:0px 30px;">
 <section class="content_wrap  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/bac2.png'); background-repeat: repeat; height: 500px;" >
 	
   <div class="row  text-center">
@@ -441,6 +446,7 @@
   </ul>
 <!--END LIST -->
 </section>
+</div>
 <div class="clearfix">&nbsp;</div>
 
 

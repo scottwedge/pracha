@@ -157,7 +157,7 @@
 
 
 
-
+<div class="" style="padding:0px 30px;">
 	<section id="digitalmarketing_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/digitbac1.png'); height: 100%;">
 	
   <div class="row  text-center">
@@ -291,6 +291,7 @@
   </ul>
 <!--END LIST -->
 </section>
+</div>
 <div class="clearfix">&nbsp;</div>
 
 
