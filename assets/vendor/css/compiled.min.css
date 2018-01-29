@@ -15653,7 +15653,7 @@ footer.page-footer .social-section ul a {
 }
 footer.page-footer ul,
 ul.instagram-photos {
-	list-style-type:none;
+	list-style-type:circle;
 	padding:0
 }
 ul.instagram-photos li {
