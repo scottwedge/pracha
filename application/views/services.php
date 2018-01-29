@@ -326,7 +326,7 @@ Whatever may be your requirement - be it a simple website design, a complex data
         <h3 class="mb-4 font-bold dark-grey-text">
         <strong>Business Solutions</strong>
         </h3>
-        <p>Pre- developed, Tailor-Made & Customizable, Professional, Affordable & Effective Business Solutions. We deliver A-level solutions to our clients in e-commerce, finance, education management, hotels & restarunts, healthcare & other industries
+        <p>Pre- developed, Tailor-Made & Customizable, Professional, Affordable & Effective Business Solutions. We deliver A-level solutions to our clients in e-commerce, finance, education management, hotels & restaurants, healthcare & other industries
 </p>
         <!--<a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>-->
     </div>

@@ -52,7 +52,7 @@
                     <span><i class="fa fa-shopping-cart "></i></span>
                 </div>
                 <div class="service-content">
-                    <h3 class="title">Ecommerce Development</h3>
+                    <h3 class="title">E-commerce Development</h3>
 					<div class="clearfix">&nbsp;</div>
                     <p class="description">We create custom designed ecommerce websites that’d make you stand out from your competitors. From our experience of creating more than 150 ecommerce sites, we know how to do it best.</p>
                    
