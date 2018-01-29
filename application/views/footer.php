@@ -7,7 +7,7 @@
 			<span><i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 040 - 48541273</span>
 			
 			<a href="mailto:support@prachatech.com" target="_top"><span><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; support@prachatech.com</span></a>
-			<span><i class="fa fa-skype" aria-hidden="true"></i> &nbsp; Prachatech@skype</span>
+			<a href="skype:Prachatech@skype?chat"><span><i class="fa fa-skype" aria-hidden="true"></i> &nbsp; Prachatech@skype</span></a>
 		</p>
 		
 		<a href="<?php echo base_url('contactus');?>"><button type="button" class="btn btn-dark btn-rounded">REQUEST A FREE QUOTE</button></a>
