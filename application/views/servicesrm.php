@@ -94,17 +94,19 @@
                 </div>
             </div>
         </div>
-		<div class="col-md-4 col-sm-6 col-xsx-6 ">
+		<div class="col-md-4 col-sm-6 col-xsx-6 " >
 			&nbsp;
 		</div>
+		
 	</div>
+	
 </div>
 	
 </section>
-<div class="clearfix">&nbsp;</div>
-<div class="clearfix">&nbsp;</div>
-<span id="designing_price"></span>
-<div class="clearfix">&nbsp;</div>
+
+
+
+
 
 <!--<section>
 <div class="container-sty card " >
@@ -241,7 +243,8 @@
 	</div>
 </section>-->
 	
-	<section class="content_wrap    jarallax" data-jarallax-video="https://www.youtube.com/watch?v=k2gJaZ9xqD8" >
+	<section class="content_wrap    jarallax" id="designing_price" data-jarallax-video="https://www.youtube.com/watch?v=k2gJaZ9xqD8" 
+>
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
