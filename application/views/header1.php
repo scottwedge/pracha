@@ -32,7 +32,7 @@
 
               <ul class="nav navbar-nav  ml-auto">
             <li class="nav-item ">
-                <a href="<?php echo base_url(); ?>" class="nav-link"> <span class=" ">Home</span></a>
+                <a href="<?php echo base_url(); ?>" class="nav-link"> <span class=" ">account</span></a>
             </li>  
 			
             
