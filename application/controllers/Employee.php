@@ -64,6 +64,25 @@ class Employee extends CI_Controller {
 		
 		
 	}
+	public function forgotpassword()
+	{
+		
+		if(!$this->session->userdata('userdetails'))
+		{
+				$post=$this->input->post();
+				$check_email = $this->Employee_model->check_employee_email($post['emp_email']);
+				if(count($check_email)>0){
+					$this->session->set_userdata('userdetails',$check_email);
+					redirect('employee/profile');	
+						
+				}else{
+					$this->session->set_flashdata('loginerror',"Invalid Email Address. please try again");
+					redirect('employee');
+				}
+		}else{
+			redirect('employee/profile');	
+		}
+	}
 	public function logout(){
 		if($this->session->userdata('userdetails'))
 		{
