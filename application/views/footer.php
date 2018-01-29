@@ -1,5 +1,5 @@
 <!--Footer-->
-<section class="ptb-20">
+<!--<section class="ptb-20">
 	<div class="text-center">
 		<h2 class="pb-40">Discuss Your Project With Our Team</h2>
 		<p>Want to grow your business online, contact us for a FREE Analysis !!</p>
@@ -12,7 +12,7 @@
 		
 		<a href="<?php echo base_url('contactus');?>"><button type="button" class="btn btn-dark btn-rounded">REQUEST A FREE QUOTE</button></a>
 	</div>
-</section>
+</section>-->
 <footer class="page-footer center-on-small-only stylish-color-dark sm-hide">
 
     <!--Footer Links-->
@@ -100,6 +100,7 @@
     
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/popper.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/compiled.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     
     <!-- MDB core JavaScript -->
