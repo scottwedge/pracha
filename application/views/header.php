@@ -50,7 +50,7 @@
 			
 				<li class="nav-item">
 				<div class="dropdown">
-					<a   class="nav-link dropdown-toggle"> <span class=" ">Pricing</span></a>
+					<a href="<?php echo base_url('price/estimate'); ?>" class="nav-link dropdown-toggle"> <span class=" ">Pricing</span></a>
 				  <div class="dropdown-content1">
 					<a href="<?php echo base_url('price/design'); ?>">UI/UX Designing</a>
 					<a href="<?php echo base_url('develop_service/price'); ?>">Web Development</a>

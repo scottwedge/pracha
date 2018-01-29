@@ -49,7 +49,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo base_url('develop_service'); ?>">
+								<a href="<?php echo base_url('ecommerce'); ?>">
 							  <div class="circle">
 								<div class="front-home bg-pink " >
 								<p class="clearfix ">&nbsp;</p>

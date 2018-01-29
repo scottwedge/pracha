@@ -43,8 +43,9 @@
                     <li><a href="<?php echo base_url('servicesrm'); ?>">UI/UX Designing </a></li>
                     <li><a href="<?php echo base_url('develop_service'); ?>">Web Development</a></li>
                     <li><a href="<?php echo base_url('mobile_application'); ?>">Mobile Applications</a></li>
-                    <li><a href="<?php echo base_url('digital_marketing'); ?>">Digital Marketing </a></li>
+                    <li><a href="<?php echo base_url('digitalmarketing'); ?>">Digital Marketing </a></li>
                     <li><a href="<?php echo base_url('seo'); ?>">  SEO </a></li>
+                    <li><a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a></li>
                     <li><a href="<?php echo base_url('maintainence'); ?>"> Maintenance </a></li>
                 </ul>
             </div>
@@ -62,7 +63,7 @@
 
                      <li><a href="<?php echo base_url(); ?>" >Home</a></li>
 					 <li><a href="#">About Us</a></li>
-					  <li><a href="<?php echo base_url('price'); ?>">Pricing</a></li>
+					  <li><a href="<?php echo base_url('price/estimate'); ?>">Pricing</a></li>
                     <li><a href="<?php echo base_url('carriers'); ?>">Careers</a></li>
                     
                     <li><a href="<?php echo base_url('contactus');?>">Contact Us</a></li>
