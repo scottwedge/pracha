@@ -8,7 +8,7 @@
 						</span>
 					</h2>
 					<div class="clearfix">&nbsp;</div>
-				 <p class="text-center mb-5 ">This is not an expenditure, but an investment on your business.</p>
+				 <p class="text-center mb-5 ">This is not an expenditure but an investment on your business.</p>
 				</div>
 				</div>
 				
