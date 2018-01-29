@@ -24,11 +24,11 @@
 									<div class="card-body">
 										<!--Name-->
 										<h4 class="mt-1">
-											<strong>John Doe</strong>
+											<strong><?php echo $userdetails['emp_name']; ?></strong>
 										</h4>
 										<hr>
 										<!--Quotation-->
-										<p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.</p>
+										<p class="dark-grey-text"><?php echo $userdetails['emp_role']; ?></p>
 									</div>
 						
 								</div>
@@ -38,22 +38,22 @@
 					</div>
 					<!--Excerpt-->
 					<div class="news-data mb-5">
-						<a href="" class="deep-orange-text">
+						<a class="deep-orange-text">
 							<h6>
-								<i class="fa fa-cutlery"></i><strong> Culinary</strong>
+								<i class="fa fa-cutlery"></i><strong> Date fo Join</strong>
 							</h6>
 						</a>
 						<p class="dark-grey-text">
-<strong>
- <i class="fa fa-clock-o"></i> 27/02/2018</strong>
+							<strong>
+							<i class="fa fa-clock-o"></i> &nbsp;<?php echo $userdetails['emp_doj']; ?>
+							</strong>
 						</p>
 					</div>
 					<h3 class="pt-2">
- <a>
- <strong>This is title
-of the news</strong>
- </a>
- </h3>
+					 <a>
+					 <strong>Our Vision</strong>
+					 </a>
+					</h3>
 					<p align="justify">Sed ut perspiciatis unde voluptatem omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae explicabo. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 				</div>
 				<!--/Featured news-->

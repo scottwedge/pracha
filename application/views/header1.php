@@ -24,12 +24,20 @@
 <header>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark  bg-dark scrolling-navbar" id="home" >
-   <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/vendor/img/logo.png" alt="logo"></strong></a>
+		<?php if($this->session->userdata('userdetails')){  ?>
+		<a href="<?php echo base_url('employee/profile'); ?>"><img src="<?php echo base_url(); ?>assets/vendor/img/logo.png" alt="logo"></strong></a>
+		<?php }else{ ?>
+				<a href="<?php echo base_url('employee'); ?>"><img src="<?php echo base_url(); ?>assets/vendor/img/logo.png" alt="logo"></strong></a>
+
+		<?php } ?>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-
+		<?php if($this->session->userdata('userdetails'))
+		{ 
+		$userdetails=$this->session->userdata('userdetails');
+		?>
               <ul class="nav navbar-nav  ml-auto">
             <!--<li class="nav-item ">
                 <a href="<?php echo base_url(); ?>" class="nav-link dropdown-toggle"> <span class=" ">account</span></a>
@@ -38,10 +46,10 @@
 				
 				<li class="nav-item">
 				<div class="dropdown">
-					<a class="nav-link dropdown-toggle"> <span class=" ">Account</span></a>
+					<a href="<?php echo base_url('employee/profile'); ?>" class="nav-link dropdown-toggle"> <span class=" "><?php echo $userdetails['emp_name'];?></span></a>
 				  <div class="dropdown-content1">
-					<a href="#">logout</a>
-					<a href="#">Change Password</a>
+					<a href="<?php echo base_url('employee/logout'); ?>">logout</a>
+					<a href="<?php echo base_url('employee/changepassword'); ?>">Change Password</a>
 					
 				  </div>
 				</div>
@@ -53,6 +61,7 @@
             
         
         </ul>
+		<?php } ?>
           
         </div>
     </nav>

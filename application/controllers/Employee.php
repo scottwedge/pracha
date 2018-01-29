@@ -17,7 +17,7 @@ class Employee extends CI_Controller {
 		
 		if(!$this->session->userdata('userdetails'))
 		{
-		$this->load->view('header');
+		$this->load->view('header1');
 		$this->load->view('login');
 		$this->load->view('footer');
 		}else{
@@ -53,7 +53,8 @@ class Employee extends CI_Controller {
 		
 		if($this->session->userdata('userdetails'))
 		{
-			$data['userdetails']=$this->session->userdata('userdetails');
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$this->load->view('header1');
 			$this->load->view('profile',$data);
 			$this->load->view('footer');
@@ -63,6 +64,56 @@ class Employee extends CI_Controller {
 		} 		
 		
 		
+	}
+	public function changepassword(){
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$this->load->view('header1');
+			$this->load->view('changepassword',$data);
+			$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	public function changepasswordpost(){
+		if($this->session->userdata('userdetails'))
+		{
+			$post=$this->input->post();
+			//echo '<pre>';print_r($post);exit;
+			$currentpostpassword=md5($post['old_email']);
+			$newpassword=md5($post['new_password']);
+			$conpassword=md5($post['confirm_password']);
+			$userdetails = $this->Employee_model->getcustomer_oldpassword($post['emp_id']);
+			//print_r($userdetails);exit;			
+			$currentpasswords=$userdetails['emp_password'];
+			//print_r($currentpasswords);exit;
+				if($currentpostpassword == $currentpasswords ){
+					if($newpassword == $conpassword){
+						$passwordchange = $this->Employee_model->set_password($post['emp_id'],$conpassword);
+							if (count($passwordchange)>0)
+							{
+								$this->session->set_flashdata('updatpassword',"Password successfully changed!");
+								redirect('employee/changepassword');
+							}else
+								{
+								$this->session->set_flashdata('passworderror',"Something went wrong in change password process!");
+								redirect('employee/changepassword');
+							}
+					}else{
+						$this->session->set_flashdata('passworderror',"New password and confirm password was not matching");
+						redirect('employee/changepassword');
+					}
+				}else{
+					$this->session->set_flashdata('passworderror',"Your Old password is incorrect. Please try again.");
+					redirect('employee/changepassword');
+				}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
 	}
 	public function forgotpassword()
 	{
