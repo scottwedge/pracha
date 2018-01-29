@@ -16,7 +16,7 @@ class Employee extends CI_Controller {
 	{
 		
 		$this->load->view('header');
-		$this->load->view('index');
+		$this->load->view('login');
 		$this->load->view('footer');
 	}
 	
