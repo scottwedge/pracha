@@ -303,6 +303,8 @@
   <!-- END LIST ELEMENT -->
   </ul>
 <!--END LIST -->
+<div class="clearfix">&nbsp;</div>
+<div class="clearfix">&nbsp;</div>
 </section>
 <div class="clearfix">&nbsp;</div>
 
