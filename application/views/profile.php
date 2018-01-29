@@ -18,7 +18,12 @@
 						
 									<!--Avatar-->
 									<div class="avatar">
-										<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-responsive">
+									<?php if($userdetails['emp_profilepic']!=''){ ?>
+										<img src="<?php echo base_url('assets/emp_pics/'.$userdetails['emp_profilepic']); ?>" class="rounded-circle img-responsive">
+									<?php }else{ ?>
+										<img src="<?php echo base_url('assets/emp_pics/default.jpg'); ?>" class="rounded-circle img-responsive">
+
+									<?php } ?>
 									</div>
 						
 									<div class="card-body">

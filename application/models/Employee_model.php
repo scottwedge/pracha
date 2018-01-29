@@ -28,8 +28,18 @@ class Employee_model extends CI_Model
 		$sql="SELECT * FROM employee WHERE emp_id ='".$empid."'";
         return $this->db->query($sql)->row_array(); 
 	}
-	public function set_password($empid,$pass){
-		$sql1="UPDATE employee SET emp_password ='".$pass."' WHERE emp_id = '".$empid."'";
+	public function set_password($empid,$pass,$orgpass){
+		$sql1="UPDATE employee SET emp_password ='".$pass."', emp_org_password ='".$orgpass."' WHERE emp_id = '".$empid."'";
+       	return $this->db->query($sql1);
+	}
+	public function check_today_login($empid,$date){
+		$this->db->select('*')->from('login_report');
+		$this->db->where('emp_id', $empid);	
+		$this->db->where('create_at', $date);	
+        return $this->db->get()->row_array();
+	}
+	public function update_logout_time_status($l_id,$emp_id,$date){
+		$sql1="UPDATE login_report SET logout_time ='".$date."' WHERE id = '".$l_id."' AND emp_id = '".$emp_id."'";
        	return $this->db->query($sql1);
 	}
 
