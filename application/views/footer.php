@@ -7,10 +7,10 @@
 			<span><i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 040 - 48541273</span>
 			
 			<a href="mailto:support@prachatech.com" target="_top"><span><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; support@prachatech.com</span></a>
-			<a href="#"><span><i class="fa fa-skype" aria-hidden="true"></i> &nbsp; prachatech@gmail.com</span></a>
+			<span><i class="fa fa-skype" aria-hidden="true"></i> &nbsp; Prachatech@skype</span>
 		</p>
 		
-		<a href="<?php echo base_url('pracha/contactus');?>"><button type="button" class="btn btn-dark btn-rounded">REQUEST A FREE QUOTE</button></a>
+		<a href="<?php echo base_url('contactus');?>"><button type="button" class="btn btn-dark btn-rounded">REQUEST A FREE QUOTE</button></a>
 	</div>
 </section>
 <footer class="page-footer center-on-small-only stylish-color-dark sm-hide">
@@ -89,16 +89,7 @@
 
         </ul>
     </div>
-    <!--/.Social buttons-->
-
-    <!--Copyright
-    <div class="footer-copyright">
-        <div class="container-fluid">
-            © 2017 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
-
-        </div>
-    </div>-->
-   
+ 
 
 </footer>
 <!--/.Footer-->
