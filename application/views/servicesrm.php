@@ -101,10 +101,8 @@
 </div>
 	
 </section>
-<div class="clearfix">&nbsp;</div>
-<div class="clearfix">&nbsp;</div>
-<span id="designing_price"></span>
-<div class="clearfix">&nbsp;</div>
+
+
 
 <!--<section>
 <div class="container-sty card " >
@@ -240,8 +238,9 @@
 		
 	</div>
 </section>-->
-	
-	<section class="content_wrap    jarallax" data-jarallax-video="https://www.youtube.com/watch?v=k2gJaZ9xqD8" >
+<div class="clearfix">&nbsp;</div>
+	<div class="" style="padding:0px 30px;">
+	<section id="designing_price" class="content_wrap  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/designbac.png'); height: 100%;">
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
@@ -357,6 +356,7 @@
   </ul>
 <!--END LIST -->
 </section>
+</div>
 
    <script>
 	$(".box").click(function(){

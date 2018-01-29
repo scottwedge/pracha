@@ -172,12 +172,10 @@
 	
 </section>
 <div class="clearfix">&nbsp;</div>
-<div class="clearfix">&nbsp;</div>
-<span id="mobile_application_price"></span>
-<div class="clearfix">&nbsp;</div>
 
 
-	<section class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/mobbac1.png'); height: 100%;">
+
+	<section id="mobile_application_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/mobbac1.png'); height: 100%;">
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">

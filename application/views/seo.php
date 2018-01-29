@@ -71,10 +71,10 @@
 <div class="clearfix">&nbsp;</div>
 
 
-<span id="digitalmarketing_price"></span>
 
 
-	<section class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/seobac1.png'); height: 100%;">
+
+	<section id="digitalmarketing_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/seobac1.png'); height: 100%;">
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">

@@ -80,12 +80,10 @@
 	
 </section>
 <div class="clearfix">&nbsp;</div>
-<div class="clearfix">&nbsp;</div>
-<span id="designing_price"></span>
-<div class="clearfix">&nbsp;</div>
 
+<div class="" style="padding:0px 30px;">
 
-	<section class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/devpbac1.png'); height: 100%;">
+	<section id="designing_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/devpbac1.png'); height: 100%;">
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
@@ -201,20 +199,18 @@
   </ul>
 <!--END LIST -->
 </section>
-<div class="clearfix">&nbsp;</div>
-<div class="clearfix">&nbsp;</div>
-<span id="commerce_price"></span>
-<div class="clearfix">&nbsp;</div>
+</div>
 
 
-	<section class="content_wrap    jarallax bord-t4" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/devpbac2.png'); height: 100%;">
+<div class="" style="padding:0px 30px;">
+	<section  id="commerce_price"class="content_wrap    jarallax bord-t4" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/devpbac2.png'); height: 100%;">
 	
   <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
 
                 <h2>
                     <span class="tit bg-dark" >
-									E-Commerce <span class="des_t">  Web Development 
+									E-Commerce <span class="des_t">  Development 
                     </span> Pricing
                 </h2>
 
@@ -307,6 +303,7 @@
   </ul>
 <!--END LIST -->
 </section>
+</div>
 
    <script>
 	$(".box").click(function(){
