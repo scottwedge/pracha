@@ -24,5 +24,9 @@ class Servicesrm extends CI_Controller {
 		$this->load->view('servicesrm');
 		$this->load->view('footer');
 	}
+	public function designing_price(){
+		redirect('#designing_price');
+		
+	}
 	
 }

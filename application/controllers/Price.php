@@ -21,9 +21,14 @@ class Price extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('header');
-		$this->load->view('priceviewpage');
+		$this->load->view('servicesrm');
 		$this->load->view('footer');
 	}
+	public function design(){
+		redirect('price#designing_price');
+		
+	}
+
 	public function estimate()
 	{
 		$this->load->view('header');

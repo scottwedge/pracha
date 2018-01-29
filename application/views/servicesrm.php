@@ -102,6 +102,9 @@
 	
 </section>
 <div class="clearfix">&nbsp;</div>
+<div class="clearfix">&nbsp;</div>
+<span id="designing_price"></span>
+<div class="clearfix">&nbsp;</div>
 
 <!--<section>
 <div class="container-sty card " >
@@ -237,7 +240,7 @@
 		
 	</div>
 </section>-->
-
+	
 	<section class="content_wrap    jarallax" data-jarallax-video="https://www.youtube.com/watch?v=k2gJaZ9xqD8" >
 	
   <div class="row  text-center">

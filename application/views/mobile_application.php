@@ -172,6 +172,9 @@
 	
 </section>
 <div class="clearfix">&nbsp;</div>
+<div class="clearfix">&nbsp;</div>
+<span id="mobile_application_price"></span>
+<div class="clearfix">&nbsp;</div>
 
 
 	<section class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/mobbac1.png'); height: 100%;">

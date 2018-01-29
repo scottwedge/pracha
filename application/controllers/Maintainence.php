@@ -25,4 +25,5 @@ class Maintainence extends CI_Controller {
 		$this->load->view('footer');
 	}
 	
+	
 }

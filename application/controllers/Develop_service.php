@@ -24,5 +24,13 @@ class Develop_service extends CI_Controller {
 		$this->load->view('develop_service');
 		$this->load->view('footer');
 	}
+	public function price(){
+		redirect('develop_service#designing_price');
+		
+	}
+	public function commerce_price(){
+		redirect('develop_service#commerce_price');
+		
+	}
 	
 }
