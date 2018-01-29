@@ -133,7 +133,7 @@
 				  <div class="clearfix">&nbsp;</div>
 			<div class=" row justify-content-md-center">
 		
-				<a href="<?php echo base_url('pracha/contactus');?>"><button type="button" class="btn btn-warning btn-rounded">Send Message</button></a>
+				<a href="<?php echo base_url('contactus');?>"><button type="button" class="btn btn-warning btn-rounded">Send Message</button></a>
 			
 		</div>
        <div class="clearfix">&nbsp;</div>
@@ -345,7 +345,7 @@
                         <i class="hi-icon fa fa-keyboard-o" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe">MAINTAINENCE </h5>
+                        <h5 class="font-color_base no_stripe">MAINTENANCE </h5>
                     </div>
                     <div class="service_content">
                         <div class="pad-lr30">
@@ -468,7 +468,7 @@
                     </div>
                     <div class="service_content">
                         <p>
-                           Just like a house or a business, a website needs to be maintained. When things break, they need to be fixed. When it gets old, it needs to be updated. Website maintenance can be difficult and time consuming, so why not ask CommonPlaces for assistance? We offer website maintenance, website security, application management,marketing services and more.</p>
+                           Just like a house or a business, a website needs to be maintained. When things break, they need to be fixed. When it gets old, it needs to be updated. Website x can be difficult and time consuming, so why not ask Common Places for assistance? We offer website maintenance, website security, application management,marketing services and more.</p>
 
 						
                         </p>
@@ -1138,6 +1138,7 @@
 			  <div class="col-md-6">
 				<div>
 					<h5><strong>Prachatech software solutions</strong></h5>
+					<p>Phone Number:040-48541273</p>
 					<p>
 					H.No: 16-2-227/177,<br>
 					1st Floor,<br>

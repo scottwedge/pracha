@@ -69,6 +69,7 @@
 			  <div class="col-md-6">
 				<div>
 					<h5><strong>Prachatech software solutions</strong></h5>
+					<p>Phone Number:040-48541273</p>
 					<p>
 					H.No: 16-2-227/177,<br>
 					1st Floor,<br>
