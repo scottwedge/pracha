@@ -32,7 +32,7 @@
 				<li class="nav-item active " id="homepageative"><a href="<?php echo base_url(); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
 				<li class="nav-item">
 				<div class="dropdown">
-					<a  class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
+					<a href="<?php echo base_url('services'); ?>" class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
 				  <div class="dropdown-content1">
 					<a href="<?php echo base_url('servicesrm'); ?>">UI/UX Designing</a>
 					<a href="<?php echo base_url('develop_service'); ?>">Web Development</a>

@@ -46,7 +46,7 @@
         <a class="nav-link"  href="#seo-scroll" role="tab">SEO</a>
     </li> 
 		<li class="nav-item">
-        <a class="nav-link"  href="#maintain" role="tab">Maintainence</a>
+        <a class="nav-link"  href="#maintain" role="tab">Maintenance</a>
     </li>
 	  <li class="nav-item">
         <a class="nav-link"  href="#e-comm-scroll" role="tab">E-Commerce </a>
@@ -71,7 +71,7 @@
 			<!--Grid row-->
 			 <h1 class="h1 font-bold text-center ">SERVICES</h1>
     <!--Section description-->
-    <p class="text-center mb-5 pb-3">The expertise of prachaTECH lies in providing Software designing, development & maintainence services that effortlessly meet up with the international coding standards. Right from custom Software designing & development to online marketing we are providing a range of services under a single roof.prachaTECH is a leading Software development company based in Hyderabad, offering all kinds of Website based services. We implement all the major tools and trends that will make your website design aesthetic and professional, while ensuring a great user experience.</p>
+    <p class="text-center mb-5 pb-3">The expertise of prachaTECH lies in providing Software designing, development & Maintenance services that effortlessly meet up with the international coding standards. Right from custom Software designing & development to online marketing we are providing a range of services under a single roof.prachaTECH is a leading Software development company based in Hyderabad, offering all kinds of Website based services. We implement all the major tools and trends that will make your website design aesthetic and professional, while ensuring a great user experience.</p>
 		<hr class="mb-5 mt-5 pb-3" id="ui-ux">
     <div class="row">
 
@@ -188,7 +188,7 @@ Software not only smooths the businesses processes, but it also creates a huge n
         <strong>E-commerce Solutions</strong>
         </h3>
         <p>Our vast experience in developing ecommerce websites has made us one of the best choices for ecommerce website Development Company in Hyderabad. We understand the need of each client is different and thus we plan the e commerce application development accordingly. Though from top its look all the e commerce websites are same but there is huge difference in each and every website. It depends mainly on the target market and thus the design and functionalities also change according to that. Our vast experience helps us not only in developing e commerce websites, but we are also providing our consultancy to many ecommerce companies.</p>
-        <a href="<?php echo base_url('develop_service'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
+        <a href="<?php echo base_url('ecommerce'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
     </div>
     <!--Grid column-->
 
@@ -298,7 +298,7 @@ SEO, SEM, PPC, SMO, Content marketing and social media networking, etc. comprise
         <!--Excerpt-->
         
         <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Maintainence</strong>
+        <strong>Maintenance</strong>
         </h3>
         <p>Let's talk about what we can build together – Let us be your Software & marketing partner. You feel it worthy having us. 
 Whatever may be your requirement - be it a simple website design, a complex data driven web application development, an ecommerce website, a native or cross platform mobile app development, a logo and brand identity design, a full-fledged digital marketing campaign & even maintenance of all these  - we have a solution for you. 
@@ -328,7 +328,7 @@ Whatever may be your requirement - be it a simple website design, a complex data
         </h3>
         <p>Pre- developed, Tailor-Made & Customizable, Professional, Affordable & Effective Business Solutions. We deliver A-level solutions to our clients in e-commerce, finance, education management, hotels & restarunts, healthcare & other industries
 </p>
-        <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a><a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Packages</a>
+        <!--<a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>-->
     </div>
     <!--Grid column-->
 
