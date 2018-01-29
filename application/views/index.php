@@ -195,7 +195,8 @@
                     </div>
 					
                 </div>
-            </div></a>
+            </div>
+			</a>
 			<a href="<?php echo base_url('develop_service'); ?>">
             <div class="col-sm-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">

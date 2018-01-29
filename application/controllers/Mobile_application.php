@@ -24,5 +24,9 @@ class Mobile_application extends CI_Controller {
 		$this->load->view('mobile_application');
 		$this->load->view('footer');
 	}
+	public function price(){
+		redirect('mobile_application#mobile_application_price');
+		
+	}
 	
 }

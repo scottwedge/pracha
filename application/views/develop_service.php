@@ -80,6 +80,9 @@
 	
 </section>
 <div class="clearfix">&nbsp;</div>
+<div class="clearfix">&nbsp;</div>
+<span id="designing_price"></span>
+<div class="clearfix">&nbsp;</div>
 
 
 	<section class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/devpbac1.png'); height: 100%;">
@@ -198,7 +201,10 @@
   </ul>
 <!--END LIST -->
 </section>
-
+<div class="clearfix">&nbsp;</div>
+<div class="clearfix">&nbsp;</div>
+<span id="commerce_price"></span>
+<div class="clearfix">&nbsp;</div>
 
 
 	<section class="content_wrap    jarallax bord-t4" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/devpbac2.png'); height: 100%;">

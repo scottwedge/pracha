@@ -19,6 +19,10 @@ class Pracha extends CI_Controller {
 		$this->load->view('index');
 		$this->load->view('footer');
 	}
+	public function designing_price(){
+		redirect('#designing_price');
+		
+	}
 	
 	
 	public function contactpost(){

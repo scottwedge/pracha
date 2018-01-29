@@ -30,5 +30,9 @@ class Digitalmarketing extends CI_Controller {
 		$this->load->view('digital_marketing_readmore');
 		$this->load->view('footer');
 	}
+	public function price(){
+		redirect('digitalmarketing#digitalmarketing_price');
+		
+	}
 	
 }

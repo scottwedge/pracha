@@ -18,6 +18,10 @@ class Seo extends CI_Controller {
 		$this->load->view('seo');
 		$this->load->view('footer');
 	}
+	public function price(){
+		redirect('seo#seo_price');
+		
+	}
 	
 	public function readmore()
 	{

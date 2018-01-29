@@ -52,12 +52,12 @@
 				<div class="dropdown">
 					<a   class="nav-link dropdown-toggle"> <span class=" ">Pricing</span></a>
 				  <div class="dropdown-content1">
-					<a href="<?php echo base_url('servicesrm'); ?>">UI/UX Designing</a>
-					<a href="<?php echo base_url('develop_service'); ?>">Web Development</a>
-					<a href="<?php echo base_url('mobile_application'); ?>">Mobile Applications</a>
-					<a href="<?php echo base_url('digitalmarketing'); ?>"> Digital Marketing</a>
-					<a href="<?php echo base_url('seo'); ?>">SEO</a>
-					<a href="<?php echo base_url('develop_service'); ?>">E-Commerce</a>
+					<a href="<?php echo base_url('price/design'); ?>">UI/UX Designing</a>
+					<a href="<?php echo base_url('develop_service/price'); ?>">Web Development</a>
+					<a href="<?php echo base_url('mobile_application/price'); ?>">Mobile Applications</a>
+					<a href="<?php echo base_url('digitalmarketing/price'); ?>"> Digital Marketing</a>
+					<a href="<?php echo base_url('seo/price'); ?>">SEO</a>
+					<a href="<?php echo base_url('develop_service/commerce_price'); ?>">E-Commerce</a>
 					<a href="<?php echo base_url('maintainence'); ?>"> Maintenance</a>
 					
 				  </div>
