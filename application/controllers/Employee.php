@@ -71,6 +71,23 @@ class Employee extends CI_Controller {
 		
 		
 	}
+	public function report(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$this->load->view('header1');
+			$this->load->view('sidebar');
+			$this->load->view('dailyreport',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}
 	public function edit(){
 		
 		if($this->session->userdata('userdetails'))
