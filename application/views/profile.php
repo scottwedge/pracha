@@ -1,5 +1,5 @@
 
-<?php echo '<pre>';print_r($userdetails);exit; ?>
+<?php //echo '<pre>';print_r($userdetails);exit; ?>
 <div class="container-sty-adm ">
 <div class=" row justify-content-md-end">
 	<div class="col-md-9   card">
@@ -66,7 +66,7 @@
 			  <tr>
 				<th><strong>Responsibilities</strong></th>
 				<td>:</td>
-				<td>Programming</td>
+				<td><?php echo isset($userdetails['emp_role'])?$userdetails['emp_role']:''; ?></td>
 			  </tr> 
 			  <tr>
 				<th><strong>Mobile Number</strong></th>
@@ -108,6 +108,7 @@
 		</div>
 		</div>
 	
+	</div>
 	</div>
 	</div>
 	
