@@ -105,6 +105,76 @@ class Employee extends CI_Controller {
 		
 		
 	}
+	public function update(){
+		if($this->session->userdata('userdetails'))
+		{
+			$post=$this->input->post();
+			$userdetails=$this->session->userdata('userdetails');
+			$cust_upload_file= $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			if($_FILES['profilepic']['name']!=''){
+			$profilepic=$_FILES['profilepic']['name'];
+			move_uploaded_file($_FILES['profilepic']['tmp_name'], "assets/emp_pics/" . $_FILES['profilepic']['name']);
+
+			}else{
+				$profilepic=$cust_upload_file['emp_profilepic'];
+			}
+			if($_FILES['aadharcard']['name']!=''){
+			$aadhar=$_FILES['aadharcard']['name'];
+			unlink( "assets/documents/".$cust_upload_file['aadharcard']);
+			move_uploaded_file($_FILES['aadharcard']['tmp_name'], "assets/documents/" . $_FILES['aadharcard']['name']);
+
+			}else{
+				$aadhar=$cust_upload_file['aadharcard'];
+			}
+			if($_FILES['pancard']['name']!=''){
+			$pancard=$_FILES['pancard']['name'];
+			unlink( "assets/documents/".$cust_upload_file['pancard']);
+			move_uploaded_file($_FILES['pancard']['tmp_name'], "assets/documents/" . $_FILES['pancard']['name']);
+
+			}else{
+				$pancard=$cust_upload_file['pancard'];
+			}
+			if($_FILES['kyc']['name']!=''){
+			$kyc=$_FILES['kyc']['name'];
+			unlink( "assets/documents/".$cust_upload_file['otherkye']);
+			move_uploaded_file($_FILES['kyc']['tmp_name'], "assets/documents/" . $_FILES['kyc']['name']);
+
+			}else{
+				$kyc=$cust_upload_file['otherkye'];
+			}
+			$editdata=array(
+			'emp_name'=>isset($post['name'])?$post['name']:'',
+			'emp_role'=>isset($post['designation'])?$post['designation']:'',
+			'responsibilities'=>isset($post['responsibilites'])?$post['responsibilites']:'',
+			'emp_mobile'=>isset($post['mobile'])?$post['mobile']:'',
+			'emp_altermobile'=>isset($post['altermobile'])?$post['altermobile']:'',
+			'emp_dob'=>isset($post['dob'])?$post['dob']:'',
+			'emp_profilepic'=>$profilepic,
+			'emp_resaddress'=>isset($post['resaddress'])?$post['resaddress']:'',
+			'emp_peraddress'=>isset($post['peraddress'])?$post['peraddress']:'',
+			'aadharcardno'=>isset($post['aadharnumber'])?$post['aadharnumber']:'',
+			'aadharcard'=>$aadhar,
+			'pancardno'=>isset($post['pannumber'])?$post['pannumber']:'',
+			'pancard'=>$pancard,
+			'otherkye'=>$kyc,
+			'create'=>date('Y-m-d H:i:s'),
+			);
+			//echo '<pre>';print_r($editdata);exit;
+			$updateprofile= $this->Employee_model->update_profile_details($userdetails['emp_id'],$editdata);
+			
+			//echo $this->db->last_query();exit;
+			if(count($updateprofile)>0){
+				$this->session->set_flashdata('success','Profile Successfully updated');
+				redirect('employee/profile');
+			}else{
+				 $this->session->set_flashdata('error','Technical problem will occurred .please try again');
+				 redirect('employee/edit');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
 	public function changepassword(){
 		if($this->session->userdata('userdetails'))
 		{
