@@ -42,6 +42,10 @@ class Employee_model extends CI_Model
 		$sql1="UPDATE login_report SET logout_time ='".$date."' WHERE id = '".$l_id."' AND emp_id = '".$emp_id."'";
        	return $this->db->query($sql1);
 	}
+	public function update_profile_details($id,$data){
+		$this->db->where('emp_id', $id);
+		return $this->db->update('employee', $data);
+	}
 
 
 }

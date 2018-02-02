@@ -17,8 +17,12 @@
     
                 <!--Avatar-->
                 <div class="avatar">
-                    <img src="https://lh3.googleusercontent.com/-5ZIgyZg9UwQ/AAAAAAAAAAI/AAAAAAAACe4/Lo7IJZ56_EY/s60-p-rw-no/photo.jpg" class="rounded-circle img-responsive">
-                </div>
+				<?php if($userdetails['emp_profilepic']!=''){ ?>
+				        <img src="<?php echo base_url('assets/emp_pics/'.$userdetails['emp_profilepic']); ?>" class="rounded-circle img-responsive">
+                <?php }else{ ?>
+				        <img src="<?php echo base_url('assets/emp_pics/default.jpg'); ?>" class="rounded-circle img-responsive">
+				<?php } ?>
+				</div>
     
                 <div class="card-body">
                     <!--Name-->
@@ -38,8 +42,17 @@
 			
 
         <div class="row justify-content-md-center">
-		
-	
+		<?php if($this->session->flashdata('success')): ?>
+		<div class="alert alert-success">
+		<strong><?php echo $this->session->flashdata('success'); ?></strong> 
+		</div>
+
+		<?php endif; ?>
+		<?php if($this->session->flashdata('error')): ?>
+		<div class="alert alert-warning">
+		<strong><?php echo $this->session->flashdata('error'); ?></strong> 
+		</div>
+		<?php endif; ?>
         <div class="col-12">
 		<div class="col text-center">
 				<h3><?php echo isset($userdetails['emp_name'])?$userdetails['emp_name']:''; ?> Profile</h3>
@@ -66,43 +79,68 @@
 			  <tr>
 				<th><strong>Responsibilities</strong></th>
 				<td>:</td>
-				<td><?php echo isset($userdetails['emp_role'])?$userdetails['emp_role']:''; ?></td>
+				<td><?php echo isset($userdetails['responsibilities'])?$userdetails['responsibilities']:''; ?></td>
 			  </tr> 
 			  <tr>
 				<th><strong>Mobile Number</strong></th>
 				<td>:</td>
-				<td>Programming</td>
+				<td><?php echo isset($userdetails['emp_mobile'])?$userdetails['emp_mobile']:''; ?></td>
 			  </tr>
 			  <tr>
 				<th><strong>Alternate Mobile Number</strong></th>
 				<td>:</td>
-				<td>Programming</td>
+				<td><?php echo isset($userdetails['emp_altermobile'])?$userdetails['emp_altermobile']:''; ?></td>
+			  </tr>
+			  <tr>
+				<th><strong>DOB</strong></th>
+				<td>:</td>
+				<td><?php echo isset($userdetails['emp_dob'])?$userdetails['emp_dob']:''; ?></td>
+			  </tr>
+			  <tr>
+				<th><strong>DOJ</strong></th>
+				<td>:</td>
+				<td><?php echo isset($userdetails['emp_doj'])?$userdetails['emp_doj']:''; ?></td>
 			  </tr>
 			  <tr>
 				<th><strong>Residential Adddress</strong></th>
 				<td>:</td>
-				<td>Programming</td>
+				<td><?php echo isset($userdetails['emp_resaddress'])?$userdetails['emp_resaddress']:''; ?></td>
 			  </tr> 
 			  <tr>
 				<th><strong>Permanent Address</strong></th>
 				<td>:</td>
-				<td>Programming</td>
+				<td><?php echo isset($userdetails['emp_peraddress'])?$userdetails['emp_peraddress']:''; ?></td>
 			  </tr>
 			  <tr>
 				<th><strong>Adhar card</strong></th>
 				<td>:</td>
-				<td class="adhar-img"><img src="http://aadharcard.net/wp-content/uploads/2017/05/aadhar-card-photo.jpg"> &nbsp; 615234669</td>
+				<td class="adhar-img">
+				<?php if($userdetails['aadharcard']!=''){ ?>
+				<img src="<?php echo base_url('assets/documents/'.$userdetails['aadharcard']); ?>">
+				<?php } ?>
+				&nbsp; <?php echo isset($userdetails['aadharcardno'])?$userdetails['aadharcardno']:''; ?>
+				</td>
+				
 			  </tr>
 			  <tr>
 				<th><strong>Pan card</strong></th>
 				<td>:</td>
-				<td class="adhar-img"><img src="http://pancardoffice.com/wp-content/uploads/2014/11/pan-card-big-size-300x190.jpg"> &nbsp; 615234669</td>
-			  </tr>
+				<td class="adhar-img">
+				<?php if($userdetails['pancard']!=''){ ?>
+				<img src="<?php echo base_url('assets/documents/'.$userdetails['pancard']); ?>">
+				<?php } ?>
+				&nbsp; <?php echo isset($userdetails['pancardno'])?$userdetails['pancardno']:''; ?>
+				</td>
+				</tr>
 			  <tr>
 				<th><strong>Other KYC documents</strong></th>
 				<td>:</td>
-				<td class="adhar-img"><img src="https://www.fincash.com/b/wp-content/uploads/2017/04/kyc-form-docs-1-1.png"> &nbsp; </td>
-			  </tr>
+				<td class="adhar-img">
+				<?php if($userdetails['otherkye']!=''){ ?>
+				<img src="<?php echo base_url('assets/documents/'.$userdetails['otherkye']); ?>">
+				<?php } ?>
+				</td>		
+				</tr>
 			</tbody>
          </table>
 		</div>
