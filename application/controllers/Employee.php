@@ -71,12 +71,36 @@ class Employee extends CI_Controller {
 		
 		
 	}
-	public function report(){
+	public function leaves(){
 		
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$this->load->view('header1');
+			$this->load->view('sidebar');
+			$this->load->view('leaves',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}
+	public function report(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$logindetails= $this->Employee_model->get_employee_logindetails($userdetails['emp_id'],date('Y-m-d'));
+			$task_list= $this->Employee_model->get_employee_task_list($userdetails['emp_id'],$logindetails['id']);
+			foreach ($task_list as $list){
+				$times=$this->Employee_model->get_employee_login_logout($list['emp_id'],date('Y-m-d'));
+				echo '<pre>';print_r($times);exit;
+				$details[$list['date']]['task']=$this->Employee_model->get_employee_daily_task_list($list['emp_id'],$list['login_id']);
+			}
+			echo '<pre>';print_r($details);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar');
 			$this->load->view('dailyreport',$data);
@@ -169,6 +193,41 @@ class Employee extends CI_Controller {
 			}else{
 				 $this->session->set_flashdata('error','Technical problem will occurred .please try again');
 				 redirect('employee/edit');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	public function dailyreportpost(){
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$post=$this->input->post();
+			$logindetails= $this->Employee_model->get_employee_logindetails($userdetails['emp_id'],date('Y-m-d'));
+			//echo '<pre>';print_r($logindetails);exit;
+			if($_FILES['reportfile']['name']!=''){
+				$report=$_FILES['reportfile']['name'];
+				move_uploaded_file($_FILES['reportfile']['tmp_name'], "assets/dailyreports/" . $_FILES['reportfile']['name']);
+			}else{
+				$report='';
+			}
+			$reportdata=array(
+			'emp_id'=>$userdetails['emp_id'],
+			'login_id'=>$logindetails['id'],
+			'comment'=>isset($post['reprotcomment'])?$post['reprotcomment']:'',
+			'create_date'=>date('Y-m-d H:i:s'),
+			'reportfile'=>$report,
+			'status'=>1,
+			'date'=>date('Y-m-d'),
+			);
+			$daily_data= $this->Employee_model->save_daily_report($reportdata);
+			if(count($daily_data)>0){
+				$this->session->set_flashdata('success','Data Successfully Submited');
+				redirect('employee/report');
+			}else{
+				 $this->session->set_flashdata('error','Technical problem will occurred .please try again');
+				 redirect('employee/report');
 			}
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');

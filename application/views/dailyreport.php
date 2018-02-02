@@ -17,18 +17,19 @@
 			<div class="tab-content card ">
 				<!--Panel 1-->
 				<div class="tab-pane fade in show active" id="panel1" role="tabpanel">
+		<form action="<?php echo base_url('employee/dailyreportpost');?>" method="post" enctype="multipart/form-data">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="form-group ">
 								<label for="telephone">Task Done</label>
-								<textarea class="form-control heg-100" rows="5" id="comment"></textarea>
+								<textarea class="form-control heg-100" id="reprotcomment" name="reprotcomment" rows="5" id="comment"></textarea>
 							</div>
 							<label for="telephone">Task upload</label>
 								<div class="file-field">
 								
 									<div class="btn btn-warning btn-sm">
 										<span>Choose file</span>
-										<input type="file">
+										<input type="file" name="reportfile" id="reportfile">
 									</div>
 									<div class="file-path-wrapper">
 									   <input class="file-path validate" type="text" placeholder="Upload your file">
@@ -48,10 +49,10 @@
 						<div class="clearfix">&nbsp;</div>
 						<div class="row justify-content-md-center">
 						<div class="">
-							<button type="button" class="btn btn-primary btn-rounded">Preview</button>
-							<button type="button" class="btn btn-default btn-rounded">Submit</button>
+							<button type="submit" class="btn btn-default btn-rounded">Submit</button>
 						</div>
-					</div>
+						</div>
+						</form>
 				</div>
 				<!--/.Panel 1-->
 				<!--Panel 2-->

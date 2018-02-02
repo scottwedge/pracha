@@ -54,8 +54,8 @@
 					<a class="nav-link dropdown-toggle"> <span class=" "><?php echo $userdetails['emp_name'];?></span></a>
 				  <div class="dropdown-content1">
 					
-					<a  data-toggle="collapse" data-target="#navbarSupportedContent" href="<?php echo base_url('employee/changepassword'); ?>">Change Password</a>
-					<a data-toggle="collapse" data-target="#navbarSupportedContent" href="<?php echo base_url('employee/logout'); ?>">logout</a>
+					<a   href="<?php echo base_url('employee/changepassword'); ?>">Change Password</a>
+					<a  href="<?php echo base_url('employee/logout'); ?>">logout</a>
 					
 				  </div>
 				</div>
