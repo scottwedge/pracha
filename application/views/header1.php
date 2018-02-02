@@ -45,8 +45,8 @@
             </li> --> 
 				
 				
-			<li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
-				<a href="#" class="nav-link "> Task Mangagment</a>
+			<li class="nav-item" >
+				<a href="<?php echo base_url('employee/report'); ?>" class="nav-link "> Task Mangagment</a>
 			</i>
 			<li class="nav-item">
 				<div class="dropdown">
