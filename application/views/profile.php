@@ -1,3 +1,5 @@
+
+<?php echo '<pre>';print_r($userdetails);exit; ?>
 <div class="container-sty-adm ">
 <div class=" row justify-content-md-end">
 	<div class="col-md-9   card">
@@ -21,11 +23,11 @@
                 <div class="card-body">
                     <!--Name-->
                     <h4 class="mt-1">
-                        <strong>Vasudevareddy</strong>
+                        <strong><?php echo isset($userdetails['emp_name'])?$userdetails['emp_name']:''; ?></strong>
                     </h4>
                     <hr>
                     <!--Quotation-->
-                    <p class="dark-grey-text">WEB DEVELOPMENT (PHP)</p>
+                    <p class="dark-grey-text"><?php echo isset($userdetails['emp_role'])?$userdetails['emp_role']:''; ?></p>
                 </div>
     
             </div>
@@ -40,7 +42,7 @@
 	
         <div class="col-12">
 		<div class="col text-center">
-				<h3>Employee User Profile</h3>
+				<h3><?php echo isset($userdetails['emp_name'])?$userdetails['emp_name']:''; ?> Profile</h3>
 			</div>
 			<div class="col">
 				<a href="<?php echo base_url('employee/edit'); ?>" class="btn btn-warning pull-right">Edit <i class="fa fa-pencil ml-1"></i></a >
@@ -54,12 +56,12 @@
 			  <tr>
 				<th><strong>Name</strong></th>
 				<td>:</td>
-				<td>Programming</td>
+				<td><?php echo isset($userdetails['emp_name'])?$userdetails['emp_name']:''; ?></td>
 			  </tr>
 			  <tr>
 				<th><strong>Designation</strong></th>
 				<td>:</td>
-				<td>Programming</td>
+				<td><?php echo isset($userdetails['emp_role'])?$userdetails['emp_role']:''; ?></td>
 			  </tr> 
 			  <tr>
 				<th><strong>Responsibilities</strong></th>
