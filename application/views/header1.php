@@ -16,6 +16,7 @@
     <!-- Your custom styles (optional) -->
     <link href="<?php echo base_url(); ?>assets/vendor/css/style.css" rel="stylesheet">
 	<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/jquery-3.2.1.min.js"></script>
+	
 	  
 </head>
 
@@ -44,19 +45,32 @@
             </li> --> 
 				
 				
-				<li class="nav-item">
+			<li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
+				<a href="#" class="nav-link "> Task Mangagment</a>
+			</i>
+			<li class="nav-item">
 				<div class="dropdown">
-					<a href="<?php echo base_url('employee/profile'); ?>" class="nav-link dropdown-toggle"> <span class=" "><?php echo $userdetails['emp_name'];?></span></a>
+					<a class="nav-link dropdown-toggle"> <span class=" "><?php echo $userdetails['emp_name'];?></span></a>
 				  <div class="dropdown-content1">
-					<a href="<?php echo base_url('employee/logout'); ?>">logout</a>
-					<a href="<?php echo base_url('employee/changepassword'); ?>">Change Password</a>
+					
+					<a  data-toggle="collapse" data-target="#navbarSupportedContent" href="<?php echo base_url('employee/changepassword'); ?>">Change Password</a>
+					<a data-toggle="collapse" data-target="#navbarSupportedContent" href="<?php echo base_url('employee/logout'); ?>">logout</a>
 					
 				  </div>
 				</div>
             </li>
-			<li class="nav-item"> &nbsp;</li>
-			<li class="nav-item"> &nbsp;</li>
-			<li class="nav-item"> &nbsp;</li>
+			<li class="nav-item sm-hide" data-toggle="collapse" data-target="#navbarSupportedContent"> &nbsp;</li>
+			<li class="nav-item sm-hide" data-toggle="collapse" data-target="#navbarSupportedContent"> &nbsp;</li>
+			<li class="nav-item sm-hide" data-toggle="collapse" data-target="#navbarSupportedContent"> &nbsp;</li>
+		
+			<li class="nav-item md-hide " data-toggle="collapse" data-target="#navbarSupportedContent"><a href="#" class="nav-link "> User Profile</a></i>
+			<li class="nav-item md-hide " data-toggle="collapse" data-target="#navbarSupportedContent"><a href="#" class="nav-link "> User Profile</a></i>
+			<li class="nav-item md-hide " data-toggle="collapse" data-target="#navbarSupportedContent"><a href="#" class="nav-link "> User Profile</a></i>
+			<li class="nav-item md-hide " data-toggle="collapse" data-target="#navbarSupportedContent"><a href="#" class="nav-link "> User Profile</a></i>
+			<li class="nav-item md-hide " data-toggle="collapse" data-target="#navbarSupportedContent"><a href="#" class="nav-link "> User Profile</a></i>
+		
+			
+			
 			
             
         
@@ -115,4 +129,15 @@ $(document).ready(function(){
   });
 });
 </script>
-
+ <!-- JQuery -->
+	
+	<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/bootstrap.min.js"></script>
+	
+    
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/popper.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/compiled.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/mdb.min.js"></script>

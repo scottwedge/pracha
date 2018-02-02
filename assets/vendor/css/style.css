@@ -1306,6 +1306,11 @@ z-index:0;
 	.concl li{
 		list-style-type: square;
 	}
+	.pos-fix{
+		position:fixed;
+		max-height:550px;
+		overflow-y: scroll;
+	}
 	.side-bar li{
 		padding:8px 5px;
 		
@@ -1326,6 +1331,34 @@ z-index:0;
 		
 	}
 
+	#leftPanel{
+    background-color:#0079ac;
+    color:#fff;
+    text-align: center;
+}
+
+#rightPanel{
+    min-height:415px;
+}
+
+/* Credit to bootsnipp.com for the css for the color graph */
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+.adhar-img img {
+	max-width:150px;
+	height:80px;
+}
+.md-hide{
+	display:none;
+}
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
   .bod-st{
@@ -1333,6 +1366,9 @@ z-index:0;
 } 
 .mt-15-ban {
 	margin-top: 0px;
+}
+.md-hide{
+	display:block;
 }
 .sm-hide{
 	display:none;

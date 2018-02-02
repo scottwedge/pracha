@@ -63,7 +63,24 @@ class Employee extends CI_Controller {
 			$this->load->view('header1');
 			$this->load->view('sidebar');
 			$this->load->view('profile',$data);
-			$this->load->view('footer');
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}
+	public function edit(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$this->load->view('header1');
+			$this->load->view('sidebar');
+			$this->load->view('profileedit',$data);
+			//$this->load->view('footer');
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');

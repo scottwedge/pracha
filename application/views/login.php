@@ -5,7 +5,7 @@
     <!--Form without header-->
     <div class="  row justify-content-md-center">
 
-		<div class="card-body mx-4 card col-4 " id="logindiv">
+		<div class="card-body mx-4 card col-md-4 col-xs-12 " id="logindiv">
 		<?php if($this->session->flashdata('success')): ?>
 		<div class="alert alert-success">
 		<strong><?php echo $this->session->flashdata('success'); ?></strong> 
