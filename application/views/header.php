@@ -38,7 +38,7 @@
 					<a href="<?php echo base_url('develop_service'); ?>">Web Development</a>
 					<a href="<?php echo base_url('mobile_application'); ?>">Mobile Applications</a>
 					<a href="<?php echo base_url('digitalmarketing'); ?>"> Digital Marketing</a>
-					<a href="<?php echo base_url('seo'); ?>">SEO</a>
+					<!--<a href="<?php echo base_url('seo'); ?>">SEO</a>-->
 					<a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
 					<a href="<?php echo base_url('maintainence'); ?>"> Maintenance</a>
 					
@@ -56,7 +56,7 @@
 					<a href="<?php echo base_url('develop_service/price'); ?>">Web Development</a>
 					<a href="<?php echo base_url('mobile_application/price'); ?>">Mobile Applications</a>
 					<a href="<?php echo base_url('digitalmarketing/price'); ?>"> Digital Marketing</a>
-					<a href="<?php echo base_url('seo/price'); ?>">SEO</a>
+					<!--<a href="<?php echo base_url('seo/price'); ?>">SEO</a>-->
 					<a href="<?php echo base_url('ecommerce/price'); ?>">E-Commerce</a>
 					<a href="<?php echo base_url('maintainence'); ?>"> Maintenance</a>
 					

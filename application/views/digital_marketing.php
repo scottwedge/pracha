@@ -3,10 +3,15 @@
 
   <h1>
   DIGITAL MARKETING<br /><br>
-	<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Social Media Marketing", "Google AdWords& Analytics", "Bulk SMS marketing","Analytics Consultation","Online Reputation Management","Content Marketing","Email Marketing","Branding","Affiliate Management",  " " ]'>
+  
+
+  <!--<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Social Media Marketing", "Google AdWords& Analytics", "Bulk SMS marketing","Analytics Consultation","Online Reputation Management","Content Marketing","Email Marketing","Branding","Affiliate Management",  " " ]'>
+   
+  </p> -->
+  <p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Search Engine Optimization", "Social Media Marketing", "Google Adwords","Content Marketing","Email Marketing","Google Analytics",  " " ]'>
    
   </p>
- 
+
   </h1>
   
  
@@ -16,8 +21,32 @@
 <div class="clearfix">&nbsp;</div>
 <section class="mar-mi140">
 <div class="container-sty card " >
+		  <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h3 class="text-dark">Let’s have a glimpse on Digital Marketing, so that you will have an idea about our services.</h3>
+				
+				<p class="mtb-15 font_s16">Digital Marketing is just marketing of products or services using digital technologies.</p>
+
+
+            </div>
+
+        </div>
 		<div class="row">
 	<div class="col-md-4 col-sm-6 col-xsx-6">
+            <div class="serviceBox green">
+                <div class="service-icon">
+                    <span><i class="fa  fa-search"></i></span>
+                </div>
+                <div class="service-content">
+                    <h3 class="title">Search Engine Optimization</h3>
+					
+                    <p class="description">After conducting a thorough research on keywords and their volume, we choose the best and suitable keywords for your website and place them in the site in order to make you visible in the webpages of the search engine. So that you will appear in the first page of the search engine and get recognized by your targeted customers,  bypassing all your competitors.   </p>
+					
+                </div>
+            </div>
+        </div>
+		<div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox">
                 <div class="service-icon">
                     <span><i class="fa fa-share-square-o"></i></span>
@@ -25,7 +54,7 @@
                 <div class="service-content">
                     <h3 class="title">Social Media Marketing</h3>
 					
-                    <p class="description">It takes 6 to 8 months to get results from Search Engine Optimization. However, business owners do not have time or patience to wait for 6 months. The solution is to use Web 2.0 or Social Media Optimization techniques to get quick results. You can get results within a Week or a month.  </p>
+                    <p class="description">By using our vast social media network we promote your website digitally on social media (Facebook, Twitter, Linkedin, Google+ etc), so that there is a great opportunity for your business to reach maximum no. of customers. We have the ability to focus on particular age groups, gender and geographical locations depending upon your product.  </p>
 					
                 </div>
             </div>
@@ -37,117 +66,57 @@
                     <span><i class="fa fa-google"></i></span>
                 </div>
                 <div class="service-content">
-                    <h3 class="title">Google AdWords& Analytics</h3>
-                    <p class="description">Google Analytics is a powerful tool that helps you keep track of how people use your website. It provides information about your users, such as where they're coming from, how long they stay, and how they move through your website.<br><br></p>
+                    <h3 class="title">Google Adwords</h3>
+                    <p class="description">Through Google Adwords we run your campaigns or advertisements on internet. We are very much familiar with Google Search Network, Google Display Network and the Youtube Network  to show your banners, videos and text ads to the targeted customers. We focus them on particular age groups or gender or geographical locations depending upon your budget and the product or service you offer. We refer our clients to opt for PPC(Pay per Click) or Pay per 1000 impressions depending upon the budget. </p>
                    
                 </div>
             </div>
         </div>
-
-        <div class="col-md-4 col-sm-6 col-xsx-6">
-            <div class="serviceBox orange">
-                <div class="service-icon">
-                    <span><i class="fa fa-envelope-open"></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Bulk SMS marketing</h3>
-                    <p class="description">Bulk SMS has been very successful as a potential marketing tool. Two major benefits are, easy reach to target customers within far lesser timeframes, and achieve brand visibility in lesser times as compared to the other mass marketing tools.<br><br></p>
-                    
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xsx-6">
-            <div class="serviceBox blue">
-                <div class="service-icon">
-                    <span><i class="fa fa-area-chart"></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Analytics Consultation</h3>
-					 <p class="description">PrachaTECH is an expert at Analytics Consultation. Thanks to our team of professional experts who devise an excellent strategy for analysing, adjusting and improvising business objective thereby helping you accomplish your business goals and achieve success.<br></p>
-                   
-                </div>
-            </div>
-        </div>
-		
-	
-
- 
-        <div class="col-md-4 col-sm-6 col-xsx-6">
-            <div class="serviceBox green">
-                <div class="service-icon">
-                    <span><i class="fa  fa-bullseye"></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Online Reputation Management</h3>
-						 <p class="description">Reputation is a word that can be created only through trust. We create online reputation management campaigns that will generate trust through genuine methodologies that are tried-and-proven for most of the reputed business firms running successfully online.</p>
-						
-                    
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xsx-6">
+		<div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox orange">
                 <div class="service-icon">
                     <span><i class="fa fa-pencil-square-o"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Content Marketing</h3>
-							 <p class="description">We have an excellent team of content marketing experts, who are constantly on the search for creating great content marketing strategies that will drive your people to your business.</p>
+							 <p class="description">Content marketing is full of strategies to approach the targeted customers. Here we focus on creating a fresh content, sharing blogs or articles and maintain a consistent content to retain the former customers and to attract the new visitors, finally to drive a profitable action.Marketing is impossible without great content, so we have a team of in-house contents writers who can serve our clients with their content.</p>
 					<br>
                     
                 </div>
             </div>
         </div>
-
-        <div class="col-md-4 col-sm-6 col-xsx-6">
+		<div class="col-md-4 col-sm-6 col-xsx-6">
             <div class="serviceBox blue">
                 <div class="service-icon">
                     <span><i class="fa fa-envelope"></i></span>
                 </div>
                 <div class="service-content">
                     <h3 class="title">Email Marketing</h3>
-							 <p class="description">Email marketing is a business process that only an expert can execute successfully out of experience and skills. We have certain strategies that are tried-and-proven by many of our clients who are implementing email marketing to connect with their customers while enhancing their customer count.</p>
+							 <p class="description">We collect the emails of your customers through our resources and promote your latest events, newsletters, blog post etc to their inboxes. People who are interested will obviously return to your website, it's just a call of remembrance to your clients as they were busy in their day to day activities.This is also a way to drive traffic to your website.</p>
                     
                 </div>
             </div>
         </div>
-			<div class="col-md-4 col-sm-6 col-xsx-6">
-            <div class="serviceBox">
+		 <div class="col-md-4 col-sm-6 col-xsx-6">
+            <div class="serviceBox ">
                 <div class="service-icon">
-                    <span><i class="fa fa-bandcamp"></i></span>
+                    <span><i class="fa fa-area-chart"></i></span>
                 </div>
                 <div class="service-content">
-                    <h3 class="title">Branding  </h3>
-						<p class="description">Let your brand do the talking
-						Crafting a brand identity for your business that will convey your intention, goals and all that you intend to do for your audience - embedded inside a single design - connecting your business with your customers.
-						<br><br></p>
-					
-                   
-                </div>
-            </div>
-        </div>
-		<div class="col-md-4 col-sm-6 col-xsx-6">
-            <div class="serviceBox">
-                <div class="service-icon">
-                    <span><i class="fa fa-american-sign-language-interpreting"></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title"> Affiliate Management </h3>
-							<p class="description">Affiliate Marketing is a popular form of marketing for any merchant or business interested in increasing sales or leads. Affiliate Marketing is many times referred as “Pay for Performance” Marketing.
-						<br><br><br></p>
-					
+                    <h3 class="title">Google Analytics</h3>
+					 <p class="description">We track each and every event of your website by implementing a tracking code and setup data filters on  Google Analytics, for we have a special team to monitor each and every move of your website. We collect audience reports, acquisition reports and behaviour reports of your website and analyze them and remarket them for better targeting with dynamic remarketing.</p>
                    
                 </div>
             </div>
         </div>
 		
 	</div>
-	
-	
-	
-	
+	<div class="container">
+	<ul class="concl">
+		<li>There are many things to explain but because of time and space we will continue these topics in blogs. Hope the above briefly explained terms are informative! </li>
+		<li>Our knowledge of global best practices along with our deep research on each and every domain made us leaders in developing websites & Apps  and promoting or marketing them digitally. Whether an  individual or an enterprise, our customers always received unmatched services. </li>
+	</ul>
+	</div>
 </div>
 	
 </section>

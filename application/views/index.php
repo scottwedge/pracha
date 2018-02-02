@@ -27,7 +27,7 @@
             <div class="carousel-caption">
                 <div class="animated fadeInDown">
                     <a href="<?php echo base_url('services'); ?>" class="text-white"><h2 ><span class="caption-sty">Create Your Online Presence HERE!</span></h2></a>
-					<div class="clearfix">&nbsp;</div>
+					<div class="clearfix hid-320">&nbsp;</div>
 					<div class="row justify-content-md-center help-btn-sl">
 						<a href="<?php echo base_url('services'); ?>"  class="btn btn-blue-grey"><i class="fa fa-gears mr-1"></i> &nbsp; Our Services</a>
 						<!--<a href="<?php echo base_url('pracha/contactus'); ?>" class="btn btn-success"> <i class="fa fa-volume-control-phone  ml-1"></i> &nbsp; Talk to Us</a>-->
@@ -250,7 +250,7 @@
             </div>
 			 <div class="row">
 			 <a href="<?php echo base_url('digitalmarketing'); ?>">
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-industry" aria-hidden="true"></i>
@@ -260,16 +260,14 @@
                     </div>
                     <div class="service_content">
 							<div class="pad-lr30">
-								<ul>
-								  <li>Social Media Marketing</li>
-								  <li>Google AdWords & Analytics</li>
-								  <li>Bulk SMS marketing</li>
-								  <li>Analytics Consultation</li>
-								  <li>Online Reputation Management</li>
+							<ul>
+								  <li>Search Engine Optimization (SEO)</li>
+								  <li>Social Media Marketing (SMM)</li>
+								  <li>Google Adwords</li>
 								  <li>Content Marketing</li>
 								  <li>Email Marketing</li>
-								  <li>Branding</li>
-								  <li>Affiliate Management</li>
+								  <li>Google Analytics</li>
+								  
 								</ul></div>
 								<br>
 								<br>
@@ -277,8 +275,8 @@
                     </div>
                 </div>
             </div></a>
-			 <a href="<?php echo base_url('seo'); ?>">
-			<div class="col-sm-3">
+			<!-- <a href="<?php echo base_url('seo'); ?>">
+			<div class="col-sm-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-group" aria-hidden="true"></i>
@@ -304,13 +302,13 @@
 
 
 
-								<p class="text-center"> <a href="<?php echo base_url('seo'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+								<p class="text-center"> <a href="<?php echo base_url('seo'); ?>" class="btn btn-warning btn-sm">Know more...</a></p>
                     </div>
                 </div>
             </div>
-			</a>
+			</a>-->
 			 <a href="<?php echo base_url('develop_service'); ?>">
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-shopping-basket" aria-hidden="true"></i>
@@ -339,7 +337,7 @@
                 </div>
             </div></a>
 			 <a href="<?php echo base_url('maintainence'); ?>">
-			<div class="col-sm-3">
+			<div class="col-sm-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-keyboard-o" aria-hidden="true"></i>

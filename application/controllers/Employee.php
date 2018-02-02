@@ -61,6 +61,7 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$this->load->view('header1');
+			$this->load->view('sidebar');
 			$this->load->view('profile',$data);
 			$this->load->view('footer');
 		}else{
