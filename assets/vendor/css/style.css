@@ -1308,8 +1308,16 @@ z-index:0;
 	}
 	.pos-fix{
 		position:fixed;
-		max-height:550px;
-		overflow-y: scroll;
+		min-height:550px;
+	
+	}
+	.heg-100{
+		height:200px;
+	}
+	.img-privew img{
+		max-height:300px;
+		width:auto;
+		
 	}
 	.side-bar li{
 		padding:8px 5px;
@@ -1359,11 +1367,24 @@ z-index:0;
 .md-hide{
 	display:none;
 }
+.down-btn{
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+.font-10{
+	font-size:16px;
+}
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
   .bod-st{
 	margin-top:50px;
 } 
+.h3-rep h3{
+	font-size:16px;
+	text-align:left !important;
+	width:50%;
+}
 .mt-15-ban {
 	margin-top: 0px;
 }
@@ -1372,6 +1393,9 @@ z-index:0;
 }
 .sm-hide{
 	display:none;
+}
+.font-10{
+	font-size:8px;
 }
 .wrap {
     animation: pulse 1s infinite;
@@ -1467,6 +1491,11 @@ h2 {
 }
 .hid-320{
 	display:none;
+}
+.h3-rep h3{
+	font-size:14px;
+	text-align:left !important;
+	width:50%;
 }
 .caption-tit {
 font-size: 9px;
