@@ -18,7 +18,7 @@
 				<!--Panel 1-->
 				<div class="tab-pane fade in show active" id="panel1" role="tabpanel">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-12">
 							<div class="form-group ">
 								<label for="telephone">Task Done</label>
 								<textarea class="form-control heg-100" rows="5" id="comment"></textarea>
@@ -35,14 +35,14 @@
 									</div>
 								</div>
 						</div>
-						<div class="col-md-6">
+						<!--<div class="col-md-6">
 							<label for="telephone"> Image Privew</label>
 							<div class=" card img-privew text-center">
 							<div class="avatar " >
 									<img src="http://www.nextflowers.co.uk/assets/images/md/no-image.png">
 							</div>
 							</div>
-						</div>
+						</div>-->
 						</div>
 						
 						<div class="clearfix">&nbsp;</div>
