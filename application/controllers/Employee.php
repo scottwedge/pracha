@@ -93,8 +93,14 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			if($data['userdetails']['role']==1 || $data['userdetails']['role']==2){
-				$details=$this->Employee_model->get_all_employees_dailyreport();
-				//echo '<pre>';print_r($details);exit;
+			$task_list= $this->Employee_model->get_all_employees_dailyreport();
+			echo '<pre>';print_r($task_list);exit;
+			foreach ($task_list as $list){
+				$details[$list['emp_id']]['details']=$list;
+				$details[$list['emp_id']]['task']=$this->Employee_model->get_employee_daily_task_lists($list['emp_id'],$list['id'],$list['create_at']);
+				
+			}
+				echo '<pre>';print_r($details);exit;
 				$this->load->view('header1');
 				$this->load->view('sidebar',$data);
 				$this->load->view('reportlist',$data);
