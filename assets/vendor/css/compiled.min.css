@@ -15475,7 +15475,8 @@ textarea.md-textarea.input-alternate:hover {
 	-webkit-transform:translateY(-140%);
 	-ms-transform:translateY(-140%);
 	transform:translateY(-140%);
-	font-size:.8rem
+	font-size:16px;
+	
 }
 .md-form .prefix {
 	-webkit-transition:color .2s;
@@ -22670,6 +22671,9 @@ button.toast-close-button {
 	left:0;
 	right:0;
 	top:100%
+}
+.picker__box .picker__header select {
+    display: inline-block!important;
 }
 .picker .picker__frame {
 	position:absolute;

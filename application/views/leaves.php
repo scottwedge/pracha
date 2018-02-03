@@ -3,15 +3,40 @@
 
 <script src="<?php echo base_url(); ?>assets/vendor/js/jquery.dataTables.js"></script>
 <script src="<?php echo base_url(); ?>assets/vendor/js/dataTables.bootstrap.js"></script>
+<script src="<?php echo base_url(); ?>assets/vendor/js/datepicker.js"></script>
 </head>
 <div class="container-sty-adm ">
 	<div class=" row justify-content-md-end ">
 		<div class="col-md-9   mar_t20 ">
-		<div class="md-form">
-    <input placeholder="Selected date" type="text" id="date-picker-example" class="form-control datepicker">
-    <label for="date-picker-example">Try me...</label>
-</div>
-		<button type="button" class="btn btn-info btn-rounded pull-right">Add</button>
+		
+			<div id="datpic" style="display:none;">
+			<div class="row justify-content-md-center ">
+				<h3 >Select your leave Day</h3>
+				
+			</div>
+			<hr>
+			<div class="clearfix">&nbsp;</div>
+			<div class="row justify-content-md-center">
+				<div class="col-6">
+				<div class="md-form">
+					<input placeholder="Selected date" type="text" id="date-picker-example" class="form-control datepicker">
+					<label for="date-picker-example">Leave start</label>
+				</div>
+				</div>
+				<div class="col-6">
+				<div class="md-form">
+					<input placeholder="Selected date" type="text" id="date-picker-example" class="form-control datepicker">
+					<label for="date-picker-example">Ending start</label>
+				</div>
+				</div>
+				
+					<button type="button" class="btn btn-info btn-rounded">Apply</button>
+				
+				
+			</div>
+			</div>
+			<div class="clearfix">&nbsp;</div>
+		<button id="datpicbtn" type="button" class="btn btn-info btn-rounded pull-right">Add</button>
 		<table id="example" class="table table-striped table-bordered table-responsive-md" cellspacing="0" width="100%">
 			<thead>
 				<tr>
@@ -498,14 +523,12 @@
 			</div>
 </div>
 	<script>
-		$(document).ready(function() {
-    $('#example').DataTable();
-    $('.dataTables_wrapper').find('label').each(function() {
-      $(this).parent().append($(this).children());
-    });
-    $('select').addClass('mdb-select');
-    $('.mdb-select').material_select();
+	
+      $('.datepicker').pickadate();
+	 
+	 $("#datpicbtn").click(function(){
+    $("#datpic").toggle();
 });
-       
+  
 	</script>
 	
