@@ -81,6 +81,13 @@
 				<td>:</td>
 				<td><?php echo isset($userdetails['responsibilities'])?$userdetails['responsibilities']:''; ?></td>
 			  </tr> 
+				<?php if($userdetails['role']==3){ ?>			  
+			  <tr>
+				<th><strong>Salary</strong></th>
+				<td>:</td>
+				<td><?php echo isset($userdetails['salary'])?$userdetails['salary']:''; ?></td>
+			  </tr> 
+				<?php } ?>
 			  <tr>
 				<th><strong>Mobile Number</strong></th>
 				<td>:</td>

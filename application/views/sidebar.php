@@ -4,7 +4,7 @@
 		<a href="<?php echo base_url('employee/profile'); ?>"><li> Employee Profile</li></a>
 		<?php if($userdetails['role']==1 || $userdetails['role']==2){ ?>
 		<a href="<?php echo base_url('employee/report'); ?>"><li>Task report list </li></a>
-		<a href="<?php echo base_url('employee/addemployee'); ?>"><li>Add employee</li></a>
+		<a href="<?php echo base_url('employee/employeelist'); ?>"><li>Employee List</li></a>
 		<?php }else{ ?>
 		<a href="<?php echo base_url('employee/report'); ?>"><li>Task Mangagment </li></a>
 		<?php } ?>

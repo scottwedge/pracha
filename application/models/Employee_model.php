@@ -38,6 +38,11 @@ class Employee_model extends CI_Model
 		$this->db->where('create_at', $date);	
         return $this->db->get()->row_array();
 	}
+	public function get_employee_list_details(){
+		$this->db->select('*')->from('employee');
+		$this->db->order_by('employee.emp_id asc');
+		return $this->db->get()->result_array();
+	}
 	public function update_logout_time_status($l_id,$emp_id,$date){
 		$sql1="UPDATE login_report SET logout_time ='".$date."' WHERE id = '".$l_id."' AND emp_id = '".$emp_id."'";
        	return $this->db->query($sql1);
@@ -54,6 +59,10 @@ class Employee_model extends CI_Model
 	}
 	public function save_daily_report($data){
 		$this->db->insert('work_sheet', $data);
+		return $insert_id = $this->db->insert_id(); 
+	}
+	public function save_employee($data){
+		$this->db->insert('employee', $data);
 		return $insert_id = $this->db->insert_id(); 
 	}
 	public function get_employee_task_list($emp_id,$l_id){

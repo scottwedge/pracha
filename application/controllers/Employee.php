@@ -85,6 +85,28 @@ class Employee extends CI_Controller {
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
 		} 		
+	}
+	public function reportlist(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+			$data['report_list'] = $this->Employee_model->get_all_employee_tasklist();
+			echo '<pre>';print_r($data['report_list']);exit;
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('reportlist',$data);
+			//$this->load->view('footer');
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
 		
 		
 	}
@@ -149,9 +171,31 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['roleid'] = $data['userdetails']['role'];
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('profileedit',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}
+	public function employeeedit(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$emp_id=base64_decode($this->uri->segment(3));
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$employee['roleid'] = $data['userdetails']['role'];
+			$employee['role_type'] = 'admin';
+			$employee['userdetails'] = $this->Employee_model->get_employee_details($emp_id);
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('profileedit',$employee);
 			//$this->load->view('footer');
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
@@ -166,7 +210,6 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-			
 			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
@@ -174,7 +217,68 @@ class Employee extends CI_Controller {
 			//$this->load->view('footer');
 			}else{
 				$this->session->set_flashdata("error","You don't have permissions to access that page");
-				redirect('employee/prifile');
+				redirect('employee/profile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}
+	public function employeelist(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['employee_list'] = $this->Employee_model->get_employee_list_details();
+			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('emplist',$data);
+			//$this->load->view('footer');
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}public function status(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['employee_list'] = $this->Employee_model->get_employee_list_details();
+			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+				$empid=base64_decode($this->uri->segment(3));
+				$status=base64_decode($this->uri->segment(4));
+				if($status==1){
+					$active=array('status'=>0);	
+				}else{
+					$active=array('status'=>1);
+				}
+				$statuschange= $this->Employee_model->update_profile_details($empid,$active);
+				if(count($statuschange)>0){
+						if($status==1){
+							$this->session->set_flashdata('success','Employee  Successfully Deactive');
+						}else{
+							$this->session->set_flashdata('success','Employee  Successfully Active');
+						}
+					}else{
+						$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+						
+					}
+					redirect('employee/employeelist');
+
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
 			}
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
@@ -189,7 +293,7 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-			
+			$post=$this->input->post();
 			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
 						if($_FILES['profilepic']['name']!=''){
 						$profilepic=$_FILES['profilepic']['name'];
@@ -219,13 +323,18 @@ class Employee extends CI_Controller {
 						}else{
 							$kyc='';
 						}
-						$editdata=array(
+						$addemp=array(
 						'emp_name'=>isset($post['name'])?$post['name']:'',
 						'emp_role'=>isset($post['designation'])?$post['designation']:'',
+						'salary'=>isset($post['salary'])?$post['salary']:'',
 						'responsibilities'=>isset($post['responsibilites'])?$post['responsibilites']:'',
+						'emp_username'=>isset($post['email'])?$post['email']:'',
+						'emp_email'=>isset($post['email'])?$post['email']:'',
+						'emp_password'=>isset($post['password'])?md5($post['password']):'',
+						'emp_org_password'=>isset($post['password'])?$post['password']:'',
 						'emp_mobile'=>isset($post['mobile'])?$post['mobile']:'',
 						'emp_altermobile'=>isset($post['altermobile'])?$post['altermobile']:'',
-						'emp_dob'=>isset($post['dob'])?$post['dob']:'',
+						'emp_doj'=>isset($post['doj'])?$post['doj']:'',
 						'emp_profilepic'=>$profilepic,
 						'emp_resaddress'=>isset($post['resaddress'])?$post['resaddress']:'',
 						'emp_peraddress'=>isset($post['peraddress'])?$post['peraddress']:'',
@@ -234,11 +343,26 @@ class Employee extends CI_Controller {
 						'pancardno'=>isset($post['pannumber'])?$post['pannumber']:'',
 						'pancard'=>$pancard,
 						'otherkye'=>$kyc,
+						'role'=>3,
+						'status'=>1,
 						'create'=>date('Y-m-d H:i:s'),
 						);
+					$addemployee = $this->Employee_model->save_employee($addemp);
+					//echo $this->db->last_query();exit;
+					if(count($addemployee)>0){
+						$id='PT000'.$addemployee;
+						$empid=array('emp_office_id'=>$id);
+						$this->Employee_model->update_profile_details($addemployee,$empid);
+						$this->session->set_flashdata('success','Employee Successfully Added');
+						redirect('employee/employeelist');
+					}else{
+						$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+						redirect('employee/addemployee');
+					}
+
 			}else{
 				$this->session->set_flashdata("error","You don't have permissions to access that page");
-				redirect('employee/prifile');
+				redirect('employee/profile');
 			}
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
@@ -251,8 +375,9 @@ class Employee extends CI_Controller {
 		if($this->session->userdata('userdetails'))
 		{
 			$post=$this->input->post();
+			//echo '<pre>';print_r($post);exit;
 			$userdetails=$this->session->userdata('userdetails');
-			$cust_upload_file= $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$cust_upload_file= $this->Employee_model->get_employee_details($post['emp_id']);
 			if($_FILES['profilepic']['name']!=''){
 			$profilepic=$_FILES['profilepic']['name'];
 			move_uploaded_file($_FILES['profilepic']['tmp_name'], "assets/emp_pics/" . $_FILES['profilepic']['name']);
@@ -284,13 +409,23 @@ class Employee extends CI_Controller {
 			}else{
 				$kyc=$cust_upload_file['otherkye'];
 			}
+			if($post['role_type']=='admin'){
+					$salary=$post['salary'];
+					$dob=$cust_upload_file['emp_dob'];
+					$responsibilites=$post['responsibilites'];	
+				}else{
+					$salary=$cust_upload_file['salary'];
+					$dob=$post['dob'];	
+					$responsibilites=$cust_upload_file['responsibilities'];	
+				}
 			$editdata=array(
 			'emp_name'=>isset($post['name'])?$post['name']:'',
+			'salary'=>$salary,
 			'emp_role'=>isset($post['designation'])?$post['designation']:'',
-			'responsibilities'=>isset($post['responsibilites'])?$post['responsibilites']:'',
+			'responsibilities'=>$responsibilites,
 			'emp_mobile'=>isset($post['mobile'])?$post['mobile']:'',
 			'emp_altermobile'=>isset($post['altermobile'])?$post['altermobile']:'',
-			'emp_dob'=>isset($post['dob'])?$post['dob']:'',
+			'emp_dob'=>$dob,
 			'emp_profilepic'=>$profilepic,
 			'emp_resaddress'=>isset($post['resaddress'])?$post['resaddress']:'',
 			'emp_peraddress'=>isset($post['peraddress'])?$post['peraddress']:'',
@@ -302,12 +437,17 @@ class Employee extends CI_Controller {
 			'create'=>date('Y-m-d H:i:s'),
 			);
 			//echo '<pre>';print_r($editdata);exit;
-			$updateprofile= $this->Employee_model->update_profile_details($userdetails['emp_id'],$editdata);
+			$updateprofile= $this->Employee_model->update_profile_details($post['emp_id'],$editdata);
 			
 			//echo $this->db->last_query();exit;
 			if(count($updateprofile)>0){
 				$this->session->set_flashdata('success','Profile Successfully updated');
-				redirect('employee/profile');
+				if($post['role_type']=='admin'){
+					redirect('employee/employeelist');
+				}else{
+				redirect('employee/profile');	
+				}
+				
 			}else{
 				 $this->session->set_flashdata('error','Technical problem will occurred .please try again');
 				 redirect('employee/edit');
