@@ -57,23 +57,24 @@ class Employee_model extends CI_Model
 		return $insert_id = $this->db->insert_id(); 
 	}
 	public function get_employee_task_list($emp_id,$l_id){
-		$this->db->select('work_sheet.date,work_sheet.login_id,work_sheet.emp_id')->from('work_sheet');
+		$this->db->select('login_report.create_at,login_report.emp_id,login_report.id')->from('login_report');
 		$this->db->where('emp_id', $emp_id);	
-		$this->db->where('login_id', $l_id);	
+		//$this->db->where('login_id', $l_id);	
 		//$this->db->where('date', $date);
-		$this->db->like('date', date('Y-m'));
-        $this->db->group_by('date'); 		
+		$this->db->like('create_at', date('Y-m'));
+        $this->db->group_by('create_at'); 		
         return $this->db->get()->result_array();
 	}
 	public function get_employee_daily_task_list($emp_id,$l_id){
-		$this->db->select('work_sheet.date,work_sheet.login_id,work_sheet.emp_id')->from('work_sheet');
+		$this->db->select('work_sheet.comment,work_sheet.reportfile,work_sheet.create_date')->from('work_sheet');
 		$this->db->where('emp_id', $emp_id);	
 		$this->db->where('login_id', $l_id);	
         return $this->db->get()->result_array();
 	}
-	public function get_employee_login_logout($emp_id){
+	public function get_employee_login_logout($emp_id,$date){
 		$this->db->select('*')->from('login_report');
 		$this->db->where('emp_id', $emp_id);	
+		$this->db->where('create_at', $date);	
         return $this->db->get()->row_array();
 	}
 

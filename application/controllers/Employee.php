@@ -61,7 +61,7 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$this->load->view('header1');
-			$this->load->view('sidebar');
+			$this->load->view('sidebar',$data);
 			$this->load->view('profile',$data);
 			//$this->load->view('footer');
 		}else{
@@ -78,7 +78,7 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$this->load->view('header1');
-			$this->load->view('sidebar');
+			$this->load->view('sidebar',$data);
 			$this->load->view('leaves',$data);
 			//$this->load->view('footer');
 		}else{
@@ -95,14 +95,44 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$logindetails= $this->Employee_model->get_employee_logindetails($userdetails['emp_id'],date('Y-m-d'));
 			$task_list= $this->Employee_model->get_employee_task_list($userdetails['emp_id'],$logindetails['id']);
+			//echo '<pre>';print_r($task_list);exit;
+			$diff_in_hrs=$times='';
 			foreach ($task_list as $list){
-				$times=$this->Employee_model->get_employee_login_logout($list['emp_id'],date('Y-m-d'));
-				echo '<pre>';print_r($times);exit;
-				$details[$list['date']]['task']=$this->Employee_model->get_employee_daily_task_list($list['emp_id'],$list['login_id']);
+				$times=$this->Employee_model->get_employee_login_logout($list['emp_id'],$list['create_at']);
+				
+				if(isset($times['logout_time']) && $times['logout_time']=='0000-00-00 00:00:00'){
+					$current_time=date('Y-m-d H:i:s');
+					$datetime1 = new DateTime($times['login_time']);
+					$datetime2 = new DateTime($current_time);
+					$interval = $datetime1->diff($datetime2);
+					$diff_in_hrs=$interval->format('%h')." Hr ".$interval->format('%i')." Min ".$interval->format('%s').'sec';
+				}else{
+					
+					$datetime1 = new DateTime($times['login_time']);
+					$datetime2 = new DateTime($times['logout_time']);
+					$interval = $datetime1->diff($datetime2);
+					$diff_in_hrs=$interval->format('%h')." hrs ".$interval->format('%i')." Min ".$interval->format('%s').'sec';
+				
+				
+				}
+				
+				$details[$list['create_at']]['task']=$this->Employee_model->get_employee_daily_task_list($list['emp_id'],$list['id']);
+				$t=$list['create_at'];
+				
+				$details[$list['create_at']]['currentday']=date('F').' - '.date("D d",strtotime($t)); 
+				$details[$list['create_at']]['workinghours']=$diff_in_hrs;
+				$details[$list['create_at']]['intime']=$times['login_time'];
+				$details[$list['create_at']]['outtime']=$times['logout_time'];
 			}
-			echo '<pre>';print_r($details);exit;
+			$data['title']=date('F').' - '.date("Y",strtotime(date('Y-m-d'))); 
+			if(count($details)>0){
+				$data['reportlist']=$details;
+			}else{
+				$data['reportlist']=array();
+			}
+			//echo '<pre>';print_r($details);exit;
 			$this->load->view('header1');
-			$this->load->view('sidebar');
+			$this->load->view('sidebar',$data);
 			$this->load->view('dailyreport',$data);
 			//$this->load->view('footer');
 		}else{
@@ -119,7 +149,7 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$this->load->view('header1');
-			$this->load->view('sidebar');
+			$this->load->view('sidebar',$data);
 			$this->load->view('profileedit',$data);
 			//$this->load->view('footer');
 		}else{
