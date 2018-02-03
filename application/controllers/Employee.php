@@ -93,6 +93,7 @@ class Employee extends CI_Controller {
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$logindetails= $this->Employee_model->get_employee_logindetails($userdetails['emp_id'],date('Y-m-d'));
 			$task_list= $this->Employee_model->get_employee_task_list($userdetails['emp_id'],$logindetails['id']);
 			//echo '<pre>';print_r($task_list);exit;
@@ -152,6 +153,93 @@ class Employee extends CI_Controller {
 			$this->load->view('sidebar',$data);
 			$this->load->view('profileedit',$data);
 			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}
+	public function addemployee(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			
+			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('addemployee',$data);
+			//$this->load->view('footer');
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/prifile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}
+	public function addeployeepost(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			
+			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+						if($_FILES['profilepic']['name']!=''){
+						$profilepic=$_FILES['profilepic']['name'];
+						move_uploaded_file($_FILES['profilepic']['tmp_name'], "assets/emp_pics/" . $_FILES['profilepic']['name']);
+
+						}else{
+							$profilepic='';
+						}
+						if($_FILES['aadharcard']['name']!=''){
+						$aadhar=$_FILES['aadharcard']['name'];
+						move_uploaded_file($_FILES['aadharcard']['tmp_name'], "assets/documents/" . $_FILES['aadharcard']['name']);
+
+						}else{
+							$aadhar='';
+						}
+						if($_FILES['pancard']['name']!=''){
+						$pancard=$_FILES['pancard']['name'];
+						move_uploaded_file($_FILES['pancard']['tmp_name'], "assets/documents/" . $_FILES['pancard']['name']);
+
+						}else{
+							$pancard='';
+						}
+						if($_FILES['kyc']['name']!=''){
+						$kyc=$_FILES['kyc']['name'];
+						move_uploaded_file($_FILES['kyc']['tmp_name'], "assets/documents/" . $_FILES['kyc']['name']);
+
+						}else{
+							$kyc='';
+						}
+						$editdata=array(
+						'emp_name'=>isset($post['name'])?$post['name']:'',
+						'emp_role'=>isset($post['designation'])?$post['designation']:'',
+						'responsibilities'=>isset($post['responsibilites'])?$post['responsibilites']:'',
+						'emp_mobile'=>isset($post['mobile'])?$post['mobile']:'',
+						'emp_altermobile'=>isset($post['altermobile'])?$post['altermobile']:'',
+						'emp_dob'=>isset($post['dob'])?$post['dob']:'',
+						'emp_profilepic'=>$profilepic,
+						'emp_resaddress'=>isset($post['resaddress'])?$post['resaddress']:'',
+						'emp_peraddress'=>isset($post['peraddress'])?$post['peraddress']:'',
+						'aadharcardno'=>isset($post['aadharnumber'])?$post['aadharnumber']:'',
+						'aadharcard'=>$aadhar,
+						'pancardno'=>isset($post['pannumber'])?$post['pannumber']:'',
+						'pancard'=>$pancard,
+						'otherkye'=>$kyc,
+						'create'=>date('Y-m-d H:i:s'),
+						);
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/prifile');
+			}
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
