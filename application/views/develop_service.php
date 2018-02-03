@@ -107,13 +107,13 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">Alpha</span></div>
+          <div class="price color-1-font"><span class="total">Basic</span></div>
           <div class="description">1-4 Page<pre class="price-ani ">₹ 5,999</pre></div>
          
         </div><!-- end div .front -->
         <div class="popular color-1-font  fa fa-hand-o-right"></div>
         <div class="back color-1-bg info">
-          <div class="title">Alpha</div>
+          <div class="title">Basic</div>
           <div class="description">
             <h3>₹ 5,999</h3>
             <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
@@ -127,12 +127,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total">BETA</span></div>
+          <div class="price color-2-font"><span class="total">Bronze</span></div>
           <div class="description">5-10 Page <pre class="price-ani ">₹ 11,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
-          <div class="title">BETA</div>
+          <div class="title">Bronze</div>
           <div class="description">
             <h3>₹ 11,999</h3>
             <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
@@ -146,12 +146,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">GAAMA</span></div>
+          <div class="price color-3-font"><span class="total">Silver</span></div>
           <div class="description">11-16 Page <pre class="price-ani ">₹ 14,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
-          <div class="title">GAAMA</div>
+          <div class="title">Silver</div>
           <div class="description">
          <h3>₹ 14,999</h3>
             <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
@@ -165,12 +165,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
-          <div class="price color-4-font"><span class="total">DELTA</span></div>
+          <div class="price color-4-font"><span class="total">Gold</span></div>
           <div class="description">17-25 pages <pre class="price-ani ">₹ 19,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
-          <div class="title">DELTA</div>
+          <div class="title">Gold</div>
           <div class="description">
              <h3>₹ 19,999</h3>
             <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
@@ -182,12 +182,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total" style="font-size:30px;">PI</span></div><br>
+          <div class="price color-2-font"><span class="total" style="font-size:30px;">Platinum</span></div>
           <div class="description">Unlimited Pages<pre class="price-ani ">₹ 27,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
-          <div class="title" style="font-size:20px;">PI</div><br>
+          <div class="title" style="font-size:20px;">Platinum</div><br>
           <div class="description">
             <h3>₹ 27,999</h3>
             <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>

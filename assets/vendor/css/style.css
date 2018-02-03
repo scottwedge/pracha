@@ -649,7 +649,7 @@ display:inline-block;
 	color:#fff;
 }
 .price .total {
-font-size:45px;
+font-size:30px;
 }
 
 .currency,.end {
@@ -663,7 +663,7 @@ text-align:center;
 .front .description {
 color:#ff9800!important;
 font-size:14px;
-padding:12px 45px 0;
+padding:30px 45px 0;
 
 
 }

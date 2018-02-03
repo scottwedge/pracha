@@ -523,6 +523,17 @@
 			</div>
 </div>
 	<script>
+	$(document).ready(function() {
+    $('#example').DataTable({
+        "order": [[ 1, "asc" ]]
+    });
+    $('.dataTables_wrapper').find('label').each(function() {
+      $(this).parent().append($(this).children());
+    });
+    $('select').addClass('mdb-select');
+    $('.mdb-select').material_select();
+});
+      
 	
       $('.datepicker').pickadate();
 	 

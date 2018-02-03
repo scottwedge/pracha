@@ -332,7 +332,7 @@
 								</ul>
 								<br>
 								</div>
-								<p class="text-center"> <a href="<?php echo base_url('develop_service'); ?>"class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+								<p class="text-center"> <a href="<?php echo base_url('ecommerce'); ?>"class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div></a>

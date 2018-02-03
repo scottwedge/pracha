@@ -106,13 +106,13 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">Alpha</span></div>
+          <div class="price color-1-font"><span class="total">Basic	</span></div>
           <div class="description">Professional<pre class="price-ani ">₹ 69,999</pre></div>
          
         </div><!-- end div .front -->
         <div class="popular color-1-font  fa fa-hand-o-right"></div>
         <div class="back color-1-bg info">
-          <div class="title">Alpha</div>
+          <div class="title">Basic</div>
           <div class="description">
             <h3>₹ 69,999</h3>
             <a href="<?php echo base_url('ecom_overflow');?>" class="btn btn-danger">Read more..</a>
@@ -126,12 +126,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total">BETA</span></div>
+          <div class="price color-2-font"><span class="total">Bronze</span></div>
           <div class="description">Big Business <pre class="price-ani ">₹ 1,39,999 </pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
-          <div class="title">BETA</div>
+          <div class="title">Bronze</div>
           <div class="description">
             <h3>₹ 1,39,999 </h3>
             <a href="<?php echo base_url('ecom_overflow');?>" class="btn btn-danger">Read more..</a>
@@ -145,12 +145,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">GAAMA</span></div>
+          <div class="price color-3-font"><span class="total">Silver</span></div>
           <div class="description">Multi Vendor<pre class="price-ani ">₹ 1,79,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
-          <div class="title">GAAMA</div>
+          <div class="title">Silver</div>
           <div class="description">
          <h3>₹ 1,79,999</h3>
             <a href="<?php echo base_url('ecom_overflow');?>" class="btn btn-danger">Read more..</a>
@@ -164,12 +164,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
-          <div class="price color-4-font"><span class="total">DELTA</span></div>
+          <div class="price color-4-font"><span class="total">Gold</span></div>
           <div class="description">Advance Plan<pre class="price-ani ">₹ 2,39,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
-          <div class="title">DELTA</div>
+          <div class="title">Gold</div>
           <div class="description">
              <h3>₹ 2,39,999</h3>
             <a href="<?php echo base_url('ecom_overflow');?>" class="btn btn-danger">Read more..</a>

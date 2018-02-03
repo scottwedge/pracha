@@ -26,13 +26,13 @@
 		<thead>
 		<tr>
 		<th class="bg-warning "><h5 class="text-white"> SERVICES</h5></th>
-		<th class="tabco2 text-white bg-blue-grey" >Alpha <br>
+		<th class="tabco2 text-white bg-blue-grey" >Basic <br>
 		 ₹ 69,999/-</th>
-		<th class="tabco3 text-white bg-mdb-color">Beta <br>
+		<th class="tabco3 text-white bg-mdb-color">Bronze <br>
 		₹ 1,39,999 /-</th>
-		<th class="tabco4 text-white bg-primary" > Gaama <br>
+		<th class="tabco4 text-white bg-primary" > Silver <br>
 		₹ 1,79,999/-</th>
-		<th class="tabco4 text-white bg-info" >DELTA  <br>
+		<th class="tabco4 text-white bg-info" >Gold  <br>
 		₹ 2,39,999/-</th>
 		</tr>
 		</thead>

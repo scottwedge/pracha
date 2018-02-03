@@ -128,7 +128,7 @@
 	<thead>
 	<tr>
 	<th class="bg-warning ">Features</th>
-	<th class="tabco2" >Alpha <br>
+	<th class="tabco2" >Basic <br>
 	 ₹ 6,999</th>
 	<th class="tabco3">Beta <br>
 	₹ 13,999</th>
@@ -264,13 +264,13 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">Alpha</span></div>
+          <div class="price color-1-font"><span class="total">Basic</span></div>
           <div class="description">1-4 Page<pre class="price-ani ">₹ 6,999</pre></div>
          
         </div><!-- end div .front -->
         <div class="popular color-1-font  fa fa-hand-o-right"></div>
         <div class="back color-1-bg info">
-          <div class="title">Alpha</div>
+          <div class="title">Basic</div>
           <div class="description">
             <h3>₹ 6,999</h3>
             <a href="<?php echo base_url('overview');?>" class="btn btn-danger">Read more..</a>
@@ -284,12 +284,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total">BETA</span></div>
+          <div class="price color-2-font"><span class="total">Bronze</span></div>
           <div class="description">5-12 Page <pre class="price-ani ">₹ 13,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
-          <div class="title">BETA</div>
+          <div class="title">Bronze</div>
           <div class="description">
             <h3>₹ 13,999</h3>
            <a href="<?php echo base_url('overview');?>" class="btn btn-danger">Read more..</a>
@@ -303,12 +303,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">GAAMA</span></div>
+          <div class="price color-3-font"><span class="total">Silver</span></div>
           <div class="description">13-20 Page <pre class="price-ani ">₹ 19,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
-          <div class="title">GAAMA</div>
+          <div class="title">Silver</div>
           <div class="description">
          <h3>₹ 19,999</h3>
            <a href="<?php echo base_url('overview');?>" class="btn btn-danger">Read more..</a>
@@ -322,12 +322,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
-          <div class="price color-4-font"><span class="total">PI</span></div>
+          <div class="price color-4-font"><span class="total">Gold</span></div>
           <div class="description">Unlimited Pages <pre class="price-ani ">₹ 25,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
-          <div class="title">PI</div>
+          <div class="title">Gold</div>
           <div class="description">
              <h3>₹ 25,999</h3>
            <a href="<?php echo base_url('overview');?>" class="btn btn-danger">Read more..</a>
@@ -339,7 +339,7 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total" style="font-size:30px;">Ecommerce</span></div><br>
+          <div class="price color-2-font"><span class="total" style="font-size:30px;">Ecommerce</span></div>
           <div class="description">Unlimited Pages<pre class="price-ani ">₹ 34,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>

@@ -49,9 +49,9 @@
   <thead>
     <tr>
       <th>PERIOD</th>
-      <th>ALPHA </th>
-      <th>BETA</th>
-      <th>GAAMA</th>
+      <th>Basic </th>
+      <th>Bronze</th>
+      <th>Silver</th>
     </tr>
   </thead>
   <tbody>
