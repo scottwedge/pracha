@@ -21,6 +21,8 @@
 						<h3 class=" text-center"> Edit <?php echo isset($userdetails['emp_name'])?$userdetails['emp_name']:''; ?> Profile</h3>
 						<hr>
 				</div>
+				<input type="hidden" class="form-control" name="emp_id" id="emp_id" value="<?php echo isset($userdetails['emp_id'])?$userdetails['emp_id']:''; ?>">
+				<input type="hidden" class="form-control" name="role_type" id="role_type" value="<?php echo isset($role_type)?$role_type:''; ?>">
 		  			<div class="form-group col-md-6">
 		  				<label for="exampleInputUsername">Name</label>
 				    	<input type="text" class="form-control" name="name" id="name" placeholder=" Enter Name" value="<?php echo isset($userdetails['emp_name'])?$userdetails['emp_name']:''; ?>">
@@ -41,10 +43,17 @@
 				    	<label for="telephone">Alternate Mobile No</label>
 				    	<input type="text" class="form-control" name="altermobile" id="altermobile" value="<?php echo isset($userdetails['emp_altermobile'])?$userdetails['emp_altermobile']:''; ?>" placeholder="Alternate Mobile No">
 		  			</div>
+					<?php if($roleid==1 || $roleid==2){ ?>
+					<div class="form-group col-md-6">
+				    	<label for="telephone">Salary</label>
+				    	<input type="text" class="form-control" name="salary" id="salary" placeholder="Salary" value="<?php echo isset($userdetails['salary'])?$userdetails['salary']:''; ?>">
+		  			</div>
+					<?php }else{ ?>
 					<div class="form-group col-md-6">
 				    	<label for="telephone">DOB</label>
 				    	<input type="text" class="form-control" name="dob" id="dob" placeholder="Date of birth" value="<?php echo isset($userdetails['emp_dob'])?$userdetails['emp_dob']:''; ?>">
 		  			</div>
+					<?php } ?>
 					<div class="form-group col-md-6">
 				    	<label for="telephone">Adhar Card Number</label>
 				    	<input type="text" class="form-control" name="aadharnumber" id="aadharnumber" placeholder="Aadhar Card number" value="<?php echo isset($userdetails['aadharcardno'])?$userdetails['aadharcardno']:''; ?>">

@@ -27,11 +27,19 @@
 			  		</div>
 			  		<div class="form-group col-md-6">
 				    	<label for="exampleInputEmail">Designation</label>
-				    	<input type="text" class="form-control" readonly="true" id="designation" required="true" name="designation" placeholder=" Enter Designation" value="">
+				    	<input type="text" class="form-control" id="designation" required="true" name="designation" placeholder=" Enter Designation" value="">
 				  	</div>	
 				  	<div class="form-group col-md-6">
 				    	<label for="telephone">Responsibilites</label>
-				    	<input type="text" class="form-control" readonly="true" required="true" name="responsibilites" id="responsibilites"  placeholder=" Enter Responsibilites" value="">
+				    	<input type="text" class="form-control"  required="true" name="responsibilites" id="responsibilites"  placeholder=" Enter Responsibilites" value="">
+		  			</div>
+		  			<div class="form-group col-md-6">
+				    	<label for="telephone">Email Address</label>
+				    	<input type="email" class="form-control" required="true" name="email" required="true" id="email" placeholder="Email Address" value="">
+		  			</div>
+		  			<div class="form-group col-md-6">
+				    	<label for="telephone">Password</label>
+				    	<input type="password" class="form-control" required="true" minlength="6" name="password" required="true" id="password" placeholder="Password" value="">
 		  			</div>
 		  			<div class="form-group col-md-6">
 				    	<label for="telephone">Mobile No</label>
@@ -42,9 +50,14 @@
 				    	<input type="text" class="form-control" name="altermobile" id="altermobile" value="" placeholder="Alternate Mobile No">
 		  			</div>
 					<div class="form-group col-md-6">
-				    	<label for="telephone">DOB</label>
-				    	<input type="text" class="form-control" name="dob" id="dob" placeholder="Date of birth" value="">
+				    	<label for="telephone">DOJ</label>
+				    	<input type="text" class="form-control" name="doj" id="doj" placeholder="Date of Join" value="">
 		  			</div>
+					<div class="form-group col-md-6">
+				    	<label for="telephone">Salary</label>
+				    	<input type="text" class="form-control" name="salary" id="salary" placeholder="Salary" value="<?php echo isset($userdetails['salary'])?$userdetails['salary']:''; ?>">
+		  			</div><div class="form-group col-md-6"></div>
+					
 					<div class="form-group col-md-6">
 				    	<label for="telephone">Adhar Card Number</label>
 				    	<input type="text" class="form-control" name="aadharnumber" id="aadharnumber" placeholder="Aadhar Card number" value="">
