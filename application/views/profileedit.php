@@ -30,11 +30,13 @@
 			  		<div class="form-group col-md-6">
 				    	<label for="exampleInputEmail">Designation</label>
 				    	<input type="text" class="form-control" readonly="true" id="designation" name="designation" placeholder=" Enter Designation" value="<?php echo isset($userdetails['emp_role'])?$userdetails['emp_role']:''; ?>">
-				  	</div>	
-				  	<div class="form-group col-md-6">
+				  	</div>
+					<?php if($roleid==1 || $roleid==2){ ?>
+					<div class="form-group col-md-6">
 				    	<label for="telephone">Responsibilites</label>
-				    	<input type="text" class="form-control" readonly="true" name="responsibilites" id="responsibilites"  placeholder=" Enter Responsibilites" value="<?php echo isset($userdetails['responsibilities'])?$userdetails['responsibilities']:''; ?>">
+				    	<input type="text" class="form-control"  name="responsibilites" id="responsibilites"  placeholder=" Enter Responsibilites" value="<?php echo isset($userdetails['responsibilities'])?$userdetails['responsibilities']:''; ?>">
 		  			</div>
+					<?php } ?>
 		  			<div class="form-group col-md-6">
 				    	<label for="telephone">Mobile No</label>
 				    	<input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile No" value="<?php echo isset($userdetails['emp_mobile'])?$userdetails['emp_mobile']:''; ?>">

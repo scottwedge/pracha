@@ -85,6 +85,28 @@ class Employee extends CI_Controller {
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
 		} 		
+	}
+	public function reportlist(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+			$data['report_list'] = $this->Employee_model->get_all_employee_tasklist();
+			echo '<pre>';print_r($data['report_list']);exit;
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('reportlist',$data);
+			//$this->load->view('footer');
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
 		
 		
 	}
@@ -149,6 +171,7 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['roleid'] = $data['userdetails']['role'];
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('profileedit',$data);
@@ -159,7 +182,8 @@ class Employee extends CI_Controller {
 		} 		
 		
 		
-	}public function employeeedit(){
+	}
+	public function employeeedit(){
 		
 		if($this->session->userdata('userdetails'))
 		{
@@ -186,7 +210,6 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-			
 			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
@@ -194,7 +217,7 @@ class Employee extends CI_Controller {
 			//$this->load->view('footer');
 			}else{
 				$this->session->set_flashdata("error","You don't have permissions to access that page");
-				redirect('employee/prifile');
+				redirect('employee/profile');
 			}
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
@@ -217,7 +240,45 @@ class Employee extends CI_Controller {
 			//$this->load->view('footer');
 			}else{
 				$this->session->set_flashdata("error","You don't have permissions to access that page");
-				redirect('employee/prifile');
+				redirect('employee/profile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}public function status(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['employee_list'] = $this->Employee_model->get_employee_list_details();
+			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+				$empid=base64_decode($this->uri->segment(3));
+				$status=base64_decode($this->uri->segment(4));
+				if($status==1){
+					$active=array('status'=>0);	
+				}else{
+					$active=array('status'=>1);
+				}
+				$statuschange= $this->Employee_model->update_profile_details($empid,$active);
+				if(count($statuschange)>0){
+						if($status==1){
+							$this->session->set_flashdata('success','Employee  Successfully Deactive');
+						}else{
+							$this->session->set_flashdata('success','Employee  Successfully Active');
+						}
+					}else{
+						$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+						
+					}
+					redirect('employee/employeelist');
+
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
 			}
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
@@ -301,7 +362,7 @@ class Employee extends CI_Controller {
 
 			}else{
 				$this->session->set_flashdata("error","You don't have permissions to access that page");
-				redirect('employee/prifile');
+				redirect('employee/profile');
 			}
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
@@ -348,14 +409,23 @@ class Employee extends CI_Controller {
 			}else{
 				$kyc=$cust_upload_file['otherkye'];
 			}
+			if($post['role_type']=='admin'){
+					$salary=$post['salary'];
+					$dob=$cust_upload_file['emp_dob'];
+					$responsibilites=$post['responsibilites'];	
+				}else{
+					$salary=$cust_upload_file['salary'];
+					$dob=$post['dob'];	
+					$responsibilites=$cust_upload_file['responsibilities'];	
+				}
 			$editdata=array(
 			'emp_name'=>isset($post['name'])?$post['name']:'',
-			'salary'=>isset($post['salary'])?$post['salary']:'',
+			'salary'=>$salary,
 			'emp_role'=>isset($post['designation'])?$post['designation']:'',
-			'responsibilities'=>isset($post['responsibilites'])?$post['responsibilites']:'',
+			'responsibilities'=>$responsibilites,
 			'emp_mobile'=>isset($post['mobile'])?$post['mobile']:'',
 			'emp_altermobile'=>isset($post['altermobile'])?$post['altermobile']:'',
-			'emp_dob'=>isset($post['dob'])?$post['dob']:'',
+			'emp_dob'=>$dob,
 			'emp_profilepic'=>$profilepic,
 			'emp_resaddress'=>isset($post['resaddress'])?$post['resaddress']:'',
 			'emp_peraddress'=>isset($post['peraddress'])?$post['peraddress']:'',
@@ -372,7 +442,7 @@ class Employee extends CI_Controller {
 			//echo $this->db->last_query();exit;
 			if(count($updateprofile)>0){
 				$this->session->set_flashdata('success','Profile Successfully updated');
-				if($post['role_type']='admin'){
+				if($post['role_type']=='admin'){
 					redirect('employee/employeelist');
 				}else{
 				redirect('employee/profile');	

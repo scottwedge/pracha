@@ -9,6 +9,17 @@
 		<div class="col-md-9   mar_t20 ">
 		<a  href="<?php echo base_url('employee/addemployee'); ?>" type="button" class="btn btn-info btn-rounded pull-right">Add</a>
 		<table id="example" class="table table-striped table-bordered table-responsive-md" cellspacing="0" width="100%">
+			<?php if($this->session->flashdata('success')): ?>
+		<div class="alert alert-success">
+		<strong><?php echo $this->session->flashdata('success'); ?></strong> 
+		</div>
+
+		<?php endif; ?>
+		<?php if($this->session->flashdata('error')): ?>
+		<div class="alert alert-warning">
+		<strong><?php echo $this->session->flashdata('error'); ?></strong> 
+		</div>
+		<?php endif; ?>
 			<thead>
 				<tr>
 					<th>Name</th>
@@ -40,7 +51,8 @@
 					<td><?php echo $elist['emp_mobile']; ?></td>
 					<td><?php echo $elist['emp_doj']; ?></td>
 					<td><?php echo $elist['salary']; ?></td>
-					<td><a href="<?php echo base_url('employee/employeeedit/'.base64_encode($elist['emp_id'])); ?>">Edit</a></td>
+					<td><a href="<?php echo base_url('employee/employeeedit/'.base64_encode($elist['emp_id'])); ?>">Edit</a>
+					|<a href="<?php echo base_url('employee/status/'.base64_encode($elist['emp_id']).'/'.base64_encode($elist['status'])); ?>"><?php if($elist['status']==1){ echo "Deactive"; }else{ echo "Active"; } ?></a></td>
 				</tr>
 			<?php } ?>
 				
