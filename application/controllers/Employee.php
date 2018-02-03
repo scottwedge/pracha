@@ -92,13 +92,12 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
-			$data['report_list'] = $this->Employee_model->get_all_employee_tasklist();
-			echo '<pre>';print_r($data['report_list']);exit;
-			$this->load->view('header1');
-			$this->load->view('sidebar',$data);
-			$this->load->view('reportlist',$data);
-			//$this->load->view('footer');
+			if($data['userdetails']['role']==1 || $data['userdetails']['role']==2){
+				$details=$this->Employee_model->get_all_employees_dailyreport();
+				//echo '<pre>';print_r($details);exit;
+				$this->load->view('header1');
+				$this->load->view('sidebar',$data);
+				$this->load->view('reportlist',$data);
 			}else{
 				$this->session->set_flashdata("error","You don't have permissions to access that page");
 				redirect('employee/profile');

@@ -86,6 +86,10 @@ class Employee_model extends CI_Model
 		$this->db->where('create_at', $date);	
         return $this->db->get()->row_array();
 	}
+	public function get_all_employees_dailyreport(){
+		$this->db->select('*')->from('work_sheet');
+        return $this->db->get()->result_array();
+	}
 
 
 }
