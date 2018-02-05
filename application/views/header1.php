@@ -47,7 +47,7 @@
 				
 				
 			<li class="nav-item" >
-				<a href="<?php echo base_url('employee/report'); ?>" class="nav-link "> Task Mangagment</a>
+				<a href="<?php echo base_url('employee/report'); ?>" class="nav-link "> Daily WorkMangagment</a>
 			</i>
 			<li class="nav-item">
 				<div class="dropdown">
@@ -65,7 +65,7 @@
 			<li class="nav-item sm-hide" data-toggle="collapse" data-target="#navbarSupportedContent"> &nbsp;</li>
 		
 			<li class="nav-item md-hide " data-toggle="collapse" data-target="#navbarSupportedContent"><a href="<?php echo base_url('employee/profile'); ?>" class="nav-link "> Employee Profile</a></i>
-			<li class="nav-item md-hide " data-toggle="collapse" data-target="#navbarSupportedContent"><a href="<?php echo base_url('employee/report'); ?>" class="nav-link "> Task Mangagment</a></i>
+			<li class="nav-item md-hide " data-toggle="collapse" data-target="#navbarSupportedContent"><a href="<?php echo base_url('employee/report'); ?>" class="nav-link "> Daily WorkMangagment</a></i>
 			<li class="nav-item md-hide " data-toggle="collapse" data-target="#navbarSupportedContent"><a href="<?php echo base_url('employee/leaves'); ?>" class="nav-link "> Leaves</a></i>
 		
 			
