@@ -11,6 +11,8 @@
 		<?php if($userdetails['role']==1 || $userdetails['role']==2){ ?>
 		<a href="<?php echo base_url('employee/leaveslist'); ?>"><li>Leave Management</li></a>
 		<a href="<?php echo base_url('employee/holidays_list'); ?>"><li>Holidays List</li></a>
+		<a href="<?php echo base_url('employee/suggestion'); ?>"><li>Complaint/ Suggestion Box</li></a>
+		<a href="<?php echo base_url('employee/task'); ?>"><li>Task Mangagment </li></a>
 		<?php }else{  ?>
 		<a href="<?php echo base_url('employee/leaves'); ?>"><li>Leave Management</li></a>
 		<a href="<?php echo base_url('employee/holidays_list'); ?>"><li>Holidays List</li></a>

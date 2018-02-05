@@ -115,12 +115,58 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-			$data['leaves_list']=$this->Employee_model->get_leaves_data($userdetails['emp_id']);
+			if($data['userdetails']['role']==3){
+			$data['suggestion_list']=$this->Employee_model->get_suggestion_data($userdetails['emp_id']);
+			}else{
+				$data['suggestion_list']=$this->Employee_model->get_all_suggestion_data();
+				$data['emp_list']=$this->Employee_model->get_employee_list_details();
 
+			}
+			//echo '<pre>';print_r($data);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('suggestion',$data);
 			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+	}
+	public function suggestionpost(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$post=$this->input->post();
+			//echo '<pre>';print_r($post);exit; 
+			if(isset($post['emp_id']) && $post['emp_id']!=''){
+				$emp=$post['emp_id'];
+				$replyemp=$data['userdetails']['emp_id'];
+				$type='Replayed';
+			}else{  
+				$emp=$data['userdetails']['emp_id'];
+				$replyemp=$data['userdetails']['emp_id'];
+				$type='Replay';
+			}
+			$msgdata=array(
+				'emp_id'=>$emp,
+				'replayed_id'=>$replyemp,
+				'comment'=>isset($post['message'])?$post['message']:'',
+				'type'=>$type,
+				'status'=>1,
+				'create'=>date('Y-m-d H:i:s'),
+				);
+				//echo '<pre>';print_r($msgdata);exit;
+			$addmsg=$this->Employee_model->save_suggetion_data($msgdata);
+			if(count($addmsg)>0){
+				$this->session->set_flashdata('success','Your suggestion Successfully submitted');
+				redirect('employee/suggestion');
+			}else{
+				$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+				redirect('employee/suggestion');
+			}
+			
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');

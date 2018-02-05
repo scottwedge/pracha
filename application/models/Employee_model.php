@@ -65,6 +65,10 @@ class Employee_model extends CI_Model
 		$this->db->insert('leaves', $data);
 		return $insert_id = $this->db->insert_id(); 
 	}
+	public function save_suggetion_data($data){
+		$this->db->insert('suggestion_list', $data);
+		return $insert_id = $this->db->insert_id(); 
+	}
 	public function save_holidays_data($data){
 		$this->db->insert('holidays_list', $data);
 		return $insert_id = $this->db->insert_id(); 
@@ -108,6 +112,19 @@ class Employee_model extends CI_Model
 		$this->db->select('leaves.*,employee.emp_name')->from('leaves');
 		$this->db->join('employee', 'employee.emp_id = leaves.emp_id', 'left');
 		$this->db->where('leaves.emp_id', $emp_id);	
+        return $this->db->get()->result_array();
+	}
+	public function get_suggestion_data($emp_id){
+		$this->db->select('suggestion_list.*,employee.emp_name,employee.emp_profilepic, replayed.emp_name as empreplyname,, replayed.emp_profilepic as empreplyimage,')->from('suggestion_list');
+		$this->db->join('employee', 'employee.emp_id = suggestion_list.emp_id', 'left');
+		$this->db->join('employee as replayed', 'replayed.emp_id = suggestion_list.replayed_id', 'left');
+		$this->db->where('suggestion_list.emp_id', $emp_id);	
+        return $this->db->get()->result_array();
+	}
+	public function get_all_suggestion_data(){
+		$this->db->select('suggestion_list.*,employee.emp_name,employee.emp_profilepic, replayed.emp_name as empreplyname,, replayed.emp_profilepic as empreplyimage,')->from('suggestion_list');
+		$this->db->join('employee', 'employee.emp_id = suggestion_list.emp_id', 'left');
+		$this->db->join('employee as replayed', 'replayed.emp_id = suggestion_list.replayed_id', 'left');
         return $this->db->get()->result_array();
 	}
 	public function get_allemployees_leaves_data(){
