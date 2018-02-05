@@ -86,6 +86,24 @@ class Employee extends CI_Controller {
 		 redirect('employee');
 		} 		
 	}
+	public function leavepost(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$post=$this->input->post();
+			echo '<pre>';print_r($post);
+			exit;
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('leaves',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+	}
 	public function reportlist(){
 		
 		if($this->session->userdata('userdetails'))
