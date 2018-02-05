@@ -40,6 +40,8 @@ DROP TABLE IF EXISTS `employee`;
 
 CREATE TABLE `employee` (
   `emp_id` int(11) NOT NULL AUTO_INCREMENT,
+  `role` int(11) DEFAULT NULL,
+  `salary` varchar(250) DEFAULT NULL,
   `emp_username` varchar(250) DEFAULT NULL,
   `emp_office_id` varchar(250) DEFAULT NULL,
   `emp_role` varchar(250) DEFAULT NULL,
@@ -67,7 +69,24 @@ CREATE TABLE `employee` (
 
 /*Data for the table `employee` */
 
-insert  into `employee`(`emp_id`,`emp_username`,`emp_office_id`,`emp_role`,`emp_email`,`emp_password`,`emp_org_password`,`emp_name`,`emp_mobile`,`emp_altermobile`,`emp_doj`,`emp_dob`,`emp_profilepic`,`responsibilities`,`emp_resaddress`,`emp_peraddress`,`aadharcardno`,`aadharcard`,`pancardno`,`pancard`,`otherkye`,`status`,`create`) values (1,'pushkar@prachatech.com','PT0001','Director','pushkar@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','Pushkar.V ','9494422779',NULL,'01-03-2017','05-07-1996',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:01:51'),(2,'vasudevareddy@prachatech.com','PT0002','TL / PHP. Developer','vasudevareddy@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','R. Vasudeva Reddy','8500050944','8019345212','01-03-2017','14-07-1992','logo.png','workassign and maintains','hyderabad','kothapalli village ,khajipet mandal, kadapa dist,ap pincode:516172','123456789','logo.png','9874656321','ups.xlsx','cabinets.xlsx',1,'2018-02-02 16:55:14'),(3,'bayapureddy@prachatech.com\r\n','PT0003','UI Designer','bayapureddy@prachatech.com\r\n','e10adc3949ba59abbe56e057f20f883e','123456','Bayapu Reddy CG','8500226782',NULL,'01-03-2017','05-06-1993',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:01:56'),(4,'faisal@prachatech.com','PT0004','Quality Assurance analyst','faisal@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','Faisal Rizwan','9916296306',NULL,'01-03-2017','01-06-1987',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:01:57'),(5,'shiv@prachatech.com\r\n','PT0005','iOS Developer','shiv@prachatech.com\r\n','e10adc3949ba59abbe56e057f20f883e','123456','Shiv Nagender K','9010121117',NULL,'01-03-2017','25-09-1988',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:01:59'),(6,'satish@prachatech.com','PT0006','Follow Up','satish@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','Satish Jaiswal','9398888512',NULL,'01-03-2017','03-10-1989',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:02:01'),(7,'chakravarthy@prachatech.com','PT0007','Digital Marketing Executive','chakravarthy@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','K. Kalyan Chakravarthy Jah','9553173177',NULL,'01-03-2017','05-01-1982',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:02:02');
+insert  into `employee`(`emp_id`,`role`,`salary`,`emp_username`,`emp_office_id`,`emp_role`,`emp_email`,`emp_password`,`emp_org_password`,`emp_name`,`emp_mobile`,`emp_altermobile`,`emp_doj`,`emp_dob`,`emp_profilepic`,`responsibilities`,`emp_resaddress`,`emp_peraddress`,`aadharcardno`,`aadharcard`,`pancardno`,`pancard`,`otherkye`,`status`,`create`) values (1,1,'','pushkar@prachatech.com','PT0001','Director','pushkar@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','Pushkar.V','9494422779','','01-03-2017','05-07-1996',NULL,'yutyu','','','',NULL,'',NULL,NULL,1,'2018-02-03 17:36:54'),(2,3,'23000','vasudevareddy@prachatech.com','PT0002','TL / PHP. Developer','vasudevareddy@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','R. Vasudeva Reddy','8500050944','','01-03-2017','14-07-1992','photo.jpg','','hyderabad','kadapa','123456',NULL,'',NULL,NULL,1,'2018-02-03 17:07:06'),(3,3,'15000','bayapureddy@prachatech.com\r\n','PT0003','UI Designer','bayapureddy@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','Bayapu Reddy CG','8500226782','','01-03-2017','',NULL,'','','','',NULL,'',NULL,NULL,1,'2018-02-03 16:46:21'),(4,3,NULL,'faisal@prachatech.com','PT0004','Quality Assurance analyst','faisal@prachatech.com','8e70383c69f7a3b7ea3f71b02f3e9731','mynewpassword','Faisal Rizwan','9916296306',NULL,'01-03-2017','01-06-1987',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:01:57'),(5,3,NULL,'shiv@prachatech.com\r\n','PT0005','iOS Developer','shiv@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','Shiv Nagender K','9010121117',NULL,'01-03-2017','25-09-1988',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:01:59'),(6,3,NULL,'satish@prachatech.com','PT0006','Sales Exective','satish@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','Satish Jaiswal','9398888512',NULL,'01-03-2017','03-10-1989',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:02:01'),(7,3,NULL,'chakravarthy@prachatech.com','PT0007','Digital Marketing Executive','chakravarthy@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','K. Kalyan Chakravarthy Jah','9553173177',NULL,'01-03-2017','05-01-1982',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:02:02');
+
+/*Table structure for table `leaves` */
+
+DROP TABLE IF EXISTS `leaves`;
+
+CREATE TABLE `leaves` (
+  `leave_id` int(11) NOT NULL AUTO_INCREMENT,
+  `emp_id` int(11) DEFAULT NULL,
+  `form_date` datetime DEFAULT NULL,
+  `to_date` datetime DEFAULT NULL,
+  `region` varchar(250) DEFAULT NULL,
+  `status` int(11) DEFAULT '0',
+  `create_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`leave_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `leaves` */
 
 /*Table structure for table `login_report` */
 
@@ -78,14 +97,14 @@ CREATE TABLE `login_report` (
   `emp_id` int(11) DEFAULT NULL,
   `emp_office_id` varchar(250) DEFAULT NULL,
   `login_time` datetime DEFAULT NULL,
-  `logout_time` datetime DEFAULT NULL,
+  `logout_time` datetime DEFAULT '0000-00-00 00:00:00',
   `create_at` date DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 
 /*Data for the table `login_report` */
 
-insert  into `login_report`(`id`,`emp_id`,`emp_office_id`,`login_time`,`logout_time`,`create_at`) values (2,2,'PT0002','2018-01-28 09:48:09','2018-01-28 18:48:09','2018-01-28'),(3,2,'PT0002','2018-01-29 16:30:33','2018-01-29 18:48:09','2018-01-29'),(4,2,'PT0002','2018-02-02 10:51:22',NULL,'2018-02-02');
+insert  into `login_report`(`id`,`emp_id`,`emp_office_id`,`login_time`,`logout_time`,`create_at`) values (4,2,'PT0002','2018-02-02 10:51:22','2018-02-02 17:45:16','2018-02-02'),(5,3,'PT0003','2018-02-02 10:10:12','2018-02-02 17:47:26','2018-02-02'),(6,2,'PT0002','2018-02-03 10:32:34','0000-00-00 00:00:00','2018-02-03'),(7,1,'PT0001','2018-02-03 14:59:58','2018-02-03 19:23:46','2018-02-03'),(8,3,'PT0003','2018-02-03 14:59:58','0000-00-00 00:00:00','2018-02-03'),(9,2,'PT0002','2018-02-05 10:27:35','2018-02-05 10:28:20','2018-02-05'),(10,1,'PT0001','2018-02-05 10:28:39','2018-02-05 11:16:47','2018-02-05');
 
 /*Table structure for table `price_details` */
 
@@ -109,13 +128,16 @@ CREATE TABLE `work_sheet` (
   `emp_id` int(11) DEFAULT NULL,
   `login_id` int(11) DEFAULT NULL,
   `comment` text,
+  `reportfile` varchar(250) DEFAULT NULL,
   `create_date` datetime DEFAULT NULL,
   `status` int(11) DEFAULT NULL,
   `date` varchar(250) DEFAULT NULL,
   PRIMARY KEY (`task_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 
 /*Data for the table `work_sheet` */
+
+insert  into `work_sheet`(`task_id`,`emp_id`,`login_id`,`comment`,`reportfile`,`create_date`,`status`,`date`) values (2,2,4,'test pupose','Resume_Supriya_P.docx','2018-02-02 17:42:23',1,'2018-03-01'),(3,2,4,'task data 2','','2018-02-02 17:43:16',1,'2018-02-02'),(4,2,4,'task 5','','2018-02-02 17:43:55',1,'2018-02-02'),(5,3,5,'jfhgjkhfg','','2018-02-02 17:46:59',1,'2018-02-02'),(6,3,5,'jkjkfgkfjkfjk','cabinets.xlsx','2018-02-02 17:47:18',1,'2018-02-03'),(7,2,6,' satarday  work  sheet ','','2018-02-03 13:50:04',1,'2018-02-03'),(8,4,8,'esting',NULL,'2018-02-03 13:50:04',1,'2018-02-03'),(9,4,7,'ello	',NULL,'2018-02-03 13:50:04',1,'2018-02-02');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
