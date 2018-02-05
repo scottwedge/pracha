@@ -71,6 +71,25 @@ CREATE TABLE `employee` (
 
 insert  into `employee`(`emp_id`,`role`,`salary`,`emp_username`,`emp_office_id`,`emp_role`,`emp_email`,`emp_password`,`emp_org_password`,`emp_name`,`emp_mobile`,`emp_altermobile`,`emp_doj`,`emp_dob`,`emp_profilepic`,`responsibilities`,`emp_resaddress`,`emp_peraddress`,`aadharcardno`,`aadharcard`,`pancardno`,`pancard`,`otherkye`,`status`,`create`) values (1,1,'','pushkar@prachatech.com','PT0001','Director','pushkar@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','Pushkar.V','9494422779','','01-03-2017','05-07-1996',NULL,'yutyu','','','',NULL,'',NULL,NULL,1,'2018-02-03 17:36:54'),(2,3,'23000','vasudevareddy@prachatech.com','PT0002','TL / PHP. Developer','vasudevareddy@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','R. Vasudeva Reddy','8500050944','','01-03-2017','14-07-1992','photo.jpg','','hyderabad','kadapa','123456',NULL,'',NULL,NULL,1,'2018-02-03 17:07:06'),(3,3,'15000','bayapureddy@prachatech.com\r\n','PT0003','UI Designer','bayapureddy@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','Bayapu Reddy CG','8500226782','','01-03-2017','',NULL,'','','','',NULL,'',NULL,NULL,1,'2018-02-03 16:46:21'),(4,3,NULL,'faisal@prachatech.com','PT0004','Quality Assurance analyst','faisal@prachatech.com','8e70383c69f7a3b7ea3f71b02f3e9731','mynewpassword','Faisal Rizwan','9916296306',NULL,'01-03-2017','01-06-1987',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:01:57'),(5,3,NULL,'shiv@prachatech.com\r\n','PT0005','iOS Developer','shiv@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','Shiv Nagender K','9010121117',NULL,'01-03-2017','25-09-1988',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:01:59'),(6,3,NULL,'satish@prachatech.com','PT0006','Sales Exective','satish@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','Satish Jaiswal','9398888512',NULL,'01-03-2017','03-10-1989',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:02:01'),(7,3,NULL,'chakravarthy@prachatech.com','PT0007','Digital Marketing Executive','chakravarthy@prachatech.com','e10adc3949ba59abbe56e057f20f883e','123456','K. Kalyan Chakravarthy Jah','9553173177',NULL,'01-03-2017','05-01-1982',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018-01-29 14:02:02');
 
+/*Table structure for table `holidays_list` */
+
+DROP TABLE IF EXISTS `holidays_list`;
+
+CREATE TABLE `holidays_list` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `emp_id` int(11) DEFAULT NULL,
+  `festival` varchar(250) DEFAULT NULL,
+  `date` varchar(250) DEFAULT NULL,
+  `day` varchar(250) DEFAULT NULL,
+  `status` int(11) DEFAULT '1',
+  `create_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
+
+/*Data for the table `holidays_list` */
+
+insert  into `holidays_list`(`id`,`emp_id`,`festival`,`date`,`day`,`status`,`create_at`) values (1,1,'NEW YEAR’S DAY','01-01-2018','MONDAY',1,'2018-02-05 15:59:05'),(2,1,'SANKRANTI/PONGAL','15-01-2018','MONDAY',1,'2018-02-05 15:59:27'),(3,1,'REPUBLIC DAY','26-01-2018','FRIDAY',1,'2018-02-05 15:59:54'),(4,1,'MAHA SHIVARATRI','13-02-2018','TUESDAY',1,'2018-02-05 15:58:33'),(8,1,'HOLI','02-03-2018','FRIDAY',1,'2018-02-05 16:00:58'),(9,1,'GOOD FRIDAY','30-03-2018','FRIDAY',1,'2018-02-05 16:01:40'),(10,1,'IDUL FITR','16-06-2018','SATURDAY',1,'2018-02-05 16:02:04'),(11,1,'INDEPENDENCE DAY','15-08-2018','WEDNESDAY',1,'2018-02-05 16:02:25'),(12,1,'BAKRID (ID-UL-AZHA)','22-08-2018','WEDNESDAY',1,'2018-02-05 16:02:45'),(13,1,'SRI KRISHNA ASTAMI','03-09-2018','MONDAY',1,'2018-02-05 16:03:07'),(14,1,'VINAYAKA CHAVITHI','13-09-2018','THURSDAY',1,'2018-02-05 16:03:27'),(15,1,'SHAHADAT IMAM HUSSAIN (R.A.) - MUHARRAM','21-09-2018','FRIDAY',1,'2018-02-05 16:03:52'),(16,1,'MAHTMA GANDHI JAYANTHI','02-10-2018','TUESDAY',1,'2018-02-05 16:04:12'),(17,1,'DURGASTHAMI/ MAHARNAVAMI','17-10-2018','WEDNESDAY',1,'2018-02-05 16:04:43'),(18,1,'VIJAYA DASAMI/ DUSSEHRA','18-10-2018','THURSDAY',1,'2018-02-05 16:05:31'),(19,1,'DEEPAVALI','07-11-2018','WEDNESDAY',1,'2018-02-05 16:05:51'),(20,1,'EID MILADUN NABI (S.A.W.S) (1140 HIJRI)','21-11-2018','WEDNESDAY',1,'2018-02-05 16:06:14'),(21,1,'CHRISTMAS','25-12-2018','TUESDAY',1,'2018-02-05 16:06:35');
+
 /*Table structure for table `leaves` */
 
 DROP TABLE IF EXISTS `leaves`;
@@ -78,15 +97,19 @@ DROP TABLE IF EXISTS `leaves`;
 CREATE TABLE `leaves` (
   `leave_id` int(11) NOT NULL AUTO_INCREMENT,
   `emp_id` int(11) DEFAULT NULL,
-  `form_date` datetime DEFAULT NULL,
-  `to_date` datetime DEFAULT NULL,
+  `form_date` varchar(250) DEFAULT NULL,
+  `to_date` varchar(250) DEFAULT NULL,
+  `form_date1` date DEFAULT NULL,
+  `to_date1` date DEFAULT NULL,
   `region` varchar(250) DEFAULT NULL,
   `status` int(11) DEFAULT '0',
   `create_at` datetime DEFAULT NULL,
   PRIMARY KEY (`leave_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
 /*Data for the table `leaves` */
+
+insert  into `leaves`(`leave_id`,`emp_id`,`form_date`,`to_date`,`form_date1`,`to_date1`,`region`,`status`,`create_at`) values (10,2,'7 February, 2018','9 February, 2018','0000-00-00','0000-00-00','yuytuyt',2,'2018-02-05 14:00:11'),(11,2,'8 February, 2018','9 February, 2018','0000-00-00','0000-00-00','yuytu',3,'2018-02-05 14:01:05');
 
 /*Table structure for table `login_report` */
 
@@ -104,7 +127,7 @@ CREATE TABLE `login_report` (
 
 /*Data for the table `login_report` */
 
-insert  into `login_report`(`id`,`emp_id`,`emp_office_id`,`login_time`,`logout_time`,`create_at`) values (4,2,'PT0002','2018-02-02 10:51:22','2018-02-02 17:45:16','2018-02-02'),(5,3,'PT0003','2018-02-02 10:10:12','2018-02-02 17:47:26','2018-02-02'),(6,2,'PT0002','2018-02-03 10:32:34','0000-00-00 00:00:00','2018-02-03'),(7,1,'PT0001','2018-02-03 14:59:58','2018-02-03 19:23:46','2018-02-03'),(8,3,'PT0003','2018-02-03 14:59:58','0000-00-00 00:00:00','2018-02-03'),(9,2,'PT0002','2018-02-05 10:27:35','2018-02-05 10:28:20','2018-02-05'),(10,1,'PT0001','2018-02-05 10:28:39','2018-02-05 11:16:47','2018-02-05');
+insert  into `login_report`(`id`,`emp_id`,`emp_office_id`,`login_time`,`logout_time`,`create_at`) values (4,2,'PT0002','2018-02-02 10:51:22','2018-02-02 17:45:16','2018-02-02'),(5,3,'PT0003','2018-02-02 10:10:12','2018-02-02 17:47:26','2018-02-02'),(6,2,'PT0002','2018-02-03 10:32:34','0000-00-00 00:00:00','2018-02-03'),(7,1,'PT0001','2018-02-03 14:59:58','2018-02-03 19:23:46','2018-02-03'),(8,3,'PT0003','2018-02-03 14:59:58','0000-00-00 00:00:00','2018-02-03'),(9,2,'PT0002','2018-02-05 10:27:35','2018-02-05 15:26:05','2018-02-05'),(10,1,'PT0001','2018-02-05 10:28:39','2018-02-05 15:21:09','2018-02-05');
 
 /*Table structure for table `price_details` */
 
