@@ -71,16 +71,78 @@ class Employee extends CI_Controller {
 		
 		
 	}
+	public function holidays_list(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			if($data['userdetails']['role']==3){
+				$data['holidays_list']=$this->Employee_model->get_holidays_list_data();
+			}else{
+			$data['holidays_list']=$this->Employee_model->get_admin_holidays_list_data();
+			}
+
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('holidays',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+	}
+	public function suggestion(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['leaves_list']=$this->Employee_model->get_leaves_data($userdetails['emp_id']);
+
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('suggestion',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+	}
 	public function leaves(){
 		
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['leaves_list']=$this->Employee_model->get_leaves_data($userdetails['emp_id']);
+
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('leaves',$data);
 			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+	}
+	public function leaveslist(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			if($data['userdetails']['role']==1 || $data['userdetails']['role']==2){
+				$data['leaves_list']=$this->Employee_model->get_allemployees_leaves_data();
+				//echo '<pre>';print_r($data['leaves_list']);exit;
+				$this->load->view('header1');
+				$this->load->view('sidebar',$data);
+				$this->load->view('leaves',$data);
+
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
+			}
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
@@ -93,12 +155,62 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$post=$this->input->post();
-			echo '<pre>';print_r($post);
-			exit;
-			$this->load->view('header1');
-			$this->load->view('sidebar',$data);
-			$this->load->view('leaves',$data);
-			//$this->load->view('footer');
+			
+				$timestamp = strtotime($post['fromdate']);
+				$timestamp1 = strtotime($post['todate']);
+				$currentDate = date('d-m-Y', $timestamp); 
+				$newDate = date('d-m-Y', $timestamp1); 
+			$leavedata=array(
+				'emp_id'=>isset($data['userdetails']['emp_id'])?$data['userdetails']['emp_id']:'',
+				'form_date1'=>$currentDate,
+				'to_date1'=>$newDate,
+				'form_date'=>isset($post['fromdate'])?$post['fromdate']:'',
+				'to_date'=>isset($post['todate'])?$post['todate']:'',
+				'region'=>isset($post['comment'])?$post['comment']:'',
+				'status'=>1,
+				'create_at'=>date('Y-m-d H:i:s'),
+				);
+				//echo '<pre>';print_r($leavedata);exit;
+			$addleave=$this->Employee_model->save_leaves_data($leavedata);
+			if(count($addleave)>0){
+				$this->session->set_flashdata('success','Your Request Successfully submitted');
+				redirect('employee/leaves');
+			}else{
+				$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+				redirect('employee/leaves');
+			}
+			
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+	}
+	public function holiydayadd(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$post=$this->input->post();
+			//echo '<pre>';print_r($post);exit;
+			$holidaysdata=array(
+				'emp_id'=>isset($data['userdetails']['emp_id'])?$data['userdetails']['emp_id']:'',
+				'festival'=>isset($post['festivalname'])?$post['festivalname']:'',
+				'date'=>isset($post['date'])?$post['date']:'',
+				'day'=>isset($post['day'])?$post['day']:'',
+				'status'=>1,
+				'create_at'=>date('Y-m-d H:i:s'),
+				);
+				//echo '<pre>';print_r($leavedata);exit;
+			$addholidaysdata=$this->Employee_model->save_holidays_data($holidaysdata);
+			if(count($addholidaysdata)>0){
+				$this->session->set_flashdata('success','Your Request Successfully submitted');
+				redirect('employee/holidays_list');
+			}else{
+				$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+				redirect('employee/holidays_list');
+			}
+			
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
@@ -322,6 +434,97 @@ class Employee extends CI_Controller {
 						
 					}
 					redirect('employee/employeelist');
+
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}
+	public function holidaystatus(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['employee_list'] = $this->Employee_model->get_employee_list_details();
+			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+				$hid=base64_decode($this->uri->segment(3));
+				$status=base64_decode($this->uri->segment(4));
+				if($status==1){
+					$active=array('status'=>0);	
+				}else{
+					$active=array('status'=>1);
+				}
+				if($status==2){
+					
+					$statuschange= $this->Employee_model->delete_holiday_details($hid);
+					//echo $this->db->last_query();exit;
+					if(count($statuschange)>0){
+						$this->session->set_flashdata('success','Holiday Successfully Deleted');
+							
+						}else{
+							$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+							
+					}
+					
+				}else{
+					
+					$statuschange= $this->Employee_model->update_holiday_details($hid,$active);
+					if(count($statuschange)>0){
+							if($status==1){
+								$this->session->set_flashdata('success','Holiday Successfully Deactive');
+							}else{
+								$this->session->set_flashdata('success','Holiday Successfully Active');
+							}
+						}else{
+							$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+							
+						}
+				}
+	
+					redirect('employee/holidays_list');
+
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}
+	public function leavestatus(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['employee_list'] = $this->Employee_model->get_employee_list_details();
+			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+				$empid=base64_decode($this->uri->segment(3));
+				$status=base64_decode($this->uri->segment(4));
+				$leave_id=base64_decode($this->uri->segment(5));
+				$active=array('status'=>$status);	
+				$statuschange= $this->Employee_model->update_leave_details($empid,$active,$leave_id);
+				if(count($statuschange)>0){
+						if($status==2){
+							$this->session->set_flashdata('success','Employee request Successfully Approved');
+						}else{
+							$this->session->set_flashdata('success','Employee request Successfully Rejected');
+						}
+					}else{
+						$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+						
+					}
+					redirect('employee/leaveslist');
 
 			}else{
 				$this->session->set_flashdata("error","You don't have permissions to access that page");

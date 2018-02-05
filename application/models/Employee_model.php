@@ -61,6 +61,14 @@ class Employee_model extends CI_Model
 		$this->db->insert('work_sheet', $data);
 		return $insert_id = $this->db->insert_id(); 
 	}
+	public function save_leaves_data($data){
+		$this->db->insert('leaves', $data);
+		return $insert_id = $this->db->insert_id(); 
+	}
+	public function save_holidays_data($data){
+		$this->db->insert('holidays_list', $data);
+		return $insert_id = $this->db->insert_id(); 
+	}
 	public function save_employee($data){
 		$this->db->insert('employee', $data);
 		return $insert_id = $this->db->insert_id(); 
@@ -95,6 +103,41 @@ class Employee_model extends CI_Model
 		$this->db->where('emp_id', $emp_id);	
 		$this->db->where('login_id', $l_id);	
         return $this->db->get()->result_array();
+	}
+	public function get_leaves_data($emp_id){
+		$this->db->select('leaves.*,employee.emp_name')->from('leaves');
+		$this->db->join('employee', 'employee.emp_id = leaves.emp_id', 'left');
+		$this->db->where('leaves.emp_id', $emp_id);	
+        return $this->db->get()->result_array();
+	}
+	public function get_allemployees_leaves_data(){
+		$this->db->select('leaves.*,employee.emp_name')->from('leaves');
+		$this->db->join('employee', 'employee.emp_id = leaves.emp_id', 'left');
+			$this->db->order_by('leaves.leave_id desc');
+        return $this->db->get()->result_array();
+	}
+	public function get_holidays_list_data(){
+		$this->db->select('*')->from('holidays_list');
+		$this->db->where('status',1);
+		$this->db->order_by('holidays_list.id asc');
+        return $this->db->get()->result_array();
+	}
+	public function get_admin_holidays_list_data(){
+		$this->db->select('*')->from('holidays_list');
+		$this->db->order_by('holidays_list.id asc');
+        return $this->db->get()->result_array();
+	}
+	public function update_leave_details($emp_id,$data,$leave_id){
+		$this->db->where('emp_id', $emp_id);
+		$this->db->where('leave_id', $leave_id);
+		return $this->db->update('leaves', $data);
+	}public function update_holiday_details($h_id,$data){
+		$this->db->where('id', $h_id);
+		return $this->db->update('holidays_list', $data);
+	}
+	public function delete_holiday_details($hid){
+		$sql1="DELETE FROM holidays_list WHERE id = '".$hid."'";
+		return $this->db->query($sql1);
 	}
 	
 

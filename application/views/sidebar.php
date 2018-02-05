@@ -3,24 +3,20 @@
 	<ul class="side-bar">
 		<a href="<?php echo base_url('employee/profile'); ?>"><li> Employee Profile</li></a>
 		<?php if($userdetails['role']==1 || $userdetails['role']==2){ ?>
-		<a href="<?php echo base_url('employee/reportlist'); ?>"><li>Task report list </li></a>
+		<a href="<?php echo base_url('employee/reportlist'); ?>"><li>Daily WorkMangagment  </li></a>
 		<a href="<?php echo base_url('employee/employeelist'); ?>"><li>Employee List</li></a>
 		<?php }else{ ?>
-		<a href="<?php echo base_url('employee/report'); ?>"><li>Task Mangagment </li></a>
+		<a href="<?php echo base_url('employee/report'); ?>"><li>Daily WorkMangagment </li></a>
 		<?php } ?>
 		<?php if($userdetails['role']==1 || $userdetails['role']==2){ ?>
-		<a href="<?php echo base_url('employee/leaveslist'); ?>"><li>Leaves</li></a>
+		<a href="<?php echo base_url('employee/leaveslist'); ?>"><li>Leave Management</li></a>
+		<a href="<?php echo base_url('employee/holidays_list'); ?>"><li>Holidays List</li></a>
 		<?php }else{  ?>
-		<a href="<?php echo base_url('employee/leaves'); ?>"><li>Leaves</li></a>
+		<a href="<?php echo base_url('employee/leaves'); ?>"><li>Leave Management</li></a>
+		<a href="<?php echo base_url('employee/holidays_list'); ?>"><li>Holidays List</li></a>
+		<a href="<?php echo base_url('employee/suggestion'); ?>"><li>Complaint/ Suggestion Box</li></a>
+		<a href="<?php echo base_url('employee/task'); ?>"><li>Task Mangagment </li></a>
 		<?php } ?>
-		<a href="#"><li>User Profile</li></a>
-		<a href="#"><li>User Profile</li></a>
-		<a href="#"><li>User Profile</li></a>
-		<a href="#"><li>User Profile</li></a>
-		<a href="#"><li>User Profile</li></a>
-		<a href="#"><li>User Profile</li></a>
-
-	
 	</ul>
 </div>
 

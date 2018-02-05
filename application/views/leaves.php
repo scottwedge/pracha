@@ -39,17 +39,17 @@
 					</div>
 					<div class="card-body">
 							<div class="form-group">
-						<input name="group1" type="radio" id="radio1">
+						<input name="leavetype" type="radio" id="radio1" value="1">
 						<label for="radio1">Sick Leave</label>
 					</div>
 
 					<div class="form-group">
-						<input name="group1" type="radio" id="radio2">
+						<input name="leavetype" type="radio" id="radio2" value="2">
 						<label for="radio2">Special Leave</label>
 					</div>
 
 					<div class="form-group">
-						<input name="group1" type="radio" id="radio3">
+						<input name="leavetype" type="radio" id="radio3" value="3">
 						<label for="radio3">Casual Leave</label>
 					</div>
 					</div>
@@ -62,9 +62,9 @@
 						Comment:
 					</div>
 					<div class="card-body">
-							<div class="form-group">
+						<div class="form-group">
 				
-					  <textarea style="height:150px;" class="form-control" rows="5" id="comment"></textarea>
+					  <textarea style="height:150px;" class="form-control" rows="5" id="comment" name="comment"></textarea>
 					</div>
 					</div>
 				</div>
@@ -78,70 +78,65 @@
 			</form>
 			</div>
 			<div class="clearfix">&nbsp;</div>
+				<?php if($this->session->flashdata('success')): ?>
+		<div class="alert alert-success">
+		<strong><?php echo $this->session->flashdata('success'); ?></strong> 
+		</div>
+
+		<?php endif; ?>
+		<?php if($this->session->flashdata('error')): ?>
+		<div class="alert alert-warning">
+		<strong><?php echo $this->session->flashdata('error'); ?></strong> 
+		</div>
+		<?php endif; ?>
 		<button id="datpicbtn" type="button" class="btn btn-info btn-rounded pull-right">Add</button>
 		<table id="example" class="table table-striped table-bordered table-responsive-md" cellspacing="0" width="100%">
+		
 			<thead>
 				<tr>
 					<th>Name</th>
-					<th>Position</th>
-					<th>Office</th>
-					<th>Age</th>
-					<th>Start date</th>
-					<th>Salary</th>
+					<th>From Date</th>
+					<th>To Date</th>
+					<th>Region</th>
+					<th>Status</th>
+					<?php if($userdetails['role']!=3){ ?>
+					<th>Action</th>
+					<?php } ?>
+				
 				</tr>
 			</thead>
 			<tfoot>
 				<tr>
 					<th>Name</th>
-					<th>Position</th>
-					<th>Office</th>
-					<th>Age</th>
-					<th>Start date</th>
-					<th>Salary</th>
+					<th>From Date</th>
+					<th>To Date</th>
+					<th>Region</th>
+					<th>Status</th>
+					<?php if($userdetails['role']!=3){ ?>
+					<th>Action</th>
+					<?php } ?>
+					
 				</tr>
 			</tfoot>
 			<tbody>
+			<?php foreach ($leaves_list as $list){ ?>
 				<tr>
-					<td>Tiger Nixon</td>
-					<td>System Architect</td>
-					<td>Edinburgh</td>
-					<td>61</td>
-					<td>2011/04/25</td>
-					<td>$320,800</td>
+					<td><?php echo $list['emp_name']; ?></td>
+					<td><?php echo $list['form_date']; ?></td>
+					<td><?php echo $list['to_date']; ?></td>
+					<td><?php echo $list['region']; ?></td>
+					<?php if($userdetails['role']==3){ ?>
+					<td>
+					<?php if($list['status']==1){ echo "Pending";}else if($list['status']==2){ echo "Approved"; }else if($list['status']==3){ echo "Rejected";} ?></td>
+					<?php }else{ ?>
+						<td><?php if($list['status']==1){ echo "Request";}else if($list['status']==2){ echo "Approved"; }else if($list['status']==3){ echo "Rejected";} ?></td>
+					<?php } ?>
+					<?php if($userdetails['role']!=3){ ?>
+					<th><a class="text-warning" href="<?php echo base_url('employee/leavestatus/'.base64_encode($list['emp_id']).'/'.base64_encode(2).'/'.base64_encode($list['leave_id'])); ?>">Approve</a> | <a class="text-warning" href="<?php echo base_url('employee/leavestatus/'.base64_encode($list['emp_id']).'/'.base64_encode(3).'/'.base64_encode($list['leave_id'])); ?>">Reject</a></th>
+					<?php } ?>
+					
 				</tr>
-				<tr>
-					<td>Garrett Winters</td>
-					<td>Accountant</td>
-					<td>Tokyo</td>
-					<td>63</td>
-					<td>2011/07/25</td>
-					<td>$170,750</td>
-				</tr>
-				<tr>
-					<td>Ashton Cox</td>
-					<td>Junior Technical Author</td>
-					<td>San Francisco</td>
-					<td>66</td>
-					<td>2009/01/12</td>
-					<td>$86,000</td>
-				</tr>
-				<tr>
-					<td>Cedric Kelly</td>
-					<td>Senior Javascript Developer</td>
-					<td>Edinburgh</td>
-					<td>22</td>
-					<td>2012/03/29</td>
-					<td>$433,060</td>
-				</tr>
-				
-				<tr>
-					<td>Donna Snider</td>
-					<td>Customer Support</td>
-					<td>New York</td>
-					<td>27</td>
-					<td>2011/01/25</td>
-					<td>$112,000</td>
-				</tr>
+				<?php } ?>
 			</tbody>
 		</table>
 						
@@ -163,7 +158,8 @@
       
 	
       $('.datepicker').pickadate({
-		   min: new Date('Y-m-d')
+		   min: new Date('Y-m-d'),
+		   formate:'Y-m-d'
 	  });
 	 
 	 $("#datpicbtn").click(function(){
