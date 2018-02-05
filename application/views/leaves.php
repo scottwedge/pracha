@@ -31,8 +31,47 @@
 					<label for="date-picker-example">Ending start</label>
 				</div>
 				</div>
+				<div class="col-6 ">
+				<!--Panel-->
+				<div class="card">
+					<div class="card-header bg-warning lighten-1 white-text">
+						Leave Type
+					</div>
+					<div class="card-body">
+							<div class="form-group">
+						<input name="group1" type="radio" id="radio1">
+						<label for="radio1">Sick Leave</label>
+					</div>
+
+					<div class="form-group">
+						<input name="group1" type="radio" id="radio2">
+						<label for="radio2">Special Leave</label>
+					</div>
+
+					<div class="form-group">
+						<input name="group1" type="radio" id="radio3">
+						<label for="radio3">Casual Leave</label>
+					</div>
+					</div>
+				</div>
+				</div>
+				<div class="col-6 ">
+				<!--Panel-->
+				<div class="card">
+					<div class="card-header bg-warning lighten-1 white-text">
+						Comment:
+					</div>
+					<div class="card-body">
+							<div class="form-group">
 				
-					<button type="submit" class="btn btn-info btn-rounded">Apply</button>
+					  <textarea style="height:150px;" class="form-control" rows="5" id="comment"></textarea>
+					</div>
+					</div>
+				</div>
+				</div>
+			
+				
+					<button type="submit" class="btn btn-info btn-rounded mar-t30">Apply</button>
 				
 				
 			</div>
