@@ -93,17 +93,41 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			if($data['userdetails']['role']==1 || $data['userdetails']['role']==2){
-			$task_list= $this->Employee_model->get_all_employees_dailyreport();
-			echo '<pre>';print_r($task_list);exit;
-			foreach ($task_list as $list){
-				$details[$list['emp_id']]['details']=$list;
-				$details[$list['emp_id']]['task']=$this->Employee_model->get_employee_daily_task_lists($list['emp_id'],$list['id'],$list['create_at']);
-				
-			}
-				echo '<pre>';print_r($details);exit;
+				$task_list= $this->Employee_model->get_all_employees_dailyreport();
+				//echo '<pre>';print_r($task_list);
+				foreach ($task_list as $list){
+					if(isset($list['logout_time']) && $list['logout_time']=='0000-00-00 00:00:00'){
+						$current_time=date('Y-m-d H:i:s');
+						$datetime1 = new DateTime($list['login_time']);
+						$datetime2 = new DateTime($current_time);
+						$interval = $datetime1->diff($datetime2);
+						$diff_in_hrs=$interval->format('%h')." Hr ".$interval->format('%i')." Min ".$interval->format('%s').'sec';
+					}else{
+						$datetime1 = new DateTime($list['login_time']);
+						$datetime2 = new DateTime($list['logout_time']);
+						$interval = $datetime1->diff($datetime2);
+						$diff_in_hrs=$interval->format('%h')." hrs ".$interval->format('%i')." Min ".$interval->format('%s').'sec';
+					}
+					$t=$list['create_at'];
+					$details[$list['id']]['currentday']=date('F').' - '.date("D d",strtotime($t)); 
+					$details[$list['id']]['name']=$list['emp_name'];
+					$details[$list['id']]['mobile']=$list['emp_mobile'];
+					$details[$list['id']]['workinghours']=$diff_in_hrs;
+					$details[$list['id']]['intime']=$list['login_time'];
+					$details[$list['id']]['outtime']=$list['logout_time'];
+					$details[$list['id']]['dailywork']=$this->Employee_model->get_employee_daily_task_list($list['emp_id'],$list['id']);
+					
+				}
+				//echo '<pre>';print_r($details);exit;
+				if(count($details)>0){
+				$data['reportlist']=$details;
+				}else{
+				$data['reportlist']=array();
+				}
 				$this->load->view('header1');
 				$this->load->view('sidebar',$data);
 				$this->load->view('reportlist',$data);
+
 			}else{
 				$this->session->set_flashdata("error","You don't have permissions to access that page");
 				redirect('employee/profile');

@@ -85,23 +85,9 @@ class Employee_model extends CI_Model
         return $this->db->get()->row_array();
 	}
 	public function get_all_employees_dailyreport(){
-		$this->db->select('login_report.id,login_report.create_at,employee.emp_name,employee.emp_office_id')->from('login_report');
+		$this->db->select('employee.emp_name,employee.emp_mobile,employee.emp_name,login_report.emp_id,login_report.create_at,login_report.id,login_report.login_time,login_report.logout_time')->from('login_report');
 		$this->db->join('employee', 'employee.emp_id = login_report.emp_id', 'left');
-		$this->db->group_by('id'); 		
-        $this->db->group_by('create_at'); 		
-        $return=$this->db->get()->result_array();
-		/*foreach ($return as $list){
-			$lis=$this->get_employee_wise_daily($list['id']);
-			$login_time[$list['id']]['details']=$list['id'];
-			$login_time[$list['id']]['datewise']=$lis;
-			
-		}*/
-		echo '<pre>';print_r($return);
-	}
-	public function get_employee_wise_daily($l_id){
-		$this->db->select('work_sheet.comment,work_sheet.reportfile,work_sheet.create_date')->from('work_sheet');
-		$this->db->where('login_id', $l_id);	
-		$this->db->group_by('create_date'); 	
+		$this->db->order_by('login_report.id desc');
         return $this->db->get()->result_array();
 	}
 	public function get_employee_daily_task_lists($emp_id,$l_id){
