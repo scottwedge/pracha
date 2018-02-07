@@ -11,6 +11,11 @@ class Employee extends CI_Controller {
 		$this->load->library('email');
 		$this->load->model('Employee_model');
 		$this->load->library('user_agent');
+		/*$ip = $this->input->ip_address();
+		if($ip !='122.175.58.42'){
+			redirect('');
+		}*/
+
 	}
 	public function index()
 	{
@@ -30,10 +35,12 @@ class Employee extends CI_Controller {
 		if(count($logindetails)>0){
 			$checklogin= $this->Employee_model->check_today_login($logindetails['emp_id'],date('Y-m-d'));
 			$this->session->set_userdata('userdetails',$logindetails);
+			$format = "Y-m-d H:i:s";
+			$logintime= date($format, strtotime("-5 minute"));
 			$login_data=array(
 			'emp_id'=>$logindetails['emp_id'],
 			'emp_office_id'=>$logindetails['emp_office_id'],
-			'login_time'=>date('Y-m-d H:i:s'),
+			'login_time'=>$logintime,
 			'create_at'=>date('Y-m-d'),
 			);
 			if(count($checklogin)==0){
