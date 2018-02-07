@@ -1,5 +1,5 @@
 <?php //echo '<pre>';print_r($userdetails);exit;?>
-<div class="col-md-3 bg-dark col-xs-12 pos-fix sm-hide">
+<div class="col-md-3 bg-dark col-xs-12 pos-fix sm-hide" style="width:20%;">
 	<ul class="side-bar">
 		<a href="<?php echo base_url('employee/profile'); ?>"><li> Employee Profile</li></a>
 		<?php if($userdetails['role']==1 || $userdetails['role']==2){ ?>
@@ -11,11 +11,13 @@
 		<?php if($userdetails['role']==1 || $userdetails['role']==2){ ?>
 		<a href="<?php echo base_url('employee/leaveslist'); ?>"><li>Leave Management</li></a>
 		<a href="<?php echo base_url('employee/holidays_list'); ?>"><li>Holidays List</li></a>
+		<a href="<?php echo base_url('employee/payslips'); ?>"><li>Pay Slips</li></a>
 		<a href="<?php echo base_url('employee/suggestion'); ?>"><li>Complaint/ Suggestion Box</li></a>
 		<a href="<?php echo base_url('employee/task'); ?>"><li>Task Mangagment </li></a>
 		<?php }else{  ?>
 		<a href="<?php echo base_url('employee/leaves'); ?>"><li>Leave Management</li></a>
 		<a href="<?php echo base_url('employee/holidays_list'); ?>"><li>Holidays List</li></a>
+		<a href="<?php echo base_url('employee/payslips'); ?>"><li>Pay Slips</li></a>
 		<a href="<?php echo base_url('employee/suggestion'); ?>"><li>Complaint/ Suggestion Box</li></a>
 		<a href="<?php echo base_url('employee/task'); ?>"><li>Task Mangagment </li></a>
 		<?php } ?>
