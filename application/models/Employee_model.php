@@ -43,6 +43,11 @@ class Employee_model extends CI_Model
 		$this->db->order_by('employee.emp_id asc');
 		return $this->db->get()->result_array();
 	}
+	public function get_employee_list(){
+		$this->db->select('employee.emp_id,employee.emp_name,employee.emp_office_id')->from('employee');
+		$this->db->order_by('employee.emp_id asc');
+		return $this->db->get()->result_array();
+	}
 	public function update_logout_time_status($l_id,$emp_id,$date){
 		$sql1="UPDATE login_report SET logout_time ='".$date."' WHERE id = '".$l_id."' AND emp_id = '".$emp_id."'";
        	return $this->db->query($sql1);

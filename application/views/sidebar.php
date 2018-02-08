@@ -17,7 +17,7 @@
 		<?php }else{  ?>
 		<a href="<?php echo base_url('employee/leaves'); ?>"><li>Leave Management</li></a>
 		<a href="<?php echo base_url('employee/holidays_list'); ?>"><li>Holidays List</li></a>
-		<a href="<?php echo base_url('employee/payslips'); ?>"><li>Pay Slips</li></a>
+		<a href="<?php echo base_url('employee/payslip'); ?>"><li>Pay Slips</li></a>
 		<a href="<?php echo base_url('employee/suggestion'); ?>"><li>Complaint/ Suggestion Box</li></a>
 		<a href="<?php echo base_url('employee/task'); ?>"><li>Task Mangagment </li></a>
 		<?php } ?>

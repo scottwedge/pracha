@@ -11,6 +11,7 @@ class Employee extends CI_Controller {
 		$this->load->library('email');
 		$this->load->model('Employee_model');
 		$this->load->library('user_agent');
+		$this->load->library('pdf');
 		/*$ip = $this->input->ip_address();
 		if($ip !='122.175.58.42'){
 			redirect('');
@@ -78,7 +79,7 @@ class Employee extends CI_Controller {
 		
 		
 	}
-	public function payslips(){
+	public function payslip(){
 		
 		if($this->session->userdata('userdetails'))
 		{
@@ -94,6 +95,64 @@ class Employee extends CI_Controller {
 		} 		
 		
 		
+	}
+	public function payslips(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['emp_details'] = $this->Employee_model->get_employee_list();
+			//echo '<pre>';print_r($data);exit;
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('payslips',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}
+	public function payslippost(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$post=$this->input->post();
+			$data['userdetails'] = $this->Employee_model->get_employee_details($post['emp_id']);
+				$val = $this->load->library('livemumtowordclsconvert');
+				$data['grossearningwords']=$this->livemumtowordclsconvert->mycustom_convert_num($post['grossearning']);
+				$path = rtrim(FCPATH,"/");
+				$file_name =date("F").'_Month_payslip_'.$data['userdetails']['emp_office_id'].'.pdf';
+				$data['name']=$file_name;		
+				$data['month']=$post['month'];			
+				$data['workeddays']=$post['workeddays'];			
+				$data['workingdays']=$post['workingdays'];			
+				$data['grossearning']=$post['grossearning'];			
+				$data['grossdeduction']=$post['grossdeduction'];		
+				$data['lop']=$post['workingdays']- $post['workeddays'];		
+				$data['heading']=date("F").' '.date('Y');	
+				$pdfFilePath = $path."/assets/payslips/".$file_name;
+				ini_set('memory_limit','320M'); // boost the memory limit if it's low <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="??" draggable="false" class="emoji">
+				$html =$this->load->view('pdf',$data, true); // render the view into HTML
+				$this->load->library('pdf');
+				$pdf = $this->pdf->load();
+				$pdf->SetFooter($_SERVER['HTTP_HOST'].'|{PAGENO}|'.date('M-d-Y')); // Add a footer for good measure <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="??" draggable="false" class="emoji">
+				$pdf->SetDisplayMode('fullpage');
+				$pdf->list_indent_first_level = 0;	// 1 or 0 - whether to indent the first level of a list
+				$pdf->WriteHTML($html); // write the HTML into the PDF
+				$pdf->Output($pdfFilePath, 'F'); 
+				$this->session->set_flashdata('success','Pay Slip successfully created');
+				redirect('employee/payslips');
+
+			
+			
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
 	}
 	public function holidays_list(){
 		
@@ -750,10 +809,26 @@ class Employee extends CI_Controller {
 					$salary=$post['salary'];
 					$dob=$cust_upload_file['emp_dob'];
 					$responsibilites=$post['responsibilites'];	
+					$basicsalary=$post['basicsalary'];	
+					$hra=$post['hra'];	
+					$specialallowance=$post['specialallowance'];	
+					$conveyance=$post['conveyance'];	
+					$medicalreimbursement=$post['medicalreimbursement'];	
+					$pfnumber=$post['pfnumber'];	
+					$bankname=$post['bankname'];	
+					$bankaccountnumber=$post['bankaccountnumber'];		
 				}else{
 					$salary=$cust_upload_file['salary'];
 					$dob=$post['dob'];	
-					$responsibilites=$cust_upload_file['responsibilities'];	
+					$responsibilites=$cust_upload_file['responsibilities'];
+					$basicsalary=$cust_upload_file['basicsalary'];	
+					$hra=$cust_upload_filecust_upload_file['hra'];	
+					$specialallowance=$cust_upload_file['specialallowance'];	
+					$conveyance=$cust_upload_file['conveyance'];	
+					$medicalreimbursement=$cust_upload_file['medicalreimbursement'];	
+					$pfnumber=$cust_upload_file['pfnumber'];	
+					$bankname=$cust_upload_file['bankname'];	
+					$bankaccountnumber=$cust_upload_file['bankaccountnumber'];					
 				}
 			$editdata=array(
 			'emp_name'=>isset($post['name'])?$post['name']:'',
@@ -762,6 +837,14 @@ class Employee extends CI_Controller {
 			'responsibilities'=>$responsibilites,
 			'emp_mobile'=>isset($post['mobile'])?$post['mobile']:'',
 			'emp_altermobile'=>isset($post['altermobile'])?$post['altermobile']:'',
+			'basicsalary'=>$basicsalary,
+			'hra'=>$hra,
+			'specialallowance'=>$specialallowance,
+			'conveyance'=>$conveyance,
+			'medicalreimbursement'=>$medicalreimbursement,
+			'pfnumber'=>$pfnumber,
+			'bankname'=>$bankname,
+			'bankaccountnumber'=>$bankaccountnumber,
 			'emp_dob'=>$dob,
 			'emp_profilepic'=>$profilepic,
 			'emp_resaddress'=>isset($post['resaddress'])?$post['resaddress']:'',
