@@ -47,16 +47,69 @@
 		  			</div>
 					<div class="form-group col-md-6">
 				    	<label for="telephone">Alternate Mobile No</label>
-				    	<input type="text" class="form-control" name="altermobile" id="altermobile" value="" placeholder="Alternate Mobile No">
+				    	<input type="text" class="form-control" name="altermobile" id="altermobile" required="true" value="" placeholder="Alternate Mobile No">
 		  			</div>
 					<div class="form-group col-md-6">
 				    	<label for="telephone">DOJ</label>
-				    	<input type="text" class="form-control" name="doj" id="doj" placeholder="Date of Join" value="">
+				    	<input type="text" class="form-control" name="doj" id="doj" required="true" placeholder="Date of Join" value="">
+		  			</div>
+					<div class="form-group col-md-6">
+				    	<label for="telephone">Basic Salary</label>
+				    	<input type="text" class="form-control"  name="basicsalary" id="basicsalary" required="true"  placeholder="Basic Salary" value="<?php echo isset($userdetails['basicsalary'])?$userdetails['basicsalary']:''; ?>">
+		  			</div>
+					<div class="form-group col-md-6">
+				    	<label for="telephone">HRA</label>
+				    	<input type="text" class="form-control"  name="hra" id="hra"  placeholder="HRA" required="true" value="<?php echo isset($userdetails['hra'])?$userdetails['hra']:''; ?>">
+		  			</div>
+					<div class="form-group col-md-6">
+				    	<label for="telephone">Special Allowance</label>
+				    	<input type="text" class="form-control"  name="specialallowance" id="specialallowance" required="true"  placeholder=" Special Allowance" value="<?php echo isset($userdetails['specialallowance'])?$userdetails['specialallowance']:''; ?>">
+		  			</div>
+					<div class="form-group col-md-6">
+				    	<label for="telephone">Conveyance</label>
+				    	<input type="text" class="form-control"  name="conveyance" id="conveyance" required="true"  placeholder=" Conveyance" value="<?php echo isset($userdetails['conveyance'])?$userdetails['conveyance']:''; ?>">
+		  			</div>
+					<div class="form-group col-md-6">
+				    	<label for="telephone">Medical Reimbursement</label>
+				    	<input type="text" class="form-control"  name="medicalreimbursement" id="medicalreimbursement" required="true"  placeholder=" Medical Reimbursement" value="<?php echo isset($userdetails['medicalreimbursement'])?$userdetails['medicalreimbursement']:''; ?>">
+		  			</div>
+		  			<div class="form-group col-md-6">
+				    	<label for="telephone">PF Number</label>
+				    	<input type="text" class="form-control" name="pfnumber" id="pfnumber" required="true"  placeholder="PF Number" value="<?php echo isset($userdetails['pfnumber'])?$userdetails['pfnumber']:''; ?>">
+		  			</div>
+					
+		  			<div class="form-group col-md-6">
+				    	<label for="telephone">PF Amount</label>
+				    	<input type="text" class="form-control" name="pfamount" id="pfamount" required="true" placeholder="PF Amount" value="<?php echo isset($userdetails['pfamount'])?$userdetails['pfamount']:''; ?>">
+		  			</div>
+					<div class="form-group col-md-6">
+				    	<label for="telephone">PT</label>
+				    	<input type="text" class="form-control" name="pt" id="pt" required="true" placeholder="PT" value="<?php echo isset($userdetails['pt'])?$userdetails['pt']:''; ?>">
+		  			</div>
+		  			<div class="form-group col-md-6">
+				    	<label for="telephone">ESI</label>
+				    	<input type="text" class="form-control" name="esi" id="esi" required="true" placeholder="ESI" value="<?php echo isset($userdetails['esi'])?$userdetails['esi']:''; ?>">
+		  			</div>
+		  			<div class="form-group col-md-6">
+				    	<label for="telephone">Others</label>
+				    	<input type="text" class="form-control" name="others" id="others" required="true" placeholder="Others" value="<?php echo isset($userdetails['others'])?$userdetails['others']:''; ?>">
+		  			</div>
+		  			<div class="form-group col-md-6">
+				    	<label for="telephone">Advance</label>
+				    	<input type="text" class="form-control" name="advance" id="advance" required="true" placeholder="Advance" value="<?php echo isset($userdetails['advance'])?$userdetails['advance']:''; ?>">
+		  			</div>
+					<div class="form-group col-md-6">
+				    	<label for="telephone">Bank Name</label>
+				    	<input type="text" class="form-control" name="bankname" id="bankname" required="true"   placeholder="Bank Name" value="<?php echo isset($userdetails['bankname'])?$userdetails['bankname']:''; ?>">
+		  			</div>
+					<div class="form-group col-md-6">
+				    	<label for="telephone">Bank Account No</label>
+				    	<input type="text" class="form-control" name="bankaccountnumber" required="true"  id="bankaccountnumber"  placeholder="Bank Account No" value="<?php echo isset($userdetails['bankaccountnumber'])?$userdetails['bankaccountnumber']:''; ?>">
 		  			</div>
 					<div class="form-group col-md-6">
 				    	<label for="telephone">Salary</label>
 				    	<input type="text" class="form-control" name="salary" id="salary" placeholder="Salary" value="<?php echo isset($userdetails['salary'])?$userdetails['salary']:''; ?>">
-		  			</div><div class="form-group col-md-6"></div>
+		  			</div>
 					
 					<div class="form-group col-md-6">
 				    	<label for="telephone">Adhar Card Number</label>

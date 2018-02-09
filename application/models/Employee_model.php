@@ -66,6 +66,14 @@ class Employee_model extends CI_Model
 		$this->db->insert('work_sheet', $data);
 		return $insert_id = $this->db->insert_id(); 
 	}
+	public function sae_invoice_data($data){
+		$this->db->insert('payslips', $data);
+		return $insert_id = $this->db->insert_id(); 
+	}
+	public function save_task_data($data){
+		$this->db->insert('task', $data);
+		return $insert_id = $this->db->insert_id(); 
+	}
 	public function save_leaves_data($data){
 		$this->db->insert('leaves', $data);
 		return $insert_id = $this->db->insert_id(); 
@@ -149,16 +157,47 @@ class Employee_model extends CI_Model
 		$this->db->order_by('holidays_list.id asc');
         return $this->db->get()->result_array();
 	}
+	public function get_monthly_payslips_details($emp_id){
+		$this->db->select('*')->from('payslips');
+		$this->db->order_by('payslips.id desc');
+		$this->db->where('emp_id', $emp_id);
+        return $this->db->get()->result_array();
+	}
+	public function get_payslip_data($date,$emp_id){
+		$this->db->select('*')->from('payslips');
+		$this->db->where('emp_id', $emp_id);
+		$this->db->where('date', $date);
+        return $this->db->get()->row_array();
+	}
 	public function update_leave_details($emp_id,$data,$leave_id){
 		$this->db->where('emp_id', $emp_id);
 		$this->db->where('leave_id', $leave_id);
 		return $this->db->update('leaves', $data);
-	}public function update_holiday_details($h_id,$data){
+	}
+	public function update_holiday_details($h_id,$data){
 		$this->db->where('id', $h_id);
 		return $this->db->update('holidays_list', $data);
 	}
 	public function delete_holiday_details($hid){
 		$sql1="DELETE FROM holidays_list WHERE id = '".$hid."'";
+		return $this->db->query($sql1);
+	}
+	public function get_task_list_data($emp_id){
+		$this->db->select('task.*,employee.emp_name,assign.emp_name as assignname')->from('task');
+		$this->db->join('employee', 'employee.emp_id = task.emp_id', 'left');
+		$this->db->join('employee as assign', 'assign.emp_id = task.assign_by', 'left');
+		if($emp_id!=''){
+			$this->db->where('task.emp_id', $emp_id);
+		}
+        return $this->db->get()->result_array();
+	}
+	public function update_task_details($emp_id,$data,$task_id){
+		$this->db->where('emp_id', $emp_id);
+		$this->db->where('id', $task_id);
+		return $this->db->update('task', $data);
+	}
+	public function delete_task_details($task_id){
+		$sql1="DELETE FROM task WHERE id = '".$task_id."'";
 		return $this->db->query($sql1);
 	}
 	

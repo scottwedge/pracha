@@ -12,10 +12,13 @@ class Employee extends CI_Controller {
 		$this->load->model('Employee_model');
 		$this->load->library('user_agent');
 		$this->load->library('pdf');
-		/*$ip = $this->input->ip_address();
-		if($ip !='122.175.58.42'){
-			redirect('');
-		}*/
+		$ip = $this->input->ip_address();
+		//echo '<pre>';print_r($ip);exit;
+		$ip_list = array("122.175.58.42", "49.207.6.7",);
+		if (!in_array($ip , $ip_list))
+		{
+		redirect('');
+		}
 
 	}
 	public function index()
@@ -85,9 +88,11 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['payslips_details'] = $this->Employee_model->get_monthly_payslips_details($userdetails['emp_id']);
+			//echo '<pre>';print_r($data['payslips_details']);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
-			$this->load->view('payslips',$data);
+			$this->load->view('payslips_list',$data);
 			//$this->load->view('footer');
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
@@ -144,6 +149,15 @@ class Employee extends CI_Controller {
 				$pdf->list_indent_first_level = 0;	// 1 or 0 - whether to indent the first level of a list
 				$pdf->WriteHTML($html); // write the HTML into the PDF
 				$pdf->Output($pdfFilePath, 'F'); 
+				$invoicedata=array(
+				'emp_id'=>$post['emp_id'],
+				'month'=>date("F"),
+				'inovie_name'=>$file_name,
+				'create_at'=>date('Y-m-d H:i:s'),
+				'date'=>date('Y-m-d'),
+				);
+				$this->Employee_model->sae_invoice_data($invoicedata);
+
 				$this->session->set_flashdata('success','Pay Slip successfully created');
 				redirect('employee/payslips');
 
@@ -181,8 +195,14 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-			$data['leaves_list']=$this->Employee_model->get_leaves_data($userdetails['emp_id']);
-
+			if($data['userdetails']['role']==3){
+				
+			$data['task_list']=$this->Employee_model->get_task_list_data($userdetails['emp_id']);
+			}else{
+			$data['task_list']=$this->Employee_model->get_task_list_data('');
+			}
+			$data['emp_details'] = $this->Employee_model->get_employee_list();
+			//echo '<pre>';print_r($data['emp_details']);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('task',$data);
@@ -324,6 +344,37 @@ class Employee extends CI_Controller {
 			}else{
 				$this->session->set_flashdata('error','Technical problem will occurred .please try again');
 				redirect('employee/leaves');
+			}
+			
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+	}
+	public function taskpost(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$post=$this->input->post();
+			//echo '<pre>';print_r($post);exit;
+			$taskdata=array(
+				'emp_id'=>isset($post['task'])?$post['task']:'',
+				'assign_by'=>isset($userdetails['emp_id'])?$userdetails['emp_id']:'',
+				'from_date'=>isset($post['fromdate'])?$post['fromdate']:'',
+				'to_date'=>isset($post['todate'])?$post['todate']:'',
+				'comment'=>isset($post['comment'])?$post['comment']:'',
+				'status'=>1,
+				'create_at'=>date('Y-m-d H:i:s'),
+				);
+				//echo '<pre>';print_r($leavedata);exit;
+			$addtask=$this->Employee_model->save_task_data($taskdata);
+			if(count($addtask)>0){
+				$this->session->set_flashdata('success','Task Successfully added');
+				redirect('employee/task');
+			}else{
+				$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+				redirect('employee/task');
 			}
 			
 		}else{
@@ -683,6 +734,60 @@ class Employee extends CI_Controller {
 		
 		
 	}
+	public function taskstatus(){
+		
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['employee_list'] = $this->Employee_model->get_employee_list_details();
+			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+				$empid=base64_decode($this->uri->segment(3));
+				$status=base64_decode($this->uri->segment(4));
+				$task_id=base64_decode($this->uri->segment(5));
+				$active=array('status'=>$status);
+			if($status==4){				
+				$statuschange= $this->Employee_model->delete_task_details($task_id);
+				//echo $this->db->last_query();exit;
+				if(count($statuschange)>0){
+						if($status==2){
+							$this->session->set_flashdata('success','Task deleted Successfully');
+						}else{
+							$this->session->set_flashdata('success','Task status done Successfully Updated');
+						}
+					}else{
+						$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+						
+					}
+					
+			}else{
+				$statuschange= $this->Employee_model->update_task_details($empid,$active,$task_id);
+				//echo $this->db->last_query();exit;
+				if(count($statuschange)>0){
+						if($status==2){
+							$this->session->set_flashdata('success','Task status In progress Successfully Updated');
+						}else{
+							$this->session->set_flashdata('success','Task status done Successfully Updated');
+						}
+					}else{
+						$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+						
+					}
+				
+			}
+					redirect('employee/task');
+
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 		
+		
+		
+	}
 	public function addeployeepost(){
 		
 		if($this->session->userdata('userdetails'))
@@ -690,6 +795,7 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$post=$this->input->post();
+			//echo '<pre>';print_r($post);exit;
 			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
 						if($_FILES['profilepic']['name']!=''){
 						$profilepic=$_FILES['profilepic']['name'];
@@ -731,6 +837,19 @@ class Employee extends CI_Controller {
 						'emp_mobile'=>isset($post['mobile'])?$post['mobile']:'',
 						'emp_altermobile'=>isset($post['altermobile'])?$post['altermobile']:'',
 						'emp_doj'=>isset($post['doj'])?$post['doj']:'',
+						'basicsalary'=>isset($post['basicsalary'])?$post['basicsalary']:'',
+						'hra'=>isset($post['hra'])?$post['hra']:'',
+						'specialallowance'=>isset($post['specialallowance'])?$post['specialallowance']:'',
+						'conveyance'=>isset($post['conveyance'])?$post['conveyance']:'',
+						'medicalreimbursement'=>isset($post['medicalreimbursement'])?$post['medicalreimbursement']:'',
+						'pfnumber'=>isset($post['pfnumber'])?$post['pfnumber']:'',
+						'pfamount'=>isset($post['pfamount'])?$post['pfamount']:'',
+						'pt'=>isset($post['pt'])?$post['pt']:'',
+						'esi'=>isset($post['esi'])?$post['esi']:'',
+						'others'=>isset($post['others'])?$post['others']:'',
+						'advance'=>isset($post['advance'])?$post['advance']:'',
+						'bankname'=>isset($post['bankname'])?$post['bankname']:'',
+						'bankaccountnumber'=>isset($post['bankaccountnumber'])?$post['bankaccountnumber']:'',
 						'emp_profilepic'=>$profilepic,
 						'emp_resaddress'=>isset($post['resaddress'])?$post['resaddress']:'',
 						'emp_peraddress'=>isset($post['peraddress'])?$post['peraddress']:'',
@@ -814,9 +933,15 @@ class Employee extends CI_Controller {
 					$specialallowance=$post['specialallowance'];	
 					$conveyance=$post['conveyance'];	
 					$medicalreimbursement=$post['medicalreimbursement'];	
-					$pfnumber=$post['pfnumber'];	
+					$pfnumber=$post['pfnumber'];
+					$pfamount=$post['pfamount'];	
+					$pt=$post['pt'];	
+					$esi=$post['esi'];	
+					$others=$post['others'];						
+					$advance=$post['advance'];						
 					$bankname=$post['bankname'];	
 					$bankaccountnumber=$post['bankaccountnumber'];		
+					$salary_increment=$post['salary_increment'];		
 				}else{
 					$salary=$cust_upload_file['salary'];
 					$dob=$post['dob'];	
@@ -826,9 +951,15 @@ class Employee extends CI_Controller {
 					$specialallowance=$cust_upload_file['specialallowance'];	
 					$conveyance=$cust_upload_file['conveyance'];	
 					$medicalreimbursement=$cust_upload_file['medicalreimbursement'];	
-					$pfnumber=$cust_upload_file['pfnumber'];	
+					$pfnumber=$cust_upload_file['pfnumber'];
+					$pfamount=$cust_upload_file['pfamount'];	
+					$pt=$cust_upload_file['pt'];	
+					$esi=$cust_upload_file['esi'];	
+					$others=$cust_upload_file['others'];						
+					$advance=$cust_upload_file['advance'];					
 					$bankname=$cust_upload_file['bankname'];	
 					$bankaccountnumber=$cust_upload_file['bankaccountnumber'];					
+					$salary_increment=$cust_upload_file['salary_increment'];					
 				}
 			$editdata=array(
 			'emp_name'=>isset($post['name'])?$post['name']:'',
@@ -843,8 +974,14 @@ class Employee extends CI_Controller {
 			'conveyance'=>$conveyance,
 			'medicalreimbursement'=>$medicalreimbursement,
 			'pfnumber'=>$pfnumber,
+			'pfamount'=>$pfamount,
+			'pt'=>$pt,
+			'esi'=>$esi,
+			'others'=>$others,
+			'advance'=>$advance,
 			'bankname'=>$bankname,
 			'bankaccountnumber'=>$bankaccountnumber,
+			'salary_increment'=>$salary_increment,
 			'emp_dob'=>$dob,
 			'emp_profilepic'=>$profilepic,
 			'emp_resaddress'=>isset($post['resaddress'])?$post['resaddress']:'',
@@ -1008,6 +1145,22 @@ class Employee extends CI_Controller {
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
 		} 
+	}
+	public function getpayslips(){
+		
+		$post=$this->input->post();
+		$ids=explode('_',$post['emp_id']);
+		$getpayslip= $this->Employee_model->get_payslip_data($ids[0],$ids[1]);
+		if(count($getpayslip) > 0)
+		{
+			$data['msg']=1;
+			$data=$getpayslip;
+			echo json_encode($data);	
+		}else{
+			$data['msg']=0;
+			echo json_encode($data);
+		}
+		
 	}
 	
 	

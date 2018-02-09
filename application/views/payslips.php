@@ -1,8 +1,19 @@
  
 <div class="container-sty-adm ">
+ <?php if($this->session->flashdata('success')): ?>
+		<div class="alert alert-success">
+		<strong><?php echo $this->session->flashdata('success'); ?></strong> 
+		</div>
+
+		<?php endif; ?>
+		<?php if($this->session->flashdata('error')): ?>
+		<div class="alert alert-warning">
+		<strong><?php echo $this->session->flashdata('error'); ?></strong> 
+		</div>
+		<?php endif; ?>
 <form action="<?php echo base_url('employee/payslippost'); ?>" method="post">
 	<div class=" row justify-content-md-end" >
-	  
+	 
 		<div class="col-md-9  " style="margin-top:60px">
 			<div class="row mtb-30">
 			<div class="col-md-6">
