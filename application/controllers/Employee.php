@@ -13,8 +13,8 @@ class Employee extends CI_Controller {
 		$this->load->library('user_agent');
 		$this->load->library('pdf');
 		$ip = $this->input->ip_address();
-		echo phpinfo();
-		echo '<pre>';print_r($ip);exit;
+		//echo phpinfo();
+		//echo '<pre>';print_r($ip);exit;
 		
 
 	}
