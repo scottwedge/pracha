@@ -94,6 +94,7 @@ class Employee_model extends CI_Model
 		$this->db->select('login_report.create_at,login_report.emp_id,login_report.id')->from('login_report');
 		$this->db->where('emp_id', $emp_id);	
 		$this->db->like('create_at', date('Y-m'));
+		$this->db->order_by('login_report.create_at desc');
         $this->db->group_by('create_at'); 		
         return $this->db->get()->result_array();
 	}
