@@ -13,10 +13,11 @@ class Employee extends CI_Controller {
 		$this->load->library('user_agent');
 		$this->load->library('pdf');
 		$ip = $this->input->ip_address();
-		//echo phpinfo();
-		//echo '<pre>';print_r($ip);exit;
-		
-
+		$ip_list = array("122.175.58.42", "49.207.6.7",);
+		/*if (!in_array($ip , $ip_list))
+		{
+		redirect('');
+		}*/
 	}
 	public function index()
 	{
