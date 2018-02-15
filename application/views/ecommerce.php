@@ -4,7 +4,7 @@
   <h1>
     E-Commerce DEVELOPMENT <br />
 	<br>
-	<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Custom Application Development", "Content Management System (CMS)", "Ecommerce Development","MEAN Stack Development",  " " ]'>
+	<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "e-Commerce Development",   " " ]'>
    
   </p>
  
@@ -17,66 +17,18 @@
 <div class="clearfix">&nbsp;</div>
 <section class="mar-mi140">
 <div class="container-sty card " >
-		<div class="row">
-	<div class="col-md-3 col-sm-6 col-xsx-6">
-            <div class="serviceBox">
-                <div class="service-icon">
-                    <span><i class="fa fa-desktop"></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Custom Application Development <span style="font-size:12px;">(PHP, Python, Ruby .NET, Java)</span> </h3>
-					
-                    <p class="description">Our expert in-house team uses cutting edge technologies to build custom web applications that are stunning, robust, secure and scalable and we follow agile development methodology to ensure flexibility and faster delivery.</p>
-					
-                  
-                </div>
-            </div>
-        </div>
- 
-        <div class="col-md-3 col-sm-6 col-xsx-6">
-            <div class="serviceBox green">
-                <div class="service-icon">
-                    <span><i class="fa  fa-id-card-o "></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Content Management System (CMS)</h3>
-                    <p class="description">We are experts at designing and creating content management systems for the web. We analyse and research the market trends and collaborate these with your business requirements to mould a perfect CMS framework for your business.</p>
-                   
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3 col-sm-6 col-xsx-6">
-            <div class="serviceBox orange">
-                <div class="service-icon">
-                    <span><i class="fa fa-shopping-cart "></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">E-commerce Development</h3>
-					<div class="clearfix">&nbsp;</div>
-                    <p class="description">We create custom designed ecommerce websites that’d make you stand out from your competitors. From our experience of creating more than 150 ecommerce sites, we know how to do it best.</p>
-                   
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3 col-sm-6 col-xsx-6">
-            <div class="serviceBox blue">
-                <div class="service-icon">
-                    <span><i class="fa fa-rocket "></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">MEAN Stack Development</h3>
-					<div class="clearfix">&nbsp;</div>
-                    <p class="description">A full-stack Javascript solution with Mongo DB as database system, Express as backend web framework, Angular js as front-end framework and Nodejs as back-end runtime environment, to create high performing and highly scalable web applications.</p>
-                    
-                </div>
-            </div>
-        </div>
+	</br>
+	<h2 class="head-ing">e-Commerce Development</h2>
+	<div class="row justify-content-md-center" >
 		
+		<p class="col-md-11">Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G) and Mobile Commerce (m-commerce). Mobile  commerce (m-commerce) is particularly done through mobile only.  We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions for our interested customers. 
+
+ </p>
+
 	</div>
-	
-</div>
+		
+
+
 	
 </section>
 <div class="clearfix">&nbsp;</div>

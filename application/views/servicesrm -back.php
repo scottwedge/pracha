@@ -1,271 +1,104 @@
 
 <section id="masthead" role="banner" class="bod-st">
-	<h1>
+
+  <h1>
     UI/UX DESIGNING <br />
 	<br>
-		<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Site Architecture and design", "Static & Dynamic Website Design", "Responsive Web Design","Custom Web Design","Corporate Website Design","Template Design & Customization",  " " ]'></p>
-	</h1>
-	<canvas id="nodes"></canvas>
+	
+
+
+
+
+
+  <p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Static & Dynamic Website Design", "Responsive Web Design", "Custom Web Design","Corporate Website Design","Template Design & Customization",  " " ]'>
+   
+  </p>
+ 
+  </h1>
+  
+ 
+  <canvas id="nodes"></canvas>
+
 </section>
 <div class="clearfix">&nbsp;</div>
 <section class="mar-mi140">
 <div class="container-sty card " >
-
-	<div class="row justify-content-md-center" >
-		<p class="font-18"><i>Let’s have a glimpse on UI & UX, so that you will have an idea about  our services.</i></p>
-	</div>
-	<h2 class="head-ing">UI & UX:</h2>
-	<div class="row justify-content-md-center" >
-		
-		<p class="col-md-11">UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. <strong>In simple UI aims on website and UX aims on product</strong>, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user. </p>
-
-	</div>
-		
-<div class=" "  id="navbarSupportedContent" >
-<section class="py-4 text-center text-lg-left">
-<div id="sticky-anchor"></div>
-	<div class="container-sty card " id="sticky">
-
-		                            
-<ul class="nav md-pills nav-justified pills-primary single-page-scr">
-    <li class="nav-item">
-        <a class="nav-link active"  href="#ui-ux" role="tab">Site Architecture and design</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link "  href="#web-dev" role="tab">Static & Dynamic Website Design</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link"  href="#mob-app" role="tab">Responsive Web Design</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link"  href="#e-comm-scroll" role="tab">Custom Web Design</a>
-    </li>
-	  <li class="nav-item">
-        <a class="nav-link"  href="#dig-mar" role="tab">Corporate Website Design</a>
-    </li> 
-		<li class="nav-item">
-        <a class="nav-link"  href="#maintain" role="tab">Template Design & Customization
-</a>
-    </li>
-	
-	
-
-	
-</ul>
-</div>
-</section>
-<section class="py-4 text-center text-lg-left">
-<div class="container-sty  mar-t2" >
-<!-- Tab panels -->
-<div class="tab-content"><!--Panel 1-->
-    <div class=" active" >
-    <div class="row">
-
-    <!--Grid column-->
-    <div class="col-lg-4 col-xl-4 pb-3">
-        <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/site-a-d.png" alt="Sample image for first version of blog listing"
-            class="img-fluid">
-        <a>
-            <div class="mask"></div>
-        </a>
-        </div>
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-8 col-xl-8">
-        <!--Excerpt-->
-        
-      
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Site Architecture and design </strong>
-        </h3>
-        <p>Website architecture deals with the principles of design and construction and ornamentation of fine websites. Before designing site architecture we need to have a complete research on  our Customer, Competitor and Product or Service. Depending upon the research we need to develop content and UX & UI designs for the website. Under UX Design we work on Wireframing, Prototyping, Testing, Development Planning, Execution and Analytics etc. Under UI Design we test Look and Feel, Responsive website, UI Prototyping, Animation, Autofit to all screen sizes and Interactive etc.</p>
-		
-    </div>
-    <!--Grid column-->
-
-    </div>
-    <!--Grid row-->
-
-    <hr class="mb-5 mt-5 pb-3" id="web-dev">
-
-    <!--Grid row-->
-    <div class="row">
-
-    <!--Grid column-->
-    <div class="col-lg-8 col-xl-8 pb-3">
-        <!--Excerpt-->
-       
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Static & Dynamic Website Design</strong>
-        </h3>
-         <p>A Static website has stagnant content usually written in HTML code, and every page has to be saved separately on the server. Changes have to be made manually every time, and you need coding knowledge to make any kind of changes.</p>
-		<p>A Dynamic website’s construction is controlled by an application server processed by server-side scripts. Pages of the website are dynamically populated every time and are not coded and saved separately, but the design or template look and feel is saved separately.</p>
-        
-        
-       
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-4 col-xl-4 mb-5">
-        <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/static-dynamic.png" alt="Second image in the first version of blog listing"
-            class="img-fluid">
-        <a>
-            <div class="mask"></div>
-        </a>
-        </div>
-    </div>
-    <!--Grid column-->
-
-    </div>
-    <!--Grid row-->
-
-    <hr class="mb-5 mt-4 pb-3" id="mob-app">
-
-    <!--Grid row-->
-    <div class="row pb-5">
-
-    <!--Grid column-->
-    <div class="col-lg-4 col-xl-4 pb-3">
-        <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/responsive.png" alt="Thrid image in the blog listing." class="img-fluid">
-        <a>
-            <div class="mask"></div>
-        </a>
-        </div>
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-8 col-xl-8">
-        <!--Excerpt-->
-      
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Responsive Web Design</strong>
-        </h3>
-        <p>In this generation, due to heavy use of technology and various gadgets, people view websites on various devices with different screen sizes. So it is good to think about the responsive design for your site to make your websites mobile friendly, as there is a rapid usage of smartphones and tablets these days. We make the site easy to use and easy to view, no matter which device it is viewed on. Therefore we make our websites “Responsive”, meaning the design responds to the specification of the device.  </p>
-        
-		 
-    </div>
-    <!--Grid column-->
-
-    </div>
-	<hr class="mb-4 mt-4 pb-3" id="e-comm-scroll">
-
-    <!--Grid row-->
-    <div class="row">
-
-    <!--Grid column-->
-    <div class="col-lg-8 col-xl-8 pb-3">
-        <!--Excerpt-->
-     
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Custom Web Design</strong>
-        </h3>
-        <p>A Custom web design allows you to establish your brand and to express what is unique about the product or services you are providing. Your website needs personality, and our designers will help you to come up with unique features, from start to finish. Startup's doesn’t need to build a big complex website in the beginning, and also has the possibility to establish your brand first and build from there. Important factors to consider are navigation, ease of use, layout, graphics, colour scheme, etc.</p>
-       
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-4 col-xl-4 mb-5">
-        <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/custom.png" alt="Second image in the first version of blog listing"
-            class="img-fluid">
-        <a>
-            <div class="mask"></div>
-        </a>
-        </div>
-    </div>
-    <!--Grid column-->
-
-    </div>
-    <!--Grid row-->
-
-    <hr class="mb-5 mt-4 pb-3" id="dig-mar">
-
-    <!--Grid row-->
-    <div class="row pb-5">
-
-    <!--Grid column-->
-    <div class="col-lg-4 col-xl-4 pb-3">
-        <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/corporate.png" alt="Thrid image in the blog listing." class="img-fluid">
-        <a>
-            <div class="mask"></div>
-        </a>
-        </div>
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-8 col-xl-8">
-        <!--Excerpt-->
-        
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Corporate Website Design</strong>
-        </h3>
-        <p>Corporate website design is unique in nature, it is not like ecommerce or portal sites. It focuses on providing information rather than generating business transactions and other services. Almost every well established company will have a separate corporate website to provide information to its customers or visitors. Usually it covers topics like history of the company, summary of company operations, mission, products, services, board members, press release, news etc. We have a professional team to design the corporate site of our clients according to their specifications.
+		<div class="row">
+	<div class="col-md-3 col-sm-6 col-xsx-6">
+            <div class="serviceBox">
+                <div class="service-icon">
+                    <span><i class="fa fa-desktop"></i></span>
+                </div>
+                <div class="service-content">
+                    <h3 class="title">Static & Dynamic Website Design</h3>
+                    <p class="description">Our static & Dynamic web design services endeavor to showcase your business as well as service online that won’t much require frequent updates.
 </p>
-       
-		
-    </div>
-    <!--Grid column-->
-
-    </div>
-    <!--Grid row-->
-
-	 <hr class="mb-5 mt-4 pb-3" id="maintain">
-
-    <!--Grid row-->
-    <div class="row">
-
-    <!--Grid column-->
-    <div class="col-lg-8 col-xl-8 pb-3">
-        <!--Excerpt-->
-     
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Template Design & Customization</strong>
-        </h3>
-        <p>Designing an attractive and responsive template is also very essential to a website. We have in-house professionals to design such templates with attractive colour combinations and an elegant style, who move according to the specifications of our clients. Depending upon the requirement of our client we build templates with HTML5, CSS3, bootstrap, Java script, JQuery, etc. </p>
-       
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-4 col-xl-4 mb-5">
-        <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/template.png" alt="Second image in the first version of blog listing"
-            class="img-fluid">
-        <a>
-            <div class="mask"></div>
-        </a>
+                   
+                </div>
+            </div>
         </div>
-    </div>
-    <!--Grid column-->
+ 
+        <div class="col-md-3 col-sm-6 col-xsx-6">
+            <div class="serviceBox green">
+                <div class="service-icon">
+                    <span><i class="fa fa-tablet"></i></span>
+                </div>
+                <div class="service-content">
+                    <h3 class="title">Responsive Web Design</h3>
+                    <p class="description">Our professionals have the capability of featuring websites over desktop, smart phones and tables alike with responsive web design services</p>
+                    
+                </div>
+            </div>
+        </div>
 
-    </div><hr>
+        <div class="col-md-3 col-sm-6 col-xsx-6">
+            <div class="serviceBox orange">
+                <div class="service-icon">
+                    <span><i class="fa fa-keyboard-o"></i></span>
+                </div>
+                <div class="service-content">
+                    <h3 class="title">Custom Web Design</h3>
+                    <p class="description">Under the services, the aim is to customize the web design as per the requirement of the clients in the most creative way.</p>
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xsx-6">
+            <div class="serviceBox blue">
+                <div class="service-icon">
+                    <span><i class="fa fa-window-restore"></i>
+                </div>
+                <div class="service-content">
+                    <h3 class="title">Corporate Website Design</h3>
+                    <p class="description">Our corporate clients have some specific requirements to be fulfilled that we accomplish with our corporate website design solutions.</p>
+                   
+                </div>
+            </div>
+        </div>
+		
+	</div>
 	<div class="row">
-		<div class=" pb-3">
-			<p class="text-dark"><strong>Note : </strong>There are many things to explain but because of time and space we will continue these topics in blogs. Hope the above briefly explained terms are informative! </p> 
-			<p>Our knowledge of global best practices along with our deep research on each and every domain made us leaders in developing websites & Apps  and promoting or marketing them digitally. Whether an  individual or an enterprise, our customers always received unmatched services.</p>
+		<div class="col-md-4 col-sm-6 col-xsx-6 ">
+			&nbsp;
+		</div>
+		<div class="col-md-4 col-sm-6 col-xsx-6 ">
+            <div class="serviceBox blue">
+                <div class="service-icon">
+                    <span><i class="fa fa-pencil"></i></span>
+                </div>
+                <div class="service-content">
+                    <h3 class="title">Template Design & Customization</h3>
+                    <p class="description">Through our template design services, we concentrate on the details that have been specified by the clients. We customize the designs over the templates prior to developing one to suit specifically the business requirements.</p>
+                    
+                </div>
+            </div>
+        </div>
+		<div class="col-md-4 col-sm-6 col-xsx-6 ">
+			&nbsp;
 		</div>
 	</div>
 </div>
-	</div>
-	</section>
-</div>
-
 	
 </section>
 
@@ -425,7 +258,7 @@
         </div>
 		  <div class="clearfix">&nbsp;</div>
   <!-- BEGIN LIST -->
-  <ul class="box" style="background:transparent;">
+  <ul class="box">
   <!-- BEGIN LIST ELEMENT -->
     <li>
       <div class="circle">
@@ -528,19 +361,6 @@
    <script>
 	$(".box").click(function(){
    $(this).box().toggleClass("circle");
-});
-     
-   </script> 
-   <script>
-	$(document).ready(function() {
-    $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
-        e.preventDefault();
-        $(this).siblings('a.active').removeClass("active");
-        $(this).addClass("active");
-        var index = $(this).index();
-        $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
-        $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
-    });
 });
      
    </script>
@@ -766,85 +586,3 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
     };           
 </script>             
-<script>
-
-$(document).ready(function () {
-    $(document).on("scroll", onScroll);
-    
-    //smoothscroll
-    $('a[href^="#"]').on('click', function (e) {
-        e.preventDefault();
-        $(document).off("scroll");
-        
-        $('a').each(function () {
-            $(this).removeClass('active');
-        })
-        $(this).addClass('active');
-      
-        var target = this.hash,
-            menu = target;
-        $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top+2
-        }, 500, 'swing', function () {
-            window.location.hash = target;
-            $(document).on("scroll", onScroll);
-        });
-    });
-});
-
-function onScroll(event){
-    var scrollPos = $(document).scrollTop();
-    $('#menu-center a').each(function () {
-        var currLink = $(this);
-        var refElement = $(currLink.attr("href"));
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('#menu-center ul li a').removeClass("active");
-            currLink.addClass("active");
-        }
-        else{
-            currLink.removeClass("active");
-        }
-    });
-}
-
-
-
-
-	function sticky_relocate() {
-    var window_top = $(window).scrollTop();
-    var div_top = $('#sticky-anchor').offset().top;
-    if (window_top > div_top) {
-        $('#sticky').addClass('stick');
-        $('#sticky-anchor').height($('#sticky').outerHeight());
-    } else {
-        $('#sticky').removeClass('stick');
-        $('#sticky-anchor').height();
-    }
-}
-
-$(function() {
-    $(window).scroll(sticky_relocate);
-    sticky_relocate();
-});
-
-var dir = 1;
-var MIN_TOP = 200;
-var MAX_TOP = 350;
-
-function autoscroll() {
-    var window_top = $(window).scrollTop() + dir;
-    if (window_top >= MAX_TOP) {
-        window_top = MAX_TOP;
-        dir = -1;
-    } else if (window_top <= MIN_TOP) {
-        window_top = MIN_TOP;
-        dir = 1;
-    }
-    $(window).scrollTop(window_top);
-    window.setTimeout(autoscroll, 100);
-}
-
-</script>
-
-                

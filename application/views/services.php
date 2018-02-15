@@ -42,17 +42,15 @@
     <li class="nav-item">
         <a class="nav-link"  href="#dig-mar" role="tab">Digital Marketing  </a>
     </li>
-	  <li class="nav-item">
-        <a class="nav-link"  href="#seo-scroll" role="tab">SEO</a>
-    </li> 
-		<li class="nav-item">
-        <a class="nav-link"  href="#maintain" role="tab">Maintenance</a>
-    </li>
+	
 	  <li class="nav-item">
         <a class="nav-link"  href="#e-comm-scroll" role="tab">E-Commerce </a>
     </li>
 	  <li class="nav-item">
         <a class="nav-link"  href="#busin-sol" role="tab">Business Solutions</a>
+    </li>
+	<li class="nav-item">
+        <a class="nav-link"  href="#maintain" role="tab">Maintenance</a>
     </li>
 	
 
@@ -71,15 +69,17 @@
 			<!--Grid row-->
 			 <h1 class="h1 font-bold text-center ">SERVICES</h1>
     <!--Section description-->
-    <p class="text-center mb-5 pb-3">The expertise of prachaTECH lies in providing Software designing, development & Maintenance services that effortlessly meet up with the international coding standards. Right from custom Software designing & development to online marketing we are providing a range of services under a single roof.prachaTECH is a leading Software development company based in Hyderabad, offering all kinds of Website based services. We implement all the major tools and trends that will make your website design aesthetic and professional, while ensuring a great user experience.</p>
+    <p class="text-center mb-5 pb-3">
+We pride ourselves to offer the full spectrum of web-services to serve our clients. We pregenerate new websites to our clients and decorate them with magnetizing words, which will turn a visitor in to a client. We nourish our clients websites with organic keywords, and with various analytical researches, to make our clients visible in the Google’s search results page. We expeditiously promote our clients on social media to shake hand with their new clients. We enlarge our territory in generating Android apps, iOS apps and promoting them digitally.
+</p>
 		<hr class="mb-5 mt-5 pb-3" id="ui-ux">
     <div class="row">
 
     <!--Grid column-->
-    <div class="col-lg-5 col-xl-5 pb-3">
+    <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/se1.png" alt="Sample image for first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ui.png" alt="Sample image for first version of blog listing"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -89,16 +89,17 @@
     <!--Grid column-->
 
     <!--Grid column-->
-    <div class="col-lg-7 col-xl-7">
+    <div class="col-lg-8 col-xl-8">
         <!--Excerpt-->
         
       
         <h3 class="mb-4 font-bold dark-grey-text">
         <strong>UI/UX DESIGNING</strong>
         </h3>
-        <p>Our team of UI/UX designers at PrachaTECH have ample of years of experience in the core areas of user experience, which helps them collaborate the finer modules of usability and functionality in-line with business goals and end-user needs.</p>
+        <p>UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. In simple UI aims on website and UX aims on product, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user. 
+</p>
        
-        <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
+        <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
        
     </div>
     <!--Grid column-->
@@ -112,27 +113,27 @@
     <div class="row">
 
     <!--Grid column-->
-    <div class="col-lg-7 col-xl-7 pb-3">
+    <div class="col-lg-8 col-xl-8 pb-3">
         <!--Excerpt-->
        
         <h3 class="mb-4 font-bold dark-grey-text">
         <strong>Web Development</strong>
         </h3>
-        <p>We have an excellent team of web development experts who are constantly experimenting and implementing innovative ideas that will transform website designs into a gold mine for your business.
-We offer the below Web Development Services
-Software not only smooths the businesses processes, but it also creates a huge new market, but coupling the right target environment with the right technology can be challenging task for the software development companies.
+        <p>
+Web Development is of two types namely Front-end development and Back-end development. Front-end development is client side development and Back-end  development is server side development. 
+
 </p>
         
-         <a href="<?php echo base_url('develop_service'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
+         <a href="<?php echo base_url('develop_service'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
        
     </div>
     <!--Grid column-->
 
     <!--Grid column-->
-    <div class="col-lg-5 col-xl-5 mb-5">
+    <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/se2.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/webdevp.png" alt="Second image in the first version of blog listing"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -150,10 +151,10 @@ Software not only smooths the businesses processes, but it also creates a huge n
     <div class="row pb-5">
 
     <!--Grid column-->
-    <div class="col-lg-5 col-xl-5 pb-3">
+    <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/app.png" alt="Thrid image in the blog listing." class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -162,14 +163,14 @@ Software not only smooths the businesses processes, but it also creates a huge n
     <!--Grid column-->
 
     <!--Grid column-->
-    <div class="col-lg-7 col-xl-7">
+    <div class="col-lg-8 col-xl-8">
         <!--Excerpt-->
       
         <h3 class="mb-4 font-bold dark-grey-text">
         <strong>Mobile Application Development</strong>
         </h3>
-        <p>Mobile apps have changed the life of the people from health to finance apps are prepared for every sector to cater the need of users. Every day thousands of apps are coming into market to download and use. PrachaTECH main objective is to create state-of-the-art mobile applications which will provide our clients an upper edge in the market.</p>
-         <a href="<?php echo base_url('mobile_application'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
+        <p>Mobile Apps can benefit your business in a real good manner. As per the   ABI’s latest research Mobile apps help boosting business upto 80%,	because people spend more time on mobiles than on TV or Computer. Mobile apps are three types namely: Native apps, Web apps and Hybrid apps.</p>
+         <a href="<?php echo base_url('mobile_application'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
 		 
     </div>
     <!--Grid column-->
@@ -181,22 +182,24 @@ Software not only smooths the businesses processes, but it also creates a huge n
     <div class="row">
 
     <!--Grid column-->
-    <div class="col-lg-7 col-xl-7 pb-3">
+    <div class="col-lg-8 col-xl-8 pb-3">
         <!--Excerpt-->
      
         <h3 class="mb-4 font-bold dark-grey-text">
         <strong>E-commerce Solutions</strong>
         </h3>
-        <p>Our vast experience in developing ecommerce websites has made us one of the best choices for ecommerce website Development Company in Hyderabad. We understand the need of each client is different and thus we plan the e commerce application development accordingly. Though from top its look all the e commerce websites are same but there is huge difference in each and every website. It depends mainly on the target market and thus the design and functionalities also change according to that. Our vast experience helps us not only in developing e commerce websites, but we are also providing our consultancy to many ecommerce companies.</p>
-        <a href="<?php echo base_url('ecommerce'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
+        <p>Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G) and Mobile Commerce (m-commerce). Mobile  commerce (m-commerce) is particularly done through mobile only.  
+We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions for our interested customers. 
+</p>
+        <a href="<?php echo base_url('ecommerce'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
     </div>
     <!--Grid column-->
 
     <!--Grid column-->
-    <div class="col-lg-5 col-xl-5 mb-5">
+    <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce.png" alt="Second image in the first version of blog listing"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -214,10 +217,10 @@ Software not only smooths the businesses processes, but it also creates a huge n
     <div class="row pb-5">
 
     <!--Grid column-->
-    <div class="col-lg-5 col-xl-5 pb-3">
+    <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/digital.png" alt="Thrid image in the blog listing." class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -226,16 +229,15 @@ Software not only smooths the businesses processes, but it also creates a huge n
     <!--Grid column-->
 
     <!--Grid column-->
-    <div class="col-lg-7 col-xl-7">
+    <div class="col-lg-8 col-xl-8">
         <!--Excerpt-->
         
         <h3 class="mb-4 font-bold dark-grey-text">
         <strong>Digital Marketing</strong>
         </h3>
-        <p>Digital marketing comprises of several activities for the web apart from marketing and each and every activity needs to be executed with focus on the end users to ensure success. Fortunately, we have an excellent team of digital marketing experts, who are working 24/7 to attract, engage and convert your customers into sales.
-SEO, SEM, PPC, SMO, Content marketing and social media networking, etc. comprise a perfect digital marketing strategy. We are Google certified marketing professionals as well as Bing ads accredited agency, and each member of our digital marketing team flaunts a great deal of experience and expertise in their field of marketing and are always on the hunt for new and innovative ideas to connect businesses to people across the globe.
+        <p>Digital Marketing is just marketing of products or services using digital technologies.
 </p>
-        <a href="<?php echo base_url('digitalmarketing'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
+        <a href="<?php echo base_url('digitalmarketing'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
 		
     </div>
     <!--Grid column-->
@@ -243,28 +245,30 @@ SEO, SEM, PPC, SMO, Content marketing and social media networking, etc. comprise
     </div>
     <!--Grid row-->
 
-	<hr class="mb-5 mt-5 pb-3" id="seo-scroll">
+	<!--Grid row-->
+	<hr class="mb-5 mt-5 pb-3" id="busin-sol">
 
     <!--Grid row-->
     <div class="row">
 
     <!--Grid column-->
-    <div class="col-lg-7 col-xl-7 pb-3">
+    <div class="col-lg-8 col-xl-8 pb-3">
         <!--Excerpt-->
      
         <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>SEO</strong>
+        <strong>Business Solutions</strong>
         </h3>
-        <p>Each website is unique in its own way and hence our search engine optimization (SEO) plans differs from website to website. However, we are providing a comparison chart of our five major SEO services to give you a brief overview</p>
-        <a href="<?php echo base_url('seo'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
+        <p>Pre- developed, Tailor-Made & Customizable, Professional, Affordable & Effective Business Solutions. We deliver A-level solutions to our clients in e-commerce, finance, education management, hotels & restaurants, healthcare & other industries
+</p>
+        <!--<a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>-->
     </div>
     <!--Grid column-->
 
     <!--Grid column-->
-    <div class="col-lg-5 col-xl-5 mb-5">
+    <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/business-sol.png" alt="Second image in the first version of blog listing"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -282,10 +286,10 @@ SEO, SEM, PPC, SMO, Content marketing and social media networking, etc. comprise
     <div class="row pb-5">
 
     <!--Grid column-->
-    <div class="col-lg-5 col-xl-5 pb-3">
+    <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/maintenance.png" alt="Thrid image in the blog listing." class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -294,7 +298,7 @@ SEO, SEM, PPC, SMO, Content marketing and social media networking, etc. comprise
     <!--Grid column-->
 
     <!--Grid column-->
-    <div class="col-lg-7 col-xl-7">
+    <div class="col-lg-8 col-xl-8">
         <!--Excerpt-->
         
         <h3 class="mb-4 font-bold dark-grey-text">
@@ -313,40 +317,7 @@ Whatever may be your requirement - be it a simple website design, a complex data
     <!--Grid column-->
 
     </div>
-    <!--Grid row-->
-	<hr class="mb-5 mt-5 pb-3" id="busin-sol">
-
-    <!--Grid row-->
-    <div class="row">
-
-    <!--Grid column-->
-    <div class="col-lg-7 col-xl-7 pb-3">
-        <!--Excerpt-->
-     
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Business Solutions</strong>
-        </h3>
-        <p>Pre- developed, Tailor-Made & Customizable, Professional, Affordable & Effective Business Solutions. We deliver A-level solutions to our clients in e-commerce, finance, education management, hotels & restaurants, healthcare & other industries
-</p>
-        <!--<a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>-->
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-5 col-xl-5 mb-5">
-        <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg" alt="Second image in the first version of blog listing"
-            class="img-fluid">
-        <a>
-            <div class="mask"></div>
-        </a>
-        </div>
-    </div>
-    <!--Grid column-->
-
-    </div>
-    <!--Grid row-->
+    
 
 
     </div>

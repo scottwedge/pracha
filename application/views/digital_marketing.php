@@ -5,9 +5,6 @@
   DIGITAL MARKETING<br /><br>
   
 
-  <!--<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Social Media Marketing", "Google AdWords& Analytics", "Bulk SMS marketing","Analytics Consultation","Online Reputation Management","Content Marketing","Email Marketing","Branding","Affiliate Management",  " " ]'>
-   
-  </p> -->
   <p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Search Engine Optimization", "Social Media Marketing", "Google Adwords","Content Marketing","Email Marketing","Google Analytics",  " " ]'>
    
   </p>
@@ -21,103 +18,269 @@
 <div class="clearfix">&nbsp;</div>
 <section class="mar-mi140">
 <div class="container-sty card " >
-		  <div class="row  text-center">
-            <div class="col-sm-12 mb-20 pt-30">
 
-                <h3 class="text-dark">Let’s have a glimpse on Digital Marketing, so that you will have an idea about our services.</h3>
-				
-				<p class="mtb-15 font_s16">Digital Marketing is just marketing of products or services using digital technologies.</p>
-
-
-            </div>
-
-        </div>
-		<div class="row">
-	<div class="col-md-4 col-sm-6 col-xsx-6">
-            <div class="serviceBox green">
-                <div class="service-icon">
-                    <span><i class="fa  fa-search"></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Search Engine Optimization</h3>
-					
-                    <p class="description">After conducting a thorough research on keywords and their volume, we choose the best and suitable keywords for your website and place them in the site in order to make you visible in the webpages of the search engine. So that you will appear in the first page of the search engine and get recognized by your targeted customers,  bypassing all your competitors.   </p>
-					
-                </div>
-            </div>
-        </div>
-		<div class="col-md-4 col-sm-6 col-xsx-6">
-            <div class="serviceBox">
-                <div class="service-icon">
-                    <span><i class="fa fa-share-square-o"></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Social Media Marketing</h3>
-					
-                    <p class="description">By using our vast social media network we promote your website digitally on social media (Facebook, Twitter, Linkedin, Google+ etc), so that there is a great opportunity for your business to reach maximum no. of customers. We have the ability to focus on particular age groups, gender and geographical locations depending upon your product.  </p>
-					
-                </div>
-            </div>
-        </div>
- 
-        <div class="col-md-4 col-sm-6 col-xsx-6">
-            <div class="serviceBox green">
-                <div class="service-icon">
-                    <span><i class="fa fa-google"></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Google Adwords</h3>
-                    <p class="description">Through Google Adwords we run your campaigns or advertisements on internet. We are very much familiar with Google Search Network, Google Display Network and the Youtube Network  to show your banners, videos and text ads to the targeted customers. We focus them on particular age groups or gender or geographical locations depending upon your budget and the product or service you offer. We refer our clients to opt for PPC(Pay per Click) or Pay per 1000 impressions depending upon the budget. </p>
-                   
-                </div>
-            </div>
-        </div>
-		<div class="col-md-4 col-sm-6 col-xsx-6">
-            <div class="serviceBox orange">
-                <div class="service-icon">
-                    <span><i class="fa fa-pencil-square-o"></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Content Marketing</h3>
-							 <p class="description">Content marketing is full of strategies to approach the targeted customers. Here we focus on creating a fresh content, sharing blogs or articles and maintain a consistent content to retain the former customers and to attract the new visitors, finally to drive a profitable action.Marketing is impossible without great content, so we have a team of in-house contents writers who can serve our clients with their content.</p>
-					<br>
-                    
-                </div>
-            </div>
-        </div>
-		<div class="col-md-4 col-sm-6 col-xsx-6">
-            <div class="serviceBox blue">
-                <div class="service-icon">
-                    <span><i class="fa fa-envelope"></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Email Marketing</h3>
-							 <p class="description">We collect the emails of your customers through our resources and promote your latest events, newsletters, blog post etc to their inboxes. People who are interested will obviously return to your website, it's just a call of remembrance to your clients as they were busy in their day to day activities.This is also a way to drive traffic to your website.</p>
-                    
-                </div>
-            </div>
-        </div>
-		 <div class="col-md-4 col-sm-6 col-xsx-6">
-            <div class="serviceBox ">
-                <div class="service-icon">
-                    <span><i class="fa fa-area-chart"></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Google Analytics</h3>
-					 <p class="description">We track each and every event of your website by implementing a tracking code and setup data filters on  Google Analytics, for we have a special team to monitor each and every move of your website. We collect audience reports, acquisition reports and behaviour reports of your website and analyze them and remarket them for better targeting with dynamic remarketing.</p>
-                   
-                </div>
-            </div>
-        </div>
+	<div class="row justify-content-md-center" >
+		<p class="font-18 text-dark"><i>Let’s have a glimpse on Digital Marketing, so that you will have an idea about our services.
+</i></p>
+	</div><br>
+	<h2 class="head-ing">DIGITAL MARKETING</h2>
+	<div class="row justify-content-md-center" >
 		
+		<p class="col-md-11">Digital Marketing is just marketing of products or services using digital technologies. </p>
+
 	</div>
-	<div class="container">
-	<ul class="concl">
-		<li>There are many things to explain but because of time and space we will continue these topics in blogs. Hope the above briefly explained terms are informative! </li>
-		<li>Our knowledge of global best practices along with our deep research on each and every domain made us leaders in developing websites & Apps  and promoting or marketing them digitally. Whether an  individual or an enterprise, our customers always received unmatched services. </li>
-	</ul>
+		
+<div class=" "  id="navbarSupportedContent" >
+<section class="py-4 text-center text-lg-left">
+<div id="sticky-anchor"></div>
+	<div class="container-sty card " id="sticky">
+
+		                            
+<ul class="nav md-pills nav-justified pills-primary single-page-scr">
+    <li class="nav-item">
+        <a class="nav-link active"  href="#ui-ux" role="tab">SEO</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link "  href="#web-dev" role="tab">Social Media Marketing</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link"  href="#mob-app" role="tab">Adwords</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link"  href="#e-comm-scroll" role="tab">Content Marketing</a>
+    </li>
+	  <li class="nav-item">
+        <a class="nav-link"  href="#dig-mar" role="tab">Email Marketing</a>
+    </li> 
+		<li class="nav-item">
+        <a class="nav-link"  href="#maintain" role="tab">Google Analytics
+</a>
+    </li>
+	
+	
+
+	
+</ul>
+</div>
+</section>
+<section class="py-4 text-center text-lg-left">
+<div class="container-sty  mar-t2" >
+<!-- Tab panels -->
+<div class="tab-content"><!--Panel 1-->
+    <div class=" active" >
+    <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-xl-4 pb-3">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/seo.png" alt="Sample image for first version of blog listing"
+            class="img-fluid">
+        <a>
+            <div class="mask"></div>
+        </a>
+        </div>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-8 col-xl-8">
+        <!--Excerpt-->
+        
+      
+        <h3 class="mb-4 font-bold dark-grey-text">
+        <strong>Search Engine Optimization</strong>
+        </h3>
+        <p>After conducting a thorough research on keywords and their volume, we choose the best and suitable keywords for your website and place them in the site without disturbing the fragrance of your content in order to make you visible in the webpages of the search engine. So that you will appear in the first page of the search engine and get recognized by your targeted customers,  bypassing all your competitors. 
+</p>
+		
+    </div>
+    <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+    <hr class="mb-5 mt-5 pb-3" id="web-dev">
+
+    <!--Grid row-->
+    <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-8 col-xl-8 pb-3">
+        <!--Excerpt-->
+       
+        <h3 class="mb-4 font-bold dark-grey-text">
+        <strong>Social Media Marketing.</strong>
+        </h3>
+         <p>By using our vast social media network we promote your website digitally on social media (Facebook, Twitter, Linkedin, Google+ etc), so that there is a great opportunity for your business to reach maximum no. of customers. We have the ability to focus on particular age groups, gender and geographical locations depending upon your product.</p>
+        
+        
+       
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-xl-4 mb-5">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/smm.png" alt="Second image in the first version of blog listing"
+            class="img-fluid">
+        <a>
+            <div class="mask"></div>
+        </a>
+        </div>
+    </div>
+    <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+    <hr class="mb-5 mt-4 pb-3" id="mob-app">
+
+    <!--Grid row-->
+    <div class="row pb-5">
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-xl-4 pb-3">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/adwards.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <a>
+            <div class="mask"></div>
+        </a>
+        </div>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-8 col-xl-8">
+        <!--Excerpt-->
+      
+        <h3 class="mb-4 font-bold dark-grey-text">
+        <strong>Adwords</strong>
+        </h3>
+        <p>Through Google Adwords we run your campaigns or advertisements on internet. We are very much familiar with Google Search Network, Google Display Network and the Youtube Network  to show your banners, videos and text ads to the targeted customers. We focus them on particular age groups or gender or geographical locations depending upon your budget and the product or service you offer. We refer our clients to opt for PPC(Pay per Click) or Pay per 1000 impressions depending upon the budget.  </p>
+        
+		 
+    </div>
+    <!--Grid column-->
+
+    </div>
+	<hr class="mb-5 mt-5 pb-3" id="e-comm-scroll">
+
+    <!--Grid row-->
+    <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-8 col-xl-8 pb-3">
+        <!--Excerpt-->
+     
+        <h3 class="mb-4 font-bold dark-grey-text">
+        <strong>Content Marketing</strong>
+        </h3>
+        <p>Content marketing is full of strategies to approach the targeted customers. Here we focus on creating a fresh content, sharing blogs or articles and maintain a consistent content to retain the former customers and to attract the new visitors, finally to drive a profitable action.Marketing is impossible without great content, so we have a team of in-house contents writers who can serve our clients with their content.  
+</p>
+       
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-xl-4 mb-5">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/conte-mang.png" alt="Second image in the first version of blog listing"
+            class="img-fluid">
+        <a>
+            <div class="mask"></div>
+        </a>
+        </div>
+    </div>
+    <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+    <hr class="mb-5 mt-4 pb-3" id="dig-mar">
+
+    <!--Grid row-->
+    <div class="row pb-5">
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-xl-4 pb-3">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/email-mark.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <a>
+            <div class="mask"></div>
+        </a>
+        </div>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-8 col-xl-8">
+        <!--Excerpt-->
+        
+        <h3 class="mb-4 font-bold dark-grey-text">
+        <strong>Email Marketing</strong>
+        </h3>
+        <p>We collect the emails of your customers through our resources and promote your latest events, newsletters, blog post etc to their inboxes. People who are interested will obviously return to your website, it's just a call of remembrance to your clients as they were busy in their day to day activities.This is also a way to drive traffic to your website.</p>
+       
+		
+    </div>
+    <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+	 <hr class="mb-5 mt-4 pb-3" id="maintain">
+
+    <!--Grid row-->
+    <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-8 col-xl-8 pb-3">
+        <!--Excerpt-->
+     
+        <h3 class="mb-4 font-bold dark-grey-text">
+        <strong>Google Analytics</strong>
+        </h3>
+        <p>We track each and every event of your website by implementing a tracking code and setup data filters on  Google Analytics, for we have a special team to monitor each and every move of your website. We collect audience reports, acquisition reports and behaviour reports of your website and analyze them and remarket them for better targeting with dynamic remarketing.
+ </p>
+       
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-xl-4 mb-5">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/google-an.png" alt="Second image in the first version of blog listing"
+            class="img-fluid">
+        <a>
+            <div class="mask"></div>
+        </a>
+        </div>
+    </div>
+    <!--Grid column-->
+
+    </div><hr>
+	<div class="row">
+		<div class=" pb-3">
+			<p class="text-dark"><strong>Note : </strong>There are many things to explain but because of time and space we will continue these topics in blogs. Hope the above briefly explained terms are informative! 
+ </p> 
+			<p>Our knowledge of global best practices along with our deep research on each and every domain made us leaders in developing websites & Apps  and promoting or marketing them digitally. Whether an  individual or an enterprise, our customers always received unmatched services. 
+</p>			
+<p>There are many more topics to be covered under Digital Marketing, but because of time and space we restrict here, yet you will be knowing latest techniques and trends in digital marketing in our regular blog posts. 
+
+</p>
+		</div>
 	</div>
 </div>
+	</div>
+	</section>
+</div>
+
 	
 </section>
 <div class="clearfix">&nbsp;</div>
@@ -260,6 +423,378 @@
   </ul>
 <!--END LIST -->
 </section>
+<section id="digitalmarketing_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/bac2.png'); height: 100%;">
+	
+  <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h2>
+                    <span class="tit bg-dark" >
+									Search Engine <span class="des_t"> Optimization
+                    </span> Pricing 
+                </h2>
+
+
+            </div>
+			
+
+        </div>
+		  <div class="clearfix">&nbsp;</div>
+  <!-- BEGIN LIST -->
+  <ul class="box">
+  <!-- BEGIN LIST ELEMENT -->
+    <li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-1-font fa fa-hand-o-down"></div>
+          <div class="price color-1-font"><span class="total">Alpha</span></div>
+          <div class="description"> <pre class="price-ani ">₹ 6,999</pre></div>
+         
+        </div><!-- end div .front -->
+        <div class="popular color-1-font  fa fa-hand-o-right"></div>
+        <div class="back color-1-bg info">
+          <div class="title">Alpha</div>
+          <div class="description">
+            <h3>₹ 6,999</h3>
+            <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-1-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+  <!-- END LIST ELEMENT -->
+  <!-- BEGIN LIST ELEMENT -->
+    <li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-2-font fa fa-hand-o-down"></div>
+          <div class="price color-2-font"><span class="total">BETA</span></div>
+          <div class="description"> <pre class="price-ani ">₹ 17,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-2-font fa fa-hand-o-right"></div>
+        <div class="back color-2-bg info">
+          <div class="title">BETA</div>
+          <div class="description">
+            <h3>₹ 17,999</h3>
+            <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-1-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+  <!-- END LIST ELEMENT -->
+  <!-- BEGIN LIST ELEMENT -->
+    <li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-3-font fa fa-hand-o-down"></div>
+          <div class="price color-3-font"><span class="total">GAAMA</span></div>
+          <div class="description"><pre class="price-ani ">₹ 29,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-3-font fa fa-hand-o-right"></div>
+        <div class="back color-3-bg info">
+          <div class="title">GAAMA</div>
+          <div class="description">
+         <h3>₹ 29,999</h3>
+            <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-3-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+  <!-- END LIST ELEMENT -->
+  <!-- BEGIN LIST ELEMENT -->
+    <li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-4-font fa fa-hand-o-down"></div>
+          <div class="price color-4-font"><span class="total">DELTA</span></div>
+          <div class="description"><pre class="price-ani ">₹ 35,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-4-font fa fa-hand-o-right"></div>
+        <div class="back color-4-bg info">
+          <div class="title">DELTA</div>
+          <div class="description">
+             <h3>₹ 35,999</h3>
+            <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-4-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+	<li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-2-font fa fa-hand-o-down"></div>
+          <div class="price color-2-font"><span class="total" style="font-size:30px;">PI</span></div><br>
+          <div class="description"><pre class="price-ani ">₹ 49,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-2-font fa fa-hand-o-right"></div>
+        <div class="back color-2-bg info">
+          <div class="title" style="font-size:20px;">PI</div><br>
+          <div class="description">
+            <h3>₹ 49,999</h3>
+            <a href="#" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-1-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+	<li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-3-font fa fa-hand-o-down"></div>
+          <div class="price color-3-font"><span class="total">THETA</span></div>
+          <div class="description"><pre class="price-ani ">₹65,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-3-font fa fa-hand-o-right"></div>
+        <div class="back color-3-bg info">
+          <div class="title">THETA</div>
+          <div class="description">
+         <h3>₹ 65,999</h3>
+            <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-3-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+  <!-- END LIST ELEMENT -->
+  </ul>
+<!--END LIST -->
+</section>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="" style="padding:0px 30px;">
+<section class="content_wrap  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/seobac1.png'); height: 500px;" >
+	
+  <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h2>
+                    <span class="tit bg-dark" >
+									PPC  <span class="des_t">( pay-per-click )
+                    </span> Pricing 
+                </h2>
+
+
+            </div>
+			
+
+        </div>
+		  <div class="clearfix">&nbsp;</div>
+  <!-- BEGIN LIST -->
+  <ul class="box">
+  <!-- BEGIN LIST ELEMENT -->
+    <li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-1-font fa fa-hand-o-down"></div>
+          <div class="price color-1-font"><span class="total">Alpha</span></div>
+          <div class="description"> <pre class="price-ani ">₹ 7,999</pre></div>
+         
+        </div><!-- end div .front -->
+        <div class="popular color-1-font  fa fa-hand-o-right"></div>
+        <div class="back color-1-bg info">
+          <div class="title">Alpha</div>
+          <div class="description">
+            <h3>₹ 7,999</h3>
+            <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-1-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+  <!-- END LIST ELEMENT -->
+  <!-- BEGIN LIST ELEMENT -->
+    <li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-2-font fa fa-hand-o-down"></div>
+          <div class="price color-2-font"><span class="total">BETA</span></div>
+          <div class="description"> <pre class="price-ani ">₹ 19,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-2-font fa fa-hand-o-right"></div>
+        <div class="back color-2-bg info">
+          <div class="title">BETA</div>
+          <div class="description">
+            <h3>₹ 19,999</h3>
+            <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-1-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+  <!-- END LIST ELEMENT -->
+  <!-- BEGIN LIST ELEMENT -->
+    <li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-3-font fa fa-hand-o-down"></div>
+          <div class="price color-3-font"><span class="total">GAAMA</span></div>
+          <div class="description"><pre class="price-ani ">₹ 26,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-3-font fa fa-hand-o-right"></div>
+        <div class="back color-3-bg info">
+          <div class="title">GAAMA</div>
+          <div class="description">
+         <h3>₹ 26,999</h3>
+            <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-3-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+  <!-- END LIST ELEMENT -->
+  <!-- BEGIN LIST ELEMENT -->
+    <li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-4-font fa fa-hand-o-down"></div>
+          <div class="price color-4-font"><span class="total">DELTA</span></div>
+          <div class="description"><pre class="price-ani ">₹ 39,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-4-font fa fa-hand-o-right"></div>
+        <div class="back color-4-bg info">
+          <div class="title">DELTA</div>
+          <div class="description">
+             <h3>₹ 39,999</h3>
+            <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-4-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+	
+	<li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-3-font fa fa-hand-o-down"></div>
+          <div class="price color-3-font"><span class="total">PI</span></div>
+          <div class="description"><pre class="price-ani ">₹ 55,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-3-font fa fa-hand-o-right"></div>
+        <div class="back color-3-bg info">
+          <div class="title">PI</div>
+          <div class="description">
+         <h3>₹ 55,999</h3>
+            <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-3-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+  <!-- END LIST ELEMENT -->
+  </ul>
+<!--END LIST -->
+</section>
+</div>
+<div class="" style="padding:0px 30px;">
+<section class="content_wrap  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/bac2.png'); background-repeat: repeat; height: 500px;" >
+	
+  <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h2>
+                    <span class="tit bg-dark" >
+									Affilate   <span class="des_t">Management
+                    </span> Pricing 
+                </h2>
+
+
+            </div>
+			
+
+        </div>
+		  <div class="clearfix">&nbsp;</div>
+  <!-- BEGIN LIST -->
+  <ul class="box">
+  <!-- BEGIN LIST ELEMENT -->
+    <li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-1-font fa fa-hand-o-down"></div>
+          <div class="price color-1-font"><span class="total">Alpha</span></div>
+          <div class="description"> <pre class="price-ani ">₹ 10,999</pre></div>
+         
+        </div><!-- end div .front -->
+        <div class="popular color-1-font  fa fa-hand-o-right"></div>
+        <div class="back color-1-bg info">
+          <div class="title">Alpha</div>
+          <div class="description">
+            <h3>₹ 10,999</h3>
+            <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-1-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+  <!-- END LIST ELEMENT -->
+  <!-- BEGIN LIST ELEMENT -->
+    <li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-2-font fa fa-hand-o-down"></div>
+          <div class="price color-2-font"><span class="total">BETA</span></div>
+          <div class="description"> <pre class="price-ani ">₹ 17,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-2-font fa fa-hand-o-right"></div>
+        <div class="back color-2-bg info">
+          <div class="title">BETA</div>
+          <div class="description">
+            <h3>₹ 17,999</h3>
+            <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-1-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+  <!-- END LIST ELEMENT -->
+  <!-- BEGIN LIST ELEMENT -->
+    <li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-3-font fa fa-hand-o-down"></div>
+          <div class="price color-3-font"><span class="total">GAAMA</span></div>
+          <div class="description"><pre class="price-ani ">₹ 29,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-3-font fa fa-hand-o-right"></div>
+        <div class="back color-3-bg info">
+          <div class="title">GAAMA</div>
+          <div class="description">
+         <h3>₹ 29,999</h3>
+            <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-3-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+  <!-- END LIST ELEMENT -->
+  <!-- BEGIN LIST ELEMENT -->
+    <li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-4-font fa fa-hand-o-down"></div>
+          <div class="price color-4-font"><span class="total">DELTA</span></div>
+          <div class="description"><pre class="price-ani ">₹ 34,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-4-font fa fa-hand-o-right"></div>
+        <div class="back color-4-bg info">
+          <div class="title">DELTA</div>
+          <div class="description">
+             <h3>₹ 34,999</h3>
+            <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-4-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+	
+	<li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-3-font fa fa-hand-o-down"></div>
+          <div class="price color-3-font"><span class="total">PI</span></div>
+          <div class="description"><pre class="price-ani ">₹ 49,999</pre></div>
+        </div><!-- end div .front -->
+        <div class="popular color-3-font fa fa-hand-o-right"></div>
+        <div class="back color-3-bg info">
+          <div class="title">Pi</div>
+          <div class="description">
+         <h3>₹ 49,999</h3>
+            <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-3-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+  <!-- END LIST ELEMENT -->
+  </ul>
+<!--END LIST -->
+</section>	
 </div>
 <div class="clearfix">&nbsp;</div>
 
@@ -493,3 +1028,84 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
     };           
 </script>             
+<script>
+
+$(document).ready(function () {
+    $(document).on("scroll", onScroll);
+    
+    //smoothscroll
+    $('a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        $(document).off("scroll");
+        
+        $('a').each(function () {
+            $(this).removeClass('active');
+        })
+        $(this).addClass('active');
+      
+        var target = this.hash,
+            menu = target;
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top+2
+        }, 500, 'swing', function () {
+            window.location.hash = target;
+            $(document).on("scroll", onScroll);
+        });
+    });
+});
+
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('#menu-center a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#menu-center ul li a').removeClass("active");
+            currLink.addClass("active");
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+}
+
+
+
+
+	function sticky_relocate() {
+    var window_top = $(window).scrollTop();
+    var div_top = $('#sticky-anchor').offset().top;
+    if (window_top > div_top) {
+        $('#sticky').addClass('stick');
+        $('#sticky-anchor').height($('#sticky').outerHeight());
+    } else {
+        $('#sticky').removeClass('stick');
+        $('#sticky-anchor').height();
+    }
+}
+
+$(function() {
+    $(window).scroll(sticky_relocate);
+    sticky_relocate();
+});
+
+var dir = 1;
+var MIN_TOP = 200;
+var MAX_TOP = 350;
+
+function autoscroll() {
+    var window_top = $(window).scrollTop() + dir;
+    if (window_top >= MAX_TOP) {
+        window_top = MAX_TOP;
+        dir = -1;
+    } else if (window_top <= MIN_TOP) {
+        window_top = MIN_TOP;
+        dir = 1;
+    }
+    $(window).scrollTop(window_top);
+    window.setTimeout(autoscroll, 100);
+}
+
+</script>
+            

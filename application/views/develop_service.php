@@ -4,7 +4,7 @@
   <h1>
     WEB DEVELOPMENT <br />
 	<br>
-	<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Custom Application Development", "Content Management System (CMS)", "Ecommerce Development","MEAN Stack Development",  " " ]'>
+	<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Custom Application Development", "Content Management System (CMS)", "eCommerce Development","MEAN Stack Development",  " " ]'>
    
   </p>
  
@@ -17,66 +17,189 @@
 <div class="clearfix">&nbsp;</div>
 <section class="mar-mi140">
 <div class="container-sty card " >
-		<div class="row">
-	<div class="col-md-3 col-sm-6 col-xsx-6">
-            <div class="serviceBox">
-                <div class="service-icon">
-                    <span><i class="fa fa-desktop"></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Custom Application Development <span style="font-size:12px;">(PHP, Python, Ruby .NET, Java)</span> </h3>
-					
-                    <p class="description">Our expert in-house team uses cutting edge technologies to build custom web applications that are stunning, robust, secure and scalable and we follow agile development methodology to ensure flexibility and faster delivery.</p>
-					
-                  
-                </div>
-            </div>
-        </div>
- 
-        <div class="col-md-3 col-sm-6 col-xsx-6">
-            <div class="serviceBox green">
-                <div class="service-icon">
-                    <span><i class="fa  fa-id-card-o "></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">Content Management System (CMS)</h3>
-                    <p class="description">We are experts at designing and creating content management systems for the web. We analyse and research the market trends and collaborate these with your business requirements to mould a perfect CMS framework for your business.</p>
-                   
-                </div>
-            </div>
-        </div>
 
-        <div class="col-md-3 col-sm-6 col-xsx-6">
-            <div class="serviceBox orange">
-                <div class="service-icon">
-                    <span><i class="fa fa-shopping-cart "></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">E-commerce Development</h3>
-					<div class="clearfix">&nbsp;</div>
-                    <p class="description">We create custom designed ecommerce websites that’d make you stand out from your competitors. From our experience of creating more than 150 ecommerce sites, we know how to do it best.</p>
-                   
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3 col-sm-6 col-xsx-6">
-            <div class="serviceBox blue">
-                <div class="service-icon">
-                    <span><i class="fa fa-rocket "></i></span>
-                </div>
-                <div class="service-content">
-                    <h3 class="title">MEAN Stack Development</h3>
-					<div class="clearfix">&nbsp;</div>
-                    <p class="description">A full-stack Javascript solution with Mongo DB as database system, Express as backend web framework, Angular js as front-end framework and Nodejs as back-end runtime environment, to create high performing and highly scalable web applications.</p>
-                    
-                </div>
-            </div>
-        </div>
-		
+	<div class="row justify-content-md-center" >
+		<p class="font-18"><i>Let’s have a glimpse on Web Development, so that you will have an idea about our services.</i></p>
 	</div>
-	
+	<h2 class="head-ing">Web Development</h2>
+	<div class="row justify-content-md-center" >
+		
+		<p class="col-md-11">Web Development is of two types namely Front-end development and Back-end development. Front-end development is client side development and Back-end  development is server side development. </p>
+		</div>
+		
+<div class=" "  id="navbarSupportedContent" >
+<section class="py-4 text-center text-lg-left">
+<div id="sticky-anchor"></div>
+	<div class="container-sty card " id="sticky">
+
+		                            
+<ul class="nav md-pills nav-justified pills-primary single-page-scr">
+    <li class="nav-item">
+        <a class="nav-link active"  href="#ui-ux" role="tab">Custom Application Development</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link "  href="#web-dev" role="tab">Content Management System (CMS)</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link"  href="#mob-app" role="tab">eCommerce Development</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link"  href="#e-comm-scroll" role="tab">MEAN Stack Development</a>
+    </li>
+</ul>
 </div>
+</section>
+<section class="py-4 text-center text-lg-left">
+<div class="container-sty  mar-t2" >
+<!-- Tab panels -->
+<div class="tab-content"><!--Panel 1-->
+    <div class=" active" >
+    <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-xl-4 pb-3">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/cusdev.png" alt="Sample image for first version of blog listing"
+            class="img-fluid">
+        <a>
+            <div class="mask"></div>
+        </a>
+        </div>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-8 col-xl-8">
+        <!--Excerpt-->
+        
+      
+        <h3 class="mb-4 font-bold dark-grey-text">
+        <strong>Custom Application Development</strong>
+        </h3>
+        <p>Custom application development is the designing of software applications for a specific user within an organisation. Every business demands its own requirements, so we build complex applications to address your unique business needs. We offer a wide range of applications like Enterprise  application, web application, mobile apps development, business application, eCommerce application etc. These kind of configurable solutions are very  essential to the applications to customize the organisation's processes and its workflows. These are particularly designed for custom design customers with most demanding challenges  and cost effective.</p>
+		
+    </div>
+    <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+    <hr class="mb-5 mt-5 pb-3" id="web-dev">
+
+    <!--Grid row-->
+    <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-8 col-xl-8 pb-3">
+        <!--Excerpt-->
+       
+        <h3 class="mb-4 font-bold dark-grey-text">
+        <strong>Content Management System (CMS)</strong>
+        </h3>
+         <p>Content Management System is a user friendly technology that manages  the content within the website, now it is also a powerful tool on the internet for web development. Generally CMS is used for the websites where content is changed very often.  </p>
+		<p>The most popular open source content management systems are Wordpress, Drupal, Thumbler and Joomla. CMS  has high performance & scalability, and can easily integrate with other technologies and work on various platforms. In open source, we can do our own modifications in our desired way.</p>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-xl-4 mb-5">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/cms.png" alt="Second image in the first version of blog listing"
+            class="img-fluid">
+        <a>
+            <div class="mask"></div>
+        </a>
+        </div>
+    </div>
+    <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+    <hr class="mb-5 mt-4 pb-3" id="mob-app">
+
+    <!--Grid row-->
+    <div class="row pb-5">
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-xl-4 pb-3">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ecomdev.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <a>
+            <div class="mask"></div>
+        </a>
+        </div>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-8 col-xl-8">
+        <!--Excerpt-->
+      
+        <h3 class="mb-4 font-bold dark-grey-text">
+        <strong>eCommerce Development</strong>
+        </h3>
+        <p>Electronic commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G) and Mobile Commerce (m-commerce). Mobile  commerce (m-commerce) is particularly done through mobile only.  
+We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions for our interested customers.</p>
+        
+		 
+    </div>
+    <!--Grid column-->
+
+    </div>
+	<hr class="mb-5 mt-5 pb-3" id="e-comm-scroll">
+
+    <!--Grid row-->
+    <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-8 col-xl-8 pb-3">
+        <!--Excerpt-->
+     
+        <h3 class="mb-4 font-bold dark-grey-text">
+        <strong>MEAN Stack Development</strong>
+        </h3>
+        <p>MEAN is a combination of technologies that makes simple and quick to create web applications. MEAN is an open-source software package that combines the four most advanced web development frameworks. </p>
+		<p>Mongo DB - Is the database that stores your application.</p>
+		<p>Express.js - Provides more robust features to your application and acts as a backend web framework.</p>	
+		<p>Angular.js - It allows your web application to have a expanded HTML library and acts as a frontend framework.</p>
+		<p>Node.js - It is an open source server framework which works fast and efficient. </p>
+		
+       
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-xl-4 mb-5">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mean.png" alt="Second image in the first version of blog listing"
+            class="img-fluid">
+        <a>
+            <div class="mask"></div>
+        </a>
+        </div>
+    </div>
+    <!--Grid column-->
+
+    </div>
+    <!--Grid row--><hr>
+	<div class="row">
+		<div class=" pb-3">
+			<p class="text-dark"><strong>Note : </strong>There are many things to explain but because of time and space we will continue these topics in blogs. Hope the above briefly explained terms are informative! </p> 
+			
+		<p>Our knowledge of global best practices along with our deep research on each and every domain made us leaders in developing websites & Apps  and promoting or marketing them digitally. Whether an  individual or an enterprise, our customers always received unmatched services.</p>
+		</div>
+	</div>
+
+</div>
+	</div>
+	</section>
+</div>
+
 	
 </section>
 <div class="clearfix">&nbsp;</div>
@@ -429,4 +552,85 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .pulse { border-right: 2px solid grey}";
         document.body.appendChild(css);
     };           
-</script>             
+</script>
+<script>
+
+$(document).ready(function () {
+    $(document).on("scroll", onScroll);
+    
+    //smoothscroll
+    $('a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        $(document).off("scroll");
+        
+        $('a').each(function () {
+            $(this).removeClass('active');
+        })
+        $(this).addClass('active');
+      
+        var target = this.hash,
+            menu = target;
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top+2
+        }, 500, 'swing', function () {
+            window.location.hash = target;
+            $(document).on("scroll", onScroll);
+        });
+    });
+});
+
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('#menu-center a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#menu-center ul li a').removeClass("active");
+            currLink.addClass("active");
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+}
+
+
+
+
+	function sticky_relocate() {
+    var window_top = $(window).scrollTop();
+    var div_top = $('#sticky-anchor').offset().top;
+    if (window_top > div_top) {
+        $('#sticky').addClass('stick');
+        $('#sticky-anchor').height($('#sticky').outerHeight());
+    } else {
+        $('#sticky').removeClass('stick');
+        $('#sticky-anchor').height();
+    }
+}
+
+$(function() {
+    $(window).scroll(sticky_relocate);
+    sticky_relocate();
+});
+
+var dir = 1;
+var MIN_TOP = 200;
+var MAX_TOP = 350;
+
+function autoscroll() {
+    var window_top = $(window).scrollTop() + dir;
+    if (window_top >= MAX_TOP) {
+        window_top = MAX_TOP;
+        dir = -1;
+    } else if (window_top <= MIN_TOP) {
+        window_top = MIN_TOP;
+        dir = 1;
+    }
+    $(window).scrollTop(window_top);
+    window.setTimeout(autoscroll, 100);
+}
+
+</script>
+             

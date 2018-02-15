@@ -176,11 +176,11 @@
                     <div class="service_content">
 						<div class="pad-lr30">
 							<ul>
+							  <li>Site Architecture and design </li>
 							  <li>Static & Dynamic Website Design</li>
 							  <li>Responsive Web Design</li>
 							  <li>Custom Web Design</li>
 							  <li>Corporate Website Design</li>
-							  <li>Web Portal Design</li>
 							  <li>Template Design & Customization</li>
 							 
 							</ul>  
@@ -210,13 +210,15 @@
 						<div class="pad-lr30">
 							<ul>
 							  <li>Custom Application Development </li>
-							  <li>(PHP, Python, Ruby .NET, Java)</li>
 							  <li>Content Management System (CMS)</li>
-							  <li>Ecommerce Development</li>
+							  <li>eCommerce Development</li>
 							  <li>MEAN Stack Development</li>
-							  <br>
+							 
+							 
 							</ul>
 						</div>
+						</br>
+						</br>
 							<p class="text-center"> <a href="<?php echo base_url('develop_service'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
 						</div>
                 </div>
@@ -234,11 +236,12 @@
                     <div class="service_content">
 							<div class="pad-lr30">
 								<ul>
-								  <li>Mobile Application Strategy & Development </li>
-								  <li>User Experience & Interface Design</li>
-								  <li>Integration</li>
-								  <li>Mobile Testing & Security</li>
-								  <li>Support Maintenance</li>
+								  <li>iOS Application Development </li>
+								  <li>Android Application Development</li>
+								  <li>Hybrid Mobile Applications</li>
+								  <li>Mobile Integration</li>
+								  <li>Mobile Application Testing</li>
+								  <li>Mobile Application Security</li>
 								
 								</ul>
 							</div>
@@ -323,7 +326,7 @@
 								  <li>Well-Designed Business Toolset</li>
 								  <li>Enhanced Filtration</li>
 								  <li>Searching Option</li>
-								  <li>Clear Navigation</li>
+								 
 								  <li>Diverse and Secure Payment Options</li>
 								  <li>Real-time support (phone, live chat)</li>
 								  <li>UX for E-Commerce</li>
@@ -354,9 +357,8 @@
 								  <li>SEO Maintenance</li>
 								  <li>Software Partner</li>
 								</ul>
-								  <br class="sm-hide">
-								  <br class="sm-hide">
-								  <br class="sm-hide">
+								  
+								 
 								  <br class="sm-hide">
 								  <br class="sm-hide">
 								  <br class="sm-hide">
