@@ -12,7 +12,7 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18"><i>Let’s have a glimpse on UI & UX, so that you will have an idea about  our services.</i></p>
+		<p class="font-18"><i>Let’s have a glimpse on UI & UX, so that you will have an idea about what we offer.</i></p>
 	</div>
 	<h2 class="head-ing">UI & UX:</h2>
 	<div class="row justify-content-md-center" >
@@ -24,10 +24,15 @@
 <div class=" "  id="navbarSupportedContent" >
 <section class="py-4 text-center text-lg-left">
 <div id="sticky-anchor"></div>
-	<div class="container-sty card " id="sticky">
+	<div class="container-sty card sm-hide" id="sticky">
 
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
+<li class="nav-item">
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="logo">
+
+</a>
+    </li>
     <li class="nav-item">
         <a class="nav-link active"  href="#ui-ux" role="tab">Site Architecture and design</a>
     </li>

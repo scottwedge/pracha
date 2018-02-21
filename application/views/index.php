@@ -1,4 +1,3 @@
-
 <div class="selectstate">
 <section class=" bod-st" >
     <!--Carousel Wrapper-->
@@ -26,22 +25,22 @@
             <!--Caption-->
             <div class="carousel-caption">
                 <div class="animated fadeInDown">
-                    <a href="<?php echo base_url('services'); ?>" class="text-white"><h2 ><span class="caption-sty">Create Your Online Presence HERE!</span></h2></a>
+                    <span class="text-white"><h2 ><span class="caption-sty">Create Your Online Presence Here!</span></h2></span>
 					<div class="clearfix hid-320">&nbsp;</div>
 					<div class="row justify-content-md-center help-btn-sl">
-						<a href="<?php echo base_url('services'); ?>"  class="btn btn-blue-grey"><i class="fa fa-gears mr-1"></i> &nbsp; Our Services</a>
+						<a href="<?php echo base_url('services'); ?>"  class="btn bg-warning"><i class="fa fa-gears mr-1"></i> &nbsp; Our Services</a>
 						<!--<a href="<?php echo base_url('pracha/contactus'); ?>" class="btn btn-success"> <i class="fa fa-volume-control-phone  ml-1"></i> &nbsp; Talk to Us</a>-->
 					<div class="clearfix">&nbsp;</div>
 					</div>
 					<div class="row mt-15-ban">
 						<div class="col-4 caption-tit">
-							<span class=""><a href="<?php echo base_url('servicesrm'); ?>">Web designing</a>, <a href="<?php echo base_url('develop_service'); ?>">Web Development </a><br> <a href="<?php echo base_url('maintainence'); ?>">Maintenance</a></span>
+							<span class=""><a href="<?php echo base_url('servicesrm'); ?>">UI & UX Design</a>, <a href="<?php echo base_url('develop_service'); ?>">Web Design & Development </a></span>
 						</div>
 						<div class="col-4 caption-tit">
-							<span class=""><a href="<?php echo base_url('mobile_application'); ?>">Android, iOS Application Development </a><br>& <a href="<?php echo base_url('maintainence'); ?>">Maintenance</a></span>
+							<span class=""><a href="<?php echo base_url('mobile_application'); ?>">Mobile Apps Development &nbsp; ( Android & iOS )  </a></span>
 						</div>
 						<div class="col-4 caption-tit">
-							<span class=""> <a href="<?php echo base_url('seo'); ?>">SEO</a>, <a href="<?php echo base_url('digitalmarketing'); ?>">Digital Marketing & Advertisements.</a></span>
+							<span class=""> <a href="<?php echo base_url('digitalmarketing'); ?>">Digital Marketing </a></span><br><span class="font-size:12px;">(SEO, SMM, Adwords,  etc.)</span>
 						</div>
 					</div>
 					
@@ -108,7 +107,7 @@
 
                 <h2>
                     <span class="tit">
-									PrachaTECH <span class="des_t"> Software 
+									Prachatech <span class="des_t"> Software 
                     </span> Solutions
                 </h2>
 
@@ -124,18 +123,18 @@
 					&nbsp;
 				</div>
 				<div class="col-10 text-center"> 
-					prachaTECH Software Solutions is a renowned offshore Software development company, engaged in catering incredible Software development, Maintenance & Digital Marketing services.At prachaTECH software solutions, Entrusted with the most professional and advanced resources, we bring the most satisfactory outcomes for your online business presence.We at prachaTECH believe in working with passion and complete dedication at the one thing we truly believe in - software solutions.
+					We at Prachatech Software Solutions, delight ourselves to offer the full spectrum of web-services to serve our clients. We generate new websites to our clients and decorate them with charming designs and magnetizing words. We can assure the most satisfactory outcomes for our clients  online business if they follow us. We develop user friendly software's and design  responsive web sites for a multitude of devices with various screen sizes, which are automatically adjusted. We are specialized in developing Apps for Android and iOS software's.
 				</div>
 				
 				
 			</div>
 			
 				  <div class="clearfix">&nbsp;</div>
-			<div class=" row justify-content-md-center">
+			<div class=" row justify-content-md-center" style="margin: 0 auto;">
 		
 				<a href="<?php echo base_url('contactus');?>"><button type="button" class="btn btn-warning btn-rounded">Send Message</button></a>
 			
-		</div>
+			</div>
        <div class="clearfix">&nbsp;</div>
        
     </div>
@@ -160,7 +159,7 @@
 
         <div class="row">
 		<a href="<?php echo base_url('servicesrm'); ?>">
-            <div class="col-sm-4">
+            <div class="col-md-4 ">
 			
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 				
@@ -198,7 +197,7 @@
             </div>
 			</a>
 			<a href="<?php echo base_url('develop_service'); ?>">
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon ">
                         <i class="hi-icon fa fa-television" aria-hidden="true"></i>
@@ -225,7 +224,7 @@
             </div>
 			</a>
 		<a href="<?php echo base_url('mobile_application'); ?>">
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-mobile" aria-hidden="true"></i>
@@ -250,10 +249,10 @@
                 </div>
             </div>
 			</a>
-            </div>
+            </div><br>
 			 <div class="row">
 			 <a href="<?php echo base_url('digitalmarketing'); ?>">
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-industry" aria-hidden="true"></i>
@@ -311,7 +310,7 @@
             </div>
 			</a>-->
 			 <a href="<?php echo base_url('develop_service'); ?>">
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-shopping-basket" aria-hidden="true"></i>
@@ -340,7 +339,7 @@
                 </div>
             </div></a>
 			 <a href="<?php echo base_url('maintainence'); ?>">
-			<div class="col-sm-4">
+			<div class="col-md-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-keyboard-o" aria-hidden="true"></i>
@@ -428,7 +427,7 @@
         </div>
 
         <div class="row ">
-            <div class="col-sm-4">
+            <div class="col-sm-6 col-md-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
@@ -436,7 +435,7 @@
                     </div>
                     <div class="service_content">
                         <p>
-                           Expose Your Business creates opportunities for your business to connect with its target market. Having evolved into a publishing/marketing firm with digital & print assets, let us expose your business!
+                           We bring your online business into light that creates more opportunities for your business to connect with its targeted audience. 
                         </p>
 						<p>Our low-cost packages make it so you can easily fix any problem, or receive ongoing support for little, medium, and big problems. <a href="#" class="text-info">Learn more </a>about our pricing options.</p>
 						
@@ -445,7 +444,7 @@
                 <div class="proc-icon"><img src="<?php echo base_url(); ?>assets/vendor/img/pc2.png"></div>
                
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6 col-md-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
@@ -460,7 +459,7 @@
                 <div class="proc-icon"><img src="<?php echo base_url(); ?>assets/vendor/img/mar-sup.png"></div>
                 
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6 col-md-4">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
@@ -481,7 +480,7 @@
 			
 
         </div>
-		<div class=" row justify-content-md-center">
+		<div class=" row justify-content-md-center" style="margin: 0 auto;">
 				
 					
 					<a href="<?php echo base_url('pracha/contactus');?>"><button type="button" class="btn btn-warning btn-rounded">Send Message</button></a>
@@ -530,15 +529,16 @@
         <!--Grid row-->
 
         <!--Grid row-->
-        <div class="row mb-2">
+		  <div class="row mb-2">
         <div class="col-2">
-            <i class="fa fa-2x  fa-laptop text-dark"></i>
+            <i class="fa fa-2x fa-universal-access text-dark"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Technical support & Consultation</h5>
-            <p class="grey-text">We have highly qualified openstack admins available 24/7 ie round the clock to support your infrastructure. The main mode of communication will be depending on the subscription plan.</p>
+            <h5 class="font-bold">Make your Business Reach to the right people.</h5>
+            <p class="grey-text">By analyzing your business with various business tools we can measure the traffic driving to your website. Through this analysis, we can target the right people on focusing on particular geographical location or gender or age depending upon the product.</p>
         </div>
         </div>
+      
         <!--Grid row-->
 		 <div class="row mb-2">
         <div class="col-2">
@@ -570,8 +570,8 @@
             <i class="fa fa-2x fa-check-circle text-dark"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Get the right Business - Every business wants Customers not Visitors.</h5>
-            <p class="grey-text">Every business wants Customers not Visitors. Watching the number of visitors to your site grow is pretty awesome. But, visits alone do not equate to a successful business. </p>
+            <h5 class="font-bold">Get the right Business </h5>
+            <p class="grey-text">Every business wants Customers, not Visitors. Watching the number of visitors to your site grow is pretty awesome, but visits alone do not make a successful business. So we, through our expertise we will catch the pulse of the visitor and turn them into customer mostly. </p>
         </div>
         </div>
         <!--Grid row--><!--Grid row-->
@@ -584,23 +584,16 @@
             <p class="grey-text">We help you make effective decisions about where to target your resources and how to achieve accelerated growth.</p>
         </div>
         </div>
-        <!--Grid row-->
-
-        <!--Grid row-->
-        <div class="row mb-2">
+		  <div class="row mb-2">
         <div class="col-2">
-            <i class="fa fa-2x fa-universal-access text-dark"></i>
+            <i class="fa fa-2x  fa-laptop text-dark"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Make your Business Reach to the right peolple.</h5>
-            <p class="grey-text">Reach new customers with our New targeting statergy.We Understand your target audience, Be specific about who you want to reach & Reach interested and engaged audiences</p>
+            <h5 class="font-bold">Technical support & Consultation</h5>
+            <p class="grey-text">We have a highly qualified technical team to provide 24/7 technical support. However this will be applicable depending upon the subscription plan of the client. </p>
         </div>
         </div>
-        <!--Grid row-->
 
-        <!--Grid row-->
-       
-        <!--Grid row-->
 
     </div>
     <!--Grid column-->
@@ -1136,14 +1129,13 @@
             
 			  </div>
 			  <div class="col-md-6">
-				<div>
-					<h5><strong>Prachatech software solutions</strong></h5>
+				<div> 
+					<h5><strong>Prachatech Software Solutions</strong></h5>
 					<p>Phone Number:040-48541273</p>
 					<p>
-					H.No: 16-2-227/177,<br>
+					Plot No. 177,<br>
 					1st Floor,<br>
-					Sardar Patel Nagar, Bhagat Singh Nagar, Kukatpally Housing Board Colony, Kukatpally
-Hyderabad, Telangana 500085.</p>
+					Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad, Telangana - 500072.</p>
 				</div>
 				<div>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d951.3161068305509!2d78.38797423869858!3d17.49488629216747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f4f553e453%3A0x912891756062ff71!2sSri+Vani+Nilayam%2C+Sardar+Patel+Nagar%2C+Bhagat+Singh+Nagar%2C+Kukatpally+Housing+Board+Colony%2C+Kukatpally%2C+Hyderabad%2C+Telangana+500085!5e0!3m2!1sen!2sin!4v1515073781683" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>

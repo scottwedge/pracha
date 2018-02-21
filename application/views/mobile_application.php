@@ -33,10 +33,13 @@
 <div class=" "  id="navbarSupportedContent" >
 <section class="py-4 text-center text-lg-left">
 <div id="sticky-anchor"></div>
-	<div class="container-sty card " id="sticky">
+	<div class="container-sty card sm-hide" id="sticky">
 
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
+<li class="nav-item">
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="logo"></a>
+    </li>
     <li class="nav-item">
         <a class="nav-link active"  href="#ui-ux" role="tab">iOS Application Development</a>
     </li>
@@ -317,13 +320,13 @@
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total">Bronze</span></div>
-          <div class="description">5-10 Page <pre class="price-ani ">₹ 79,999</pre></div>
+          <div class="description">5-10 Page <pre class="price-ani ">₹ 59,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title">Bronze</div>
           <div class="description">
-            <h3>₹ 79,999</h3>
+            <h3>₹ 59,999</h3>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
       </div><!-- end div .circle -->
@@ -335,13 +338,13 @@
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Silver</span></div>
-          <div class="description">11-16 Page <pre class="price-ani ">₹ 1,39,999 </pre></div>
+          <div class="description">11-16 Page <pre class="price-ani ">₹ 99,999 </pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Silver</div>
           <div class="description">
-         <h3>₹ 1,39,999</h3>
+         <h3>₹ 99,999</h3>
           </div><!-- end div .description -->
         </div><!-- end div .back color-3-bg info -->
       </div><!-- end div .circle -->
@@ -353,13 +356,13 @@
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
           <div class="price color-4-font"><span class="total">Gold</span></div>
-          <div class="description">17-25 pages <pre class="price-ani ">₹ 1,99,999</pre></div>
+          <div class="description">17-25 pages <pre class="price-ani ">₹ 1,39,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
           <div class="title">Gold</div>
           <div class="description">
-             <h3>₹ 1,99,999</h3>
+             <h3>₹ 1,39,999</h3>
           </div><!-- end div .description -->
         </div><!-- end div .back color-4-bg info -->
       </div><!-- end div .circle -->
@@ -369,13 +372,13 @@
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total" style="font-size:30px;">Platinum</span></div>
-          <div class="description">Unlimited Pages<pre class="price-ani ">₹ 2,59,999</pre></div>
+          <div class="description">Unlimited Pages<pre class="price-ani ">₹ 1,59,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title" style="font-size:20px;">Platinum</div><br>
           <div class="description">
-            <h3>₹ 2,59,999</h3>
+            <h3>₹ 1,59,999</h3>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
       </div><!-- end div .circle -->
@@ -385,13 +388,13 @@
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total" style="font-size:30px;">E-Commerce</span></div>
-          <div class="description">Unlimited Pages<pre class="price-ani ">₹ 3,49,999</pre></div>
+          <div class="description">Unlimited Pages<pre class="price-ani ">₹ 1,99,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title" style="font-size:20px;">E-Commerce</div><br>
           <div class="description">
-            <h3>₹ 3,49,999</h3>
+            <h3>₹ 1,99,999</h3>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
       </div><!-- end div .circle -->

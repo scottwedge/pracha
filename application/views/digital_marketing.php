@@ -20,7 +20,7 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18 text-dark"><i>Let’s have a glimpse on Digital Marketing, so that you will have an idea about our services.
+		<p class="font-18 text-dark"><i>Let’s have a glimpse on Digital Marketing, so that you will have an idea about what we offer.
 </i></p>
 	</div><br>
 	<h2 class="head-ing">DIGITAL MARKETING</h2>
@@ -33,10 +33,13 @@
 <div class=" "  id="navbarSupportedContent" >
 <section class="py-4 text-center text-lg-left">
 <div id="sticky-anchor"></div>
-	<div class="container-sty card " id="sticky">
+	<div class="container-sty card sm-hide" id="sticky">
 
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
+<li class="nav-item">
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="logo"></a>
+    </li>
     <li class="nav-item">
         <a class="nav-link active"  href="#ui-ux" role="tab">SEO</a>
     </li>
@@ -91,7 +94,8 @@
         <h3 class="mb-4 font-bold dark-grey-text">
         <strong>Search Engine Optimization</strong>
         </h3>
-        <p>After conducting a thorough research on keywords and their volume, we choose the best and suitable keywords for your website and place them in the site without disturbing the fragrance of your content in order to make you visible in the webpages of the search engine. So that you will appear in the first page of the search engine and get recognized by your targeted customers,  bypassing all your competitors. 
+        <p> SEO is an acronym for "Search Engine Optimization". SEO is the process of getting traffic  from the "organic" or "natural" search results on search engines results page. After conducting a thorough research on keywords and their volume, we choose the best and suitable keywords for your website and place them in the site without disturbing the fragrance of your content in order to make you visible in the webpages of the search engine. So that you will appear in the first page of the search engine and get recognized by your targeted customers, bypassing all your competitors. 
+</p>     <p>After conducting a thorough research on keywords and their volume, we choose the best and suitable keywords for your website and place them in the site without disturbing the fragrance of your content in order to make you visible in the webpages of the search engine. So that you will appear in the first page of the search engine and get recognized by your targeted customers,  bypassing all your competitors. 
 </p>
 		
     </div>
@@ -112,7 +116,8 @@
         <h3 class="mb-4 font-bold dark-grey-text">
         <strong>Social Media Marketing.</strong>
         </h3>
-         <p>By using our vast social media network we promote your website digitally on social media (Facebook, Twitter, Linkedin, Google+ etc), so that there is a great opportunity for your business to reach maximum no. of customers. We have the ability to focus on particular age groups, gender and geographical locations depending upon your product.</p>
+         <p>Social media marketing is the process of acquiring traffic or attention towards your website through social media sites. These social media networks radically spreads the information across the world by "Share button" , which may lead to various social actions. By using our vast social media network we promote your website digitally on social media (Facebook, Twitter, Linkedin, Pinterest, Google+ etc), so that there will be  a great opportunity for your business to reach maximum number of customers. We have the ability to focus on particular age groups, gender and geographical locations depending upon your product or service.</p> 
+		 <p>By using our vast social media network we promote your website digitally on social media (Facebook, Twitter, Linkedin, Google+ etc), so that there is a great opportunity for your business to reach maximum no. of customers. We have the ability to focus on particular age groups, gender and geographical locations depending upon your product.</p>
         
         
        
@@ -335,13 +340,13 @@
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total">Bronze</span></div>
-          <div class="description"> <pre class="price-ani ">₹ 12,999</pre></div>
+          <div class="description"> <pre class="price-ani ">₹ 19,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title">Bronze</div>
           <div class="description">
-            <h3>₹ 12,999</h3>
+            <h3>₹ 19,999</h3>
             <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
@@ -354,13 +359,13 @@
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Silver</span></div>
-          <div class="description"><pre class="price-ani ">₹ 16,999</pre></div>
+          <div class="description"><pre class="price-ani ">₹ 26,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Silver</div>
           <div class="description">
-         <h3>₹ 16,999</h3>
+         <h3>₹ 26,999</h3>
             <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-3-bg info -->
@@ -373,13 +378,13 @@
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
           <div class="price color-4-font"><span class="total">Gold</span></div>
-          <div class="description"><pre class="price-ani ">₹ 19,999</pre></div>
+          <div class="description"><pre class="price-ani ">₹ 39,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
           <div class="title">Gold</div>
           <div class="description">
-             <h3>₹ 19,999</h3>
+             <h3>₹ 39,999</h3>
             <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-4-bg info -->
@@ -390,13 +395,13 @@
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total" style="font-size:30px;">Platinum</span></div>
-          <div class="description"><pre class="price-ani ">₹ 23,999</pre></div>
+          <div class="description"><pre class="price-ani ">₹ 55,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title" style="font-size:20px;">Platinum</div><br>
           <div class="description">
-            <h3>₹ 23,999</h3>
+            <h3>₹ 55,999</h3>
             <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
@@ -407,13 +412,13 @@
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Diamond</span></div>
-          <div class="description"><pre class="price-ani ">₹ 27,999</pre></div>
+          <div class="description"><pre class="price-ani ">₹ 69,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Diamond</div>
           <div class="description">
-         <h3>₹ 27,999</h3>
+         <h3>₹ 69,999</h3>
             <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-3-bg info -->
@@ -447,13 +452,13 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">Alpha</span></div>
+          <div class="price color-1-font"><span class="total">Basic</span></div>
           <div class="description"> <pre class="price-ani ">₹ 6,999</pre></div>
          
         </div><!-- end div .front -->
         <div class="popular color-1-font  fa fa-hand-o-right"></div>
         <div class="back color-1-bg info">
-          <div class="title">Alpha</div>
+          <div class="title">Basic</div>
           <div class="description">
             <h3>₹ 6,999</h3>
             <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
@@ -467,12 +472,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total">BETA</span></div>
+          <div class="price color-2-font"><span class="total">bronze</span></div>
           <div class="description"> <pre class="price-ani ">₹ 17,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
-          <div class="title">BETA</div>
+          <div class="title">bronze</div>
           <div class="description">
             <h3>₹ 17,999</h3>
             <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
@@ -486,12 +491,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">GAAMA</span></div>
+          <div class="price color-3-font"><span class="total">Silver</span></div>
           <div class="description"><pre class="price-ani ">₹ 29,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
-          <div class="title">GAAMA</div>
+          <div class="title">Silver</div>
           <div class="description">
          <h3>₹ 29,999</h3>
             <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
@@ -505,12 +510,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
-          <div class="price color-4-font"><span class="total">DELTA</span></div>
+          <div class="price color-4-font"><span class="total">Gold</span></div>
           <div class="description"><pre class="price-ani ">₹ 35,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
-          <div class="title">DELTA</div>
+          <div class="title">Gold</div>
           <div class="description">
              <h3>₹ 35,999</h3>
             <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
@@ -522,12 +527,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total" style="font-size:30px;">PI</span></div><br>
+          <div class="price color-2-font"><span class="total" style="font-size:30px;">Platinum</span></div><br>
           <div class="description"><pre class="price-ani ">₹ 49,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
-          <div class="title" style="font-size:20px;">PI</div><br>
+          <div class="title" style="font-size:20px;">Platinum</div><br>
           <div class="description">
             <h3>₹ 49,999</h3>
             <a href="#" class="btn btn-danger">Read more..</a>
@@ -539,12 +544,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">THETA</span></div>
+          <div class="price color-3-font"><span class="total">Diamond</span></div>
           <div class="description"><pre class="price-ani ">₹65,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
-          <div class="title">THETA</div>
+          <div class="title">Diamond</div>
           <div class="description">
          <h3>₹ 65,999</h3>
             <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
@@ -583,13 +588,13 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">Alpha</span></div>
+          <div class="price color-1-font"><span class="total">Basic</span></div>
           <div class="description"> <pre class="price-ani ">₹ 7,999</pre></div>
          
         </div><!-- end div .front -->
         <div class="popular color-1-font  fa fa-hand-o-right"></div>
         <div class="back color-1-bg info">
-          <div class="title">Alpha</div>
+          <div class="title">Basic</div>
           <div class="description">
             <h3>₹ 7,999</h3>
             <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
@@ -603,12 +608,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total">BETA</span></div>
+          <div class="price color-2-font"><span class="total">Bronze</span></div>
           <div class="description"> <pre class="price-ani ">₹ 19,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
-          <div class="title">BETA</div>
+          <div class="title">Bronze</div>
           <div class="description">
             <h3>₹ 19,999</h3>
             <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
@@ -622,12 +627,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">GAAMA</span></div>
+          <div class="price color-3-font"><span class="total">Silver</span></div>
           <div class="description"><pre class="price-ani ">₹ 26,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
-          <div class="title">GAAMA</div>
+          <div class="title">Silver</div>
           <div class="description">
          <h3>₹ 26,999</h3>
             <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
@@ -641,12 +646,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
-          <div class="price color-4-font"><span class="total">DELTA</span></div>
+          <div class="price color-4-font"><span class="total">Gold</span></div>
           <div class="description"><pre class="price-ani ">₹ 39,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
-          <div class="title">DELTA</div>
+          <div class="title">Gold</div>
           <div class="description">
              <h3>₹ 39,999</h3>
             <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
@@ -659,12 +664,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">PI</span></div>
+          <div class="price color-3-font"><span class="total">Platinum</span></div>
           <div class="description"><pre class="price-ani ">₹ 55,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
-          <div class="title">PI</div>
+          <div class="title">Platinum</div>
           <div class="description">
          <h3>₹ 55,999</h3>
             <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
@@ -702,13 +707,13 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">Alpha</span></div>
+          <div class="price color-1-font"><span class="total">Basic</span></div>
           <div class="description"> <pre class="price-ani ">₹ 10,999</pre></div>
          
         </div><!-- end div .front -->
         <div class="popular color-1-font  fa fa-hand-o-right"></div>
         <div class="back color-1-bg info">
-          <div class="title">Alpha</div>
+          <div class="title">Basic</div>
           <div class="description">
             <h3>₹ 10,999</h3>
             <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
@@ -722,12 +727,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total">BETA</span></div>
+          <div class="price color-2-font"><span class="total">Bronze</span></div>
           <div class="description"> <pre class="price-ani ">₹ 17,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
-          <div class="title">BETA</div>
+          <div class="title">Bronze</div>
           <div class="description">
             <h3>₹ 17,999</h3>
             <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
@@ -741,12 +746,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">GAAMA</span></div>
+          <div class="price color-3-font"><span class="total">Silver</span></div>
           <div class="description"><pre class="price-ani ">₹ 29,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
-          <div class="title">GAAMA</div>
+          <div class="title">Silver</div>
           <div class="description">
          <h3>₹ 29,999</h3>
             <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
@@ -760,12 +765,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
-          <div class="price color-4-font"><span class="total">DELTA</span></div>
+          <div class="price color-4-font"><span class="total">Gold</span></div>
           <div class="description"><pre class="price-ani ">₹ 34,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
-          <div class="title">DELTA</div>
+          <div class="title">Gold</div>
           <div class="description">
              <h3>₹ 34,999</h3>
             <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
@@ -778,12 +783,12 @@
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">PI</span></div>
+          <div class="price color-3-font"><span class="total">Platinum</span></div>
           <div class="description"><pre class="price-ani ">₹ 49,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
-          <div class="title">Pi</div>
+          <div class="title">Platinum</div>
           <div class="description">
          <h3>₹ 49,999</h3>
             <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>

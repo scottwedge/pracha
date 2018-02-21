@@ -2,6 +2,9 @@
 	padding:0;
 	margin:0
 }
+.hideclass{
+	display:none;
+}
 .help-pric{
 	margin-left:10px;
 }
@@ -215,7 +218,7 @@ a {
 	background: #192f5d;
 }
 .caption-tit{
-	font-size:18px;
+	font-size:17px;
 	border:2px solid #fff;
 	padding:30px;
 	border-radius:6px;
@@ -230,11 +233,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	
 }
 /* services read more pages css */
+ #sticky {
+    padding: 0.5ex;
+  
+	
 
+}
+
+#sticky.stick {
+    margin-top: 0px !important;
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+    border-radius: 0 0 0.5em 0.5em;
+	width:90.5% !important;
+		
+}
 .li-help{
 	font-size:12px;
 }
-
+.pos-cont{
+	position:fixed;right:10px;
+	top:100px;
+	
+}
 .wrap {
     animation: pulse 1s infinite;
 	font-size:30px !important;
@@ -1046,7 +1068,7 @@ z-index:0;
     background-color: #f9f9f9;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 1024;
 }
 
 .dropdown-content1 a {
@@ -2069,6 +2091,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 }
 /* chating  vertcal tabs end */
 /* chating  css end */
+
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
   .bod-st{

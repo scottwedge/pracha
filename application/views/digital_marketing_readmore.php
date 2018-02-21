@@ -34,7 +34,7 @@
 	<th class="tabco4 text-white bg-info" >Gold  <br>
 	₹ 39,999</th>
 	<th class="tabco2 text-white bg-success" >Platinum <br>
-	₹ 59,999</th>
+	₹ 55,999</th>
 	<th class="tabco2 text-white bg-success" >Diamond <br>
 	₹ 69,999</th>
 	</tr>

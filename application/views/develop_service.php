@@ -19,7 +19,7 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18"><i>Let’s have a glimpse on Web Development, so that you will have an idea about our services.</i></p>
+		<p class="font-18"><i>Let’s have a glimpse on Web Development, so that you will have an idea about what we offer.</i></p>
 	</div>
 	<h2 class="head-ing">Web Development</h2>
 	<div class="row justify-content-md-center" >
@@ -30,10 +30,13 @@
 <div class=" "  id="navbarSupportedContent" >
 <section class="py-4 text-center text-lg-left">
 <div id="sticky-anchor"></div>
-	<div class="container-sty card " id="sticky">
+	<div class="container-sty card sm-hide" id="sticky">
 
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
+<li class="nav-item">
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="logo"></a>
+    </li>
     <li class="nav-item">
         <a class="nav-link active"  href="#ui-ux" role="tab">Custom Application Development</a>
     </li>
@@ -230,15 +233,35 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-1-font fa fa-hand-o-down"></div>
+          <div class="price color-1-font"><span class="total">One Page</span></div>
+          <div class="description">0-1 Page<pre class="price-ani ">₹ 5,999</pre></div>
+         
+        </div><!-- end div .front -->
+        <div class="popular color-1-font  fa fa-hand-o-right"></div>
+        <div class="back color-1-bg info">
+          <div class="title">One Page</div>
+          <div class="description">
+            <h3>₹ 5,999</h3>
+            <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
+          </div><!-- end div .description -->
+        </div><!-- end div .back color-1-bg info -->
+      </div><!-- end div .circle -->
+    </li>
+	</ul>
+	  <ul class="box">
+	<li>
+      <div class="circle">
+        <div class="front front-popular">
+          <div class="title color-1-font fa fa-hand-o-down"></div>
           <div class="price color-1-font"><span class="total">Basic</span></div>
-          <div class="description">1-4 Page<pre class="price-ani ">₹ 5,999</pre></div>
+          <div class="description">1-4 Page<pre class="price-ani ">₹ 9,999</pre></div>
          
         </div><!-- end div .front -->
         <div class="popular color-1-font  fa fa-hand-o-right"></div>
         <div class="back color-1-bg info">
           <div class="title">Basic</div>
           <div class="description">
-            <h3>₹ 5,999</h3>
+            <h3>₹ 9,999</h3>
             <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
@@ -251,13 +274,13 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total">Bronze</span></div>
-          <div class="description">5-10 Page <pre class="price-ani ">₹ 11,999</pre></div>
+          <div class="description">5-10 Page <pre class="price-ani ">₹ 15,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title">Bronze</div>
           <div class="description">
-            <h3>₹ 11,999</h3>
+            <h3>₹ 15,999</h3>
             <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->
@@ -270,13 +293,13 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Silver</span></div>
-          <div class="description">11-16 Page <pre class="price-ani ">₹ 14,999</pre></div>
+          <div class="description">11-16 Page <pre class="price-ani ">₹ 19,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Silver</div>
           <div class="description">
-         <h3>₹ 14,999</h3>
+         <h3>₹ 19,999</h3>
             <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-3-bg info -->
@@ -289,13 +312,13 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
           <div class="price color-4-font"><span class="total">Gold</span></div>
-          <div class="description">17-25 pages <pre class="price-ani ">₹ 19,999</pre></div>
+          <div class="description">17-25 pages <pre class="price-ani ">₹ 27,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
           <div class="title">Gold</div>
           <div class="description">
-             <h3>₹ 19,999</h3>
+             <h3>₹ 27,999</h3>
             <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-4-bg info -->
@@ -306,13 +329,13 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total" style="font-size:30px;">Platinum</span></div>
-          <div class="description">Unlimited Pages<pre class="price-ani ">₹ 27,999</pre></div>
+          <div class="description">Unlimited Pages<pre class="price-ani ">₹ 34,999</pre></div>
         </div><!-- end div .front -->
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title" style="font-size:20px;">Platinum</div><br>
           <div class="description">
-            <h3>₹ 27,999</h3>
+            <h3>₹ 34,999</h3>
             <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
           </div><!-- end div .description -->
         </div><!-- end div .back color-1-bg info -->

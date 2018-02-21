@@ -14,7 +14,7 @@
 
 
 				</div>
-				<div class="down-pdf1">
+				<div class="down-pdf1 hideclass">
 					<a href=""><i class="fa fa-file-pdf-o" aria-hidden="true"></i> &nbsp;<i class="fa fa-download" aria-hidden="true"></i></a><br>
 					Download
 				</div>

@@ -3,11 +3,11 @@
 		<div class="container card ">
 			<div class="row">
 			<div class="col-md-11">
-				<h3 class="brown-text ptb-15">Join the PrachaTECH Team!</h3>
+				<h3 class="brown-text ptb-15">Join the Prachatech Team!</h3>
 				<ul class="pad-lr30">
-					<li>PrachaTECH Software & Marketing solutions is a fast-growing Start-up company, packed with opportunities and rewarding experiences for every member in which you can grow and thrive.</li>
+					<li>Prachatech Software & Marketing solutions is a fast-growing Start-up company, packed with opportunities and rewarding experiences for every member in which you can grow and thrive.</li>
 					<li>We are passionate about what we do and about providing the right environment for all our team to succeed together. We strive to exceed the expectations of both our people and our clients.</li>
-					<li>At PrachaTECH, we are looking for people who are concerned about the Clients always. Client centricity is a key tenet of all our processes.</li>
+					<li>At Prachatech, we are looking for people who are concerned about the Clients always. Client centricity is a key tenet of all our processes.</li>
 					<li>We value creativity, hard work, initiative and radical ideas. We’re always looking for talented individuals to join our team.</li>
 					<li>If you think you could be our next hire, drop your details below with a cover note detailing your skills and experience ASAP.</li>
 				</ul>

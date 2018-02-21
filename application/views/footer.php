@@ -14,16 +14,16 @@
 	</div>
 </section>-->
 
-<footer class="page-footer center-on-small-only stylish-color-dark sm-hide">
+<footer class="page-footer center-on-small-only stylish-color-dark sm-hide " style="position:relative" >
 
     <!--Footer Links-->
-    <div class="container">
+    <div class="container" >
         <div class="row text-left">
 
             <!--First column-->
             <div class="col-md-4">
                 <h5 class="title-footer mb-4 mt-3 font-bold">REACH US</h5>
-                <p>Plot No. 177, Sri Vani Nilayam, 1st floor,Beside Sri Chaitanya High School, Sardar Patel Nagar, Nizampet Road,  Hyderabad, Telangana, 500072</p>
+                <p>Plot No. 177, Sri Vani Nilayam, 1st floor, Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad, Telangana - 500072.</p>
             </div>
             <!--/.First column-->
 
@@ -86,10 +86,7 @@
             <li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
             <li><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
             <li><a class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
-            <li><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
-            <li><a class="btn-floating btn-sm btn-dribbble"><i class="fa fa-dribbble"> </i></a></li>
-
-        </ul>
+            <li><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li></ul>
     </div>
  
 

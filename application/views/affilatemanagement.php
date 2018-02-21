@@ -6,7 +6,7 @@
 
                 <h2>
                     <span class="tit">
-						 <span class="des_t"> AFFILATE </span> MANAGEMENT	
+						 <span class="des_t"> AFFILIATE </span> MANAGEMENT	
                     </span>
                 </h2>
 				<div class="clearfix">&nbsp;</div>
@@ -14,7 +14,7 @@
 
 
             </div>
-			<div class="down-pdf">
+			<div class="down-pdf hideclass">
 				<a href=""><i class="fa fa-file-pdf-o" aria-hidden="true"></i> &nbsp;<i class="fa fa-download" aria-hidden="true"></i></a><br>
 				Download
 			</div>
@@ -26,15 +26,15 @@
 	<thead>
 	<tr>
 	<th class="bg-warning "><h5 class="text-white"> SERVICES</h5></th>
-	<th class="tabco2 text-white bg-blue-grey" >Alpha <br>
+	<th class="tabco2 text-white bg-blue-grey" >Basic <br>
 	 ₹ 10,999</th>
-	<th class="tabco3 text-white bg-mdb-color">Beta <br>
+	<th class="tabco3 text-white bg-mdb-color">Bronze <br>
 	₹ 17,999</th>
-	<th class="tabco4 text-white bg-primary" > Gaama <br>
+	<th class="tabco4 text-white bg-primary" > Silver <br>
 	₹ 29,999</th>
-	<th class="tabco4 text-white bg-info" >DELTA  <br>
+	<th class="tabco4 text-white bg-info" >Gold  <br>
 	₹ 34,999</th>
-	<th class="tabco2 text-white bg-success" >Pi <br>
+	<th class="tabco2 text-white bg-success" >Platinum <br>
 	₹ 49,999</th>
 	</tr>
 	</thead>
