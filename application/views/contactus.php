@@ -73,8 +73,7 @@
 					<p>
 					H.No: 16-2-227/177,<br>
 					1st Floor,<br>
-					Sardar Patel Nagar, Bhagat Singh Nagar, Kukatpally Housing Board Colony, Kukatpally
-Hyderabad, Telangana 500085.</p>
+					Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad, Telangana - 500072</p>
 				</div>
 				<div>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d951.3161068305509!2d78.38797423869858!3d17.49488629216747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f4f553e453%3A0x912891756062ff71!2sSri+Vani+Nilayam%2C+Sardar+Patel+Nagar%2C+Bhagat+Singh+Nagar%2C+Kukatpally+Housing+Board+Colony%2C+Kukatpally%2C+Hyderabad%2C+Telangana+500085!5e0!3m2!1sen!2sin!4v1515073781683" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
