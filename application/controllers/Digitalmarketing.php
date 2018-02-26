@@ -20,13 +20,15 @@ class Digitalmarketing extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('header');
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
 		$this->load->view('digital_marketing');
 		$this->load->view('footer');
 	}
 	public function readmore()
 	{
-		$this->load->view('header');
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
 		$this->load->view('digital_marketing_readmore');
 		$this->load->view('footer');
 	}

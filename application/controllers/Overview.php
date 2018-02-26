@@ -20,7 +20,8 @@ class Overview extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('header');
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
 		$this->load->view('overview');
 		$this->load->view('footer');
 	}

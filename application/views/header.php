@@ -31,8 +31,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
 			<ul class="nav navbar-nav  ml-auto">
-				<li class="nav-item active-menu " id="homepageative"><a href="<?php echo base_url(); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
-				<li class="nav-item " > 
+				<li class="nav-item <?php if($currentURL==base_url()){ echo "active-menu"; } ?> " id="homepageative"><a href="<?php echo base_url(); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
+				<li class="nav-item  <?php if($currentURL==base_url('servicesrm')){ echo "active-menu"; } ?>" > 
 				<div class="dropdown">
 					<a class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
 				  <div class="dropdown-content1">
@@ -67,7 +67,7 @@
             </li>-->
 				<!--<li class="nav-item"><a href="<?php echo base_url('carriers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>-->
 				<!--<li class="nav-item"><a href="" class="nav-link"> <span class=" ">Blog</span></a></li>-->
-				<li class="nav-item"><a href="<?php echo base_url('contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>
+				<li class="nav-item <?php if($currentURL==base_url('contactus')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>
 			</ul>
         </div>
    </nav>

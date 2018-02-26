@@ -20,7 +20,8 @@ class Price extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('header');
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
 		$this->load->view('servicesrm');
 		$this->load->view('footer');
 	}
@@ -31,14 +32,16 @@ class Price extends CI_Controller {
 
 	public function estimate()
 	{
-		$this->load->view('header');
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
 		$this->load->view('priceviewpage');
 		$this->load->view('footer');
 	}
 	public function details()
 	{
 		
-		$this->load->view('header');
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
 		$id=base64_decode($this->uri->segment(3));
 		if($id==1){
 			$this->load->view('webdesignprice');

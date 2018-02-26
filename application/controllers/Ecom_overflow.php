@@ -20,7 +20,8 @@ class Ecom_overflow extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('header');
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
 		$this->load->view('ecom_overflow');
 		$this->load->view('footer');
 	}

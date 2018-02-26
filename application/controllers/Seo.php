@@ -14,7 +14,8 @@ class Seo extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->load->view('header');
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
 		$this->load->view('seo');
 		$this->load->view('footer');
 	}
@@ -25,18 +26,21 @@ class Seo extends CI_Controller {
 	
 	public function readmore()
 	{
-	$this->load->view('header');
+	$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
 	$this->load->view('seoreadmore');
 	$this->load->view('footer');
 	}
 	public function ppc()
 	{
-	$this->load->view('header');
+	$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
 	$this->load->view('ppc');
 	$this->load->view('footer');
 	}public function affilatemanagement()
 	{
-	$this->load->view('header');
+	$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
 	$this->load->view('affilatemanagement');
 	$this->load->view('footer');
 	}
