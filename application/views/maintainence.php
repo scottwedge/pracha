@@ -205,7 +205,7 @@
 			<br>
 			<br>
 			<br>
-<div class="table-responsive" >
+<!--<div class="table-responsive" >
 		<table class="table table-bordered ">
   <thead>
     <tr>
@@ -280,7 +280,7 @@
 
 
 </div>
-
+-->
 
 </div>
 <div class="clearfix">&nbsp;</div>

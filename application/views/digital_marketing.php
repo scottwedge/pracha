@@ -293,7 +293,7 @@
 <div class="clearfix">&nbsp;</div>
 
 
-
+<!--
 <div class="" style="padding:0px 30px;">
 	<section id="digitalmarketing_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/digitbac1.png'); height: 100%;">
 	
@@ -312,9 +312,9 @@
 
         </div>
 		  <div class="clearfix">&nbsp;</div>
-  <!-- BEGIN LIST -->
+ 
   <ul class="box">
-  <!-- BEGIN LIST ELEMENT -->
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
@@ -322,73 +322,73 @@
           <div class="price color-1-font"><span class="total">Basic</span></div>
           <div class="description"> <pre class="price-ani ">₹ 7,999</pre></div>
          
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-1-font  fa fa-hand-o-right"></div>
         <div class="back color-1-bg info">
           <div class="title">Basic</div>
           <div class="description">
             <h3>₹ 7,999</h3>
             <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+ 
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total">Bronze</span></div>
           <div class="description"> <pre class="price-ani ">₹ 19,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title">Bronze</div>
           <div class="description">
             <h3>₹ 19,999</h3>
             <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+ 
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Silver</span></div>
           <div class="description"><pre class="price-ani ">₹ 26,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Silver</div>
           <div class="description">
          <h3>₹ 26,999</h3>
             <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-3-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
           <div class="price color-4-font"><span class="total">Gold</span></div>
           <div class="description"><pre class="price-ani ">₹ 39,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
           <div class="title">Gold</div>
           <div class="description">
              <h3>₹ 39,999</h3>
             <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-4-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
 	<li>
       <div class="circle">
@@ -396,16 +396,16 @@
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total" style="font-size:30px;">Platinum</span></div>
           <div class="description"><pre class="price-ani ">₹ 55,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title" style="font-size:20px;">Platinum</div><br>
           <div class="description">
             <h3>₹ 55,999</h3>
             <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
 	<li>
       <div class="circle">
@@ -413,20 +413,20 @@
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Diamond</span></div>
           <div class="description"><pre class="price-ani ">₹ 69,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Diamond</div>
           <div class="description">
          <h3>₹ 69,999</h3>
             <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-3-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
+  
   </ul>
-<!--END LIST -->
+
 </section>
 <section id="digitalmarketing_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/bac2.png'); height: 100%;">
 	
@@ -445,9 +445,9 @@
 
         </div>
 		  <div class="clearfix">&nbsp;</div>
-  <!-- BEGIN LIST -->
+  
   <ul class="box">
-  <!-- BEGIN LIST ELEMENT -->
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
@@ -455,73 +455,73 @@
           <div class="price color-1-font"><span class="total">Basic</span></div>
           <div class="description"> <pre class="price-ani ">₹ 6,999</pre></div>
          
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-1-font  fa fa-hand-o-right"></div>
         <div class="back color-1-bg info">
           <div class="title">Basic</div>
           <div class="description">
             <h3>₹ 6,999</h3>
             <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total">bronze</span></div>
           <div class="description"> <pre class="price-ani ">₹ 17,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title">bronze</div>
           <div class="description">
             <h3>₹ 17,999</h3>
             <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Silver</span></div>
           <div class="description"><pre class="price-ani ">₹ 29,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Silver</div>
           <div class="description">
          <h3>₹ 29,999</h3>
             <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-3-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
           <div class="price color-4-font"><span class="total">Gold</span></div>
           <div class="description"><pre class="price-ani ">₹ 35,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
           <div class="title">Gold</div>
           <div class="description">
              <h3>₹ 35,999</h3>
             <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-4-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
 	<li>
       <div class="circle">
@@ -529,16 +529,16 @@
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total" style="font-size:30px;">Platinum</span></div><br>
           <div class="description"><pre class="price-ani ">₹ 49,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title" style="font-size:20px;">Platinum</div><br>
           <div class="description">
             <h3>₹ 49,999</h3>
             <a href="#" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
 	<li>
       <div class="circle">
@@ -546,20 +546,20 @@
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Diamond</span></div>
           <div class="description"><pre class="price-ani ">₹65,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Diamond</div>
           <div class="description">
          <h3>₹ 65,999</h3>
             <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-3-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
+  
   </ul>
-<!--END LIST -->
+
 </section>
 <div class="clearfix">&nbsp;</div>
 </div>
@@ -581,9 +581,9 @@
 
         </div>
 		  <div class="clearfix">&nbsp;</div>
-  <!-- BEGIN LIST -->
+  
   <ul class="box">
-  <!-- BEGIN LIST ELEMENT -->
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
@@ -591,73 +591,73 @@
           <div class="price color-1-font"><span class="total">Basic</span></div>
           <div class="description"> <pre class="price-ani ">₹ 7,999</pre></div>
          
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-1-font  fa fa-hand-o-right"></div>
         <div class="back color-1-bg info">
           <div class="title">Basic</div>
           <div class="description">
             <h3>₹ 7,999</h3>
             <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total">Bronze</span></div>
           <div class="description"> <pre class="price-ani ">₹ 19,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title">Bronze</div>
           <div class="description">
             <h3>₹ 19,999</h3>
             <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Silver</span></div>
           <div class="description"><pre class="price-ani ">₹ 26,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Silver</div>
           <div class="description">
          <h3>₹ 26,999</h3>
             <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-3-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
           <div class="price color-4-font"><span class="total">Gold</span></div>
           <div class="description"><pre class="price-ani ">₹ 39,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
           <div class="title">Gold</div>
           <div class="description">
              <h3>₹ 39,999</h3>
             <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-4-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
 	
 	<li>
@@ -666,20 +666,20 @@
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Platinum</span></div>
           <div class="description"><pre class="price-ani ">₹ 55,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Platinum</div>
           <div class="description">
          <h3>₹ 55,999</h3>
             <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-3-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
+  
   </ul>
-<!--END LIST -->
+
 </section>
 </div>
 <div class="" style="padding:0px 30px;">
@@ -700,9 +700,9 @@
 
         </div>
 		  <div class="clearfix">&nbsp;</div>
-  <!-- BEGIN LIST -->
+  
   <ul class="box">
-  <!-- BEGIN LIST ELEMENT -->
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
@@ -710,73 +710,73 @@
           <div class="price color-1-font"><span class="total">Basic</span></div>
           <div class="description"> <pre class="price-ani ">₹ 10,999</pre></div>
          
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-1-font  fa fa-hand-o-right"></div>
         <div class="back color-1-bg info">
           <div class="title">Basic</div>
           <div class="description">
             <h3>₹ 10,999</h3>
             <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total">Bronze</span></div>
           <div class="description"> <pre class="price-ani ">₹ 17,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title">Bronze</div>
           <div class="description">
             <h3>₹ 17,999</h3>
             <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Silver</span></div>
           <div class="description"><pre class="price-ani ">₹ 29,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Silver</div>
           <div class="description">
          <h3>₹ 29,999</h3>
             <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-3-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
           <div class="price color-4-font"><span class="total">Gold</span></div>
           <div class="description"><pre class="price-ani ">₹ 34,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
           <div class="title">Gold</div>
           <div class="description">
              <h3>₹ 34,999</h3>
             <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-4-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
 	
 	<li>
@@ -785,22 +785,22 @@
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Platinum</span></div>
           <div class="description"><pre class="price-ani ">₹ 49,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Platinum</div>
           <div class="description">
          <h3>₹ 49,999</h3>
             <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-3-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
+  
   </ul>
-<!--END LIST -->
+
 </section>	
-</div>
+</div>-->
 <div class="clearfix">&nbsp;</div>
 
 

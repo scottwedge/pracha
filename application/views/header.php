@@ -36,7 +36,7 @@
 				<div class="dropdown">
 					<a class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
 				  <div class="dropdown-content1">
-					<a href="<?php echo base_url('servicesrm'); ?>">UI/UX Designing</a>
+					<a href="<?php echo base_url('servicesrm'); ?>">UI & UX Designing</a>
 					<a href="<?php echo base_url('develop_service'); ?>">Web Development</a>
 					<a href="<?php echo base_url('mobile_application'); ?>">Mobile Applications</a>
 					<a href="<?php echo base_url('digitalmarketing'); ?>"> Digital Marketing</a>
@@ -50,7 +50,7 @@
 				
 				<!--<li class="nav-item"><a href="<?php echo base_url('pracha/howwework');?>" class="nav-link"> <span class=" ">How We work?</span></a></li>-->
 			
-				<li class="nav-item">
+				<!--<li class="nav-item">
 				<div class="dropdown">
 					<a class="nav-link dropdown-toggle"> <span class=" ">Pricing</span></a>
 				  <div class="dropdown-content1">
@@ -58,13 +58,13 @@
 					<a href="<?php echo base_url('develop_service/price'); ?>">Web Development</a>
 					<a href="<?php echo base_url('mobile_application/price'); ?>">Mobile Applications</a>
 					<a href="<?php echo base_url('digitalmarketing/price'); ?>"> Digital Marketing</a>
-					<!--<a href="<?php echo base_url('seo/price'); ?>">SEO</a>-->
+					
 					<a href="<?php echo base_url('ecommerce/price'); ?>">E-Commerce</a>
 					<a href="<?php echo base_url('maintainence'); ?>"> Maintenance</a>
 					
 				  </div>
 				</div>
-            </li>
+            </li>-->
 				<!--<li class="nav-item"><a href="<?php echo base_url('carriers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>-->
 				<!--<li class="nav-item"><a href="" class="nav-link"> <span class=" ">Blog</span></a></li>-->
 				<li class="nav-item"><a href="<?php echo base_url('contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>

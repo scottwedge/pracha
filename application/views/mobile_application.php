@@ -4,7 +4,7 @@
   <h1>
    MOBILE APPLICATIONS <br />
 	<br>
-	<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "iOS Application Development", "Android Application Development", "Hybrid Mobile Applications","Mobile Integration","Mobile Application Testing","Mobile Application Security",  " " ]'>
+	<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "iOS Application Development", "Android Application Development", "Hybrid Mobile Applications","Mobile Integration","Mobile Application Testing","Mobile Application Security",  " " ]'>
    
   </p>
  
@@ -277,7 +277,7 @@
 <div class="clearfix">&nbsp;</div>
 
 
-
+<!--
 	<section id="mobile_application_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/mobbac1.png'); height: 100%;">
 	  <div class="container-sty  ">
 	  <div class="row  text-center">
@@ -291,9 +291,9 @@
 	 </div>
 	 </div>
 		  <div class="clearfix">&nbsp;</div>
-  <!-- BEGIN LIST -->
+  
   <ul class="box">
-  <!-- BEGIN LIST ELEMENT -->
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
@@ -301,19 +301,18 @@
           <div class="price color-1-font"><span class="total">Basic</span></div>
           <div class="description">1-4 Page<pre class="price-ani ">₹ 39,999</pre></div>
          
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-1-font  fa fa-hand-o-right"></div>
         <div class="back color-1-bg info">
           <div class="title">Basic</div>
           <div class="description">
             <h3>₹ 39,999</h3>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
 	</ul>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
    <ul class="box">
     <li>
       <div class="circle">
@@ -321,51 +320,50 @@
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total">Bronze</span></div>
           <div class="description">5-10 Page <pre class="price-ani ">₹ 59,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title">Bronze</div>
           <div class="description">
             <h3>₹ 59,999</h3>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
+ 
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-3-font fa fa-hand-o-down"></div>
           <div class="price color-3-font"><span class="total">Silver</span></div>
           <div class="description">11-16 Page <pre class="price-ani ">₹ 99,999 </pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-3-font fa fa-hand-o-right"></div>
         <div class="back color-3-bg info">
           <div class="title">Silver</div>
           <div class="description">
          <h3>₹ 99,999</h3>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-3-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
-  <!-- BEGIN LIST ELEMENT -->
+  
     <li>
       <div class="circle">
         <div class="front front-popular">
           <div class="title color-4-font fa fa-hand-o-down"></div>
           <div class="price color-4-font"><span class="total">Gold</span></div>
           <div class="description">17-25 pages <pre class="price-ani ">₹ 1,39,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-4-font fa fa-hand-o-right"></div>
         <div class="back color-4-bg info">
           <div class="title">Gold</div>
           <div class="description">
              <h3>₹ 1,39,999</h3>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-4-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
 	<li>
       <div class="circle">
@@ -373,15 +371,15 @@
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total" style="font-size:30px;">Platinum</span></div>
           <div class="description">Unlimited Pages<pre class="price-ani ">₹ 1,59,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title" style="font-size:20px;">Platinum</div><br>
           <div class="description">
             <h3>₹ 1,59,999</h3>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
 	<li>
       <div class="circle">
@@ -389,22 +387,22 @@
           <div class="title color-2-font fa fa-hand-o-down"></div>
           <div class="price color-2-font"><span class="total" style="font-size:30px;">E-Commerce</span></div>
           <div class="description">Unlimited Pages<pre class="price-ani ">₹ 1,99,999</pre></div>
-        </div><!-- end div .front -->
+        </div>
         <div class="popular color-2-font fa fa-hand-o-right"></div>
         <div class="back color-2-bg info">
           <div class="title" style="font-size:20px;">E-Commerce</div><br>
           <div class="description">
             <h3>₹ 1,99,999</h3>
-          </div><!-- end div .description -->
-        </div><!-- end div .back color-1-bg info -->
-      </div><!-- end div .circle -->
+          </div>
+        </div>
+      </div>
     </li>
-  <!-- END LIST ELEMENT -->
+  
   </ul>
-<!--END LIST -->
+
 <div class="clearfix">&nbsp;</div>
 <div class="clearfix">&nbsp;</div>
-</section>
+</section>-->
 <div class="clearfix">&nbsp;</div>
 
 

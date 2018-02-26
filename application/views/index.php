@@ -32,7 +32,7 @@
 						<!--<a href="<?php echo base_url('pracha/contactus'); ?>" class="btn btn-success"> <i class="fa fa-volume-control-phone  ml-1"></i> &nbsp; Talk to Us</a>-->
 					<div class="clearfix">&nbsp;</div>
 					</div>
-					<div class="row mt-15-ban">
+					<div class="row mt-15-ban justify-content-md-center">
 						<div class="col-4 caption-tit">
 							<span class=""><a href="<?php echo base_url('servicesrm'); ?>">UI & UX Design</a>, <a href="<?php echo base_url('develop_service'); ?>">Web Design & Development </a></span>
 						</div>
@@ -168,7 +168,7 @@
                         <i class="hi-icon fa fa-globe" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe">UI/UX DESIGNING
+                        <h5 class="font-color_base no_stripe">UI & UX DESIGNING
 								
 									</h5>
                     </div>
@@ -850,7 +850,7 @@
 								<div class="front-home bg-primary " >
 								<p class="clearfix ">&nbsp;</p>
 							
-								<p class="text-white">Starting At <br><span class="pric-rate">₹ 3,999</span></p>
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 9,999</span></p>
 								
 									<div class="pric-tit-pos bg-dark">
 										Web Development
@@ -862,7 +862,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo base_url('develop_service'); ?>">
+								<a href="<?php echo base_url('ecommerce'); ?>">
 							  <div class="circle">
 								<div class="front-home bg-pink " >
 								<p class="clearfix ">&nbsp;</p>
@@ -886,7 +886,7 @@
 								<div class="front-home bg-info " >
 								<p class="clearfix ">&nbsp;</p>
 							
-							<p class="text-white">Starting At <br><span class="pric-rate">₹ 5,499</span></p>
+							<p class="text-white">Starting At <br><span class="pric-rate">₹ 39,999</span></p>
 								
 									<div class="pric-tit-pos bg-dark">
 										Mobile Applications
@@ -897,29 +897,13 @@
 								</div><!-- end div .back color-1-bg info -->
 								</a>
 							</li>
-							<li>
-								<a href="<?php echo base_url('seo'); ?>">
-							  <div class="circle">
-								<div class="front-home bg-warning " >
-								<p class="clearfix ">&nbsp;</p>
-							
-							<p class="text-white">Starting At <br><span class="pric-rate">₹ 7,999</span></p>
-								
-									<div class="pric-tit-pos bg-dark">
-										SEO
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-								</a>
-							</li>
+						
 							<li>
 							<a href="<?php echo base_url('digitalmarketing'); ?>">
 							  <div class="circle">
 								<div class="front-home bg-secondary " >
 								<p class="clearfix ">&nbsp;</p>
-								<p class="text-white">Starting At <br><span class="pric-rate">₹ 7,999</span></p>
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 19,999</span></p>
 							
 								
 									<div class="pric-tit-pos bg-dark">
@@ -936,7 +920,7 @@
 							  <div class="circle">
 								<div class="front-home bg-blue-grey " >
 								<p class="clearfix ">&nbsp;</p>
-								<p class="text-white">Starting At <br><span class="pric-rate">View</span></p>
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 4,999</span></p>
 							
 								
 									<div class="pric-tit-pos bg-dark">

@@ -1,8 +1,10 @@
 <!--Footer-->
-<!--<section class="ptb-20">
+<section class="ptb-20">
 	<div class="text-center">
-		<h2 class="pb-40">Discuss Your Project With Our Team</h2>
-		<p>Want to grow your business online, contact us for a FREE Analysis !!</p>
+		<h2 class="pb-40">Let’s talk! </h2>
+		<p style="font-size:20px;">Tell us about your idea. We want to know how we can help you. We'll have a session of brisk inception.</p>
+		<p style="font-size:18px;">Excel business with perfect online presence, contact us for a FREE Analysis!!
+</p>
 		<p class="dis-team">
 			<span><i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 040 - 48541273</span>
 			
@@ -12,7 +14,7 @@
 		
 		<a href="<?php echo base_url('contactus');?>"><button type="button" class="btn btn-dark btn-rounded">REQUEST A FREE QUOTE</button></a>
 	</div>
-</section>-->
+</section>
 
 <footer class="page-footer center-on-small-only stylish-color-dark sm-hide " style="position:relative" >
 
@@ -44,7 +46,7 @@
                     <li><a href="<?php echo base_url('develop_service'); ?>">Web Development</a></li>
                     <li><a href="<?php echo base_url('mobile_application'); ?>">Mobile Applications</a></li>
                     <li><a href="<?php echo base_url('digitalmarketing'); ?>">Digital Marketing </a></li>
-                    <li><a href="<?php echo base_url('seo'); ?>">  SEO </a></li>
+                   <!-- <li><a href="<?php echo base_url('seo'); ?>">  SEO </a></li>-->
                     <li><a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a></li>
                     <li><a href="<?php echo base_url('maintainence'); ?>"> Maintenance </a></li>
                 </ul>
@@ -63,7 +65,7 @@
 
                      <li><a href="<?php echo base_url(); ?>" >Home</a></li>
 					 <li><a href="#">About Us</a></li>
-					  <li><a href="<?php echo base_url('price/estimate'); ?>">Pricing</a></li>
+					<!--  <li><a href="<?php echo base_url('price/estimate'); ?>">Pricing</a></li>-->
                     <li><a href="<?php echo base_url('carriers'); ?>">Careers</a></li>
                     
                     <li><a href="<?php echo base_url('contactus');?>">Contact Us</a></li>
