@@ -613,11 +613,11 @@
 
                 <h2>
                     <span class="tit">
-									Why <span class="des_t">Choose </span>Us ?
+									Why <span class="des_t">Choose </span>us ?
                     </span>
                 </h2>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center mb-5 pb-3">Try Us! Yeah, You make it worth of Trying Us.</p>
+				 <p class="text-center mb-5 pb-3">Try us! Yeah, You make it worth of Trying us.</p>
 
 
             </div>
@@ -638,13 +638,40 @@
     <!--Grid column-->
     <div class="col-lg-7">
 
+      
+		<!--Grid row-->
+        <div class="row pb-3">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <h5 class="font-bold text-left mb-3 dark-grey-text"> We are entrusted with the most professional and advanced resources</h5>
+            
+        </div>
+        </div>
+        <!--Grid row-->
+
+       
+
         <!--Grid row-->
         <div class="row pb-3">
         <div class="col-2 col-md-1">
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">Entrusted with the most professional and advanced resources</h5>
+            <h5 class="font-bold text-left mb-3 dark-grey-text">We have a Passionate team of Creativity and problem Solving </h5> 
+            
+        </div>
+        </div>
+	
+
+        <!--Grid row-->
+        <div class="row pb-3">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <h5 class="font-bold text-left mb-3 dark-grey-text">We focus on your Core Business</h5>
             
         </div>
         </div>
@@ -656,52 +683,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">Paper driven work.</h5>
-            
-        </div>
-        </div>
-        <!--Grid row-->
-
-        <!--Grid row-->
-        <div class="row pb-3">
-        <div class="col-2 col-md-1">
-            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
-        </div>
-        <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">A culture of Passion, Creativity, Community and Possibility. </h5>
-            
-        </div>
-        </div>
-		<div class="row pb-3">
-        <div class="col-2 col-md-1">
-            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
-        </div>
-        <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">Find everything at One Place</h5>
-            
-        </div>
-        </div>
-        <!--Grid row-->
-
-        <!--Grid row-->
-        <div class="row pb-3">
-        <div class="col-2 col-md-1">
-            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
-        </div>
-        <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">Focus On your Core Business.</h5>
-            
-        </div>
-        </div>
-        <!--Grid row-->
-
-        <!--Grid row-->
-        <div class="row pb-3">
-        <div class="col-2 col-md-1">
-            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
-        </div>
-        <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">Amazing support</h5>
+            <h5 class="font-bold text-left mb-3 dark-grey-text">We offer a dedicative team to support you</h5>
             <p class="grey-text text-left"></p>
         </div>
         </div>
@@ -710,7 +692,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">Dedicated Software partner for You & Your Buisness.</h5>
+            <h5 class="font-bold text-left mb-3 dark-grey-text">We Deliver your projects in Time</h5>
             
         </div>
         </div>
@@ -816,12 +798,12 @@
 			<div class="row  text-center">
 				<div class="col-sm-12 mb-20 pt-30">
 					<h2 class="tex-lef-mob">
-						<span class="tit">
-						 Pricing
+						<span class="tit"><span class="des_t">Pricing </span>
+						 
 						</span>
 					</h2>
 					<div class="clearfix">&nbsp;</div>
-				 <p class="text-center mb-5 ">This is not an expenditure, but an investment on your business.</p>
+				 <p class="text-center mb-5 ">This is not an expenditure, but an investment on your business!</p>
 				</div>
 				</div>
 				
@@ -836,7 +818,7 @@
 							
 								<p class="text-white">Starting At <br><span class="pric-rate">₹ 6,999</span></p>
 									<div class="pric-tit-pos bg-dark">
-										UI/UX Designing
+										UI & UX Designing
 									 </div>
 								 
 								</div>
@@ -870,7 +852,7 @@
 								<p class="text-white">Starting At <br><span class="pric-rate">₹ 69,999</span></p>
 								
 									<div class="pric-tit-pos bg-dark">
-										E-Commerce
+									eCommerce
 									 </div>
 								 
 								</div>
@@ -1054,8 +1036,8 @@
 	<div class="col-sm-12 mb-20 pt-30">
 					<h2 class="text-center">
 					
-                    <span class="tit">
-						 Contact us
+                    <span class="tit"><span class="des_t"> Contact us</span>
+						
 						</div>
 					</h2>
 	</div>

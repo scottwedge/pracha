@@ -37,7 +37,7 @@
         <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab">Home</a>
     </li>
 	<li class="nav-item">
-        <a class="nav-link active"  href="#ui-ux" role="tab">UI/UX Designing</a>
+        <a class="nav-link active"  href="#ui-ux" role="tab">UI & UX Designing</a>
     </li>
     <li class="nav-item">
         <a class="nav-link "  href="#web-dev" role="tab">Web Development </a>
@@ -50,7 +50,7 @@
     </li>
 	
 	  <li class="nav-item">
-        <a class="nav-link"  href="#e-comm-scroll" role="tab">E-Commerce </a>
+        <a  style="text-transform: none;" class="nav-link"  href="#e-comm-scroll" role="tab">eCommerce </a>
     </li>
 	  <li class="nav-item">
         <a class="nav-link"  href="#busin-sol" role="tab">Business Solutions</a>

@@ -1,10 +1,9 @@
 <!--Footer-->
 <section class="ptb-20">
 	<div class="text-center">
-		<h2 class="pb-40">Let’s talk! </h2>
-		<p style="font-size:20px;">Tell us about your idea. We want to know how we can help you. We'll have a session of brisk inception.</p>
-		<p style="font-size:18px;">Excel business with perfect online presence, contact us for a FREE Analysis!!
-</p>
+		<h2 class="pb-40" style="text-transform: none;" >Contact us for a FREE Analysis!</h2>
+		<p style="font-size:20px;"></p>
+
 		<p class="dis-team">
 			<span><i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 040 - 48541273</span>
 			
@@ -24,8 +23,8 @@
 
             <!--First column-->
             <div class="col-md-4">
-                <h5 class="title-footer mb-4 mt-3 font-bold">REACH US</h5>
-                <p>Plot No. 177, Sri Vani Nilayam, 1st floor, Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad, Telangana - 500072.</p>
+                <h5 class="title-footer mb-4 mt-3 font-bold">Our Address</h5>
+                <p>Plot No. 177, Sri Vani Nilayam, 1st floor,<br> Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad, <br>Telangana - 500072.</p>
             </div>
             <!--/.First column-->
 
@@ -42,12 +41,12 @@
 				     
           
 
-                    <li><a href="<?php echo base_url('servicesrm'); ?>">UI/UX Designing </a></li>
+                    <li><a href="<?php echo base_url('servicesrm'); ?>">UI & UX Designing </a></li>
                     <li><a href="<?php echo base_url('develop_service'); ?>">Web Development</a></li>
                     <li><a href="<?php echo base_url('mobile_application'); ?>">Mobile Applications</a></li>
                     <li><a href="<?php echo base_url('digitalmarketing'); ?>">Digital Marketing </a></li>
                    <!-- <li><a href="<?php echo base_url('seo'); ?>">  SEO </a></li>-->
-                    <li><a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a></li>
+                    <li><a href="<?php echo base_url('ecommerce'); ?>">eCommerce</a></li>
                     <li><a href="<?php echo base_url('maintainence'); ?>"> Maintenance </a></li>
                 </ul>
             </div>
@@ -57,16 +56,16 @@
 
             <!--Fourth column-->
             <div class="col-md-2 mx-auto">
-                <h5 class="title-footer mb-4 mt-3 font-bold ">INFORMATION</h5>
+                <h5 class="title-footer mb-4 mt-3 font-bold ">Our Webfolio</h5>
                 <ul>
 				
 
 
 
                      <li><a href="<?php echo base_url(); ?>" >Home</a></li>
-					 <li><a href="#">About Us</a></li>
+					 <!--<li><a href="#">About Us</a></li>-->
 					<!--  <li><a href="<?php echo base_url('price/estimate'); ?>">Pricing</a></li>-->
-                    <li><a href="<?php echo base_url('carriers'); ?>">Careers</a></li>
+                   <!-- <li><a href="<?php echo base_url('carriers'); ?>">Careers</a></li>-->
                     
                     <li><a href="<?php echo base_url('contactus');?>">Contact Us</a></li>
                    
@@ -82,14 +81,16 @@
  
 
     <!--Social buttons-->
-    <div class="social-section text-center footer-copyright">
+	<div class="social-section text-center footer-copyright">
         <ul>
-
-            <li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
-            <li><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
-            <li><a class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
-            <li><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li></ul>
+		<li><h5>Follow us @</h5></li>
+            <li>&nbsp;</li>
+            <li><a href="https://www.facebook.com/Prachatech-Software-Solutions-328172397673080/" target="_blank" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+            <li><a href="https://twitter.com/Prachatech" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+           <li><a href="https://plus.google.com/103803990699303943827/" target="_blank" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+            <li><a href="https://www.linkedin.com/company/prachatech-software-solutions/" target="_blank" class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li></ul>
     </div>
+  
  
 
 </footer>
