@@ -3,7 +3,7 @@
 	<h1>
     UI & UX DESIGNING <br />
 	<br>
-		<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Site Architecture and design", "Static & Dynamic Website Design", "Responsive Web Design","Custom Web Design","Corporate Website Design","Template Design & Customization",  " " ]'></p>
+		<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Site Architecture and Design", "Static & Dynamic Website Design", "Responsive Web Design","Custom Web Design","Corporate Website Design","Template Design & Customization",  " " ]'></p>
 	</h1>
 	<canvas id="nodes"></canvas>
 </section>

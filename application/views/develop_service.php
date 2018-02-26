@@ -4,7 +4,7 @@
   <h1>
     WEB DEVELOPMENT <br />
 	<br>
-	<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Custom Application Development", "Content Management System (CMS)", "eCommerce Development","MEAN Stack Development",  " " ]'>
+	<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Custom Application Development", "Content Management System (CMS)", "eCommerce Development","MEAN Stack Development",  " " ]'>
    
   </p>
  

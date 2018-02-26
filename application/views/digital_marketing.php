@@ -5,7 +5,7 @@
   DIGITAL MARKETING<br /><br>
   
 
-  <p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Search Engine Optimization", "Social Media Marketing", "Google Adwords","Content Marketing","Email Marketing","Google Analytics",  " " ]'>
+  <p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Search Engine Optimization", "Social Media Marketing", "Google Adwords","Content Marketing","email Marketing","Google Analytics",  " " ]'>
    
   </p>
 

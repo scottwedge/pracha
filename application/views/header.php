@@ -31,8 +31,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
 			<ul class="nav navbar-nav  ml-auto">
-				<li class="nav-item active " id="homepageative"><a href="<?php echo base_url(); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
-				<li class="nav-item">
+				<li class="nav-item active-menu " id="homepageative"><a href="<?php echo base_url(); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
+				<li class="nav-item " > 
 				<div class="dropdown">
 					<a class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
 				  <div class="dropdown-content1">

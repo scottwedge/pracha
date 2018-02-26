@@ -414,12 +414,12 @@
             <div class="col-sm-12 mb-20 pt-30">
 
                 <h2>
-                    <span class="tit">
-									Not <span class="des_t">Just a </span> Software Solutions
+                    <span class="tit" style="text-transform: none;"> 
+									Our<span class="des_t"> Support & Services</span> 
                     </span>
                 </h2>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center mb-5 ">Leave your responsibility of online presence to US & Focus on your Core Business.</p>
+				 <p class="text-center mb-5 ">Leave your online presence responsibility      to us and focus on your Core Business.</p>
 
 
             </div>
@@ -431,13 +431,13 @@
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
-                        <h5 class=""><a href="#"> Expose Your Website</a></h5>
+                        <h5 class=""><a href="#">We Expose Your Website</a></h5>
                     </div>
                     <div class="service_content">
                         <p>
-                           We bring your online business into light that creates more opportunities for your business to connect with its targeted audience. 
+                          We bring your online business into light that creates more opportunities for your business to connect with its targeted audience.
                         </p>
-						<p>Our low-cost packages make it so you can easily fix any problem, or receive ongoing support for little, medium, and big problems. <a href="#" class="text-info">Learn more </a>about our pricing options.</p>
+						<p>We do all the possible ways to promote your website digitally on social media and on search engines results page. We focus on reciprocal linking, signature branding, quality content, using Google’s local business etc.</p>
 						
                     </div>
                 </div>
@@ -452,7 +452,7 @@
                     </div>
                     <div class="service_content">
                         <p>
-                            Marketing is necessary for every firm; however, many find it difficult to recruit or afford the skilled resources they need to handle time-consuming, repetitive marketing tasks. prachaTECH provides a variety of support services to marketing and business development departments, covering key areas ranging from creative to research services. Our highly-trained Associates are ready to follow your marketing style guides, templates and execution guidelines.
+                            Marketing is necessary for every firm; however, many find it difficult to recruit or afford the skilled resources they need to handle time-consuming, repetitive marketing tasks. prachatech provides a variety of support services to marketing and business development departments, covering key areas ranging from creative to research services. Our highly-trained associates are ready to follow your marketing style guides, templates and execution guidelines.
                         </p>
                     </div>
                 </div>
@@ -467,7 +467,7 @@
                     </div>
                     <div class="service_content">
                         <p>
-                           Just like a house or a business, a website needs to be maintained. When things break, they need to be fixed. When it gets old, it needs to be updated. Website x can be difficult and time consuming, so why not ask Common Places for assistance? We offer website maintenance, website security, application management,marketing services and more.</p>
+                           A 'Website' is a site(your house) on the web. Just like a house, a website also needs to be maintained properly. When things break-up, they need to be fixed. When it gets out dated, it needs to be updated. Website updating may be difficult and time consuming; for that reason we are here to assist you. We offer Website Maintenance, Website Security, Application Management, Marketing Services and many more...</p>
 
 						
                         </p>
@@ -497,7 +497,7 @@
 
                 <h2>
                     <span class="tit">
-									We <span class="des_t">Help Your Business </span> To Grow
+									We Help<span class="des_t"> Your Business </span> To Grow
                     </span>
                 </h2>
 				<div class="clearfix">&nbsp;</div>
@@ -522,7 +522,7 @@
             <i class="fa fa-2x fa-check-circle text-dark"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Digital presence makes Everything</h5>
+            <h5 class="font-bold">Digital presence makes everything!</h5>
             <p class="grey-text">Your digital presence is your online reputation. And the million dollar question is, how have you presented yourself? </p>
         </div>
         </div>
@@ -534,7 +534,7 @@
             <i class="fa fa-2x fa-universal-access text-dark"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Make your Business Reach to the right people.</h5>
+            <h5 class="font-bold">Make your Business reach to the right people.</h5>
             <p class="grey-text">By analyzing your business with various business tools we can measure the traffic driving to your website. Through this analysis, we can target the right people on focusing on particular geographical location or gender or age depending upon the product.</p>
         </div>
         </div>
@@ -589,7 +589,7 @@
             <i class="fa fa-2x  fa-laptop text-dark"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Technical support & Consultation</h5>
+            <h5 class="font-bold">Technical Support & Consultation</h5>
             <p class="grey-text">We have a highly qualified technical team to provide 24/7 technical support. However this will be applicable depending upon the subscription plan of the client. </p>
         </div>
         </div>
@@ -617,7 +617,7 @@
                     </span>
                 </h2>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center mb-5 pb-3">Try US! Yeah, You make it worth of Trying US.</p>
+				 <p class="text-center mb-5 pb-3">Try Us! Yeah, You make it worth of Trying Us.</p>
 
 
             </div>

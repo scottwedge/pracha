@@ -4,7 +4,7 @@
   <h1>
     E-Commerce DEVELOPMENT <br />
 	<br>
-	<p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "e-Commerce Development",   " " ]'>
+	<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "eCommerce Development",   " " ]'>
    
   </p>
  

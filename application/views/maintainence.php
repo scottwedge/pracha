@@ -2,7 +2,7 @@
 <section id="masthead" role="banner" class="bod-st">
 
   <h1>
- Maintenance<br /><br><p  style="font-size:10px;" class="typewrite pulse" data-period="2000" data-type='[ "Website Maintenance", "Mobile Applications Maintenance", "Digital Marketing Maintenance","SEO Maintenance","Software Partner",  " " ]'>
+ Maintenance<br /><br><p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Website Maintenance", "Mobile Applications Maintenance", "Digital Marketing Maintenance","SEO Maintenance", " " ]'>
    
   </p>
  
