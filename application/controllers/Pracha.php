@@ -9,6 +9,7 @@ class Pracha extends CI_Controller {
 		$this->load->helper(array('url','html','form'));
 		$this->load->library('session','form_validation');
 		$this->load->library('email');
+		$this->load->library('session');
 		$this->load->model('Pracha_model');
 		$this->load->library('user_agent');
 	}
@@ -52,7 +53,11 @@ class Pracha extends CI_Controller {
 			$this->session->set_flashdata('error','Technical problem will occured . try again after some time');
 
 		}
+		if(isset($post['direct']) && $post['direct']==1){
+			redirect('services');
+		}else{
 		redirect('#contact-scroll');
+		}
 
 			
 		

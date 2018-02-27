@@ -338,38 +338,50 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
 	</div>
 	</div>
 	<div class="content"></div>
+	
 	<div class="col-md-3 card fixme "  id="sticky">
+	<?php if($this->session->flashdata('success')): ?>
+	<div class="alert alert-success">
+	<strong><?php echo $this->session->flashdata('success'); ?></strong> 
+	</div>
+	<?php endif; ?>
+	<?php if($this->session->flashdata('error')): ?>
+	<div class="alert alert-warning">
+	<strong><?php echo $this->session->flashdata('error'); ?></strong> 
+	</div>
+	<?php endif; ?>
 		<!-- Form contact -->
-<form>
+	<form action="<?php echo base_url('pracha/contactpost');?>" method="post" enctype="multipart/form-data" >
+	<input type="hidden" id="direct" name="direct" value="1">
 
     <p class="h5 text-center mb-4">Write to us</p>
 
     <div class="md-form">
         <i class="fa fa-user prefix grey-text"></i>
-        <input type="text" id="form3" class="form-control">
+        <input type="text" id="name" name="name" class="form-control" required>
         <label for="form3">Your name</label>
     </div>
 
     <div class="md-form">
         <i class="fa fa-envelope prefix grey-text"></i>
-        <input type="text" id="form2" class="form-control">
+        <input type="email" id="email" name="email" class="form-control" required>
         <label for="form2">Your email</label>
     </div>
 
     <div class="md-form">
         <i class="fa fa-tag prefix grey-text"></i>
-        <input type="text" id="form32" class="form-control">
+        <input type="text" id="subject" name="subject" class="form-control" required>
         <label for="form34">Subject</label>
     </div>
 
     <div class="md-form">
         <i class="fa fa-pencil prefix grey-text"></i>
-        <textarea type="text" id="form8" class="md-textarea" style="height: 100px"></textarea>
+        <textarea type="text" id="message" name="message" class="md-textarea" style="height: 100px" required></textarea>
         <label for="form8">Your message</label>
     </div>
 
     <div class="text-center">
-        <button class="btn btn-unique bg-warning">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+        <button type="submit" class="btn btn-unique bg-warning">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
     </div>
 
 </form>
