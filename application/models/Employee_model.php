@@ -116,6 +116,13 @@ class Employee_model extends CI_Model
 		$this->db->order_by('login_report.id desc');
         return $this->db->get()->result_array();
 	}
+	public function get_all_employees_monthreport(){
+		$this->db->select('employee.emp_name,employee.emp_mobile,employee.emp_name,login_report.emp_id,login_report.create_at,login_report.id,login_report.login_time,login_report.logout_time')->from('login_report');
+		$this->db->join('employee', 'employee.emp_id = login_report.emp_id', 'left');
+		$this->db->order_by('login_report.id asc');
+		$this->db->where('YEAR(CURRENT_DATE - INTERVAL 1 MONTH)');
+        return $this->db->get()->result_array();
+	}
 	public function get_employee_daily_task_lists($emp_id,$l_id){
 		$this->db->select('work_sheet.comment,work_sheet.reportfile,work_sheet.create_date')->from('work_sheet');
 		$this->db->where('emp_id', $emp_id);	

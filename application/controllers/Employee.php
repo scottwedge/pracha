@@ -1162,7 +1162,57 @@ class Employee extends CI_Controller {
 		}
 		
 	}
-	
+	public function last_month_login_report(){
+		if($this->session->userdata('userdetails'))
+		{
+			$currentMonth = date('F');
+			$file_name= Date('F', strtotime($currentMonth . " last month"));			
+			header("Content-type: application/csv");
+            header("Content-Disposition: attachment; filename=\"$file_name"."_employees".".csv\"");
+            header("Pragma: no-cache");
+            header("Expires: 0");
+			
+			$userdetails=$this->session->userdata('userdetails');
+			//$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+				$task_list= $this->Employee_model->get_all_employees_monthreport();
+				//echo '<pre>';print_r($task_list);exit;
+				foreach ($task_list as $list){
+					if(isset($list['logout_time']) && $list['logout_time']=='0000-00-00 00:00:00'){
+						$current_time=date('Y-m-d H:i:s');
+						$datetime1 = new DateTime($list['login_time']);
+						$datetime2 = new DateTime($current_time);
+						$interval = $datetime1->diff($datetime2);
+						$diff_in_hrs=$interval->format('%h')." Hr ".$interval->format('%i')." Min ".$interval->format('%s').'sec';
+					}else{
+						$datetime1 = new DateTime($list['login_time']);
+						$datetime2 = new DateTime($list['logout_time']);
+						$interval = $datetime1->diff($datetime2);
+						$diff_in_hrs=$interval->format('%h')." hrs ".$interval->format('%i')." Min ".$interval->format('%s').'sec';
+					}
+					$t=$list['create_at'];
+					$details[$list['id']]['currentday']=date("D d",strtotime($t)); 
+					$details[$list['id']]['name']=$list['emp_name'];
+					$details[$list['id']]['mobile']=$list['emp_mobile'];
+					$details[$list['id']]['workinghours']=$diff_in_hrs;
+					$details[$list['id']]['intime']=$list['login_time'];
+					$details[$list['id']]['outtime']=$list['logout_time'];
+					//$details[$list['id']]['dailywork']=$this->Employee_model->get_employee_daily_task_list($list['emp_id'],$list['id']);
+					
+				$data[] = array('Date'=> $details[$list['id']]['currentday'], 'Name'=> $details[$list['id']]['name'], 'Login time'=> $details[$list['id']]['intime'],'Outime'=>$details[$list['id']]['outtime'], 'Working Hours'=> $details[$list['id']]['workinghours'],);
+				}
+			
+            $handle = fopen('php://output', 'w');
+			foreach ($data as $data) {
+                fputcsv($handle, $data);
+            }
+                fclose($handle);
+            exit;
+
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 	
+	}
 	
 	
 	
