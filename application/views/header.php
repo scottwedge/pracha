@@ -74,7 +74,7 @@
 				</div>
             </li>-->
 				<!--<li class="nav-item"><a href="<?php echo base_url('carriers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>-->
-				<!--<li class="nav-item"><a href="" class="nav-link"> <span class=" ">Blog</span></a></li>-->
+				<li class="nav-item <?php if($currentURL==base_url('blog')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('blog');?>" class="nav-link"> <span class=" ">Blog</span></a></li>
 				<li class="nav-item <?php if($currentURL==base_url('contactus')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>
 			</ul>
         </div>
