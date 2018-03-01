@@ -19,6 +19,14 @@
     <!-- Your custom styles (optional) -->
     <link href="<?php echo base_url(); ?>assets/vendor/css/style.css" rel="stylesheet">
 	<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/jquery-3.2.1.min.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114861070-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114861070-1');
+</script>
 </head>
 
 <body>
