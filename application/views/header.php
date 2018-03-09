@@ -6,8 +6,7 @@
 	<meta name="keywords" content="Web designing, Web development, UI & UX design, Mobile apps (Android & iOS), eCommerce website, Digital Marketing, SEO, Social Media, SMM,PPC">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-	
-    <title>Pracha tech</title>
+    
 	<link rel="icon" href="<?php echo base_url(); ?>assets/vendor/img/fav.png" >
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -73,7 +72,8 @@
 				  </div>
 				</div>
             </li>-->
-				<!--<li class="nav-item"><a href="<?php echo base_url('carriers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>-->
+			<li class="nav-item <?php if($currentURL==base_url('industries')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('industries');?>" class="nav-link"> <span class=" ">Industries</span></a></li>
+			<li class="nav-item <?php if($currentURL==base_url('carriers')){ echo "active-menu"; } ?>" ><a href="<?php echo base_url('carriers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>
 				<li class="nav-item <?php if($currentURL==base_url('blog')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('blog');?>" class="nav-link"> <span class=" ">Blog</span></a></li>
 				<li class="nav-item <?php if($currentURL==base_url('contactus')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>
 			</ul>

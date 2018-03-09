@@ -1,4 +1,7 @@
-
+<head>
+	<title>Maintenance</title>
+	<meta name="description" content="Prachatech Software Solutions offers Website maintenance at affordable prices ">
+</head>
 <section id="masthead" role="banner" class="bod-st">
 
   <h1>

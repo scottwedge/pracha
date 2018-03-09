@@ -1,4 +1,7 @@
-
+<head>
+	<title>E-Commerce DEVELOPMENT</title>
+	<meta name="description" content="Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G) and Mobile Commerce (m-commerce). Mobile  commerce (m-commerce) is particularly done through mobile only.  We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions for our interested customers.">
+</head>
 <section id="masthead" role="banner" class="bod-st">
 
   <h1>

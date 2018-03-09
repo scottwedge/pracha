@@ -1,4 +1,5 @@
 <head>
+	<title>Services</title>
 	<meta name="description" content="We delight ourselves to offer the full spectrum of Web-services to serve our clients. We generate new Websites and decorate them with charming designs, and create content with magnetizing words. Mobile apps (Android & iOS), Digital Marketing, eCommerce Websites and many more services comes under our territory.">
 </head>
  <style>

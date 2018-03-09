@@ -1,4 +1,7 @@
-
+<head>
+	<title>WEB DEVELOPMENT</title>
+	<meta name="description" content="Web Development is of two types namely Front-end development and Back-end development. Front-end development is client side development and Back-end  development is server side development">
+</head>
 <section id="masthead" role="banner" class="bod-st">
 
   <h1>
@@ -19,7 +22,7 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18"><i>Let’s have a glimpse on Web Development, so that you will have an idea about what we offer.</i></p>
+		<p class="font-18"><i>Let’s have a glimpse on Web Development</i></p>
 	</div>
 	<h2 class="head-ing">Web Development</h2>
 	<div class="row justify-content-md-center" >

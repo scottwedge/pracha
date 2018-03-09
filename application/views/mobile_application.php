@@ -1,4 +1,7 @@
-
+<head>
+	<title> MOBILE APPLICATIONS</title>
+	<meta name="description" content="Mobile Apps can benefit your business in a real good manner. As per the   ABI’s latest research Mobile apps help boosting business upto 80%,	because people spend more time on mobiles than on TV or Computer. Mobile apps are three types namely: Native apps, Web apps and Hybrid apps.">
+</head>
 <section id="masthead" role="banner" class="bod-st">
 
   <h1>
@@ -19,7 +22,7 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18 text-dark"><i>Let’s have a glimpse on ‘Mobile Apps’ so that you will receive knowledge about mobile applications and our services.
+		<p class="font-18 text-dark"><i>Let’s have a glimpse on Mobile Apps
 </i></p>
 	</div>
 	</br>

@@ -1,3 +1,6 @@
+<head>
+	<title>Prachatech | Web Design and Development Company </title>
+</head>
 <div class="selectstate">
 <section class=" bod-st" >
     <!--Carousel Wrapper-->
@@ -25,10 +28,10 @@
             <!--Caption-->
             <div class="carousel-caption">
                 <div class="animated fadeInDown">
-                    <span class="text-white"><h2 ><span class="caption-sty">Create Your Online Presence Here!</span></h2></span>
+                    <span class="text-white"><h2 ><span class="caption-sty">Software & Digital Marketing House!!!</span></h2></span>
 					<div class="clearfix hid-320">&nbsp;</div>
 					<div class="row justify-content-md-center help-btn-sl">
-						<a href="<?php echo base_url('services'); ?>"  class="btn bg-warning"><i class="fa fa-gears mr-1"></i> &nbsp; Our Services</a>
+						<a href="<?php echo base_url('services'); ?>"  class="btn bg-warning"><i class="fa fa-gears mr-1"></i> &nbsp; Our Services</a><a href="<?php echo base_url('services'); ?>"  class="btn bg-warning"><i class="fa fa-gears mr-1"></i> &nbsp; Contact Us</a>
 						<!--<a href="<?php echo base_url('pracha/contactus'); ?>" class="btn btn-success"> <i class="fa fa-volume-control-phone  ml-1"></i> &nbsp; Talk to Us</a>-->
 					<div class="clearfix">&nbsp;</div>
 					</div>
@@ -374,6 +377,139 @@
 
 		</div>
 		<div class="clearfix">&nbsp;</div>
+    </div>
+
+</section><!--our industries-->
+<section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
+    <div class="container-sty card ">
+        <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h2>
+                    <span class="tit"> 
+									 <span class="des_t">Industries </span>we serve
+                    </span>
+                </h2>
+
+
+            </div>
+
+        </div>
+		<hr>
+
+       <div class="row">
+							<div class="col-xl-2 col-lg-6 mb-4">
+								<div class="card">
+									<div class="card-body text-center">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/real.png" class="my-3" alt="">
+										<div class="">
+											<strong>Real Estate and Property</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-6 mb-4">
+								<div class="card">
+									<div class="card-body text-center">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/demand.png" class="my-3" alt="">
+										<div class="">
+											<strong>On-Demand Solutions</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-6 mb-4">
+								<div class="card">
+									<div class="card-body text-center">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/sociali.png" class="my-3" alt="">
+										<div class="">
+											<strong>Social Networking<br></strong><br>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-6 mb-4">
+								<div class="card">
+									<div class="card-body text-center">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/food.png" class="my-3" alt="">
+										<div class="">
+											<strong>Food & Restaurant <br/><br/> </strong>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-6 mb-4">
+								<div class="card">
+									<div class="card-body text-center">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/bank.png" class="my-3" alt="">
+										<div class="">
+											<strong>Banking, Finance & Insurance</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-6 mb-4">
+								<div class="card">
+									<div class="card-body text-center">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/education.png" class="my-3" alt="">
+										<div class="">
+											<strong>Education & Training</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-6 mb-4">
+								<div class="card">
+									<div class="card-body text-center">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/ecommerce.png" class="my-3" alt="">
+										<div class="">
+											<strong>Ecommerce, Retail & B2B & B2C</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-6 mb-4">
+								<div class="card">
+									<div class="card-body text-center">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/hospital.png" class="my-3" alt="">
+										<div class="">
+											<strong>Travel & Hospitality  <br/></strong>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-6 mb-4">
+								<div class="card">
+									<div class="card-body text-center">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/fitness.png" class="my-3" alt="">
+										<div class="">
+											<strong>Healthcare & Fitness</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-6 mb-4">
+								<div class="card">
+									<div class="card-body text-center">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/transport.png" class="my-3" alt="">
+										<div class="">
+											<strong>Transport & Automotive</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-6 mb-4">
+								<div class="card">
+									<div class="card-body text-center">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/event.png" class="my-3" alt="">
+										<div class="">
+											<strong>Event and Tickets <br/><br/></strong>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+        <div class="clearfix">&nbsp;</div>
     </div>
 
 </section>

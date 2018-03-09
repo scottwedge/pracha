@@ -40,6 +40,17 @@
 	font-size:40px;
 	color:#555;
 }
+.font-25{
+	font-size:24px;
+
+}
+.mar-t20{
+	margin-top:20px;
+}
+.date-design{
+	color:#444;
+	margin-top:15px;
+}
 .pad-l-10{
 	padding-left:10px;
 }
@@ -52,6 +63,7 @@
 .active-menu{
 	background:#ff9800;
 	color:#fff;
+	border-radius:6px;
 }
 /* .bg-grow{ */
 	   /* background-image: url("../img/busin-grow.png "); */
@@ -256,11 +268,14 @@ a {
 	padding:0 30px;
 }
 .caption-sty{
-	font-size:25px;
-	border:2px solid #fff;
-	padding:15px 20px;
-	border-radius:6px;
-	background: #192f5d;
+	font-size:56px;
+	/* border:2px solid #fff; */
+	/* padding:15px 20px; */
+	/* border-radius:6px; */
+	/* background: #192f5d; */
+}
+.font-s56{
+	font-size:56px;
 }
 .caption-tit{
 	font-size:17px;

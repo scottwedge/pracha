@@ -1,4 +1,7 @@
-
+<head>
+	<title> DIGITAL MARKETING</title>
+	<meta name="description" content="Digital Marketing is just marketing of products or services using digital technologies.">
+</head>
 <section id="masthead" role="banner" class="bod-st">
 
   <h1>
@@ -20,7 +23,7 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18 text-dark"><i>Let’s have a glimpse on Digital Marketing, so that you will have an idea about what we offer.
+		<p class="font-18 text-dark"><i>Let’s have a glimpse on Digital Marketing
 </i></p>
 	</div><br>
 	<h2 class="head-ing">DIGITAL MARKETING</h2>
