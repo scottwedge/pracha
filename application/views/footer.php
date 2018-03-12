@@ -85,7 +85,7 @@
         <ul>
 		<li><h5>Follow us @</h5></li>
             <li>&nbsp;</li>
-            <li><a href="https://www.facebook.com/Prachatech-Software-Solutions-328172397673080/" target="_blank" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+            <li><a href="https://www.facebook.com/prachatech/" target="_blank" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
             <li><a href="https://twitter.com/Prachatech" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
            <li><a href="https://plus.google.com/103803990699303943827/" target="_blank" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
             <li><a href="https://www.linkedin.com/company/prachatech-software-solutions/" target="_blank" class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li></ul>
