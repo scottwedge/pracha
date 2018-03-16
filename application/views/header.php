@@ -16,7 +16,9 @@
     <link href="<?php echo base_url(); ?>assets/vendor/css/mdb.min.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>assets/vendor/css/compiled.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
+	<link href="<?php echo base_url(); ?>assets/vendor/css/custom.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>assets/vendor/css/style.css" rel="stylesheet">
+	
 	<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/jquery-3.2.1.min.js"></script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114861070-1"></script>
 <script>
@@ -43,14 +45,23 @@
 				<div class="dropdown">
 					<a class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
 				  <div class="dropdown-content1">
-					<a href="<?php echo base_url('servicesrm'); ?>">UI & UX Designing</a>
-					<a href="<?php echo base_url('develop_service'); ?>">Web Development</a>
-					<a href="<?php echo base_url('mobile_application'); ?>">Mobile Applications</a>
-					<a href="<?php echo base_url('digitalmarketing'); ?>"> Digital Marketing</a>
+				  <div class="row">
+				  <div class="col-md-6 bor-left">
+					<a href="<?php echo base_url('ui_and_ux_design'); ?>">UI & UX Designing</a>
+					<a href="<?php echo base_url('web_development'); ?>">Web Development</a>
+					<a href="<?php echo base_url('mobile_applications'); ?>">Mobile Applications</a>
+					<a href="<?php echo base_url('digital_marketing'); ?>"> Digital Marketing</a>
 					<!--<a href="<?php echo base_url('seo'); ?>">SEO</a>-->
 					<a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
-					<a href="<?php echo base_url('maintainence'); ?>"> Maintenance</a>
+					<a href="<?php echo base_url('website_maintainence'); ?>"> Software Maintenance</a>
 					
+				  </div>
+				  <div class="col-md-6">
+					<a href="<?php echo base_url('start_up'); ?>">Start-Up</a>
+					<a href="<?php echo base_url('enterprise'); ?>">Enterprise</a>
+					
+				  </div>
+				  </div>
 				  </div>
 				</div>
             </li>

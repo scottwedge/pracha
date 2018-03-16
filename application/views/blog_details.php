@@ -1,5 +1,5 @@
 <head>
-	<title>Blog	</title>
+	<title>How to  Optimize a Youtube Channel	</title>
 	<meta name="description" content="How to Create, Manage and Optimize a Youtube Channel
 			If you have the desire to attract audience attention across the world with your creative ideas and videos, then this article is for you.">
 </head>
@@ -52,7 +52,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text"> Click on “My Channel” on the Youtube menu, on the left side.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400"> Click on “My Channel” on the Youtube menu, on the left side.</h5>
 					
 				</div>
 			</div> 
@@ -61,7 +61,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Now click on “Use a business or other name” .</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Now click on “Use a business or other name” .</h5>
 					
 				</div>
 			</div>
@@ -70,7 +70,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Assign a name to your channel and also select your business category.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Assign a name to your channel and also select your business category.</h5>
 					
 				</div>
 			</div>
@@ -79,7 +79,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Then click on “I agree” icon.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Then click on “I agree” icon.</h5>
 					
 				</div>
 			</div>
@@ -88,7 +88,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">And click on “Done” icon; now you have created your Youtube channel!</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">And click on “Done” icon; now you have created your Youtube channel!</h5>
 					
 				</div>
 			</div>
@@ -112,7 +112,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text"> Use your Google Account.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400"> Use your Google Account.</h5>
 					
 				</div>
 			</div> 
@@ -121,7 +121,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Use a Brand Account.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Use a Brand Account.</h5>
 					
 				</div>
 			</div>
@@ -130,7 +130,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Use Brand Accounts managed by your Google account.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Use Brand Accounts managed by your Google account.</h5>
 					
 				</div>
 			</div>
@@ -172,7 +172,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Youtube is the 2nd largest search engine, behind Google.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Youtube is the 2nd largest search engine, behind Google.</h5>
 					
 				</div>
 			</div> 
@@ -181,7 +181,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Ranks 3rd globally.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Ranks 3rd globally.</h5>
 					
 				</div>
 			</div>
@@ -190,7 +190,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">100 hours of videos are uploaded every minute.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">100 hours of videos are uploaded every minute.</h5>
 					
 				</div>
 			</div>
@@ -199,7 +199,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">More than 30 million visitors per day.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">More than 30 million visitors per day.</h5>
 					
 				</div>
 			</div>
@@ -208,7 +208,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">5 billion videos are watched per day.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">5 billion videos are watched per day.</h5>
 					
 				</div>
 			</div>
@@ -217,7 +217,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Approximately 75% of views comes from mobile devices.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Approximately 75% of views comes from mobile devices.</h5>
 					
 				</div>
 			</div>
@@ -226,7 +226,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Approximately 75 countries post content in 80 languages.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Approximately 75 countries post content in 80 languages.</h5>
 					
 				</div>
 			</div>
@@ -235,7 +235,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">25% of Internet traffics flows through Youtube.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">25% of Internet traffics flows through Youtube.</h5>
 					
 				</div>
 			</div>
@@ -304,7 +304,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text"> Overall views - Obviously more views equal to higher ranks. </h5>
+					<h5 class=" text-left  dark-grey-text font-w-400"> Overall views - Obviously more views equal to higher ranks. </h5>
 					
 				</div>
 			</div> 
@@ -313,7 +313,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Rating (thumbs up and thumbs down) - Users can rate videos by clicking on thumbs up or thumbs down icon.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Rating (thumbs up and thumbs down) - Users can rate videos by clicking on thumbs up or thumbs down icon.</h5>
 					
 				</div>
 			</div>
@@ -322,7 +322,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Subscribers - When a user is inspired by a video, automatically they subscribe.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Subscribers - When a user is inspired by a video, automatically they subscribe.</h5>
 					
 				</div>
 			</div>
@@ -331,7 +331,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Number of social shares - When user likes your video, they will share it too.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Number of social shares - When user likes your video, they will share it too.</h5>
 				</div>
 			</div>
 			<div class="row pb-3">
@@ -339,7 +339,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Comments - When a video receives plenty of comments, it will also effect in ranking.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Comments - When a video receives plenty of comments, it will also effect in ranking.</h5>
 				</div>
 			</div>
 		
@@ -364,7 +364,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">You can target your audience worldwide.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">You can target your audience worldwide.</h5>
 					
 				</div>
 			</div> 
@@ -373,7 +373,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">You can build your email list.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">You can build your email list.</h5>
 					
 				</div>
 			</div>
@@ -382,7 +382,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Your content will live long.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Your content will live long.</h5>
 					
 				</div>
 			</div>
@@ -391,7 +391,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">Possibility to build backlinks to your site</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">Possibility to build backlinks to your site</h5>
 				</div>
 			</div>
 			<div class="row pb-3">
@@ -399,7 +399,7 @@ class="img-fluid">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 				</div>
 				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text">You can earn money through Google’s AdSense.</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400">You can earn money through Google’s AdSense.</h5>
 				</div>
 			</div>
 		
@@ -415,9 +415,9 @@ class="img-fluid">
 	</div>
 	</div>
 	<br>
-	
-	
 	<!--
+	
+	
 	
 	 <div class="row justify-content-md-center   ">
 	 <div class="col-md-10 card  " style="padding:0px;">
@@ -463,16 +463,25 @@ class="img-fluid">
 	 <div class="row justify-content-md-center   ">
 	 <div class="col-md-10 card  " style="padding:0px;">
 				
-			<div class="row pad30">
-			
+			<div class="row pad30 justify-content-md-center">
 			<div class="col-md-8">
-			<label>Comment</label>
-				<textarea  style="border:1px solid #ddd ;height:50px;" type="text" id="message" name="message"   required></textarea>
+				<form class="form-horizontal" action="/action_page.php">
+				  <div class="form-group">
+					<label class="control-label " for="email">Email:</label>
+					<div class="">
+					  <input type="email" class="form-control" style="border:1px solid #ddd;padding-left:10px;" id="email" placeholder="Enter email">
+					</div>
+				  </div>
+				<div>
+				<label>Comment</label>
+				<textarea  style="border:1px solid #ddd ;padding-left:10px; height:50px;" type="text" id="message" name="message"   required></textarea>
 			</div>
-			<div class="col-md-2">
-			<br>
+				<div class="">
 				<button class="btn btn-warning" type="submit">Send</button>
+				</div>
 			</div>
+		
+			</form>
 			</div>
 			<hr>
 			<div class="row pad30">

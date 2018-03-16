@@ -1,5 +1,5 @@
 <head>
-	<title>Services</title>
+	<title>Web Designing Services In Hyderabad</title>
 	<meta name="description" content="We delight ourselves to offer the full spectrum of Web-services to serve our clients. We generate new Websites and decorate them with charming designs, and create content with magnetizing words. Mobile apps (Android & iOS), Digital Marketing, eCommerce Websites and many more services comes under our territory.">
 </head>
  <style>
@@ -16,14 +16,14 @@
     top: 0px;
     z-index: 10000;
     border-radius: 0 0 0.5em 0.5em;
-	width:95.5%;
+	
 		
 }
 
   </style>
 <section class="bod-st">
 	<div class="img-responsive">
-	<img class="img-fluid"  src="<?php echo base_url(); ?>assets/vendor/img/serp1.png">
+	<img class="img-fluid"  src="<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png" alt="web design and development">
 	</div>
 </section>
 
@@ -89,7 +89,7 @@ We delight ourselves to offer the full spectrum of web-services to serve our cli
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ui.png" alt="Sample image for first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ui-and ux-design.png" alt="ui and ux design"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -104,7 +104,7 @@ We delight ourselves to offer the full spectrum of web-services to serve our cli
         
       
         <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>UI/UX DESIGNING</strong>
+        <strong>UI & UX DESIGNING</strong>
         </h3>
         <p>UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. In simple UI aims on website and UX aims on product, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user. 
 </p>
@@ -143,7 +143,8 @@ Web Development is of two types namely Front-end development and Back-end develo
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/webdevp.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/web-development.png" alt="Web 
+		Development"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -164,7 +165,7 @@ Web Development is of two types namely Front-end development and Back-end develo
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/app.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-development.png" alt="Mobile Application Development" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -209,7 +210,7 @@ Web Development is of two types namely Front-end development and Back-end develo
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/digital.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-marketing.png" alt="Digital Marketing" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -231,7 +232,7 @@ Web Development is of two types namely Front-end development and Back-end develo
         <!--Excerpt-->
      
         <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>E-Commerce Solutions</strong>
+        <strong>E-Commerce Website</strong>
         </h3>
         <p>Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G) and Mobile Commerce (m-commerce). Mobile  commerce (m-commerce) is particularly done through mobile only.  
 We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions for our interested customers. 
@@ -244,7 +245,7 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-website.png" alt="ecommerce website"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -279,7 +280,7 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/business-sol.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/business-solutions.png" alt="Business solutions"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -300,7 +301,7 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/maintenance.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/website-maintenance.png" alt="Website Maintenance" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>

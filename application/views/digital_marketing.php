@@ -1,5 +1,5 @@
 <head>
-	<title> DIGITAL MARKETING</title>
+	<title> Digital Marketing Company In Hyderabad</title>
 	<meta name="description" content="Digital Marketing is just marketing of products or services using digital technologies.">
 </head>
 <section id="masthead" role="banner" class="bod-st">
@@ -23,8 +23,7 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18 text-dark"><i>Let’s have a glimpse on Digital Marketing
-</i></p>
+		<p class="font-18 col-md-11">In reality Digital Marketing is very vast, it is an ongoing process that needs to be updated from time to time. The major functionalities in Digital Marketing are Search Engine Optimization (SEO),  Social Media Marketing (SMM), Google Adwords, Content Marketing, email Marketing, Google Analytics etc., let’s have a glimpse on these functions.</p>
 	</div><br>
 	<h2 class="head-ing">DIGITAL MARKETING</h2>
 	<div class="row justify-content-md-center" >
@@ -80,7 +79,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/seo.png" alt="Sample image for first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/search-engine-optimization.png" alt="Search Engine Optimization"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -91,15 +90,12 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8">
-        <!--Excerpt-->
-        
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Search Engine Optimization</strong>
+        </h2>
       
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Search Engine Optimization</strong>
-        </h3>
-        <p> SEO is an acronym for "Search Engine Optimization". SEO is the process of getting traffic  from the "organic" or "natural" search results on search engines results page. After conducting a thorough research on keywords and their volume, we choose the best and suitable keywords for your website and place them in the site without disturbing the fragrance of your content in order to make you visible in the webpages of the search engine. So that you will appear in the first page of the search engine and get recognized by your targeted customers, bypassing all your competitors. 
-</p>     <p>After conducting a thorough research on keywords and their volume, we choose the best and suitable keywords for your website and place them in the site without disturbing the fragrance of your content in order to make you visible in the webpages of the search engine. So that you will appear in the first page of the search engine and get recognized by your targeted customers,  bypassing all your competitors. 
-</p>
+        <p> SEO is an acronym for "Search Engine Optimization". SEO is the process of getting traffic  from the "organic" or "natural" search results on search engines results page. After conducting a thorough research on keywords and their volume, we choose the best and suitable keywords for your website and place them in the site without disturbing the fragrance of your content in order to make you visible in the webpages of the search engine. So that you will appear in the first page of the search engine and get recognized by your targeted customers, bypassing all your competitors. SEO is of two types, namely : <a href="<?php echo base_url('blog/what_is_onpage_and_offpage_optimization');?>"><b>Onpage Optimization and Offpage Optimization.</b></a></p>
+		
 		
     </div>
     <!--Grid column-->
@@ -114,11 +110,9 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8 pb-3">
-        <!--Excerpt-->
-       
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Social Media Marketing.</strong>
-        </h3>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Social Media Marketing.</strong>
+        </h2>
          <p>Social media marketing is the process of acquiring traffic or attention towards your website through social media sites. These social media networks radically spreads the information across the world by "Share button" , which may lead to various social actions. By using our vast social media network we promote your website digitally on social media (Facebook, Twitter, Linkedin, Pinterest, Google+ etc), so that there will be  a great opportunity for your business to reach maximum number of customers. We have the ability to focus on particular age groups, gender and geographical locations depending upon your product or service.</p> 
 		 <p>By using our vast social media network we promote your website digitally on social media (Facebook, Twitter, Linkedin, Google+ etc), so that there is a great opportunity for your business to reach maximum no. of customers. We have the ability to focus on particular age groups, gender and geographical locations depending upon your product.</p>
         
@@ -131,7 +125,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/smm.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/social-media-marketing.png" alt="Social Media Marketing."
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -152,7 +146,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/adwards.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/adwards.png" alt="Adwords" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -162,11 +156,9 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8">
-        <!--Excerpt-->
-      
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Adwords</strong>
-        </h3>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Adwords</strong>
+        </h2>
         <p>Through Google Adwords we run your campaigns or advertisements on internet. We are very much familiar with Google Search Network, Google Display Network and the Youtube Network  to show your banners, videos and text ads to the targeted customers. We focus them on particular age groups or gender or geographical locations depending upon your budget and the product or service you offer. We refer our clients to opt for PPC(Pay per Click) or Pay per 1000 impressions depending upon the budget.  </p>
         
 		 
@@ -181,11 +173,9 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8 pb-3">
-        <!--Excerpt-->
-     
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Content Marketing</strong>
-        </h3>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Content Marketing</strong>
+        </h2>
         <p>Content marketing is full of strategies to approach the targeted customers. Here we focus on creating a fresh content, sharing blogs or articles and maintain a consistent content to retain the former customers and to attract the new visitors, finally to drive a profitable action.Marketing is impossible without great content, so we have a team of in-house contents writers who can serve our clients with their content.  
 </p>
        
@@ -196,7 +186,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/conte-mang.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/content-marketing.png" alt="Content Marketing"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -217,7 +207,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/email-mark.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/email-marketing.png" alt="Email Marketing" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -227,11 +217,9 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8">
-        <!--Excerpt-->
-        
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Email Marketing</strong>
-        </h3>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Email Marketing</strong>
+        </h2>
         <p>We collect the emails of your customers through our resources and promote your latest events, newsletters, blog post etc to their inboxes. People who are interested will obviously return to your website, it's just a call of remembrance to your clients as they were busy in their day to day activities.This is also a way to drive traffic to your website.</p>
        
 		
@@ -248,11 +236,9 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8 pb-3">
-        <!--Excerpt-->
-     
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Google Analytics</strong>
-        </h3>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Google Analytics</strong>
+        </h2>
         <p>We track each and every event of your website by implementing a tracking code and setup data filters on  Google Analytics, for we have a special team to monitor each and every move of your website. We collect audience reports, acquisition reports and behaviour reports of your website and analyze them and remarket them for better targeting with dynamic remarketing.
  </p>
        
@@ -263,7 +249,8 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/google-an.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>
+assets/vendor/img/google-analytics.png" alt="Google Analytics"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -295,515 +282,6 @@
 
 <div class="clearfix">&nbsp;</div>
 
-
-<!--
-<div class="" style="padding:0px 30px;">
-	<section id="digitalmarketing_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/digitbac1.png'); height: 100%;">
-	
-  <div class="row  text-center">
-            <div class="col-sm-12 mb-20 pt-30">
-
-                <h2>
-                    <span class="tit bg-dark" >
-									Social  Media <span class="des_t"> Optimization
-                    </span> Pricing 
-                </h2>
-
-
-            </div>
-			
-
-        </div>
-		  <div class="clearfix">&nbsp;</div>
- 
-  <ul class="box">
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">Basic</span></div>
-          <div class="description"> <pre class="price-ani ">₹ 7,999</pre></div>
-         
-        </div>
-        <div class="popular color-1-font  fa fa-hand-o-right"></div>
-        <div class="back color-1-bg info">
-          <div class="title">Basic</div>
-          <div class="description">
-            <h3>₹ 7,999</h3>
-            <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
- 
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total">Bronze</span></div>
-          <div class="description"> <pre class="price-ani ">₹ 19,999</pre></div>
-        </div>
-        <div class="popular color-2-font fa fa-hand-o-right"></div>
-        <div class="back color-2-bg info">
-          <div class="title">Bronze</div>
-          <div class="description">
-            <h3>₹ 19,999</h3>
-            <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
- 
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">Silver</span></div>
-          <div class="description"><pre class="price-ani ">₹ 26,999</pre></div>
-        </div>
-        <div class="popular color-3-font fa fa-hand-o-right"></div>
-        <div class="back color-3-bg info">
-          <div class="title">Silver</div>
-          <div class="description">
-         <h3>₹ 26,999</h3>
-            <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-4-font fa fa-hand-o-down"></div>
-          <div class="price color-4-font"><span class="total">Gold</span></div>
-          <div class="description"><pre class="price-ani ">₹ 39,999</pre></div>
-        </div>
-        <div class="popular color-4-font fa fa-hand-o-right"></div>
-        <div class="back color-4-bg info">
-          <div class="title">Gold</div>
-          <div class="description">
-             <h3>₹ 39,999</h3>
-            <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-	<li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total" style="font-size:30px;">Platinum</span></div>
-          <div class="description"><pre class="price-ani ">₹ 55,999</pre></div>
-        </div>
-        <div class="popular color-2-font fa fa-hand-o-right"></div>
-        <div class="back color-2-bg info">
-          <div class="title" style="font-size:20px;">Platinum</div><br>
-          <div class="description">
-            <h3>₹ 55,999</h3>
-            <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-	<li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">Diamond</span></div>
-          <div class="description"><pre class="price-ani ">₹ 69,999</pre></div>
-        </div>
-        <div class="popular color-3-font fa fa-hand-o-right"></div>
-        <div class="back color-3-bg info">
-          <div class="title">Diamond</div>
-          <div class="description">
-         <h3>₹ 69,999</h3>
-            <a href="<?php echo base_url('digitalmarketing/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  </ul>
-
-</section>
-<section id="digitalmarketing_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/bac2.png'); height: 100%;">
-	
-  <div class="row  text-center">
-            <div class="col-sm-12 mb-20 pt-30">
-
-                <h2>
-                    <span class="tit bg-dark" >
-									Search Engine <span class="des_t"> Optimization
-                    </span> Pricing 
-                </h2>
-
-
-            </div>
-			
-
-        </div>
-		  <div class="clearfix">&nbsp;</div>
-  
-  <ul class="box">
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">Basic</span></div>
-          <div class="description"> <pre class="price-ani ">₹ 6,999</pre></div>
-         
-        </div>
-        <div class="popular color-1-font  fa fa-hand-o-right"></div>
-        <div class="back color-1-bg info">
-          <div class="title">Basic</div>
-          <div class="description">
-            <h3>₹ 6,999</h3>
-            <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total">bronze</span></div>
-          <div class="description"> <pre class="price-ani ">₹ 17,999</pre></div>
-        </div>
-        <div class="popular color-2-font fa fa-hand-o-right"></div>
-        <div class="back color-2-bg info">
-          <div class="title">bronze</div>
-          <div class="description">
-            <h3>₹ 17,999</h3>
-            <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">Silver</span></div>
-          <div class="description"><pre class="price-ani ">₹ 29,999</pre></div>
-        </div>
-        <div class="popular color-3-font fa fa-hand-o-right"></div>
-        <div class="back color-3-bg info">
-          <div class="title">Silver</div>
-          <div class="description">
-         <h3>₹ 29,999</h3>
-            <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-4-font fa fa-hand-o-down"></div>
-          <div class="price color-4-font"><span class="total">Gold</span></div>
-          <div class="description"><pre class="price-ani ">₹ 35,999</pre></div>
-        </div>
-        <div class="popular color-4-font fa fa-hand-o-right"></div>
-        <div class="back color-4-bg info">
-          <div class="title">Gold</div>
-          <div class="description">
-             <h3>₹ 35,999</h3>
-            <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-	<li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total" style="font-size:30px;">Platinum</span></div><br>
-          <div class="description"><pre class="price-ani ">₹ 49,999</pre></div>
-        </div>
-        <div class="popular color-2-font fa fa-hand-o-right"></div>
-        <div class="back color-2-bg info">
-          <div class="title" style="font-size:20px;">Platinum</div><br>
-          <div class="description">
-            <h3>₹ 49,999</h3>
-            <a href="#" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-	<li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">Diamond</span></div>
-          <div class="description"><pre class="price-ani ">₹65,999</pre></div>
-        </div>
-        <div class="popular color-3-font fa fa-hand-o-right"></div>
-        <div class="back color-3-bg info">
-          <div class="title">Diamond</div>
-          <div class="description">
-         <h3>₹ 65,999</h3>
-            <a href="<?php echo base_url('seo/readmore'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  </ul>
-
-</section>
-<div class="clearfix">&nbsp;</div>
-</div>
-<div class="" style="padding:0px 30px;">
-<section class="content_wrap  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/seobac1.png'); height: 500px;" >
-	
-  <div class="row  text-center">
-            <div class="col-sm-12 mb-20 pt-30">
-
-                <h2>
-                    <span class="tit bg-dark" >
-									PPC  <span class="des_t">( pay-per-click )
-                    </span> Pricing 
-                </h2>
-
-
-            </div>
-			
-
-        </div>
-		  <div class="clearfix">&nbsp;</div>
-  
-  <ul class="box">
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">Basic</span></div>
-          <div class="description"> <pre class="price-ani ">₹ 7,999</pre></div>
-         
-        </div>
-        <div class="popular color-1-font  fa fa-hand-o-right"></div>
-        <div class="back color-1-bg info">
-          <div class="title">Basic</div>
-          <div class="description">
-            <h3>₹ 7,999</h3>
-            <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total">Bronze</span></div>
-          <div class="description"> <pre class="price-ani ">₹ 19,999</pre></div>
-        </div>
-        <div class="popular color-2-font fa fa-hand-o-right"></div>
-        <div class="back color-2-bg info">
-          <div class="title">Bronze</div>
-          <div class="description">
-            <h3>₹ 19,999</h3>
-            <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">Silver</span></div>
-          <div class="description"><pre class="price-ani ">₹ 26,999</pre></div>
-        </div>
-        <div class="popular color-3-font fa fa-hand-o-right"></div>
-        <div class="back color-3-bg info">
-          <div class="title">Silver</div>
-          <div class="description">
-         <h3>₹ 26,999</h3>
-            <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-4-font fa fa-hand-o-down"></div>
-          <div class="price color-4-font"><span class="total">Gold</span></div>
-          <div class="description"><pre class="price-ani ">₹ 39,999</pre></div>
-        </div>
-        <div class="popular color-4-font fa fa-hand-o-right"></div>
-        <div class="back color-4-bg info">
-          <div class="title">Gold</div>
-          <div class="description">
-             <h3>₹ 39,999</h3>
-            <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-	
-	<li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">Platinum</span></div>
-          <div class="description"><pre class="price-ani ">₹ 55,999</pre></div>
-        </div>
-        <div class="popular color-3-font fa fa-hand-o-right"></div>
-        <div class="back color-3-bg info">
-          <div class="title">Platinum</div>
-          <div class="description">
-         <h3>₹ 55,999</h3>
-            <a href="<?php echo base_url('seo/ppc'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  </ul>
-
-</section>
-</div>
-<div class="" style="padding:0px 30px;">
-<section class="content_wrap  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/bac2.png'); background-repeat: repeat; height: 500px;" >
-	
-  <div class="row  text-center">
-            <div class="col-sm-12 mb-20 pt-30">
-
-                <h2>
-                    <span class="tit bg-dark" >
-									Affilate   <span class="des_t">Management
-                    </span> Pricing 
-                </h2>
-
-
-            </div>
-			
-
-        </div>
-		  <div class="clearfix">&nbsp;</div>
-  
-  <ul class="box">
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">Basic</span></div>
-          <div class="description"> <pre class="price-ani ">₹ 10,999</pre></div>
-         
-        </div>
-        <div class="popular color-1-font  fa fa-hand-o-right"></div>
-        <div class="back color-1-bg info">
-          <div class="title">Basic</div>
-          <div class="description">
-            <h3>₹ 10,999</h3>
-            <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total">Bronze</span></div>
-          <div class="description"> <pre class="price-ani ">₹ 17,999</pre></div>
-        </div>
-        <div class="popular color-2-font fa fa-hand-o-right"></div>
-        <div class="back color-2-bg info">
-          <div class="title">Bronze</div>
-          <div class="description">
-            <h3>₹ 17,999</h3>
-            <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">Silver</span></div>
-          <div class="description"><pre class="price-ani ">₹ 29,999</pre></div>
-        </div>
-        <div class="popular color-3-font fa fa-hand-o-right"></div>
-        <div class="back color-3-bg info">
-          <div class="title">Silver</div>
-          <div class="description">
-         <h3>₹ 29,999</h3>
-            <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-4-font fa fa-hand-o-down"></div>
-          <div class="price color-4-font"><span class="total">Gold</span></div>
-          <div class="description"><pre class="price-ani ">₹ 34,999</pre></div>
-        </div>
-        <div class="popular color-4-font fa fa-hand-o-right"></div>
-        <div class="back color-4-bg info">
-          <div class="title">Gold</div>
-          <div class="description">
-             <h3>₹ 34,999</h3>
-            <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-	
-	<li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">Platinum</span></div>
-          <div class="description"><pre class="price-ani ">₹ 49,999</pre></div>
-        </div>
-        <div class="popular color-3-font fa fa-hand-o-right"></div>
-        <div class="back color-3-bg info">
-          <div class="title">Platinum</div>
-          <div class="description">
-         <h3>₹ 49,999</h3>
-            <a href="<?php echo base_url('seo/affilatemanagement'); ?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  </ul>
-
-</section>	
-</div>-->
 <div class="clearfix">&nbsp;</div>
 
 
@@ -844,7 +322,7 @@ var canvas = document.getElementById('nodes')
   ;
 
   canvas.width = window.innerWidth;
-  canvas.height = 500;
+  canvas.height = 350;
   maxPoolSize = ( canvas.width * canvas.height ) / 6000
 
   function Boid(x,y) {

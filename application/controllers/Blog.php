@@ -19,11 +19,18 @@ public function __construct()
 		$this->load->view('blog');
 		$this->load->view('footer');
 	}
-	public function details()
+	public function how_to_create_manage_and_optimize_a_youtube_channel()
 	{
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('blog_details');
+		$this->load->view('footer');
+	}
+	public function what_is_onpage_and_offpage_optimization()
+	{
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
+		$this->load->view('blog2_details');
 		$this->load->view('footer');
 	}
 	

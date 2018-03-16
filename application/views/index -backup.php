@@ -1,5 +1,5 @@
 <head>
-	<title>Prachatech | Web Designing Company In Hyderabad </title>
+	<title>Prachatech | Web Design and Development Company </title>
 </head>
 <div class="selectstate">
 <section class=" bod-st" >
@@ -40,7 +40,7 @@
 						<!--<a href="<?php echo base_url('pracha/contactus'); ?>" class="btn btn-success"> <i class="fa fa-volume-control-phone  ml-1"></i> &nbsp; Talk to Us</a>-->
 					<div class="clearfix">&nbsp;</div>
 					</div>
-					<div class="row mt-15-ban justify-content-md-center md-hide">
+					<div class="row mt-15-ban justify-content-md-center">
 						<div class="col-4 caption-tit">
 							<span class=""><a href="<?php echo base_url('servicesrm'); ?>">UI & UX Design</a>, <a href="<?php echo base_url('develop_service'); ?>">Web Design & Development </a></span>
 						</div>
@@ -51,34 +51,64 @@
 							<span class=""> <a href="<?php echo base_url('digitalmarketing'); ?>">Digital Marketing </span><br><span class="font-size:12px;">(SEO, SMM, Adwords,  etc.)</span></a>
 						</div>
 					</div>
-					<div class="row mar-t150 sm-hide justify-content-md-center" >
-						<ul class="menu-service ">
-							<a href="#"><li style="border-left:none;">Start-Up</li></a>
-							<a href="#"><li >Enterprise</li></a>
-							<a href="<?php echo base_url('ui_and_ux_design'); ?>"><li >UI & UX Designing</li></a>
-							<a href="<?php echo base_url('web_development'); ?>"><li>Web Development</li></a>
-							<a href="<?php echo base_url('mobile_applications'); ?>"><li> App Development</li></a>
-							<a href="<?php echo base_url('digital_marketing'); ?>"><li>Digital Marketing</li></a>
-							<a href="<?php echo base_url('ecommerce'); ?>"><li>E-Commerce Website</li></a>
-							
-							<a href="<?php echo base_url('website_maintainence'); ?>"><li style="border:none;">Maintenance</li></a>
-							
-						</ul>
-				</div>
 					
                    
                 </div>
             </div>
             <!--Caption-->
         </div>
+        <!-- /.First slide -->
         
+        <!-- Second slide -->
+        <!--<div class="carousel-item">
+          
+            <div class="view hm-purple-slight">
+              
+                <video class="video-fluid" autoplay loop>
+                    <source src="videos/vid2.mp4" type="video/mp4" />
+                </video>
+                <div class="mask"></div>
+            </div>
+
+           
+            <div class="carousel-caption">
+                <div class="animated fadeInDown">
+                    <h3 class="h3-responsive">Super light mask</h3>
+                    <p>Secondary text</p>
+                </div>
+            </div>
+        
+        </div>
+   
+        
+
+        <div class="carousel-item">
+ 
+            <div class="view hm-black-strong">
+        
+                <video class="video-fluid" autoplay loop>
+                    <source src="videos/vid4.mov" type="video/mp4" />
+                </video>
+                <div class="mask"></div>
+            </div>
+
+   
+            <div class="carousel-caption">
+                <div class="animated fadeInDown">
+                    <h3 class="h3-responsive">Strong mask</h3>
+                    <p>Third text</p>
+                </div>
+            </div>
+       
+        </div>
+      -->
     </div>
   
     <!--/.Controls-->
 </div>
 <!--Carousel Wrapper-->
 </section>
-<section id="seric-sc" class="our_service padding-10 ptb-xs-60 mar-150">
+<section id="seric-sc" class="our_service padding-10 ptb-xs-60">
     <div class="container-sty card ">
       <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
@@ -1224,7 +1254,7 @@
 </section>
 
 
-
+<div class="clearfix">&nbsp;</div>
 <script>
 $("#alert-target").click(function () {
     toastr["info"]("test alert!")

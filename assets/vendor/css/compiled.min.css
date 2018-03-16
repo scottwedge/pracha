@@ -2209,7 +2209,7 @@ fieldset[disabled] a.btn {
 }
 .btn-warning {
 	color: #111;
-	border-color: #ffc107
+	border-color: #ff9800
 }
 .btn-warning:hover {
 	color: #111;
@@ -2222,8 +2222,8 @@ fieldset[disabled] a.btn {
 }
 .btn-warning.disabled,
 .btn-warning:disabled {
-	background-color: #ffc107;
-	border-color: #ffc107
+	background-color: #ff9800;
+	border-color: #ff9800
 }
 .btn-warning.active,
 .btn-warning:active,
@@ -2401,15 +2401,15 @@ fieldset[disabled] a.btn {
 }
 .btn-outline-warning.disabled,
 .btn-outline-warning:disabled {
-	color: #ffc107;
+	color: #ff9800;
 	background-color: transparent
 }
 .btn-outline-warning.active,
 .btn-outline-warning:active,
 .show>.btn-outline-warning.dropdown-toggle {
 	color: #fff;
-	background-color: #ffc107;
-	border-color: #ffc107
+	background-color: #ff9800;
+	border-color: #ff9800
 }
 .btn-outline-danger {
 	background-image: none
@@ -5170,7 +5170,7 @@ a.bg-dark:hover {
 	border-color: #17a2b8!important
 }
 .border-warning {
-	border-color: #ffc107!important
+	border-color: #ff9800!important
 }
 .border-danger {
 	border-color: #dc3545!important
@@ -7525,7 +7525,7 @@ a.text-info:hover {
 	color: #117a8b!important
 }
 .text-warning {
-	color: #ffc107!important
+	color: #ff9800!important
 }
 a.text-warning:focus,
 a.text-warning:hover {
@@ -8195,10 +8195,10 @@ a.text-dark:hover {
 	background-color: #ffca28!important
 }
 .amber {
-	background-color: #ffc107!important
+	background-color: #ff9800!important
 }
 .amber-text {
-	color: #ffc107!important
+	color: #ff9800!important
 }
 .amber.darken-1 {
 	background-color: #ffb300!important

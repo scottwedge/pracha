@@ -1,5 +1,5 @@
 <head>
-	<title>WEB DEVELOPMENT</title>
+	<title>Web Development Company In Hyderabad</title>
 	<meta name="description" content="Web Development is of two types namely Front-end development and Back-end development. Front-end development is client side development and Back-end  development is server side development">
 </head>
 <section id="masthead" role="banner" class="bod-st">
@@ -21,13 +21,13 @@
 <section class="mar-mi140">
 <div class="container-sty card " >
 
-	<div class="row justify-content-md-center" >
-		<p class="font-18"><i>Let’s have a glimpse on Web Development</i></p>
-	</div>
+	<div class="row  justify-content-md-center" >
+		<p class="font-18 col-md-11">Under Web Design and Development services, we focus on many principal things to make the website much attractive, we focus on  Custom Application Development, Content Management System, eCommerce Website and MEAN Stack Development etc., so lets have a glimpse on every attribute and its functionalities.</p>
+	</div><br>
 	<h2 class="head-ing">Web Development</h2>
 	<div class="row justify-content-md-center" >
 		
-		<p class="col-md-11">Web Development is of two types namely Front-end development and Back-end development. Front-end development is client side development and Back-end  development is server side development. </p>
+		<p class="col-md-11 font-18">Web Development is of two types namely Front-end development and Back-end development. Front-end development is client side development and Back-end  development is server side development. </p>
 		</div>
 		
 <div class=" "  id="navbarSupportedContent" >
@@ -66,7 +66,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/cusdev.png" alt="Sample image for first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/custom-application-development.png" alt="Custom application development"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -77,12 +77,9 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8">
-        <!--Excerpt-->
-        
-      
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Custom Application Development</strong>
-        </h3>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Custom Application Development</strong>
+        </h2>
         <p>Custom application development is the designing of software applications for a specific user within an organisation. Every business demands its own requirements, so we build complex applications to address your unique business needs. We offer a wide range of applications like Enterprise  application, web application, mobile apps development, business application, eCommerce application etc. These kind of configurable solutions are very  essential to the applications to customize the organisation's processes and its workflows. These are particularly designed for custom design customers with most demanding challenges  and cost effective.</p>
 		
     </div>
@@ -98,11 +95,10 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8 pb-3">
-        <!--Excerpt-->
+         <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Content Management System (CMS)</strong>
+        </h2>
        
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Content Management System (CMS)</strong>
-        </h3>
          <p>Content Management System is a user friendly technology that manages  the content within the website, now it is also a powerful tool on the internet for web development. Generally CMS is used for the websites where content is changed very often.  </p>
 		<p>The most popular open source content management systems are Wordpress, Drupal, Thumbler and Joomla. CMS  has high performance & scalability, and can easily integrate with other technologies and work on various platforms. In open source, we can do our own modifications in our desired way.</p>
     </div>
@@ -112,7 +108,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/cms.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/content-management-system.png" alt="Content Management System (CMS)"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -133,7 +129,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ecomdev.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-web-development.png" alt="eCommerce web Development" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -143,13 +139,10 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8">
-        <!--Excerpt-->
-      
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>eCommerce Development</strong>
-        </h3>
-        <p>Electronic commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G) and Mobile Commerce (m-commerce). Mobile  commerce (m-commerce) is particularly done through mobile only.  
-We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions for our interested customers.</p>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>eCommerce Web  Development</strong>
+        </h2>
+        <p>Electronic commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce websites namely: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G) and Mobile Commerce (m-commerce). Mobile  commerce (m-commerce) is particularly done through mobile only. <br>We are one of the best  eCommerce website developers in Hyderabad, who offer services for our existing clients (ecommerce websites), and develop new ecommerce websites with highly secured payment transactions and many other user friendly functionalities  for our customers.</p>
         
 		 
     </div>
@@ -163,11 +156,9 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8 pb-3">
-        <!--Excerpt-->
-     
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>MEAN Stack Development</strong>
-        </h3>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>MEAN Stack Development</strong>
+        </h2>
         <p>MEAN is a combination of technologies that makes simple and quick to create web applications. MEAN is an open-source software package that combines the four most advanced web development frameworks. </p>
 		<p>Mongo DB - Is the database that stores your application.</p>
 		<p>Express.js - Provides more robust features to your application and acts as a backend web framework.</p>	
@@ -182,7 +173,7 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mean.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mean-stack-development.png" alt="MEAN Stack Development"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -209,143 +200,7 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
 	
 </section>
 <div class="clearfix">&nbsp;</div>
-<!--
-<div class="" style="padding:0px 30px;">
 
-	<section id="designing_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/devpbac1.png'); height: 100%;">
-	
-  <div class="row  text-center">
-            <div class="col-sm-12 mb-20 pt-30">
-
-                <h2>
-                    <span class="tit bg-dark" >
-									Dynamic <span class="des_t">  Web Development 
-                    </span> Pricing
-                </h2>
-
-
-            </div>
-			
-
-        </div>
-		  <div class="clearfix">&nbsp;</div>
-  
-  <ul class="box">
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">One Page</span></div>
-          <div class="description">0-1 Page<pre class="price-ani ">₹ 5,999</pre></div>
-         
-        </div>
-        <div class="popular color-1-font  fa fa-hand-o-right"></div>
-        <div class="back color-1-bg info">
-          <div class="title">One Page</div>
-          <div class="description">
-            <h3>₹ 5,999</h3>
-            <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-	</ul>
-	  <ul class="box">
-	<li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">Basic</span></div>
-          <div class="description">1-4 Page<pre class="price-ani ">₹ 9,999</pre></div>
-         
-        </div>
-        <div class="popular color-1-font  fa fa-hand-o-right"></div>
-        <div class="back color-1-bg info">
-          <div class="title">Basic</div>
-          <div class="description">
-            <h3>₹ 9,999</h3>
-            <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total">Bronze</span></div>
-          <div class="description">5-10 Page <pre class="price-ani ">₹ 15,999</pre></div>
-        </div>
-        <div class="popular color-2-font fa fa-hand-o-right"></div>
-        <div class="back color-2-bg info">
-          <div class="title">Bronze</div>
-          <div class="description">
-            <h3>₹ 15,999</h3>
-            <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
- 
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">Silver</span></div>
-          <div class="description">11-16 Page <pre class="price-ani ">₹ 19,999</pre></div>
-        </div>
-        <div class="popular color-3-font fa fa-hand-o-right"></div>
-        <div class="back color-3-bg info">
-          <div class="title">Silver</div>
-          <div class="description">
-         <h3>₹ 19,999</h3>
-            <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-4-font fa fa-hand-o-down"></div>
-          <div class="price color-4-font"><span class="total">Gold</span></div>
-          <div class="description">17-25 pages <pre class="price-ani ">₹ 27,999</pre></div>
-        </div>
-        <div class="popular color-4-font fa fa-hand-o-right"></div>
-        <div class="back color-4-bg info">
-          <div class="title">Gold</div>
-          <div class="description">
-             <h3>₹ 27,999</h3>
-            <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
-	<li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total" style="font-size:30px;">Platinum</span></div>
-          <div class="description">Unlimited Pages<pre class="price-ani ">₹ 34,999</pre></div>
-        </div>
-        <div class="popular color-2-font fa fa-hand-o-right"></div>
-        <div class="back color-2-bg info">
-          <div class="title" style="font-size:20px;">Platinum</div><br>
-          <div class="description">
-            <h3>₹ 34,999</h3>
-            <a href="<?php echo base_url('Develop_overview');?>" class="btn btn-danger">Read more..</a>
-          </div>
-        </div>
-      </div>
-    </li>
- 
-  </ul>
-
-</section>
-</div>-->
 
 
    <script>
@@ -384,7 +239,7 @@ var canvas = document.getElementById('nodes')
   ;
 
   canvas.width = window.innerWidth;
-  canvas.height = 500;
+  canvas.height = 350;
   maxPoolSize = ( canvas.width * canvas.height ) / 6000
 
   function Boid(x,y) {

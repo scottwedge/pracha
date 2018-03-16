@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Develop_service extends CI_Controller {
+class Enterprise extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,16 +22,10 @@ class Develop_service extends CI_Controller {
 	{
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
-		$this->load->view('develop_service');
+		$this->load->view('enterprise');
 		$this->load->view('footer');
 	}
-	public function price(){
-		redirect('develop_service#designing_price');
-		
-	}
-	public function commerce_price(){
-		redirect('develop_service#commerce_price');
-		
-	}
+	
+	
 	
 }

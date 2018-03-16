@@ -1,11 +1,11 @@
 <head>
-	<title>Maintenance</title>
+	<title>Website Maintenance In Hyderabad</title>
 	<meta name="description" content="Prachatech Software Solutions offers Website maintenance at affordable prices ">
 </head>
 <section id="masthead" role="banner" class="bod-st">
 
   <h1>
- Maintenance<br /><br><p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Website Maintenance", "Mobile Applications Maintenance", "Digital Marketing Maintenance","SEO Maintenance", " " ]'>
+ Website Maintenance<br /><br><p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Website Maintenance", "Mobile Applications Maintenance", "Digital Marketing Maintenance","SEO Maintenance", " " ]'>
    
   </p>
  
@@ -24,7 +24,7 @@
 
 			<h2 class="font-14">
 				<span class="tit"> 
-								   <span class="des_t">  Maintenance</span> 
+								   <span class="des_t">  Website Maintenance</span> 
 				</span>
 			</h2>
 			
@@ -331,7 +331,7 @@ var canvas = document.getElementById('nodes')
   ;
 
   canvas.width = window.innerWidth;
-  canvas.height = 500;
+  canvas.height = 350;
   maxPoolSize = ( canvas.width * canvas.height ) / 6000
 
   function Boid(x,y) {

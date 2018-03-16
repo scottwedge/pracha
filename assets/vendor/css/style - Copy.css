@@ -2,16 +2,6 @@
 	padding:0;
 	margin:0
 }
-p{
-	font-size:18px;
-}
-.head-h2{
-	font-size:35px;
-}
-.font-w-400{
-	font-weight:400;
-	line-height:30px;
-}
 .mar-tb10{
 	margin-top:10px;
 	margin-bottom:5px;
@@ -314,11 +304,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     margin-top: 0px !important;
     position: fixed;
     top: 0px;
-	left:0px;
     z-index: 10000;
     border-radius: 0 0 0.5em 0.5em;
-	width:100% !important;
-	margin:0px !important;
+	width:90.5% !important;
 		
 }
 .li-help{
@@ -407,7 +395,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   -moz-animation: gradientAnimation 240s ease infinite;
   -webkit-animation: gradientAnimation 240s ease infinite;
   animation: gradientAnimation 240s ease infinite;
-  min-height: 400px;
+  min-height: 500px;
   position: relative;
   overflow: hidden;
 }
@@ -419,7 +407,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   font-size: 50px;
   font-weight: 100;
   position: relative;
-  top: 110px;
+  top: 180px;
   max-width: 90%;
   z-index: 1;
   word-spacing: 0.3em;
@@ -1133,12 +1121,11 @@ z-index:0;
        display: none;
     position: absolute;
     background-color: #192f5d;
-    min-width: 450px;
+    min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1024;
-    left: -150px;
+    right: -52px;
     color: #fff;
-	
 }
 
 .dropdown-content1 a {
@@ -2179,46 +2166,6 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 /* chating  css end */
 
 @media only screen and (max-width: 767px) {
-	/* /* new design */ */
-	/* .centered { */
-    /* position: absolute; */
-    /* top: 100px; */
-	/* width:100%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
-/* } */
-.centered p{
-	font-size:12px !important;
-	color:#fff;
-	text-align:center;
-	font-weight:300;
-	 font-style: italic;
-	 letter-spacing: 2px;
-}
-	.centered h2{
-	font-size:20px;
-	color:#fff;
-	text-align:center;
-	line-height:20px;
-	text-shadow: 2px 2px 4px #333;
-}
-	.dropdown-content1 {
-       display: none;
-    position: absolute;
-    background-color: #192f5d;
-    min-width: 300px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1024;
-    left: 0px;
-    color: #fff;
-	
-}
-.mar-150{
-	margin-top:10px !important;
-	}
-.mar-t150{
-	margin-top:50px;
-}
     /* For mobile phones: */
   .bod-st{
 	margin-top:50px;
@@ -2335,7 +2282,6 @@ h2 {
 	height:200px;
 	
 }
-
 }
 @media only screen and (max-width: 320px) {
 	.caption-sty {
@@ -2453,7 +2399,4 @@ font-size: 9px;
 .pad30 {
 	padding:30px;
 }
-.help-blog .col-lg-4{
-	
-	margin:0 6px;
-}
+/* social btn end in blog */

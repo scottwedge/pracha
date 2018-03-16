@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Mobile_application extends CI_Controller {
+class Mobile_applications extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.

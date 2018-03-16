@@ -1,5 +1,5 @@
 <head>
-	<title>Contact us</title>
+	<title>Industries</title>
 	
 </head>
  <section  class=" bod-st">
@@ -16,7 +16,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/real.png" class="my-3" alt="Real Estate and Property">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/real-estate.png" class="my-3" alt="Real Estate and Property">
 										<div class="">
 											<strong>Real Estate and Property</strong>
 										</div>

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Servicesrm extends CI_Controller {
+class Website_maintainence extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,12 +22,9 @@ class Servicesrm extends CI_Controller {
 	{
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
-		$this->load->view('servicesrm');
+		$this->load->view('maintainence');
 		$this->load->view('footer');
 	}
-	public function designing_price(){
-		redirect('#designing_price');
-		
-	}
+	
 	
 }

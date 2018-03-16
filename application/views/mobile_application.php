@@ -1,5 +1,5 @@
 <head>
-	<title> MOBILE APPLICATIONS</title>
+	<title> Mobile App Developers In Hyderabad </title>
 	<meta name="description" content="Mobile Apps can benefit your business in a real good manner. As per the   ABI’s latest research Mobile apps help boosting business upto 80%,	because people spend more time on mobiles than on TV or Computer. Mobile apps are three types namely: Native apps, Web apps and Hybrid apps.">
 </head>
 <section id="masthead" role="banner" class="bod-st">
@@ -22,8 +22,7 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18 text-dark"><i>Let’s have a glimpse on Mobile Apps
-</i></p>
+		<p class="font-18 col-md-11">As per latest Google reports, two in five Google searches is now being carried out on a mobile device or a smartphone. One out of every three searches is now local, so if you don’t have a mobile optimized version of your website you are throwing away a large chance of your business. Creating a mobile optimised version of your website is faster, easier and less expensive. Let’s have a glimpse about the different types of Mobile Apps . </p>
 	</div>
 	</br>
 	<h2 class="head-ing">MOBILE APPLICATIONS</h2>
@@ -80,7 +79,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ios.png" alt="Sample image for first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ios-application-development.png" alt="iOS Application Development"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -91,12 +90,9 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8">
-        <!--Excerpt-->
-        
-      
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>iOS Application Development</strong>
-        </h3>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>iOS Application Development</strong>
+        </h2>
         <p>The iOS, formerly known as iPhone OS is an Apple product, many of us don't know that “i” infront of Apple stands for Internet. The most fashionable apps generally appear on Apple devices first, because of the furor of iPhone. It has a higher scalability which is one of the major requirement for a company and it has a very high level security, that it is almost impossible to hack an iOS application. iOS is the most money-making platform for developers because Apple store charges them for its downloads.</p>
 		
     </div>
@@ -112,11 +108,9 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8 pb-3">
-        <!--Excerpt-->
-       
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Android Application Development</strong>
-        </h3>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Android Application Development</strong>
+        </h2>
          <p>Android OS is developed by Google. According to 2017 statics, Android has captured 85% in the global mobile OS market share, this survey tells us that most of the enterprises adopt Android OS to develop customized mobile apps for their business. Android is an open platform built on Linux operating system which is highly secured. Customizable user interface, Open source, Multiple sales channels, Low investment and high Return on investment are its advantages. Android application is much beneficiary to  Medium sized enterprises and startups. </p>
         
         
@@ -128,7 +122,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/andriod.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/andriod-application-development.png" alt="Android Application Development"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -149,7 +143,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/hibrid.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/hybrid-mobile-applications.png" alt="Hybrid Mobile Applications" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -159,11 +153,9 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8">
-        <!--Excerpt-->
-      
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Hybrid Mobile Applications</strong>
-        </h3>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Hybrid Mobile Applications</strong>
+        </h2>
         <p>Hybrid mobile applications are written in Html, Css and Javascript, which has a single source code and is accessible to all the APIs platforms. So, one set of source code is enough to run the application on the Android, iOS and Windows platforms, and its web portions are updated on the server-side. These hybrid apps are available in the app stores and also as an application icon on the device. They are cost effective but buggy and of little slow.  </p>
         
 		 
@@ -178,12 +170,10 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8 pb-3">
-        <!--Excerpt-->
-     
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Mobile Integration</strong>
-        </h3>
-        <p>As per latest Google reports, two in five Google searches is now being carried out on a mobile device or a smartphone. One out of every three searches is now local, so if you don’t have a mobile optimized version of your website you are throwing away a large chance of your business. Creating a mobile optimised version of your website is faster, easier and less expensive. We integrate well secured payment gateways to your website. We also integrate analytical tools to your website for tracking.</p>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Mobile Integration</strong>
+        </h2>
+        <p>Mobile Integration varies from Business to Business (B2B) and Business to Customer (B2C). Under Mobile Integration we focus on core things like Security and privacy, Device independent services, UI Design, Scalability, Social networking, Offline behaviour, Device management and monitoring, Backend Integration etc. We integrate well secured payment gateways to your website with end to end encryption. We also integrate analytical tools to your website for tracking.</p>
        
     </div>
     <!--Grid column-->
@@ -192,7 +182,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mobing.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-integration.png" alt="Mobile Integration"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -213,7 +203,7 @@
     <div class="col-lg-5 col-xl-5 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mobiletest.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-testing.png" alt="Mobile Application Testing" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -223,11 +213,9 @@
 
     <!--Grid column-->
     <div class="col-lg-7 col-xl-7">
-        <!--Excerpt-->
-        
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Mobile Application Testing</strong>
-        </h3>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Mobile Application Testing</strong>
+        </h2>
         <p>Before and after launching the mobile application and making it live, we test our clients mobile application on various devices, browsers, emulated devices etc. We test it in various areas like level of simulation, speed, resolution, settings, configuration, orientation etc. Here I am mentioning the various kinds of tests for mobile applications, so that our client will gain knowledge about the testing process, the types of tests we perform are Functionality, Non-Functionality, Interrupt testing, Installation testing, Stress testing, Compatibility testing, Power consumption testing and Interoperability testing.
 </p>
        
@@ -245,11 +233,9 @@
 
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8 pb-3">
-        <!--Excerpt-->
-     
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Mobile Application Security</strong>
-        </h3>
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Mobile Application Security</strong>
+        </h2>
         <p>Even though mobile apps are on gigantic platforms like Android and iOS,  they are not fully secured! They have loopholes and vulnerabilities that can  always open backdoors for hackers and can put any business in concern. The possible vulnerabilities are: Weak server-side controls, Insufficient transport layer protection, Unintended data leakage, Poor authentication and authorization and Lack of binary protection. So, it is suggested to go for a third party information security audit, to check whether your app is completely secured or not. We do this hard work for our clients.
  </p>
        
@@ -260,7 +246,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mobsecurity.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-security.png" alt="Mobile Application Security"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -279,133 +265,6 @@
 </section>
 <div class="clearfix">&nbsp;</div>
 
-
-<!--
-	<section id="mobile_application_price" class="content_wrap    jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/mobbac1.png'); height: 100%;">
-	  <div class="container-sty  ">
-	  <div class="row  text-center">
-		<div class="col-sm-12 mb-20 pt-30">
-			<h2>
-				<span class="tit bg-dark" >
-					Mobile  <span class="des_t"> Applications
-				 </span> Pricing ( Android or iOS )
-			 </h2>
-		</div>
-	 </div>
-	 </div>
-		  <div class="clearfix">&nbsp;</div>
-  
-  <ul class="box">
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-1-font fa fa-hand-o-down"></div>
-          <div class="price color-1-font"><span class="total">Basic</span></div>
-          <div class="description">1-4 Page<pre class="price-ani ">₹ 39,999</pre></div>
-         
-        </div>
-        <div class="popular color-1-font  fa fa-hand-o-right"></div>
-        <div class="back color-1-bg info">
-          <div class="title">Basic</div>
-          <div class="description">
-            <h3>₹ 39,999</h3>
-          </div>
-        </div>
-      </div>
-    </li>
-	</ul>
-  
-   <ul class="box">
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total">Bronze</span></div>
-          <div class="description">5-10 Page <pre class="price-ani ">₹ 59,999</pre></div>
-        </div>
-        <div class="popular color-2-font fa fa-hand-o-right"></div>
-        <div class="back color-2-bg info">
-          <div class="title">Bronze</div>
-          <div class="description">
-            <h3>₹ 59,999</h3>
-          </div>
-        </div>
-      </div>
-    </li>
-  
- 
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-3-font fa fa-hand-o-down"></div>
-          <div class="price color-3-font"><span class="total">Silver</span></div>
-          <div class="description">11-16 Page <pre class="price-ani ">₹ 99,999 </pre></div>
-        </div>
-        <div class="popular color-3-font fa fa-hand-o-right"></div>
-        <div class="back color-3-bg info">
-          <div class="title">Silver</div>
-          <div class="description">
-         <h3>₹ 99,999</h3>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-    <li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-4-font fa fa-hand-o-down"></div>
-          <div class="price color-4-font"><span class="total">Gold</span></div>
-          <div class="description">17-25 pages <pre class="price-ani ">₹ 1,39,999</pre></div>
-        </div>
-        <div class="popular color-4-font fa fa-hand-o-right"></div>
-        <div class="back color-4-bg info">
-          <div class="title">Gold</div>
-          <div class="description">
-             <h3>₹ 1,39,999</h3>
-          </div>
-        </div>
-      </div>
-    </li>
-	<li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total" style="font-size:30px;">Platinum</span></div>
-          <div class="description">Unlimited Pages<pre class="price-ani ">₹ 1,59,999</pre></div>
-        </div>
-        <div class="popular color-2-font fa fa-hand-o-right"></div>
-        <div class="back color-2-bg info">
-          <div class="title" style="font-size:20px;">Platinum</div><br>
-          <div class="description">
-            <h3>₹ 1,59,999</h3>
-          </div>
-        </div>
-      </div>
-    </li>
-	<li>
-      <div class="circle">
-        <div class="front front-popular">
-          <div class="title color-2-font fa fa-hand-o-down"></div>
-          <div class="price color-2-font"><span class="total" style="font-size:30px;">E-Commerce</span></div>
-          <div class="description">Unlimited Pages<pre class="price-ani ">₹ 1,99,999</pre></div>
-        </div>
-        <div class="popular color-2-font fa fa-hand-o-right"></div>
-        <div class="back color-2-bg info">
-          <div class="title" style="font-size:20px;">E-Commerce</div><br>
-          <div class="description">
-            <h3>₹ 1,99,999</h3>
-          </div>
-        </div>
-      </div>
-    </li>
-  
-  </ul>
-
-<div class="clearfix">&nbsp;</div>
-<div class="clearfix">&nbsp;</div>
-</section>-->
 <div class="clearfix">&nbsp;</div>
 
 
@@ -446,7 +305,7 @@ var canvas = document.getElementById('nodes')
   ;
 
   canvas.width = window.innerWidth;
-  canvas.height = 500;
+  canvas.height = 350;
   maxPoolSize = ( canvas.width * canvas.height ) / 6000
 
   function Boid(x,y) {

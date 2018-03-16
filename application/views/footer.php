@@ -1,4 +1,74 @@
 <!--Footer-->
+
+<section class=" py-5 bg-warning" style="overflow:hidden;">
+<div class="row justify-content-md-center">
+	<div class="half-circle">
+		<h1 class="text-white" style="line-height:380px">FACT</h1>
+	</div>
+</div>
+
+	<div class="text-center container-sty text-white">
+		<div class="row justify-content-md-center">
+		<div class="col-md-10">
+		<h2 class="py-5 text-shad">No huge, nor anonymous company here. Our proficient team knows exactly how to make projects succeed.We will work side by side with you in every stage along the development process.</h2>
+		<div class="py-3">
+		<button type="button" class="btn btn-warning btn-rounded " style="font-size:20px;">Let’s talk!</button>
+			
+		</div>
+		
+		<p class="font-20 py-4 text-shad">Let’s talk! 
+		Tell us about your idea. We want to know how we can help you. We'll have a session of brisk inception.
+		</p>
+		</div>
+		</div>
+	</div>
+</section>
+<section class=" py-5 stylish-color-dark">
+	<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/footerbanner1.png);height: 300px;">
+    <div class="full-bg-img">
+      <div class="mask ">
+        <div class="container flex-center text-center text-white" style="position:relative">
+          <div class="row  algin-pos-left">
+            <div class="col-md-8 ">
+			<div class="help-foot-banner">
+			<h2 class="text-warning">End-To-End Solutions</h2>
+			<p>We create solutions which start with a necessity and finish in a tech tool for the WWW.</p>
+			</div>
+            </div>
+          </div>
+		  <div class="row mt-5 justify-content-md-center">
+            <div class="col-md-8 ">
+			<div class="help-foot-banner">
+			<h2 class="text-warning">Cost-Effective</h2>
+			<p>Best quality/cost ratio in the market. We will give you a turnkey solution. We will help you end-to-end.</p>
+			</div>
+            </div>
+          </div>
+		  <div class="row  algin-pos-right">
+            <div class="col-md-12 ">
+			<div class="help-foot-banner">
+			<h2 class="text-warning">We will be there for you</h2>
+			<p>Making the Wide World a better web place</p>
+			</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+<section class=" py-5 stylish-color-dark">
+	<div class="text-center container-sty text-white">
+		<div class="row justify-content-md-center">
+		<div class="col-md-10">
+		<h3 class="py-2 ">BECAUSE Your digital presence is your online reputation, And the million dollar question is, how have you presented yourself?,</h3>
+		<h2 class="py-5 font-weight-bold">We will be On it. YOUR NEXT TECH PARTNER.</h2>
+		<p class="pull-right">:— PRACHA TECHNOLOGIES</p>
+		</div>
+		</div>
+	</div>
+</section>
+
 <section class="ptb-20">
 	<div class="text-center">
 		<h2 class="pb-40" style="text-transform: none;" >Contact us for a FREE Analysis!</h2>
@@ -41,13 +111,13 @@
 				     
           
 
-                    <li><a href="<?php echo base_url('servicesrm'); ?>">UI & UX Designing </a></li>
-                    <li><a href="<?php echo base_url('develop_service'); ?>">Web Development</a></li>
-                    <li><a href="<?php echo base_url('mobile_application'); ?>">Mobile Applications</a></li>
-                    <li><a href="<?php echo base_url('digitalmarketing'); ?>">Digital Marketing </a></li>
+                    <li><a href="<?php echo base_url('ui_and_ux_design'); ?>">UI & UX Designing </a></li>
+                    <li><a href="<?php echo base_url('web_development'); ?>">Web Development</a></li>
+                    <li><a href="<?php echo base_url('mobile_applications'); ?>">Mobile Applications</a></li>
+                    <li><a href="<?php echo base_url('digital_marketing'); ?>">Digital Marketing </a></li>
                    <!-- <li><a href="<?php echo base_url('seo'); ?>">  SEO </a></li>-->
                     <li><a href="<?php echo base_url('ecommerce'); ?>">eCommerce</a></li>
-                    <li><a href="<?php echo base_url('maintainence'); ?>"> Maintenance </a></li>
+                    <li><a href="<?php echo base_url('website_maintainence'); ?>"> Maintenance </a></li>
                 </ul>
             </div>
             <!--/.Third column-->

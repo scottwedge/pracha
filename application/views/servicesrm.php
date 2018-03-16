@@ -1,7 +1,4 @@
-<head>
-	<title>UI and UX DESIGNING</title>
-	<meta name="description" content="UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. In simple UI aims on website and UX aims on product, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user.">
-</head>
+<title>UI And UX Design | Web Designing Agency In Hyderabad</title>
 <section id="masthead" role="banner" class="bod-st">
 	<h1>
     UI and UX DESIGNING <br />
@@ -15,9 +12,9 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18"><i>Let’s have a glimpse on UI and  UX </i></p>
-	</div>
-	<h2 class="head-ing">UI and UX:</h2>
+		<p class="font-18 col-md-11">Under UI and UX Design, we focus on the core functions like Site Architecture and Design, Static & Dynamic Website Design, Responsive Web Design, Custom Web Design, Template Design & Customization etc., let’s have a glimpse on these attributes and their functionalities.</p>
+	</div><br>
+	<h2 class="head-ing">UI & UX:</h2>
 	<div class="row justify-content-md-center" >
 		
 		<p class="col-md-11">UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. <strong>In simple UI aims on website and UX aims on product</strong>, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user. </p>
@@ -68,12 +65,11 @@
 <div class="tab-content"><!--Panel 1-->
     <div class=" active" >
     <div class="row">
-
-    <!--Grid column-->
+	<!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/site-a-d.png" alt="Site Architecture and design"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/site-architecture-and-design.png" alt="Site Architecture and design"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -85,11 +81,9 @@
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8">
         <!--Excerpt-->
-        
-      
-        <h3 class="mb-4 font-bold dark-grey-text">
+        <h2 class="mb-4 font-bold dark-grey-text head-h2">
         <strong>Site Architecture and design </strong>
-        </h3>
+        </h2>
         <p>Website architecture deals with the principles of design and construction and ornamentation of fine websites. Before designing site architecture we need to have a complete research on  our Customer, Competitor and Product or Service. Depending upon the research we need to develop content and UX & UI designs for the website. Under UX Design we work on Wireframing, Prototyping, Testing, Development Planning, Execution and Analytics etc. Under UI Design we test Look and Feel, Responsive website, UI Prototyping, Animation, Autofit to all screen sizes and Interactive etc.</p>
 		
     </div>
@@ -106,10 +100,9 @@
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8 pb-3">
         <!--Excerpt-->
-       
-        <h3 class="mb-4 font-bold dark-grey-text">
+		 <h2 class="mb-4 font-bold dark-grey-text head-h2">
         <strong>Static & Dynamic Website Design</strong>
-        </h3>
+        </h2>
          <p>A Static website has stagnant content usually written in HTML code, and every page has to be saved separately on the server. Changes have to be made manually every time, and you need coding knowledge to make any kind of changes.</p>
 		<p>A Dynamic website’s construction is controlled by an application server processed by server-side scripts. Pages of the website are dynamically populated every time and are not coded and saved separately, but the design or template look and feel is saved separately.</p>
         
@@ -122,7 +115,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/static-dynamic.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/static-and-dynamic-web-design.png" alt="Static & Dynamic Website Design"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -143,7 +136,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/responsive.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/responsive-web-design.png" alt="Responsive Web Design" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -154,10 +147,10 @@
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8">
         <!--Excerpt-->
-      
-        <h3 class="mb-4 font-bold dark-grey-text">
+		 <h2 class="mb-4 font-bold dark-grey-text head-h2">
         <strong>Responsive Web Design</strong>
-        </h3>
+        </h2>
+       
         <p>In this generation, due to heavy use of technology and various gadgets, people view websites on various devices with different screen sizes. So it is good to think about the responsive design for your site to make your websites mobile friendly, as there is a rapid usage of smartphones and tablets these days. We make the site easy to use and easy to view, no matter which device it is viewed on. Therefore we make our websites “Responsive”, meaning the design responds to the specification of the device.  </p>
         
 		 
@@ -173,10 +166,9 @@
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8 pb-3">
         <!--Excerpt-->
-     
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Custom Web Design</strong>
-        </h3>
+		<h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Custom Web Design</strong>
+        </h2>
         <p>A Custom web design allows you to establish your brand and to express what is unique about the product or services you are providing. Your website needs personality, and our designers will help you to come up with unique features, from start to finish. Startup's doesn’t need to build a big complex website in the beginning, and also has the possibility to establish your brand first and build from there. Important factors to consider are navigation, ease of use, layout, graphics, colour scheme, etc.</p>
        
     </div>
@@ -186,7 +178,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/custom.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/custom-web-design.png" alt="Custom Web Design"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -207,7 +199,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/corporate.png" alt="Thrid image in the blog listing." class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/corporate-web-design.png" alt="Corporate Website Design" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -218,10 +210,10 @@
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8">
         <!--Excerpt-->
-        
-        <h3 class="mb-4 font-bold dark-grey-text">
+         <h2 class="mb-4 font-bold dark-grey-text head-h2">
         <strong>Corporate Website Design</strong>
-        </h3>
+        </h2>
+        
         <p>Corporate website design is unique in nature, it is not like ecommerce or portal sites. It focuses on providing information rather than generating business transactions and other services. Almost every well established company will have a separate corporate website to provide information to its customers or visitors. Usually it covers topics like history of the company, summary of company operations, mission, products, services, board members, press release, news etc. We have a professional team to design the corporate site of our clients according to their specifications.
 </p>
        
@@ -240,10 +232,10 @@
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8 pb-3">
         <!--Excerpt-->
-     
-        <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Template Design & Customization</strong>
-        </h3>
+		<h2 class="mb-4 font-bold dark-grey-text head-h2">
+			<strong>Template Design & Customization</strong>
+        </h2>
+        
         <p>Designing an attractive and responsive template is also very essential to a website. We have in-house professionals to design such templates with attractive colour combinations and an elegant style, who move according to the specifications of our clients. Depending upon the requirement of our client we build templates with HTML5, CSS3, bootstrap, Java script, JQuery, etc. </p>
        
     </div>
@@ -253,7 +245,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/template.png" alt="Second image in the first version of blog listing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/template-design-and-customization.png" alt="Template Design & Customization"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -436,14 +428,14 @@
 var canvas = document.getElementById('nodes')
     , context = canvas.getContext('2d')
     , pool = []
-    , maxPoolSize = 500
+    , maxPoolSize = 400
     , distanceThreshold = 90
     , lastTimestamp = 0
     , nodeConnections = []
   ;
 
   canvas.width = window.innerWidth;
-  canvas.height = 500;
+  canvas.height = 350;
   maxPoolSize = ( canvas.width * canvas.height ) / 6000
 
   function Boid(x,y) {
