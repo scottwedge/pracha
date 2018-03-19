@@ -1,6 +1,13 @@
 p{
 	font-size:18px !important;
 }
+.bg-light-brown{
+	background-color:#a79d9d;
+}
+.pad-tb-10{
+	padding-top:10px;
+	padding-bottom:10px;
+}
 .algin-pos-left{
 	position:absolute;
 	top:50px;

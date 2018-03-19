@@ -184,7 +184,7 @@
 </div>
 </div>
 </section>
-<section class=" py-5 stylish-color-dark">
+<section class="stylish-color-dark">
 <div class="text-center container-sty text-white">
 	<div class="row justify-content-md-center">
 	<div class="col-md-10">

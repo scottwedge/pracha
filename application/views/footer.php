@@ -1,6 +1,4 @@
-<!--Footer-->
-
-<section class=" py-5 bg-warning" style="overflow:hidden;">
+<section class=" py-5 bg-light-brown" style="overflow:hidden;">
 <div class="row justify-content-md-center">
 	<div class="half-circle">
 		<h1 class="text-white" style="line-height:380px">FACT</h1>
@@ -12,7 +10,7 @@
 		<div class="col-md-10">
 		<h2 class="py-5 text-shad">No huge, nor anonymous company here. Our proficient team knows exactly how to make projects succeed.We will work side by side with you in every stage along the development process.</h2>
 		<div class="py-3">
-		<button type="button" class="btn btn-warning btn-rounded " style="font-size:20px;">Let’s talk!</button>
+		<a href="<?php echo base_url('contactus');?>" class="btn btn-warning btn-rounded " style="font-size:20px;">Let’s talk!</a>
 			
 		</div>
 		
@@ -23,7 +21,7 @@
 		</div>
 	</div>
 </section>
-<section class=" py-5 stylish-color-dark">
+<section class="  ">
 	<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/footerbanner1.png);height: 300px;">
     <div class="full-bg-img">
       <div class="mask ">
@@ -82,6 +80,65 @@
 		</p>
 		
 		<a href="<?php echo base_url('contactus');?>"><button type="button" class="btn btn-dark btn-rounded">REQUEST A FREE QUOTE</button></a>
+	</div>
+</section>
+<section id="contact-scroll" class="our_service pad-tb-10 ptb-xs-60">
+    <div class=" card ptb-15">
+	
+	<div class="row container-sty">
+
+	 <div class="col-md-6">
+	<form action="<?php echo base_url('pracha/contactpost');?>" method="post" enctype="multipart/form-data" >
+
+   
+
+    <div class="md-form">
+        <i class="fa fa-user prefix grey-text"></i>
+        <input type="text" id="name" name="name" class="form-control" required>
+        <label for="form3">Your name</label>
+    </div>
+
+    <div class="md-form">
+        <i class="fa fa-envelope prefix grey-text"></i>
+        <input type="email" id="email" name="email" class="form-control" required>
+        <label for="form2">Your email</label>
+    </div>
+
+    <div class="md-form">
+        <i class="fa fa-tag prefix grey-text"></i>
+        <input type="text" id="subject" name="subject" class="form-control" required>
+        <label for="form34">Subject</label>
+    </div>
+
+    <div class="md-form">
+        <i class="fa fa-pencil prefix grey-text"></i>
+        <textarea type="text" id="message" name="message" class="md-textarea" style="height: 100px" required></textarea>
+        <label for="form8">Your message</label>
+    </div>
+
+    <div class="text-center">
+        <button type="submit" class="btn btn-warning">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+    </div>
+
+</form>
+<!-- Form contact -->
+            
+			  </div>
+			  <div class="col-md-6">
+				<div> 
+					<h5><strong>Prachatech Software Solutions</strong></h5>
+					<p>Phone Number:040-48541273</p>
+					<p>
+					Plot No. 177,<br>
+					1st Floor,<br>
+					Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad, Telangana - 500072.</p>
+				</div>
+				<div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d951.3161068305509!2d78.38797423869858!3d17.49488629216747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f4f553e453%3A0x912891756062ff71!2sSri+Vani+Nilayam%2C+Sardar+Patel+Nagar%2C+Bhagat+Singh+Nagar%2C+Kukatpally+Housing+Board+Colony%2C+Kukatpally%2C+Hyderabad%2C+Telangana+500085!5e0!3m2!1sen!2sin!4v1515073781683" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+			  </div>
+			  </div>
+			  
+		</div>
 	</div>
 </section>
 
