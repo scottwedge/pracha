@@ -26,13 +26,21 @@ class Blog_model extends CI_Model
 		$this->db->where('post_id', $pid);	
 		$return=$this->db->get()->result_array();
 		foreach($return as $List){ 
-		//$url='http://picasaweb.google.com/data/entry/api/user/'.$List['email'].'?alt=json';
-		//$cc=file_get_contents($url);
-		//$pic=json_decode($cc, TRUE);
-		//echo '<pre>';print_r($pic);exit;
-		$lis[$List['id']]=$List;
-		$lis[$List['id']]['count']=$this->get_replaycomments($List['id']);
-		
+		$gmail=$List['email'].'?alt=json';
+		$url='http://picasaweb.google.com/data/entry/api/user/'.$gmail;
+			$curl = curl_init();
+			curl_setopt($curl, CURLOPT_URL, $url);
+			curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+			curl_setopt($curl, CURLOPT_HEADER, false);
+			$str = curl_exec($curl);
+			$pic=json_decode($str, TRUE);
+			curl_close($curl);
+			$lke=$this->get_like_count($List['id']);
+			$lis[$List['id']]=$List;
+			$lis[$List['id']]['imagurl']=isset($pic['entry']['gphoto$thumbnail']['$t'])?$pic['entry']['gphoto$thumbnail']['$t']:'';
+			$lis[$List['id']]['count']=$this->get_replaycomments($List['id']);
+			$lis[$List['id']]['likecount']=$lke['like'];
+			
 		}
 		if(!empty($lis))
 		{
@@ -43,10 +51,37 @@ class Blog_model extends CI_Model
 	public function get_replaycomments($comment_id){
 		$this->db->select('*')->from('replay_comments');
 		$this->db->where('comment_id', $comment_id);	
-		return $this->db->get()->result_array();
+		$return= $this->db->get()->result_array();
+		foreach($return as $List){ 
+			$gmail=$List['email'].'?alt=json';
+			$url='http://picasaweb.google.com/data/entry/api/user/'.$gmail;
+			$curl = curl_init();
+			curl_setopt($curl, CURLOPT_URL, $url);
+			curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+			curl_setopt($curl, CURLOPT_HEADER, false);
+			$str = curl_exec($curl);
+			$pic=json_decode($str, TRUE);
+			curl_close($curl);
+		//echo '<pre>';print_r($pic);exit;
+		$lis[$List['id']]=$List;
+		$lis[$List['id']]['replyimagurl']=isset($pic['entry']['gphoto$thumbnail']['$t'])?$pic['entry']['gphoto$thumbnail']['$t']:'';
 		
+		}
+		if(!empty($lis))
+		{
+		return $lis;
+		}
 	}
 	
+	public function get_like_count($id){
+		$this->db->select('comments.like')->from('comments');		
+		$this->db->where('id', $id);
+		return $this->db->get()->row_array();
+	}
+	public function update_like_count($cid,$data){
+		$this->db->where('id', $cid);
+		return $this->db->update('comments', $data);
+	}
 
 
 }

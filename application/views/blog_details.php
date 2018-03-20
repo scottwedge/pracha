@@ -420,6 +420,18 @@ class="img-fluid">
 				<p class="text-dark">Chakravarthy Jah</p>
 			</div>
 		</div>
+		<div class="col-md-12 mb-20 pt-30  ">
+			<div class="pull-right">
+				<h4 class="widget-title">Follow us</h4>
+					<ul class="social-nav">
+					<li><a href="https://twitter.com/Prachatech" target="_blank" title="Twitter" rel="nofollow" class="twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://www.facebook.com/prachatech/" target="_blank" title="Facebook" rel="nofollow" class="facebook"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://plus.google.com/103803990699303943827/" target="_blank" title="Google plus" rel="nofollow" class="google"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="https://www.linkedin.com/company/prachatech-software-solutions/" target="_blank" title="Linkedin" rel="nofollow" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#" target="_blank" title="Pinterest" rel="nofollow" class="pinterest"><i class="fa fa-pinterest"></i></a></li>        
+				</ul>
+			</div>
+		</div>
 		
 	</div>
 	</div>
@@ -499,6 +511,7 @@ class="img-fluid">
 			</form>
 			</div>
 			<hr>
+			<?php if(isset($comments_list) && count($comments_list)>0){ ?>
 			<div class="row pad30">
       
         <div class="col-lg-6">
@@ -507,17 +520,22 @@ class="img-fluid">
 			<?php foreach($comments_list as $list){ ?>
                 <div class="news">
 
-                    
+                    <?php if($list['imagurl']!=''){ ?>
                     <div class="label">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-1-mini.jpg" class="rounded-circle z-depth-1-half">
+                        <img src="<?php echo $list['imagurl']; ?>" class="rounded-circle z-depth-1-half">
                     </div>
+					<?php }else{ ?>
+					<div class="label">
+                        <img src="<?php echo base_url('assets/user.png'); ?>" class="rounded-circle z-depth-1-half">
+                    </div>
+					<?php } ?>
 
                     
                     <div class="excerpt">
 
                         
                         <div class="brief">
-                            <a class="name"><?php echo $list['name']; ?></a> <?php echo $list['comment']; ?>
+                            <a class="name" href="mailto:<?php echo $list['email']; ?>"><?php echo $list['name']; ?></a> <?php echo $list['comment']; ?>
                             <div class="date"> <?php echo date('M j h:i A',strtotime(htmlentities($list['create_at'])));?></div>
 							
                         </div>
@@ -530,14 +548,38 @@ class="img-fluid">
                                 <a><?php echo count($list['count']); ?></a>
                             </span>
 							<?php } ?>
-                            <!--<a class="thumbs" data-toggle="tooltip" data-placement="top" title="I like it">
-                                <i class="fa fa-thumbs-up"></i>
+                            <a class="thumbs" data-toggle="tooltip" data-placement="top" onclick="likecounts('<?php echo $list['id']; ?>');" title="I like it">
+                                <i class="fa fa-thumbs-up"><span id="countids<?php echo $list['id']; ?>"><?php echo $list['likecount']; ?></span></i>
                             </a>
-                            <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I don't like it">
-                                <i class="fa fa-thumbs-down"></i>
-                            </a>-->
+                           
                             <div class="collapse" id="collapseExample-1<?php echo $list['id']; ?>">
-                                <div class="card card-body mt-1">
+                                 <?php if(isset($list['count']) && count($list['count'])>0){ ?>
+								<?php foreach($list['count'] as $lis){ ?>
+										<div class="news">
+
+											<?php if($lis['replyimagurl']!=''){ ?>
+											<div class="label">
+												<img src="<?php echo $lis['replyimagurl']; ?>" class="rounded-circle z-depth-1-half">
+											</div>
+											<?php }else{ ?>
+											<div class="label">
+												<img src="<?php echo base_url('assets/user.png'); ?>" class="rounded-circle z-depth-1-half">
+											</div>
+											<?php } ?>
+
+											
+												<div class="excerpt">
+												<div class="brief">
+														<a class="name" href="mailto:<?php echo $list['email']; ?>"><?php echo $list['name']; ?></a> <?php echo $list['comment']; ?>
+														<div class="date"> <?php echo date('M j h:i A',strtotime(htmlentities($list['create_at'])));?></div>
+													</div>
+												</div>
+
+										</div>
+									<?php } ?>
+								 <?php } ?>
+								
+								<div class="card card-body mt-1">
                                   <form action="<?php echo base_url('blog/replaycomments'); ?>" method="post">
 								  <input type="hidden" name="replay_comment_id" id="replay_comment_id" value="<?php echo $list['id']; ?>" >
                                     <div class="md-form mt-1 mb-1">
@@ -577,6 +619,7 @@ class="img-fluid">
 
 
 			</div>
+			<?php } ?>
 			
 	 </div>
 	 </div>
@@ -585,3 +628,22 @@ class="img-fluid">
 </section>
 
 <div class="clearfix">&nbsp;</div>
+<script>
+function likecounts(id){
+	if(id!=''){
+		 jQuery.ajax({
+					url: "<?php echo site_url('blog/likecount');?>",
+					data: {
+						postid: id,
+					},
+					dataType: 'json',
+					type: 'POST',
+					success: function (data) {
+						jQuery('#countids'+id).empty();
+						jQuery('#countids'+id).prepend(data.msg);
+					
+				 }
+				});
+			}
+}
+</script>

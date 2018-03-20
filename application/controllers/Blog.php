@@ -25,7 +25,7 @@ public function __construct()
 		
 		
 		$commets['comments_list']=$this->Blog_model->get_all_commets(1);
-		//echo '<pre>';print_r($headers);exit;
+		//echo '<pre>';print_r($commets);exit;
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('blog_details',$commets);
@@ -33,9 +33,10 @@ public function __construct()
 	}
 	public function what_is_onpage_and_offpage_optimization()
 	{
+		$commets['comments_list']=$this->Blog_model->get_all_commets(2);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
-		$this->load->view('blog2_details');
+		$this->load->view('blog2_details',$commets);
 		$this->load->view('footer');
 	}
 	public function registerpost(){
@@ -98,6 +99,22 @@ public function __construct()
 				$this->session->set_flashdata('error','Technical problem will occurred .please try again');
 				redirect($this->agent->referrer());
 			}
+	}
+	
+	public function likecount(){
+		$post=$this->input->post();
+		$details=$this->Blog_model->get_like_count($post['postid']);
+		$data=array(
+		'like'=>$details['like']+1,
+		);
+		$details=$this->Blog_model->update_like_count($post['postid'],$data);
+		$countdetails=$this->Blog_model->get_like_count($post['postid']);
+		if(count($details) > 0)
+				{
+				$data['msg']=$countdetails['like'];
+				echo json_encode($data);	
+				}
+		
 	}
 	
 }

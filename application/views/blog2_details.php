@@ -227,10 +227,221 @@
 				<p class="text-dark">Chakravarthy Jah</p>
 			</div>
 		</div>
+		<div class="col-md-12 mb-20 pt-30  ">
+			<div class="pull-right">
+				<h4 class="text-success font20"><i>Article by:</i></h4>
+				<p class="text-dark">Chakravarthy Jah</p>
+			</div>
+		</div>
 		</div>
 	</div>
+<div class="row justify-content-md-center   ">
+	 <div class="col-md-10 card  " style="padding:0px;">
+	 <div class="bg-dark " style="padding:15px;margin:0">
+		<div class="row justify-content-md-center ">
+			<div class="text-center blo-tit-form">Sign up for Latest Trends!</div>
+		</div>
+		<form action="<?php echo base_url('blog/registerpost'); ?>" method="post">
+		<div class="row justify-content-md-center">
+		<div class="col-md-1">
+				&nbsp;
+			</div>
+			<div class="col-md-3">
+				<input class="input-old" type="text" name="name" id="name" placeholder="Name" class="form-control" required>
+			</div>
+			<div class="col-md-3">
+				<input class="input-old" type="email" name="email" id="email" placeholder="Email Id" class="form-control" required>
+			</div>
+			<div class="col-md-3">
+				<input class="input-old" type="text" name="mobile" id="mobile" placeholder="Mobile"  class="form-control"required>
+			</div>
+			<div class="col-md-2">
+				<button class="btn btn-warning" type="submit">Register</button>
+			</div>
+		</div>
+		</form>
+		
+		
+		</div>
+		<div class="row ptb-15  pad-lr15">
+			<div>
+			<h4 class="widget-title">Follow us</h4>
+			<ul class="social-nav">
+				<li><a href="https://twitter.com/Prachatech" target="_blank" title="Twitter" rel="nofollow" class="twitter"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://www.facebook.com/prachatech/" target="_blank" title="Facebook" rel="nofollow" class="facebook"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://plus.google.com/103803990699303943827/" target="_blank" title="Google plus" rel="nofollow" class="google"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="https://www.linkedin.com/company/prachatech-software-solutions/" target="_blank" title="Linkedin" rel="nofollow" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="#" target="_blank" title="Pinterest" rel="nofollow" class="pinterest"><i class="fa fa-pinterest"></i></a></li>        
+			</ul>
+		</div>
+		</div>
+	 </div>
+	 </div>
+	 <br>
+	 <div class="row justify-content-md-center   ">
+	 <div class="col-md-10 card  " style="padding:0px;">
+				
+			<div class="row pad30 justify-content-md-center">
+			<div class="col-md-8">
+				<form class="form-horizontal" action="<?php echo base_url('blog/addcomment');?>" method="post">
+				<input type="hidden" id="p_id" name="p_id" value="2">			 
+				 <div class="form-group">
+					<label class="control-label " for="email">Name:</label>
+					<div class="">
+					  <input type="text" class="form-control" style="border:1px solid #ddd;padding-left:10px;" id="name" name="name" placeholder="Enter Name" required>
+					</div>
+				  </div>
+				  <div class="form-group">
+					<label class="control-label " for="email">Email:</label>
+					<div class="">
+					  <input type="email" class="form-control" style="border:1px solid #ddd;padding-left:10px;" id="email" name="email" placeholder="Enter email" required>
+					</div>
+				  </div>
+				<div>
+				<label>Comment</label>
+				<textarea  style="border:1px solid #ddd ;padding-left:10px; height:50px;" type="text" id="message" name="message"   required></textarea>
+				</div>
+				<div class="">
+				<button class="btn btn-warning" type="submit">Send</button>
+				</div>
+			</div>
+		
+			</form>
+			</div>
+			<hr>
+			<?php if(isset($comments_list) && count($comments_list)>0){ ?>
+			<div class="row pad30">
+      
+        <div class="col-lg-6">
+		
+            <div class="mdb-feed">
+			<?php foreach($comments_list as $list){ ?>
+                <div class="news">
+
+                    <?php if($list['imagurl']!=''){ ?>
+                    <div class="label">
+                        <img src="<?php echo $list['imagurl']; ?>" class="rounded-circle z-depth-1-half">
+                    </div>
+					<?php }else{ ?>
+					<div class="label">
+                        <img src="<?php echo base_url('assets/user.png'); ?>" class="rounded-circle z-depth-1-half">
+                    </div>
+					<?php } ?>
+
+                    
+                    <div class="excerpt">
+
+                        
+                        <div class="brief">
+                           <a class="name" href="mailto:<?php echo $list['email']; ?>"><?php echo $list['name']; ?></a> <?php echo $list['comment']; ?>
+                            <div class="date"> <?php echo date('M j h:i A',strtotime(htmlentities($list['create_at'])));?></div>
+							
+                        </div>
+
+                        
+                        <div class="feed-footer">
+                            <a class="comment" data-toggle="collapse" href="#collapseExample-1<?php echo $list['id']; ?>" aria-expanded="false" aria-controls="collapseExample-1">Comment</a> &middot;
+                            <?php if(isset($list['count']) && count($list['count'])>0){ ?>
+							<span>
+                                <a><?php echo count($list['count']); ?></a>
+                            </span>
+							<?php } ?>
+                            <a class="thumbs" data-toggle="tooltip" data-placement="top" onclick="likecounts('<?php echo $list['id']; ?>');" title="I like it">
+                                <i class="fa fa-thumbs-up"><span id="countids<?php echo $list['id']; ?>"><?php echo $list['likecount']; ?></span></i>
+                            </a>
+                            <div class="collapse" id="collapseExample-1<?php echo $list['id']; ?>">
+                                  <?php if(isset($list['count']) && count($list['count'])>0){ ?>
+								<?php foreach($list['count'] as $lis){ ?>
+										<div class="news">
+
+											<?php if($lis['replyimagurl']!=''){ ?>
+											<div class="label">
+												<img src="<?php echo $lis['replyimagurl']; ?>" class="rounded-circle z-depth-1-half">
+											</div>
+											<?php }else{ ?>
+											<div class="label">
+												<img src="<?php echo base_url('assets/user.png'); ?>" class="rounded-circle z-depth-1-half">
+											</div>
+											<?php } ?>
+
+											
+												<div class="excerpt">
+												<div class="brief">
+														<a class="name" href="mailto:<?php echo $list['email']; ?>"><?php echo $list['name']; ?></a> <?php echo $list['comment']; ?>
+														<div class="date"> <?php echo date('M j h:i A',strtotime(htmlentities($list['create_at'])));?></div>
+													</div>
+												</div>
+
+										</div>
+									<?php } ?>
+								<?php } ?>
+								
+								<div class="card card-body mt-1">
+                                  <form action="<?php echo base_url('blog/replaycomments'); ?>" method="post">
+								  <input type="hidden" name="replay_comment_id" id="replay_comment_id" value="<?php echo $list['id']; ?>" >
+                                    <div class="md-form mt-1 mb-1">
+                                        <input type="text" id="name" name="name" value="" class="md-textarea" required>
+                                        <label for="form7">Name</label>
+                                    </div>
+									<div class="md-form mt-1 mb-1">
+                                        <input type="text" id="email" name="email" value="" class="md-textarea" required>
+                                        <label for="form7">Email</label>
+                                    </div><div class="md-form mt-1 mb-1">
+                                        <textarea type="text" id="comment" name="comment" class="md-textarea" required></textarea>
+                                        <label for="form7">Add comment</label>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="btn-flat waves-effect" data-toggle="collapse" data-target="#collapseExample-1" aria-expanded="false"
+                                            aria-controls="collapseExample-1">Cancel</button>
+                                        <button type="submit" class="btn btn-warning" >Reply</button>
+                                    </div>
+									</form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+				<?php } ?>
+				
+                
+
+               
+
+            </div>
+            
+
+        </div>
+        
+
+
+			</div>
+			<?php } ?>
+			
+	 </div>
+	 </div>
 
 
 </section>
 
 <div class="clearfix">&nbsp;</div>
+<script>
+function likecounts(id){
+	if(id!=''){
+		 jQuery.ajax({
+					url: "<?php echo site_url('blog/likecount');?>",
+					data: {
+						postid: id,
+					},
+					dataType: 'json',
+					type: 'POST',
+					success: function (data) {
+						jQuery('#countids'+id).empty();
+						jQuery('#countids'+id).prepend(data.msg);
+					
+				 }
+				});
+			}
+}
+</script>
