@@ -227,13 +227,31 @@
 				<p class="text-dark">Chakravarthy Jah</p>
 			</div>
 		</div>
-		<div class="col-md-12 mb-20 pt-30  ">
+			<div class="col-md-12 mb-20 pt-30 ">
 			<div class="pull-right">
-				<h4 class="text-success font20"><i>Article by:</i></h4>
-				<p class="text-dark">Chakravarthy Jah</p>
+				<h4 class="widget-title">Share us</h4>
+				<?php 
+				$url=current_url();
+				$method = $this->router->fetch_method();
+				$title=str_replace("_"," ",$method);
+				?>
+					<ul class="social-nav">
+					<li><a onClick="window.open('http://twitter.com/share?text=<?php echo $title;?>&url=<?php echo $url;?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a onClick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=<?php echo $title;?>&amp;p[url]=<?php echo $url; ?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="facebook"><i class="fa fa-facebook"></i></a></li>
+					<li><a onClick="window.open('https://plus.google.com/share?url=<?php echo $url; ?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="google"><i class="fa fa-google-plus"></i></a></li>
+					<li><a onClick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=<?php echo $url; ?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+					<li><a onClick="window.open('http://pinterest.com/pin/create/bookmarklet/?url=<?php echo $url; ?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+					<li><a onClick="window.open('http://www.livejournal.com/update.bml?subject=<?php echo $title; ?>&event=<?php echo $url;?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="line-chart"><i class="fa fa-line-chart"></i></a></li>
+					<li><a onClick="window.open('http://www.stumbleupon.com/submit?url=<?php echo $url; ?>&amp;&title=<?php echo $title;?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="stumbleupon"><i class="fa fa-stumbleupon"></i></a></li>
+					<li><a onClick="window.open('http://reddit.com/submit?url=<?php echo $url; ?>&amp;title=<?php echo $title;?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="reddit"><i class="fa fa-reddit"></i></a></li>
+					<li><a onClick="window.open('http://www.digg.com/submit?url=<?php echo $url; ?>&amp;&title=<?php echo $title;?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="digg"><i class="fa fa-digg"></i></a></li>
+					<li><a onClick="window.open('https://myspace.com/post?u=<?php echo $url; ?>&amp;&t=<?php echo $title;?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="space-shuttle"><i class="fa fa-space-shuttle"></i></a></li>
+				</ul>
 			</div>
 		</div>
 		</div>
+	</div>
+	</div>
 	</div>
 <div class="row justify-content-md-center   ">
 	 <div class="col-md-10 card  " style="padding:0px;">

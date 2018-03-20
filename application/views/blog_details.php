@@ -422,13 +422,23 @@ class="img-fluid">
 		</div>
 		<div class="col-md-12 mb-20 pt-30  ">
 			<div class="pull-right">
-				<h4 class="widget-title">Follow us</h4>
+				<h4 class="widget-title">Share us</h4>
+				<?php 
+				$url=current_url();
+				$method = $this->router->fetch_method();
+				$title=str_replace("_"," ",$method);
+				?>
 					<ul class="social-nav">
-					<li><a href="https://twitter.com/Prachatech" target="_blank" title="Twitter" rel="nofollow" class="twitter"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="https://www.facebook.com/prachatech/" target="_blank" title="Facebook" rel="nofollow" class="facebook"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="https://plus.google.com/103803990699303943827/" target="_blank" title="Google plus" rel="nofollow" class="google"><i class="fa fa-google-plus"></i></a></li>
-					<li><a href="https://www.linkedin.com/company/prachatech-software-solutions/" target="_blank" title="Linkedin" rel="nofollow" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="#" target="_blank" title="Pinterest" rel="nofollow" class="pinterest"><i class="fa fa-pinterest"></i></a></li>        
+					<li><a onClick="window.open('http://twitter.com/share?text=<?php echo $title;?>&url=<?php echo $url;?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a onClick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=<?php echo $title;?>&amp;p[url]=<?php echo $url; ?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="facebook"><i class="fa fa-facebook"></i></a></li>
+					<li><a onClick="window.open('https://plus.google.com/share?url=<?php echo $url; ?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="google"><i class="fa fa-google-plus"></i></a></li>
+					<li><a onClick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=<?php echo $url; ?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+					<li><a onClick="window.open('http://pinterest.com/pin/create/bookmarklet/?url=<?php echo $url; ?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+					<li><a onClick="window.open('http://www.livejournal.com/update.bml?subject=<?php echo $title; ?>&event=<?php echo $url;?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="line-chart"><i class="fa fa-line-chart"></i></a></li>
+					<li><a onClick="window.open('http://www.stumbleupon.com/submit?url=<?php echo $url; ?>&amp;&title=<?php echo $title;?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="stumbleupon"><i class="fa fa-stumbleupon"></i></a></li>
+					<li><a onClick="window.open('http://reddit.com/submit?url=<?php echo $url; ?>&amp;title=<?php echo $title;?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="reddit"><i class="fa fa-reddit"></i></a></li>
+					<li><a onClick="window.open('http://www.digg.com/submit?url=<?php echo $url; ?>&amp;&title=<?php echo $title;?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="digg"><i class="fa fa-digg"></i></a></li>
+					<li><a onClick="window.open('https://myspace.com/post?u=<?php echo $url; ?>&amp;&t=<?php echo $title;?>','sharer','toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" class="space-shuttle"><i class="fa fa-space-shuttle"></i></a></li>
 				</ul>
 			</div>
 		</div>
