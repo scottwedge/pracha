@@ -10,7 +10,16 @@
     <div class="row justify-content-md-center  ptb-15">
         <div class="col-md-12   ptb-15">
             <!--Featured image-->
-
+  <?php if($this->session->flashdata('success')): ?>
+				<div class="alert_msg1 animated slideInUp bg-succ">
+				<?php echo $this->session->flashdata('success');?> &nbsp; <i class="glyphicon glyphicon-ok text-success ico_bac" aria-hidden="true"></i>
+				</div>
+			<?php endif; ?>
+			<?php if($this->session->flashdata('error')): ?>
+				<div class="alert_msg1 animated slideInUp bg-warn">
+				<?php echo $this->session->flashdata('error');?> &nbsp; <i class="glyphicon glyphicon-ok text-success ico_bac" aria-hidden="true"></i>
+				</div>
+			<?php endif; ?>
             <div class=" ">
 			<div class="text-center ">
 			<h2 class="ptb-15 font-30"><b>What is Onpage and Offpage Optimization?</b></h2>
