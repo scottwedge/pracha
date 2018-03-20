@@ -26,10 +26,10 @@ class Blog_model extends CI_Model
 		$this->db->where('post_id', $pid);	
 		$return=$this->db->get()->result_array();
 		foreach($return as $List){ 
-		$url='http://picasaweb.google.com/data/entry/api/user/'.$List['email'].'?alt=json';
-		$cc=file_get_contents($url);
-		$pic=json_decode($cc, TRUE);
-		echo '<pre>';print_r($pic);exit;
+		//$url='http://picasaweb.google.com/data/entry/api/user/'.$List['email'].'?alt=json';
+		//$cc=file_get_contents($url);
+		//$pic=json_decode($cc, TRUE);
+		//echo '<pre>';print_r($pic);exit;
 		$lis[$List['id']]=$List;
 		$lis[$List['id']]['count']=$this->get_replaycomments($List['id']);
 		

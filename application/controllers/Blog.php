@@ -25,7 +25,7 @@ public function __construct()
 		
 		
 		$commets['comments_list']=$this->Blog_model->get_all_commets(1);
-		echo '<pre>';print_r($headers);exit;
+		//echo '<pre>';print_r($headers);exit;
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('blog_details',$commets);
