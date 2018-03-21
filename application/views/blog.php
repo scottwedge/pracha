@@ -16,9 +16,7 @@
 
     <!--Grid row-->
     <div class="row justify-content-md-center pt-5 mt-4 help-blog">
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-3 mb-3 card">
+        <div class="col-lg-3 col-md-3 card cust-wid">
             <!--Featured image-->
             <div class="view overlay rounded z-depth-2 mb-2">
                 <img src="<?php echo base_url(); ?>assets/vendor/img/blog-you.png" class="img-fluid" alt="Blog">
@@ -38,11 +36,11 @@
 					<p class="date-design">01-March-2018</p>
 				</div>
 				<div class="col-md-5 ">
-					<a href="<?php echo base_url('blog/how_to_create_manage_and_optimize_a_youtube_channel');?>" class="btn btn-warning btn-rounded btn-md pull-right">Read more</a>
+					<a href="<?php echo base_url('blog/how_to_create_manage_and_optimize_a_youtube_channel');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
 				</div>
 			</div>
         </div> 
-		<div class="col-lg-3 col-md-3 mb-3 card">
+		<div class="col-lg-3 col-md-3  card cust-wid">
             <!--Featured image-->
             <div class="view overlay rounded z-depth-2 mb-2">
                 <img src="<?php echo base_url(); ?>assets/vendor/img/onpage-and-offpage-optimization-blog.png" class="img-fluid" alt="Blog2">
@@ -63,15 +61,15 @@
 					<p class="date-design">10-March-2018</p>
 				</div>
 				<div class="col-md-5 ">
-					<a href="<?php echo base_url('blog/what_is_onpage_and_offpage_optimization');?>" class="btn btn-warning btn-rounded btn-md pull-right">Read more</a>
+					<a href="<?php echo base_url('blog/what_is_onpage_and_offpage_optimization');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
 				</div>
 			</div>
         </div>
-		<div class="col-lg-3 col-md-3 mb-3 card">
+		<div class="col-lg-3 col-md-3  card cust-wid">
             <!--Featured image-->
             <div class="view overlay rounded z-depth-2 mb-2">
                 <img src="<?php echo base_url(); ?>assets/vendor/img/social-media-marketing-blog.png" class="img-fluid" alt="Blog2">
-                <a href="<?php echo base_url('blog/what_is_onpage_and_offpage_optimization');?>">
+                <a href="<?php echo base_url('blog/social_media_marketing_and_its_benefits');?>">
                     <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
@@ -89,7 +87,7 @@
 					<p class="date-design">20-March-2018</p>
 				</div>
 				<div class="col-md-5 ">
-					<a href="<?php echo base_url('blog/social_media_marketing_and_its_benefits');?>" class="btn btn-warning btn-rounded btn-md pull-right">Read more</a>
+					<a href="<?php echo base_url('blog/social_media_marketing_and_its_benefits');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
 				</div>
 			</div>
         </div>
