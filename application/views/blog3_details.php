@@ -28,7 +28,7 @@
 			<p>Social Media can make you or break you! The power of Social Media is unpredictable, it is an undeniable force in today's world. It will be a mighty tool for business when handeled efficently. Recent statistics declare that there will be approximately 3 billion active social media users by 2021. </p>
 			</div>
                 <div class=" view overlay card " style="margin-top:50px;">
-                    <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/onpage-and-offpage-optimization.png" alt="onpage and offpage optimization"class="">
+                    <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/social-media-marketing-blog-view.png" alt="onpage and offpage optimization"class="">
                     <a>
                         
                     </a>

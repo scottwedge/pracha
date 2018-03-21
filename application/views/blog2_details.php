@@ -48,8 +48,9 @@
 	<div class="row">
 		<div class="col-md-10 mb-20 pt-30 ">
 			<h2 class="text-left">
-			<span class="tit1">Search Engine Optimization</div>
+			<span class="tit1">Search Engine Optimization</span>
 		</h2>
+	</div>
 	</div>
 	<div class="row">
 		<div class="col-md-10 mb-20 pt-30 ">
@@ -65,8 +66,9 @@
 	<div class="row">
 		<div class="col-md-10 mb-20 pt-30 ">
 			<h2 class="text-left">
-			<span class="tit1">On-Page Optimization</div>
+			<span class="tit1">On-Page Optimization</span>
 		</h2>
+	</div>
 	</div>
 
 	<p> On page optimization deals with the aspects of a website or blog post that can be optimized to read by the search engines. Though it is a time taking process yet this kind of optimization gets more organic traffic, which results in the better rankings of a website. Keywords (long tail or short tail) play the major role in Onpage Optimization.</p>
@@ -142,8 +144,9 @@
 	<div class="row">
 		<div class="col-md-10 mb-20 pt-30 ">
 			<h2 class="text-left">
-			<span class="tit1">Off-Page Optimization</div>
+			<span class="tit1">Off-Page Optimization</span>
 		</h2>
+	</div>
 	</div>
 	
 	<p class="font20 text-dark">The major elements in Offpage Optimization are listed below:
@@ -225,8 +228,9 @@
 	<div class="row">
 		<div class="col-md-10 mb-20 pt-30 ">
 			<h2 class="text-left">
-			<span class="tit1">Conclusion :</div>
+			<span class="tit1">Conclusion :</span>
 		</h2>
+		</div>
 	</div>
 	
 	<p>Search Engine Optimization is an ongoing process, that needs to be updated from time to time to make the visibility of your website or blog post more clearer in the Search engines Results Page (SERP). The above mentioned are the major techniques in Onpage Optimization and Offpage Optimization, through these techniques there will be an expected level of possibility to drive a quality traffic and a quantity traffic by means of organic keywords. </p>

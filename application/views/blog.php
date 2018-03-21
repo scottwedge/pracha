@@ -70,7 +70,7 @@
 		<div class="col-lg-3 col-md-3 mb-3 card">
             <!--Featured image-->
             <div class="view overlay rounded z-depth-2 mb-2">
-                <img src="<?php echo base_url(); ?>assets/vendor/img/onpage-and-offpage-optimization-blog.png" class="img-fluid" alt="Blog2">
+                <img src="<?php echo base_url(); ?>assets/vendor/img/social-media-marketing-blog.png" class="img-fluid" alt="Blog2">
                 <a href="<?php echo base_url('blog/what_is_onpage_and_offpage_optimization');?>">
                     <div class="mask rgba-white-slight"></div>
                 </a>
