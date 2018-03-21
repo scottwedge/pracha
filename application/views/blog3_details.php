@@ -53,7 +53,7 @@
 			<span class="tit1">Social Media</div>
 		</h2>
 		<div class="col-md-12">
-		<h5 class=" text-left  dark-grey-text font-w-400">  Social Media is the computer-mediated tool a website or an application that allow people to create, share or exchange information, pictures, videos, ideas and opinions etc. in virtual communities and networks.</h5>
+		<h5 class=" text-left  dark-grey-text font-w-400">  Social Media is the computer-mediated tool that require a website or an application to interact with public and allows people to create, share or exchange information, pictures, videos, ideas and opinions etc., by means of  virtual communities and networks.</h5>
 		
 	</div>
 	</div>
@@ -65,99 +65,62 @@
 		</h2>
 	</div>
 
-	<p>  Social Media Marketing is the process of getting attention through social media sites.</p>
+	<p>  Social Media Marketing is the process of getting attention through social media networking sites, it is a form of internet marketing.  The important theme of social media marketing is to set SMART goals. The acronym for SMART is Specific Measurable Achievable Realistic and Timely. The core reason  of social media marketing is to create Brand awareness, Enhance public relations, Building a community, Research and Development, Driving Sales and getting Leads. Social Media marketing helps a business to get their feedback directly from its customers, which is genuine..</p>
      
 	<div class="row justify-content-md-center">
-		<div class="col-md-12 mb-20 pt-30  ">
-			<p class="font20 text-dark">The fundamental elements in Onpage Optimization are listed below:</p>
-			 <div class="row pb-3">
-				
-				<div class="col-10">
-					<h3><strong>Quality Content :</strong></h3><h5 class=" text-left  dark-grey-text font-w-400">  Bill Gates with all his experience declared that “Content is King”; yes, it is! Good and informative content makes a person to stay on the website, whether it may be of words, images or videos. Without content there is no optimization at all.
-</h5>
-					
-				</div>
-			</div> 
-			<div class="row pb-3">
-				
-				<div class="col-10">
-				<h3><strong>Keywords :</strong></h3>
-					<h5 class=" text-left  dark-grey-text font-w-400"> Keywords are two types, one is short tail keyword and other is long tail keyword. Thorough research must be done to get quality keywords which play major role next to content.
-</h5>
-					
-				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-				<h3><strong>Title of the Page :</strong></h3>
-					<h5 class=" text-left  dark-grey-text font-w-400"> Search engines mostly focus on title of the pages, so a keyword must be there in the title of the page. Make sure that you have only one title tag per page and let the title be catchy, to catch the attention of the searchers.</h5>
-					
-				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-				<h3><strong>H1 Tag :</strong></h3>
-					<h5 class=" text-left  dark-grey-text font-w-400"> H1 Tags are more essential to promote your website. Let only one or two H1 Tags are suggestable for a page and Search engines give more weight to Title Tags than H1 Headers</h5>
-					
-				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-				<h3><strong>Alt Tag :</strong></h3>
-					<h5 class=" text-left  dark-grey-text font-w-400">  Alt tag means, it is an alternative tag or text about an image in the form of word or phrase that can be inserted as an attribute in the HTML. Let the keyword also be inserted in Alt Tags.</h5>
-					
-				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-					<h3 class=" text-left  dark-grey-text font-w-400"><strong>Never do these two :</strong> </h3>
-					
-				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text font-w-400">Never copy the content from other websites, because Google can identify the plagiarised content and can penalize you or may also block your website from search engine.</h5>
-					
-				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-					<h5 class=" text-left  dark-grey-text font-w-400">Never stuff keywords.</h5>
-					
-				</div>
-			</div>
-			<p>These are the most essential elements for Onpage SEO.</p>
+		<div class="col-md-12 mb-20 pt-30  ">	  
+			
+			
+			
+						
 			<br>
 			<br>
 	<div class="row">
 		<div class="col-md-10 mb-20 pt-30 ">
 			<h2 class="text-left">
-			<span class="tit1">Off-Page Optimization</div>
+			<span class="tit1">How Social Media Works</div>
 		</h2>
 	</div>
 	
-	<p class="font20 text-dark">The major elements in Offpage Optimization are listed below:
-</p>
+	
 			 
 			<div class="row pb-3">
 				
 				<div class="col-10">
 				<h3><strong>Social Media : </strong></h3>
-					<h5 class=" text-left  dark-grey-text font-w-400">   Social media is one of the best tool for advertising your website or business. Social media is a computer-mediated technology that facilitate the introduction and sharing of ideas, career, hobbies, statistics and different forms of expression through virtual groups and networks. There are many social networking channels like Facebook, Twitter, Linkedin, Pinterest, Google+, Instagram, Youtube etc. where every one is allowed to share their views and opinions on any kind of topic. This kind of interaction in between public improves lot of communication and mutual promotions of businesses, services and views etc. When you are promoting your website on social media platforms, you are enlarging the territories of your business and get much organic traffic to your website</h5>
+					<h5 class=" text-left  dark-grey-text font-w-400"> When you promote your website or a blog post on social media, obviously it reaches to all of your followers. And when your followers perform certain activities like, “Sharing your post”, “Liking your post” or “Commenting” etc., then because of the interactions done through them shows that people are interested on your post and there will be a decent increase in traffic to your website. New visitors will be introduced to your website when your post is shared by your followers, and this kind of traffic generation is called Referral Traffic. Consistency and discipline is important regarding your postings to gain referral traffic. Else you should pay to the channels of social media to reach your post to the maximum which is called as Paid Traffic.    </h5>
 					
 				</div>
 			</div>
 			<div class="row pb-3">
 				
 				<div class="col-10">
-					<h3><strong>Social bookmarking : </strong></h3>
-					<h5 class=" text-left  dark-grey-text font-w-400">    Through Social bookmarking you can bookmark your favorite web pages online, and can read them anytime and anywhere if you are connected with the internet. Generally we bookmark many web pages on our browser so that we can read them any number of times, anywhere any time without surfing for them again; and we can’t access this if our browser get crashed or when system is formatted. To overcome this problem we use social bookmarking, through this we can easily access our bookmarks from any place and through any computer which is connected to internet. </h5>
+				<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
 					
 				</div>
 			</div>
