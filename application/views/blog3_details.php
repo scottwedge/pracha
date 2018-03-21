@@ -1,6 +1,7 @@
 <head>
-	<title>Onpage and Offpage Optimization</title>
-	<meta name="description" content="SEO is of two types, namely On-Page Optimization and Off-Page Optimization.On page optimization deals with the aspects of a website or blog post that can be optimized to read by the search engines. Though it is a time taking process yet this kind of optimization gets more organic traffic, which results in the better rankings of a website. Keywords (long tail or short tail) play the major role in Onpage Optimization.">
+	<title>Social Media Marketing and its benefits</title>
+	<meta name="description" content="Social Media can make you or break you! Social Media is the computer-mediated tool that allow people to create, share or exchange information, pictures, videos, ideas in virtual communities and networks. Social Media Marketing is the process of getting attention through social media sites.">
+	<meta name="keywords" content=" social media marketing, social media marketing and its benefits, social media marketing strategies, social media. ">
 </head>
 <div class="selectstate">
 <section class="pt-5 mt-4 pb-3 pargh">
@@ -22,8 +23,9 @@
 			<?php endif; ?>
             <div class=" ">
 			<div class="text-center ">
-			<h2 class="ptb-15 font-30"><b>What is Onpage and Offpage Optimization?</b></h2>
-			<p>As up to today there were 300,000,000+ registered websites on the internet! Most of us rely on search engines to find what we want on the internet. </p>
+			<h1 class="ptb-15 font-30" style="text-transform:capitalize"><b>Social Media Marketing and its benefits</b></h1>
+			<br>
+			<p>Social Media can make you or break you! The power of Social Media is unpredictable, it is an undeniable force in today's world. It will be a mighty tool for business when handeled efficently. Recent statistics declare that there will be approximately 3 billion active social media users by 2021. </p>
 			</div>
                 <div class=" view overlay card " style="margin-top:50px;">
                     <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/onpage-and-offpage-optimization.png" alt="onpage and offpage optimization"class="">
@@ -32,9 +34,9 @@
                     </a>
                 </div>
 			<div class="excerpt mt-5" style="padding-top:50px;">
-				<p>Generally in this digitalized world, people search on the web for products, services, information etc., with related keywords in the search bar of Google, Bing, Yahoo, Ask, AOL, and other search engines; and they will be satisfied when they come across what they seek. The process of displaying that selected page or website in the search engine results page is carried out by optimizing of a website or a page, and this process is known as Search Engine Optimization.
+				<p> Approximately 80% of the Americans has atleast one social media account, nearly 200 million active users from India and 600 million active users from China. It is estimated that by 2022 there will be a tremendous increase in social media active users.				
  </p>
-				<p><strong>SEO </strong>is the acronym for “Search Engine Optimization”. In simple SEO is the process of getting traffic from the "Organic" or "Natural" search results on search engines results page (SERP).</p>
+				
 				
 			</div>
 			
@@ -48,28 +50,23 @@
 	<div class="row">
 		<div class="col-md-10 mb-20 pt-30 ">
 			<h2 class="text-left">
-			<span class="tit1">Search Engine Optimization</div>
+			<span class="tit1">Social Media</div>
 		</h2>
-	</div>
-	<div class="row">
-		<div class="col-md-10 mb-20 pt-30 ">
-		<h3><strong>SEO is of two types :</strong></h3>
-		<ol class="pad-lr15">
-			<li><h2 class="text-warning">On-Page Optimization</h2></li>
-			<li><h2 class="text-warning">Off-Page Optimization</h2></li>
-		</ol>
-	
-		</div>
+		<div class="col-md-12"
+		<h5 class=" text-left  dark-grey-text font-w-400">  Social Media is the computer-mediated tool a website or an application that allow people to create, share or exchange information, pictures, videos, ideas and opinions etc. in virtual communities and networks.</h5>
+		
 		
 	</div>
+	</div>
+	
 	<div class="row">
 		<div class="col-md-10 mb-20 pt-30 ">
 			<h2 class="text-left">
-			<span class="tit1">On-Page Optimization</div>
+			<span class="tit1">Social Media Marketing</div>
 		</h2>
 	</div>
 
-	<p> On page optimization deals with the aspects of a website or blog post that can be optimized to read by the search engines. Though it is a time taking process yet this kind of optimization gets more organic traffic, which results in the better rankings of a website. Keywords (long tail or short tail) play the major role in Onpage Optimization.</p>
+	<p>  Social Media Marketing is the process of getting attention through social media sites.</p>
      
 	<div class="row justify-content-md-center">
 		<div class="col-md-12 mb-20 pt-30  ">

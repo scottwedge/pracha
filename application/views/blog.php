@@ -89,7 +89,7 @@
 					<p class="date-design">20-March-2018</p>
 				</div>
 				<div class="col-md-5 ">
-					<a href="<?php echo base_url('blog/what_is_onpage_and_offpage_optimization');?>" class="btn btn-warning btn-rounded btn-md pull-right">Read more</a>
+					<a href="<?php echo base_url('blog/social_media_marketing_and_its_benefits');?>" class="btn btn-warning btn-rounded btn-md pull-right">Read more</a>
 				</div>
 			</div>
         </div>
