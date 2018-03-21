@@ -209,7 +209,9 @@
 							</ul>
 						</div>
 						<div class="row">
+						<div class="col-md-12">
 							<h3><strong>Benefits of Social Media Marketing</strong></h3>
+							</div>
 							<ul class="pad-l-20">
 								<li>Increased Brand Awareness</li>
 								<li>More Inbound Traffic</li>
