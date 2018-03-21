@@ -52,9 +52,8 @@
 			<h2 class="text-left">
 			<span class="tit1">Social Media</div>
 		</h2>
-		<div class="col-md-12"
+		<div class="col-md-12">
 		<h5 class=" text-left  dark-grey-text font-w-400">  Social Media is the computer-mediated tool a website or an application that allow people to create, share or exchange information, pictures, videos, ideas and opinions etc. in virtual communities and networks.</h5>
-		
 		
 	</div>
 	</div>
