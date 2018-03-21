@@ -92,9 +92,19 @@
 					
 				</div>
 			</div>
+			<div class="row pb-3">
+				
+				<div class="col-10">
+					<h5 class=" text-left  dark-grey-text font-w-400"> Social Media Marketing spreads brand awareness of your product. 
+  </h5>
+					
+				</div>
+			</div>
 			<div class="row pb-3 justify-content-md-center">
 				
 				<div class="col-md-8">
+				<h5 class=" text-left  dark-grey-text font-w-400"> There are many platforms for Social Media and the top ten social media channels and their active users are listed below:
+   </h5>
 					<table class="table table-bordered table-font-sty">
 						<thead>
 						  <tr>
@@ -105,110 +115,67 @@
 						</thead>
 						<tbody>
 						  <tr>
-							<td>John</td>
-							<td>Doe</td>
+							<td>Facebook</td>
+							<td>2,130,000,000</td>
 						  </tr>
 						  <tr>
-							<td>John</td>
-							<td>Doe</td>
+							<td>Twitter </td>
+							<td>330,000,000</td>
 						  </tr>
 						  <tr>
-							<td>John</td>
-							<td>Doe</td>
+							<td>Youtube</td>
+							<td>1,500,000,000</td>
 						  </tr>
 						  <tr>
-							<td>John</td>
-							<td>Doe</td>
+							<td>Linkedin</td>
+							<td>106,000,000</td>
 						  </tr>
 						  <tr>
-							<td>John</td>
-							<td>Doe</td>
+							<td>Pinterest</td>
+							<td>175,000,000</td>
 						  </tr>
 						  <tr>
-							<td>John</td>
-							<td>Doe</td>
+							<td>Google+</td>
+							<td>111,000,000</td>
 						  </tr>
 						  <tr>
-							<td>John</td>
-							<td>Doe</td>
+							<td>Instagram</td>
+							<td>800,000,000</td>
 						  </tr>
 						  <tr>
-							<td>John</td>
-							<td>Doe</td>
+							<td>Tumblr</td>
+							<td>111,000,000</td>
 						  </tr>
 						  <tr>
-							<td>John</td>
-							<td>Doe</td>
+							<td>Flickr</td>
+							<td>112,000,000</td>
 						  </tr>
 						  <tr>
-							<td>John</td>
-							<td>Doe</td>
+							<td>Reddit</td>
+							<td>250,000,000</td>
 						  </tr>
 						 
 						</tbody>
 					  </table>
 					
 				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-				<h3><strong>Blog Directory Submission : </strong></h3>
-					<h5 class=" text-left  dark-grey-text font-w-400">  Selection of best directories are very essential to submit your website description, website details, link name etc. Though it is a time taking process it stands for a long time period.</h5>
-					
-				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-				<h3><strong>Article Submission : </strong></h3>
-					<h5 class=" text-left  dark-grey-text font-w-400">   A high quality and unique article is preferred, and submit your article in high PR article submission directory. </h5>
-					
-				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-				<h3><strong>Question & Answers :</strong></h3>
-					<h5 class=" text-left  dark-grey-text font-w-400">    "Question and Answers" is much better way to increase your website traffic. Whenever you answer a question you can engage the readers and direct them to your website</h5>
-					
-				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-				<h3><strong>Video Submission : </strong></h3>
-					<h5 class=" text-left  dark-grey-text font-w-400">  High quality video is must with proper title (include keywords), tags and reference links. <a href="#">To follow the standards of Youtube click here</a></h5>
-					
-				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-				<h3><strong>Image Submission : </strong></h3>
-					<h5 class=" text-left  dark-grey-text font-w-400">   Sharing your images or pictures on popular Image submission websites is essential. Make sure to post high quality images linked with URL’s and title tags, description etc.</h5>
-					
-				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-					<h3><strong>Infographic Submission : </strong> </h3>
-					<h5 class=" text-left  dark-grey-text font-w-400">   Infographics play a vital role on webpages, because they are attractive and informative. So high quality infographics with short and specific description is suggestable.</h5>
-					
-				</div>
-			</div>
-			<div class="row pb-3">
-				
-				<div class="col-10">
-				<h3><strong>Document Sharing : </strong></h3>
-					<h5 class=" text-left  dark-grey-text font-w-400"> Create informative and attractive PDF or PPT file regarding your website or blog post, and submit them in the document sharing websites</h5>
-					
-				</div>
-			</div> 
-	
+			</div>	
 	<div class="row">
 		<div class="col-md-10 mb-20 pt-30 ">
+			<h2 class="text-left">
+			<span class="tit1">Power of social media</div>
+		</h2>
+	</div>
+	
+	<p>Social Media is like a sharp knife in the hand of an individual which can be used for good and for bad. Social Media is very helpful for Individuals and for celebrities to share their views and opinions with each other globally. It also plays a vital role in businesses, and it is the best tool for advertising which has a very great impact on businesses and very cost effective.<p>
+
+<p>Social Media can make you or break you!<p>
+
+<p>In this digital era, the role of social media is unpredictable. It can make you or break you. Best examples are Mr. Arshid Khan and Mr. Evan Spiegel. 
+Mr. Arshid khan (chaiwala) from Pakistan, a common man, became overnight celebrity through social media. And Mr. Evan Spiegel,  the CEO of Snapchat, who allegedly stated India as a poor country. And after this statement people united together rose against Mr. Evan Spiegel through social media, and it resulted in downfall of Snapchat ratings in Google Play store, today it has 1-Star rating.<p>
+
+ </p>
+	<div class="col-md-10 mb-20 pt-30 ">
 			<h2 class="text-left">
 			<span class="tit1">Conclusion :</div>
 		</h2>
