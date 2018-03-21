@@ -4,6 +4,12 @@ p{
 .bg-light-brown{
 	background-color:#a79d9d;
 }
+.table-font-sty td{
+	font-size:20px;
+}
+.table-font-sty th{
+	font-size:20px;
+}
 .pad-tb-10{
 	padding-top:10px;
 	padding-bottom:10px;
