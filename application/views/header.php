@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Software Designing & Digital Marketing Company in Hyderabad. The Company deals with Web designing, Web development, UI & UX design, Mobile apps (Android & iOS), eCommerce website, Digital Marketing, etc. at affordable prices to support and serve the Startups and Mid-sized Companies. ">
-	<meta name="keywords" content="Web designing, Web development, UI & UX design, Mobile apps (Android & iOS), eCommerce website, Digital Marketing, SEO, Social Media, SMM,PPC">
+	
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     

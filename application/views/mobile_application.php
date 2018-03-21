@@ -1,6 +1,7 @@
 <head>
-	<title> Mobile App Developers In Hyderabad </title>
-	<meta name="description" content="Mobile Apps can benefit your business in a real good manner. As per the   ABI’s latest research Mobile apps help boosting business upto 80%,	because people spend more time on mobiles than on TV or Computer. Mobile apps are three types namely: Native apps, Web apps and Hybrid apps.">
+	<title> Mobile App Developers In Hyderabad | Mobile Applications </title>
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Mobile App developers company in Hyderabad. We are specialized in developing Mobile Apps(iOS and Android softwares), eCommerce websites, Web Designing & Development and offer Digital Marketing services at affordable prices."> 
+	<meta name="keywords" content="mobile app developers in hyderabad, mobile application developers in hyderabad, mobile apps designer in hyderabad, mobile applications designer in hyderabad, mobile application services in hyderabad, mobile app services in hyderabad. ">
 </head>
 <section id="masthead" role="banner" class="bod-st">
 

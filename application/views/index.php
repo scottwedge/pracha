@@ -1,5 +1,8 @@
 <head>
 	<title>Prachatech | Web Designing Company In Hyderabad </title>
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Web Designing company in Hyderabad. We also offer  Digital Marketing services (SEO, SMM, Google Ads, email Marketing etc.)  and design Mobile apps (iOS and Android), eCommerce websites and promote them digitally at affordable prices. ">
+	<meta name="keywords" content="Web designing company in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+
 </head>
 <div class="selectstate">
 <section class=" bod-st" >

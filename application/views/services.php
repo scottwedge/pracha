@@ -1,6 +1,7 @@
 <head>
 	<title>Web Designing Services In Hyderabad</title>
-	<meta name="description" content="We delight ourselves to offer the full spectrum of Web-services to serve our clients. We generate new Websites and decorate them with charming designs, and create content with magnetizing words. Mobile apps (Android & iOS), Digital Marketing, eCommerce Websites and many more services comes under our territory.">
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. offers various web designing services in Hyderabad for startups and mid-level companies. The company deals with mobile apps (iOS and Android), ecommerce websites, corporate websites and promote them on the internet through its  digital marketing strategies.">
+	<meta name="keywords" content=" web designing services in hyderabad, web designing company in hyderabad, mobile app developers in hyderabad, digital marketing agency in hyderabad, ecommerce website design in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 </head>
  <style>
  #sticky {
@@ -77,10 +78,10 @@
     <div class=" active" >
         <br>
 			<!--Grid row-->
-			 <h1 class="h1 font-bold text-center ">SERVICES</h1>
+			 <h1 style="font-size: 27px;  text-transform: capitalize;" class="h1 font-bold text-center ">Web Design, Mobile Apps & Digital Marketing Services</h1>
     <!--Section description-->
     <p class="text-center mb-5 pb-3">
-We delight ourselves to offer the full spectrum of web-services to serve our clients. We pregenerate new websites to our clients and decorate them with magnetizing words, which will turn a visitor in to a client. We nourish our clients websites with organic keywords, and with various analytical researches, to make our clients visible in the Google’s search results page. We expeditiously promote our clients on social media to shake hand with their new clients. We enlarge our territory in generating Android apps, iOS apps and promoting them digitally.
+We are delighted to offer the web designing, mobile app and digital marketing services to serve our clients. We generate new websites to our clients and decorate them with magnetizing words, which will turn a visitor in to a client. We nourish our clients websites with organic keywords, and with various analytical researches, to make our clients visible in the Google’s search engine results page. We expeditiously promote our clients on social media to shake hand with their new clients.
 </p>
 		<hr class="mb-5 mt-5 pb-3" id="ui-ux">
     <div class="row">
@@ -103,13 +104,14 @@ We delight ourselves to offer the full spectrum of web-services to serve our cli
         <!--Excerpt-->
         
       
-        <h3 class="mb-4 font-bold dark-grey-text">
+        <h2 class="mb-4 font-bold dark-grey-text">
         <strong>UI & UX DESIGNING</strong>
-        </h3>
-        <p>UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. In simple UI aims on website and UX aims on product, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user. 
+        </h2>
+        <p>UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. In simple UI aims on website and UX aims on product, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user. User Interface Design is the combination of Visual Design and Interaction Design. Visual Design is the look and feel of the site, and Interaction Design is the way public interacts with your site.
+ 
 </p>
        
-        <a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
+        <a href="<?php echo base_url('ui_and_ux_design'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
        
     </div>
     <!--Grid column-->
@@ -126,15 +128,12 @@ We delight ourselves to offer the full spectrum of web-services to serve our cli
     <div class="col-lg-8 col-xl-8 pb-3">
         <!--Excerpt-->
        
-        <h3 class="mb-4 font-bold dark-grey-text">
+        <h2 class="mb-4 font-bold dark-grey-text">
         <strong>Web Development</strong>
-        </h3>
-        <p>
-Web Development is of two types namely Front-end development and Back-end development. Front-end development is client side development and Back-end  development is server side development. 
-
-</p>
+        </h2>
+        <p>Web development is the term that we apply to develop a website. Either a single static page or the most complex website must undergo web development. Prototype methodology, Agile methodology, Scrum methodology etc. are the various types of methodologies that come under web development. There are 3 kinds of web development specializations they are Front-end, Back-end and Full-stack web developers. Front-end development is client side development and Back-end  development is server side development.  </p>
         
-         <a href="<?php echo base_url('develop_service'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
+         <a href="<?php echo base_url('web_development'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
        
     </div>
     <!--Grid column-->
@@ -177,11 +176,11 @@ Web Development is of two types namely Front-end development and Back-end develo
     <div class="col-lg-8 col-xl-8">
         <!--Excerpt-->
       
-        <h3 class="mb-4 font-bold dark-grey-text">
+        <h2 class="mb-4 font-bold dark-grey-text">
         <strong>Mobile Application Development</strong>
-        </h3>
-        <p>Mobile Apps can benefit your business in a real good manner. As per the   ABI’s latest research Mobile apps help boosting business upto 80%,	because people spend more time on mobiles than on TV or Computer. Mobile apps are three types namely: Native apps, Web apps and Hybrid apps.</p>
-         <a href="<?php echo base_url('mobile_application'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
+        </h2>
+        <p>As per latest Google reports, two in five Google searches is now being carried out on a mobile device or a smartphone. One out of every three searches is now local, so if you don’t have a mobile optimized version of your website you are throwing away a large chance of your business. Mobile Apps can benefit your business in a real good manner. As per the   ABI’s latest research Mobile apps help boosting business upto 80%,	because people spend more time on mobiles than on TV or Computer. Mobile apps are three types namely: Native apps, Web apps and Hybrid apps.</p>
+         <a href="<?php echo base_url('mobile_applications'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
 		 
     </div>
     <!--Grid column-->
@@ -197,12 +196,12 @@ Web Development is of two types namely Front-end development and Back-end develo
     <div class="col-lg-8 col-xl-8">
         <!--Excerpt-->
         
-        <h3 class="mb-4 font-bold dark-grey-text">
+        <h2 class="mb-4 font-bold dark-grey-text">
         <strong>Digital Marketing</strong>
-        </h3>
-        <p>Digital Marketing is just marketing of products or services using digital technologies. Digital Marketing is just marketing of products or services using digital technologies. As indicated by Google, 97% of shoppers utilize the web to look for nearby organizations, so to catch hold of your potential clients you ought to be on the web. Marketing your website digitally is very essential for you to be identified by your customer when he searches for a product or service with specific keywords on search engines(especially on Google), so that you may appear to him on the first place of the first page.
+        </h2>
+        <p>Digital Marketing is the process of marketing your products or services using digital technologies. As indicated by Google, 97% of shoppers utilize the web to look for nearby organizations, so to catch hold of your potential clients you ought to be on the web. Marketing your website digitally is very essential for you to be identified by your customer. When your customer searches for a product or service with specific keywords on search engines(especially on Google), you must appear to him on the first place of the first page, else your customer may visit your competitors website which is on the first place  of the first page.
 </p>
-        <a href="<?php echo base_url('digitalmarketing'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
+        <a href="<?php echo base_url('digital_marketing'); ?>"" class="btn btn-dark btn-md mb-3">Know More</a>
 		
     </div>
     <!--Grid column-->
@@ -231,9 +230,9 @@ Web Development is of two types namely Front-end development and Back-end develo
     <div class="col-lg-8 col-xl-8 pb-3">
         <!--Excerpt-->
      
-        <h3 class="mb-4 font-bold dark-grey-text">
+        <h2 class="mb-4 font-bold dark-grey-text">
         <strong>E-Commerce Website</strong>
-        </h3>
+        </h2>
         <p>Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G) and Mobile Commerce (m-commerce). Mobile  commerce (m-commerce) is particularly done through mobile only.  
 We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions for our interested customers. 
 </p>
@@ -314,7 +313,7 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
         <!--Excerpt-->
         
         <h3 class="mb-4 font-bold dark-grey-text">
-        <strong>Maintenance</strong>
+        <strong>Software Maintenance</strong>
         </h3>
         <p>Maintenance and Support is a critical perspective towards upgrading and broadening the life of the applications. Typically organizations are battling with lacking specialized specialists to deal with both mission-basic assignments and unforeseen possibilities. At such circumstances Prachatech specialists can help you in numerous ways. Our Maintenance team, who particularly work on it will guarantee your business applications work consistently to give a protected and superior stage for the clients. 
 </p>
@@ -323,7 +322,7 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
 
 
 
-        <a href="<?php echo base_url('maintainence'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
+        <a href="<?php echo base_url('website_maintainence'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
     </div>
     <!--Grid column-->
 
@@ -341,7 +340,7 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
 	</div>
 	<div class="content"></div>
 	
-	<div class="col-md-3 card fixme "  id="sticky">
+	<div class="col-md-3 card fixme "  id="sticky" style="padding:5px 15px">
 	<?php if($this->session->flashdata('success')): ?>
 	<div class="alert alert-success">
 	<strong><?php echo $this->session->flashdata('success'); ?></strong> 

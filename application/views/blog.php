@@ -18,7 +18,7 @@
     <div class="row justify-content-md-center pt-5 mt-4 help-blog">
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-12 mb-4 card">
+        <div class="col-lg-3 col-md-3 mb-3 card">
             <!--Featured image-->
             <div class="view overlay rounded z-depth-2 mb-2">
                 <img src="<?php echo base_url(); ?>assets/vendor/img/blog-you.png" class="img-fluid" alt="Blog">
@@ -42,7 +42,7 @@
 				</div>
 			</div>
         </div> 
-		<div class="col-lg-4 col-md-12 mb-4 card">
+		<div class="col-lg-3 col-md-3 mb-3 card">
             <!--Featured image-->
             <div class="view overlay rounded z-depth-2 mb-2">
                 <img src="<?php echo base_url(); ?>assets/vendor/img/onpage-and-offpage-optimization-blog.png" class="img-fluid" alt="Blog2">
@@ -61,6 +61,32 @@
 			<div class="row">
 				<div class="col-md-7 ">
 					<p class="date-design">10-March-2018</p>
+				</div>
+				<div class="col-md-5 ">
+					<a href="<?php echo base_url('blog/what_is_onpage_and_offpage_optimization');?>" class="btn btn-warning btn-rounded btn-md pull-right">Read more</a>
+				</div>
+			</div>
+        </div>
+		<div class="col-lg-3 col-md-3 mb-3 card">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-2 mb-2">
+                <img src="<?php echo base_url(); ?>assets/vendor/img/onpage-and-offpage-optimization-blog.png" class="img-fluid" alt="Blog2">
+                <a href="<?php echo base_url('blog/what_is_onpage_and_offpage_optimization');?>">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            
+            <h3 class="mb-3  dark-grey-text font-25 mar-t20">
+                <strong>Social Media Marketing and its benefits</strong>
+            </h3>
+           
+            <p class="grey-text">Social Media can make you or break you! Social Media Marketing is the process of getting attention through social media sites. When you promote your website or a blog post
+ 
+</p>
+			<div class="row">
+				<div class="col-md-7 ">
+					<p class="date-design">20-March-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/what_is_onpage_and_offpage_optimization');?>" class="btn btn-warning btn-rounded btn-md pull-right">Read more</a>

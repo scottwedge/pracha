@@ -1,6 +1,8 @@
 <head>
 	<title>Web Development Company In Hyderabad</title>
-	<meta name="description" content="Web Development is of two types namely Front-end development and Back-end development. Front-end development is client side development and Back-end  development is server side development">
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a web development company in Hyderabad. We focus on Custom Application Development, Content Management System, MEAN Stack Development etc., to make the website much attractive. The company also deals with Mobile apps (iOS & Android),  eCommerce and Digital Marketing services.">
+	<meta name="keywords" content="web development company in hyderabad, ecommerce web site developers, web designing agency in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+
 </head>
 <section id="masthead" role="banner" class="bod-st">
 
@@ -22,12 +24,12 @@
 <div class="container-sty card " >
 
 	<div class="row  justify-content-md-center" >
-		<p class="font-18 col-md-11">Under Web Design and Development services, we focus on many principal things to make the website much attractive, we focus on  Custom Application Development, Content Management System, eCommerce Website and MEAN Stack Development etc., so lets have a glimpse on every attribute and its functionalities.</p>
+		<p class="font-18 col-md-11">We focus on many principal things to make the website much attractive, we focus on  Custom Application Development, Content Management System, Ui & Ux Design and MEAN (Mongo DB, Express.js, Angular.js, Node.js) Stack Development etc., so lets have a glimpse on each and every attribute and its functionalities.</p>
 	</div><br>
 	<h2 class="head-ing">Web Development</h2>
 	<div class="row justify-content-md-center" >
 		
-		<p class="col-md-11 font-18">Web Development is of two types namely Front-end development and Back-end development. Front-end development is client side development and Back-end  development is server side development. </p>
+		<p class="col-md-11 font-18">Software development is limitless! There are many methodologies that comes under web development: Spiral Model, Dynamic System Development, Agile Software Development, Prototype Methodology, Waterfall Model, Extreme Programming Methodology and Scrum development methodology etc. These softwares are applied depending upon the requirements of the website. </p>
 		</div>
 		
 <div class=" "  id="navbarSupportedContent" >

@@ -1,6 +1,7 @@
 <head>
 	<title> Digital Marketing Company In Hyderabad</title>
-	<meta name="description" content="Digital Marketing is just marketing of products or services using digital technologies.">
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Digital Marketing Company in Hyderabad. The Company also deals with Web designing, Web development, UI & UX design, Mobile apps (Android & iOS), eCommerce website etc. at affordable prices to support and serve the Startups and Mid-level companies.">
+	<meta name="keywords" content="digital marketing company in hyderabad, digital marketing services in hyderabad, digital marketing agency in hyderabad, digital marketing in hyderabad, digital marketing. ">
 </head>
 <section id="masthead" role="banner" class="bod-st">
 
@@ -157,7 +158,7 @@
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8">
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
-			<strong>Adwords</strong>
+			<strong> Google Adwords</strong>
         </h2>
         <p>Through Google Adwords we run your campaigns or advertisements on internet. We are very much familiar with Google Search Network, Google Display Network and the Youtube Network  to show your banners, videos and text ads to the targeted customers. We focus them on particular age groups or gender or geographical locations depending upon your budget and the product or service you offer. We refer our clients to opt for PPC(Pay per Click) or Pay per 1000 impressions depending upon the budget.  </p>
         
