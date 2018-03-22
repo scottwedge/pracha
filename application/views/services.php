@@ -20,7 +20,10 @@
 	
 		
 }
-
+ .affix {
+      top: 20px;
+      z-index: 9999 !important;
+  }
   </style>
 <section class="bod-st">
 	<div class="img-responsive">
@@ -340,7 +343,7 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
 	</div>
 	<div class="content"></div>
 	
-	<div class="col-md-3 card fixme "  id="sticky" style="padding:5px 15px">
+	<div class="col-md-3 card nav-pills nav-stacked" data-spy="affix" data-offset-top="205" style="padding:5px 15px">
 	<?php if($this->session->flashdata('success')): ?>
 	<div class="alert alert-success">
 	<strong><?php echo $this->session->flashdata('success'); ?></strong> 
