@@ -42,26 +42,26 @@
         <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab">Home</a>
     </li>
 	<li class="nav-item">
-        <a class="nav-link active"  href="#ui-ux" role="tab">UI & UX Designing</a>
+        <a class="nav-link active"  href="#ui-and-ux-designing" role="tab">UI & UX Designing</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link "  href="#web-dev" role="tab">Web Development </a>
+        <a class="nav-link "  href="#web-development" role="tab">Web Development </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#mob-app" role="tab"> Mobile Applications </a>
+        <a class="nav-link"  href="#mobile-applications" role="tab"> Mobile Applications </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#dig-mar" role="tab">Digital Marketing  </a>
+        <a class="nav-link"  href="#digital-marketing" role="tab">Digital Marketing  </a>
     </li>
 	
 	  <li class="nav-item">
-        <a  style="text-transform: none;" class="nav-link"  href="#e-comm-scroll" role="tab">eCommerce </a>
+        <a  style="text-transform: none;" class="nav-link"  href="#eCommerce" role="tab">eCommerce </a>
     </li>
 	  <li class="nav-item">
-        <a class="nav-link"  href="#busin-sol" role="tab">Business Solutions</a>
+        <a class="nav-link"  href="#business-solutions" role="tab">Business Solutions</a>
     </li>
 	<li class="nav-item">
-        <a class="nav-link"  href="#maintain" role="tab">Maintenance</a>
+        <a class="nav-link"  href="#software-maintenance" role="tab">Maintenance</a>
     </li>
 	
 
@@ -86,7 +86,7 @@
     <p class="text-center mb-5 pb-3">
 We are delighted to offer the web designing, mobile app and digital marketing services to serve our clients. We generate new websites to our clients and decorate them with magnetizing words, which will turn a visitor in to a client. We nourish our clients websites with organic keywords, and with various analytical researches, to make our clients visible in the Google’s search engine results page. We expeditiously promote our clients on social media to shake hand with their new clients.
 </p>
-		<hr class="mb-5 mt-5 pb-3" id="ui-ux">
+		<hr class="mb-5 mt-5 pb-3" id="ui-and-ux-designing">
     <div class="row">
 
     <!--Grid column-->
@@ -122,7 +122,7 @@ We are delighted to offer the web designing, mobile app and digital marketing se
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-5 pb-3" id="web-dev">
+    <hr class="mb-5 mt-5 pb-3" id="web-development">
 
     <!--Grid row-->
     <div class="row">
@@ -158,7 +158,7 @@ We are delighted to offer the web designing, mobile app and digital marketing se
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-4 pb-3" id="mob-app">
+    <hr class="mb-5 mt-4 pb-3" id="mobile-applications">
 
     <!--Grid row-->
     <div class="row pb-5">
@@ -191,7 +191,7 @@ We are delighted to offer the web designing, mobile app and digital marketing se
     </div>
 	 <!--Grid row-->
 
-    <hr class="mb-5 mt-4 pb-3" id="dig-mar">
+    <hr class="mb-5 mt-4 pb-3" id="digital-marketing">
 
     <!--Grid row-->
     <div class="row pb-5">
@@ -224,7 +224,7 @@ We are delighted to offer the web designing, mobile app and digital marketing se
 
     </div>
     <!--Grid row-->
-	<hr class="mb-5 mt-5 pb-3" id="e-comm-scroll">
+	<hr class="mb-5 mt-5 pb-3" id="eCommerce">
 
     <!--Grid row-->
     <div class="row">
@@ -260,7 +260,7 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
    
 
 	<!--Grid row-->
-	<hr class="mb-5 mt-5 pb-3" id="busin-sol">
+	<hr class="mb-5 mt-5 pb-3" id="business-solutions">
 
     <!--Grid row-->
     <div class="row">
@@ -294,7 +294,7 @@ We provide services for existing ecommerce sites, and develop new ecommerce secu
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-4 pb-3" id="maintain">
+    <hr class="mb-5 mt-4 pb-3" id="software-maintenance">
 
     <!--Grid row-->
     <div class="row pb-5">
