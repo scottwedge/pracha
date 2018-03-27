@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Start_up extends CI_Controller {
+class Sitemap extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,17 +20,14 @@ class Start_up extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['currentURL'] = current_url();
-		$this->load->view('header',$data);
-		$this->load->view('start_up');
-		$this->load->view('footer');
-	}
-	public function readmore()
-	{
-		$data['currentURL'] = current_url();
-		$this->load->view('header',$data);
-		$this->load->view('start_up');
-		$this->load->view('footer');
+				
+				
+				header("Content-type: text/xml");
+
+		$xml_file = file_get_contents('F:\xampp\htdocs\pracha\application\views/sitemap.xml');
+		//$xml_file = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/view/sitemap.xml");
+		echo $xml_file;
+		//$this->load->view('sitemap');
 	}
 	
 	
