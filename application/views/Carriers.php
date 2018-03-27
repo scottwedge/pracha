@@ -9,7 +9,7 @@
 			<div class="col-md-12">
 			
 			<img src="<?php echo base_url(); ?>assets/vendor/img/carrer.jpg" class="img-fluid" style="margin-top:15px;">
-				<h3 class="brown-text ptb-15">Join the Prachatech Team!</h3>
+				<h3 class="brown-text ptb-15"><b>Join the Prachatech Team!</b></h3>
 				<ul class="pad-lr30">
 					<li>Prachatech Software & Marketing solutions is a fast-growing Start-up company, packed with opportunities and rewarding experiences for every member in which you can grow and thrive.</li>
 					<li>We are passionate about what we do and about providing the right environment for all our team to succeed together. We strive to exceed the expectations of both our people and our clients.</li>
@@ -168,6 +168,7 @@
 								<td>12-15k + Work Incentives</td>
 							  </tr>
 							 
+							 
 							</tbody>
 						  </table>
 							 
@@ -192,20 +193,21 @@
 								 
 							  </div>
 							   </div>
+							   
 						</div>
 					</div>
 				</div>
-				<!-- Accordion card -->
+			
 				
 			
-					<!--<div class="card">
+				<div class="card">
 					<div class="card-header" role="tab" id="headingThree">
 						<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 							<span class="mb-0">
 							<div class="row">
-								<div class="col-md-4 col-xs-4 col-sm-4">Designer</div>
-								 <div class="col-md-4 col-xs-4 col-sm-4">UI Designer</div>
-								 <div class="col-md-4 col-xs-4 col-sm-4">3-4 years 	 <i class="fa fa-angle-down rotate-icon"></i></div>
+								<div class="col-md-4 col-xs-4 col-sm-4">QA Testing Engineer </div>
+								 <div class="col-md-4 col-xs-4 col-sm-4">Software Testing</div>
+								 <div class="col-md-4 col-xs-4 col-sm-4">fresher or experienced	 <i class="fa fa-angle-down rotate-icon"></i></div>
 								
 								</div>
 							</span>
@@ -215,23 +217,75 @@
 					
 					<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
 						<div class="card-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-							non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
-							3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-							shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-							sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-							farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-							accusamus labore sustainable VHS.
+							<div class="row">
+							<div class="col-md-6">
+						<table class="table table-bordered">
+							<tbody>
+							  <tr>
+								<th>Designation</th>
+								<td>QA Testing Engineer</td>
+							  </tr>
+							  <tr>
+								<th>Eligibility</th>
+								<td> Fresher or Experienced</td>
+							  </tr>
+							  <tr>
+								<th>Qualification</th>
+								<td>UG or PG</td>
+							  </tr>
+							  <tr>
+								<th>Number of positions</th>
+								<td>1</td>
+							  </tr> 
+							  <tr>
+								<th>Salary</th>
+								<td>15-20k + Work Incentives</td>
+							  </tr>
+							   <tr>
+								<th>Employment Type</th>
+								<td>Permanent Job</td>
+							  </tr>
+							 
+							</tbody>
+						  </table>
+							 
+						  </div>
+						 
+						<div class="col-md-6">
+						<h3>Attributes :</h3>
+						<ul>
+						 <li>﻿Job Description Send Me Jobs like this</li>
+						 <li>Good Knowledge in both Manual Testing and Automation Testing</li>
+						 <li>﻿Strong experience in writing test scenarios and test cases</li>
+						 <li>﻿Strong knowledge on Selenium, Appium, Microsoft SQL and Jmeter </li>
+						 <li>Adept in functional testing and reporting defects </li>
+						 <li>Should be involved in Design and documenting formal Test Procedures and Test Plans.</li>
+						 <li>Good understanding of various testing methodologies. </li>
+						 <li>Identify, analyze, trouble-shoot and report product defects.</li>
+						 <li>Tools familiarity on QA life-cycle such as bug-tracking tools, test management.</li>
+						 <li>Should have experience in writing SQL queries. </li>
+						 <li>Very good oral and written communication skills.</li>
+						
+									</ul>
+								 
+							  </div>
+							   </div>
+							   <div class="row">
+								<h3>Key skills:</h3>
+								<p>
+								Manual Testing Automation Testing Functional Testing Test Engineering Selenium Appium QA Testing Test Cases Test Scenarios Defect Reporting</p>
+							   </div>
 						</div>
 					</div>
-				</div>-->
+				</div>
 				
 			</div>
-<!--/.Accordion wrapper-->
+
                 
             
 		</div>
 	</section>
+	<br>
 <script>
 $('.scrolltotop').on('click', function() {
           $('html, body').animate({ scrollTop: 0 }, 800);
