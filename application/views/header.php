@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
 			<ul class="nav navbar-nav  ml-auto">
 				<li class="nav-item <?php if($currentURL==base_url()){ echo "active-menu"; } ?> " id="homepageative"><a href="<?php echo base_url(); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
-				<li class="nav-item sm-hide <?php if($currentURL==base_url('servicesrm') || $currentURL==base_url('develop_service') || $currentURL==base_url('mobile_application') || $currentURL==base_url('digitalmarketing') || $currentURL==base_url('ecommerce') || $currentURL==base_url('maintainence') || $currentURL==base_url('services')){ echo "active-menu"; } ?>" > 
+				<li class="nav-item sm-hide <?php if($currentURL==base_url('start_up.xml') || $currentURL==base_url('enterprise.xml') || $currentURL==base_url('servicesrm.xml') || $currentURL==base_url('develop_service.xml') || $currentURL==base_url('mobile_application.xml') || $currentURL==base_url('digitalmarketing.xml') || $currentURL==base_url('ecommerce.xml') || $currentURL==base_url('maintainence.xml') || $currentURL==base_url('services.xml')){ echo "active-menu"; } ?>" > 
 				<div class="dropdown">
 					<a href="<?php echo base_url('services'); ?>" class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
 				  <div class="dropdown-content1">
@@ -64,7 +64,7 @@
 				  </div>
 				</div>
             </li>
-			<li class="nav-item md-hide <?php if($currentURL==base_url('servicesrm') || $currentURL==base_url('develop_service') || $currentURL==base_url('mobile_application') || $currentURL==base_url('digitalmarketing') || $currentURL==base_url('ecommerce') || $currentURL==base_url('maintainence') || $currentURL==base_url('services')){ echo "active-menu"; } ?>" > 
+			<li class="nav-item md-hide <?php if($currentURL==base_url('start_up.xml') || $currentURL==base_url('enterprise.xml') || $currentURL==base_url('servicesrm.xml') || $currentURL==base_url('develop_service.xml') || $currentURL==base_url('mobile_application.xml') || $currentURL==base_url('digitalmarketing.xml') || $currentURL==base_url('ecommerce.xml') || $currentURL==base_url('maintainence.xml') || $currentURL==base_url('services.xml')){ echo "active-menu"; } ?>" > 
 				<div class="dropdown">
 					<a  class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
 				  <div class="dropdown-content1">
@@ -106,10 +106,10 @@
 				  </div>
 				</div>
             </li>-->
-			<li class="nav-item <?php if($currentURL==base_url('industries')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('industries');?>" class="nav-link"> <span class=" ">Industries</span></a></li>
-			<li class="nav-item <?php if($currentURL==base_url('carriers')){ echo "active-menu"; } ?>" ><a href="<?php echo base_url('carriers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>
-				<li class="nav-item <?php if($currentURL==base_url('blog')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('blog');?>" class="nav-link"> <span class=" ">Blog</span></a></li>
-				<li class="nav-item <?php if($currentURL==base_url('contactus')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>
+			<li class="nav-item <?php if($currentURL==base_url('industries.xml')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('industries');?>" class="nav-link"> <span class=" ">Industries</span></a></li>
+			<li class="nav-item <?php if($currentURL==base_url('carriers.xml')){ echo "active-menu"; } ?>" ><a href="<?php echo base_url('carriers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>
+				<li class="nav-item <?php if($currentURL==base_url('blog.xml')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('blog');?>" class="nav-link"> <span class=" ">Blog</span></a></li>
+				<li class="nav-item <?php if($currentURL==base_url('contactus.xml')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>
 			</ul>
         </div>
    </nav>
