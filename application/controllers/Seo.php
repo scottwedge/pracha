@@ -12,13 +12,13 @@ class Seo extends CI_Controller {
 		$this->load->library('email');
 		$this->load->library('pdf');
 	}
-	public function index()
+	/*public function index()
 	{
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('seo');
 		$this->load->view('footer');
-	}
+	}*/
 	public function price(){
 		redirect('seo#digitalmarketing_price');
 		
@@ -31,19 +31,20 @@ class Seo extends CI_Controller {
 	$this->load->view('seoreadmore');
 	$this->load->view('footer');
 	}
-	public function ppc()
+	/*public function ppc()
 	{
 	$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 	$this->load->view('ppc');
 	$this->load->view('footer');
-	}public function affilatemanagement()
+	}*/
+	/*public function affilatemanagement()
 	{
 	$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 	$this->load->view('affilatemanagement');
 	$this->load->view('footer');
-	}
+	}*/
 	public function affilatemanagementpdf()
 	{
 		 $path = rtrim(FCPATH,"/");

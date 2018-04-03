@@ -37,7 +37,7 @@ class Price extends CI_Controller {
 		$this->load->view('priceviewpage');
 		$this->load->view('footer');
 	}
-	public function details()
+	/*public function details()
 	{
 		
 		$data['currentURL'] = current_url();
@@ -51,6 +51,6 @@ class Price extends CI_Controller {
 		
 		
 		$this->load->view('footer');
-	}
+	}*/
 	
 }
