@@ -1,12 +1,12 @@
 <section class=" py-5 bg-light-brown" style="overflow:hidden;">
-<div class="row justify-content-md-center">
+<div class="row justify-content-center">
 	<div class="half-circle">
 		<h1 class="text-white" style="line-height:380px">FACT</h1>
 	</div>
 </div>
 
 	<div class="text-center container-sty text-white">
-		<div class="row justify-content-md-center">
+		<div class="row justify-content-center">
 		<div class="col-md-10">
 		<h2 class="py-5 text-shad">No huge, nor anonymous company here. Our proficient team knows exactly how to make projects succeed.We will work side by side with you in every stage along the development process.</h2>
 		<div class="py-3">
@@ -34,7 +34,7 @@
 			</div>
             </div>
           </div>
-		  <div class="row mt-5 justify-content-md-center">
+		  <div class="row mt-5 justify-content-center">
             <div class="col-md-8 ">
 			<div class="help-foot-banner">
 			<h2 class="text-warning">Cost-Effective</h2>
@@ -57,7 +57,7 @@
 </section>
 <section class=" py-5 stylish-color-dark">
 	<div class="text-center container-sty text-white">
-		<div class="row justify-content-md-center">
+		<div class="row justify-content-center">
 		<div class="col-md-10">
 		<h3 class="py-2 ">BECAUSE Your digital presence is your online reputation, And the million dollar question is, how have you presented yourself?,</h3>
 		<h2 class="py-5 font-weight-bold">We will be On it. YOUR NEXT TECH PARTNER.</h2>

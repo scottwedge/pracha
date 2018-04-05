@@ -8,9 +8,13 @@ p{
 .head-h2{
 	font-size:35px;
 }
+
 .font-w-400{
 	font-weight:400;
 	line-height:30px;
+}
+.height-600{
+	height:600px;
 }
 .mar-tb10{
 	margin-top:10px;
@@ -2228,7 +2232,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     /* transform: translate(-50%, -50%); */
 /* } */
 .centered p{
-	font-size:12px !important;
+	font-size:16px !important;
 	color:#fff;
 	text-align:center;
 	font-weight:300;
@@ -2276,6 +2280,19 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 }
 .sm-hide{
 	display:none;
+}
+.sm-col-xs-mar .col-md-4{
+	margin-top:10px;
+}
+.sm-col-xs-mar .col-md-3{
+	margin-top:10px;
+}
+.help-foot-banner p {
+    text-shadow: 2px 2px 4px #888;
+    font-size: 16px !important;
+}
+.height-600{
+	height:1100px;
 }
 .tit1 {
     background: #192f5d;

@@ -95,6 +95,32 @@
 
 
     </div>
+	<div class="row justify-content-md-center pt-5 mt-4 help-blog">
+        <div class="col-lg-3 col-md-3 card cust-wid">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-2 mb-2">
+                <img src="<?php echo base_url(); ?>assets/vendor/img/what-is-ecommerce.png" class="img-fluid" alt="Blog">
+               <a href="<?php echo base_url('blog/what_is_ecommerce_and_its_types');?>">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            
+            <h3 class="mb-3  dark-grey-text font-25 mar-t20">
+                <strong>What is eCommerce and how many types of eCommerce are there?</strong>
+            </h3>
+           
+            <p class="grey-text">eCommerce is huge and it is ever growing. Have you ever purchased goods on the internet? If yes, then assuredly you have played an active role in the world of e-commerce; a world where the transactions are done digitally, and the products are conveniently delivered at the doorstep of the consumer. </p>
+			<div class="row">
+				<div class="col-md-7 ">
+					<p class="date-design">30-03-2018</p>
+				</div>
+				<div class="col-md-5 ">
+					<a href="<?php echo base_url('blog/what_is_ecommerce_and_its_types');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
+				</div>
+			</div>
+        </div> 
+		</div>
     <!--Grid row-->
 	</div>
 

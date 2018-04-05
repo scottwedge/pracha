@@ -1,6 +1,12 @@
 p{
 	font-size:18px !important;
 }
+.border-warning{
+	border:2px solid #ff9800 !important;
+}
+.text-shadow{
+	text-shadow: 2px 2px 4px #333 !important;
+}
 .bg-light-brown{
 	background-color:#a79d9d;
 }
@@ -11,7 +17,7 @@ p{
 	margin-left:60px;
 }
 .cust-wid {
-	max-width: 30% !important;
+	width: 30% !important;
 	margin:2px 10px!important;
 }
 .table-font-sty th{

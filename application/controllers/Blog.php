@@ -47,6 +47,14 @@ public function __construct()
 		$this->load->view('blog3_details',$commets);
 		$this->load->view('footer');
 	}
+	public function what_is_ecommerce_and_its_types()
+	{
+		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
+		$this->load->view('blog4_details',$commets);
+		$this->load->view('footer');
+	}
 	public function registerpost(){
 		
 			$post=$this->input->post();

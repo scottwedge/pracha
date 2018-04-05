@@ -1,5 +1,5 @@
 <head>
-    <title>Social Media Marketing and its benefits</title>
+    <title>What is eCommerce and how many types of eCommerce are there?</title>
     <meta name="description" content="Social Media can make you or break you! Social Media is the computer-mediated tool that allow people to create, share or exchange information, pictures, videos, ideas in virtual communities and networks. Social Media Marketing is the process of getting attention through social media sites.">
     <meta name="keywords" content=" social media marketing, social media marketing and its benefits, social media marketing strategies, social media. ">
 </head>
@@ -23,20 +23,24 @@
                         <?php endif; ?>
                         <div class=" ">
                             <div class="text-center ">
-                                <h1 class="ptb-15 font-30" style="text-transform:capitalize"><b>Social Media Marketing and its benefits</b></h1>
+                                <h1 class="ptb-15 font-30" style="text-transform:capitalize"><b>What is eCommerce and how many types of eCommerce are there?</b></h1>
                                 <br>
-                                <p>Social Media can make you or break you! The power of Social Media is unpredictable, it is an undeniable force in today's world. It will be a mighty tool for business when handled efficently. Recent statistics declare that
-                                    there will be approximately 3 billion active social media users by 2021. </p>
+                                <p>eCommerce is huge and it is ever growing. Have you ever purchased goods on the internet? If yes, then assuredly you have played an active role in the world of e-commerce; a world where the transactions are done digitally, and the products are conveniently delivered at the doorstep of the consumer.  </p>
                             </div>
                             <div class=" view overlay card " style="margin-top:50px;">
-                                <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/social-media-marketing-blog-view.png" alt="onpage and offpage optimization" class="">
+                                <img style="height:auto;width:60%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/what-is-ecommerce.png" alt="What is eCommerce and how many types of eCommerce are there?" class="">
                                 <a>
                         
                     </a>
                             </div>
                             <div class="excerpt mt-5" style="padding-top:50px;">
-                                <p> Approximately 80% of the Americans has atleast one social media account, nearly 200 million active users from India and 600 million active users from China. It is estimated that by 2022 there will be a tremendous increase
-                                    in social media active users.
+                                <p> Electronic Commerce is the buying and selling of goods and services, or transmitting of data or funds majorly on the internet, in simple eCommerce is the purchase of goods or services on the internet which takes place in between organisations, merchants and consumers. 
+                                </p>
+
+
+                            </div>
+							<div class="excerpt mt-4" >
+                                <p>ECommerce allows the transact across cultural, regional and national in a more convenient and cost effective way, with eCommerce it is easier to successfully get over across national boundaries in comparison to the traditional commerce. The technical standards for conducting eCommerce are same among all nations, and it is easier to find suppliers, prices and delivery terms of the products. 
                                 </p>
 
 
@@ -50,180 +54,121 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-10 mb-20 pt-30 ">
-                        <h2 class="text-left">
-                            <span class="tit1">Social Media</span>
-                        </h2>
-                    </div>
+                   
                     <div class="col-md-12">
-                        <h5 class=" text-left  dark-grey-text font-w-400"> Social Media is the computer-mediated tool that require a website or an application to interact with public and allows people to create, share or exchange information, pictures, videos, ideas and opinions etc., by means of virtual
-                            communities and networks.</h5>
-
+                        <h5 class=" text-left  dark-grey-text font-w-400"> The internet also allows retail and service merchants to market and sell "Complex" goods and services to a larger audience. There are many ways to sell a product on the internet and the popular three are:-</h5>
+			<div class="row py-3">
+				<div class="col-2 col-md-1 text-right">
+					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
+				</div>
+				<div class="col-10">
+					<h5 class=" text-left  dark-grey-text font-w-400">Selling on your own business website</h5>
+					
+				</div>
+			</div>
+			<div class="row pb-3">
+				<div class="col-2 col-md-1 text-right">
+					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
+				</div>
+				<div class="col-10">
+					<h5 class=" text-left  dark-grey-text font-w-400">Selling through social networking sites</h5>
+					
+				</div>
+			</div>
+			<div class="row pb-3">
+				<div class="col-2 col-md-1 text-right">
+					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
+				</div>
+				<div class="col-10">
+					<h5 class=" text-left  dark-grey-text font-w-400">Selling through an auction site etc.</h5>
+					
+				</div>
+			</div>
                     </div>
                 </div>
-
-                <div class="row">
+				<div class="row">
+                            <div class="col-md-10 mb-20 pt-30 ">
+                                <h2 class="text-left">
+                                    <span class="tit1">The Process of e-commerce (B2C)</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center py-5">
+                        <div class="text-center">
+							<img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/the-process-of-ecommerce.png" alt="How Social Media Works">
+						</div>
+						</div>
+                <div class="row pt-5">
                     <div class="col-md-10 mb-20 pt-30 ">
                         <h2 class="text-left">
-                            <span class="tit1">Social Media Marketing</span>
+                            <span class="tit1">Types Of Business Models In eCommerce:</span>
                         </h2>
                     </div>
                 </div>
 
-                <p> Social Media Marketing is the process of getting attention through social media networking sites, it is a form of internet marketing. The important theme of social media marketing is to set SMART goals. The acronym for SMART is Specific
-                    Measurable Achievable Realistic and Timely. The core reason of social media marketing is to create Brand awareness, Enhance public relations, Building a community, Research and Development, Driving Sales and getting Leads. Social Media
-                    marketing helps a business to get their feedback directly from its customers, which is genuine..</p>
+                <p><h2> Business to Customer (B2C):</h2> This is the commerce between companies and consumers, that involves consumers buying products or services on the online stores through electronic media, which is popularly called as online shopping, this has made ecommerce to be one among the fastest growing sectors of the economy</p>
+				<p><h2> Business to Business (B2B): </h2> In this, transactions takes place between company to company or in between business and a wholesaler. As per the research, about 80% of the eCommerce in the world is involved in business to business eCommerce, many companies found this way is much better and more profitable where they can quickly promote their products. </p>
+				<p><h2>Consumer to Business (C2B):</h2> In this, consumer will offer services or products to the companies and in return companies will pay for the offers of the consumer, which is quite opposite to the traditional marketing. We can view this type of C2B transactions in blogs, internet forums etc. where the author directs the viewer or reader to his site for purchases. </p>
+				<p><h2>Customer to Customer (C2C):</h2>In this transactions takes place between customer and customer, generally this kind of sales are facilitated by a  third party site that generates the details of the transaction. This kind of transactions benefit both, the seller as well as the buyer because mediator will not be there so there won’t be any extra charges. It is entirely a private transaction between two  individuals. </p>
+				<p><h2>Business to Government (B2G): </h2>It is generally defined as the commerce between companies and the public sector. In this a company offers its services or products to various government sectors including federal, state and local governments, especially it is used for public procurement, licensing procedures, request for quotations or information, tenders and other government related operations. </p>
+				<p><h2>Government to Business (G2B):</h2>In this model government provides information or services to the business organisation, examples are placing auctions, calling for tenders and application submission functionalities etc.</p>
+				<p><h2>Government to Citizen (G2C): </h2>The main aim of this G2C commerce is to provide best and effective services through respective websites to each and every citizen, like various welfare schemes, information regarding government departments, or necessary applications to be used by citizens  etc.</p>
+				<p><h2>GovernmentMobile Commerce (m-Commerce):  </h2>Mobile Commerce is the buying and selling of goods or services especially through mobiles. A research regarding mobile commerce has declared that more than 70% of the online  transactions are done through mobiles, mobile commerce has captured the customer as well as the market share. Best examples are mobile banking, mobile ticketing, mobile payments, mobile vouchers and coupons  etc. </p>
 
                 <div class="row justify-content-md-center">
-                    <div class="col-md-12 mb-20 pt-30  ">
-                        <div class="row">
-                            <div class="col-md-10 mb-20 pt-30 ">
-                                <h2 class="text-left">
-                                    <span class="tit1">How Social Media Works</span>
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="row justify-content-md-center">
-                        <div class="text-center">
-							<img class="img-resposive" src="<?php echo base_url(); ?>assets/vendor/img/how-social-media-works.png" alt="How Social Media Works">
-						</div>
-						</div>
-                        <div class="row pb-3">
-                            <div class="col-12">
-                                <h5 class=" text-left  dark-grey-text font-w-400"> When you promote your website or a blog post on social media, obviously it reaches to all of your followers. And when your followers perform certain activities like, “Sharing your post”, “Liking your post” or “Commenting”
-                                    etc., then because of the interactions done through them shows that people are interested on your post and there will be a decent increase in traffic to your website. New visitors will be introduced to your website
-                                    when your post is shared by your followers, and this kind of traffic generation is called Referral Traffic. Consistency and discipline is important regarding your postings to gain referral traffic. Else you should pay
-                                    to the channels of social media to reach your post to the maximum which is called as Paid Traffic. </h5>
-
-                            </div>
-                        </div>
-                        <div class="row pb-3">
-
-                            <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400"> Social Media Marketing spreads brand awareness of your product.
-                                </h5>
-
-                            </div>
-                        </div>
-                        <div class="row pb-3 ">
-
-                            <div class="col-md-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400"> There are many platforms for Social Media and the top ten social media channels and their active users are listed below:
-                                </h5>
-                                <table class="table table-bordered table-font-sty">
-                                    <thead>
-                                        <tr>
-                                            <th>Top 10 Social Media Channels</th>
-                                            <th>Active Users(approximately)</th>
-
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Facebook</td>
-                                            <td>2,130,000,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Twitter </td>
-                                            <td>330,000,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Youtube</td>
-                                            <td>1,500,000,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Linkedin</td>
-                                            <td>106,000,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Pinterest</td>
-                                            <td>175,000,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Google+</td>
-                                            <td>111,000,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Instagram</td>
-                                            <td>800,000,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tumblr</td>
-                                            <td>111,000,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Flickr</td>
-                                            <td>112,000,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Reddit</td>
-                                            <td>250,000,000</td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-10 mb-20 pt-30 ">
-                                <h2 class="text-left">
-                                    <span class="tit1">Power of social media</span>
-                                </h2>
-                            </div>
-							<p>Social Media is like a sharp knife in the hand of an individual which can be used for good and for bad. Social Media is very helpful for Individuals and for celebrities to share their views and opinions with each other globally.
-                            It also plays a vital role in businesses, and it is the best tool for advertising which has a very great impact on businesses and very cost effective.
-                            </p>
-
-                                <p>Social Media can make you or break you!
-                                    </p>
-
-                                        <p>In this digital era, the role of social media is unpredictable. It can make you or break you. Best examples are Mr. Arshid Khan and Mr. Evan Spiegel. Mr. Arshid khan (chaiwala) from Pakistan, a common man, became
-                                            overnight celebrity through social media. And Mr. Evan Spiegel, the CEO of Snapchat, who allegedly stated India as a poor country. And after this statement people united together rose against Mr. Evan Spiegel
-                                            through social media, and it resulted in downfall of Snapchat ratings in Google Play store, today it has 1-Star rating.</p>
-                        </div>
-						<div class="row">
-                            <div class="col-md-10 mb-20 pt-30 ">
-                                <h2 class="text-left">
-                                    <span class="tit1">Social Media Strategy</span>
-                                </h2>
-                            </div>
-							<p>Social Media strategy means, it is about how a business or organization will plan, execute, and measure all social media marketing activities. It is the summary of everything you plan to do and hope to achieve for your business using social networks.
-                            </p>
-							<p>Without strategy, execution is aimless and without execution strategy is useless! Strategy means a plan of action intended to accomplish a specific goal. Business or War, strategy is must!
-                            </p>
-							<p>Era’s have been changed, we are in digital era now, likewise the way of marketing strategies in business has also been changed. The best way is to adopt the social media marketing strategy in your business to explore your website across the world virtually.
-							</p>
-							<h3><strong>Some of the Social Media strategies to be focused:</strong></h3>
-							<ul class="pad-l-20">
-								<li>Research and know your audience</li>
-								<li>Create a Social Media Template </li>
-								<li>Choose your Social Media Networks </li>
-								<li>Social Media planner or calendar</li>
-								<li>Focus more on how to be social and less on how to do social media</li>
-								<li>High quality creativity inspirational messages are necessary</li>
-								<li>Create and post a relevant content regarding your business </li>
-								<li>Get ready with high quality images and schedule them time to time, without interruption</li> 
-								<li>Hashtag is very important, Keep the most associated hashtags with your brand</li>
-								<li>Select your own success metrics through no. of Reaches, Likes, Comments, Shares, Clicks etc. </li>
-							</ul>
-						</div>
+                    <div class="col-md-12 mb-20 pt-30  ">                       
+						
 						<div class="row">
 						<div class="col-md-12">
-							<h3><strong>Benefits of Social Media Marketing</strong></h3>
+							
+							<h3><strong class="tit1">Top 10 eCommerce Sites In The World:</strong></h3>
 							</div>
-							<ul class="pad-l-20">
-								<li>Increased Brand Awareness</li>
-								<li>More Inbound Traffic</li>
-								<li>Improved Search Engine Rankings</li>
-								<li>Higher Conversion Rates</li>
-								<li>Better Customer Satisfaction</li>
-								<li>Cost-Effective</li>
-								<li>Reputation Management</li>
-								<li>Customer Engagement</li>
-								<li>Open and Faster Communication</li>
-								<li>Retargeting</li>
+							<ul class="pad-l-20 pt-4">
+								<li>Amazon</li>
+								<li>Alibaba</li>
+								<li>Flipkart</li>
+								<li>Snapdeal</li>
+								<li>Walmart</li>
+								<li>Bestbuy</li>
+								<li>Jabong</li>
+								<li>ebay</li>
+								<li>Taobaomall</li>
+								<li>Tmall</li>
 								</ul>
+						</div>
+						<div class="row py-5">
+						<div class="col-md-12">
+							
+							<h3><strong class="tit1">Advantages of eCommerce:</strong></h3>
+							</div>
+							<ul class="pad-l-20 pt-4">
+								<li>Global Reach</li>
+								<li>Shop anytime-24/7</li>
+								<li>Convenient - shop from home</li>
+								<li>Better deals or discounts for customers </li>
+								<li>Possibility to receive cash back offer </li>
+								<li>No hassles of conventional shopping </li>
+								<li>Lower operating costs for the business</li>
+								<li>Cashless payment</li>
+								<li>Customer support</li>
+								<li>Inventory management </li>
+								<li>Advertising & marketing</li>
+								<li>Secure market share</li>
+
+							</ul>
+						</div>
+						<div class="row ">
+						<div class="col-md-12">
+							
+							<h3><strong class="tit1">Disadvantages of eCommerce:</strong></h3>
+							</div>
+							<ul class="pad-l-20 pt-4">
+								<li>Doubts about authenticity and security </li>
+								<li>Can’t handle before purchase</li>
+								<li>Inconvenient to return goods</li>
+								<li>Goods may be damaged</li>
+								<li>Goods may get lost enroute</li>
+							</ul>
 						</div>
 
                         
@@ -234,7 +179,7 @@
 		</h2>
 	</div>
 	
-	<p>To promote a product or service or a blog page or a website on social media you must follow a strategy, then only you will understand the power of the social media marketing. Researchers say that  80% of the world population has smartphones these days, so there is a great opportunity to reach the maximum no. of persons when you advertise on Social Media.</p>
+	<p>After studying about the eCommerce and various types of eCommerce and analyzing the advantages and disadvantages of the eCommerce, we can conclude that eCommerce is very essential in our day to day life, because we now live in a busy world where time is more valuable and precious than money so, obviously the advantages of eCommerce potentially outweigh the disadvantages of the eCommerce. Anyhow in these days approximately 75% of the world population are carrying smartphones and most of the people are into online shopping.</p>
 	<div class="col-md-12 mb-20 pt-30  ">
 			<div class="pull-right">
 				<h4 class="text-success font20"><i>Article by:</i></h4>
@@ -274,7 +219,7 @@
 			<div class="text-center blo-tit-form">Sign up for Latest Trends!</div>
 		</div>
 		<form action="<?php echo base_url('blog/registerpost'); ?>" method="post">
-		<input type="hidden" id="p_id" name="p_id" value="3">
+		<input type="hidden" id="p_id" name="p_id" value="4">
 		<div class="row justify-content-md-center">
 		<div class="col-md-1">
 				&nbsp;
@@ -317,7 +262,7 @@
 			<div class="row pad30 justify-content-md-center">
 			<div class="col-md-8">
 				<form class="form-horizontal" action="<?php echo base_url('blog/addcomment');?>" method="post">
-				<input type="hidden" id="p_id" name="p_id" value="3">			 
+				<input type="hidden" id="p_id" name="p_id" value="4">			 
 				 <div class="form-group">
 					<label class="control-label " for="email">Name:</label>
 					<div class="">

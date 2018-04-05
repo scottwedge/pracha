@@ -62,7 +62,7 @@
 							<a href="<?php echo base_url('web_development'); ?>"><li>Web Development</li></a>
 							<a href="<?php echo base_url('mobile_applications'); ?>"><li> App Development</li></a>
 							<a href="<?php echo base_url('digital_marketing'); ?>"><li>Digital Marketing</li></a>
-							<a href="<?php echo base_url('ecommerce'); ?>"><li>E-Commerce Website</li></a>
+							<a href="<?php echo base_url('ecommerce'); ?>"><li>eCommerce (B2B & B2C) </li></a>
 							
 							<a href="<?php echo base_url('website_maintainence'); ?>"><li style="border:none;">Maintenance</li></a>
 							
