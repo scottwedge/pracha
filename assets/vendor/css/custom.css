@@ -7,6 +7,9 @@ p{
 .text-shadow{
 	text-shadow: 2px 2px 4px #333 !important;
 }
+.pad-10{
+	padding:10px;
+}
 .bg-light-brown{
 	background-color:#a79d9d;
 }
