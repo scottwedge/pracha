@@ -52,13 +52,15 @@
 					<a href="<?php echo base_url('mobile_applications'); ?>">Mobile Applications</a>
 					<a href="<?php echo base_url('digital_marketing'); ?>"> Digital Marketing</a>
 					<!--<a href="<?php echo base_url('seo'); ?>">SEO</a>-->
-					<a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+				
 					<a href="<?php echo base_url('website_maintainence'); ?>"> Software Maintenance</a>
 					
 				  </div>
 				  <div class="col-md-6">
 					<a href="<?php echo base_url('start_up'); ?>">Start-Up</a>
 					<a href="<?php echo base_url('enterprise'); ?>">Enterprise</a>
+						<a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+						<a href="<?php echo base_url('on_demand_services'); ?>">On Demand Services</a>
 					
 				  </div>
 				  </div>
@@ -76,13 +78,15 @@
 					<a href="<?php echo base_url('mobile_applications'); ?>">Mobile Applications</a>
 					<a href="<?php echo base_url('digital_marketing'); ?>"> Digital Marketing</a>
 					<!--<a href="<?php echo base_url('seo'); ?>">SEO</a>-->
-					<a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+					
 					<a href="<?php echo base_url('website_maintainence'); ?>"> Software Maintenance</a>
 					
 				  </div>
 				  <div class="col-md-6">
 					<a href="<?php echo base_url('start_up'); ?>">Start-Up</a>
 					<a href="<?php echo base_url('enterprise'); ?>">Enterprise</a>
+					<a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+					<a href="<?php echo base_url('on_demand_services'); ?>">On Demand Services</a>
 					
 				  </div>
 				  </div>

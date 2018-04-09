@@ -10,8 +10,8 @@
           <div class="row mt-5 justify-content-center">
             <div class="col-md-10 ">
 			<div class="centered">
-			<h2 class="text-white">Introducing finest eCommerce solutions <br>offering best-in-class features. </h2>
-			<p class="py-4">FULLY CUSTOMIZED B2B AND B2C eCommerce PLATFORMS TAILORED & DESIGNED TO YOUR BUSINESS REQUIREMENTS</p>
+			<h2 class="text-white">Empowering on-demand market place with addictive website & app solutions.</h2>
+			<p class="py-4">WE BUILD ENORMOUS POSSIBLE SOLUTIONS ON A FINGER TAP</p>
 			<div class="py-2">
 			<a href="<?php echo base_url('contactus');?>" class="btn btn-warning ">Lets Discuss</a>
 			
@@ -29,11 +29,11 @@
 	<section>
 		<div class="jumbotron  text-center text-md-left bg-dark pad-tb-20 help-start py-5">
 			<!-- Name -->
-			<h2 class="h2-responsive text-center font-weight-bold dark-grey-text ">MOST RELIABLE eCommerce DEVELOPMENT COMPANY</h2>
-			<h3 class="text-center py-2">CO-OPERATIVE. TRANSPARENT. SUPPORTIVE. STRATEGIC</h3>
+			<h2 class="h2-responsive text-center font-weight-bold dark-grey-text ">CUSTOM ON DEMAND SOLUTIONS THAT YOU NEED FOR YOUR BUSINESS</h2>
+			<h3 class="text-center py-2">WE DELIVER BUSINESS VALUE THROUGH TECHNOLOGY</h3>
 			<div class="row py-4 justify-content-center">
 				<div class="col-12 col-md-10">
-					<p class="text-center">Our vast experience in developing ecommerce websites has made us one of the best choices for ecommerce website Development Company. We understand the need of each client is different and thus we plan the e commerce application development accordingly. Though from top its look all the e commerce websites are same but there is huge difference in each website. It depends mainly on the target market and thus the design and functionalities also change according to that. Our vast experience helps us not only in developing e commerce websites, but we are also providing our consultancy to many ecommerce companies.</p>
+					<p class="text-center">In the last couple of years, the on-demand economy has shifted the way we prefer to interact with businesses and the way businesses offer their services to us. This on-demand revolution makes a win-win situation for consumers and businesses of different industries. And, there is no doubt that the on-demand economy is expanding at a rapid pace. This economy is driven by technology, which enables businesses to fulfil customer demands instantly. We are here to provide Feature-rich on-demand experiences to every user & business owner.</p>
 				</div>
 			</div>
 		</div>
@@ -43,119 +43,17 @@
 <section class="text-center container-sty">
 
     <!--Section heading-->
-    <h2 class="py-5 font-weight-bold text-dark">A WIDE RANGE OF POWERFUL AND SCALABLE SOLUTIONS TO BOST YOUR eCommerce PROJECT</h2>
+    <h2 class="py-5 font-weight-bold text-dark">FUTURE ON-DEMAND SERVICE MARKETPLACES..</h2>
     <div class="row">
 		<div class="col-md-3">
+			<i class="fa fa-shopping-cart fa-3x red-text"></i>
+        <h5 class="font-weight-bold mt-3">Analytics</h5>
 			
-			<h5 class="font-weight-bold mt-3">UX for eCommerce</h5>
-			<p class="grey-text">Enhanced Filtration, Searching Option, Clear Navigation, Diverse and Secure Payment Options</p>
 		</div>
-		<div class="col-md-3">
-			<h5 class="font-weight-bold mt-3">Omni-Channel Solution</h5>
-			<p class="grey-text">For every unique idea, we offer comfortability & flexibility to suit your business needs
-			</p>
-		</div>
-		<div class="col-md-3">
-			<h5 class="font-weight-bold mt-3">Advanced Features Development.</h5>
-			<p class="grey-text"> Real-time support (phone, live chat) Product Catalog management</p>
-		</div>
-		<div class="col-md-3">
-			<h5 class="font-weight-bold mt-3">Third-Party Integrations</h5>
-			<p class="grey-text">Diverse and secure payment options. Multiple delivery options and order tracking</p>
-		</div>
-    </div>
-	<div class="row">
-		<div class="col-md-3">
-			<h5 class="font-weight-bold mt-3">Client experience</h5>
-			<p class="grey-text"> Sales and marketing automation. Rating and reviews for a faster choice</p>
-		</div>
-		<div class="col-md-3">
-			<h5 class="font-weight-bold mt-3">Data analysis and business intelligence</h5>
-			<p class="grey-text">Warehouse management Data collection and analysis</p>
-		</div>
-		<div class="col-md-3">
-			<h5 class="font-weight-bold mt-3">Quality and Security</h5>
-			<p class="grey-text">Dedicated Quality Assurance team undertakes the full responsibility of every developed product Manual and automated testing, support and maintenance services</p>
-		</div>
-		<div class="col-md-3">
-			<h5 class="font-weight-bold mt-3">End-End Support</h5>
-			<p class="grey-text">Your queries and doubts are resolved and taken care of even after launch</p>
-		</div>
-    </div>
-</section>
-<section class=" bod-st">
-<div class="view jarallax height-600" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/wide-range.png); ">
-    <div class="full-bg-img">
-      <div class=" ">
-        <div class="container  py-5 mb-5 sm-col-xs-mar">
-		<div class="row justify-content-center centered ">
-		<div class="col-md-10">
-				<h2 class="py-4 font-weight-bold text-text" style="font-size:30px;line-height:40px;">E-COMMERCE DEVELOPMENT WITHOUT ANY LIMITS!</h2>
-					<p class="font-w-400 text-shadow" style="font-style:normal">There is an increase of purchases being made on computers and mobile devices whether 
-					it's for B2C or B2B. To reach the customer, we offer the best personalization methods and top-notch eCommerce web development services.</p>
-				</div>
-		</div>
-          <div class="row mt-2 justify-content-center">
-            <div class="col-md-4 text-center">
-				<div class="card card-body">
-					Any Custom eCommerce Development
-				</div>
-			</div>
-			<div class="col-md-4 text-center">
-				<div class="card card-body">
-					 CRM Solutions Production</div>
-			</div>
-          </div>
-		  <div class="row mt-2 justify-content-center">
-            <div class="col-md-4 text-center">
-				<div class="card card-body">
-					eCommerce Enterprise Development</div>
-			</div>
-			<div class="col-md-4 text-center">
-				<div class="card card-body">
-					eCommerce Performance Optimization</div>
-			</div>
-          </div>
-		  <div class="row mt-2 justify-content-center">
-            <div class="col-md-4 text-center">
-				<div class="card card-body">
-					eCommerce Integration</div>
-			</div>
-			<div class="col-md-4 text-center">
-				<div class="card card-body">
-					Responsive (Desktop, Tablet, Mobile)</div>
-			</div>
-          </div>
-		  <div class="row mt-2 justify-content-center">
-            <div class="col-md-4 text-center">
-				<div class="card card-body">
-					eCommerce Website Development
-				</div>
-			</div>
-			<div class="col-md-4 text-center">
-				<div class="card card-body">
-					Mobile eCommerce Applications
-				</div>
-			</div>
-          </div>
-		  <div class="row mt-2 justify-content-center">
-            <div class="col-md-4 text-center">
-				<div class="card card-body">
-					Omni-channel ecosystem</div>
-			</div>
-			<div class="col-md-4 text-center">
-				<div class="card card-body">
-					Hotel Booking service
-
-				</div>
-			</div>
-          </div>
 		  
-        </div>
-      </div>
-    </div>
-</div>
-    
+       </div>
+   
+ 
 </section>
 <section>
 	<!-- Nav tabs -->
