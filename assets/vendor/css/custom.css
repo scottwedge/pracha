@@ -13,6 +13,14 @@ p{
 .bg-light-brown{
 	background-color:#a79d9d;
 }
+.border-right-demand{
+	border-right:1px solid #000
+}
+.on-demand-box{
+	border:1px solid #000;
+	padding:10px 5px;
+	border-radius:5px;
+}
 .table-font-sty td{
 	font-size:20px;
 }

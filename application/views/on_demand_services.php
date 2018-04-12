@@ -3,7 +3,7 @@
 	<meta name="description" content="Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G) and Mobile Commerce (m-commerce). Mobile  commerce (m-commerce) is particularly done through mobile only.  We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions for our interested customers.">
 </head>
 <section class=" bod-st">
-<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/ecommerce-page-background.png); ">
+<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/ondemand-first-background.png); ">
     <div class="full-bg-img">
       <div class="mask ">
         <div class="container flex-center text-center">
@@ -45,442 +45,152 @@
     <!--Section heading-->
     <h2 class="py-5 font-weight-bold text-dark">FUTURE ON-DEMAND SERVICE MARKETPLACES..</h2>
     <div class="row">
-		<div class="col-md-3">
-			<i class="fa fa-shopping-cart fa-3x red-text"></i>
-        <h5 class="font-weight-bold mt-3">Analytics</h5>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/cart.png" alt="Grocery Services"></i>
+        <h5 class="font-weight-bold mt-3">Grocery Services</h5>
 			
 		</div>
-		  
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""> <img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/taxi.png" alt="Grocery Services"></i>
+        <h5 class="font-weight-bold mt-3">Taxi Services</h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/washing.png" alt="Laundry Services"></i>
+        <h5 class="font-weight-bold mt-3">Laundry Services</h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/food.png" alt="Food ordering"></i>
+        <h5 class="font-weight-bold mt-3">Food ordering </h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/parking.png" alt="Parking Services"></i>
+        <h5 class="font-weight-bold mt-3">Parking Services</h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/fitness.png" alt="Health & Fitness"></i>
+        <h5 class="font-weight-bold mt-3">Health & Fitness </h5>
+			
+		</div>
+		</div>		  
        </div>
-   
+	   <div class="row py-4">
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/courier.png" alt="Courier / Package delivery"></i>
+        <h5 class="font-weight-bold mt-3">Courier / Package delivery</h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""> <img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/pet.png" alt="Pet care Services"></i>
+        <h5 class="font-weight-bold mt-3">Pet care Services</h5>
+		<br>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/home.png" alt="House cleaning Services"></i>
+        <h5 class="font-weight-bold mt-3">House cleaning Services</h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/doctor.png" alt="Doctor on-demand Services"></i>
+        <h5 class="font-weight-bold mt-3">Doctor on-demand Services</h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/salon.png" alt="Beauty/salon Services"></i>
+        <h5 class="font-weight-bold mt-3">Beauty/salon Services</h5>
+
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/coaching.png" alt="Coaching/tutors Services"></i>
+        <h5 class="font-weight-bold mt-3">Coaching/tutors Services</h5>
+			
+		</div>
+		</div>		  
+       </div>
+   <div class="row ">
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/logistics.png" alt="Logistics Services"></i>
+        <h5 class="font-weight-bold mt-3">Logistics Services</h5>
+		<br>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""> <img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/pest.png" alt="Pest Control"></i>
+        <h5 class="font-weight-bold mt-3">Pest Control </h5>
+		<br>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/wine.png" alt="Wine / alcohol delivery"></i>
+        <h5 class="font-weight-bold mt-3">Wine / alcohol delivery</h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/repair.png" alt="Repair & maintenance"></i>
+        <h5 class="font-weight-bold mt-3">Repair & maintenance</h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/events.png" alt="Wedding & Events"></i>
+        <h5 class="font-weight-bold mt-3">Wedding & Events</h5>
+
+			<br>
+		</div>
+		</div>
+		<div class="col ">
+		<div class="on-demand-box ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/packers.png" alt="Packers & Movers"></i>
+        <h5 class="font-weight-bold mt-3">Packers & Movers</h5>
+			<br>
+		</div>
+		</div>		  
+       </div>
  
 </section>
-<section>
-	<!-- Nav tabs -->
-<div class="container py-5 ">
-<div class="row  py-2">
-    <div class="col-md-3 card">
-        <ul class="nav  md-pills pills-primary flex-column" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#panel21" role="tab">Magento</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#panel22" role="tab">WooCommerce</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#panel23" role="tab">Shopify</a>
-            </li>
-			<li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#panel24" role="tab">OpenCart</a>
-            </li>
-			<li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#panel25" role="tab">Custom</a>
-            </li>
-        </ul>
-    </div>
-    <div class="col-md-9">
-        <!-- Tab panels -->
-        <div class="tab-content vertical sm-col-xs-mar">
-        <!--Panel 1-->
-        <div class="tab-pane fade in show active" id="panel21" role="tabpanel">
-            <p class="font-w-400">If you're looking for a Magento development company that delivers best results, you’ve come to the right place. World's #1 and most flexible commerce platform with more than 250,000 merchants across the globe, Magento boosts your online sales and maximizes the gross margins remarkably. Our Magento specialized services include:</p>
-			<div class="row">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Magento 2.0 Development 
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Magento Enterprise Development
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Migration to Magento
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						PSD to Magento Customization
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-			</div>
-			<div class="row py-3">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Module Customization
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Magento Plugin Customization
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Magento 1.0 to 2.2
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Magento Theme Integration
-					</div>
-				</div>
-			</div>
-			<div class="row py-3 justify-content-center">
-				<div class="col-md-4 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Magento Responsive Design
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						CRM, ERP & PIM Integration
-						<br class="sm-hide">
-						<br class="sm-hide">
-						
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Commerce Order Management on Magento
-					</div>
-				</div>
-			</div>
-			<div class="row py-3 justify-content-center">
-				<a href="<?php echo base_url('contactus');?>" class="btn btn-warning ">Lets Discuss</a>
-				
-			</div>
-        </div>
-        <!--/.Panel 1-->
 
-        <!--Panel 2-->
-        <div class="tab-pane fade" id="panel22" role="tabpanel">
-
-           <p class="font-w-400">Our developers at PrachaTech use WooCommerce for delivering a simple, beautiful and enjoyable shopping cart experience,. An extendable, adaptable, open-source commerce platform by WordPress. Combining the powers of different plug-ins into a single standalone eCommerce platform. we provide the following WooCommerce services.</p>
-			<div class="row">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						WooCommerce Plugin Customization
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Complete WooCommerce WordPress Development
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Extension/Plugin Integration
-						<br class="sm-hide">
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Omni-channel Planning
-						<br class="sm-hide">
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-			</div>
-			
-			<div class="row py-3 justify-content-center">
-				<div class="col-md-4 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						CMS Solution Integration 
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						CRM, ERP & PIM Integration
-						
-						
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Conversion Optimization 
-					</div>
-				</div>
-			</div>
-			<div class="row py-3 justify-content-center">
-				<a href="<?php echo base_url('contactus');?>" class="btn btn-warning ">Lets Discuss</a>
-				
-			</div>
-
-        </div>
-        <!--/.Panel 2-->
-        <!--Panel 3-->
-        <div class="tab-pane fade" id="panel23" role="tabpanel">
-			<p class="font-w-400">We at PrachaTech, offer you a wide range of Shopify services. Shopify gives you full control over your website- you can innovate anything from marketing and payments to secure checkout and shipping. Our team uses the best themes and contemporary sales channels offered by Shopify to impress your customers with a wonderful UX/UI and over 70 international payment gateways. </p>
-			<div class="row">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Shopify Point of Sale
-						<br class="sm-hide">
-						
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Theme Customization
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Migration to Shopify 
-						<br class="sm-hide">
-						
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						API Development
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-			</div>
-			<div class="row py-3">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Mobile Commerce
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Payment Gateway Integration
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Online Shopping Cart Management
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						CMS Solution Integration
-					</div>
-				</div>
-			</div>
-			<div class="row py-3 justify-content-center">
-				<div class="col-md-4 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Multi-store, multi-lingual Setup
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Conversion Optimization
-						<br class="sm-hide">
-						<br class="sm-hide">
-						
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Custom Page Development
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-			</div>
-			<div class="row py-3 justify-content-center">
-				<a href="<?php echo base_url('contactus');?>" class="btn btn-warning ">Lets Discuss</a>
-				
-			</div>
-        </div>
-        <div class="tab-pane fade" id="panel24" role="tabpanel">
-			<p class="font-w-400">OpenCart powers over 320,000 eCommerce entrepreneurs worldwide with a powerful store management. Using OpenCart, our team puts the best efforts to scale and run your online business., Our eCommerce web developers use all the powers of OpenCart and offer infinite services. We’ve chosen it to develop seamless websites with best-in-class service integrations, payment providers, shipping methods, sales and accounting, analytics and social selling. </p>
-			<div class="row justify-content-center">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Powerful Store Management
-						<br class="sm-hide">
-						<br class="sm-hide">
-						
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Extensions & Themes
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						OpenCart-based Shopping Cart Development
-						
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center py-3">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						OpenCart Module Integration
-						<br class="sm-hide">
-						<br class="sm-hide">
-						
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						OpneCart Customized Template Design
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Payment, Shipping & Tax Integration
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-			</div>
-			
-			
-			<div class="row py-3 justify-content-center">
-				<a href="<?php echo base_url('contactus');?>" class="btn btn-warning ">Lets Discuss</a>
-				
-			</div>
-        </div>
-		<div class="tab-pane fade" id="panel24" role="tabpanel">
-			<p class="font-w-400">OpenCart powers over 320,000 eCommerce entrepreneurs worldwide with a powerful store management. Using OpenCart, our team puts the best efforts to scale and run your online business., Our eCommerce web developers use all the powers of OpenCart and offer infinite services. We’ve chosen it to develop seamless websites with best-in-class service integrations, payment providers, shipping methods, sales and accounting, analytics and social selling. </p>
-			<div class="row justify-content-center">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Powerful Store Management
-						<br class="sm-hide">
-						<br class="sm-hide">
-						
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Extensions & Themes
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						OpenCart-based Shopping Cart Development
-						
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center py-3">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						OpenCart Module Integration
-						<br class="sm-hide">
-						<br class="sm-hide">
-						
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						OpneCart Customized Template Design
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Payment, Shipping & Tax Integration
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-			</div>
-			
-			
-			<div class="row py-3 justify-content-center">
-				<a href="<?php echo base_url('contactus');?>" class="btn btn-warning ">Lets Discuss</a>
-				
-			</div>
-        </div>
-		<div class="tab-pane fade" id="panel25" role="tabpanel">
-			<p class="font-w-400">Best of technologies with best of frameworks and tools provide amazing eCommerce web development services. We at PrachaTech, Building a custom eCommerce website, we provide all the features you need, better third-party integrations, better integrations with other systems and operations, faster page loading and much more to better represent your brand. </p>
-			<div class="row justify-content-center">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Customized eCommerce Site Development
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Desired Payment Gateway Options
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Comprehensive Order Management 
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Third-Party Integrations 
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center py-3">
-				<div class="col-md-4 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Personalized Storefront 
-						
-						
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Scalable Application 
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Mobile Commerce
-
-					</div>
-				</div>
-			</div>
-			
-			
-			<div class="row py-3 justify-content-center">
-				<a href="<?php echo base_url('contactus');?>" class="btn btn-warning ">Lets Discuss</a>
-				
-			</div>
-        </div>
-        </div>
-    </div>
-</div>
-</div>
-<!-- Nav tabs -->
-</section>
 <section class="bg-dark ">
 <h2 class="font-weight-bold text-center h1 py-5 text-white">How we do it?</h2>
 <div class="container-sty">
 	<div class="row justify-content-center text-center text-white how-we-help">
 		<div class="col-md-9">
-		<p>We use Brisk methods all the way. Brisk inception, Brisk planning, Researching, programming, designing, coding, Brisk project management. That way we can adapt to your every need.</p>
-		<br>
-		<h2 class="py4">FOCUSED ON SCALABILITY & PERFORMANCE</h2>
+		
+		<h2 class="py4">SERVICE-CENTRIC DEVELOPMENT MODEL</h2>
 		<br>
 		</div>
 	</div>
@@ -490,25 +200,25 @@
 		<div class="steps-form-2">
 		<div class="steps-row-2 setup-panel-2 d-flex justify-content-between">
 			<div class="steps-step-2">
-				<a href="#step-1" type="button" class="btn btn-amber btn-circle-2 waves-effect ml-0" data-toggle="tooltip" data-placement="top" title="Basic Information"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></a>
+				<a href="#step-1" type="button" class="btn btn-amber btn-circle-2 waves-effect ml-0" data-toggle="tooltip" data-placement="top" title="Basic Information"><i class="" aria-hidden="true"><img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/ondemand/responsive.png" alt="On-Demand platform for consumers (B2B, B2C)"></i></a>
 				<div class="arrow-start-enter" style="left:17px;" >
 					<i class="fa fa-caret-down font-s-60" aria-hidden="true"></i>
 				</div>
 			</div>
 			<div class="steps-step-2">
-				<a href="#step-2" type="button" class="btn btn-blue-grey btn-circle-2 waves-effect" data-toggle="tooltip" data-placement="top" title="Personal Data"><i class="fa fa-rocket" aria-hidden="true"></i></a>
+				<a href="#step-2" type="button" class="btn btn-blue-grey btn-circle-2 waves-effect" data-toggle="tooltip" data-placement="top" title="Personal Data"><i class="" aria-hidden="true"><img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/ondemand/custom.png" alt="Custom Front-End: Face of the Platform"></i></a>
 				<div class="arrow-start-enter" >
 					<i class="fa fa-caret-down font-s-60" aria-hidden="true"></i>
 				</div>
 			</div>
 			<div class="steps-step-2">
-				<a href="#step-3" type="button" class="btn btn-blue-grey btn-circle-2 waves-effect" data-toggle="tooltip" data-placement="top" title="Terms and Conditions"><i class="fa fa-snowflake-o" aria-hidden="true"></i></a>
+				<a href="#step-3" type="button" class="btn btn-blue-grey btn-circle-2 waves-effect" data-toggle="tooltip" data-placement="top" title="Terms and Conditions"><i class="" aria-hidden="true"><img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/ondemand/tech.png" alt="Back-end Technology"></i></a>
 				<div class="arrow-start-enter" >
 					<i class="fa fa-caret-down font-s-60" aria-hidden="true"></i>
 				</div>
 			</div>
 			<div class="steps-step-2">
-				<a href="#step-4" type="button" class="btn btn-blue-grey btn-circle-2 waves-effect mr-0" data-toggle="tooltip" data-placement="top" title="Finish"><i class="fa fa-users" aria-hidden="true"></i></a>
+				<a href="#step-4" type="button" class="btn btn-blue-grey btn-circle-2 waves-effect mr-0" data-toggle="tooltip" data-placement="top" title="Finish"><i class="" aria-hidden="true"><img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/ondemand/launching.png" alt="Execution & Launching"></i></a>
 				<div class="arrow-start-enter" >
 					<i class="fa fa-caret-down font-s-60" aria-hidden="true"></i>
 				</div>
@@ -521,38 +231,37 @@
 <div class="row  pb-4 sm-col-xs-mar">
 	<div class="col-md-3">
 	<div class="card">
-		<div class="card-header bg-warning lighten-1 white-text text-center">Analyzing the Idea</div>
+		<div class="card-header bg-warning lighten-1 white-text text-center">On-Demand platform for consumers (B2B, B2C</div>
 		<div class="card-body ">
-			<p class="card-text text-center">With proven industry experience and extensive market research across industries, we validate your idea and present a viable solution</p>
+			<p class="card-text text-center">Develop a Platform solution that is easy to use and customizable as per business need.</p>
 		</div>
 	</div>
 	</div>
 	<div class="col-md-3">
 	<div class="card">
-		<div class="card-header bg-indigo lighten-1 white-text text-center">Identifying your Mission</div>
+		<div class="card-header bg-indigo lighten-1 white-text text-center">Custom Front-End: Face of the Platform</div>
 		<div class="card-body ">
-			<p class="card-text text-center">As a startup serving agency, we dig deep inside your brain and recognize your vision, mission and expectations from the business solution 
-			<br class="sm-hide">
-			<br class="sm-hide">
+			<p class="card-text text-center">The front-line Design consists of several enormous endpoints that hold multiple services together.
+
+		
 			</p>
 		</div>
 	</div>
 	</div>
 	<div class="col-md-3">
 	<div class="card">
-		<div class="card-header bg-danger lighten-1 white-text text-center">Implementation.</div>
+		<div class="card-header bg-danger lighten-1 white-text text-center">Back-end Technology.</div>
 		<div class="card-body ">
-			<p class="card-text text-center">Realizing all the needs, we work towards developing secure, cleanly coded, mobile friendly, scalable and fully documented product (be it web or mobile)</p>
+			<p class="card-text text-center">Our backend developers develop the best technology solutions to meet a services unique needs.</p>
+			<br class="sm-hide">
 		</div>
 	</div>
 	</div>
 	<div class="col-md-3">
 	<div class="card">
-		<div class="card-header bg-success lighten-1 white-text text-center">Long-Term Growth</div>
+		<div class="card-header bg-success lighten-1 white-text text-center">Execution & Launching</div>
 		<div class="card-body ">
-			<p class="card-text text-center">We work continuously towards upgrading and enhancing your online product, adding latest features to keep it fresh and ever-evolving
-			<br class="sm-hide">
-			<br class="sm-hide">
+			<p class="card-text text-center">Finally, we do rigorous quality check, security compliance check and execute. Post-deployment support & maintenance
 			</p>
 		</div>
 	</div>
@@ -560,14 +269,253 @@
 </div>
 </div>
 </section>
-<section class=" py-5 stylish-color-dark">
+<section class=" bod-st">
+<div class="view jarallax height-600" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/wide-range.png); ">
+    <div class="full-bg-img">
+      <div class=" ">
+        <div class="container  py-5 mb-5 sm-col-xs-mar">
+		<div class="row justify-content-center centered ">
+		<div class="col-md-10">
+				<h2 class="py-4 font-weight-bold text-text" style="font-size:30px;line-height:40px;">A WIDE RANGE OF TRENDING BUSINESS VERTICALS TO START WITH..!</h2>
+					
+				</div>
+		</div>
+          <div class="row mt-2 justify-content-center">
+            <div class="col-md-4 text-center">
+				<div class="card card-body">
+					Grocery Delivery 
+				</div>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="card card-body">
+					 Job Portal 
+				</div>
+			</div>
+          </div>
+		  <div class="row mt-2 justify-content-center">
+            <div class="col-md-4 text-center">
+				<div class="card card-body">
+					Ticket Booking
+				</div>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="card card-body">
+					Photo Editing
+				</div>
+			</div>
+          </div>
+		  <div class="row mt-2 justify-content-center">
+            <div class="col-md-4 text-center">
+				<div class="card card-body">
+					Dating App
+			</div>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="card card-body">
+					Retail
+				</div>
+			</div>
+          </div>
+		  <div class="row mt-2 justify-content-center">
+            <div class="col-md-4 text-center">
+				<div class="card card-body">
+					Personal Services	
+					</div>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="card card-body">
+					Taxi Service
+				</div>
+			</div>
+          </div>
+		  <div class="row mt-2 justify-content-center">
+            <div class="col-md-4 text-center">
+				<div class="card card-body">
+					Logistics
+					</div>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="card card-body">
+					Hotel Booking service
+				</div>
+			</div>
+          </div>
+		  
+        </div>
+      </div>
+    </div>
+</div>
+    
+</section>
+<section class="">
+<div class="bg-dark"  >
+    <div class="">
+      <div class=" ">
+        <div class="container  py-5 mb-5 sm-col-xs-mar">
+		<div class="row justify-content-center centered ">
+		<div class="col-md-10">
+				<h2 class="py-4 font-weight-bold text-text" style="font-size:30px;line-height:40px;">WHAT’S IN THE ON DEMAND SOLUTION PACKAGE??</h2>
+					
+				</div>
+		</div>
+          <div class="row mt-2 justify-content-center">
+            <div class="col text-center">
+				<h5 class="text-warning">Customer Platform</h5>
+				<p class="text-white text-center">User-friendly interface for seamless service request One tap onboarding Select Service Allocation/Selection Push Notifications & Alerts
+					Secured Payment Promos Support & Help.</p>
+			</div>
+			<div class="col text-center">
+				<h5 class="text-warning">Service Provider Platform</h5>
+				<p class="text-white text-center">Service and User management on the go Profile Management Manage Order Request Payment Receipt Rating & Reviews Support & Help
+				</p>
+			</div>
+			<div class="col text-center">
+				<h5 class="text-warning">Admin Dashboard</h5>
+				<p class="text-white text-center">Complete operational information at one place Complete Dashboard Manage Users Manage Service & Pricing
+				Transaction Details Manage Service Request Manage Reviews & Reports</p>
+			</div>
+			<div class="col text-center">
+				<h5 class="text-warning">Website for customer & service Provider</h5>
+				<p class="text-white text-center">Website support for both user and service provider Seamless Navigation Menu Login as a customer/owner
+				Selection/Allocation Secured Payment Support & Help</p>
+			</div>
+		
+			
+          </div>
+		  
+          </div>
+		  
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+<section>
+<div class="container-sty">
+	<div class="row justify-content-md-center text-center  how-we-help">
+			<div class="col-md-9">
+			<h2 class="py-2 font-weight-bold text-text" style="font-size:30px;line-height:40px;">How We Help You Build A Scalable Service Business??</h2>
+				<p>We are here to provide Feature-rich on-demand experiences to every user & business owner. 
+				For the best service deliverables, each on-demand project at PrachaTech is built with a technical edge using all modern and prime tools and frameworks.
+				</p>								
+			
+			</div>
+	</div>
+	<div class="row justify-content-md-center text-center  ">
+		<div class="col border-right-demand">
+			<div class="py-2">
+				<img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/demand-img.png" alt="On demand">
+				<h2>Seamless Order Request</h2>
+				<p>Request a plumber or make salon booking, offer you customer a single tap order feature with our on demand app development solution. Get more requests with a clutter-free navigation.</p>
+			</div>
+		
+			<div class="py-2">				
+				<h2>Secured Payment System</h2>
+				<p>Integrated payment integration in our on demand app development securely connects credit, debit and e-wallets. Gain customer’s trust with smoother transactions.</p>
+			</div>
+				<div class="py-2">
+				<img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/rating.png" alt="On demand">
+				<h2>Rating & Reviews</h2>
+				<p>Review and rating help customers gain trust towards the service as they feel their feedback and suggestions are valued. Share feedback, Seek required attention ,Get improved products</p>
+			</div>
+
+		</div>
+		<div class="col ">
+			<div class="py-2">
+				
+				<h2>Easy Onboarding for Users</h2>
+				<p>Request a plumber or make salon booking, offer you customer a single tap order feature with our on demand app development solution. Get more requests with a clutter-free navigation.</p>
+				<img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/onboarding.png" alt="onboarding ">
+			</div>
+			<div class="py-2">
+				<img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/measure-with-analytics.png" alt="On demand">
+				<h2>Track & Measure with Analytics</h2>
+				<p>No more paperwork's! Monitor, Track and Evaluate your orders and transactions on your fingertips. Bring convenience in your business with on demand app development we provide.</p>
+				
+			</div>
+			<div class="py-2">
+				<img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/rating-ondemand.png" alt="On demand">
+				
+				
+			</div>
+		
+			
+		
+
+		</div>
+		
+	</div>
+</div>
+</section>
+<div class=" bg-dark text-white">
+<section class="text-center container-sty">
+
+    <!--Section heading-->
+    <h2 class="py-5 font-weight-bold text-white">YOU ALSO GET..</h2>
+    <div class="row">
+		<div class="col ">
+		<div class=" ">
+			<i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/quick-booking.png" alt="Quick Booking Module"></i>
+        <h5 class="font-weight-bold mt-3">Quick Booking Module</h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+			<div class=" ">
+			 <img class="img-fluid" style="width:50%;height:50%;" src="<?php echo base_url(); ?>assets/vendor/img/ondemand/social-media.png" alt="Grocery Services">
+			<h5 class="font-weight-bold mt-3">Social Media</h5>		
+			
+			</div>
+		</div>
+		<div class="col ">
+		<div class=" ">
+			<img class="img-fluid" style="width:50%;height:50%;" src="<?php echo base_url(); ?>assets/vendor/img/ondemand/payment.png" alt="Laundry Services">
+        <h5 class="font-weight-bold mt-3">Payment Gateway</h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class=" ">
+			<img class="img-fluid"  style="width:50%;height:50%;" src="<?php echo base_url(); ?>assets/vendor/img/ondemand/alert.png" alt="Instant Alerts">
+        <h5 class="font-weight-bold mt-3">Instant Alerts</h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class=" ">
+			<img class="img-fluid" style="width:50%;height:50%;" src="<?php echo base_url(); ?>assets/vendor/img/ondemand/location.png" alt="Parking Services">
+        <h5 class="font-weight-bold mt-3">Geo IP Location</h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class=" ">
+			<img class="img-fluid" style="width:50%;height:50%;"  src="<?php echo base_url(); ?>assets/vendor/img/ondemand/analytics.png" alt="Health & Fitness">
+        <h5 class="font-weight-bold mt-3">Analytics </h5>
+			
+		</div>
+		</div>
+		<div class="col ">
+		<div class="">
+			<img class="img-fluid" style="width:50%;height:50%;" src="<?php echo base_url(); ?>assets/vendor/img/ondemand/feedback.png" alt="Health & Fitness">
+			<h5 class="font-weight-bold mt-3">Feedback System</h5>
+			
+		</div>
+		</div>		  
+       </div>
+	   
+  
+ 
+</section>
+</div>
+
+<section class=" py-5 " style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/ondemand-background.png); ">
 <div class="text-center container-sty text-white">
 	<div class="row justify-content-center">
 	<div class="col-md-10">
-    <h2 class="py-2 font-weight-bold">FOCUSED ON COMMERCE SCALABILITY & PERFORMANCE </h2>
-	<p class=" font-w-400">We are fuelled to develop innovative and powerful solution oriented eCommerce platforms across industries that will raise untold fortunes of millions of entrepreneurs who are struggling to launch lucrative eCommerce businesses to meet a marketplace need.
-
-	</p>
+    <h2 class="py-2 font-weight-bold">ON-DEMAND ECONOMY SOLUTIONS FOR HOLISTIC BUSINESS GROWTH</h2>
+    <h3 class="py-2  text-warning">WE PERFECTLY CONNECT YOUR BUSINESS WITH YOUR CUSTOMERS</h3>
+	<p class=" font-w-400">We will help you find out how to supply the rightest as per user demands, which is sure to make them wonder that how did they survive without your app all these days. We develop to meet macro-level and micro-level delivery requirements of users across all industries.	</p>
 	</div>
 	</div>
 </div>
