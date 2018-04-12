@@ -62,7 +62,7 @@
 							<a href="<?php echo base_url('web_development'); ?>"><li>Web Development</li></a>
 							<a href="<?php echo base_url('mobile_applications'); ?>"><li> App Development</li></a>
 							<a href="<?php echo base_url('digital_marketing'); ?>"><li>Digital Marketing</li></a>
-							<a href="<?php echo base_url('ecommerce'); ?>"><li>E-Commerce Website</li></a>
+							<a href="<?php echo base_url('ecommerce'); ?>"><li>eCommerce (B2B & B2C) </li></a>
 							
 							<a href="<?php echo base_url('website_maintainence'); ?>"><li style="border:none;">Maintenance</li></a>
 							
@@ -81,7 +81,7 @@
 </div>
 <!--Carousel Wrapper-->
 </section>
-<section id="seric-sc" class="our_service padding-10 ptb-xs-60 mar-150">
+<section id="seric-sc" class="our_service padding-10 ptb-xs-60 mar-150 wow slideInUp" data-wow-delay="0.5s">
     <div class="container-sty card ">
       <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
@@ -140,7 +140,7 @@
 
         <div class="row">
 		<a href="<?php echo base_url('ui_and_ux_design'); ?>">
-            <div class="col-md-4 ">
+            <div class="col-md-4 wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
 			
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 				
@@ -178,7 +178,7 @@
             </div>
 			</a>
 			<a href="<?php echo base_url('web_development'); ?>">
-            <div class="col-md-4">
+            <div class="col-md-4 wow tada" style="visibility: visible; animation-name: tada;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon ">
                         <i class="hi-icon fa fa-television" aria-hidden="true"></i>
@@ -205,7 +205,7 @@
             </div>
 			</a>
 		<a href="<?php echo base_url('mobile_applications'); ?>">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-mobile" aria-hidden="true"></i>
@@ -233,7 +233,7 @@
             </div><br>
 			 <div class="row">
 			 <a href="<?php echo base_url('digital_marketing'); ?>">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-industry" aria-hidden="true"></i>
@@ -291,7 +291,7 @@
             </div>
 			</a>-->
 			 <a href="<?php echo base_url('ecommerce'); ?>">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.2s;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-shopping-basket" aria-hidden="true"></i>
@@ -320,7 +320,7 @@
                 </div>
             </div></a>
 			 <a href="<?php echo base_url('website_maintainence'); ?>">
-			<div class="col-md-4">
+			<div class="col-md-4 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.6s;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-keyboard-o" aria-hidden="true"></i>
@@ -363,8 +363,8 @@
         <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
 
-                <h2>
-                    <span class="tit"> 
+                <h2 class="wow flipInX" data-wow-delay="0.1s" style="visibility: visible; animation-name: flipInX; animation-delay: 0.2s;">
+                    <span class="tit "> 
 									 <span class="des_t">Industries </span>we serve
                     </span>
                 </h2>
@@ -376,7 +376,7 @@
 		<hr>
 
        <div class="row">
-							<div class="col-xl-2 col-lg-6 mb-4">
+							<div class="col-xl-2 col-lg-6 mb-4 wow rollIn center" style="visibility: visible; animation-name: rollIn;">
 								<div class="card">
 									<div class="card-body text-center">
 										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/real-estate.png" class="my-3" alt="">
@@ -386,7 +386,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xl-2 col-lg-6 mb-4">
+							<div class="col-xl-2 col-lg-6 mb-4 wow rollIn center" style="visibility: visible; animation-name: rollIn;">
 								<div class="card">
 									<div class="card-body text-center">
 										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/demand.png" class="my-3" alt="">
@@ -396,7 +396,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xl-2 col-lg-6 mb-4">
+							<div class="col-xl-2 col-lg-6 mb-4 wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
 								<div class="card">
 									<div class="card-body text-center">
 										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/sociali.png" class="my-3" alt="">
@@ -406,7 +406,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xl-2 col-lg-6 mb-4">
+							<div class="col-xl-2 col-lg-6 mb-4 wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
 								<div class="card">
 									<div class="card-body text-center">
 										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/food.png" class="my-3" alt="">
@@ -416,7 +416,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xl-2 col-lg-6 mb-4">
+							<div class="col-xl-2 col-lg-6 mb-4 wow lightSpeedIn" style="visibility: visible; animation-delay: 0.5s; animation-name: lightSpeedIn;">
 								<div class="card">
 									<div class="card-body text-center">
 										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/bank.png" class="my-3" alt="">
@@ -426,7 +426,8 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xl-2 col-lg-6 mb-4">
+			
+							<div data-wow-delay="0.5s" class="col-xl-2 col-lg-6 mb-4 wow lightSpeedIn" style="visibility: visible; animation-delay: 0.5s; animation-name: lightSpeedIn;">
 								<div class="card">
 									<div class="card-body text-center">
 										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/education.png" class="my-3" alt="">
@@ -436,7 +437,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xl-2 col-lg-6 mb-4">
+							<div class="col-xl-2 col-lg-6 mb-4 wow rollIn center" style="visibility: visible; animation-name: rollIn;">
 								<div class="card">
 									<div class="card-body text-center">
 										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/ecommerce.png" class="my-3" alt="">
@@ -446,7 +447,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xl-2 col-lg-6 mb-4">
+							<div class="col-xl-2 col-lg-6 mb-4 wow rollIn center" style="visibility: visible; animation-name: rollIn;">
 								<div class="card">
 									<div class="card-body text-center">
 										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/hospital.png" class="my-3" alt="">
@@ -456,7 +457,8 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xl-2 col-lg-6 mb-4">
+						
+							<div class="col-xl-2 col-lg-6 mb-4 wow bounceInUp center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
 								<div class="card">
 									<div class="card-body text-center">
 										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/fitness.png" class="my-3" alt="">
@@ -466,7 +468,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xl-2 col-lg-6 mb-4">
+							<div class="col-xl-2 col-lg-6 mb-4 wow bounceInUp center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
 								<div class="card">
 									<div class="card-body text-center">
 										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/transport.png" class="my-3" alt="">
@@ -476,7 +478,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xl-2 col-lg-6 mb-4">
+							<div class="col-xl-2 col-lg-6 mb-4 wow lightSpeedIn" style="visibility: visible; animation-delay: 0.5s; animation-name: lightSpeedIn;">
 								<div class="card">
 									<div class="card-body text-center">
 										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/event.png" class="my-3" alt="">
@@ -511,8 +513,9 @@
 
         <div class="row  justify-content-md-center">
             <div class="col-md-8 ">
+			
              
-                <div style=""><img  class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/how-we-work.png" alt="how we work" ></div>
+                <div style=""><img  style="visibility: visible; animation-duration: 0.25s; animation-iteration-count: 5; animation-name: pulse;" data-wow-iteration="5" data-wow-duration="0.25s" class="img-fluid wow pulse" src="<?php echo base_url(); ?>assets/vendor/img/how-we-work.png" alt="how we work" ></div>
             
             </div>
             
@@ -539,9 +542,10 @@
             </div>
 
         </div>
+		
 
         <div class="row ">
-            <div class="col-sm-6 col-md-4">
+            <div data-wow-iteration="2" class="col-sm-6 col-md-4 wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
@@ -558,7 +562,7 @@
                 <div class="proc-icon"><img src="<?php echo base_url(); ?>assets/vendor/img/pc2.png"></div>
                
             </div>
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4 wow flipInX center" style="visibility: visible; animation-name: flipInX;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
@@ -573,7 +577,7 @@
                 <div class="proc-icon"><img src="<?php echo base_url(); ?>assets/vendor/img/mar-sup.png"></div>
                 
             </div>
-            <div class="col-sm-6 col-md-4">
+             <div data-wow-iteration="2" class="col-sm-6 col-md-4 wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
@@ -594,10 +598,11 @@
 			
 
         </div>
+		
 		<div class=" row justify-content-md-center" style="margin: 0 auto;">
 				
 					
-					<a href="<?php echo base_url('contactus');?>"><button type="button" class="btn btn-warning btn-rounded">Send Message</button></a>
+					<a class="wow pulse animated" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;" href="<?php echo base_url('contactus');?>"><button type="button" class="btn btn-warning btn-rounded">Send Message</button></a>
 				
 			</div>
         <div class="clearfix">&nbsp;</div>
@@ -631,7 +636,7 @@
     <div class="col-md-4">
 
         <!--Grid row-->
-        <div class="row mb-2">
+        <div class="row mb-2 wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;" data-wow-duration="2s">
         <div class="col-2">
             <i class="fa fa-2x fa-check-circle text-dark"></i>
         </div>
@@ -643,7 +648,7 @@
         <!--Grid row-->
 
         <!--Grid row-->
-		  <div class="row mb-2">
+		  <div class="row mb-2 wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;" data-wow-duration="2.5s">
         <div class="col-2">
             <i class="fa fa-2x fa-universal-access text-dark"></i>
         </div>
@@ -654,7 +659,7 @@
         </div>
       
         <!--Grid row-->
-		 <div class="row mb-2">
+		 <div class="row mb-2 wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;" data-wow-duration="3s">
         <div class="col-2">
             <i class="fa fa-2x fa-recycle text-dark"></i>
         </div>
@@ -667,10 +672,11 @@
         
 
     </div>
+	
     <!--Grid column-->
 
     <!--Grid column-->
-    <div class="col-md-4 mb-2 center-on-small-only flex-center">
+    <div class="col-md-4 mb-2 center-on-small-only flex-center wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
         <img src="<?php echo base_url(); ?>assets/vendor/img/digital-presence.png" alt="digital presence" class="z-depth-0 img-fluid">
     </div>
     <!--Grid column-->
@@ -679,7 +685,7 @@
     <div class="col-md-4">
 
         <!--Grid row-->
-        <div class="row mb-2">
+        <div class="row mb-2 wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;" data-wow-duration="2s">
         <div class="col-2">
             <i class="fa fa-2x fa-check-circle text-dark"></i>
         </div>
@@ -689,7 +695,7 @@
         </div>
         </div>
         <!--Grid row--><!--Grid row-->
-        <div class="row mb-2">
+        <div class="row mb-2 wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;" data-wow-duration="2.5s">
         <div class="col-2">
             <i class="fa fa-2x fa-phone-square text-dark"></i>
         </div>
@@ -698,7 +704,8 @@
             <p class="grey-text">We help you make effective decisions about where to target your resources and how to achieve accelerated growth.</p>
         </div>
         </div>
-		  <div class="row mb-2">
+		
+		  <div class="row mb-2 wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;" data-wow-duration="3s">
         <div class="col-2">
             <i class="fa fa-2x  fa-laptop text-dark"></i>
         </div>
@@ -743,8 +750,8 @@
     <!--Grid row-->
     <div class="row pt-2">
 
-    <!--Grid column-->
-    <div class="col-lg-5 mb-r center-on-small-only">
+ 
+    <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
         <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="why choose us" class="img-fluid " style="margin-top:-100px;">
     </div>
     <!--Grid column-->
@@ -754,7 +761,7 @@
 
       
 		<!--Grid row-->
-        <div class="row pb-3">
+        <div class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
         <div class="col-2 col-md-1">
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
@@ -768,7 +775,7 @@
        
 
         <!--Grid row-->
-        <div class="row pb-3">
+        <div data-wow-duration="0.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
         <div class="col-2 col-md-1">
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
@@ -780,7 +787,7 @@
 	
 
         <!--Grid row-->
-        <div class="row pb-3">
+        <div data-wow-duration="1s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
         <div class="col-2 col-md-1">
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
@@ -792,7 +799,7 @@
         <!--Grid row-->
 
         <!--Grid row-->
-        <div class="row pb-3">
+        <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
         <div class="col-2 col-md-1">
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
@@ -801,7 +808,7 @@
             <p class="grey-text text-left"></p>
         </div>
         </div>
-		<div class="row pb-3">
+		<div data-wow-duration="2s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
         <div class="col-2 col-md-1">
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
@@ -924,7 +931,8 @@
 					<div class="row  text-center">
 						<ul class="box">
 						  <!-- BEGIN LIST ELEMENT -->
-							<li><a href="<?php echo base_url('servicesrm'); ?>">
+						  
+							<li class=" wow rollIn center" style="visibility: visible; animation-name: rollIn;"><a href="<?php echo base_url('servicesrm'); ?>">
 							  <div class="circle">
 								<div class="front-home bg-mdb-color " >
 								<p class="clearfix ">&nbsp;</p>
@@ -940,7 +948,7 @@
 								</div><!-- end div .back color-1-bg info -->
 							 </a>
 							</li>
-							<li>
+							<li  data-wow-delay="0.5s" class="wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
 								<a href="<?php echo base_url('develop_service'); ?>">
 							  <div class="circle">
 								<div class="front-home bg-primary " >
@@ -957,7 +965,8 @@
 								</div><!-- end div .back color-1-bg info -->
 								</a>
 							</li>
-							<li>
+							
+							<li class="wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
 								<a href="<?php echo base_url('ecommerce'); ?>">
 							  <div class="circle">
 								<div class="front-home bg-pink " >
@@ -976,7 +985,8 @@
 							</li>
 							</ul>
 							<ul class="box">
-							<li>
+							
+							<li data-wow-delay="0.5s" class=" wow rollIn" style="visibility: visible; animation-delay: 0.5s; animation-name: rollIn;">
 								<a href="<?php echo base_url('mobile_application'); ?>">
 							  <div class="circle">
 								<div class="front-home bg-info " >
@@ -994,7 +1004,7 @@
 								</a>
 							</li>
 						
-							<li>
+							<li class=" wow bounceInUp center" style="visibility: visible; animation-name: bounceInUp;">
 							<a href="<?php echo base_url('digitalmarketing'); ?>">
 							  <div class="circle">
 								<div class="front-home bg-secondary " >
@@ -1011,7 +1021,8 @@
 								</div><!-- end div .back color-1-bg info -->
 								</a>
 							</li>
-							<li>
+							
+							<li  class=" wow bounceInRight" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInRight;">
 							<a href="<?php echo base_url('maintainence'); ?>">
 							  <div class="circle">
 								<div class="front-home bg-blue-grey " >

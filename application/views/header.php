@@ -17,6 +17,7 @@
     <!-- Your custom styles (optional) -->
 	<link href="<?php echo base_url(); ?>assets/vendor/css/custom.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>assets/vendor/css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/vendor/css/animate.css" rel="stylesheet">
 	
 	<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/jquery-3.2.1.min.js"></script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114861070-1"></script>
@@ -51,13 +52,15 @@
 					<a href="<?php echo base_url('mobile_applications'); ?>">Mobile Applications</a>
 					<a href="<?php echo base_url('digital_marketing'); ?>"> Digital Marketing</a>
 					<!--<a href="<?php echo base_url('seo'); ?>">SEO</a>-->
-					<a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+				
 					<a href="<?php echo base_url('website_maintainence'); ?>"> Software Maintenance</a>
 					
 				  </div>
 				  <div class="col-md-6">
 					<a href="<?php echo base_url('start_up'); ?>">Start-Up</a>
 					<a href="<?php echo base_url('enterprise'); ?>">Enterprise</a>
+						<a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+						<a href="<?php echo base_url('on_demand_services'); ?>">On Demand Services</a>
 					
 				  </div>
 				  </div>
@@ -75,13 +78,15 @@
 					<a href="<?php echo base_url('mobile_applications'); ?>">Mobile Applications</a>
 					<a href="<?php echo base_url('digital_marketing'); ?>"> Digital Marketing</a>
 					<!--<a href="<?php echo base_url('seo'); ?>">SEO</a>-->
-					<a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+					
 					<a href="<?php echo base_url('website_maintainence'); ?>"> Software Maintenance</a>
 					
 				  </div>
 				  <div class="col-md-6">
 					<a href="<?php echo base_url('start_up'); ?>">Start-Up</a>
 					<a href="<?php echo base_url('enterprise'); ?>">Enterprise</a>
+					<a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+					<a href="<?php echo base_url('on_demand_services'); ?>">On Demand Services</a>
 					
 				  </div>
 				  </div>
