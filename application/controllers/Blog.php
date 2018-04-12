@@ -55,6 +55,14 @@ public function __construct()
 		$this->load->view('blog4_details',$commets);
 		$this->load->view('footer');
 	}
+	public function Web_development_a_practical_guide_to_a_Web_developer()
+	{
+		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
+		$this->load->view('web_development_blog',$commets);
+		$this->load->view('footer');
+	}
 	public function registerpost(){
 		
 			$post=$this->input->post();
