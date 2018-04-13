@@ -85,7 +85,7 @@
                 <strong>Social Media Marketing and its benefits</strong>
             </h3>
            
-            <p class="grey-text">Social Media can make you or break you! Social Media Marketing is the process of getting attention through social media sites. When you promote your website or a blog post
+            <p class="grey-text">Social Media can make you or break you! Social Media Marketing is the process of getting attention through social media sites. 
  
 </p>
 			<div class="row">
@@ -118,13 +118,39 @@
                 <strong>What is eCommerce and how many types of eCommerce are there?</strong>
             </h3>
            
-            <p class="grey-text">eCommerce is huge and it is ever growing. Have you ever purchased goods on the internet? If yes, then assuredly you have played an active role in the world of e-commerce; a world where the transactions are done digitally, and the products are conveniently delivered at the doorstep of the consumer. </p>
+            <p class="grey-text">eCommerce is huge and it is ever growing. Have you ever purchased goods on the internet? If yes, then assuredly you have played an active role in the world  </p>
 			<div class="row">
 				<div class="col-md-7 ">
 					<p class="date-design">30-March-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/what_is_ecommerce_and_its_types');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
+				</div>
+			</div>
+        </div> 
+		</div>
+		<div class="col-lg-4 col-xs-12  ">
+		<div class="card  pad-10">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-2 mb-2">
+                <img src="<?php echo base_url(); ?>assets/vendor/img/web-development-practical-guide.png" class="img-fluid" alt="Blog">
+               <a href="<?php echo base_url('blog/Web_development_a_practical_guide_to_a_Web_developer');?>">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            
+            <h3 class="mb-3  dark-grey-text font-25 mar-t20">
+                <strong>Web Development - A Practical Guide To A Web Developer</strong>
+            </h3>
+           
+            <p class="grey-text">Web development is the term that we apply to develop a website. Either a single static page or the most complex website must undergo web development.  </p><br>
+			<div class="row">
+				<div class="col-md-7 ">
+					<p class="date-design">10-April-2018</p>
+				</div>
+				<div class="col-md-5 ">
+					<a href="<?php echo base_url('blog/Web_development_a_practical_guide_to_a_Web_developer');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
 				</div>
 			</div>
         </div> 
