@@ -1,6 +1,6 @@
 <head>
 	<title> Digital Marketing Company In Hyderabad</title>
-	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Digital Marketing Company in Hyderabad. The Company also deals with Web designing, Web development, UI & UX design, Mobile apps (Android & iOS), eCommerce website etc. at affordable prices to support and serve the Startups and Mid-level companies.">
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Digital Marketing Company in Hyderabad. The Company also deals with Web designing, Web development, UI & UX design, Mobile apps (Android & iOS), eCommerce website etc., at affordable prices to support and serve the Startups and Mid-level companies.">
 	<meta name="keywords" content="digital marketing company in hyderabad, digital marketing services in hyderabad, digital marketing agency in hyderabad, digital marketing in hyderabad, digital marketing. ">
 </head>
 <section id="masthead" role="banner" class="bod-st">
@@ -24,14 +24,10 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18 col-md-11">In reality Digital Marketing is very vast, it is an ongoing process that needs to be updated from time to time. The major functionalities in Digital Marketing are Search Engine Optimization (SEO),  Social Media Marketing (SMM), Google Adwords, Content Marketing, email Marketing, Google Analytics etc., let’s have a glimpse on these functions.</p>
+		<p class="font-18 col-md-11">In reality Digital Marketing is very vast, it is an ongoing process that needs to be updated from time to time. The major functionalities in Digital Marketing are Search Engine Optimization (SEO),  Social Media Marketing (SMM), Google Adwords, Content Marketing, email Marketing, Google Analytics, Google Web Master Tools etc. In simple words we can say that Digital Marketing is just marketing of products or services using digital technologies, and the major digital marketing services we offer are briefly explained below.</p>
 	</div><br>
-	<h2 class="head-ing">DIGITAL MARKETING</h2>
-	<div class="row justify-content-md-center" >
-		
-		<p class="col-md-11">Digital Marketing is just marketing of products or services using digital technologies. </p>
-
-	</div>
+	<h2 class="head-ing">DIGITAL MARKETING SERVICES</h2>
+	
 		
 <div class=" "  id="navbarSupportedContent" >
 <section class="py-4 text-center text-lg-left">
