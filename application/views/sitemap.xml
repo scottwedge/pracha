@@ -1,132 +1,136 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--
+ created with Free Online Sitemap Generator www.xml-sitemaps.com 
+-->
 <url>
-  <loc>http://prachatech.com/</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.0</priority>
+<loc>http://prachatech.com/</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/services</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
+<loc>http://prachatech.com/services</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.90</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/ui_and_ux_design</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
+<loc>http://prachatech.com/ui_and_ux_design</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.90</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/web_development</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
+<loc>http://prachatech.com/web_development</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.90</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/mobile_applications</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
+<loc>http://prachatech.com/mobile_applications</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.90</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/digital_marketing</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
+<loc>http://prachatech.com/digital_marketing</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.90</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/website_maintainence</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
+<loc>http://prachatech.com/website_maintainence</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.70</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/start_up</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
+<loc>http://prachatech.com/start_up</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.70</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/enterprise</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
+<loc>http://prachatech.com/enterprise</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.70</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/ecommerce</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
+<loc>http://prachatech.com/ecommerce</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.70</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/on_demand_services</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
+<loc>http://prachatech.com/on_demand_services</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.70</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/industries</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
+<loc>http://prachatech.com/industries</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.70</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/carriers</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.6</priority>
+<loc>http://prachatech.com/carriers</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.70</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/blog</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.7</priority>
+<loc>http://prachatech.com/blog</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/contactus</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.6</priority>
+<loc>http://prachatech.com/contactus</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.70</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/blog/what_is_onpage_and_offpage_optimization</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.7</priority>
+<loc>
+http://prachatech.com/blog/what_is_onpage_and_offpage_optimization
+</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/blog/how_to_create_manage_and_optimize_a_youtube_channel</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.7</priority>
+<loc>
+http://prachatech.com/blog/how_to_create_manage_and_optimize_a_youtube_channel
+</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/blog/social_media_marketing_and_its_benefits</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.7</priority>
+<loc>
+http://prachatech.com/blog/social_media_marketing_and_its_benefits
+</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/blog/what_is_ecommerce_and_its_types</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.7</priority>
+<loc>
+http://prachatech.com/blog/what_is_ecommerce_and_its_types
+</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://prachatech.com/blog/Web_development_a_practical_guide_to_a_Web_developer</loc>
-  <lastmod>2018-04-12T10:27:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.7</priority>
+<loc>
+http://prachatech.com/blog/Web_development_a_practical_guide_to_a_Web_developer
+</loc>
+<lastmod>2018-04-13T11:43:10+00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.80</priority>
 </url>
-
-
 </urlset>
