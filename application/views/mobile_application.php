@@ -3,7 +3,7 @@
 	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Mobile App developers company in Hyderabad. We are specialized in developing Mobile Apps(iOS and Android softwares), eCommerce websites, Web Designing & Development and offer Digital Marketing services at affordable prices."> 
 	<meta name="keywords" content="mobile app developers in hyderabad, mobile application developers in hyderabad, mobile apps designer in hyderabad, mobile applications designer in hyderabad, mobile application services in hyderabad, mobile app services in hyderabad. ">
 </head>
-<section id="masthead" role="banner" class="bod-st">
+<section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/mobile-application-development-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
 
   <h1>
    MOBILE APPLICATIONS <br />
@@ -15,7 +15,7 @@
   </h1>
   
  
-  <canvas id="nodes"></canvas>
+
 
 </section>
 <div class="clearfix">&nbsp;</div>

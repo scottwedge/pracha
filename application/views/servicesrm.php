@@ -1,13 +1,13 @@
 <title>UI And UX Design | Web Designing Agency In Hyderabad</title>
 <meta name="description" content="Pracha Technologies Pvt. Ltd. is a web designing agency in Hyderabad. We offer eCommerce websites, corporate websites, static & dynamic website design, custom web design, responsive web design which is automatically adjustable to all sorts of screens. We also develop mobile apps (iOS and Android) and digital marketing services. ">
 	<meta name="keywords" content="Web designing agency in hyderabad, ui and ux design in hyderabad, ui & ux design in hyderabad, ui and ux design, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
-<section id="masthead" role="banner" class="bod-st">
+<section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/ui-and-ux-design-background.png); ">
 	<h1>
     UI and UX DESIGNING <br />
 	<br>
 		<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Site Architecture and Design", "Static & Dynamic Website Design", "Responsive Web Design","Custom Web Design","Corporate Website Design","Template Design & Customization",  " " ]'></p>
 	</h1>
-	<canvas id="nodes"></canvas>
+	
 </section>
 <div class="clearfix">&nbsp;</div>
 <section class="mar-mi140">

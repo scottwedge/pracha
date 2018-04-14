@@ -3,7 +3,7 @@
 	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Digital Marketing Company in Hyderabad. The Company also deals with Web designing, Web development, UI & UX design, Mobile apps (Android & iOS), eCommerce website etc. at affordable prices to support and serve the Startups and Mid-level companies.">
 	<meta name="keywords" content="digital marketing company in hyderabad, digital marketing services in hyderabad, digital marketing agency in hyderabad, digital marketing in hyderabad, digital marketing. ">
 </head>
-<section id="masthead" role="banner" class="bod-st">
+<section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/digital-marketing-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
 
   <h1>
   DIGITAL MARKETING<br /><br>
@@ -16,7 +16,7 @@
   </h1>
   
  
-  <canvas id="nodes"></canvas>
+ <!-- <canvas id="nodes"></canvas>-->
 
 </section>
 <div class="clearfix">&nbsp;</div>

@@ -405,18 +405,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   }
 }
 
+/* #masthead { */
+  /* background-color: #4F8CC1; */
+  /* background-size: 1400% 1400%; */
+  /* -moz-animation: gradientAnimation 240s ease infinite; */
+  /* -webkit-animation: gradientAnimation 240s ease infinite; */
+  /* animation: gradientAnimation 240s ease infinite; */
+  /* min-height: 400px; */
+  /* position: relative; */
+  /* overflow: hidden; */
+/* } */
 #masthead {
-  background-color: #4F8CC1;
-  background-size: 1400% 1400%;
-  -moz-animation: gradientAnimation 240s ease infinite;
-  -webkit-animation: gradientAnimation 240s ease infinite;
-  animation: gradientAnimation 240s ease infinite;
+ 
+ 
+ 
   min-height: 400px;
   position: relative;
   overflow: hidden;
 }
 #masthead h1 {
   color: #fff;
+  text-shadow: 1px 1px 8px #555;
   line-height: 1;
   margin: 0 auto;
   padding: 0;

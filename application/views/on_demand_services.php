@@ -354,27 +354,27 @@
         <div class="container  py-5 mb-5 sm-col-xs-mar">
 		<div class="row justify-content-center centered ">
 		<div class="col-md-10">
-				<h2 class="py-4 font-weight-bold text-text" style="font-size:30px;line-height:40px;">WHAT’S IN THE ON DEMAND SOLUTION PACKAGE??</h2>
+				<h2 class="py-4 font-weight-bold text-text" style="font-size:30px;line-height:40px;">WHAT’S IN THE ON DEMAND SOLUTION PACKAGE?</h2>
 					
 				</div>
 		</div>
           <div class="row mt-2 justify-content-center">
-            <div class="col text-center">
+            <div class="col text-center bord-white" >
 				<h5 class="text-warning">Customer Platform</h5>
 				<p class="text-white text-center">User-friendly interface for seamless service request One tap onboarding Select Service Allocation/Selection Push Notifications & Alerts
 					Secured Payment Promos Support & Help.</p>
 			</div>
-			<div class="col text-center">
+			<div class="col text-center bord-white">
 				<h5 class="text-warning">Service Provider Platform</h5>
 				<p class="text-white text-center">Service and User management on the go Profile Management Manage Order Request Payment Receipt Rating & Reviews Support & Help
 				</p>
 			</div>
-			<div class="col text-center">
+			<div class="col text-center bord-white">
 				<h5 class="text-warning">Admin Dashboard</h5>
 				<p class="text-white text-center">Complete operational information at one place Complete Dashboard Manage Users Manage Service & Pricing
 				Transaction Details Manage Service Request Manage Reviews & Reports</p>
 			</div>
-			<div class="col text-center">
+			<div class="col text-center bord-white">
 				<h5 class="text-warning">Website for customer & service Provider</h5>
 				<p class="text-white text-center">Website support for both user and service provider Seamless Navigation Menu Login as a customer/owner
 				Selection/Allocation Secured Payment Support & Help</p>
@@ -393,58 +393,166 @@
 <section>
 <div class="container-sty">
 	<div class="row justify-content-md-center text-center  how-we-help">
-			<div class="col-md-9">
-			<h2 class="py-2 font-weight-bold text-text" style="font-size:30px;line-height:40px;">How We Help You Build A Scalable Service Business??</h2>
+			<div class="col-md-12">
+			<h2 class="py-2 font-weight-bold text-text" style="font-size:30px;line-height:40px;">How We Help You Build A Scalable Service Business?</h2>
 				<p>We are here to provide Feature-rich on-demand experiences to every user & business owner. 
 				For the best service deliverables, each on-demand project at PrachaTech is built with a technical edge using all modern and prime tools and frameworks.
 				</p>								
 			
 			</div>
 	</div>
-	<div class="row justify-content-md-center text-center  ">
-		<div class="col border-right-demand">
-			<div class="py-2">
-				<img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/demand-img.png" alt="On demand">
-				<h2>Seamless Order Request</h2>
-				<p>Request a plumber or make salon booking, offer you customer a single tap order feature with our on demand app development solution. Get more requests with a clutter-free navigation.</p>
-			</div>
-		
-			<div class="py-2">				
-				<h2>Secured Payment System</h2>
-				<p>Integrated payment integration in our on demand app development securely connects credit, debit and e-wallets. Gain customer’s trust with smoother transactions.</p>
-			</div>
-				<div class="py-2">
-				<img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/rating.png" alt="On demand">
-				<h2>Rating & Reviews</h2>
-				<p>Review and rating help customers gain trust towards the service as they feel their feedback and suggestions are valued. Share feedback, Seek required attention ,Get improved products</p>
-			</div>
+	 <!--Grid row-->
+    <div class="row justify-content-center pt-5">
 
-		</div>
-		<div class="col ">
-			<div class="py-2">
-				
-				<h2>Easy Onboarding for Users</h2>
-				<p>Request a plumber or make salon booking, offer you customer a single tap order feature with our on demand app development solution. Get more requests with a clutter-free navigation.</p>
-				<img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/onboarding.png" alt="onboarding ">
-			</div>
-			<div class="py-2">
-				<img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/measure-with-analytics.png" alt="On demand">
-				<h2>Track & Measure with Analytics</h2>
-				<p>No more paperwork's! Monitor, Track and Evaluate your orders and transactions on your fingertips. Bring convenience in your business with on demand app development we provide.</p>
-				
-			</div>
-			<div class="py-2">
-				<img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/rating-ondemand.png" alt="On demand">
-				
-				
-			</div>
-		
-			
-		
+        <!--Grid column-->
+        <div class="col-lg-3 col-xl-3 pb-3">
+            <!--Featured image-->
+            <div class="view overlay rounded ">
+               <img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/demand-img.png" alt="On demand">
+                <a>
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+        </div>
+        <!--Grid column-->
 
-		</div>
-		
-	</div>
+        <!--Grid column-->
+        <div class="col-lg-7 col-xl-7">
+         
+            <h3 class="mb-4 font-weight-bold dark-grey-text">
+                <strong>Easy Onboarding for Users</strong>
+            </h3>
+            <p>Want to collect first hand user data? Make the most of it with one click profile integration. Build a strong relationship with your user with social media integration.</p>
+          
+            
+        </div>
+        <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+    <hr class=" ">
+
+    <!--Grid row-->
+    <div class="row justify-content-center ">
+
+        <!--Grid column-->
+        <div class="col-lg-7 col-xl-7 pb-3">
+            <h3 class="mb-4 font-weight-bold dark-grey-text">
+                <strong>Seamless Order Request</strong>
+            </h3>
+            <p>Request a plumber or make salon booking, offer you customer a single tap order feature with our on demand app development solution. Get more requests with a clutter-free navigation.</p>
+            <p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-xl-3 ">
+            <!--Featured image-->
+            <div class="view overlay rounded ">
+                <img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/onboarding.png" alt="onboarding ">
+                <a>
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+        </div>
+        <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+	 <hr class=" ">
+
+	<div class="row justify-content-center py-3">
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-xl-3 pb-3">
+            <!--Featured image-->
+            <div class="view overlay rounded ">
+               <img class="img-fluid"src="<?php echo base_url(); ?>assets/vendor/img/measure-with-analytics.png" alt="On demand">
+                <a>
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-7 col-xl-7">
+         
+            <h3 class="mb-4 font-weight-bold dark-grey-text">
+                <strong>Secured Payment System</strong>
+            </h3>
+            <p>Integrated payment integration in our on demand app development securely connects credit, debit and e-wallets. Gain customer’s trust with smoother transactions.
+Integrated payment integration in our on demand app development securely connects credit, debit and e-wallets. Gain customer’s trust with smoother transactions.
+</p>
+          
+            
+        </div>
+        <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+    <hr class=" ">
+
+    <!--Grid row-->
+    <div class="row justify-content-center py-3">
+
+        <!--Grid column-->
+        <div class="col-lg-7 col-xl-7 pb-3">
+            <h3 class="mb-4 font-weight-bold dark-grey-text">
+                <strong>Track & Measure with Analytics</strong>
+            </h3>
+            <p>No more paperwork's! Monitor, Track and Evaluate your orders and transactions on your fingertips. Bring convenience in your business with on demand app development we provide.</p>
+            <p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-xl-3 ">
+            <!--Featured image-->
+            <div class="view overlay rounded ">
+                <img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/rating.png" alt="onboarding ">
+                <a>
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+        </div>
+        <!--Grid column-->
+
+    </div>
+   
+
+    <hr class=" ">
+
+    <!--Grid row-->
+    <div class="row justify-content-center py-3">
+
+        <!--Grid column-->
+        <div class="col-lg-7 col-xl-7 pb-3">
+            <h3 class="mb-4 font-weight-bold dark-grey-text">
+                <strong>Rating & Reviews</strong>
+            </h3>
+            <p>Review and rating help customers gain trust towards the service as they feel their feedback and suggestions are valued. Share feedback, Seek required attention ,Get improved products</p>
+            <p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-xl-3">
+            <!--Featured image-->
+            <div class="view overlay rounded ">
+                <img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/rating-ondemand.png" alt="onboarding ">
+                <a>
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+        </div>
+        <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+	
 </div>
 </section>
 <div class=" bg-dark text-white">

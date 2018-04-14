@@ -4,7 +4,7 @@
 	<meta name="keywords" content="web development company in hyderabad, ecommerce web site developers, web designing agency in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 
 </head>
-<section id="masthead" role="banner" class="bod-st">
+<section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-development-background.png); ">
 
   <h1>
     WEB DEVELOPMENT <br />
@@ -16,7 +16,7 @@
   </h1>
   
  
-  <canvas id="nodes"></canvas>
+ 
 
 </section>
 <div class="clearfix">&nbsp;</div>
