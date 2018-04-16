@@ -4,7 +4,7 @@
 	<meta name="keywords" content="web development company in hyderabad, ecommerce web site developers, web designing agency in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 
 </head>
-<section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-development-background.png); ">
+<section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-development-background.png);background-repeat: no-repeat;background-size: 100% 100%;  ">
 
   <h1>
     WEB DEVELOPMENT <br />
