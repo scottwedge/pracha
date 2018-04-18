@@ -63,6 +63,14 @@ public function __construct()
 		$this->load->view('web_development_blog',$commets);
 		$this->load->view('footer');
 	}
+	public function importance_of_mobile_apps_in_business()
+	{
+		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
+		$this->load->view('blog5_details',$commets);
+		$this->load->view('footer');
+	}
 	public function registerpost(){
 		
 			$post=$this->input->post();

@@ -1,7 +1,7 @@
 <section class=" py-5 bg-light-brown" style="overflow:hidden;">
 <div class="row justify-content-center">
 	<div class="half-circle">
-		<h1 class="text-white" style="line-height:380px">FACT</h1>
+		<div class="text-white" style="line-height:380px;font-size:35px;padding-left:110px;font-weight:400;margin-top:30px">FACT</div>
 	</div>
 </div>
 

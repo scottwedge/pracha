@@ -102,7 +102,7 @@
 
 
     </div>
-	<div class="row justify-content-md-center pt-5 mt-4 help-blog">
+	<div class="row  pt-5 mt-4 ">
         <div class="col-lg-4 col-xs-12  ">
 		<div class="card  pad-10">
             <!--Featured image-->
@@ -155,7 +155,34 @@
 			</div>
         </div> 
 		</div>
-    <!--Grid row-->
+		<div class="col-lg-4 col-xs-12  ">
+		<div class="card  pad-10">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-2 mb-2">
+                <img src="<?php echo base_url(); ?>assets/vendor/img/importance_of_mobile_apps_in_business.png" class="img-fluid" alt="Blog">
+               <a href="<?php echo base_url('blog/importance_of_mobile_apps_in_business');?>">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            
+            <h3 class="mb-3  dark-grey-text font-25 mar-t20">
+                <strong>Importance Of Mobile Apps In Business</strong>
+            </h3>
+           
+            <p class="grey-text">No matter what the business is, mobile is the new face of customer engagement in these days. If your business is available online  </p>
+<br>
+			<div class="row">
+				<div class="col-md-7 ">
+					<p class="date-design">April-2018</p>
+				</div>
+				<div class="col-md-5 ">
+					<a href="<?php echo base_url('blog/importance_of_mobile_apps_in_business');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
+				</div>
+			</div>
+        </div> 
+		</div>
+  
 	</div>
 
 </section>

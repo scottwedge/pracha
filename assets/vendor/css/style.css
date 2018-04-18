@@ -8,7 +8,9 @@ p{
 .head-h2{
 	font-size:35px;
 }
-
+.font-desktop{
+	font-size:40px !important;
+}
 .font-w-400{
 	font-weight:400;
 	line-height:30px;
@@ -2289,6 +2291,18 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 }
 .sm-hide{
 	display:none;
+}
+.carousel-caption h1 {
+    font-family: Lato, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-align: center;
+    color: #444;
+    padding: 0px;
+}
+.font-desktop{
+	font-size:12px !important;
 }
 .sm-col-xs-mar .col-md-4{
 	margin-top:10px;

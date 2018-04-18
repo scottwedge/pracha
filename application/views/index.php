@@ -36,7 +36,7 @@
             <!--Caption-->
             <div class="carousel-caption">
                 <div class="animated fadeInDown">
-                    <span class="text-white"><h2 ><span class="caption-sty">Software & Digital Marketing House!!!</span></h2></span>
+                    <span class="text-white"><h1 ><span class="caption-sty text-white font-desktop" >Software & Digital Marketing House!!!</span></h1></span>
 					<div class="clearfix hid-320">&nbsp;</div>
 					<div class="row justify-content-md-center help-btn-sl">
 						<a href="<?php echo base_url('services'); ?>"  class="btn bg-warning"><i class="fa fa-cogs" aria-hidden="true"></i> &nbsp; Our Services</a><a href="<?php echo base_url('contactus');?>"  class="btn bg-warning"> Contact Us</a>
