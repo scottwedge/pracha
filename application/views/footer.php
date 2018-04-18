@@ -8,14 +8,14 @@
 	<div class="text-center container-sty text-white">
 		<div class="row justify-content-center">
 		<div class="col-md-10">
-		<h2 class="py-5 text-shad">No huge, nor anonymous company here. Our proficient team knows exactly how to make projects succeed.We will work side by side with you in every stage along the development process.</h2>
+		<h2 class="py-5 text-shad"> Quality work & Customer service are the two main pillars of our company. Our dedicated and proficient team will solve all your issues and leads your projects in a successful way. We will be with you through out the project as per company norms, to achieve the desired results .</h2>
 		<div class="py-3">
 		<a href="<?php echo base_url('contactus');?>" class="btn btn-warning btn-rounded " style="font-size:20px;">Let’s talk!</a>
 			
 		</div>
 		
 		<p class="font-20 py-4 text-shad">Let’s talk! 
-		Tell us about your idea. We want to know how we can help you. We'll have a session of brisk inception.
+		Tell us about your idea! We want to know how we can help you. Let's have a session of brisk inception.
 		</p>
 		</div>
 		</div>
@@ -30,7 +30,9 @@
             <div class="col-md-8 ">
 			<div class="help-foot-banner">
 			<h2 class="text-warning">End-To-End Solutions</h2>
-			<p>We create solutions which start with a necessity and finish in a tech tool for the WWW.</p>
+			<p>For every problem there is a solution! </p>
+			<p>For every bug there is a debugging process.</p>
+			<p>We have the ability to provide solutions for complicated issues through our vast tech tools & experts for the "WWW."s</p>
 			</div>
             </div>
           </div>
@@ -38,15 +40,15 @@
             <div class="col-md-8 ">
 			<div class="help-foot-banner">
 			<h2 class="text-warning">Cost-Effective</h2>
-			<p>Best quality/cost ratio in the market. We will give you a turnkey solution. We will help you end-to-end.</p>
+			<p>We can assure that we are the one of the best web designing companies in Hyderabd, who can provide a quality service at affordable prices. We will give you a turnkey solution and will help you end-to-end.</p>
 			</div>
             </div>
           </div>
 		  <div class="row  algin-pos-right">
             <div class="col-md-12 ">
 			<div class="help-foot-banner">
-			<h2 class="text-warning">We will be there for you</h2>
-			<p>Making the Wide World a better web place</p>
+			<h2 class="text-warning">We are here for you</h2>
+			<p>Our services are appraisable, we will be with you through out the project. Let's make the Wide World a better web place</p>
 			</div>
             </div>
           </div>

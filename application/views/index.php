@@ -549,7 +549,7 @@
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
-                        <h5 class=""><a href="#">We Expose Your Website</a></h5>
+                        <h5 class=""><a href="#">We Expose Your Website Online</a></h5>
                     </div>
                     <div class="service_content">
                         <p>
@@ -616,7 +616,7 @@
 
                 <h2>
                     <span class="tit">
-									We Help<span class="des_t"> Your Business </span> To Grow
+									We Elevate<span class="des_t"> Your Business </span> 
                     </span>
                 </h2>
 				<div class="clearfix">&nbsp;</div>
@@ -653,7 +653,7 @@
             <i class="fa fa-2x fa-universal-access text-dark"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Make your Business reach to the right people.</h5>
+            <h5 class="font-bold">Make your Business to reach the right people.</h5>
             <p class="grey-text">By analyzing your business with various business tools we can measure the traffic driving to your website. Through this analysis, we can target the right people on focusing on particular geographical location or gender or age depending upon the product.</p>
         </div>
         </div>
