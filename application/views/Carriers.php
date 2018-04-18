@@ -131,9 +131,9 @@
 						<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 							<span class="mb-0">
 							<div class="row">
-								<div class="col-md-4 col-xs-4 col-sm-4">HR</div>
-								 <div class="col-md-4 col-xs-4 col-sm-4">Admin</div>
-								 <div class="col-md-4 col-xs-4 col-sm-4">Fresher or Experienced 	 <i class="fa fa-angle-down rotate-icon"></i></div>
+								<div class="col-md-4 col-xs-4 col-sm-4">Marketing Manager</div>
+								 <div class="col-md-4 col-xs-4 col-sm-4">Sales</div>
+								 <div class="col-md-4 col-xs-4 col-sm-4">3-5 years of experience in IT sales<i class="fa fa-angle-down rotate-icon"></i></div>
 								
 								</div>
 							</span>
@@ -149,11 +149,11 @@
 							<tbody>
 							  <tr>
 								<th>Designation</th>
-								<td>HR</td>
+								<td>Marketing Manager</td>
 							  </tr>
 							  <tr>
 								<th>Eligibility</th>
-								<td> Fresher or Experienced</td>
+								<td> : 3-5 years of experience in IT sales</td>
 							  </tr>
 							  <tr>
 								<th>Qualification</th>
@@ -165,29 +165,40 @@
 							  </tr> 
 							  <tr>
 								<th>Salary</th>
-								<td>12-15k + Work Incentives</td>
+								<td>3,00,000 – 4,20,000 + Work Incentives per annum</td>
 							  </tr>
 							 
 							 
 							</tbody>
 						  </table>
-							 
+							 <h3>Responsibilities:</h3>
+							 <p>Marketing managers are responsible for developing, implementing and executing strategic marketing plans for an entire organization (or lines of business and brands within an organization) in order to attract potential customers and retain existing ones.</p>
+							 <p>Their day-to-day tasks include managing and coordinating marketing and creative staff, leading market research efforts to uncover the viability of current and existing products/services and liaising with media organizations and advertising agencies.</p> 
+							 <p>Marketing managers must be great business leaders as well as great marketing leaders. That’s because they are responsible for working with executives to determine budgets and targets, and they are often charged with developing pricing strategies for products and services. While the marketing department looks to marketing managers for guidance and direction, executives count on marketing managers for profitability and results. Operating at the center of the marketing department, these professionals must have extraordinary communication skills.</p>
 						  </div>
 						 
 						<div class="col-md-6">
 						<h3>Attributes :</h3>
 						<ul>
-						 <li>﻿Must have basic IT knowledge ﻿recruiting and staffing</li>
-						 <li>Organisational departmental planning & development</li>
-						 <li>﻿Performance management and improvement systems</li>
-						 <li>﻿Employment and compliance with regulatory concerns regarding employees</li>
-						 <li>Employee on boarding, development, needs assessment, and training</li>
-						 <li>Policy development and documentation</li>
-						 <li>Employee relations</li>
-						 <li>Company employee and community communication</li>
-						 <li>Compensation and benefits administration</li>
-						 <li>Employee safety, welfare, wellness, and health</li>
-						 <li>Employee services and counseling</li>
+						 <li>Intimate understanding of traditional and emerging marketing channels</li>
+						 <li>Excellent communication skills</li>
+						 <li>﻿Ability to think creatively and innovatively</li>
+						 <li>﻿Budget-management skills and proficiency</li>
+						 <li>Professional judgment and discretion that comes from years of experience in the field</li>
+						 <li>Analytical skills to forecast and identify trends and challenges</li>
+						 <li>Work with sales and account management teams for customer evangelists to create PR, media and marketing opportunities.</li>
+						 <li>Align campaigns, assets, communications and messaging to corporate branding initiatives.</li>
+						 <li>Develop marketing collateral and sales tool like brochures, datasheet, presentations and proposals.</li>
+						 <li>Determine and coordinate online and onsite events like webinars, tradeshows, seminars and customer events.</li>
+						 <li>Report on periodic activities, results and ROI for marketing.</li>
+						 <li>Manage content of marketing sections of websites.</li>
+						 <li>Manage services & products price book.</li>
+						 <li>Plan and implement software product launch.</li>
+						 <li>Manage working relationships with Desktop Sales team members to review needs, prioritize and deliver.</li>
+						 <li>Implement marketing strategies to meet or exceed demand generation and revenue targets.</li>
+						 <li>Implement global content and collateral strategy for key partners.</li>
+						 <li>Establish and manage key partner marketing budgets.</li>
+						 <li>Strategize on marketing for select global partners through analysis and understanding of competitive landscape.</li>
 						
 									</ul>
 								 

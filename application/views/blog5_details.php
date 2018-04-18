@@ -28,7 +28,7 @@
                                 <p>No matter what the business is, mobile is the new face of customer engagement in these days. If your business is available online and if your business have a smartphone app then you can see elevation in your business when the app is downloaded by your customer. In these days mobile devices are challenging personal computers with over billions of smartphones in use. </p>
                             </div>
                             <div class=" view overlay  " style="margin-top:50px;">
-                                <img style="height:auto;width:60%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/importance_of_mobile_apps_in_business.png" alt="What is eCommerce and how many types of eCommerce are there?" class="">
+                                <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/importance_of_mobile_apps_in_business.png" alt="What is eCommerce and how many types of eCommerce are there?" class="">
                                 <a>
                         
                     </a>
@@ -68,12 +68,12 @@
                 <p>A business will be in success only if it is engaged to customers by using latest technologies. Mobile / Web Application keeps your business alive in customers hands. In an average day customer spend 80 minutes in mobile apps and 70 minutes in web surfing. There is a demand to have applications for inviting potential customers.   </p>
 				<p>Mobile Apps can benefit your business in a real good manner. </p>
 				<p>Mobile apps are three types namely: Native apps, Web apps and Hybrid apps.</p>
-					
-						<div class="row ">
-                            <div class="col-md-10 mb-20 pt-30 ">
-                                <h2 class="text-left">
+					 <h2 class="text-left pt-5">
                                     <span class="tit1">Types of Mobile Apps</span>
                                 </h2>
+						<div class="row justify-content-center">
+                            <div class="col-md-10 mb-20 pt-30 ">
+                               
                             </div>
                         <div class="text-center">
 							<img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/types-of-apps.png" alt="How Social Media Works">
@@ -290,7 +290,7 @@
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 					</div>
 					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Singel App for all platforms</h5>
+						<h5 class=" text-left  dark-grey-text font-w-400">Single App for all platforms</h5>
 						
 					</div>
 				</div>
