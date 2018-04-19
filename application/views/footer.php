@@ -32,7 +32,7 @@
 			<h2 class="text-warning">End-To-End Solutions</h2>
 			<p>For every problem there is a solution! </p>
 			<p>For every bug there is a debugging process.</p>
-			<p>We have the ability to provide solutions for complicated issues through our vast tech tools & experts for the "WWW."s</p>
+			<p>We have the ability to provide solutions for complicated issues through our vast tech tools & experts for the "WWW."s </p>
 			</div>
             </div>
           </div>
@@ -40,7 +40,7 @@
             <div class="col-md-8 ">
 			<div class="help-foot-banner">
 			<h2 class="text-warning">Cost-Effective</h2>
-			<p>We can assure that we are the one of the best web designing companies in Hyderabd, who can provide a quality service at affordable prices. We will give you a turnkey solution and will help you end-to-end.</p>
+			<p>We can assure that we are one of the best web designing companies in Hyderabad, who can provide a quality service at affordable prices. We will give you a turnkey solution and will help you end-to-end.</p>
 			</div>
             </div>
           </div>
@@ -48,7 +48,7 @@
             <div class="col-md-12 ">
 			<div class="help-foot-banner">
 			<h2 class="text-warning">We are here for you</h2>
-			<p>Our services are appraisable, we will be with you through out the project. Let's make the Wide World a better web place</p>
+			<p> Many of our clients have certified that our web designing services and digital marketing services are appraisable. We are here to help and encorage your business to present it online.</p>
 			</div>
             </div>
           </div>
@@ -61,9 +61,9 @@
 	<div class="text-center container-sty text-white">
 		<div class="row justify-content-center">
 		<div class="col-md-10">
-		<h3 class="py-2 ">BECAUSE Your digital presence is your online reputation, And the million dollar question is, how have you presented yourself?,</h3>
-		<h2 class="py-5 font-weight-bold">We will be On it. YOUR NEXT TECH PARTNER.</h2>
-		<p class="pull-right">:— PRACHA TECHNOLOGIES</p>
+		<h3 class="py-2 ">Assuredly Your digital presence is Your online reputation, and the million dollar question is, how have you presented yourself?</h3>
+		<h2 class="py-5 font-weight-bold">Join Us! We will present your business much better on online.</h2>
+		<p class="pull-right">— Pracha Technologies Pvt. Ltd.</p>
 		</div>
 		</div>
 	</div>

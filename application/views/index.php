@@ -1,7 +1,7 @@
 <head>
 	<title>Web Designing Company In Hyderabad | Digital Marketing Company | Mobile App Developers </title>
 	<meta name="description" content="Pracha Technologies Pvt. Ltd. is basically a Web Designing company in Hyderabad, yet it is also into  Digital Marketing services (SEO, SMM, Google Ads, email Marketing etc.)  and design Mobile apps (iOS and Android), eCommerce websites and promote them digitally at affordable prices. ">
-	<meta name="keywords" content="Web designing company in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+	<meta name="keywords" content="Web designing company in hyderabad, digital marketing company in hyderabad, mobile app developers, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 
 </head>
 <div class="selectstate">
@@ -36,7 +36,7 @@
             <!--Caption-->
             <div class="carousel-caption">
                 <div class="animated fadeInDown">
-                    <span class="text-white"><h1 ><span class="caption-sty text-white font-desktop" >Software & Digital Marketing House!!!</span></h1></span>
+                    <span class="text-white"><h1 ><span class="caption-sty text-white font-desktop" >Software & Digital Marketing Company!!!</span></h1></span>
 					<div class="clearfix hid-320">&nbsp;</div>
 					<div class="row justify-content-md-center help-btn-sl">
 						<a href="<?php echo base_url('services'); ?>"  class="btn bg-warning"><i class="fa fa-cogs" aria-hidden="true"></i> &nbsp; Our Services</a><a href="<?php echo base_url('contactus');?>"  class="btn bg-warning"> Contact Us</a>
@@ -104,7 +104,7 @@
 					&nbsp;
 				</div>
 				<div class="col-10 text-center"> 
-					We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web-services to serve our clients. We generate new websites to our clients and decorate them with charming designs and magnetizing words. We can assure the most satisfactory outcomes for our clients and their  online business if they follow us. We develop user friendly software's and design  responsive web sites for a multitude of devices with various screen sizes, which are automatically adjusted. We are specialized in developing Apps for Android and iOS software's.
+					We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web-services to serve our clients. We generate new websites to our clients and decorate them with charming designs and mesmerizing themes. We can assure the most satisfactory outcomes to  our clients if they follow our guidelines. We consider ourselves as one of the best web designing company in Hyderabad who develops a user-friendly Software's and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. We have the ability to promote your websites and mobile apps online, for we also run a digital marketing company in hyderabad, which is our other wing.
 				</div>
 				
 				
@@ -193,6 +193,8 @@
 							  <li>Content Management System (CMS)</li>
 							  <li>eCommerce Development</li>
 							  <li>MEAN Stack Development</li>
+							  <li>Dynamic Web Development</li>
+							  <li>Web Development Methodologies</li>
 							 
 							 
 							</ul>
@@ -335,7 +337,8 @@
 								  <li>Mobile Applications Maintenance</li>
 								  <li>Digital Marketing Maintenance</li>
 								  <li>SEO Maintenance</li>
-								  <li>Software Partner</li>
+								  <li>Cloud Services Maintenance</li>
+								  <li>Hack Proof Maintenance</li>
 								</ul>
 								  
 								 
@@ -442,7 +445,7 @@
 									<div class="card-body text-center">
 										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/ecommerce.png" class="my-3" alt="">
 										<div class="">
-											<strong>Ecommerce, Retail & B2B & B2C</strong>
+											<strong>Ecommerce, Retail, B2B & B2C</strong>
 										</div>
 									</div>
 								</div>
@@ -553,9 +556,9 @@
                     </div>
                     <div class="service_content">
                         <p>
-                          We bring your online business into light that creates more opportunities for your business to connect with its targeted audience.
+                          As we have earlier intoduced about our digital marketing company in Hyderabad as our other wing, with which we bring your online business into light that creates more opportunities for your business to connect with its targeted audience.
                         </p>
-						<p>We do all the possible ways to promote your website digitally on social media and on search engines results page. We focus on reciprocal linking, signature branding, quality content, using Google’s local business etc.</p>
+						<p>We do all the possible ways to promote your website digitally on social media and on search engines results page by applying various marketing tools and Google’s local business tools. </p>
 						
                     </div>
                 </div>
@@ -585,7 +588,7 @@
                     </div>
                     <div class="service_content">
                         <p>
-                           A 'Website' is a site(your house) on the web. Just like a house, a website also needs to be maintained properly. When things break-up, they need to be fixed. When it gets out dated, it needs to be updated. Website updating may be difficult and time consuming; for that reason we are here to assist you. We offer Website Maintenance, Website Security, Application Management, Marketing Services and many more...</p>
+                           A 'Website' is a site(your house) on the web. Just like a house, a website also needs to be maintained properly. When things break-up, they need to be fixed! When it gets out dated, it needs to be updated.  Website updating may be difficult and time consuming process; thus we are here as a web designing company in Hyderabad to help you online, though you may be at anyplace in the world. For the whole world is online now!</p>
 
 						
                         </p>
@@ -642,7 +645,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Digital presence makes everything!</h5>
-            <p class="grey-text">Your digital presence is your online reputation. And the million dollar question is, how have you presented yourself? </p>
+            <p class="grey-text">Your digital presence is your online reputation. And the million dollar question is, how have you presented yourself? Without Digital Marketing it is impossible for your business to get online reputation!</p>
         </div>
         </div>
         <!--Grid row-->
@@ -654,7 +657,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Make your Business to reach the right people.</h5>
-            <p class="grey-text">By analyzing your business with various business tools we can measure the traffic driving to your website. Through this analysis, we can target the right people on focusing on particular geographical location or gender or age depending upon the product.</p>
+            <p class="grey-text">By analyzing your business with various digital marketing tools we can measure the traffic driving to your website. Through this analysis, we can target the right people to promote your business online.</p>
         </div>
         </div>
       
@@ -665,7 +668,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Market consultation</h5>
-            <p class="grey-text">Each company and organization has unique requirements. These needs will be identified through the rigorous Essential or Advanced Consultation process, and your growth plan will be laid out step by step to achieve desired results. </p>
+            <p class="grey-text">Each company and organization has unique requirements. These needs will be identified through Advanced Consultation process, depending upon the requirements your growth plan will be laid out step by step to achieve the desired results. </p>
         </div>
         </div>
 
@@ -691,7 +694,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Get the right Business </h5>
-            <p class="grey-text">Every business wants Customers, not Visitors. Watching the number of visitors to your site grow is pretty awesome, but visits alone do not make a successful business. So we, through our expertise we will catch the pulse of the visitor and turn them into customer mostly. </p>
+            <p class="grey-text">Every business wants Customers, not Visitors! Watching the number of visitors to your site grow is pretty awesome, but visits alone do not make a successful business. So we, through our expertise we will catch the pulse of the visitor and turn them into customer mostly. </p>
         </div>
         </div>
         <!--Grid row--><!--Grid row-->
@@ -701,7 +704,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Marketing , Advertising support & Consultation</h5>
-            <p class="grey-text">We help you make effective decisions about where to target your resources and how to achieve accelerated growth.</p>
+            <p class="grey-text">We help you to make effective decisions about where to target your resources and how to achieve accelerated growth.</p>
         </div>
         </div>
 		
@@ -711,7 +714,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Technical Support & Consultation</h5>
-            <p class="grey-text">We have a highly qualified technical team to provide 24/7 technical support. However this will be applicable depending upon the subscription plan of the client. </p>
+            <p class="grey-text">We have a highly qualified technical team to provide you a full-time technical support. However this will be applicable depending upon the subscription plan of the client. </p>
         </div>
         </div>
 
