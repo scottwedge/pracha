@@ -1,7 +1,7 @@
 <head>
-	<title>Web Designing Services In Hyderabad</title>
+	<title>Web Designing Services | Mobile App Developers | Digital Marketing Company in Hyderabad</title>
 	<meta name="description" content="Pracha Technologies Pvt. Ltd. offers various web designing services in Hyderabad for startups and mid-level companies. The company deals with mobile apps (iOS and Android), ecommerce websites, corporate websites and promote them on the internet through its  digital marketing strategies.">
-	<meta name="keywords" content=" web designing services in hyderabad, web designing company in hyderabad, mobile app developers in hyderabad, digital marketing agency in hyderabad, ecommerce website design in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+	<meta name="keywords" content=" web designing services in hyderabad, web designing company in hyderabad, mobile app developers in hyderabad, digital marketing agency in hyderabad, web designing companies in hyderabad, web designing, digital marketing, ecommerce website design in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 </head>
  <style>
  #sticky {
@@ -27,7 +27,7 @@
   </style>
 <section class="bod-st">
 	<div class="img-responsive">
-	<img class="img-fluid"  src="<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png" alt="web design and development">
+	<img class="img-fluid"  src="<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png" alt="web-development-company-in-hyderabad.png">
 	</div>
 </section>
 

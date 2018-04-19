@@ -1,7 +1,7 @@
 <head>
 	<title>Web Designing Company In Hyderabad | Digital Marketing Company | Mobile App Developers </title>
 	<meta name="description" content="Pracha Technologies Pvt. Ltd. is basically a Web Designing company in Hyderabad, yet it is also into  Digital Marketing services (SEO, SMM, Google Ads, email Marketing etc.)  and design Mobile apps (iOS and Android), eCommerce websites and promote them digitally at affordable prices. ">
-	<meta name="keywords" content="Web designing company in hyderabad, digital marketing company in hyderabad, mobile app developers, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+	<meta name="keywords" content="Web designing company in hyderabad, digital marketing company in hyderabad, mobile app developers, best web designing company in hyderabad, web designing companies in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 
 </head>
 <div class="selectstate">
@@ -104,7 +104,7 @@
 					&nbsp;
 				</div>
 				<div class="col-10 text-center"> 
-					We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web-services to serve our clients. We generate new websites to our clients and decorate them with charming designs and mesmerizing themes. We can assure the most satisfactory outcomes to  our clients if they follow our guidelines. We consider ourselves as one of the best web designing company in Hyderabad who develops a user-friendly Software's and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. We have the ability to promote your websites and mobile apps online, for we also run a digital marketing company in hyderabad, which is our other wing.
+					We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web-services to serve our clients. We generate new websites to our clients and decorate them with charming designs and mesmerizing themes. We can assure the most satisfactory outcomes to  our clients if they follow our guidelines. Many of our clients considered us as the best web designing company in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. We have the ability to promote your websites and mobile apps online, for we also run a digital marketing company in hyderabad, which is our other wing.
 				</div>
 				
 				
@@ -518,7 +518,7 @@
             <div class="col-md-8 ">
 			
              
-                <div style=""><img  style="visibility: visible; animation-duration: 0.25s; animation-iteration-count: 5; animation-name: pulse;" data-wow-iteration="5" data-wow-duration="0.25s" class="img-fluid wow pulse" src="<?php echo base_url(); ?>assets/vendor/img/how-we-work.png" alt="how we work" ></div>
+                <div style=""><img  style="visibility: visible; animation-duration: 0.25s; animation-iteration-count: 5; animation-name: pulse;" data-wow-iteration="5" data-wow-duration="0.25s" class="img-fluid wow pulse" src="<?php echo base_url(); ?>assets/vendor/img/how-we-work.png" alt="formulae-of-web-designing-company-in-hyderabad.png" ></div>
             
             </div>
             
@@ -680,7 +680,7 @@
 
     <!--Grid column-->
     <div class="col-md-4 mb-2 center-on-small-only flex-center wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-presence.png" alt="digital presence" class="z-depth-0 img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-presence.png" alt="digital-marketing-company-in-hyderabad.jpg" class="z-depth-0 img-fluid">
     </div>
     <!--Grid column-->
 
@@ -755,7 +755,7 @@
 
  
     <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="why choose us" class="img-fluid " style="margin-top:-100px;">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="our-mobile-app-developers-in-hyderabad.png" class="img-fluid " style="margin-top:-100px;">
     </div>
     <!--Grid column-->
 
