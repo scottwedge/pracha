@@ -14,7 +14,7 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18 col-md-11">Under UI and UX Design, we focus on the core functions like Site Architecture and Design, Static & Dynamic Website Design, Responsive Web Design, Custom Web Design, Template Design & Customization etc., let’s have a glimpse on these attributes and their functionalities.</p>
+		<p class="font-18 col-md-11"> User Interface Design is the combination of Visual Design and Interaction Design. Visual Design is the look and feel of the site, and Interaction Design is the way public interacts with your site. Under UI and UX Design, we focus on the core functions like Site Architecture and Design, Static & Dynamic Website Design, Responsive Web Design, Custom Web Design, Template Design & Customization etc., let’s have a glimpse on these attributes and their functionalities.</p>
 	</div><br>
 	<h2 class="head-ing">UI & UX:</h2>
 	<div class="row justify-content-md-center" >
