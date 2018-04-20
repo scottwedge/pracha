@@ -14,12 +14,12 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18 col-md-11"> User Interface Design is the combination of Visual Design and Interaction Design. Visual Design is the look and feel of the site, and Interaction Design is the way public interacts with your site. Under UI and UX Design, we focus on the core functions like Site Architecture and Design, Static & Dynamic Website Design, Responsive Web Design, Custom Web Design, Template Design & Customization etc., let’s have a glimpse on these attributes and their functionalities.</p>
+		<p class="font-18 col-md-11"> UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. <strong>In simple UI aims on website and UX aims on product</strong>, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user.</p>
 	</div><br>
 	<h2 class="head-ing">UI & UX:</h2>
 	<div class="row justify-content-md-center" >
 		
-		<p class="col-md-11">UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. <strong>In simple UI aims on website and UX aims on product</strong>, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user. </p>
+		<p class="col-md-11"> User Interface Design is the combination of Visual Design and Interaction Design. Visual Design is the look and feel of the site, and Interaction Design is the way public interacts with your site. Under UI and UX Design, we focus on the core functions like Site Architecture and Design, Static & Dynamic Website Design, Responsive Web Design, Custom Web Design, Template Design & Customization etc., let’s have a glimpse on these attributes and their functionalities. </p>
 
 	</div>
 		
@@ -31,7 +31,7 @@
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
 <li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="logo">
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="web-design-company-in-hyderabad.png">
 
 </a>
     </li>
@@ -71,7 +71,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/site-architecture-and-design.png" alt="Site Architecture and design"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/site-architecture-and-design.png" alt="Site-Architecture-web-designing-company-in-hyderabad.png"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -86,7 +86,7 @@
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
         <strong>Site Architecture and design </strong>
         </h2>
-        <p>Website architecture deals with the principles of design and construction and ornamentation of fine websites. Before designing site architecture we need to have a complete research on  our Customer, Competitor and Product or Service. Depending upon the research we need to develop content and UX & UI designs for the website. Under UX Design we work on Wireframing, Prototyping, Testing, Development Planning, Execution and Analytics etc. Under UI Design we test Look and Feel, Responsive website, UI Prototyping, Animation, Autofit to all screen sizes and Interactive etc.</p>
+        <p>Site architecture is the crucial thing in developing a website, for instance before constructing a house we need an engineer to draw the architecture, so also a website needs a designer to develop the archtiecture which is done at a web designing agency. Website architecture deals with the principles of design and construction and ornamentation of fine websites. Before designing site architecture we need to have a complete research on  our Customer, Competitor and Product or Service. Depending upon the research we need to develop content, UI and UX designs for the website. Under UX Design we work on Wireframing, Prototyping, Testing, Development Planning, Execution and Analytics etc. Under UI Design we test Look and Feel, Responsive website, UI Prototyping, Animation, Autofit to all screen sizes and Interactive etc.</p>
 		
     </div>
     <!--Grid column-->
@@ -105,8 +105,8 @@
 		 <h2 class="mb-4 font-bold dark-grey-text head-h2">
         <strong>Static & Dynamic Website Design</strong>
         </h2>
-         <p>A Static website has stagnant content usually written in HTML code, and every page has to be saved separately on the server. Changes have to be made manually every time, and you need coding knowledge to make any kind of changes.</p>
-		<p>A Dynamic website’s construction is controlled by an application server processed by server-side scripts. Pages of the website are dynamically populated every time and are not coded and saved separately, but the design or template look and feel is saved separately.</p>
+         <p>A Static website has stagnant content usually written in HTML code, and every page has to be saved separately on the server. Changes have to be made manually every time, and you need coding knowledge to make any kind of changes. A Dynamic website’s construction is controlled by an application server processed by server-side scripts. Pages of the website are dynamically populated every time and are not coded and saved separately, but the design or template look and feel is saved separately. We at Pracha Technologies, a web designing company in hyderabad are expertised in creating any sort of complex websites especially ecommerce websites at affordable prices to encourage the startups and mid-level companies .</p>
+		
         
         
        
@@ -117,7 +117,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/static-and-dynamic-web-design.png" alt="Static & Dynamic Website Design"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/static-and-dynamic-web-design.png" alt="Static-web-design-company-in-hyderabad.png"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -138,7 +138,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/responsive-web-design.png" alt="Responsive Web Design" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/responsive-web-design.png" alt="Responsive-Web-designing-services-in-hyderabad.png" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -153,7 +153,7 @@
         <strong>Responsive Web Design</strong>
         </h2>
        
-        <p>In this generation, due to heavy use of technology and various gadgets, people view websites on various devices with different screen sizes. So it is good to think about the responsive design for your site to make your websites mobile friendly, as there is a rapid usage of smartphones and tablets these days. We make the site easy to use and easy to view, no matter which device it is viewed on. Therefore we make our websites “Responsive”, meaning the design responds to the specification of the device.  </p>
+        <p>In this generation, due to heavy use of technology and various gadgets, people view websites on various devices with different screen sizes. So it is good to think about the responsive design for your site to make your websites mobile friendly, because there is a rapid usage of smartphones and tablets these days. We make the site easy to use and easy to view, no matter which device it is viewed on. Therefore we make our clients websites as  “Responsive Website”, meaning the design responds to the specifications of the device. From HD sized monitor to palm sized smartphone we make the videos, graphics, links, text, page width, colours etc., to be adjusted automatically to screen size. As a web designing agency we make your company's website to be responsive to all sorts of devices and work their best on every screen to gaurd your online reputation.     </p>
         
 		 
     </div>
@@ -171,7 +171,7 @@
 		<h2 class="mb-4 font-bold dark-grey-text head-h2">
 			<strong>Custom Web Design</strong>
         </h2>
-        <p>A Custom web design allows you to establish your brand and to express what is unique about the product or services you are providing. Your website needs personality, and our designers will help you to come up with unique features, from start to finish. Startup's doesn’t need to build a big complex website in the beginning, and also has the possibility to establish your brand first and build from there. Important factors to consider are navigation, ease of use, layout, graphics, colour scheme, etc.</p>
+        <p>A Custom web design allows you to establish your brand and to express what is unique about the product or services you are providing. There are many areas that needs to be focused to develop a custom web design, especially the design should be pleasing to the viewers i.e theme, logo, banner, flash annimation etc., must be impressive. Navigation is very important, without which the viewer will be frustrated. Content is the final thing that makes your customer to sit on the website, so a professional content writer is preferable to write the content of your website. Your website needs personality, and our web designing agency will help you to come up with unique features, from start to finish. Important factors to consider are navigation, ease of use, layout, graphics, colour scheme, etc.</p>
        
     </div>
     <!--Grid column-->
@@ -180,7 +180,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/custom-web-design.png" alt="Custom Web Design"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/custom-web-design.png" alt="Custom-Web-designing-agency-in-hyderabad.png"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -201,7 +201,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/corporate-web-design.png" alt="Corporate Website Design" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/corporate-web-design.png" alt="Corporate-Web-designing-agency-in-hyderabad.png" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -247,7 +247,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/template-design-and-customization.png" alt="Template Design & Customization"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/template-design-and-customization.png" alt="Template-web-designing-company-in-hyderabad.png"
             class="img-fluid">
         <a>
             <div class="mask"></div>
