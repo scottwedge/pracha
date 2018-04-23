@@ -22,33 +22,33 @@
 	</div>
 </section>
 <section class="  ">
-	<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/footerbanner1.png);height: 300px;">
+	<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/footerbanner1.png);height:600px;" >
     <div class="full-bg-img">
       <div class="mask ">
         <div class="container flex-center text-center text-white" style="position:relative">
           <div class="row  algin-pos-left">
-            <div class="col-md-8 ">
-			<div class="help-foot-banner">
+            <div class="col-md-12 ">
+			<div class="help-foot-banner" style="width:50%; ">
 			<h2 class="text-warning">End-To-End Solutions</h2>
 			<p>For every problem there is a solution! </p>
 			<p>For every bug there is a debugging process.</p>
-			<p>We have the ability to provide solutions for complicated issues through our vast tech tools & experts for the "WWW."s</p>
+			<p>We have the ability to provide solutions for complicated issues through our vast tech tools & experts for the "WWW."</p>
 			</div>
             </div>
           </div>
 		  <div class="row mt-5 justify-content-center">
-            <div class="col-md-8 ">
-			<div class="help-foot-banner">
+            <div class="col-md-6">
+			<div class="help-foot-banner" >
 			<h2 class="text-warning">Cost-Effective</h2>
 			<p>We can assure that we are the one of the best web designing companies in Hyderabd, who can provide a quality service at affordable prices. We will give you a turnkey solution and will help you end-to-end.</p>
 			</div>
             </div>
           </div>
 		  <div class="row  algin-pos-right">
-            <div class="col-md-12 ">
-			<div class="help-foot-banner">
+            <div class="col-md-12 " >
+			<div class="help-foot-banner" style="width:30%; float:right">
 			<h2 class="text-warning">We are here for you</h2>
-			<p>Our services are appraisable, we will be with you through out the project. Let's make the Wide World a better web place</p>
+			<p >Our services are appraisable, we will be with you through out the project. Let's make the Wide World a better web place</p>
 			</div>
             </div>
           </div>

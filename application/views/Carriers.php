@@ -132,7 +132,7 @@
 							<span class="mb-0">
 							<div class="row">
 								<div class="col-md-4 col-xs-4 col-sm-4">Marketing Manager</div>
-								 <div class="col-md-4 col-xs-4 col-sm-4">Sales</div>
+								 <div class="col-md-4 col-xs-4 col-sm-4">Marketing</div>
 								 <div class="col-md-4 col-xs-4 col-sm-4">3-5 years of experience in IT sales<i class="fa fa-angle-down rotate-icon"></i></div>
 								
 								</div>
