@@ -31,7 +31,7 @@
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
 <li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="web-design-company-in-hyderabad.png">
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="web designing  company in hyderabad">
 
 </a>
     </li>
@@ -71,7 +71,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/site-architecture-and-design.png" alt="Site-Architecture-web-designing-company-in-hyderabad.png"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/site-architecture-and-design.png" alt="Site Architecture web designing company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -117,7 +117,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/static-and-dynamic-web-design.png" alt="Static-web-design-company-in-hyderabad.png"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/static-and-dynamic-web-design.png" alt="Static web design company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -138,7 +138,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/responsive-web-design.png" alt="Responsive-Web-designing-services-in-hyderabad.png" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/responsive-web-design.png" alt="Responsive Web designing services in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -180,7 +180,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/custom-web-design.png" alt="Custom-Web-designing-agency-in-hyderabad.png"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/custom-web-design.png" alt="Custom Web designing agency in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -201,7 +201,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/corporate-web-design.png" alt="Corporate-Web-designing-agency-in-hyderabad.png" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/corporate-web-design.png" alt="Corporate Web designing agency in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -216,7 +216,7 @@
         <strong>Corporate Website Design</strong>
         </h2>
         
-        <p>Corporate website design is unique in nature, it is not like ecommerce or portal sites. It focuses on providing information rather than generating business transactions and other services. Almost every well established company will have a separate corporate website to provide information to its customers or visitors. Usually it covers topics like history of the company, summary of company operations, mission, products, services, board members, press release, news etc. We have a professional team to design the corporate site of our clients according to their specifications.
+        <p>Corporate website design is unique in nature, it is not like ecommerce or portal sites. It focuses on providing information rather than generating business transactions and other services. Almost every well established company will have a separate corporate website to provide information to its customers or visitors. Usually it covers topics like history of the company, summary of company operations, mission, products, services, board members, press release, news etc., it serves as a powerful tool that makes your website customer friendly and eventually leads to the increase in sales. We, as a web designing agency in Hyderabad have a professional team to design the corporate site of our clients according to their specifications at affordable prices.
 </p>
        
 		
@@ -238,7 +238,7 @@
 			<strong>Template Design & Customization</strong>
         </h2>
         
-        <p>Designing an attractive and responsive template is also very essential to a website. We have in-house professionals to design such templates with attractive colour combinations and an elegant style, who move according to the specifications of our clients. Depending upon the requirement of our client we build templates with HTML5, CSS3, bootstrap, Java script, JQuery, etc. </p>
+        <p>Designing an attractive and responsive template is also very essential to a website. Depending upon the requirement of our client we build templates with HTML5, CSS3, bootstrap, Java script, JQuery, etc. We apply global CSS code for all the website templates that allows any sort of further changes in colour, font, layout and design etc.  We, as a web designing company in Hyderabad have in-house professionals to design such templates with attractive colour combinations and an elegant style, who move according to the specifications of our clients.  </p>
        
     </div>
     <!--Grid column-->
@@ -247,7 +247,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/template-design-and-customization.png" alt="Template-web-designing-company-in-hyderabad.png"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/template-design-and-customization.png" alt="Template web designing company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -260,7 +260,7 @@
 	<div class="row">
 		<div class=" pb-3">
 			<p class="text-dark"><strong>Note : </strong>There are many things to explain but because of time and space we will continue these topics in blogs. Hope the above briefly explained terms are informative! </p> 
-			<p>Our knowledge of global best practices along with our deep research on each and every domain made us leaders in developing websites & Apps  and promoting or marketing them digitally. Whether an  individual or an enterprise, our customers always received unmatched services.</p>
+			<p> Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best web designing agency in Hyderabad above all our competitors. </p>
 		</div>
 	</div>
 </div>

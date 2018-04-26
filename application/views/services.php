@@ -27,7 +27,7 @@
   </style>
 <section class="bod-st">
 	<div class="img-responsive">
-	<img class="img-fluid"  src="<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png" alt="web-development-company-in-hyderabad.png">
+	<img class="img-fluid"  src="<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png" alt="web development company in hyderabad">
 	</div>
 </section>
 
@@ -93,7 +93,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ui-and ux-design.png" alt="the-best-web-designing-company-in-hyderabad.png"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ui-and ux-design.png" alt="the best web designing company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -145,7 +145,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/web-development.png" alt="our-Web-Development-company-in-hyderabad.png"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/web-development.png" alt="our Web Development company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -166,7 +166,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-development.png" alt="our-Mobile-App-Developers-in-hyderabad.png" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-development.png" alt="our Mobile App Developers in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -212,7 +212,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-marketing.png" alt="prachatech-Digital-marketing-company-in-hyderabad.png" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-marketing.png" alt="prachatech Digital marketing company in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -246,7 +246,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-website.png" alt="ecommerce-website-developers-in-hyderabad.png"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-website.png" alt="ecommerce website developers in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -281,7 +281,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/business-solutions.png" alt="prachatech-web-designing-company-in-hyderabad.png"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/business-solutions.png" alt="prachatech web designing company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -302,7 +302,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/website-maintenance.png" alt="prachatech-Web-development-company-in-hyderabad.png" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/website-maintenance.png" alt="prachatech Web development company in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>

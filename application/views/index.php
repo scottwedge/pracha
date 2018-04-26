@@ -22,7 +22,7 @@
             <!--Mask color-->
             <div class="view hm-indigo-light md-hide" >
                 <!--Video source-->
-               <img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/mobile-background.png" alt="mobile-background">
+               <img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/mobile-background.png" alt="mobile app developers">
                 <div class="full-bg-img"></div>
             </div>
 			<div class="view hm-indigo-light sm-hide" >
@@ -518,7 +518,7 @@
             <div class="col-md-8 ">
 			
              
-                <div style=""><img  style="visibility: visible; animation-duration: 0.25s; animation-iteration-count: 5; animation-name: pulse;" data-wow-iteration="5" data-wow-duration="0.25s" class="img-fluid wow pulse" src="<?php echo base_url(); ?>assets/vendor/img/how-we-work.png" alt="formulae-of-web-designing-company-in-hyderabad.png" ></div>
+                <div style=""><img  style="visibility: visible; animation-duration: 0.25s; animation-iteration-count: 5; animation-name: pulse;" data-wow-iteration="5" data-wow-duration="0.25s" class="img-fluid wow pulse" src="<?php echo base_url(); ?>assets/vendor/img/how-we-work.png" alt="formulae of web designing company in hyderabad" ></div>
             
             </div>
             
@@ -680,7 +680,7 @@
 
     <!--Grid column-->
     <div class="col-md-4 mb-2 center-on-small-only flex-center wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-presence.png" alt="digital-marketing-company-in-hyderabad.jpg" class="z-depth-0 img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-presence.png" alt="digital marketing company in hyderabad" class="z-depth-0 img-fluid">
     </div>
     <!--Grid column-->
 
@@ -755,7 +755,7 @@
 
  
     <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="our-mobile-app-developers-in-hyderabad.png" class="img-fluid " style="margin-top:-100px;">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="our mobile app developers in hyderabad" class="img-fluid " style="margin-top:-100px;">
     </div>
     <!--Grid column-->
 
