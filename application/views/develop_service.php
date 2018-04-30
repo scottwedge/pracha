@@ -40,7 +40,7 @@
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
 <li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="logo"></a>
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="best web development company in hyderabad"></a>
     </li>
     <li class="nav-item">
         <a class="nav-link active"  href="#ui-ux" role="tab">Custom Application Development</a>
@@ -68,7 +68,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/custom-application-development.png" alt="Custom application development"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/custom-application-development.png" alt="Custom web development company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -110,7 +110,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/content-management-system.png" alt="Content Management System (CMS)"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/content-management-system.png" alt="CMS web development company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -131,7 +131,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-web-development.png" alt="eCommerce web Development" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-web-development.png" alt="ecommerce web Development company in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -144,7 +144,7 @@
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
 			<strong>eCommerce Web  Development</strong>
         </h2>
-        <p>Electronic commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce websites namely: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G) and Mobile Commerce (m-commerce). Mobile  commerce (m-commerce) is particularly done through mobile only. <br>We are one of the best  eCommerce website developers in Hyderabad, who offer services for our existing clients (ecommerce websites), and develop new ecommerce websites with highly secured payment transactions and many other user friendly functionalities  for our customers.</p>
+        <p>Electronic commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce websites namely: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G) and Mobile Commerce (m-commerce). Mobile  commerce (m-commerce) is particularly done through mobile only. <br> Our clients considered us as the best  eCommerce web development company in Hyderabad, who offers various web services, and develop new ecommerce websites with highly secured payment transactions and many other user friendly functionalities.</p>
         
 		 
     </div>
@@ -175,7 +175,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mean-stack-development.png" alt="MEAN Stack Development"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mean-stack-development.png" alt="MEAN Stack web development company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -190,7 +190,7 @@
 		<div class=" pb-3">
 			<p class="text-dark"><strong>Note : </strong>There are many things to explain but because of time and space we will continue these topics in blogs. Hope the above briefly explained terms are informative! </p> 
 			
-		<p>Our knowledge of global best practices along with our deep research on each and every domain made us leaders in developing websites & Apps  and promoting or marketing them digitally. Whether an  individual or an enterprise, our customers always received unmatched services.</p>
+		<p>Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best web development company in Hyderabad above all our competitors.</p>
 		</div>
 	</div>
 

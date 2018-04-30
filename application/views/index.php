@@ -556,7 +556,7 @@
                     </div>
                     <div class="service_content">
                         <p>
-                          As we have earlier intoduced about our digital marketing company in Hyderabad as our other wing, with which we bring your online business into light that creates more opportunities for your business to connect with its targeted audience.
+                          As we have earlier intoduced about our digital marketing company as our other wing, with which we bring your online business into light that creates more opportunities for your business to connect with its targeted audience.
                         </p>
 						<p>We do all the possible ways to promote your website digitally on social media and on search engines results page by applying various marketing tools and Google’s local business tools. </p>
 						
@@ -680,7 +680,7 @@
 
     <!--Grid column-->
     <div class="col-md-4 mb-2 center-on-small-only flex-center wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-presence.png" alt="digital marketing company in hyderabad" class="z-depth-0 img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-presence.png" alt="web designing company in hyderabad" class="z-depth-0 img-fluid">
     </div>
     <!--Grid column-->
 
@@ -755,7 +755,7 @@
 
  
     <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="our mobile app developers in hyderabad" class="img-fluid " style="margin-top:-100px;">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="our mobile web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
     </div>
     <!--Grid column-->
 

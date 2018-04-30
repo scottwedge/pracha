@@ -31,7 +31,7 @@
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
 <li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="web designing  company in hyderabad">
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="web designing agency in hyderabad">
 
 </a>
     </li>
@@ -71,7 +71,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/site-architecture-and-design.png" alt="Site Architecture web designing company in hyderabad"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/site-architecture-and-design.png" alt="Site Architecture web designing agency in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -105,7 +105,7 @@
 		 <h2 class="mb-4 font-bold dark-grey-text head-h2">
         <strong>Static & Dynamic Website Design</strong>
         </h2>
-         <p>A Static website has stagnant content usually written in HTML code, and every page has to be saved separately on the server. Changes have to be made manually every time, and you need coding knowledge to make any kind of changes. A Dynamic website’s construction is controlled by an application server processed by server-side scripts. Pages of the website are dynamically populated every time and are not coded and saved separately, but the design or template look and feel is saved separately. We at Pracha Technologies, a web designing company in hyderabad are expertised in creating any sort of complex websites especially ecommerce websites at affordable prices to encourage the startups and mid-level companies .</p>
+         <p>A Static website has stagnant content usually written in HTML code, and every page has to be saved separately on the server. Changes have to be made manually every time, and you need coding knowledge to make any kind of changes. A Dynamic website’s construction is controlled by an application server processed by server-side scripts. Pages of the website are dynamically populated every time and are not coded and saved separately, but the design or template look and feel is saved separately. We at Pracha Technologies, a web designing agency in hyderabad are expertised in creating any sort of complex websites especially ecommerce websites at affordable prices to encourage the startups and mid-level companies .</p>
 		
         
         
@@ -138,7 +138,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/responsive-web-design.png" alt="Responsive Web designing services in hyderabad" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/responsive-web-design.png" alt="Responsive Web designing agency in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -153,7 +153,7 @@
         <strong>Responsive Web Design</strong>
         </h2>
        
-        <p>In this generation, due to heavy use of technology and various gadgets, people view websites on various devices with different screen sizes. So it is good to think about the responsive design for your site to make your websites mobile friendly, because there is a rapid usage of smartphones and tablets these days. We make the site easy to use and easy to view, no matter which device it is viewed on. Therefore we make our clients websites as  “Responsive Website”, meaning the design responds to the specifications of the device. From HD sized monitor to palm sized smartphone we make the videos, graphics, links, text, page width, colours etc., to be adjusted automatically to screen size. As a web designing agency we make your company's website to be responsive to all sorts of devices and work their best on every screen to gaurd your online reputation.     </p>
+        <p>In this generation, due to heavy use of technology and various gadgets, people view websites on various devices with different screen sizes. So it is good to think about the responsive design for your site to make your websites mobile friendly, because there is a rapid usage of smartphones and tablets these days. We make the site easy to use and easy to view, no matter which device it is viewed on. Therefore we make our clients websites as  “Responsive Website”, meaning the design responds to the specifications of the device. From HD sized monitor to palm sized smartphone we make the videos, graphics, links, text, page width, colours etc., to be adjusted automatically to screen size. As a web designing agency in Hyderabad, we make your company's website to be responsive to all sorts of devices and work their best on every screen to gaurd your online reputation.     </p>
         
 		 
     </div>
@@ -171,7 +171,7 @@
 		<h2 class="mb-4 font-bold dark-grey-text head-h2">
 			<strong>Custom Web Design</strong>
         </h2>
-        <p>A Custom web design allows you to establish your brand and to express what is unique about the product or services you are providing. There are many areas that needs to be focused to develop a custom web design, especially the design should be pleasing to the viewers i.e theme, logo, banner, flash annimation etc., must be impressive. Navigation is very important, without which the viewer will be frustrated. Content is the final thing that makes your customer to sit on the website, so a professional content writer is preferable to write the content of your website. Your website needs personality, and our web designing agency will help you to come up with unique features, from start to finish. Important factors to consider are navigation, ease of use, layout, graphics, colour scheme, etc.</p>
+        <p>A Custom web design allows you to establish your brand and to express what is unique about the product or services you are providing. There are many areas that needs to be focused to develop a custom web design, especially the design should be pleasing to the viewers i.e theme, logo, banner, flash annimation etc., must be impressive. Navigation is very important, without which the viewer will be frustrated. Content is the final thing that makes your customer to sit on the website, so a professional content writer is preferable to write the content of your website. Your website needs personality, and our web designing agency in Hyderabad will help you to come up with unique features, from start to finish. Important factors to consider are navigation, ease of use, layout, graphics, colour scheme, etc.</p>
        
     </div>
     <!--Grid column-->
@@ -238,7 +238,7 @@
 			<strong>Template Design & Customization</strong>
         </h2>
         
-        <p>Designing an attractive and responsive template is also very essential to a website. Depending upon the requirement of our client we build templates with HTML5, CSS3, bootstrap, Java script, JQuery, etc. We apply global CSS code for all the website templates that allows any sort of further changes in colour, font, layout and design etc.  We, as a web designing company in Hyderabad have in-house professionals to design such templates with attractive colour combinations and an elegant style, who move according to the specifications of our clients.  </p>
+        <p>Designing an attractive and responsive template is also very essential to a website. Depending upon the requirement of our client we build templates with HTML5, CSS3, bootstrap, Java script, JQuery, etc. We apply global CSS code for all the website templates that allows any sort of further changes in colour, font, layout and design etc.  We, as a web designing agency in Hyderabad have in-house professionals to design such templates with attractive colour combinations and an elegant style, who move according to the specifications of our clients.  </p>
        
     </div>
     <!--Grid column-->
@@ -247,7 +247,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/template-design-and-customization.png" alt="Template web designing company in hyderabad"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/template-design-and-customization.png" alt="Template web designing agency in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
