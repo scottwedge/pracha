@@ -1,6 +1,6 @@
 <head>
-	<title> Digital Marketing Company In Hyderabad</title>
-	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Digital Marketing Company in Hyderabad. The Company also deals with Web designing, Web development, UI & UX design, Mobile apps (Android & iOS), eCommerce website etc., at affordable prices to support and serve the Startups and Mid-level companies.">
+	<title> Digital Marketing Company In Hyderabad | Web Designing Agency | Mobile App Developers</title>
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Web Designing & Digital Marketing Company in Hyderabad. The Company deals with Web designing, Web development, UI & UX design, Mobile apps (Android & iOS), eCommerce website etc., at affordable prices to support and serve the Startups and Mid-level companies.">
 	<meta name="keywords" content="digital marketing company in hyderabad, digital marketing services in hyderabad, digital marketing agency in hyderabad, digital marketing in hyderabad, digital marketing. ">
 </head>
 <section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/digital-marketing-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
@@ -37,7 +37,7 @@
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
 <li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="logo"></a>
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="digital marketing company in hyderabad"></a>
     </li>
     <li class="nav-item">
         <a class="nav-link active"  href="#ui-ux" role="tab">SEO</a>
@@ -46,7 +46,7 @@
         <a class="nav-link "  href="#web-dev" role="tab">Social Media Marketing</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#mob-app" role="tab">Adwords</a>
+        <a class="nav-link"  href="#mob-app" role="tab"> Google Adwords</a>
     </li>
     <li class="nav-item">
         <a class="nav-link"  href="#e-comm-scroll" role="tab">Content Marketing</a>
@@ -76,7 +76,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/search-engine-optimization.png" alt="Search Engine Optimization"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/search-engine-optimization.png" alt="SEO and digital marketing company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -122,7 +122,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/social-media-marketing.png" alt="Social Media Marketing."
+        <img src="<?php echo base_url(); ?>assets/vendor/img/social-media-marketing.png" alt="SMM and digital marketing company in hyderabad."
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -143,7 +143,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/adwards.png" alt="Adwords" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/adwards.png" alt="Adwords digital marketing company in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -183,7 +183,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/content-marketing.png" alt="Content Marketing"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/content-marketing.png" alt="Content Marketing and digital marketing company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -204,7 +204,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/email-marketing.png" alt="Email Marketing" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/email-marketing.png" alt="Email Marketing and digital marketing company in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -247,7 +247,7 @@
         <!--Featured image-->
         <div class="view overlay hm-white-slight rounded z-depth-2">
         <img src="<?php echo base_url(); ?>
-assets/vendor/img/google-analytics.png" alt="Google Analytics"
+assets/vendor/img/google-analytics.png" alt="Google Analytics digital marketing company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -259,13 +259,13 @@ assets/vendor/img/google-analytics.png" alt="Google Analytics"
     </div><hr>
 	<div class="row">
 		<div class=" pb-3">
-			<p class="text-dark"><strong>Note : </strong>There are many things to explain but because of time and space we will continue these topics in blogs. Hope the above briefly explained terms are informative! 
+			<p class="text-dark"><strong>Note : </strong>  There are many more topics to be covered under Digital Marketing, but because of time and space we restrict here, yet you will be knowing latest techniques and trends in digital marketing in our regular blog posts. Hope the above briefly explained terms are informative! 
  </p> 
-			<p>Our knowledge of global best practices along with our deep research on each and every domain made us leaders in developing websites & Apps  and promoting or marketing them digitally. Whether an  individual or an enterprise, our customers always received unmatched services. 
+			<p>Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best digital marketing company in Hyderabad above all our competitors. 
 </p>			
-<p>There are many more topics to be covered under Digital Marketing, but because of time and space we restrict here, yet you will be knowing latest techniques and trends in digital marketing in our regular blog posts. 
+ 
 
-</p>
+
 		</div>
 	</div>
 </div>
