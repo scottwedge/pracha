@@ -1,7 +1,7 @@
 <head>
-	<title>Web Designing Services | Mobile App Developers | Digital Marketing Company in Hyderabad</title>
+	<title>Web Designing Services In Hyderabad| Mobile App Developers | Digital Marketing Company </title>
 	<meta name="description" content="Pracha Technologies Pvt. Ltd. offers various web designing services in Hyderabad for startups and mid-level companies. The company deals with mobile apps (iOS and Android), ecommerce websites, corporate websites and promote them on the internet through its  digital marketing strategies.">
-	<meta name="keywords" content=" web designing services in hyderabad, web designing company in hyderabad, mobile app developers in hyderabad, digital marketing agency in hyderabad, web designing companies in hyderabad, web development services in hyderabad, web development, web designing, digital marketing, ecommerce website design in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+	<meta name="keywords" content=" web designing services in hyderabad, web designing services, web designing company in hyderabad, mobile app developers in hyderabad, digital marketing agency in hyderabad, web designing companies in hyderabad, web development services in hyderabad, web development, web designing, digital marketing, ecommerce website design in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 </head>
  <style>
  #sticky {
@@ -27,7 +27,7 @@
   </style>
 <section class="bod-st">
 	<div class="img-responsive">
-	<img class="img-fluid"  src="<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png" alt="web development company in hyderabad">
+	<img class="img-fluid"  src="<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png" alt="web designing services in hyderabad">
 	</div>
 </section>
 
@@ -84,7 +84,7 @@
 			 <h1 style="font-size: 27px;  text-transform: capitalize;" class="h1 font-bold text-center ">Web Design, Mobile Apps & Digital Marketing Services</h1>
     <!--Section description-->
     <p class="text-center mb-5 pb-3">
-               Pracha Technologies Pvt. Ltd. offers various web designing services in Hyderabad for startups and mid-level companies. The company deals with mobile apps (iOS and Android), ecommerce websites, corporate websites and promote them on the internet through its  digital marketing strategies. We nourish our clients websites with organic keywords, and with various analytical researches, to make our clients websites  visible in the Google’s search engine results page. We expeditiously promote our clients on social media to shake hand with their new clients. For this reason many of our clients considered us as the best web designing company in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. We have the ability to promote your websites and mobile apps online, for we also run a digital marketing company in hyderabad, which is our other wing.
+               Pracha Technologies Pvt. Ltd. offers various web designing services in Hyderabad for startups and mid-level companies. The company deals with mobile apps (iOS and Android), ecommerce websites, corporate websites and promote them on the internet through its  digital marketing strategies. We nourish our clients websites with organic keywords, and with various analytical researches, to make our clients websites  visible in the Google’s search engine results page. We expeditiously promote our clients on social media to shake hand with their new clients. For this reason many of our clients consider our services as the best web designing services in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. We have the ability to promote your websites and mobile apps online, for we also run a digital marketing company, which is our other wing.
 </p>
 		<hr class="mb-5 mt-5 pb-3" id="ui-and-ux-designing">
     <div class="row">
@@ -93,7 +93,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ui-and ux-design.png" alt="the best web designing company in hyderabad"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ui-and ux-design.png" alt="the best web designing services in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -145,7 +145,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/web-development.png" alt="our Web Development company in hyderabad"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/web-development.png" alt="our web designing services in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -166,7 +166,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-development.png" alt="our Mobile App Developers in hyderabad" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-development.png" alt="Mobile web designing services in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -212,7 +212,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-marketing.png" alt="prachatech Digital marketing company in hyderabad" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-marketing.png" alt="Digital marketing web designing services in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -236,7 +236,7 @@
         <h2 class="mb-4 font-bold dark-grey-text">
         <strong>E-Commerce Website</strong>
         </h2>
-        <p>Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are various  types of eCommerce, they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G), Government To Business (G2B), Government To Citizen (G2C) and Mobile  commerce (m-commerce). Among all these commerce sites,  Mobile  commerce (m-commerce) is particularly done through mobile only. We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions, for this reason we are regarded as the best ecommerce website developers in hyderabad by our clients. 
+        <p>Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are various  types of eCommerce, they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G), Government To Business (G2B), Government To Citizen (G2C) and Mobile  commerce (m-commerce). Among all these commerce sites,  Mobile  commerce (m-commerce) is particularly done through mobile only. We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions, thats why we are considered as the best ecommerce web designing services in Hyderabad. 
 </p>
         <a href="<?php echo base_url('ecommerce'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
     </div>
@@ -246,7 +246,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-website.png" alt="ecommerce website developers in hyderabad"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-website.png" alt="ecommerce web designing services in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -271,7 +271,7 @@
         <h3 class="mb-4 font-bold dark-grey-text">
         <strong>Business Solutions</strong>
         </h3>
-        <p>Without solution one can never come out of a problem, whether it is in business or in real life, and for every problem there is a solution! The secret lies in analyzing a problem. When one analyzes a problem he will come up with solution, and for analyzing it demands years of experience to come up with brilliant ideas as solutions. We are privileged to have experts in our organisation, who have vast experience and knowledge gained from years through their rigorous research in the area of “Business”. So we delight in offering valuable solutions for our clients, in order to flourish their business especially in e-commerce, Education management, Star Hotels, Restaurants, Healthcare etc. 
+        <p>Without solution one can never come out of a problem, whether it is in business or in real life, and for every problem there is a solution! The secret lies in analyzing a problem. When one analyzes a problem he will come up with solution, and for analyzing it demands years of experience to come up with brilliant ideas as solutions. We are privileged to have experts in our organisation, who have vast experience and knowledge gained from years through their rigorous research in the area of “Business”. We, as the best web designing services in Hyderabad delight in offering valuable solutions for our clients, in order to flourish their business especially in e-commerce, Education management, Star Hotels, Restaurants, Healthcare etc. 
 </p>
         <!--<a href="<?php echo base_url('servicesrm'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>-->
     </div>
@@ -281,7 +281,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/business-solutions.png" alt="prachatech web designing company in hyderabad"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/business-solutions.png" alt="prachatech web designing services in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -302,7 +302,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/website-maintenance.png" alt="prachatech Web development company in hyderabad" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/website-maintenance.png" alt="prachatechnologies Web designing services in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
