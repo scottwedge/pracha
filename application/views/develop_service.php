@@ -1,7 +1,7 @@
 <head>
-	<title>Web Development Company In Hyderabad</title>
+	<title>Web Development Company In Hyderabad | Digital Marketing | Mobile App Developers</title>
 	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a web development company in Hyderabad. We focus on Custom Application Development, Content Management System, MEAN Stack Development etc., to make the website much attractive. The company also deals with Mobile apps (iOS & Android),  eCommerce and Digital Marketing services.">
-	<meta name="keywords" content="web development company in hyderabad, ecommerce web site developers, web designing agency in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+	<meta name="keywords" content="web development company in hyderabad, web designing agency in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 
 </head>
 <section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-development-background.png);background-repeat: no-repeat;background-size: 100% 100%;  ">
