@@ -1,4 +1,4 @@
-User-agent: Googlebot
-Disallow:
+User-agent: *
+Allow: /
 
-sitemap: http://prachatech.com/sitemap.xml
+Sitemap: http://prachatech.com/sitemap.xml
