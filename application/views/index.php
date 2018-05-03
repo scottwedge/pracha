@@ -342,7 +342,7 @@
 								</ul>
 								  
 								 
-								  <br class="sm-hide">
+								 
 								  <br class="sm-hide">
 								  <br class="sm-hide">
 								</div>
@@ -552,13 +552,13 @@
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
-                        <h5 class=""><a href="#">We Expose Your Website Online</a></h5>
+                        <h5 class=""><a href="#">We Build & Expose Your Website Online</a></h5>
                     </div>
                     <div class="service_content">
                         <p>
-                          As we have earlier intoduced about our digital marketing company as our other wing, with which we bring your online business into light that creates more opportunities for your business to connect with its targeted audience.
+                          We have earlier introduced about our web designing company in Hyderabad, who not only builds  websites but also promotes them  digitally through various digital marketing techniques. By means of these digital promotions across the web, we bring your business into light that creates more opportunities for your business to connect with its targeted audience. We do all the possible ways to promote your website digitally on social media and on search engines results page by applying various digital marketing tools.
                         </p>
-						<p>We do all the possible ways to promote your website digitally on social media and on search engines results page by applying various marketing tools and Google’s local business tools. </p>
+						
 						
                     </div>
                 </div>
@@ -573,7 +573,7 @@
                     </div>
                     <div class="service_content">
                         <p>
-                            Marketing is necessary for every firm; however, many find it difficult to recruit or afford the skilled resources they need to handle time-consuming, repetitive marketing tasks. prachatech provides a variety of support services to marketing and business development departments, covering key areas ranging from creative to research services. Our highly-trained associates are ready to follow your marketing style guides, templates and execution guidelines.
+                            Pracha technologies Pvt. Ltd. provides a variety of support services to marketing and business development departments, covering key areas ranging from creative to research services. Our strategy team works closely with you to understand your business and,  follow the latest marketing style guides, templates and execution guidelines. As Marketing is very necessary for every firm; however, many find it difficult to recruit or afford the skilled resources, so we as a digital marketing and web designing company in Hyderabad provide marketing support services.  
                         </p>
                     </div>
                 </div>
@@ -584,11 +584,11 @@
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
-                        <h5 class=""><a href="#">Website Support Services </a></h5>
+                        <h5 class=""><a href="#">Website Maintenance & Services </a></h5>
                     </div>
                     <div class="service_content">
                         <p>
-                           A 'Website' is a site(your house) on the web. Just like a house, a website also needs to be maintained properly. When things break-up, they need to be fixed! When it gets out dated, it needs to be updated.  Website updating may be difficult and time consuming process; thus we are here as a web designing company in Hyderabad to help you online, though you may be at anyplace in the world. For the whole world is online now!</p>
+                           As people need houses to dwell in this world, so also business people need online houses (websites) to dwell in the digital world. Just like a house, a website also needs to be maintained properly. When things break-up, they need to be fixed! When it gets out dated, it needs to be updated.  Website updating may be difficult and time consuming process; but we, as a web designing company in Hyderabad are here to help you at affordable prices especially to encourage Startups. The whole world is online now! So join us to make your business online.</p>
 
 						
                         </p>
