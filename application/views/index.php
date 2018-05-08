@@ -104,7 +104,7 @@
 					&nbsp;
 				</div>
 				<div class="col-10 text-center"> 
-					We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web-services to serve our clients. We generate new websites to our clients and decorate them with charming designs and mesmerizing themes. We can assure the most satisfactory outcomes to  our clients if they follow our guidelines. Many of our clients considered us as the best web designing company in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. We have the ability to promote your websites and mobile apps online, for we also run a digital marketing company in hyderabad, which is our other wing.
+					We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web-services to serve our clients. We generate new websites to our clients and decorate them with charming designs and mesmerizing themes. We can assure the most satisfactory outcomes to  our clients if they follow our guidelines. Many of our clients considered us as the best web designing company in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. We also promote your websites and mobile apps online, for we also own a digital marketing company in hyderabad, which is our other wing.
 				</div>
 				
 				
