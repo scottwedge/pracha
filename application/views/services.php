@@ -81,10 +81,10 @@
     <div class=" active" >
         <br>
 			<!--Grid row-->
-			 <h1 style="font-size: 27px;  text-transform: capitalize;" class="h1 font-bold text-center ">Web Design, Mobile Apps & Digital Marketing Services</h1>
+			 <h1 style="font-size: 27px;  text-transform: capitalize;" class="h1 font-bold text-center ">Web Designing Services, Mobile Apps & Digital Marketing </h1>
     <!--Section description-->
     <p class="text-center mb-5 pb-3">
-               Pracha Technologies Pvt. Ltd. offers various web designing services in Hyderabad for startups and mid-level companies. The company deals with mobile apps (iOS and Android), ecommerce websites, corporate websites and promote them on the internet through its  digital marketing strategies. We nourish our clients websites with organic keywords, and with various analytical researches, to make our clients websites  visible in the Google’s search engine results page. We expeditiously promote our clients on social media to shake hand with their new clients. For this reason many of our clients consider our services as the best web designing services in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. We have the ability to promote your websites and mobile apps online, for we also run a digital marketing company, which is our other wing.
+               Pracha Technologies Pvt. Ltd. offers various web designing services in Hyderabad for startups and mid-level companies. The company deals with static & complex websites, ecommerce websites, corporate websites, mobile apps (iOS and Android), and promote them across the world digitally  through its  digital marketing strategies. We nourish our clients websites with organic keywords, and with various analytical researches, to make our clients websites  visible in the Google’s search engine results page. We expeditiously promote our clients on social media to shake hand with their new clients. For this reason many of our clients consider our services as the best web designing services in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. 
 </p>
 		<hr class="mb-5 mt-5 pb-3" id="ui-and-ux-designing">
     <div class="row">
@@ -110,7 +110,7 @@
         <h2 class="mb-4 font-bold dark-grey-text">
         <strong>UI & UX DESIGNING</strong>
         </h2>
-        <p>UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. In simple UI aims on website and UX aims on product, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user. We offer the best web designing services to bring forth an extra ordinary UI and UX Design, to know more about UI & UX click on the below button. 
+        <p>UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. In simple UI aims on website and UX aims on product, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user. The key element of the design is to balance both visual elements and technical functionalities. We offer the best web designing services in Hyderabad to bring forth an extra ordinary UI and UX Design, at affordable prices. We focus on... 
  
 </p>
        
@@ -201,7 +201,7 @@
         <h2 class="mb-4 font-bold dark-grey-text">
         <strong>Digital Marketing</strong>
         </h2>
-        <p>Digital Marketing is the process of marketing your products or services using digital technologies. As indicated by Google, 97% of shoppers utilize the web to look for nearby organizations, so to catch hold of your potential clients you ought to be on the web. Marketing your website digitally is very essential for you to be identified by your customer. When your customer searches for a product or service with specific keywords on search engines(especially on Google), you must appear to him on the first place of the first page, and our digital marketing company in hyderabad (which is our other wing) can make you to achieve that and increase your website traffic that generate sales. 
+        <p>Digital Marketing is the process of marketing your products or services using digital technologies. As indicated by Google, 97% of shoppers utilize the web to look for nearby organizations, so to catch hold of your potential clients you ought to be on the web. Marketing your website digitally is very essential for you to be identified by your customer. When your customer searches for a product or service with specific keywords on search engines(especially on Google), you must appear to him on the first place of the first page, and our digital marketing company  which is our other wing will make you to achieve that and increase your website traffic that generate sales. 
 		
 </p>
         <a href="<?php echo base_url('digital_marketing'); ?>"" class="btn btn-dark btn-md mb-3">Know More</a>

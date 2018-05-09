@@ -22,7 +22,7 @@
             <!--Mask color-->
             <div class="view hm-indigo-light md-hide" >
                 <!--Video source-->
-               <img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/mobile-background.png" alt="mobile app developers">
+               <img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/mobile-background.png" alt="mobile app web designing company in hyderabad">
                 <div class="full-bg-img"></div>
             </div>
 			<div class="view hm-indigo-light sm-hide" >
@@ -104,7 +104,7 @@
 					&nbsp;
 				</div>
 				<div class="col-10 text-center"> 
-					We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web-services to serve our clients. We generate new websites to our clients and decorate them with charming designs and mesmerizing themes. We can assure the most satisfactory outcomes to  our clients if they follow our guidelines. Many of our clients considered us as the best web designing company in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. We also promote your websites and mobile apps online, for we also own a digital marketing company in hyderabad, which is our other wing.
+					We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web-services to serve our clients. We generate new websites to our clients and decorate them with charming designs and mesmerizing themes. We can assure the most satisfactory outcomes to  our clients if they follow our guidelines. Many of our clients considered us as the best web designing company in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. We also promote your websites and mobile apps online, for we also own a digital marketing company, which is our other wing.
 				</div>
 				
 				
@@ -391,7 +391,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow rollIn center" style="visibility: visible; animation-name: rollIn;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/demand.png" class="my-3" alt="">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/demand.png" class="my-3" alt="on demand web designing company in hyderabad">
 										<div class="">
 											<strong>On-Demand Solutions</strong>
 										</div>
@@ -411,7 +411,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/food.png" class="my-3" alt="">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/food.png" class="my-3" alt="Restaurant web designing company in hyderabad">
 										<div class="">
 											<strong>Food & Restaurant <br/><br/> </strong>
 										</div>
@@ -432,7 +432,7 @@
 							<div data-wow-delay="0.5s" class="col-xl-2 col-lg-6 mb-4 wow lightSpeedIn" style="visibility: visible; animation-delay: 0.5s; animation-name: lightSpeedIn;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/education.png" class="my-3" alt="">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/education.png" class="my-3" alt="Education web designing company in hyderabad">
 										<div class="">
 											<strong>Education & Training</strong>
 										</div>
@@ -452,7 +452,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow rollIn center" style="visibility: visible; animation-name: rollIn;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/hospital.png" class="my-3" alt="">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/hospital.png" class="my-3" alt="hospitality web designing company in hyderabad">
 										<div class="">
 											<strong>Travel & Hospitality  <br/></strong>
 										</div>
@@ -463,7 +463,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow bounceInUp center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/fitness.png" class="my-3" alt="">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/fitness.png" class="my-3" alt="Health web designing company in hyderabad">
 										<div class="">
 											<strong>Healthcare & Fitness</strong>
 										</div>
@@ -473,7 +473,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow bounceInUp center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/transport.png" class="my-3" alt="">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/transport.png" class="my-3" alt="Transport web designing company in hyderabad">
 										<div class="">
 											<strong>Transport & Automotive</strong>
 										</div>
@@ -483,7 +483,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow lightSpeedIn" style="visibility: visible; animation-delay: 0.5s; animation-name: lightSpeedIn;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/event.png" class="my-3" alt="">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/event.png" class="my-3" alt="Event web designing company in hyderabad">
 										<div class="">
 											<strong>Event and Tickets <br/><br/></strong>
 										</div>

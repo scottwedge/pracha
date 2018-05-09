@@ -5,7 +5,7 @@
 	<h1>
     UI and UX DESIGNING <br />
 	<br>
-		<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Site Architecture and Design", "Static & Dynamic Website Design", "Responsive Web Design","Custom Web Design","Corporate Website Design","Template Design & Customization",  " " ]'></p>
+		<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Site Architecture and Design", "Static & Dynamic Website Design", "Responsive Web Design","Custom Web Design","Corporate Website Design","Template Design & Customization", "Web Designing Agency In Hyderabad",  " " ]'></p>
 	</h1>
 	
 </section>
