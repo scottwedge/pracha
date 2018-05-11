@@ -1,7 +1,7 @@
 <head>
     <title>Social Media Marketing and its benefits</title>
     <meta name="description" content="Social Media can make you or break you! Social Media is the computer-mediated tool that allow people to create, share or exchange information, pictures, videos, ideas in virtual communities and networks. Social Media Marketing is the process of getting attention through social media sites.">
-    <meta name="keywords" content=" social media marketing, social media marketing and its benefits, social media marketing strategies, social media. ">
+    <meta name="keywords" content=" social media marketing and its benefits, social media marketing, social media marketing strategies, social media. ">
 </head>
 <div class="selectstate">
     <section class="pt-5 mt-4 pb-3 pargh">
@@ -23,20 +23,18 @@
                         <?php endif; ?>
                         <div class=" ">
                             <div class="text-center ">
-                                <h1 class="ptb-15 font-30" style="text-transform:capitalize"><b>Social Media Marketing and its benefits</b></h1>
+                                <h1 class="ptb-15 font-30" Style="text-transform: capitalize; "><b>Social Media Marketing and Its Benefits</b></h1>
                                 <br>
-                                <p>Social Media can make you or break you! The power of Social Media is unpredictable, it is an undeniable force in today's world. It will be a mighty tool for business when handled efficently. Recent statistics declare that
-                                    there will be approximately 3 billion active social media users by 2021. </p>
+                                <p>Social Media can make you or break you! The power of Social Media is unpredictable, it is an undeniable force in today's world. It will be a mighty tool for business when handled efficently. Recent statistics declares that there will be approximately 3 billion active social media users by 2021. </p>
                             </div>
                             <div class=" view overlay card " style="margin-top:50px;">
-                                <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/social-media-marketing-blog-view.png" alt="onpage and offpage optimization" class="">
+                                <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/social-media-marketing-blog-view.png" alt="social media marketing and its benefits" class="">
                                 <a>
                         
                     </a>
                             </div>
                             <div class="excerpt mt-5" style="padding-top:50px;">
-                                <p> Approximately 80% of the Americans has atleast one social media account, nearly 200 million active users from India and 600 million active users from China. It is estimated that by 2022 there will be a tremendous increase
-                                    in social media active users.
+                                <p> Approximately 80% of the Americans has atleast one social media account, nearly 200 million active users from India and 600 million active users from China. It is estimated that by 2022 there will be a tremendous increase in social media active users.
                                 </p>
 
 
@@ -70,8 +68,7 @@
                     </div>
                 </div>
 
-                <p> Social Media Marketing is the process of getting attention through social media networking sites, it is a form of internet marketing. The important theme of social media marketing is to set SMART goals. The acronym for SMART is Specific
-                    Measurable Achievable Realistic and Timely. The core reason of social media marketing is to create Brand awareness, Enhance public relations, Building a community, Research and Development, Driving Sales and getting Leads. Social Media
+                <p> Social Media Marketing is the process of getting attention through social media networking sites, it is a form of internet marketing. The important theme of social media marketing is to set SMART goals. The acronym for SMART is Specific Measurable Achievable Realistic and Timely. The core reason of social media marketing is to create Brand awareness, Enhance public relations, Building a community, Research and Development, Driving Sales and getting Leads. Social Media
                     marketing helps a business to get their feedback directly from its customers, which is genuine..</p>
 
                 <div class="row justify-content-md-center">
@@ -85,7 +82,7 @@
                         </div>
                         <div class="row justify-content-md-center">
                         <div class="text-center">
-							<img class="img-resposive" src="<?php echo base_url(); ?>assets/vendor/img/how-social-media-works.png" alt="How Social Media Works">
+							<img class="img-resposive" src="<?php echo base_url(); ?>assets/vendor/img/how-social-media-works.png" alt="How Social Media Marketing And Its Benefits Works">
 						</div>
 						</div>
                         <div class="row pb-3">
@@ -192,7 +189,7 @@
                             </p>
 							<p>Without strategy, execution is aimless and without execution strategy is useless! Strategy means a plan of action intended to accomplish a specific goal. Business or War, strategy is must!
                             </p>
-							<p>Era’s have been changed, we are in digital era now, likewise the way of marketing strategies in business has also been changed. The best way is to adopt the social media marketing strategy in your business to explore your website across the world virtually.
+							<p>Era’s have been changed, we are in digital era now, likewise the way of marketing strategies in business has also been changed. People are very much familiar with social media marketing and its benefits these days, so the best way is to adopt the social media marketing strategy in your business and to explore your website across the world virtually .
 							</p>
 							<h3><strong>Some of the Social Media strategies to be focused:</strong></h3>
 							<ul class="pad-l-20">
@@ -234,7 +231,7 @@
 		</h2>
 	</div>
 	
-	<p>To promote a product or service or a blog page or a website on social media you must follow a strategy, then only you will understand the power of the social media marketing. Researchers say that  80% of the world population has smartphones these days, so there is a great opportunity to reach the maximum no. of persons when you advertise on Social Media.</p>
+	<p>To promote a product or service or a blog page or a website on social media you must follow a strategy, then only you will understand the power of the social media marketing and its benefits. Researchers say that  80% of the world population has smartphones these days, so there is a great opportunity to reach the maximum no. of persons when you advertise on Social Media.</p>
 	<div class="col-md-12 mb-20 pt-30  ">
 			<div class="pull-right">
 				<h4 class="text-success font20"><i>Article by:</i></h4>

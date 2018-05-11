@@ -1,7 +1,7 @@
 <head>
-	<title>How to  Optimize a Youtube Channel	</title>
-	<meta name="description" content="How to Create, Manage and Optimize a Youtube Channel
-			If you have the desire to attract audience attention across the world with your creative ideas and videos, then this article is for you.">
+	<title>How to  Optimize a Youtube Channel | Prachatech Web Designing Company	</title>
+	<meta name="description" content="How to Create, Manage and Optimize a Youtube Channel? - If you have the desire to attract audience attention across the world with your creative ideas and videos, then this article is for you.">
+	<meta name="keywords" content="How to optimize a youtube channel, how to create a youtube channel, how to manage a youtube channel.">
 </head>
 <?php if($this->session->flashdata('success')): ?>
 				<div class="alert_msg1 animated slideInUp bg-succ">
@@ -24,18 +24,18 @@
 
             <div class=" ">
 			<div class="text-center ">
-			<h2 class="ptb-15 font-30"><b>How to Create, Manage and Optimize a Youtube Channel</b></h2>
+			<h1 class="ptb-15 font-30" Style="text-transform: capitalize; font-weight:900">How to Create, Manage and Optimize a Youtube Channel</h1>
 			<p>If you have the desire to attract audience attention across the world with your creative ideas and videos, then this article is for you.</p>
 			</div>
                 <div class=" view overlay card " style="margin-top:50px;">
-                    <img src="<?php echo base_url(); ?>assets/vendor/img/blog.png" alt="blog" 
+                    <img src="<?php echo base_url(); ?>assets/vendor/img/blog.png" alt="know how to optimize a youtube channel" 
 class="img-fluid">
                     <a>
                         <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
 			<div class="excerpt mt-5" style="padding-top:50px;">
-				<p>Creating a Youtube channel is as simple as drinking water, but for managing and optimizing you have to follow some instructions and precautions. </p>
+				<p>Creating a Youtube channel is as simple as drinking water, but to manage and optimize a Youtube channel, you have to follow some instructions and precautions. </p>
 				<p>All you need is to have a Google account to sign in to Youtube. Youtube is directly linked to your Google account, so you need to have a Google account(Gmail) to sign in to Youtube. You cannot sign in to Youtube on any other domain apart from Gmail.</p>
 				<p>After signing into your Youtube account, you can start managing your Youtube account settings.</p>
 			</div>
@@ -56,7 +56,7 @@ class="img-fluid">
      
 	<div class="row justify-content-md-center">
 		<div class="col-md-12 mb-20 pt-30  ">
-			<p class="font20 text-dark">Follow these simple steps to create your own personal channel.</p>
+			<p class="font20 text-dark">Follow these simple steps to create your own Youtube channel.</p>
 			 <div class="row pb-3">
 				<div class="col-2 col-md-1 text-right">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
@@ -108,7 +108,7 @@ class="img-fluid">
 	<div class="row ">
 	<div class="col-md-10 mb-20 pt-30 ">
 		<h2 class="text-left">
-		<span class="tit1 ">How to manage accounts on the Youtube?</div>
+		<span class="tit1 ">How to manage accounts on the Youtube Channel?</div>
 		</h2>
 	</div>
 
@@ -149,7 +149,7 @@ class="img-fluid">
 				<div class="font20 text-dark mar-tb10">Use your Google Account: </div>
 				<div class=" ">This is a personal Google account which is used and managed by only one person, across all Google services and Youtube. </div>
 				 <div class="text-center">
-						<img src="<?php echo base_url(); ?>assets/vendor/img/bl1.png" alt="blog" class="img-fluid mar-tb10-img">
+						<img src="<?php echo base_url(); ?>assets/vendor/img/bl1.png" alt="optimize a youtube channel" class="img-fluid mar-tb10-img">
 						
 				</div>
 			</div>
@@ -157,7 +157,7 @@ class="img-fluid">
 				<div class="font20 text-dark">Use a Brand Account:  </div>
 				<div class="">In brand account, multiple Google accounts can manage and own a brand, and any of those managers can access Youtube channel connected to that brand account.  </div>
 				 <div class="text-center">
-						<img src="<?php echo base_url(); ?>assets/vendor/img/bl2.png" alt="blog" class="img-fluid mar-tb10-img">
+						<img src="<?php echo base_url(); ?>assets/vendor/img/bl2.png" alt="blog youtube channel" class="img-fluid mar-tb10-img">
 						
 				</div>
 			</div>
@@ -165,7 +165,7 @@ class="img-fluid">
 				<div class="font20 text-dark">Use Brand Accounts managed by your Google account: </div>
 				<div class="">In this, you can manage multiple Youtube channels which are connected to multiple brand accounts on one Google account, without signing out.</div>
 				 <div class="text-center">
-						<img src="<?php echo base_url(); ?>assets/vendor/img/bl3.png" alt="blog" class="img-fluid mar-tb10-img">
+						<img src="<?php echo base_url(); ?>assets/vendor/img/bl3.png" alt="google optimize a youtube channel" class="img-fluid mar-tb10-img">
 						
 				</div>
 				<div class="">You can have multiple channels under a single Youtube account, which helps in the promotion of products or brands.</div>
@@ -174,9 +174,14 @@ class="img-fluid">
 		</div>
 		<!--youtube-->
 		<div class="col-md-12 mb-20 pt-30  ">
+		<div class="row ">
+	<div class="col-md-10 mb-20 pt-30 ">
+		<h2 class="text-left">
+		<span class="tit1">Features of Youtube:</div>
+		</h2>
+	</div>
 		<div class="row justify-content-md-center ">
 		<div class="col-md-12">
-			<p class="font20 text-dark">Features of Youtube:</p>
 			 <div class="row pb-3">
 				<div class="col-2 col-md-1 text-right">
 					<i class="fa fa-mail-forward fa-lg indigo-text"></i>
@@ -273,9 +278,14 @@ class="img-fluid">
 			</div>
 		</div>
 		<div class="col-md-12 mb-20 pt-30  ">
+		<div class="row ">
+	<div class="col-md-10 mb-20 pt-30 ">
+		<h2 class="text-left">
+		<span class="tit1">How to Optimize a Video on Youtube?</div>
+		</h2>
+	</div>
 			<div class="row justify-content-md-center ">
 				<div class="col-md-12">
-					<p class="font20 text-dark">How to Optimize a Video on Youtube?</p>
 					<p class="">Ultimate goal of any business is to generate sales and get profits. By uploading your video, initially you will get views which will convert into subscribers and later generate sales for your business. In order to get views, you should aim at Youtube searches.
 					</p>
 					<p class="">When a user types his query or some keywords in Youtube search column, then Youtube first looks for the keywords, to find them in your <span class="text-warning">Titles</span> or  <span class="text-warning">description</span> or <span class="text-warning">Tags</span> . If the keyword is relevant then Youtube will place your video to him in search column.  
@@ -286,8 +296,9 @@ class="img-fluid">
 					</p>
 					<p> <span class="font20 text-dark">Tags:</span> <br> Tags are of four types: Specific, Compound, Generic, Misspellings. As Youtube generally searches for first keyword, so arrange your warning keyword in first place, and relevant keywords next. Use brainstorm to get at least ten specific keywords.
 					</p>
-					<p> <span class="font20 text-dark">Thumbnails :</span> <br> Thumbnail is the first thing viewers look in search result, it is the face of your video. Use decent and attractive image as thumbnail.
-					Let the resolution of your thumbnail be 1280 X 720 with 16:9 ratio aspect.
+					<p> <span class="font20 text-dark">Thumbnails :</span> <br> Thumbnail is the first thing viewers look in search result, it is the face of your video. Use decent and attractive image as thumbnail. Let the resolution of your thumbnail be 1280 X 720 with 16:9 ratio aspect. 
+					
+					<p>The above are the very essential keys to optimize a Youtube channel.</p> 
 
 
 					</p>
@@ -355,17 +366,7 @@ class="img-fluid">
 		
 		</div>
 		
-		<div class="col-md-12 mb-20 pt-30  ">
-			<div class="row justify-content-md-center ">
-				<div class="col-md-12">
-					<p class="font20 text-dark">Conclusion:</p>
-					<p class="">Youtube is the best platform to market your videos worldwide, to generate business. However you must create and upload videos time to time, because a single video can never generate business.
-					</p>
-					<p class="">You will get more traffic by promoting your video across all of your social media channels.  
-					</p>
-				</div>
-			</div>
-		</div>
+		
 		<div class="col-md-12 mb-20 pt-30  ">
 		
 			<p class="font20">The Following are some of the Benefits of Youtube User:</p>
@@ -413,6 +414,15 @@ class="img-fluid">
 				</div>
 			</div>
 		
+		</div>
+		<div class="col-md-12 mb-20 pt-30  ">
+			<div class="row justify-content-md-center ">
+				<div class="col-md-12">
+					<p class="font20 text-dark">Conclusion:</p>
+					<p class="">Youtube is the best platform to market your videos worldwide, to generate more views and likes that eventually elevates your business. However you must create and upload videos time to time, because a single video can never generate business. This is how we optimize a Youtube channel and you will get more traffic by promoting your video across all of your social media channels.</p>
+					
+				</div>
+			</div>
 		</div>
 		<div class="col-md-12 mb-20 pt-30  ">
 			<div class="pull-right">

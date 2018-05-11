@@ -1,6 +1,7 @@
 <head>
-	<title>Onpage and Offpage Optimization</title>
-	<meta name="description" content="SEO is of two types, namely On-Page Optimization and Off-Page Optimization.On page optimization deals with the aspects of a website or blog post that can be optimized to read by the search engines. Though it is a time taking process yet this kind of optimization gets more organic traffic, which results in the better rankings of a website. Keywords (long tail or short tail) play the major role in Onpage Optimization.">
+	<title>What Is Onpage and Offpage SEO | Prachatech </title>
+	<meta name="description" content=" What is onpage and offpage SEO? - SEO is of two types, namely On-Page Optimization and Off-Page Optimization.On page optimization deals with the aspects of a website or blog post that can be optimized to read by the search engines. Though it is a time taking process yet this kind of optimization gets more organic traffic, which results in the better rankings of a website. Keywords (long tail or short tail) play the major role in Onpage Optimization.">
+	<meta name="keywords" content="what is onpage and offpage seo, onpage and offpage seo, onpage and offpage optimization, onpage optimization and offpage optimization, onpage-and-offpage-optimization">
 </head>
 <div class="selectstate">
 <section class="pt-5 mt-4 pb-3 pargh">
@@ -22,11 +23,11 @@
 			<?php endif; ?>
             <div class=" ">
 			<div class="text-center ">
-			<h2 class="ptb-15 font-30"><b>What is Onpage and Offpage Optimization?</b></h2>
+			<h1 class="ptb-15 font-30" Style="text-transform: capitalize; font-weight:900"> What is Onpage and Offpage SEO?</h1>
 			<p>As up to today there were 300,000,000+ registered websites on the internet! Most of us rely on search engines to find what we want on the internet. </p>
 			</div>
                 <div class=" view overlay card " style="margin-top:50px;">
-                    <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/onpage-and-offpage-optimization.png" alt="onpage and offpage optimization"class="">
+                    <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/onpage-and-offpage-optimization.png" alt="onpage and offpage seo"class="">
                     <a>
                         
                     </a>
@@ -233,12 +234,14 @@
 		</div>
 	</div>
 	
-	<p>Search Engine Optimization is an ongoing process, that needs to be updated from time to time to make the visibility of your website or blog post more clearer in the Search engines Results Page (SERP). The above mentioned are the major techniques in Onpage Optimization and Offpage Optimization, through these techniques there will be an expected level of possibility to drive a quality traffic and a quantity traffic by means of organic keywords. </p>
+	<p>For every website, onpage and offpage seo is must to maintain its stand especially in Google's Search Engine Results Page (SERP). Search Engine Optimization is an ongoing process, that needs to be updated from time to time to make the visibility of your website or blog post more clearer in the SERP's. The above mentioned are the major techniques in Onpage Optimization and Offpage Optimization, through these techniques there will be an expected level of possibility to drive a quality traffic and a quantity traffic by means of organic keywords. </p>
 	<div class="col-md-12 mb-20 pt-30  ">
 			<div class="pull-right">
 				<h4 class="text-success font20"><i>Article by:</i></h4>
 				<p class="text-dark">Chakravarthy Jah</p>
 			</div>
+			<br> 
+			<br class="sm-hide">
 		</div>
 			<div class="col-md-12 mb-20 pt-30 ">
 			<div class="pull-right">
