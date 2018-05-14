@@ -125,7 +125,7 @@
 				<td>:</td>
 				<td class="adhar-img">
 				<?php if($userdetails['aadharcard']!=''){ ?>
-				<img src="<?php echo base_url('assets/documents/'.$userdetails['aadharcard']); ?>">
+				<a target="_blank" href="<?php echo base_url('assets/documents/'.$userdetails['aadharcard']); ?>">View</a>
 				<?php } ?>
 				&nbsp; <?php echo isset($userdetails['aadharcardno'])?$userdetails['aadharcardno']:''; ?>
 				</td>
@@ -136,7 +136,7 @@
 				<td>:</td>
 				<td class="adhar-img">
 				<?php if($userdetails['pancard']!=''){ ?>
-				<img src="<?php echo base_url('assets/documents/'.$userdetails['pancard']); ?>">
+				<a target="_blank" href="<?php echo base_url('assets/documents/'.$userdetails['pancard']); ?>">View</a>
 				<?php } ?>
 				&nbsp; <?php echo isset($userdetails['pancardno'])?$userdetails['pancardno']:''; ?>
 				</td>
