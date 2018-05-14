@@ -5,10 +5,256 @@
 <script src="<?php echo base_url(); ?>assets/vendor/js/dataTables.bootstrap.js"></script>
 <script src="<?php echo base_url(); ?>assets/vendor/js/datepicker.js"></script>
 </head>
+<style>
+.accordion .card .card-header a:not(.collapsed) .rotate-icon {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+	margin-bottom:25px;
+	
+}
+</style>
 <div class="container-sty-adm ">
 	<div class=" row justify-content-md-end ">
 		<div class="col-md-9   mar_t20 ">
-		
+			<div class="row   ">
+			<div class="col-md-12   ">
+				<!--Accordion wrapper-->
+<div class="accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+
+    <!-- Accordion card -->
+    <div class="card" style="border:1px solid #ddd;">
+
+        <!-- Card header -->
+        <div class="card-header bg-dark white-text" >
+			<div class="row">
+			<div class="col">
+				Leave Types
+			</div>
+			<div class="col">
+				Carry Forward
+			</div>
+			<div class="col">
+				Accrued till date
+			</div>
+			<div class="col">
+				Other Credits
+			</div>
+			<div class="col">
+				Total
+			</div>
+			<div class="col">
+				leave Taken
+			</div>
+			<div class="col">
+				Lapsed /Encashed Leave
+			</div>
+			<div class="col">
+				Leave Balance
+			</div>
+			</div>
+        </div> 
+		<div class="card-header" role="tab" id="headingOne">
+            <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			<div class="row">
+			<div class="col">
+				<strong>Maternity Leave</strong>
+			</div>
+			<div class="col">
+				0.00
+			</div>
+			<div class="col">
+				180.00
+			</div>
+			<div class="col">
+				0.00
+			</div>
+			<div class="col">
+				180.00
+			</div>
+			<div class="col">
+				0.00
+			</div>
+			<div class="col">
+				0.00
+			</div>
+			<div class="col">
+				180.00 
+			</div> <i class="fa fa-angle-down rotate-icon"></i>
+			</div>
+            
+				  
+            </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseOne" class="collapse " role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionEx" >
+            <div class="card-body">
+			
+                <table class="table table-bordered">
+				<thead>
+				  <tr>
+					<th>Start Date</th>
+					<th>End Date</th>
+					<th>Applied</th>
+					<th>No.of Days</th>
+					<th>Status</th>
+					<th>Lapsed / Encashed</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>25/02/2018</td>
+					<td>28/02/2018</td>
+					<td>22/02/2018</td>
+					<td>3</td>
+					<td>Acceptance</td>
+					<td>0.00</td>
+				  </tr>
+				 
+				</tbody>
+			  </table>
+            </div>
+        </div>
+    </div>
+    <!-- Accordion card -->
+
+    <!-- Accordion card -->
+    <div class="card" style="border:1px solid #ddd;">
+
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="headingTwo">
+            <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <div class="row">
+			<div class="col">
+				<strong>Compensatory OFF</strong>
+			</div>
+			<div class="col">
+				0.00
+			</div>
+			<div class="col">
+				180.00
+			</div>
+			<div class="col">
+				0.00
+			</div>
+			<div class="col">
+				180.00
+			</div>
+			<div class="col">
+				0.00
+			</div>
+			<div class="col">
+				0.00
+			</div>
+			<div class="col">
+				180.00 
+			</div> <i class="fa fa-angle-down rotate-icon"></i>
+			</div>
+            </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordionEx" >
+            <div class="card-body">
+               <table class="table table-bordered">
+				<thead>
+				  <tr>
+					<th>Start Date</th>
+					<th>End Date</th>
+					<th>Applied</th>
+					<th>No.of Days</th>
+					<th>Status</th>
+					<th>Lapsed / Encashed</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>25/02/2018</td>
+					<td>28/02/2018</td>
+					<td>22/02/2018</td>
+					<td>3</td>
+					<td>Acceptance</td>
+					<td>0.00</td>
+				  </tr>
+				 
+				</tbody>
+			  </table>
+            </div>
+        </div>
+    </div>
+    <!-- Accordion card -->
+
+    <!-- Accordion card -->
+    <div class="card" style="border:1px solid #ddd;">
+
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="headingThree">
+            <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               <div class="row">
+			<div class="col">
+				<strong>Geaneral Leave</strong>
+			</div>
+			<div class="col">
+				0.00
+			</div>
+			<div class="col">
+				180.00
+			</div>
+			<div class="col">
+				0.00
+			</div>
+			<div class="col">
+				180.00
+			</div>
+			<div class="col">
+				0.00
+			</div>
+			<div class="col">
+				0.00
+			</div>
+			<div class="col">
+				180.00 
+			</div> <i class="fa fa-angle-down rotate-icon"></i>
+			</div>
+            </a>
+        </div>
+
+        <!-- Card body -->
+        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordionEx">
+            <div class="card-body">
+                <table class="table table-bordered">
+				<thead>
+				  <tr>
+					<th>Start Date</th>
+					<th>End Date</th>
+					<th>Applied</th>
+					<th>No.of Days</th>
+					<th>Status</th>
+					<th>Lapsed / Encashed</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>25/02/2018</td>
+					<td>28/02/2018</td>
+					<td>22/02/2018</td>
+					<td>3</td>
+					<td>Acceptance</td>
+					<td>0.00</td>
+				  </tr>
+				 
+				</tbody>
+			  </table>
+            </div>
+        </div>
+    </div>
+    <!-- Accordion card -->
+</div>
+</div>
+<!--/.Accordion wrapper-->
+                
+			</div>
 			<div id="datpic" style="display:none;">
 			<div class="row justify-content-md-center ">
 				<h3 >Select your leave Day</h3>
