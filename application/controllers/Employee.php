@@ -282,7 +282,7 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$data['leaves_list']=$this->Employee_model->get_leaves_data($userdetails['emp_id']);
-
+			$data['emp_list']=$this->Employee_model->get_employee_list_basic_details();
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('leaves',$data);
@@ -300,7 +300,8 @@ class Employee extends CI_Controller {
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			if($data['userdetails']['role']==1 || $data['userdetails']['role']==2){
 				$data['leaves_list']=$this->Employee_model->get_allemployees_leaves_data();
-				//echo '<pre>';print_r($data['leaves_list']);exit;
+				$data['emp_list']=$this->Employee_model->get_employee_list_basic_details();
+				//echo '<pre>';print_r($data);exit;
 				$this->load->view('header1');
 				$this->load->view('sidebar',$data);
 				$this->load->view('leaves',$data);
@@ -324,26 +325,41 @@ class Employee extends CI_Controller {
 			
 				$timestamp = strtotime($post['fromdate']);
 				$timestamp1 = strtotime($post['todate']);
-				$currentDate = date('d-m-Y', $timestamp); 
-				$newDate = date('d-m-Y', $timestamp1); 
+				$currentDate = date('Y-m-d', $timestamp); 
+				$newDate = date('Y-m-d', $timestamp1); 
+				if(isset($post['type']) && $post['type']==1){
+					$emp_id=$post['emp_id'];
+				}else{
+					$emp_id=$data['userdetails']['emp_id'];
+				}
 			$leavedata=array(
-				'emp_id'=>isset($data['userdetails']['emp_id'])?$data['userdetails']['emp_id']:'',
+				'emp_id'=>$emp_id,
 				'form_date1'=>$currentDate,
 				'to_date1'=>$newDate,
 				'form_date'=>isset($post['fromdate'])?$post['fromdate']:'',
 				'to_date'=>isset($post['todate'])?$post['todate']:'',
 				'region'=>isset($post['comment'])?$post['comment']:'',
+				'leavetype'=>isset($post['leavetype'])?$post['leavetype']:'',
 				'status'=>1,
 				'create_at'=>date('Y-m-d H:i:s'),
+				'create_by'=>isset($data['userdetails']['emp_id'])?$data['userdetails']['emp_id']:'',
 				);
 				//echo '<pre>';print_r($leavedata);exit;
 			$addleave=$this->Employee_model->save_leaves_data($leavedata);
 			if(count($addleave)>0){
 				$this->session->set_flashdata('success','Your Request Successfully submitted');
-				redirect('employee/leaves');
+				if(isset($post['type']) && $post['type']==1){
+				redirect('employee/leaveslist');
+				}else{
+					redirect('employee/leaves');
+				}
 			}else{
 				$this->session->set_flashdata('error','Technical problem will occurred .please try again');
-				redirect('employee/leaves');
+				if(isset($post['type']) && $post['type']==1){
+					redirect('employee/leaveslist');
+				}else{
+					redirect('employee/leaves');
+				}
 			}
 			
 		}else{
@@ -588,7 +604,18 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-			$data['employee_list'] = $this->Employee_model->get_employee_list_details();
+			$employee_list = $this->Employee_model->get_employee_list_all_details();
+			foreach($employee_list as $list){
+				$sick=$this->Employee_model->get_sick_leave_count($list['emp_id']);
+				$casual=$this->Employee_model->get_casual_leave_count($list['emp_id']);
+				$paid=$this->Employee_model->get_paid_leave_count($list['emp_id']);
+				$all_list[$list['emp_id']]=$list;
+				$all_list[$list['emp_id']]['sick_leaves']=count($sick);
+				$all_list[$list['emp_id']]['causal_leaves']=count($casual);
+				$all_list[$list['emp_id']]['paid_leaves']=count($paid);
+			}
+			$data['employee_list']=$all_list;
+			//echo '<pre>';print_r($all_list);exit;
 			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);

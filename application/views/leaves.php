@@ -18,7 +18,31 @@
 			<div class="clearfix">&nbsp;</div>
 			<form action="<?php echo base_url('employee/leavepost');?>" method="post">
 			<div class="row justify-content-md-center">
-			
+				<?php if($userdetails['role']!=3){ ?>
+				<input type="hidden" name="type" value="1">
+				<div class="col-4">
+				<div class="md-form">
+					<input placeholder="Selected date" name="fromdate" type="text" id="date-picker-example" class="form-control datepicker">
+					<label for="date-picker-example">Leave start</label>
+				</div>
+				</div>
+				<div class="col-4">
+				<div class="md-form">
+					<input placeholder="Selected date"  name="todate" type="text" id="date-picker-example" class="form-control datepicker">
+					<label for="date-picker-example">Ending start</label>
+				</div>
+				</div>
+				<div class="col-4">
+				<div class="md-form">
+					<select class="mdb-select" id="emp_id" name="emp_id" required>
+						<option value="" disabled selected>Choose Employee</option>
+						<?php foreach($emp_list as $lis){ ?>
+						<option value="<?php echo $lis['emp_id']; ?>"><?php echo $lis['emp_name']; ?></option>
+						<?php } ?>
+					</select>
+				</div>
+				</div>
+				<?php }else{ ?>
 				<div class="col-6">
 				<div class="md-form">
 					<input placeholder="Selected date" name="fromdate" type="text" id="date-picker-example" class="form-control datepicker">
@@ -31,6 +55,7 @@
 					<label for="date-picker-example">Ending start</label>
 				</div>
 				</div>
+				<?php } ?>
 				<div class="col-6 ">
 				<!--Panel-->
 				<div class="card">
@@ -50,7 +75,7 @@
 
 					<div class="form-group">
 						<input name="leavetype" type="radio" id="radio3" value="3">
-						<label for="radio3">Casual Leave</label>
+						<label for="radio3">Paid Leave</label>
 					</div>
 					</div>
 				</div>
@@ -64,7 +89,7 @@
 					<div class="card-body">
 						<div class="form-group">
 				
-					  <textarea style="height:150px;" class="form-control" rows="5" id="comment" name="comment"></textarea>
+					  <textarea style="height:150px;" class="form-control" rows="5" id="comment" name="comment" required></textarea>
 					</div>
 					</div>
 				</div>
@@ -90,15 +115,17 @@
 		</div>
 		<?php endif; ?>
 		<button id="datpicbtn" type="button" class="btn btn-info btn-rounded pull-right">Add</button>
+		
 		<table id="example" class="table table-striped table-bordered table-responsive-md" cellspacing="0" width="100%">
 		
-			<thead>
-				<tr>
+			<thead><tr>
 					<th>Name</th>
 					<th>From Date</th>
 					<th>To Date</th>
+					<th>Leave Type</th>
 					<th>Region</th>
 					<th>Status</th>
+					<th>Created By</th>
 					<?php if($userdetails['role']!=3){ ?>
 					<th>Action</th>
 					<?php } ?>
@@ -110,8 +137,10 @@
 					<th>Name</th>
 					<th>From Date</th>
 					<th>To Date</th>
+					<th>Leave Type</th>
 					<th>Region</th>
 					<th>Status</th>
+					<th>Created By</th>
 					<?php if($userdetails['role']!=3){ ?>
 					<th>Action</th>
 					<?php } ?>
@@ -124,6 +153,16 @@
 					<td><?php echo $list['emp_name']; ?></td>
 					<td><?php echo $list['form_date']; ?></td>
 					<td><?php echo $list['to_date']; ?></td>
+					<td>
+					  <?php if($list['leavetype']==1){
+						echo "Sick leave";
+						}else if($list['leavetype']==2){
+							echo "Special leave";
+						}else if($list['leavetype']==3){
+							echo "Paid leave";
+						}	
+						?>
+					</td>
 					<td><?php echo $list['region']; ?></td>
 					<?php if($userdetails['role']==3){ ?>
 					<td>
@@ -131,6 +170,7 @@
 					<?php }else{ ?>
 						<td><?php if($list['status']==1){ echo "Request";}else if($list['status']==2){ echo "Approved"; }else if($list['status']==3){ echo "Rejected";} ?></td>
 					<?php } ?>
+					<td><?php echo $list['create_name']; ?></td>
 					<?php if($userdetails['role']!=3){ ?>
 					<th><a class="text-warning" href="<?php echo base_url('employee/leavestatus/'.base64_encode($list['emp_id']).'/'.base64_encode(2).'/'.base64_encode($list['leave_id'])); ?>">Approve</a> | <a class="text-warning" href="<?php echo base_url('employee/leavestatus/'.base64_encode($list['emp_id']).'/'.base64_encode(3).'/'.base64_encode($list['leave_id'])); ?>">Reject</a></th>
 					<?php } ?>

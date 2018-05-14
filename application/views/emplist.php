@@ -28,6 +28,7 @@
 					<th>Mobile No</th>
 					<th>DOJ</th>
 					<th>Salary</th>
+					<th>Leaves</th>
 					<th>Action</th>
 				</tr>
 			</thead>
@@ -39,6 +40,7 @@
 					<th>Mobile No</th>
 					<th>DOJ</th>
 					<th>Salary</th>
+					<th>Leaves</th>
 					<th>Action</th>
 				</tr>
 			</tfoot>
@@ -51,6 +53,11 @@
 					<td><?php echo $elist['emp_mobile']; ?></td>
 					<td><?php echo $elist['emp_doj']; ?></td>
 					<td><?php echo $elist['salary']; ?></td>
+					<td>
+					<?php echo "<b> Sick Leaves : </b>". $elist['sick_leaves'].","; ?>
+					<?php echo "<b>Casual Leaves : </b>". $elist['causal_leaves'].","; ?>
+					<?php echo "<b>Paid Leaves : </b>". $elist['paid_leaves']; ?>
+					</td>
 					<td><a href="<?php echo base_url('employee/employeeedit/'.base64_encode($elist['emp_id'])); ?>">Edit</a>
 					|<a href="<?php echo base_url('employee/status/'.base64_encode($elist['emp_id']).'/'.base64_encode($elist['status'])); ?>"><?php if($elist['status']==1){ echo "Deactive"; }else{ echo "Active"; } ?></a></td>
 				</tr>

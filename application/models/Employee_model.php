@@ -38,8 +38,18 @@ class Employee_model extends CI_Model
 		$this->db->where('create_at', $date);	
         return $this->db->get()->row_array();
 	}
+	public function get_employee_list_all_details(){
+		$this->db->select('employee.emp_id,employee.role,employee.emp_name,employee.emp_office_id,employee.department,employee.emp_mobile,employee.emp_doj,employee.salary,employee.status,employee.emp_role')->from('employee');
+		$this->db->order_by('employee.emp_id asc');
+		return $this->db->get()->result_array();
+	}
 	public function get_employee_list_details(){
 		$this->db->select('*')->from('employee');
+		$this->db->order_by('employee.emp_id asc');
+		return $this->db->get()->result_array();
+	}
+	public function get_employee_list_basic_details(){
+		$this->db->select('employee.emp_id,employee.emp_office_id,employee.emp_name')->from('employee');
 		$this->db->order_by('employee.emp_id asc');
 		return $this->db->get()->result_array();
 	}
@@ -130,8 +140,9 @@ class Employee_model extends CI_Model
         return $this->db->get()->result_array();
 	}
 	public function get_leaves_data($emp_id){
-		$this->db->select('leaves.*,employee.emp_name')->from('leaves');
+		$this->db->select('leaves.*,employee.emp_name,leaveemp.emp_name as create_name')->from('leaves');
 		$this->db->join('employee', 'employee.emp_id = leaves.emp_id', 'left');
+		$this->db->join('employee as leaveemp', 'leaveemp.emp_id = leaves.create_by', 'left');
 		$this->db->where('leaves.emp_id', $emp_id);	
         return $this->db->get()->result_array();
 	}
@@ -149,9 +160,10 @@ class Employee_model extends CI_Model
         return $this->db->get()->result_array();
 	}
 	public function get_allemployees_leaves_data(){
-		$this->db->select('leaves.*,employee.emp_name')->from('leaves');
+		$this->db->select('leaves.*,employee.emp_name,leaveemp.emp_name as create_name')->from('leaves');
 		$this->db->join('employee', 'employee.emp_id = leaves.emp_id', 'left');
-			$this->db->order_by('leaves.leave_id desc');
+		$this->db->join('employee as leaveemp', 'leaveemp.emp_id = leaves.create_by', 'left');
+		$this->db->order_by('leaves.leave_id desc');
         return $this->db->get()->result_array();
 	}
 	public function get_holidays_list_data(){
@@ -207,6 +219,24 @@ class Employee_model extends CI_Model
 	public function delete_task_details($task_id){
 		$sql1="DELETE FROM task WHERE id = '".$task_id."'";
 		return $this->db->query($sql1);
+	}
+	public function get_sick_leave_count($emp_id){
+		$this->db->select('leaves.leave_id')->from('leaves');
+		$this->db->where('leaves.emp_id', $emp_id);
+		$this->db->where('leaves.leavetype', 1);
+		return $this->db->get()->result_array();
+	}
+	public function get_casual_leave_count($emp_id){
+		$this->db->select('leaves.leave_id')->from('leaves');
+		$this->db->where('leaves.emp_id', $emp_id);
+		$this->db->where('leaves.leavetype', 2);
+		return $this->db->get()->result_array();
+	}
+	public function get_paid_leave_count($emp_id){
+		$this->db->select('leaves.leave_id')->from('leaves');
+		$this->db->where('leaves.emp_id', $emp_id);
+		$this->db->where('leaves.leavetype', 3);
+		return $this->db->get()->result_array();
 	}
 	
 
