@@ -220,19 +220,37 @@ class Employee_model extends CI_Model
 		$sql1="DELETE FROM task WHERE id = '".$task_id."'";
 		return $this->db->query($sql1);
 	}
-	public function get_sick_leave_count($emp_id){
+	public function get_sick_leaves($emp_id){
 		$this->db->select('leaves.leave_id,leaves.to_date1,leaves.form_date1,leaves.create_at,leaves.status,leaves.days')->from('leaves');
 		$this->db->where('leaves.emp_id', $emp_id);
 		$this->db->where('leaves.leavetype', 1);
 		return $this->db->get()->result_array();
 	}
-	public function get_casual_leave_count($emp_id){
+	public function get_sick_leave_count($emp_id){
+		$this->db->select('SUM(days) AS sick_count')->from('leaves');
+		$this->db->where('leaves.emp_id', $emp_id);
+		$this->db->where('leaves.leavetype', 1);
+		return $this->db->get()->row_array();
+	}
+	public function get_casual_leaves($emp_id){
 		$this->db->select('leaves.leave_id,leaves.to_date1,leaves.form_date1,leaves.create_at,leaves.status,leaves.days')->from('leaves');
 		$this->db->where('leaves.emp_id', $emp_id);
 		$this->db->where('leaves.leavetype', 2);
 		return $this->db->get()->result_array();
 	}
+	public function get_casual_leave_count($emp_id){
+		$this->db->select('SUM(days) AS casual_count')->from('leaves');
+		$this->db->where('leaves.emp_id', $emp_id);
+		$this->db->where('leaves.leavetype', 2);
+		return $this->db->get()->row_array();
+	}
 	public function get_paid_leave_count($emp_id){
+		$this->db->select('SUM(days) AS paid_count')->from('leaves');
+		$this->db->where('leaves.emp_id', $emp_id);
+		$this->db->where('leaves.leavetype', 3);
+		return $this->db->get()->row_array();
+	}
+	public function get_paid_leaves($emp_id){
 		$this->db->select('leaves.leave_id,leaves.to_date1,leaves.form_date1,leaves.create_at,leaves.status,leaves.days')->from('leaves');
 		$this->db->where('leaves.emp_id', $emp_id);
 		$this->db->where('leaves.leavetype', 3);

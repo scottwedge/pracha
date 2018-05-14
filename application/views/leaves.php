@@ -35,19 +35,10 @@
 				Carry Forward
 			</div>
 			<div class="col">
-				Accrued till date
-			</div>
-			<div class="col">
-				Other Credits
-			</div>
-			<div class="col">
 				Total
 			</div>
 			<div class="col">
 				leave Taken
-			</div>
-			<div class="col">
-				Lapsed /Encashed Leave
 			</div>
 			<div class="col">
 				Leave Balance
@@ -58,28 +49,19 @@
             <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 			<div class="row">
 			<div class="col">
-				<strong>Maternity Leave</strong>
+				<strong>Sick Leave</strong>
 			</div>
 			<div class="col">
-				0.00
+				24(3 years)
 			</div>
 			<div class="col">
-				180.00
+				24
 			</div>
 			<div class="col">
-				0.00
+				<?php echo $sick_count['sick_count']; ?>
 			</div>
 			<div class="col">
-				180.00
-			</div>
-			<div class="col">
-				0.00
-			</div>
-			<div class="col">
-				0.00
-			</div>
-			<div class="col">
-				180.00 
+				<?php echo '8'-$sick_count['sick_count']; ?> (per one year)
 			</div> <i class="fa fa-angle-down rotate-icon"></i>
 			</div>
             
@@ -99,18 +81,23 @@
 					<th>Applied</th>
 					<th>No.of Days</th>
 					<th>Status</th>
-					<th>Lapsed / Encashed</th>
 				  </tr>
 				</thead>
 				<tbody>
+				<?php if(isset($sick) && count($sick)>0){ ?>
+				<?php foreach($sick as $list){ ?>
 				  <tr>
-					<td>25/02/2018</td>
-					<td>28/02/2018</td>
-					<td>22/02/2018</td>
-					<td>3</td>
-					<td>Acceptance</td>
-					<td>0.00</td>
+					<td><?php echo $list['form_date1']; ?></td>
+					<td><?php echo $list['to_date1']; ?></td>
+					<td><?php echo $list['create_at']; ?></td>
+					<td><?php echo $list['days']; ?></td>
+					<td><?php if($list['status']==1){ echo "Pending";}else if($list['status']==2){ echo "Approved"; }else if($list['status']==3){ echo "Rejected";} ?></td>
 				  </tr>
+				<?php } ?>
+				<?php }else{ ?>
+								<td colspan="5" style="text-align: center;">No Leaves</td>
+
+				<?php } ?>
 				 
 				</tbody>
 			  </table>
@@ -127,28 +114,19 @@
             <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <div class="row">
 			<div class="col">
-				<strong>Compensatory OFF</strong>
+				<strong>Casual Leave</strong>
 			</div>
 			<div class="col">
-				0.00
+				No carry forward
 			</div>
 			<div class="col">
-				180.00
+				7
 			</div>
 			<div class="col">
-				0.00
+				<?php echo $casual_count['casual_count']; ?>
 			</div>
 			<div class="col">
-				180.00
-			</div>
-			<div class="col">
-				0.00
-			</div>
-			<div class="col">
-				0.00
-			</div>
-			<div class="col">
-				180.00 
+				<?php echo '7'-$casual_count['casual_count']; ?> (per one year)
 			</div> <i class="fa fa-angle-down rotate-icon"></i>
 			</div>
             </a>
@@ -165,18 +143,23 @@
 					<th>Applied</th>
 					<th>No.of Days</th>
 					<th>Status</th>
-					<th>Lapsed / Encashed</th>
 				  </tr>
 				</thead>
 				<tbody>
+				 <?php if(isset($casual) && count($casual)>0){ ?>
+				<?php foreach($casual as $list){ ?>
 				  <tr>
-					<td>25/02/2018</td>
-					<td>28/02/2018</td>
-					<td>22/02/2018</td>
-					<td>3</td>
-					<td>Acceptance</td>
-					<td>0.00</td>
+					<td><?php echo $list['form_date1']; ?></td>
+					<td><?php echo $list['to_date1']; ?></td>
+					<td><?php echo $list['create_at']; ?></td>
+					<td><?php echo $list['days']; ?></td>
+					<td><?php if($list['status']==1){ echo "Pending";}else if($list['status']==2){ echo "Approved"; }else if($list['status']==3){ echo "Rejected";} ?></td>
 				  </tr>
+				<?php } ?>
+				<?php }else{ ?>
+								<td colspan="5" style="text-align: center;">No Leaves</td>
+
+				<?php } ?>
 				 
 				</tbody>
 			  </table>
@@ -193,28 +176,19 @@
             <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                <div class="row">
 			<div class="col">
-				<strong>Geaneral Leave</strong>
+				<strong>Paid Leave</strong>
 			</div>
 			<div class="col">
-				0.00
+				42( 2 years)
 			</div>
 			<div class="col">
-				180.00
+				42
 			</div>
 			<div class="col">
-				0.00
+				<?php echo $paid_count['paid_count']; ?>
 			</div>
 			<div class="col">
-				180.00
-			</div>
-			<div class="col">
-				0.00
-			</div>
-			<div class="col">
-				0.00
-			</div>
-			<div class="col">
-				180.00 
+				<?php echo '21'-$paid_count['paid_count']; ?> (per one year)
 			</div> <i class="fa fa-angle-down rotate-icon"></i>
 			</div>
             </a>
@@ -231,18 +205,22 @@
 					<th>Applied</th>
 					<th>No.of Days</th>
 					<th>Status</th>
-					<th>Lapsed / Encashed</th>
 				  </tr>
 				</thead>
 				<tbody>
+				 <?php if(isset($paid) && count($paid)>0){ ?>
+				<?php foreach($paid as $list){ ?>
 				  <tr>
-					<td>25/02/2018</td>
-					<td>28/02/2018</td>
-					<td>22/02/2018</td>
-					<td>3</td>
-					<td>Acceptance</td>
-					<td>0.00</td>
+					<td><?php echo $list['form_date1']; ?></td>
+					<td><?php echo $list['to_date1']; ?></td>
+					<td><?php echo $list['create_at']; ?></td>
+					<td><?php echo $list['days']; ?></td>
+					<td><?php if($list['status']==1){ echo "Pending";}else if($list['status']==2){ echo "Approved"; }else if($list['status']==3){ echo "Rejected";} ?></td>
 				  </tr>
+				<?php } ?>
+				<?php }else{ ?>
+				<td colspan="5" style="text-align: center;">No Leaves</td>
+				<?php } ?>
 				 
 				</tbody>
 			  </table>

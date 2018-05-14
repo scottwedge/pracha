@@ -283,9 +283,12 @@ class Employee extends CI_Controller {
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$data['leaves_list']=$this->Employee_model->get_leaves_data($userdetails['emp_id']);
 			$data['emp_list']=$this->Employee_model->get_employee_list_basic_details();
-			$data['sick']=$this->Employee_model->get_sick_leave_count($userdetails['emp_id']);
-			$data['casual']=$this->Employee_model->get_casual_leave_count($userdetails['emp_id']);
-			$data['paid']=$this->Employee_model->get_paid_leave_count($userdetails['emp_id']);
+			$data['sick']=$this->Employee_model->get_sick_leaves($userdetails['emp_id']);
+			$data['sick_count']=$this->Employee_model->get_sick_leave_count($userdetails['emp_id']);
+			$data['casual_count']=$this->Employee_model->get_casual_leave_count($userdetails['emp_id']);
+			$data['casual']=$this->Employee_model->get_casual_leaves($userdetails['emp_id']);
+			$data['paid']=$this->Employee_model->get_paid_leaves($userdetails['emp_id']);
+			$data['paid_count']=$this->Employee_model->get_paid_leave_count($userdetails['emp_id']);
 			//echo '<pre>';print_r($data);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
@@ -618,9 +621,9 @@ class Employee extends CI_Controller {
 				$casual=$this->Employee_model->get_casual_leave_count($list['emp_id']);
 				$paid=$this->Employee_model->get_paid_leave_count($list['emp_id']);
 				$all_list[$list['emp_id']]=$list;
-				$all_list[$list['emp_id']]['sick_leaves']=count($sick);
-				$all_list[$list['emp_id']]['causal_leaves']=count($casual);
-				$all_list[$list['emp_id']]['paid_leaves']=count($paid);
+				$all_list[$list['emp_id']]['sick_leaves']=$sick['sick_count'];
+				$all_list[$list['emp_id']]['causal_leaves']=$casual['casual_count'];
+				$all_list[$list['emp_id']]['paid_leaves']=$paid['paid_count'];
 			}
 			$data['employee_list']=$all_list;
 			//echo '<pre>';print_r($all_list);exit;
