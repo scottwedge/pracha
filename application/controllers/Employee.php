@@ -28,7 +28,7 @@ class Employee extends CI_Controller {
 		{
 		$this->load->view('header1');
 		$this->load->view('login');
-		$this->load->view('footer');
+		//$this->load->view('footer');
 		}else{
 			redirect('employee/profile');	
 		}
@@ -283,6 +283,10 @@ class Employee extends CI_Controller {
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$data['leaves_list']=$this->Employee_model->get_leaves_data($userdetails['emp_id']);
 			$data['emp_list']=$this->Employee_model->get_employee_list_basic_details();
+			$data['sick']=$this->Employee_model->get_sick_leave_count($userdetails['emp_id']);
+			$data['casual']=$this->Employee_model->get_casual_leave_count($userdetails['emp_id']);
+			$data['paid']=$this->Employee_model->get_paid_leave_count($userdetails['emp_id']);
+			//echo '<pre>';print_r($data);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('leaves',$data);
@@ -332,6 +336,9 @@ class Employee extends CI_Controller {
 				}else{
 					$emp_id=$data['userdetails']['emp_id'];
 				}
+			$date1=date_create($currentDate);
+			$date2=date_create($newDate);
+			$diff=date_diff($date1,$date2);
 			$leavedata=array(
 				'emp_id'=>$emp_id,
 				'form_date1'=>$currentDate,
@@ -343,6 +350,7 @@ class Employee extends CI_Controller {
 				'status'=>1,
 				'create_at'=>date('Y-m-d H:i:s'),
 				'create_by'=>isset($data['userdetails']['emp_id'])?$data['userdetails']['emp_id']:'',
+				'days'=>$diff->format("%a")+1,
 				);
 				//echo '<pre>';print_r($leavedata);exit;
 			$addleave=$this->Employee_model->save_leaves_data($leavedata);

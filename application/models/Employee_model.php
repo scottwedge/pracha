@@ -221,19 +221,19 @@ class Employee_model extends CI_Model
 		return $this->db->query($sql1);
 	}
 	public function get_sick_leave_count($emp_id){
-		$this->db->select('leaves.leave_id')->from('leaves');
+		$this->db->select('leaves.leave_id,leaves.to_date1,leaves.form_date1,leaves.create_at,leaves.status,leaves.days')->from('leaves');
 		$this->db->where('leaves.emp_id', $emp_id);
 		$this->db->where('leaves.leavetype', 1);
 		return $this->db->get()->result_array();
 	}
 	public function get_casual_leave_count($emp_id){
-		$this->db->select('leaves.leave_id')->from('leaves');
+		$this->db->select('leaves.leave_id,leaves.to_date1,leaves.form_date1,leaves.create_at,leaves.status,leaves.days')->from('leaves');
 		$this->db->where('leaves.emp_id', $emp_id);
 		$this->db->where('leaves.leavetype', 2);
 		return $this->db->get()->result_array();
 	}
 	public function get_paid_leave_count($emp_id){
-		$this->db->select('leaves.leave_id')->from('leaves');
+		$this->db->select('leaves.leave_id,leaves.to_date1,leaves.form_date1,leaves.create_at,leaves.status,leaves.days')->from('leaves');
 		$this->db->where('leaves.emp_id', $emp_id);
 		$this->db->where('leaves.leavetype', 3);
 		return $this->db->get()->result_array();
