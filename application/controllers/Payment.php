@@ -15,6 +15,7 @@ class Payment extends CI_Controller {
 		$this->load->helper('directory');
 		$this->load->helper('security');
 		$this->load->model('Employee_model');
+		$this->load->library('pdf');
 		//https://github.com/razorpay/razorpay-php
 		}
 	public function index()
@@ -112,9 +113,66 @@ class Payment extends CI_Controller {
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			if($data['userdetails']['role']==4){
 				$this->load->view('header1');
+				$data['bill_list'] = $this->Employee_model->get_invoice_list($userdetails['emp_id']);
 				$this->load->view('sidebar',$data);
-				$this->load->view('task',$data);
+				$this->load->view('invoice_list',$data);
 				//$this->load->view('footer');
+			}else{
+			redirect('employee');
+			}
+			
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	public function paypayment(){
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			if($data['userdetails']['role']==4){
+				$bill_id=base64_decode($this->uri->segment(3));
+				$bill_details = $this->Employee_model->get_billing_details($bill_id);
+				echo '<pre>';print_r($bill_details);
+				/* online  payment mode purpose*/
+					$api_id= $this->config->item('keyId');
+					$api_Secret= $this->config->item('API_keySecret');
+					$api = new RazorpayApi($api_id,$api_Secret);
+					$orderData = [
+						'receipt'         => 3456,
+						'amount'          => $bill_details['pay'], // 2000 rupees in paise
+						'currency'        => 'INR',
+						'payment_capture' => 1 // auto capture
+					];
+					$razorpayOrder = $api->order->create($orderData);
+					$razorpayOrderId = $razorpayOrder['id'];
+					$displayAmount = $amount = $orderData['amount'];
+					$displayCurrency=$orderData['currency'];
+					$b_ll_data['details'] = [
+							"key"               => $api_id,
+							"amount"            => $amount,
+							"name"              => $bill_details['name'],
+							"description"       => $bill_details['adress'].' '.$bill_details['others'],
+							"image"             => "",
+							"prefill"           => [
+							"name"              => $bill_details['name'],
+							"email"             => $bill_details['email_id'],
+							"contact"           => $bill_details['mobile_no'],
+							],
+							"notes"             => [
+							"address"           => $bill_details['adress'],
+							"merchant_order_id" => "",
+							],
+							"theme"             => [
+							"color"             => "#F37254"
+							],
+							"order_id"          => $razorpayOrderId,
+							"display_currency"          => $orderData['currency'],
+						];
+					//$this->load->view('payment/pay',$data);
+				
+				echo "<pre>";print_r($b_ll_data);exit;
 			}else{
 			redirect('employee');
 			}
@@ -134,6 +192,7 @@ class Payment extends CI_Controller {
 				$add=array(
 				'name'=>isset($post['name'])?$post['name']:'',
 				'email_id'=>isset($post['email'])?$post['email']:'',
+				'adress'=>isset($post['adress'])?$post['adress']:'',
 				'mobile_no'=>isset($post['mobile'])?$post['mobile']:'',
 				'alter_mobile_no'=>isset($post['altermobile'])?$post['altermobile']:'',
 				'project'=>isset($post['project'])?$post['project']:'',
@@ -146,7 +205,43 @@ class Payment extends CI_Controller {
 				'created_by'=>$userdetails['emp_id'],
 				);
 				$biil_save=$this->Employee_model->save_project_bills($add);
-				echo '<pre>';print_r($biil_save);exit;
+				if(count($biil_save)>0){
+					$this->session->set_flashdata('success','Your invoice successfully generated');
+					//redirect('payment/suggestion');
+					if(isset($post['payment_type']) && $post['payment_type']==1){
+						redirect('payment/paypayment/'.base64_encode($biil_save));
+					}else{
+						
+							$data['billing_details']=$this->Employee_model->get_billing_details($biil_save);
+							$path = rtrim(FCPATH,"/");
+							$file_name =$data['billing_details']['project'].'_'.$biil_save.'.pdf';
+							$pdfFilePath = $path."/assets/invoices/".$file_name;
+							ini_set('memory_limit','320M'); // boost the memory limit if it's low <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="??" draggable="false" class="emoji">
+							$html =$this->load->view('payment/invoice',$data, true); // render the view into HTML
+							
+							//echo '<pre>';print_r($html);exit;
+							$this->load->library('pdf');
+							$pdf = $this->pdf->load();
+							$pdf->SetFooter($_SERVER['HTTP_HOST'].'|{PAGENO}|'.date('M-d-Y')); // Add a footer for good measure <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="??" draggable="false" class="emoji">
+							$pdf->SetDisplayMode('fullpage');
+							$pdf->list_indent_first_level = 0;	// 1 or 0 - whether to indent the first level of a list
+							$pdf->WriteHTML($html); // write the HTML into the PDF
+							$pdf->Output($pdfFilePath, 'F');
+							$update_data=array(
+							'invoice_name'=>$file_name,
+							'staus'=>1,
+							);
+							$this->Employee_model->update_project_bills($biil_save,$update_data);
+							//echo $this->db->last_query();exit;
+							redirect('payment/bill_list');
+						
+					}
+					//echo '<pre>';print_r($biil_save);exit;
+				}else{
+					$this->session->set_flashdata('loginerror',"Technical problem will occured. Please try again.");
+					redirect('payment/billing');
+				}
+				//echo '<pre>';print_r($biil_save);exit;
 			}else{
 				redirect('employee');
 			}

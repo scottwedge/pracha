@@ -262,6 +262,20 @@ class Employee_model extends CI_Model
 		$this->db->insert('bills', $data);
 		return $insert_id = $this->db->insert_id(); 
 	}
+	public function get_billing_details($bid){
+		$this->db->select('*')->from('bills');
+		$this->db->where('bills.b_id', $bid);
+		return $this->db->get()->row_array();
+	}
+	public function get_invoice_list($id){
+		$this->db->select('*')->from('bills');
+		$this->db->where('bills.created_by', $id);
+		return $this->db->get()->result_array();
+	}
+	public function update_project_bills($bid,$data){
+		$this->db->where('b_id', $bid);
+		return $this->db->update('bills', $data);
+	}
 	/* bills*/
 	
 

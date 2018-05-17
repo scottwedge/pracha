@@ -24,6 +24,7 @@
 		<?php } ?>
 		<?php if($userdetails['role']==4){ ?>
 			<a href="<?php echo base_url('payment/billing'); ?>"><li>Billing</li></a>
+			<a href="<?php echo base_url('payment/bill_list'); ?>"><li>Invoice List</li></a>
 		<?php } ?>
 	</ul>
 </div>

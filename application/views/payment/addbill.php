@@ -67,6 +67,10 @@
 							<option value="3" >Other</option>
 						</select>
 					</div>
+					<div class="form-group col-md-12">
+				    	<label for="telephone">Address</label>
+				    	<input type="text" class="form-control" name="adress" id="adress" required="true" placeholder="Address" value="">
+		  			</div>
 					
 					
 		  		</div>
