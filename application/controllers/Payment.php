@@ -172,6 +172,7 @@ class Payment extends CI_Controller {
 							"order_id"          => $razorpayOrderId,
 							"display_currency"          => $orderData['currency'],
 						];
+					$this->load->view('header1');
 					$this->load->view('payment/pay',$data);
 				
 				//echo "<pre>";print_r($data);exit;
