@@ -22,6 +22,18 @@
 						<hr>
 				</div>
 		  			<div class="form-group col-md-6">
+		  				<label for="exampleInputUsername">Employee Role</label>
+						<select class="mdb-select" id="role" name="role" required>
+						<option value="" disabled selected>Choose Role</option>
+						<option value="1">HR</option>
+						<option value="3" >Employee</option>
+						<option value="4" >Sales</option>
+						<?php foreach($emp_list as $lis){ ?>
+						<option value="<?php echo $lis['emp_id']; ?>"><?php echo $lis['emp_name']; ?></option>
+						<?php } ?>
+						</select>
+			  		</div>
+					<div class="form-group col-md-6">
 		  				<label for="exampleInputUsername">Name</label>
 				    	<input type="text" class="form-control" name="name" id="name" placeholder=" Enter Name" required="true" value="" >
 			  		</div>
@@ -155,5 +167,12 @@
 	</div>
 </div>
 </div>
-	
+		<script>
+	$(document).ready(function() {
+  
+    $('select').addClass('mdb-select');
+    $('.mdb-select').material_select();
+});
+       
+	</script>
 	

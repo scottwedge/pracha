@@ -14,6 +14,7 @@ class Payment extends CI_Controller {
 		$this->load->library('user_agent');
 		$this->load->helper('directory');
 		$this->load->helper('security');
+		$this->load->model('Employee_model');
 		//https://github.com/razorpay/razorpay-php
 		}
 	public function index()
@@ -84,6 +85,76 @@ class Payment extends CI_Controller {
 		//$refund = $payment->refund(array('amount' => 100)); 
 		echo '<pre>';print_r($capture);exit;
 		
+	}
+	public function billing(){
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			if($data['userdetails']['role']==4){
+				$this->load->view('header1');
+				$this->load->view('sidebar',$data);
+				$this->load->view('payment/addbill',$data);
+				//$this->load->view('footer');
+			}else{
+			redirect('employee');
+			}
+			
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	public function bill_list(){
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			if($data['userdetails']['role']==4){
+				$this->load->view('header1');
+				$this->load->view('sidebar',$data);
+				$this->load->view('task',$data);
+				//$this->load->view('footer');
+			}else{
+			redirect('employee');
+			}
+			
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	public function addpayment(){
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			if($data['userdetails']['role']==4){
+				$post=$this->input->post();
+				$add=array(
+				'name'=>isset($post['name'])?$post['name']:'',
+				'email_id'=>isset($post['email'])?$post['email']:'',
+				'mobile_no'=>isset($post['mobile'])?$post['mobile']:'',
+				'alter_mobile_no'=>isset($post['altermobile'])?$post['altermobile']:'',
+				'project'=>isset($post['project'])?$post['project']:'',
+				'amount'=>isset($post['amount'])?$post['amount']:'',
+				'pay'=>isset($post['amount_pay'])?$post['amount_pay']:'',
+				'due'=>isset($post['amount_due'])?$post['amount_due']:'',
+				'others'=>isset($post['others'])?$post['others']:'',
+				'payment_type'=>isset($post['payment_type'])?$post['payment_type']:'',
+				'create_at'=>date('Y-m-d H:i:s'),
+				'created_by'=>$userdetails['emp_id'],
+				);
+				$biil_save=$this->Employee_model->save_project_bills($add);
+				echo '<pre>';print_r($biil_save);exit;
+			}else{
+				redirect('employee');
+			}
+			
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
 	}
 	
 	

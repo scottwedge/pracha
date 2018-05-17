@@ -22,6 +22,9 @@
 		<a href="<?php echo base_url('employee/suggestion'); ?>"><li>Complaint/ Suggestion Box</li></a>
 		<a href="<?php echo base_url('employee/task'); ?>"><li>Task Mangagment </li></a>
 		<?php } ?>
+		<?php if($userdetails['role']==4){ ?>
+			<a href="<?php echo base_url('payment/billing'); ?>"><li>Billing</li></a>
+		<?php } ?>
 	</ul>
 </div>
 

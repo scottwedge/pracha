@@ -896,7 +896,7 @@ class Employee extends CI_Controller {
 						'pancardno'=>isset($post['pannumber'])?$post['pannumber']:'',
 						'pancard'=>$pancard,
 						'otherkye'=>$kyc,
-						'role'=>3,
+						'role'=>isset($post['role'])?$post['role']:'',
 						'status'=>1,
 						'create'=>date('Y-m-d H:i:s'),
 						);

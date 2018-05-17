@@ -257,6 +257,13 @@ class Employee_model extends CI_Model
 		return $this->db->get()->result_array();
 	}
 	
+	/* bills*/
+	public function save_project_bills($data){
+		$this->db->insert('bills', $data);
+		return $insert_id = $this->db->insert_id(); 
+	}
+	/* bills*/
+	
 
 
 }
