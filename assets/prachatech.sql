@@ -36,13 +36,16 @@ CREATE TABLE `bills` (
   `create_at` datetime DEFAULT NULL,
   `created_by` int(11) DEFAULT NULL,
   `invoice_name` varchar(250) DEFAULT NULL,
+  `payment_id` varchar(250) DEFAULT NULL,
+  `payment_order_id` varchar(250) DEFAULT NULL,
+  `payment_singnature` varchar(250) DEFAULT NULL,
   `staus` int(11) DEFAULT '0',
   PRIMARY KEY (`b_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=38 DEFAULT CHARSET=latin1;
 
 /*Data for the table `bills` */
 
-insert  into `bills`(`b_id`,`name`,`adress`,`email_id`,`mobile_no`,`alter_mobile_no`,`project`,`amount`,`pay`,`due`,`others`,`payment_type`,`create_at`,`created_by`,`invoice_name`,`staus`) values (36,'reddem',NULL,'vasudevareddy549@gmail.com','78945623221','8794561233','job posting website','85000','50000','35000','like that','1','2018-05-17 14:34:49',8,NULL,0),(35,'reddemvasu',NULL,'vasu@gmail.com','6776756756756','8794561233','testing','20000','15000','10000','ntg','2','2018-05-17 13:27:50',8,'testing_35.pdf',0),(34,'reddemvasu',NULL,'vasu@gmail.com','6776756756756','8794561233','testing','20000','15000','10000','ntg','2','2018-05-17 13:27:40',8,'testing_34.pdf',0),(33,'reddemvasu',NULL,'vasu@gmail.com','6776756756756','8794561233','testing','20000','15000','10000','ntg','2','2018-05-17 13:27:07',8,NULL,0),(32,'reddemvasu',NULL,'vasu@gmail.com','78945623221','8794561233','testing','20000','15000','10000','ntg','2','2018-05-17 13:26:20',8,NULL,0),(37,'jhon',NULL,'jhon@gmail.com','7896541233','8794561233','job posting website','100000','50000','50000','ntg','1','2018-05-17 14:44:39',8,NULL,0);
+insert  into `bills`(`b_id`,`name`,`adress`,`email_id`,`mobile_no`,`alter_mobile_no`,`project`,`amount`,`pay`,`due`,`others`,`payment_type`,`create_at`,`created_by`,`invoice_name`,`payment_id`,`payment_order_id`,`payment_singnature`,`staus`) values (36,'reddem',NULL,'vasudevareddy549@gmail.com','78945623221','8794561233','job posting website','85000','50000','35000','like that','1','2018-05-17 14:34:49',8,NULL,NULL,NULL,NULL,0),(35,'reddemvasu',NULL,'vasu@gmail.com','6776756756756','8794561233','testing','20000','15000','10000','ntg','2','2018-05-17 13:27:50',8,'testing_35.pdf',NULL,NULL,NULL,0),(34,'reddemvasu',NULL,'vasu@gmail.com','6776756756756','8794561233','testing','20000','15000','10000','ntg','2','2018-05-17 13:27:40',8,'testing_34.pdf',NULL,NULL,NULL,0),(33,'reddemvasu',NULL,'vasu@gmail.com','6776756756756','8794561233','testing','20000','15000','10000','ntg','2','2018-05-17 13:27:07',8,NULL,NULL,NULL,NULL,0),(32,'reddemvasu',NULL,'vasu@gmail.com','78945623221','8794561233','testing','20000','15000','10000','ntg','2','2018-05-17 13:26:20',8,NULL,NULL,NULL,NULL,0),(37,'jhon','tyytu','jhon@gmail.com','7896541233','8794561233','job posting website','100000','50000','50000','ntg','1','2018-05-17 17:29:04',8,'job posting website_37.pdf','pay_AC9ZbcDq1BeHut','order_AC9ZVi54cJXkHr','98b78813f015ba13f35ae286743e83fd0c6aa86b74acd407c751083dc99be19e',1);
 
 /*Table structure for table `comments` */
 
