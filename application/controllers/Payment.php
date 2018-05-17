@@ -134,13 +134,15 @@ class Payment extends CI_Controller {
 			if($data['userdetails']['role']==4){
 				$bill_id=base64_decode($this->uri->segment(3));
 				$bill_details = $this->Employee_model->get_billing_details($bill_id);
-				echo '<pre>';print_r($bill_details);
+				$data['bill_details'] = $bill_details;
+				$data['bill_details']['key'] = $this->config->item('keyId');
+				//echo '<pre>';print_r($bill_details);
 				/* online  payment mode purpose*/
 					$api_id= $this->config->item('keyId');
 					$api_Secret= $this->config->item('API_keySecret');
 					$api = new RazorpayApi($api_id,$api_Secret);
 					$orderData = [
-						'receipt'         => 3456,
+						'receipt'         => $bill_details['b_id'],
 						'amount'          => $bill_details['pay'], // 2000 rupees in paise
 						'currency'        => 'INR',
 						'payment_capture' => 1 // auto capture
@@ -149,11 +151,11 @@ class Payment extends CI_Controller {
 					$razorpayOrderId = $razorpayOrder['id'];
 					$displayAmount = $amount = $orderData['amount'];
 					$displayCurrency=$orderData['currency'];
-					$b_ll_data['details'] = [
+					$data['details'] = [
 							"key"               => $api_id,
 							"amount"            => $amount,
 							"name"              => $bill_details['name'],
-							"description"       => $bill_details['adress'].' '.$bill_details['others'],
+							"description"       => $bill_details['project'].', '.$bill_details['others'],
 							"image"             => "",
 							"prefill"           => [
 							"name"              => $bill_details['name'],
@@ -170,9 +172,9 @@ class Payment extends CI_Controller {
 							"order_id"          => $razorpayOrderId,
 							"display_currency"          => $orderData['currency'],
 						];
-					//$this->load->view('payment/pay',$data);
+					$this->load->view('payment/pay',$data);
 				
-				echo "<pre>";print_r($b_ll_data);exit;
+				//echo "<pre>";print_r($data);exit;
 			}else{
 			redirect('employee');
 			}

@@ -13,7 +13,7 @@
     data-prefill.name="<?php echo $details['prefill']['name']?>"
     data-prefill.email="<?php echo $details['prefill']['email']?>"
     data-prefill.contact="<?php echo $details['prefill']['contact']?>"
-    data-notes.shopping_order_id="3456"
+    data-notes.shopping_order_id="<?php echo $bill_details['b_id']?>"
     data-order_id="<?php echo $details['order_id']?>"
     <?php if ($details['display_currency'] !== 'INR') { ?> data-display_amount="<?php echo $details['amount']?>" <?php } ?>
     <?php if ($details['display_currency'] !== 'INR') { ?> data-display_currency="<?php echo $details['display_currency']?>" <?php } ?>
