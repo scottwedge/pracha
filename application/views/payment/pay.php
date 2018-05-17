@@ -8,7 +8,9 @@
 	 
  }
  </style>
-
+<div class="container" style="margin-top:200px;">
+<div class="row justify-content-md-center">
+<div class=" col-md-6 card">
 <form  id="paymentform" name="paymentform" action="<?php echo base_url('payment/success'); ?>" method="POST">
   <script
     src="https://checkout.razorpay.com/v1/checkout.js"
@@ -30,3 +32,6 @@
   <!-- Any extra fields to be submitted with the form but not sent to Razorpay -->
   <!--<input type="hidden" name="shopping_order_id" value="3456">-->
 </form>
+</div>
+</div>
+</div>
