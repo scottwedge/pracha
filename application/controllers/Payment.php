@@ -62,7 +62,45 @@ class Payment extends CI_Controller {
 	}
 	
 	public  function success(){
-		echo '<pre>';print_r($_POST);exit;
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			if($data['userdetails']['role']==4){
+					$post=$this->input->post();
+							$data['billing_details']=$this->Employee_model->get_billing_details($post['b_id']);
+							$path = rtrim(FCPATH,"/");
+							$file_name =$data['billing_details']['project'].'_'.$data['billing_details']['b_id'].'.pdf';
+							$pdfFilePath = $path."/assets/invoices/".$file_name;
+							ini_set('memory_limit','320M'); // boost the memory limit if it's low <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="??" draggable="false" class="emoji">
+							$html =$this->load->view('payment/invoice',$data, true); // render the view into HTML
+							
+							//echo '<pre>';print_r($html);exit;
+							$this->load->library('pdf');
+							$pdf = $this->pdf->load();
+							$pdf->SetFooter($_SERVER['HTTP_HOST'].'|{PAGENO}|'.date('M-d-Y')); // Add a footer for good measure <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="??" draggable="false" class="emoji">
+							$pdf->SetDisplayMode('fullpage');
+							$pdf->list_indent_first_level = 0;	// 1 or 0 - whether to indent the first level of a list
+							$pdf->WriteHTML($html); // write the HTML into the PDF
+							$pdf->Output($pdfFilePath, 'F');
+							$update_data=array(
+							'invoice_name'=>$file_name,
+							'payment_id'=>isset($post['razorpay_payment_id'])?$post['razorpay_payment_id']:'',
+							'payment_order_id'=>isset($post['razorpay_order_id'])?$post['razorpay_order_id']:'',
+							'payment_singnature'=>isset($post['razorpay_signature'])?$post['razorpay_signature']:'',
+							'staus'=>1,
+							);
+							$this->Employee_model->update_project_bills($post['b_id'],$update_data);
+							//echo $this->db->last_query();exit;
+							redirect('payment/bill_list');
+			}else{
+			redirect('employee');
+			}
+			
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
 		
 	}
 	public  function refund(){
@@ -84,7 +122,7 @@ class Payment extends CI_Controller {
 		$payment = $api->payment->fetch('pay_9jcdNamZ0Rj5zJ');
 		$capture=$payment->capture();
 		//$refund = $payment->refund(array('amount' => 100)); 
-		echo '<pre>';print_r($capture);exit;
+		//echo '<pre>';print_r($capture);exit;
 		
 	}
 	public function billing(){
@@ -93,6 +131,12 @@ class Payment extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			if($data['userdetails']['role']==4){
+				$bill_id=base64_decode($this->uri->segment(3));
+				if(isset($bill_id) && $bill_id!=''){
+				$data['bill_details'] = $this->Employee_model->get_billing_details($bill_id);
+				}else{
+				$data['bill_details']=array();	
+				}
 				$this->load->view('header1');
 				$this->load->view('sidebar',$data);
 				$this->load->view('payment/addbill',$data);
@@ -192,6 +236,7 @@ class Payment extends CI_Controller {
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			if($data['userdetails']['role']==4){
 				$post=$this->input->post();
+				//echo "<pre>";print_r($post);exit;
 				$add=array(
 				'name'=>isset($post['name'])?$post['name']:'',
 				'email_id'=>isset($post['email'])?$post['email']:'',
@@ -207,12 +252,20 @@ class Payment extends CI_Controller {
 				'create_at'=>date('Y-m-d H:i:s'),
 				'created_by'=>$userdetails['emp_id'],
 				);
+				if(isset($post['b_id']) && $post['b_id']!=''){
+					$biil_save=$this->Employee_model->update_project_bills($post['b_id'],$add);
+				}else{
 				$biil_save=$this->Employee_model->save_project_bills($add);
+				}
 				if(count($biil_save)>0){
 					$this->session->set_flashdata('success','Your invoice successfully generated');
 					//redirect('payment/suggestion');
 					if(isset($post['payment_type']) && $post['payment_type']==1){
-						redirect('payment/paypayment/'.base64_encode($biil_save));
+						if($post['b_id']!=''){
+							redirect('payment/paypayment/'.base64_encode($post['b_id']));
+						}else{
+							redirect('payment/paypayment/'.base64_encode($biil_save));	
+						}
 					}else{
 						
 							$data['billing_details']=$this->Employee_model->get_billing_details($biil_save);
