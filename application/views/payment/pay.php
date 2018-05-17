@@ -1,5 +1,13 @@
 <!--  The entire list of Checkout fields is available at
  https://docs.razorpay.com/docs/checkout-form#checkout-fields -->
+ <style>
+ .razorpay-payment-button{
+	 background:#45b1b9;
+	 color:#fff;
+	 padding:10px;
+	 
+ }
+ </style>
 
 <form  id="paymentform" name="paymentform" action="<?php echo base_url('payment/success'); ?>" method="POST">
   <script
