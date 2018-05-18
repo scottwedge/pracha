@@ -91,6 +91,13 @@ class Payment extends CI_Controller {
 							'staus'=>1,
 							);
 							$this->Employee_model->update_project_bills($post['b_id'],$update_data);
+							$this->email->set_newline("\r\n");
+							$this->email->from('sales@prachatech.com');
+							$this->email->to($data['billing_details']['email_id']);
+							$this->email->subject($data['billing_details']['project'].' Inovice');
+							$this->email->message('Please find out below attachment');
+							$this->email->attach($pdfFilePath);
+							$this->email->send();
 							//echo $this->db->last_query();exit;
 							redirect('payment/bill_list');
 			}else{
@@ -155,9 +162,13 @@ class Payment extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-			if($data['userdetails']['role']==4){
+			if($data['userdetails']['role']==4 || $data['userdetails']['role']==1){
 				$this->load->view('header1');
+				if($data['userdetails']['role']==4){
 				$data['bill_list'] = $this->Employee_model->get_invoice_list($userdetails['emp_id']);
+				}else{
+					$data['bill_list'] = $this->Employee_model->get_all_invoice_list();
+				}
 				$this->load->view('sidebar',$data);
 				$this->load->view('invoice_list',$data);
 				//$this->load->view('footer');
@@ -288,6 +299,14 @@ class Payment extends CI_Controller {
 							'staus'=>1,
 							);
 							$this->Employee_model->update_project_bills($biil_save,$update_data);
+							$this->email->set_newline("\r\n");
+							$this->email->from('sales@prachatech.com');
+							$this->email->to($data['billing_details']['email_id']);
+							$this->email->subject($data['billing_details']['project'].' Inovice');
+							$this->email->message('Please find out below attachment');
+							$this->email->attach($pdfFilePath);
+							$this->email->send();
+							
 							//echo $this->db->last_query();exit;
 							redirect('payment/bill_list');
 						
