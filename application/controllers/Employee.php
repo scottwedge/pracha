@@ -135,13 +135,15 @@ class Employee extends CI_Controller {
 				$data['month']=$post['month'];			
 				$data['workeddays']=$post['workeddays'];			
 				$data['workingdays']=$post['workingdays'];			
-				$data['grossearning']=$post['grossearning'];			
+				$data['grossearning']= $post['grossearning'];			
+				$data['grossearning_lop']= ($post['grossearning'])- ($post['grossdeduction']);			
 				$data['grossdeduction']=$post['grossdeduction'];		
 				$data['lop']=$post['workingdays']- $post['workeddays'];		
 				$data['heading']=date("F").' '.date('Y');	
 				$pdfFilePath = $path."/assets/payslips/".$file_name;
 				ini_set('memory_limit','320M'); // boost the memory limit if it's low <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="??" draggable="false" class="emoji">
 				$html =$this->load->view('pdf',$data, true); // render the view into HTML
+				//echo '<pre>';print_r($html);exit;
 				$this->load->library('pdf');
 				$pdf = $this->pdf->load();
 				$pdf->SetFooter($_SERVER['HTTP_HOST'].'|{PAGENO}|'.date('M-d-Y')); // Add a footer for good measure <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="??" draggable="false" class="emoji">

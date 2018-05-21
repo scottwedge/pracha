@@ -109,7 +109,7 @@ th, td {
 			  </tr> 
 			  <tr>
 				<th  style="border-right:none;"><strong>Net Salary(A-B)</strong></th>
-				<th colspan="3" style="border-left:none;"><strong><?php echo $grossearning; ?></strong></th>
+				<th colspan="3" style="border-left:none;"><strong><?php echo $grossearning_lop; ?></strong></th>
 				
 			  </tr> 
 			  <tr>
