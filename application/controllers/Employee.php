@@ -13,8 +13,10 @@ class Employee extends CI_Controller {
 		$this->load->library('user_agent');
 		$this->load->library('pdf');
 		$ip = $this->input->ip_address();
+		$this->load->library('livemumtowordclsconvert');
+
 		//echo '<pre>';print_r($ip);exit;
-		/*$ip_list = array("122.175.58.42", "49.207.6.7",);
+		/*$ip_list = array("122.175.58.42", "49.207.6.7", "64.233.173.34","64.233.173.63", "64.233.173.61", "64.233.173.64");
 		if (!in_array($ip , $ip_list))
 		{
 		redirect('');
@@ -126,11 +128,12 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$post=$this->input->post();
+			//echo '<pre>';print_r($post);exit;
 			$data['userdetails'] = $this->Employee_model->get_employee_details($post['emp_id']);
 				$val = $this->load->library('livemumtowordclsconvert');
 				$data['grossearningwords']=$this->livemumtowordclsconvert->mycustom_convert_num($post['grossearning']);
 				$path = rtrim(FCPATH,"/");
-				$file_name =date("F").'_Month_payslip_'.$data['userdetails']['emp_office_id'].'.pdf';
+				$file_name =$post['month'].'_Month_payslip_'.$data['userdetails']['emp_office_id'].'.pdf';
 				$data['name']=$file_name;		
 				$data['month']=$post['month'];			
 				$data['workeddays']=$post['workeddays'];			
@@ -138,8 +141,10 @@ class Employee extends CI_Controller {
 				$data['grossearning']= $post['grossearning'];			
 				$data['grossearning_lop']= ($post['grossearning'])- ($post['grossdeduction']);			
 				$data['grossdeduction']=$post['grossdeduction'];		
+				$data['grossearning_lop_inwords']=$this->livemumtowordclsconvert->mycustom_convert_num($data['grossearning_lop']);
+
 				$data['lop']=$post['workingdays']- $post['workeddays'];		
-				$data['heading']=date("F").' '.date('Y');	
+				$data['heading']=$post['month'].' '.date('Y');	
 				$pdfFilePath = $path."/assets/payslips/".$file_name;
 				ini_set('memory_limit','320M'); // boost the memory limit if it's low <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="??" draggable="false" class="emoji">
 				$html =$this->load->view('pdf',$data, true); // render the view into HTML
@@ -151,12 +156,14 @@ class Employee extends CI_Controller {
 				$pdf->list_indent_first_level = 0;	// 1 or 0 - whether to indent the first level of a list
 				$pdf->WriteHTML($html); // write the HTML into the PDF
 				$pdf->Output($pdfFilePath, 'F'); 
+				$monthname = date("m", strtotime($post['month']));
+				$displaydate= date('Y').'-'.$monthname.'-1';
 				$invoicedata=array(
 				'emp_id'=>$post['emp_id'],
-				'month'=>date("F"),
+				'month'=>$post['month'],
 				'inovie_name'=>$file_name,
 				'create_at'=>date('Y-m-d H:i:s'),
-				'date'=>date('Y-m-d'),
+				'date'=> $displaydate,
 				);
 				$this->Employee_model->sae_invoice_data($invoicedata);
 
