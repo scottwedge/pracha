@@ -184,6 +184,40 @@
 		</div>
   
 	</div>
+	<div class="row  pt-5 mt-4  ">
+        
+		
+		
+		<div class="col-lg-4 col-xs-12  ">
+		<div class="card  pad-10">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-2 mb-2">
+                <img src="<?php echo base_url(); ?>assets/vendor/img/key-elements-to-design-a-best-website.png" class="img-fluid" alt="Key elements to design a best website">
+               <a href="<?php echo base_url('blog/key_elements_to_design_a_best_website');?>">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            
+            <h3 class="mb-3  dark-grey-text font-25 mar-t20">
+                <strong>Key Elements To Be Considered While Designing A  Website</strong>
+            </h3>
+           
+            <p class="grey-text">How important is it to have an amazing website for your commercial enterprise? In general we say that “The first impression is the best impression” and it is also applicable to a website!
+</p>
+<br>
+			<div class="row">
+				<div class="col-md-7 ">
+					<p class="date-design">30-April-2018</p>
+				</div>
+				<div class="col-md-5 ">
+					<a href="<?php echo base_url('blog/key_elements_to_design_a_best_website');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
+				</div>
+			</div>
+        </div> 
+		</div>
+  
+	</div>
 
 </section>
 <!--Section: Blog v.2-->
