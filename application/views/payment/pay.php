@@ -11,6 +11,7 @@
 	 
  }
  </style>
+ <?php //echo "<pre>";print_r($bill_details);exit; ?>
 <div class="container " style="margin-top:100px;">
 <div class="row justify-content-md-center">
 <div class=" col-md-6 card py-2">
@@ -22,38 +23,38 @@
 <table class="table table-bordered">
 	<tr>
         <th>Name</th>
-		<td>Siva Nag</td>
+		<td><?php echo isset($bill_details['name'])?$bill_details['name']:''; ?></td>
      </tr>
 	 <tr>
         <th>Email Address</th>
-		<td>sales@gmail.com</td>
+		<td><?php echo isset($bill_details['email_id'])?$bill_details['email_id']:''; ?></td>
      </tr>
 	 <tr>
         <th>Mobile</th>
-		<td>8500226782</td>
+		<td><?php echo isset($bill_details['mobile_no'])?$bill_details['mobile_no']:''; ?></td>
      </tr>
 	<tr>
         <th>Project</th>
-		<td>Knc Ecommerce</td>
+		<td><?php echo isset($bill_details['project'])?$bill_details['project']:''; ?></td>
      </tr>	
 	 <tr>
         <th>Amount</th>
-		<td>50000</td>
+		<td><?php echo isset($bill_details['amount'])?$bill_details['amount']:''; ?></td>
      </tr>
 	 <tr>
         <th>Pay</th>
-		<td>20000</td>
+		<td><?php echo isset($bill_details['pay'])?$bill_details['pay']:''; ?></td>
      </tr><tr>
         <th>Due</th>
-		<td>30000</td>
+		<td><?php echo isset($bill_details['due'])?$bill_details['due']:''; ?></td>
      </tr>
 	 <tr>
         <th>Payment Mode</th>
-		<td>Online Payment</td>
+		<td><?php if($bill_details['payment_type']==1){ echo "Online bank"; }else if($bill_details['payment_type']==2){ echo "Cash";}else if($bill_details['payment_type']==3){ echo "Other"; } ?></td>
      </tr> 
 	 <tr>
         
-		<td colspan="2"><strong>Address:</strong> Online Payment</td>
+		<td colspan="2"><strong>Address:</strong> <?php echo isset($bill_details['adress'])?$bill_details['adress']:''; ?></td>
      </tr>
  
   </table>
@@ -62,7 +63,7 @@
 <div class="container">
 <div class="row justify-content-md-center">
 <div class="col-md-3">
-	<button class="btn btn-warning">Edit</button>
+	<a href="<?php echo base_url('payment/billing/'.base64_encode($bill_details['b_id'])); ?>" class="btn btn-warning">Edit</a>
 </div>
 <div class="col-md-3">
 <form  id="paymentform" name="paymentform" action="<?php echo base_url('payment/success'); ?>" method="POST">
@@ -84,7 +85,7 @@
   >
   </script>
   <!-- Any extra fields to be submitted with the form but not sent to Razorpay -->
-  <!--<input type="hidden" name="shopping_order_id" value="3456">-->
+  <input type="hidden" name="b_id" value="<?php echo isset($bill_details['b_id'])?$bill_details['b_id']:''; ?>">
 </form>
 </div>
 </div>

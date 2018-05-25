@@ -28,21 +28,30 @@
 			<div class="col-md-6">
 				<select class="mdb-select" id="month" name="month" required="true">
 					<option value="" disabled selected>Choose your Month</option>
-					<?php  for ($i = 1; $i < 2; $i++) { ?>
-					<option value="<?php echo date('F', strtotime("-$i month")); ?>"><?php echo date('F', strtotime("-$i month")); ?></option>
-					<?php } ?>
-					<option value="<?php  echo date('F'); ?>"><?php  echo date('F'); ?></option>
+					<option value="January">January</option>
+					<option value="February" >February</option>
+					<option value="March">March</option>
+					<option value="April">April</option>
+					<option value="May">May</option>
+					<option value="June">June</option>
+					<option value="July">July</option>
+					<option value="August">August</option>
+					<option value="September">September</option>
+					<option value="October">October</option>
+					<option value="November">November</option>
+					<option value="December">December</option>
+					
 				</select>
 				
 			</div>
 			
 			<div class="form-group col-md-6">
-				<label for="exampleInputEmail">Days worked</label>
-				<input type="text" class="form-control"  id="workeddays" name="workeddays" required="true" placeholder="Working Days" value="">
+				<label for="exampleInputEmail">Company worked days</label>
+				<input type="text" class="form-control"  id="workeddays" name="workeddays" required="true" placeholder="Company worked days" value="">
 			</div>
 			<div class="form-group col-md-6">
-				<label for="exampleInputEmail">Working Days</label>
-				<input type="text" class="form-control"  id="workingdays" name="workingdays" required="true" placeholder="Working Days" value="">
+				<label for="exampleInputEmail">Employee Worked Days</label>
+				<input type="text" class="form-control"  id="workingdays" name="workingdays" required="true" placeholder="Employee Worked Days" value="">
 			</div>
 			<div class="form-group col-md-6">
 		  				<label for="exampleInputUsername">Gross Earnings</label>

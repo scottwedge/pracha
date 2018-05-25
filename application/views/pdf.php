@@ -44,13 +44,13 @@ th, td {
 				<td><?php if($userdetails['pfnumber']!=''){ echo $userdetails['pfnumber'];}else{ "NILL"; } ?></td>
 			  </tr>
 			  <tr>
-				<th >Days worked</th>
+				<th >Company Worked Days</th>
 				<td><?php echo $workeddays; ?></td>
 				<th>Mode of Payment</th>
 				<td>Bank</td>
 			  </tr>
 			  <tr>
-				<th >Working Days</th>
+				<th >Employee Worked Days</th>
 				<td><?php echo $workingdays; ?></td>
 				<th>Bank Name</th>
 				<td><?php echo $userdetails['bankname']; ?></td>
@@ -109,11 +109,11 @@ th, td {
 			  </tr> 
 			  <tr>
 				<th  style="border-right:none;"><strong>Net Salary(A-B)</strong></th>
-				<th colspan="3" style="border-left:none;"><strong><?php echo $grossearning; ?></strong></th>
+				<th colspan="3" style="border-left:none;"><strong><?php echo $grossearning_lop; ?></strong></th>
 				
 			  </tr> 
 			  <tr>
-				<th style="text-align:left" colspan="4"><i>Net Salary(in words):   <?php echo $grossearningwords; ?></i></th>
+				<th style="text-align:left" colspan="4"><i>Net Salary(in words):   <?php echo $grossearning_lop_inwords; ?></i></th>
 				
 			  </tr> 
 			</table>

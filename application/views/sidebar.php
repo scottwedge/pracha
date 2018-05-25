@@ -15,6 +15,7 @@
 		<a href="<?php echo base_url('employee/suggestion'); ?>"><li>Complaint/ Suggestion Box</li></a>
 		<a href="<?php echo base_url('employee/task'); ?>"><li>Task Mangagment </li></a>
 		<a href="<?php echo base_url('employee/last_month_login_report'); ?>"><li>Last Month Login A & Logout TIme Sheet</li></a>
+		<a href="<?php echo base_url('payment/bill_list'); ?>"><li>Invoice List</li></a>
 		<?php }else{  ?>
 		<a href="<?php echo base_url('employee/leaves'); ?>"><li>Leave Management</li></a>
 		<a href="<?php echo base_url('employee/holidays_list'); ?>"><li>Holidays List</li></a>
