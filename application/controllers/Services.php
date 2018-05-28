@@ -20,12 +20,12 @@ class Services extends CI_Controller {
 		$this->load->view('services');
 		$this->load->view('footer');
 	}
-	public function combo()
+	/*public function combo()
 	{
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('comboprice');
 		$this->load->view('footer');
 	}
-	
+	*/
 }

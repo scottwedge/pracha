@@ -28,9 +28,6 @@
 						<option value="1">HR</option>
 						<option value="3" >Employee</option>
 						<option value="4" >Sales</option>
-						<?php foreach($emp_list as $lis){ ?>
-						<option value="<?php echo $lis['emp_id']; ?>"><?php echo $lis['emp_name']; ?></option>
-						<?php } ?>
 						</select>
 			  		</div>
 					<div class="form-group col-md-6">

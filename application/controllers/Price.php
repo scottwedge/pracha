@@ -30,13 +30,13 @@ class Price extends CI_Controller {
 		
 	}
 
-	public function estimate()
+	/*public function estimate()
 	{
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('priceviewpage');
 		$this->load->view('footer');
-	}
+	}*/
 	/*public function details()
 	{
 		
