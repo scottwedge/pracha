@@ -8,7 +8,7 @@
 	<div class="text-center container-sty text-white">
 		<div class="row justify-content-center">
 		<div class="col-md-10">
-		<h2 class="py-5 text-shad"> Quality work & Customer service are the two main pillars of our company. Our dedicated and proficient team will solve all your issues and leads your projects in a successful way. We will be with you through out the project as per company norms, to achieve the desired results .</h2>
+		<div class="py-5 text-shad font-20 font-bold"> Quality work & Customer service are the two main pillars of our company. Our dedicated and proficient team will solve all your issues and leads your projects in a successful way. We will be with you through out the project as per company norms, to achieve the desired results .</div>
 		<div class="py-3">
 		<a href="<?php echo base_url('contactus');?>" class="btn btn-warning btn-rounded " style="font-size:20px;">Let’s talk!</a>
 			
@@ -29,7 +29,7 @@
           <div class="row  algin-pos-left">
             <div class="col-md-5 ">
 			<div class="help-foot-banner">
-			<h2 class="text-warning">End-To-End Solutions</h2>
+			<h4 class="text-warning font-25">End-To-End Solutions</h4>
 			<p>For every problem there is a solution! </p>
 			<p>For every bug there is a debugging process.</p>
 			<p>We have the ability to provide solutions for complicated issues through our vast tech tools & experts for the "WWW."s </p>
@@ -39,7 +39,7 @@
 		  <div class="row  justify-content-center">
             <div class="col-md-5 ">
 			<div class="help-foot-banner">
-			<h2 class="text-warning">Cost-Effective</h2>
+			<h4 class="text-warning font-25">Cost-Effective</h4>
 			<p>We can assure that we are one of the best web designing companies in Hyderabad, who can provide a quality service at affordable prices. We will give you a turnkey solution and will help you end-to-end.</p>
 			</div>
             </div>
@@ -47,7 +47,7 @@
 		  <div class="row justify-content-right ">
             <div class="col-md-5  algin-pos-right">
 			<div class="help-foot-banner">
-			<h2 class="text-warning">We are here for you</h2>
+			<h4 class="text-warning font-25">We are here for you</h4>
 			<p> Many of our clients have certified that our web designing services and digital marketing services are appraisable. We are here to help and encorage your business to present it online.</p>
 			</div>
             </div>
@@ -61,9 +61,9 @@
 	<div class="text-center container-sty text-white">
 		<div class="row justify-content-center">
 		<div class="col-md-10">
-		<h3 class="py-2 ">Assuredly Your digital presence is Your online reputation, and the million dollar question is, how have you presented yourself?</h3>
-		<h2 class="py-5 font-weight-bold">Join Us! We will present your business much better on online.</h2>
-		<p class="pull-right">— Pracha Technologies Pvt. Ltd.</p>
+		<div class="py-2 font-28">Assuredly Your digital presence is Your online reputation, and the million dollar question is, how have you presented yourself?</div>
+		<div class="py-5 font-weight-bold font-25">Join Us! We will present your business much better on online.</div>
+		<h2 class="pull-right">— Pracha Technologies Pvt. Ltd.</h2>
 		</div>
 		</div>
 	</div>
@@ -128,7 +128,7 @@
 			  </div>
 			  <div class="col-md-6">
 				<div> 
-					<h5><strong>Prachatech Software Solutions</strong></h5>
+					<h2>Prachatech Software Solutions</h2>
 					<p>Phone Number:040-48541273</p>
 					<p>
 					Plot No. 177,<br>
@@ -152,7 +152,7 @@
 
             <!--First column-->
             <div class="col-md-4">
-                <h5 class="title-footer mb-4 mt-3 font-bold">Our Address</h5>
+                <h6 class="title-footer mb-4 mt-3 font-bold font-20" style="letter-spacing: 0px;">Our Address</h6>
                 <p>Plot No. 177, Sri Vani Nilayam, 1st floor,<br> Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad, <br>Telangana - 500072.</p>
             </div>
             <!--/.First column-->
@@ -165,7 +165,7 @@
 
             <!--Third column-->
             <div class="col-md-2 mx-auto">
-                <h5 class="title-footer mb-4 mt-3 font-bold">Services</h5>
+                <h6 class="title-footer mb-4 mt-3 font-bold font-20" style="letter-spacing: 0px;">Services</h6>
                 <ul>
 				     
           
@@ -185,7 +185,7 @@
 
             <!--Fourth column-->
             <div class="col-md-2 mx-auto">
-                <h5 class="title-footer mb-4 mt-3 font-bold ">Our Webfolio</h5>
+                <h6 class="title-footer mb-4 mt-3 font-bold font-20" style="letter-spacing: 0px;">Our Webfolio</h6>
                 <ul>
 				
 
@@ -212,7 +212,7 @@
     <!--Social buttons-->
 	<div class="social-section text-center footer-copyright">
         <ul>
-		<li><h5>Follow us @</h5></li>
+		<li><h6 class="title-footer mb-4 mt-3 font-bold font-20" style="letter-spacing: 0px;">Follow us @</h6></li>
             <li>&nbsp;</li>
             <li><a href="https://www.facebook.com/prachatech/" target="_blank" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
             <li><a href="https://twitter.com/Prachatech" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
@@ -257,4 +257,3 @@
 </body>
 
 </html>
-for

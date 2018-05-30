@@ -127,11 +127,11 @@
         <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
 
-                <h2>
+                <h3 class="font-bold">
                     <span class="tit">
 									<span class="des_t">Our</span> Services
                     </span>
-                </h2>
+                </h3>
 
 
             </div>
@@ -149,9 +149,9 @@
                         <i class="hi-icon fa fa-globe" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe">UI & UX DESIGNING
+                        <h2 class="font-color_base no_stripe">UI & UX DESIGNING
 								
-									</h5>
+									</h2>
                     </div>
                     <div class="service_content">
 						<div class="pad-lr30">
@@ -184,7 +184,7 @@
                         <i class="hi-icon fa fa-television" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe">WEB DEVELOPMENT</h5>
+                        <h2 class="font-color_base no_stripe">WEB DEVELOPMENT</h2>
                     </div>
                     <div class="service_content">
 						<div class="pad-lr30">
@@ -212,7 +212,7 @@
                         <i class="hi-icon fa fa-mobile" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe"> MOBILE APPLICATIONS</h5>
+                        <h2 class="font-color_base no_stripe"> MOBILE APPLICATIONS</h2>
                     </div>
                     <div class="service_content">
 							<div class="pad-lr30">
@@ -240,7 +240,7 @@
                         <i class="hi-icon fa fa-industry" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe">DIGITAL MARKETING </h5>
+                        <h2 class="font-color_base no_stripe">DIGITAL MARKETING </h2>
                     </div>
                     <div class="service_content">
 							<div class="pad-lr30">
@@ -298,7 +298,7 @@
                         <i class="hi-icon fa fa-shopping-basket" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe">E-COMMERCE DEVELOPMENT</h5>
+                        <h2 class="font-color_base no_stripe">E-COMMERCE DEVELOPMENT</h2>
                     </div>
                     <div class="service_content">
                         <div class="pad-lr30">
@@ -327,7 +327,7 @@
                         <i class="hi-icon fa fa-keyboard-o" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h5 class="font-color_base no_stripe">WEB MAINTENANCE </h5>
+                        <h2 class="font-color_base no_stripe">WEB MAINTENANCE </h2>
                     </div>
                     <div class="service_content">
                         <div class="pad-lr30">
@@ -365,11 +365,11 @@
         <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
 
-                <h2 class="wow flipInX" data-wow-delay="0.1s" style="visibility: visible; animation-name: flipInX; animation-delay: 0.2s;">
+                <h3 class="wow flipInX font-bold" data-wow-delay="0.1s" style="visibility: visible; animation-name: flipInX; animation-delay: 0.2s;">
                     <span class="tit "> 
 									 <span class="des_t">Industries </span>we serve
                     </span>
-                </h2>
+                </h3>
 
 
             </div>
@@ -501,11 +501,11 @@
         <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
 
-                <h2>
+                <h3 class="font-bold">
                     <span class="tit"> 
 									How <span class="des_t">We</span>  Work?
                     </span>
-                </h2>
+                </h3>
 
 
             </div>
@@ -532,11 +532,11 @@
         <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
 
-                <h2>
+                <h3 class="font-bold">
                     <span class="tit" style="text-transform: none;"> 
 									Our<span class="des_t"> Support & Services</span> 
                     </span>
-                </h2>
+                </h3>
 				<div class="clearfix">&nbsp;</div>
 				 <p class="text-center mb-5 ">Leave your online presence responsibility      to us and focus on your Core Business.</p>
 
@@ -616,11 +616,11 @@
         <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
 
-                <h2>
+                <h3 class="font-bold">
                     <span class="tit">
 									We Elevate<span class="des_t"> Your Business </span> 
                     </span>
-                </h2>
+                </h3>
 				<div class="clearfix">&nbsp;</div>
 				 <p class="text-center mb-5 pb-3">Technology is the only thing that can truly perform a miracle and make ideas success in the real world.</p>
 
@@ -734,11 +734,11 @@
         <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
 
-                <h2>
+                <h3 class="font-bold">
                     <span class="tit">
 									Why <span class="des_t">Choose </span>us ?
                     </span>
-                </h2>
+                </h3>
 				<div class="clearfix">&nbsp;</div>
 				 <p class="text-center mb-5 pb-3">Try us! Yeah, You make it worth of Trying us.</p>
 
@@ -768,7 +768,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text"> We are entrusted with the most professional and advanced resources</h5>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We are entrusted with the most professional and advanced resources</div>
             
         </div>
         </div>
@@ -782,7 +782,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">We have a Passionate team of Creativity and problem Solving </h5> 
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We have a Passionate team of Creativity and problem Solving </div> 
             
         </div>
         </div>
@@ -794,7 +794,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">We focus on your Core Business</h5>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We focus on your Core Business</div>
             
         </div>
         </div>
@@ -806,7 +806,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">We offer a dedicative team to support you</h5>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We offer a dedicative team to support you</div>
             <p class="grey-text text-left"></p>
         </div>
         </div>
@@ -815,7 +815,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <h5 class="font-bold text-left mb-3 dark-grey-text">We Deliver your projects in Time</h5>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We Deliver your projects in Time</div>
             
         </div>
         </div>
@@ -920,11 +920,11 @@
     <div class="container-sty card ">
 			<div class="row  text-center">
 				<div class="col-sm-12 mb-20 pt-30">
-					<h2 class="tex-lef-mob">
+					<h3 class="tex-lef-mob font-bold">
 						<span class="tit"><span class="des_t">Pricing </span>
 						 
 						</span>
-					</h2>
+					</h3>
 					<div class="clearfix">&nbsp;</div>
 				 <p class="text-center mb-5 ">This is not an expenditure, but an investment on your business!</p>
 				</div>
