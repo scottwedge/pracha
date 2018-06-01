@@ -109,7 +109,7 @@
     <!--Grid column-->
     <div class="col-lg-8 col-xl-8 pb-3">
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
-			<strong>Social Media Marketing.</strong>
+			<strong>Social Media Marketing</strong>
         </h2>
          <p>Social media marketing is the process of acquiring traffic or attention towards your website through social media sites. These social media networks radically spreads the information across the world by "Share button" , which may lead to various social actions. By using our vast social media network we promote your website digitally on social media (Facebook, Twitter, Linkedin, Pinterest, Google+ etc), so that there will be  a great opportunity for your business to reach maximum number of customers. We as a digital marketing company in hyderabad, have the ability to focus on particular age groups, gender and geographical locations depending upon your product or service.  </p> 
         
