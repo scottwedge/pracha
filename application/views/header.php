@@ -34,23 +34,23 @@
 <!--Main Navigation-->
 <header>
  <nav class="navbar fixed-top navbar-expand-lg navbar-dark  bg-dark scrolling-navbar" id="home" >
-   <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/vendor/img/logo.png" alt="logo"></a>
+   <a href="<?php echo base_url('digital-marketing-and-web-designing-company-in-hyderabad'); ?>"><img src="<?php echo base_url(); ?>assets/vendor/img/logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
 			<ul class="nav navbar-nav  ml-auto">
-				<li class="nav-item <?php if($currentURL==base_url()){ echo "active-menu"; } ?> " id="homepageative"><a href="<?php echo base_url(); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
-				<li class="nav-item sm-hide <?php if($currentURL==base_url('start_up.xml') || $currentURL==base_url('enterprise.xml') || $currentURL==base_url('servicesrm.xml') || $currentURL==base_url('develop_service.xml') || $currentURL==base_url('mobile_application.xml') || $currentURL==base_url('digitalmarketing.xml') || $currentURL==base_url('ecommerce.xml') || $currentURL==base_url('maintainence.xml') || $currentURL==base_url('services.xml')){ echo "active-menu"; } ?>" > 
+				<li class="nav-item <?php if($currentURL==base_url() || $currentURL==base_url('digital-marketing-and-web-designing-company-in-hyderabad.xml')){ echo "active-menu"; } ?> " id="homepageative"><a href="<?php echo base_url('digital-marketing-and-web-designing-company-in-hyderabad'); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
+				<li class="nav-item sm-hide <?php if($currentURL==base_url('start_up.xml') ||$currentURL==base_url('web-designing-agency-in-hyderabad-ui-and-ux-design.xml') || $currentURL==base_url('enterprise.xml') || $currentURL==base_url('servicesrm.xml') || $currentURL==base_url('web-development-company-in-hyderabad.xml') || $currentURL==base_url('mobile-app-development-company-in-hyderabad.xml') || $currentURL==base_url('digital-marketing-company-in-hyderabad.xml') || $currentURL==base_url('ecommerce.xml') || $currentURL==base_url('maintainence.xml') || $currentURL==base_url('web-designing-services-in-hyderabad.xml')){ echo "active-menu"; } ?>" > 
 				<div class="dropdown">
-					<a href="<?php echo base_url('services'); ?>" class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
+					<a href="<?php echo base_url('web-designing-services-in-hyderabad'); ?>" class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
 				  <div class="dropdown-content1">
 				  <div class="row">
 				  <div class="col-md-6 bor-left">
-					<a href="<?php echo base_url('ui_and_ux_design'); ?>">UI & UX Designing</a>
-					<a href="<?php echo base_url('web_development'); ?>">Web Development</a>
-					<a href="<?php echo base_url('mobile_applications'); ?>">Mobile Applications</a>
-					<a href="<?php echo base_url('digital_marketing'); ?>"> Digital Marketing</a>
+					<a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>">UI & UX Designing</a>
+					<a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>">Web Development</a>
+					<a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>">Mobile Applications</a>
+					<a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>"> Digital Marketing</a>
 					<!--<a href="<?php echo base_url('seo'); ?>">SEO</a>-->
 				
 					<a href="<?php echo base_url('website_maintainence'); ?>"> Software Maintenance</a>
@@ -73,12 +73,12 @@
 				  <div class="dropdown-content1">
 				  <div class="row">
 				  <div class="col-md-6 bor-left">
-					<a href="<?php echo base_url('ui_and_ux_design'); ?>">UI & UX Designing</a>
-					<a href="<?php echo base_url('web_development'); ?>">Web Development</a>
-					<a href="<?php echo base_url('mobile_applications'); ?>">Mobile Applications</a>
-					<a href="<?php echo base_url('digital_marketing'); ?>"> Digital Marketing</a>
+					<a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>">UI & UX Designing</a>
+					<a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>">Web Development</a>
+					<a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>">Mobile Applications</a>
+					<a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>"> Digital Marketing</a>
 					<!--<a href="<?php echo base_url('seo'); ?>">SEO</a>-->
-					
+				
 					<a href="<?php echo base_url('website_maintainence'); ?>"> Software Maintenance</a>
 					
 				  </div>

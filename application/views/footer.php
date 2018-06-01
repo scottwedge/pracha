@@ -170,10 +170,10 @@
 				     
           
 
-                    <li><a href="<?php echo base_url('ui_and_ux_design'); ?>">UI & UX Designing </a></li>
-                    <li><a href="<?php echo base_url('web_development'); ?>">Web Development</a></li>
-                    <li><a href="<?php echo base_url('mobile_applications'); ?>">Mobile Applications</a></li>
-                    <li><a href="<?php echo base_url('digital_marketing'); ?>">Digital Marketing </a></li>
+                    <li><a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>">UI & UX Designing </a></li>
+                    <li><a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>">Web Development</a></li>
+                    <li><a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>">Mobile Applications</a></li>
+                    <li><a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>">Digital Marketing </a></li>
                    <!-- <li><a href="<?php echo base_url('seo'); ?>">  SEO </a></li>-->
                     <li><a href="<?php echo base_url('ecommerce'); ?>">eCommerce</a></li>
                     <li><a href="<?php echo base_url('website_maintainence'); ?>"> Maintenance </a></li>

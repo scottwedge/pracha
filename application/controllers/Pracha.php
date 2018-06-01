@@ -17,6 +17,8 @@ class Pracha extends CI_Controller {
 	{
 		
 		$data['currentURL'] = current_url();
+		
+		//echo '<pre>';print_r($data);exit;
 		$this->load->view('header',$data);
 		$this->load->view('index');
 		$this->load->view('footer');
