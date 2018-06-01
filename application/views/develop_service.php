@@ -43,26 +43,28 @@
         <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="best web development company in hyderabad"></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link active"  href="#ui-ux" role="tab">Custom Application Development</a>
+        <a class="nav-link active"  href="#custom-application-development" role="tab">Custom Application Development</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link "  href="#web-dev" role="tab">Content Management System (CMS)</a>
+        <a class="nav-link "  href="#content-management-system" role="tab">Content Management System (CMS)</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#mob-app" role="tab">eCommerce Development</a>
+        <a class="nav-link"  href="#eCommerce-development" role="tab">eCommerce Development</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#e-comm-scroll" role="tab">MEAN Stack Development</a>
+        <a class="nav-link"  href="#MEAN-stack-development" role="tab">MEAN Stack Development</a>
     </li>
 </ul>
 </div>
 </section>
-<section class="py-4 text-center text-lg-left">
+<div class="mb-5 mt-5 pb-3" id="custom-application-development">&nbsp;</div>
+<section class="py-4 text-center text-lg-left ">
 <div class="container-sty  mar-t2" >
 <!-- Tab panels -->
 <div class="tab-content"><!--Panel 1-->
     <div class=" active" >
-    <div class="row">
+	
+    <div class="row" >
 
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
@@ -90,7 +92,7 @@
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-5 pb-3" id="web-dev">
+    <hr class="mb-5 mt-5 pb-3" id="content-management-system">
 
     <!--Grid row-->
     <div class="row">
@@ -122,7 +124,7 @@
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-4 pb-3" id="mob-app">
+    <hr class="mb-5 mt-4 pb-3" id="eCommerce-development">
 
     <!--Grid row-->
     <div class="row pb-5">
@@ -151,7 +153,7 @@
     <!--Grid column-->
 
     </div>
-	<hr class="mb-5 mt-5 pb-3" id="e-comm-scroll">
+	<hr class="mb-5 mt-5 pb-3" id="MEAN-stack-development">
 
     <!--Grid row-->
     <div class="row">

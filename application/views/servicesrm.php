@@ -36,22 +36,22 @@
 </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link active"  href="#ui-ux" role="tab">Site Architecture and design</a>
+        <a class="nav-link active"  href="#site-architecture-and-design" role="tab">Site Architecture and Design</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link "  href="#web-dev" role="tab">Static & Dynamic Website Design</a>
+        <a class="nav-link "  href="#static-and-dynamic-website-design" role="tab">Static & Dynamic Website Design</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#mob-app" role="tab">Responsive Web Design</a>
+        <a class="nav-link"  href="#responsive-web-design" role="tab">Responsive Web Design</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#e-comm-scroll" role="tab">Custom Web Design</a>
+        <a class="nav-link"  href="#custom-web-design" role="tab">Custom Web Design</a>
     </li>
 	  <li class="nav-item">
-        <a class="nav-link"  href="#dig-mar" role="tab">Corporate Website Design</a>
+        <a class="nav-link"  href="#corporate-website-design" role="tab">Corporate Website Design</a>
     </li> 
 		<li class="nav-item">
-        <a class="nav-link"  href="#maintain" role="tab">Template Design & Customization
+        <a class="nav-link"  href="#template-design-and-customization" role="tab">Template Design & Customization
 </a>
     </li>
 	
@@ -94,7 +94,7 @@
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-5 pb-3" id="web-dev">
+    <hr class="mb-5 mt-5 pb-3" id="static-and-dynamic-website-design">
 
     <!--Grid row-->
     <div class="row">
@@ -129,7 +129,7 @@
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-4 pb-3" id="mob-app">
+    <hr class="mb-5 mt-4 pb-3" id="responsive-web-design">
 
     <!--Grid row-->
     <div class="row pb-5">
@@ -160,7 +160,7 @@
     <!--Grid column-->
 
     </div>
-	<hr class="mb-4 mt-4 pb-3" id="e-comm-scroll">
+	<hr class="mb-4 mt-4 pb-3" id="custom-web-design">
 
     <!--Grid row-->
     <div class="row">
@@ -192,7 +192,7 @@
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-4 pb-3" id="dig-mar">
+    <hr class="mb-5 mt-4 pb-3" id="corporate-website-design">
 
     <!--Grid row-->
     <div class="row pb-5">
@@ -226,7 +226,7 @@
     </div>
     <!--Grid row-->
 
-	 <hr class="mb-5 mt-4 pb-3" id="maintain">
+	 <hr class="mb-5 mt-4 pb-3" id="template-design-and-customization">
 
     <!--Grid row-->
     <div class="row">

@@ -44,22 +44,22 @@
         <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="logo Mobile App Development Company In Hyderabad"></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link active"  href="#ui-ux" role="tab">iOS Application Development</a>
+        <a class="nav-link active"  href="#iOS-application-development" role="tab">iOS Application Development</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link "  href="#web-dev" role="tab">Android Application Development</a>
+        <a class="nav-link "  href="#android-application-development" role="tab">Android Application Development</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#mob-app" role="tab">Hybrid Mobile Applications</a>
+        <a class="nav-link"  href="#hybrid-mobile-applications" role="tab">Hybrid Mobile Applications</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#e-comm-scroll" role="tab">Mobile Integration</a>
+        <a class="nav-link"  href="#mobile-integration" role="tab">Mobile Integration</a>
     </li>
 	  <li class="nav-item">
-        <a class="nav-link"  href="#dig-mar" role="tab">Mobile Application Testing</a>
+        <a class="nav-link"  href="#mobile-application-testing" role="tab">Mobile Application Testing</a>
     </li> 
 		<li class="nav-item">
-        <a class="nav-link"  href="#maintain" role="tab">Mobile Application Security
+        <a class="nav-link"  href="#mobile-application-security" role="tab">Mobile Application Security
 </a>
     </li>
 	
@@ -102,7 +102,7 @@
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-5 pb-3" id="web-dev">
+    <hr class="mb-5 mt-5 pb-3" id="android-application-development">
 
     <!--Grid row-->
     <div class="row">
@@ -135,7 +135,7 @@
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-4 pb-3" id="mob-app">
+    <hr class="mb-5 mt-4 pb-3" id="hybrid-mobile-applications">
 
     <!--Grid row-->
     <div class="row pb-5">
@@ -164,7 +164,7 @@
     <!--Grid column-->
 
     </div>
-	<hr class="mb-5 mt-5 pb-3" id="e-comm-scroll">
+	<hr class="mb-5 mt-5 pb-3" id="mobile-integration">
 
     <!--Grid row-->
     <div class="row">
@@ -195,7 +195,7 @@
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-4 pb-3" id="dig-mar">
+    <hr class="mb-5 mt-4 pb-3" id="mobile-application-testing">
 
     <!--Grid row-->
     <div class="row pb-5">
@@ -227,7 +227,7 @@
     </div>
     <!--Grid row-->
 
-	 <hr class="mb-5 mt-4 pb-3" id="maintain">
+	 <hr class="mb-5 mt-4 pb-3" id="mobile-application-security">
 
     <!--Grid row-->
     <div class="row">

@@ -40,22 +40,22 @@
         <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="digital marketing company in hyderabad"></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link active"  href="#ui-ux" role="tab">SEO</a>
+        <a class="nav-link active"  href="#seo" role="tab">SEO</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link "  href="#web-dev" role="tab">Social Media Marketing</a>
+        <a class="nav-link "  href="#social-media-marketing" role="tab">Social Media Marketing</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#mob-app" role="tab"> Google Adwords</a>
+        <a class="nav-link"  href="#google-adwords" role="tab"> Google Adwords</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#e-comm-scroll" role="tab">Content Marketing</a>
+        <a class="nav-link"  href="#content-marketing" role="tab">Content Marketing</a>
     </li>
 	  <li class="nav-item">
-        <a class="nav-link"  href="#dig-mar" role="tab">Email Marketing</a>
+        <a class="nav-link"  href="#email-marketing" role="tab">Email Marketing</a>
     </li> 
 		<li class="nav-item">
-        <a class="nav-link"  href="#maintain" role="tab">Google Analytics
+        <a class="nav-link"  href="#google-analytics" role="tab">Google Analytics
 </a>
     </li>
 	
@@ -100,7 +100,7 @@
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-5 pb-3" id="web-dev">
+    <hr class="mb-5 mt-5 pb-3" id="social-media-marketing">
 
     <!--Grid row-->
     <div class="row">
@@ -133,7 +133,7 @@
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-4 pb-3" id="mob-app">
+    <hr class="mb-5 mt-4 pb-3" id="google-adwords">
 
     <!--Grid row-->
     <div class="row pb-5">
@@ -162,7 +162,7 @@
     <!--Grid column-->
 
     </div>
-	<hr class="mb-5 mt-5 pb-3" id="e-comm-scroll">
+	<hr class="mb-5 mt-5 pb-3" id="content-marketing">
 
     <!--Grid row-->
     <div class="row">
@@ -194,7 +194,7 @@
     </div>
     <!--Grid row-->
 
-    <hr class="mb-5 mt-4 pb-3" id="dig-mar">
+    <hr class="mb-5 mt-4 pb-3" id="email-marketing">
 
     <!--Grid row-->
     <div class="row pb-5">
@@ -225,7 +225,7 @@
     </div>
     <!--Grid row-->
 
-	 <hr class="mb-5 mt-4 pb-3" id="maintain">
+	 <hr class="mb-5 mt-4 pb-3" id="google-analytics">
 
     <!--Grid row-->
     <div class="row">
