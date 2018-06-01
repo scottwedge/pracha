@@ -39,7 +39,7 @@
                     <span class="text-white"><h1 style="text-transform:capitalize;"><span class="caption-sty text-white font-desktop" >Software & Digital Marketing Company!!!</span></h1></span>
 					<div class="clearfix hid-320">&nbsp;</div>
 					<div class="row justify-content-md-center help-btn-sl">
-						<a href="<?php echo base_url('services'); ?>"  class="btn bg-warning"><i class="fa fa-cogs" aria-hidden="true"></i> &nbsp; Our Services</a><a href="<?php echo base_url('contactus');?>"  class="btn bg-warning"> Contact Us</a>
+						<a href="<?php echo base_url('web-designing-services-in-hyderabad'); ?>"  class="btn bg-warning"><i class="fa fa-cogs" aria-hidden="true"></i> &nbsp; Our Services</a><a href="<?php echo base_url('contactus');?>"  class="btn bg-warning"> Contact Us</a>
 						<!--<a href="<?php echo base_url('pracha/contactus'); ?>" class="btn btn-success"> <i class="fa fa-volume-control-phone  ml-1"></i> &nbsp; Talk to Us</a>-->
 					<div class="clearfix">&nbsp;</div>
 					</div>
@@ -58,10 +58,10 @@
 						<ul class="menu-service ">
 							<a href="<?php echo base_url('start_up'); ?>"><li style="border-left:none;">Start-Up</li></a>
 							<a href="<?php echo base_url('enterprise'); ?>"><li >Enterprise</li></a>
-							<a href="<?php echo base_url('ui_and_ux_design'); ?>"><li >UI & UX Designing</li></a>
-							<a href="<?php echo base_url('web_development'); ?>"><li>Web Development</li></a>
-							<a href="<?php echo base_url('mobile_applications'); ?>"><li> App Development</li></a>
-							<a href="<?php echo base_url('digital_marketing'); ?>"><li>Digital Marketing</li></a>
+							<a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>"><li >UI & UX Designing</li></a>
+							<a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>"><li>Web Development</li></a>
+							<a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>"><li> App Development</li></a>
+							<a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>"><li>Digital Marketing</li></a>
 							<a href="<?php echo base_url('ecommerce'); ?>"><li>eCommerce (B2B & B2C) </li></a>
 							
 							<a href="<?php echo base_url('website_maintainence'); ?>"><li style="border:none;">Maintenance</li></a>
@@ -139,7 +139,7 @@
         </div>
 
         <div class="row">
-		<a href="<?php echo base_url('ui_and_ux_design'); ?>">
+		<a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>">
             <div class="col-md-4 wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
 			
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
@@ -165,7 +165,7 @@
 							 
 							</ul>  
 						</div>
-						<p class="text-center"> <a href="<?php echo base_url('ui_and_ux_design'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+						<p class="text-center"> <a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
 
 
 
@@ -177,7 +177,7 @@
                 </div>
             </div>
 			</a>
-			<a href="<?php echo base_url('web_development'); ?>">
+			<a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>">
             <div class="col-md-4 wow tada" style="visibility: visible; animation-name: tada;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon ">
@@ -200,12 +200,12 @@
 							</ul>
 						</div>
 						
-							<p class="text-center"> <a href="<?php echo base_url('web_development'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+							<p class="text-center"> <a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
 						</div>
                 </div>
             </div>
 			</a>
-		<a href="<?php echo base_url('mobile_applications'); ?>">
+		<a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>">
             <div class="col-md-4 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
@@ -226,14 +226,14 @@
 								
 								</ul>
 							</div>
-							<p class="text-center"> <a href="<?php echo base_url('mobile_applications'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+							<p class="text-center"> <a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div>
 			</a>
             </div><br>
 			 <div class="row">
-			 <a href="<?php echo base_url('digital_marketing'); ?>">
+			 <a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>">
             <div class="col-md-4 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
@@ -255,7 +255,7 @@
 								</ul></div>
 								<br>
 								<br>
-							<p class="text-center"> <a href="<?php echo base_url('digital_marketing'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+							<p class="text-center"> <a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
                     </div>
                 </div>
             </div></a>
@@ -353,7 +353,7 @@
         </div>
         <div class="clearfix">&nbsp;</div>
 		<div class="text-right">
-			<a href="<?php echo base_url('services'); ?>"><button type="button" class="btn btn-dark btn-rounded">See More</button></a>
+			<a href="<?php echo base_url('web-designing-services-in-hyderabad'); ?>"><button type="button" class="btn btn-dark btn-rounded">See More</button></a>
 
 		</div>
 		<div class="clearfix">&nbsp;</div>
