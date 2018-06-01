@@ -56,5 +56,5 @@ $route['web-development-company-in-hyderabad'] = 'web_development/index';
 $route['mobile-app-development-company-in-hyderabad'] = 'mobile_applications/index';
 $route['digital-marketing-company-in-hyderabad'] = 'digital_marketing/index';
 $route['web-designing-services-in-hyderabad'] = 'services/index';
-$route['digital-marketing-company-in-hyderabad'] = 'pracha/index';
+$route['digital-marketing-and-web-designing-company-in-hyderabad'] = 'pracha/index';
 $route['translate_uri_dashes'] = FALSE;

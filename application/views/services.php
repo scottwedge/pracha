@@ -39,7 +39,7 @@
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
     <li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab">Home</a>
+        <a class="nav-link "  href="<?php echo base_url('digital-marketing-and-web-designing-company-in-hyderabad'); ?>" role="tab">Home</a>
     </li>
 	<li class="nav-item">
         <a class="nav-link active"  href="#ui-and-ux-designing" role="tab">UI & UX Designing</a>
