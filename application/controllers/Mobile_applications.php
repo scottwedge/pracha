@@ -21,6 +21,9 @@ class Mobile_applications extends CI_Controller {
 	public function index()
 	{
 		$data['currentURL'] = current_url();
+		if($data['currentURL']== base_url('mobile_applications') || $data['currentURL']== base_url('mobile_applications.xml')){
+			redirect('mobile-app-development-company-in-hyderabad');
+		}
 		$this->load->view('header',$data);
 		$this->load->view('mobile_application');
 		$this->load->view('footer');

@@ -20,7 +20,12 @@ class Digital_marketing extends CI_Controller {
 	 */
 	public function index()
 	{
+		
 		$data['currentURL'] = current_url();
+		if($data['currentURL']== base_url('digital_marketing') || $data['currentURL']== base_url('digital_marketing.xml')){
+			redirect('digital-marketing-company-in-hyderabad');
+		}
+		
 		$this->load->view('header',$data);
 		$this->load->view('digital_marketing');
 		$this->load->view('footer');

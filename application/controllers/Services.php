@@ -16,6 +16,9 @@ class Services extends CI_Controller {
 	public function index()
 	{
 		$data['currentURL'] = current_url();
+		if($data['currentURL']== base_url('services') || $data['currentURL']== base_url('services.xml')){
+			redirect('web-designing-services-in-hyderabad');
+		}
 		$this->load->view('header',$data);
 		$this->load->view('services');
 		$this->load->view('footer');

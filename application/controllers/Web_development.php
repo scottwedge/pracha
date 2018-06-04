@@ -21,6 +21,9 @@ class Web_development extends CI_Controller {
 	public function index()
 	{
 		$data['currentURL'] = current_url();
+		if($data['currentURL']== base_url('web_development') || $data['currentURL']== base_url('web_development.xml')){
+			redirect('web-development-company-in-hyderabad');
+		}
 		$this->load->view('header',$data);
 		$this->load->view('develop_service');
 		$this->load->view('footer');
