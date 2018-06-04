@@ -4,7 +4,5 @@ Disallow: /overview
 Disallow: /Develop_overview
 Disallow: /price/estimate
 Disallow: /services/combo?_escaped_fragment_=
-
 Allow: /
-
 Sitemap: http://prachatech.com/sitemap.xml
