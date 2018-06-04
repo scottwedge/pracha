@@ -6,9 +6,9 @@
 <section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/mobile-application-development-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
 
   <h1>
-   MOBILE APPLICATIONS <br />
+   MOBILE APP DEVELOPMENT <br />
 	<br>
-	<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[   "iOS Mobile App Development", "Android Mobile App Development", "Hybrid Mobile Applications","Mobile Integration","Mobile Application Testing","Mobile Application Security", "Mobile App Development Company In Hyderabad",  " " ]'>
+	<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[   "iOS Mobile App Development", "Android Mobile App Development", "Hybrid Mobile Apps","Mobile Integration","Mobile Application Testing","Mobile Application Security", "Mobile App Development Company In Hyderabad",  " " ]'>
    
   </p>
  
