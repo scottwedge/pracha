@@ -1,7 +1,7 @@
 <head>
     <title>What is eCommerce and how many types of eCommerce are there?</title>
-    <meta name="description" content="Social Media can make you or break you! Social Media is the computer-mediated tool that allow people to create, share or exchange information, pictures, videos, ideas in virtual communities and networks. Social Media Marketing is the process of getting attention through social media sites.">
-    <meta name="keywords" content=" social media marketing, social media marketing and its benefits, social media marketing strategies, social media. ">
+    <meta name="description" content="Electronic Commerce is the buying and selling of goods and services, or transmitting of data or funds majorly on the internet, in simple eCommerce is the purchase of goods or services on the internet which takes place in between organisations, merchants and consumers.">
+    <meta name="keywords" content=" how many types of ecommerce, types of ecommerce, types of ecommerce websites, ecommerce websites ">
 </head>
 <div class="selectstate">
     <section class="pt-5 mt-4 pb-3 pargh">

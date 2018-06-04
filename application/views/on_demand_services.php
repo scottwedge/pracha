@@ -1,6 +1,8 @@
 <head>
-	<title>E-Commerce Web Development In Hyderabad</title>
-	<meta name="description" content="Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G) and Mobile Commerce (m-commerce). Mobile  commerce (m-commerce) is particularly done through mobile only.  We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions for our interested customers.">
+	<title>Prachatech On Demand Services In Hyderabadad </title>
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. offers various web designing services in Hyderabad for startups and mid-level companies. The company deals with static & complex websites, ecommerce websites, corporate websites, mobile apps (iOS and Android), and promote them across the world digitally through its digital marketing strategies. ">
+	<meta name="keywords" content="ecommerce websites in hyderabad, complex websites in hyderabad, corporate websites developers, mobile apps developers">
+
 </head>
 <section class=" bod-st">
 <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/ondemand-first-background.png); ">

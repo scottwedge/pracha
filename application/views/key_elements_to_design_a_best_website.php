@@ -1,7 +1,7 @@
 <head>
     <title>Key Elements To Be Considered While Designing A  Website</title>
-    <meta name="description" content="Social Media can make you or break you! Social Media is the computer-mediated tool that allow people to create, share or exchange information, pictures, videos, ideas in virtual communities and networks. Social Media Marketing is the process of getting attention through social media sites.">
-    <meta name="keywords" content=" social media marketing, social media marketing and its benefits, social media marketing strategies, social media. ">
+    <meta name="description" content="In this digital age the internet is so intertwined with people's’ lives, and it isn't exaggerating to mention we are literally dwelling online. Maximum number of the customers check online before they purchase the product or service. It’s important to have a good website for a business to persuasively promote your product or offers to the customers.">
+    <meta name="keywords" content=" key elements to be considered while designing a website, designing a website, how to design a website, steps to design a website ">
 </head>
 <div class="selectstate">
 <div class="container-fluid">

@@ -1,3 +1,9 @@
+<head>
+	<title>Web Designing Company In Hyderabad | Digital Marketing Company | Mobile App Developent company </title>
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. is  a Digital Marketing & Web Designing Company in Hyderabad. The company also develops   Mobile Applications that supports iOS & Android platforms. Pracha Technologies designs and develops huge eCommerce websites and promote them digitally across the web through its various digital marketing techniques at affordable prices. ">
+	<meta name="keywords" content="Web designing company in hyderabad, best web designing company in hyderabad, best web designing companies in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+
+</head>
 <section class="bod-st">
 <div class="clearfix">&nbsp;</div>
 	<div class="container-sty card " >
