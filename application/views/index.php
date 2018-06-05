@@ -1,6 +1,6 @@
 <head>
 	<title>Web Designing Company In Hyderabad | Digital Marketing Company | Mobile App Developent company </title>
-	<meta name="description" content="Pracha Technologies Pvt. Ltd. is  a Digital Marketing & Web Designing Company in Hyderabad. The company also develops   Mobile Applications that supports iOS & Android platforms. Pracha Technologies designs and develops huge eCommerce websites and promote them digitally across the web through its various digital marketing techniques at affordable prices. ">
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. is  a Digital Marketing & Web Designing Company in Hyderabad. The company also deals with Mobile Applications that supports iOS & Android platforms and promote them digitally across the web through its various digital marketing techniques at affordable prices.">
 	<meta name="keywords" content="Web designing company in hyderabad, best web designing company in hyderabad, best web designing companies in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 
 </head>
@@ -36,7 +36,8 @@
             <!--Caption-->
             <div class="carousel-caption">
                 <div class="animated fadeInDown">
-                    <span class="text-white"><h1 style="text-transform:capitalize;"><span class="caption-sty text-white font-desktop" >Digital Marketing & Web Designing Company In Hyderabad!!!</span></h1></span>
+                    <span class="text-white">
+					<h1 style="text-transform:capitalize;"><span class="caption-sty text-white font-desktop" >Digital Marketing & Web Designing Company In Hyderabad!!!</span></h1></span>
 					<div class="clearfix hid-320">&nbsp;</div>
 					<div class="row justify-content-md-center help-btn-sl">
 						<a href="<?php echo base_url('web-designing-services-in-hyderabad'); ?>"  class="btn bg-warning"><i class="fa fa-cogs" aria-hidden="true"></i> &nbsp; Our Services</a><a href="<?php echo base_url('contactus');?>"  class="btn bg-warning"> Contact Us</a>

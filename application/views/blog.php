@@ -1,8 +1,7 @@
 <head>
 <title>Pracha Technologies blog	</title>
 	
-	<meta name="description" content="
-			If you have the desire to attract audience attention across the world with your creative ideas and videos, then this article is for you.">
+	<meta name="description" content=" Through this blog we share latest updates, best practices, tips and tricks, upcoming things, case studies and many more interesting things to gain much insights.">
 </head>
 
 <section class="pt-5 mt-4 pb-3 pargh">

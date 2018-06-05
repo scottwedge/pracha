@@ -1,6 +1,6 @@
 <head>
 	<title>What Is Onpage and Offpage SEO | Prachatech </title>
-	<meta name="description" content=" What is onpage and offpage SEO? - SEO is of two types, namely On-Page Optimization and Off-Page Optimization.On page optimization deals with the aspects of a website or blog post that can be optimized to read by the search engines. Though it is a time taking process yet this kind of optimization gets more organic traffic, which results in the better rankings of a website. Keywords (long tail or short tail) play the major role in Onpage Optimization.">
+	<meta name="description" content=" What is onpage and offpage SEO? - SEO is of two types, namely On-Page Optimization and Off-Page Optimization.On page optimization deals with the aspects of a website or blog post that can be optimized to read by the search engines. Though it is a time taking process yet this kind of optimization...">
 	<meta name="keywords" content="what is onpage and offpage seo, onpage and offpage seo, onpage and offpage optimization, onpage optimization and offpage optimization, onpage-and-offpage-optimization">
 </head>
 <div class="selectstate">

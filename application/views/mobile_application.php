@@ -1,6 +1,6 @@
 <head>
 	<title> Mobile App Development Company In Hyderabad | Web Designing Agency | Digital Marketing Company </title>
-	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Web Designing & Mobile App development company in Hyderabad. The company is specialized in developing Mobile Apps for iOS and Android softwares, eCommerce websites, Web Designing & Development and offer Digital Marketing services at affordable prices."> 
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Web Designing & Mobile App development company in Hyderabad. The company is specialized in developing eCommerce websites, Static & Dynamic Websites , Mobile Apps for (iOS & Android softwares), and offer Digital Marketing services at affordable prices."> 
 	<meta name="keywords" content=" Mobile App Development Company In Hyderabad, mobile app developers in hyderabad, mobile application developers in hyderabad, mobile apps designer in hyderabad, mobile applications designer in hyderabad, mobile application services in hyderabad, mobile app services in hyderabad. ">
 </head>
 <section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/mobile-application-development-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
