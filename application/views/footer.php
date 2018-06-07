@@ -237,7 +237,7 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/mdb.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/wow.min.js"></script>
-	  <script>
+	<!--  <script>
     wow = new WOW(
       {
         animateClass: 'animated',
@@ -253,7 +253,7 @@
       section.className = 'section--purple wow fadeInDown';
       this.parentNode.insertBefore(section, this);
     };
-  </script>
+  </script>-->
 </body>
 
 </html>

@@ -1,6 +1,77 @@
 p{
 	font-size:18px !important;
 }
+/* Portfolio css start */
+
+
+.pic {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.pic:before {
+  width: 100%;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+}
+
+.pic:after {
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -20px -25px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  cusor: pointer;
+}
+
+.pic:hover img {
+  animation: moveSlideshow 15s linear;animation-fill-mode: forwards;
+  
+}
+.portfolio-footer{
+	position:absolute;
+	bottom:0;
+	background:#192f5d;
+	width:100%;
+	color:#fff;
+	text-align:center;
+	padding:10px
+}
+.portfolio-box-shadow :hover{
+	-webkit-box-shadow: -2px -1px 63px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 63px -10px rgba(0,0,0,0.75);
+box-shadow: -2px -1px 63px -10px rgba(0,0,0,0.75);
+}
+.portfolio-box-shadow :hover{
+	-webkit-box-shadow: -2px -1px 63px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 63px -10px rgba(0,0,0,0.75);
+box-shadow: -2px -1px 63px -10px rgba(0,0,0,0.75);
+}
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateY(calc(-100% + 200px));
+  }
+}
+
+.pic:hover .pic:after {
+  opacity: 0;
+}
+/* Portfolio css end */
 .border-warning{
 	border:2px solid #ff9800 !important;
 }
@@ -12,6 +83,11 @@ p{
 	border-radius:5px;
 	padding:5px;
 	margin:5px;
+}
+.lin-heig{
+	line-height:28px;
+	letter-spacing:0.5px;
+	font-family: 'Oswald', sans-serif;
 }
 .pad-10{
 	padding:10px;
