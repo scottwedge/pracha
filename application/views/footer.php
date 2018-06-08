@@ -8,7 +8,7 @@
 	<div class="text-center container-sty text-white">
 		<div class="row justify-content-center">
 		<div class="col-md-10">
-		<div class="py-5 text-shad font-20 font-bold"> Quality work & Customer service are the two main pillars of our company. Our dedicated and proficient team will solve all your issues and leads your projects in a successful way. We will be with you through out the project as per company norms, to achieve the desired results .</div>
+		<div class="py-5 text-shad font-20 font-bold"> Quality work & Customer service are the two main objectives of our company. Our dedicated and proficient team will solve all your issues and leads your projects in a successful way. We will be with you through out the project as per company norms, to achieve the desired results .</div>
 		<div class="py-3">
 		<a href="<?php echo base_url('contactus');?>" class="btn btn-warning btn-rounded " style="font-size:20px;">Let’s talk!</a>
 			
@@ -129,12 +129,12 @@
 			  <div class="col-md-6">
 				<div> 
 					<h2>Prachatech Software Solutions</h2>
-					<p>Phone Number:040-48541273</p>
-					<p>
-					Plot No. 177,<br>
-					1st Floor,<br>
-					Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad, Telangana - 500072.</p>
+					<p class="pad-6px">Digital Marketing & Web Designing Company</p>
+					<p class="pad-6px">Phone Number :&nbsp; 040-48541273</p>
+					<p class="pad-6px">Plot No. 177, 1st Floor,
+					Beside Sri Chaitanya High School, <br>Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad, <br>Telangana - 500072.</p>
 				</div>
+				<br>
 				<div>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d951.3161068305509!2d78.38797423869858!3d17.49488629216747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f4f553e453%3A0x912891756062ff71!2sSri+Vani+Nilayam%2C+Sardar+Patel+Nagar%2C+Bhagat+Singh+Nagar%2C+Kukatpally+Housing+Board+Colony%2C+Kukatpally%2C+Hyderabad%2C+Telangana+500085!5e0!3m2!1sen!2sin!4v1515073781683" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 			  </div>

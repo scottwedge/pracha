@@ -37,7 +37,7 @@
             <div class="carousel-caption">
                 <div class="animated fadeInDown">
                     <span class="text-white">
-					<h1 style="text-transform:capitalize;"><span class="caption-sty text-white font-desktop" >Digital Marketing & Web Designing Company In Hyderabad!!!</span></h1></span>
+					<h1 style="text-transform:capitalize;"><span class="caption-sty text-white font-desktop" >|Digital Marketing| <br> |Mobile Apps Development| <br> |Web Designing Company In Hyderabad|</span></h1></span>
 					<div class="clearfix hid-320">&nbsp;</div>
 					<div class="row justify-content-md-center help-btn-sl">
 						<a href="<?php echo base_url('web-designing-services-in-hyderabad'); ?>"  class="btn bg-warning"><i class="fa fa-cogs" aria-hidden="true"></i> &nbsp; Our Services</a><a href="<?php echo base_url('contactus');?>"  class="btn bg-warning"> Contact Us</a>
@@ -105,8 +105,11 @@
 					&nbsp;
 				</div>
 				<div class="col-10 text-center"> 
-					We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web-services to serve our clients. We generate new websites to our clients and decorate them with charming designs and mesmerizing themes. We can assure the most satisfactory outcomes to  our clients if they follow our guidelines. Many of our clients considered us as the best web designing company in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. We also promote your websites and mobile apps online, for we also own a digital marketing company, which is our other wing.
-				</div>
+					We at Prachatech Software Solutions, are delighted  to offer the full spectrum of digital marketing and web designing services to serve our clients. We generate static & complex websites, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. We are considered as the best digital marketing and web designing company in Hyderabad, by our clients for we  developed user-friendly Software's, and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally across the web, to all our existing clients. We also have a skillful team of Mobile App developers, who develops mobile app softwares for Android and iOS platforms. Quality work & Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
+					
+					
+					
+					</div>
 				
 				
 			</div>
@@ -433,7 +436,7 @@
 							<div data-wow-delay="0.5s" class="col-xl-2 col-lg-6 mb-4 wow lightSpeedIn" style="visibility: visible; animation-delay: 0.5s; animation-name: lightSpeedIn;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/education.png" class="my-3" alt="Education web designing company in hyderabad">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/education.png" class="my-3" alt="Educational web designing company in hyderabad">
 										<div class="">
 											<strong>Education & Training</strong>
 										</div>
@@ -464,7 +467,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow bounceInUp center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/fitness.png" class="my-3" alt="Health web designing company in hyderabad">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/fitness.png" class="my-3" alt="Healthy web designing company in hyderabad">
 										<div class="">
 											<strong>Healthcare & Fitness</strong>
 										</div>
@@ -518,7 +521,7 @@
             <div class="col-md-8 ">
 			
              
-                <div style=""><img  style="visibility: visible; animation-duration: 0.25s; animation-iteration-count: 5; animation-name: pulse;" data-wow-iteration="5" data-wow-duration="0.25s" class="img-fluid wow pulse" src="<?php echo base_url(); ?>assets/vendor/img/how-we-work.png" alt="formulae of web designing company in hyderabad" ></div>
+                <div style=""><img  style="visibility: visible; animation-duration: 0.25s; animation-iteration-count: 5; animation-name: pulse;" data-wow-iteration="5" data-wow-duration="0.25s" class="img-fluid wow pulse" src="<?php echo base_url(); ?>assets/vendor/img/how-we-work.png" alt="formulae for the web designing company in hyderabad" ></div>
             
             </div>
             
@@ -588,7 +591,7 @@
                     </div>
                     <div class="service_content">
                         <p>
-                           As people need houses to dwell in this world, so also business people need online houses (websites) to dwell in the digital world. Just like a house, a website also needs to be maintained properly. When things break-up, they need to be fixed! When it gets out dated, it needs to be updated.  Website updating may be difficult and time consuming process; but we, as a web designing company in Hyderabad are here to help you at affordable prices especially to encourage Startups. The whole world is online now! So join us to make your business online.</p>
+                           As people need houses to dwell in this world, so also business people need online houses (websites) to dwell in the digital world. Just like a house, a website also needs to be maintained properly. When things break-up, they need to be fixed! When it gets out dated, it needs to be updated.  Website updating may be difficult and time consuming process; but we, as the best web designing company in Hyderabad are here to help and encourage Startups, and serve them at affordable prices. The whole world is online now! So join us to make your business online.</p>
 
 						
                         </p>
@@ -623,7 +626,7 @@
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center mb-5 pb-3">Technology is the only thing that can truly perform a miracle and make ideas success in the real world.</p>
+				 <p class="text-center" style="padding:20px 100px 5px 100px">Technology is the only thing that can truly perform a miracle and make ideas success in the real world. To interact with today's busy customers, it is must to have a website to promote your business, and we as a web designing company in hyderabad are here to design stunning websites and promote them digitally to elevate your business.</p>
 
 
             </div>
@@ -714,7 +717,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Technical Support & Consultation</h5>
-            <p class="grey-text">We have a highly qualified technical team to provide you a full-time technical support. However this will be applicable depending upon the subscription plan of the client. </p>
+            <p class="grey-text">We, as a digital marketing and web designing company have a highly qualified technical team to provide you a full-time technical support. However this will be applicable depending upon the subscription plan of the client. </p>
         </div>
         </div>
 
@@ -741,13 +744,13 @@
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center mb-5 pb-3">Try us! Yeah, You make it worth of Trying us.</p>
+				 <p class="text-center ">Try us! Yeah, You make it worth of Trying us.</p>
 
 
             </div>
 
         </div>
-		       <div class="clearfix">&nbsp;</div>
+		       
 
 
     <!--Grid row-->

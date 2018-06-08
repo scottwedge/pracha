@@ -25,11 +25,15 @@
       z-index: 9999 !important;
   }
   </style>
-<section class="bod-st">
-	<div class="img-responsive">
-	<img class="img-fluid"  src="<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png" alt="web designing services in hyderabad">
-	</div>
+  <section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png); ">
+	<h1>
+    Pracha Technologies Pvt. Ltd.<br />
+	<br>
+		<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Web Designing Services In Hyderabad", "Digital Marketing Company In Hyderabad", "Web Designing Company In Hyderabad", "Mobile App Development Company In Hyderabad", "eCommerce Website Development In Hyderabad" ]'></p>
+	</h1>
+	
 </section>
+
 
 <div class=" "  id="navbarSupportedContent" >
 <section class="py-4 text-center text-lg-left">
@@ -48,7 +52,7 @@
         <a class="nav-link "  href="#web-development" role="tab">Web Development </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link"  href="#mobile-applications" role="tab"> Mobile Applications </a>
+        <a class="nav-link"  href="#mobile-applications" role="tab"> Mobile Apps Development </a>
     </li>
     <li class="nav-item">
         <a class="nav-link"  href="#digital-marketing" role="tab">Digital Marketing  </a>
@@ -81,10 +85,10 @@
     <div class=" active" >
         <br>
 			<!--Grid row-->
-			 <h1 style="font-size: 27px;  text-transform: capitalize;" class="h1 font-bold text-center ">Web Designing Services, Mobile Apps & Digital Marketing </h1>
+			 <h2 style="font-size: 27px;  text-transform: capitalize;" class="h1 font-bold text-center ">Web Designing Services, Mobile Apps & Digital Marketing </h2>
     <!--Section description-->
-    <p class="text-center mb-5 pb-3">
-               Pracha Technologies Pvt. Ltd. offers various web designing services in Hyderabad for startups and mid-level companies. The company deals with static & complex websites, ecommerce websites, corporate websites, mobile apps (iOS and Android), and promote them across the world digitally  through its  digital marketing strategies. We nourish our clients websites with organic keywords, and with various analytical researches, to make our clients websites  visible in the Google’s search engine results page. We expeditiously promote our clients on social media to shake hand with their new clients. For this reason many of our clients consider our services as the best web designing services in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. 
+    <p class="text-center mb-5 py-3">
+               Pracha Technologies Pvt. Ltd. offers digital marketing and web designing services in Hyderabad for startups and mid-level companies. The company deals with static & complex websites, ecommerce websites, corporate websites, mobile apps (iOS and Android), and promote them across the world digitally  through its  digital marketing strategies. We nourish our clients websites with organic keywords, and with various analytical researches, to make our clients websites  visible in the Google’s search engine results page. We expeditiously promote our clients on social media to shake hand with their new clients. For this reason many of our clients consider our services as the best web designing services in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. 
 </p>
 		<hr class="mb-5 mt-5 pb-3" id="ui-and-ux-designing">
     <div class="row">
@@ -179,7 +183,7 @@
         <!--Excerpt-->
       
         <h2 class="mb-4 font-bold dark-grey-text">
-        <strong>Mobile Application Development</strong>
+        <strong>Mobile Apps Development</strong>
         </h2>
         <p>As per latest Google reports, two in five Google searches is now being carried out on a mobile device or a smartphone. As per the  ABI’s latest research Mobile apps help boosting business upto 80%, because people spend more time on mobiles than on TV or Computer.  whether it is a simplex app or a complex app, our mobile app developers can design the best mobile applications for your business. In this digital age mobile apps occupied a  very  prominent role in human lives through smart phones to make life much convenient than earlier. So assuredly mobile apps can benefit your business in a real good manner. Mobile apps are three types namely: Native apps, Web apps and Hybrid apps. </p>
          <a href="<?php echo base_url('mobile_applications'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
@@ -201,7 +205,7 @@
         <h2 class="mb-4 font-bold dark-grey-text">
         <strong>Digital Marketing</strong>
         </h2>
-        <p>Digital Marketing is the process of marketing your products or services using digital technologies. As indicated by Google, 97% of shoppers utilize the web to look for nearby organizations, so to catch hold of your potential clients you ought to be on the web. Marketing your website digitally is very essential for you to be identified by your customer. When your customer searches for a product or service with specific keywords on search engines(especially on Google), you must appear to him on the first place of the first page, and our digital marketing company  which is our other wing will make you to achieve that and increase your website traffic that generate sales. 
+        <p>Digital Marketing is the process of marketing your products or services using digital technologies. As indicated by Google, 97% of shoppers utilize the web to look for nearby organizations, so to catch hold of your potential clients you ought to be on the web. Marketing your website digitally is very essential for you to be identified by your customer. When your customer searches for a product or service with specific keywords on search engines (especially on Google), you must appear to him on the first place of the first page, else your competitor will hold it. So we offer digital marketing services which is our other wing that will make you to achieve the desired result and increase your website traffic that generate sales. 
 		
 </p>
         <a href="<?php echo base_url('digital_marketing'); ?>"" class="btn btn-dark btn-md mb-3">Know More</a>
@@ -212,7 +216,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-marketing.png" alt="Digital marketing web designing services in hyderabad" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-marketing.png" alt="Digital marketing and web designing services in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -317,7 +321,7 @@
         <h3 class="mb-4 font-bold dark-grey-text">
         <strong>Software Maintenance</strong>
         </h3>
-        <p>Maintenance and Support is a critical perspective towards upgrading and broadening the life of the applications. Typically organizations are battling with lacking specialized specialists to deal with both mission-basic assignments and unforeseen possibilities. At such circumstances Prachatech specialists can help you in numerous ways. Our Maintenance team, who particularly work on it will guarantee your business applications work consistently to give a protected and superior stage for the clients. 
+        <p>Maintenance and Support is a critical perspective towards upgrading and broadening the life of the applications. Typically organizations are battling with lack of specialized specialists to deal with both mission-basic assignments and unforeseen possibilities. At such circumstances Prachatech web designing services can help you in numerous ways. Our Maintenance team, who particularly work on it will guarantee your business applications work consistently to give a protected and superior stage for the clients. 
 </p>
 
 
@@ -415,6 +419,227 @@ $(window).scroll(function() {
     }
 }); 
 </script>
+<script >$(function() {
+ 
+  $("#typing-text").typed({
+      strings: [
+        "Project Services.", "Information Security.",
+        "Systems Development.",
+        "Consulting Services.",
+        "Network & Infrastructure.",
+        "Support & Operations.",
+        "Architecture & IT Strategy.",
+        "User Experience Design."
+      ],
+      typeSpeed: 100,
+      backDelay: 2000,
+      // loop
+      loop: true,
+  });
+});
+
+var canvas = document.getElementById('nodes')
+    , context = canvas.getContext('2d')
+    , pool = []
+    , maxPoolSize = 400
+    , distanceThreshold = 90
+    , lastTimestamp = 0
+    , nodeConnections = []
+  ;
+
+  canvas.width = window.innerWidth;
+  canvas.height = 350;
+  maxPoolSize = ( canvas.width * canvas.height ) / 6000
+
+  function Boid(x,y) {
+    this.id = Boid.lastId++;
+    this.position = [x, y];
+    this.size = 10;
+    this.color = "red";
+    this.velocity = [25-Math.random()*30, 25-Math.random()*80];
+  };
+
+  Boid.lastId = 0;
+
+  Boid.prototype = {
+    update: function(dt) {
+      for (var i = 0; i < maxPoolSize; i++) {
+        var boid = pool[i]
+          , distance = this.distanceTo(boid)
+        ;
+        if(distance < distanceThreshold) {
+          cohesion = []
+        }
+      };
+
+      this.position[0] += this.velocity[0] * dt;
+      this.position[1] += this.velocity[1] * dt;
+
+      if(this.position[0] > canvas.width) {
+        this.position[0] = 0;
+        // this.velocity[0] *= -1;
+      }
+
+      if(this.position[1] > canvas.height) {
+        this.position[1] = 0;
+        // this.velocity[1] *= -1;
+      }
+
+      if(this.position[0] < 0) {
+        this.position[0] = canvas.width;
+        // this.velocity[0] *= -1;
+      }
+      if(this.position[1] < 0) {
+        this.position[1] = canvas.height;
+        // this.velocity[1] *= -1;
+      };
+    },
+
+    distanceTo: function(boid) {
+      var diff = vDiff(this.position, boid.position);
+      return Math.abs(vLength(diff));
+    },
+
+    isConnectedTo: function(boid) {
+      return nodeConnections[boid.id] == this.id
+          || nodeConnections[this.id] == boid.id;
+    },
+
+    connectTo: function(boid) {
+      nodeConnections[this.id] = boid.id;
+      nodeConnections[boid.id] = this.id;
+    },
+
+    draw: function() {
+      var pos = [round(this.position[0]), round(this.position[1])]
+        , connections = 0;
+      context.globalAlpha = 0.1;
+      for (var i = 0; i < maxPoolSize; i++) {
+        var boid = pool[i]
+          , distance = this.distanceTo(boid)
+          , opacity = 1-( distance/distanceThreshold )
+        ;
+        if(distance <= distanceThreshold) {
+          connections++;
+          if(!this.isConnectedTo( boid )){
+            this.connectTo(boid);
+            context.beginPath();
+            context.moveTo( pos[0], pos[1]);
+            context.lineTo(round( boid.position[0] ), round( boid.position[1] ));
+            context.stroke();
+          }
+        }
+      };
+      context.globalAlpha = 0.5;
+
+      context.beginPath();
+      context.arc(
+        pos[0],
+        pos[1],
+        this.size*( connections/5 ),
+        0, Math.PI*2
+      );
+      context.fill();
+
+
+    }
+  };
+
+  function vDiff(a, b) {
+    return [ a[0] - b[0], a[1] - b[1] ];
+  }
+
+  function vLength(a) {
+    return Math.sqrt( ( a[0]*a[0] ) + (a[1]*a[1]) );
+  }
+
+  function round(i) { return 0.5 + i | 0 }
+  function draw(timestamp) {
+    var dt = ( timestamp - (lastTimestamp || timestamp) ) / 1000;
+    lastTimestamp = timestamp;
+
+    context.clearRect(0,0,canvas.width, canvas.height);
+
+    for (var i = 0; i < maxPoolSize; i++) {
+      var boid = pool[i];
+      boid.update(dt);
+      boid.draw();
+    }
+
+    window.requestAnimFrame(draw);
+  }
+
+  window.requestAnimFrame = (function(){ return  window.requestAnimationFrame       || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame    || window.oRequestAnimationFrame      || window.msRequestAnimationFrame     || function(/* function */ callback, /* DOMElement */ element){ window.setTimeout(callback, 1000 / 60); }; })();
+
+      for (var i = 0; i < maxPoolSize; i++) {
+        pool.push(
+          new Boid(Math.random()*canvas.width, Math.random()*canvas.height)
+        );
+      }
+      document.body.appendChild(canvas);
+      window.requestAnimFrame(draw);
+
+//# sourceURL=pen.js
+</script>             
+<script>  
+//made by vipul mirajkar thevipulm.appspot.com
+var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap"> '+this.txt+'</span>';
+
+        var that = this;
+        var delta = 150 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .pulse { border-right: 2px solid grey}";
+        document.body.appendChild(css);
+    };           
+</script>      
 <script>
 
 $(document).ready(function () {
