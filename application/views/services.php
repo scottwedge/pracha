@@ -77,7 +77,7 @@
 <div class="container-sty" >
 <div class="row" >
 <div class="col-md-9" >
-<div class=" card mar-t2" >
+<div class=" card mar-t2 px-5" >
 <!-- Tab panels -->
 <div class="tab-content">
 
@@ -87,8 +87,8 @@
 			<!--Grid row-->
 			 <h2 style="font-size: 27px;  text-transform: capitalize;" class="h1 font-bold text-center ">Web Designing Services, Mobile Apps & Digital Marketing </h2>
     <!--Section description-->
-    <p class="text-center mb-5 py-3">
-               Pracha Technologies Pvt. Ltd. offers digital marketing and web designing services in Hyderabad for startups and mid-level companies. The company deals with static & complex websites, ecommerce websites, corporate websites, mobile apps (iOS and Android), and promote them across the world digitally  through its  digital marketing strategies. We nourish our clients websites with organic keywords, and with various analytical researches, to make our clients websites  visible in the Google’s search engine results page. We expeditiously promote our clients on social media to shake hand with their new clients. For this reason many of our clients consider our services as the best web designing services in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. 
+    <p class="mb-5 py-3">
+               Pracha Technologies Pvt. Ltd. offers digital marketing and web designing services in Hyderabad for startups and mid-level companies. The company deals with static & complex websites, ecommerce websites, corporate websites, mobile apps (iOS and Android), and promote them across the world digitally  through its  digital marketing strategies. We nourish our clients websites with organic key-words, and with various analytical researches, to make our clients websites  visible in the Google’s search engine results page. We expeditiously promote our clients on social media to shake hand with their new clients. For this reason many of our clients consider our services as the best web designing services in Hyderabad who develops a user-friendly Software's, and design a responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devi-ces at affordable prices. We have a skillful team of Mobile App developers, who develop softwares for Android and iOS platforms. 
 </p>
 		<hr class="mb-5 mt-5 pb-3" id="ui-and-ux-designing">
     <div class="row">
@@ -240,7 +240,7 @@
         <h2 class="mb-4 font-bold dark-grey-text">
         <strong>E-Commerce Website</strong>
         </h2>
-        <p>Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are various  types of eCommerce, they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G), Government To Business (G2B), Government To Citizen (G2C) and Mobile  commerce (m-commerce). Among all these commerce sites,  Mobile  commerce (m-commerce) is particularly done through mobile only. We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions, thats why we are considered as the best ecommerce web designing services in Hyderabad. 
+        <p>Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are various  types of eCommerce, they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G), Government To Business (G2B), Government To Citizen (G2C) and Mobile  commerce (m-commerce). Among all these commerce sites,  Mobile  commerce (m-commerce) is particularly done through mobile only. We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions, thats why we are considered as the best ecommerce web designing serv-ices in Hyderabad. 
 </p>
         <a href="<?php echo base_url('ecommerce'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
     </div>
@@ -321,7 +321,7 @@
         <h3 class="mb-4 font-bold dark-grey-text">
         <strong>Software Maintenance</strong>
         </h3>
-        <p>Maintenance and Support is a critical perspective towards upgrading and broadening the life of the applications. Typically organizations are battling with lack of specialized specialists to deal with both mission-basic assignments and unforeseen possibilities. At such circumstances Prachatech web designing services can help you in numerous ways. Our Maintenance team, who particularly work on it will guarantee your business applications work consistently to give a protected and superior stage for the clients. 
+        <p>Maintenance and Support is a critical perspective towards upgrading and broadening the life of the applications. Typically organizations are battling with lack of specialized specialists to deal with both mission-basic assignments and unforeseen possibilities. At such circumstances Prachatech web designing services can help you in numerous ways. Our Maintenance team, who particularly work on it will guarantee your business applicat-ions work consistently to give a protected and superior stage for the clients. 
 </p>
 
 
