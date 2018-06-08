@@ -70,7 +70,7 @@
 					<img class="img-thumbnail" src="<?php echo base_url(); ?>assets/vendor/img/portfolio/cloud.png" alt="" />
 					<div class="portfolio-footer">
 						<strong>cloudkoza</strong>
-						<div>Beauty Services</div>
+						<div>Cloud Storage</div>
 					</div>
 				</div>
 				
@@ -80,7 +80,7 @@
 					<img class="img-thumbnail" src="<?php echo base_url(); ?>assets/vendor/img/portfolio/knc.png" alt="" />
 					<div class="portfolio-footer">
 						<strong>knc and Associates</strong>
-						<div>chartered Accountansts</div>
+						<div>chartered Accountant</div>
 					</div>
 				</div>
 				
