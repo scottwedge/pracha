@@ -47,7 +47,7 @@
 				  <div class="dropdown-content1">
 				  <div class="row">
 				  <div class="col-md-6 bor-left">
-					<a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>">UI & UX Designing</a>
+					<a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>">Web Designing</a>
 					<a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>">Web Development</a>
 					<a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>">Mobile Applications</a>
 					<a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>"> Digital Marketing</a>
@@ -73,7 +73,7 @@
 				  <div class="dropdown-content1">
 				  <div class="row">
 				  <div class="col-md-6 bor-left">
-					<a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>">UI & UX Designing</a>
+					<a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>">Web Designing</a>
 					<a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>">Web Development</a>
 					<a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>">Mobile Applications</a>
 					<a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>"> Digital Marketing</a>

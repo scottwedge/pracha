@@ -46,7 +46,7 @@
         <a class="nav-link "  href="<?php echo base_url('digital-marketing-and-web-designing-company-in-hyderabad'); ?>" role="tab">Home</a>
     </li>
 	<li class="nav-item">
-        <a class="nav-link active"  href="#ui-and-ux-designing" role="tab">UI & UX Designing</a>
+        <a class="nav-link active"  href="#ui-and-ux-designing" role="tab">Web Designing</a>
     </li>
     <li class="nav-item">
         <a class="nav-link "  href="#web-development" role="tab">Web Development </a>

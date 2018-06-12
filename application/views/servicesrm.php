@@ -3,7 +3,7 @@
 	<meta name="keywords" content="Web designing agency in hyderabad, ui and ux design in hyderabad, ui & ux design in hyderabad, ui and ux design, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 <section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/ui-and-ux-design-background.png); ">
 	<h1>
-    UI and UX DESIGN <br />
+    WEB DESIGNING <br />
 	<br>
 		<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Site Architecture and Design", "Static & Dynamic Website Design", "Responsive Web Design","Custom Web Design","Corporate Website Design","Template Design & Customization", "Web Designing Agency In Hyderabad",  " " ]'></p>
 	</h1>
@@ -14,7 +14,7 @@
 <div class="container-sty card " >
 
 	<div class="row justify-content-md-center" >
-		<p class="font-18 col-md-11"> UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. <strong>In simple UI aims on website and UX aims on product</strong>, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user.</p>
+		<p class="font-18 col-md-11"> Web designing is concerned about visual aesthetics and usability, which means it mainly focuses on what user sees on the desktop or mobile screen. In other words web designing governs UI and UX design. UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. <strong>In simple UI aims on website and UX aims on product</strong>, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user.</p>
 	</div><br>
 	<h2 class="head-ing">UI & UX:</h2>
 	<div class="row justify-content-md-center" >

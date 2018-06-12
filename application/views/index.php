@@ -37,7 +37,7 @@
             <div class="carousel-caption">
                 <div class="animated fadeInDown">
                     <span class="text-white">
-					<h1 style="text-transform:capitalize;"><span class="caption-sty text-white font-desktop" >|Digital Marketing| <br> |Mobile Apps Development| <br> |Web Designing Company In Hyderabad|</span></h1></span>
+					<h1 style="text-transform:capitalize;"><span class="caption-sty text-white font-desktop" >Digital Marketing <br> Mobile App Development <br> Web Designing Company In Hyderabad</span></h1></span>
 					<div class="clearfix hid-320">&nbsp;</div>
 					<div class="row justify-content-md-center help-btn-sl">
 						<a href="<?php echo base_url('web-designing-services-in-hyderabad'); ?>"  class="btn bg-warning"><i class="fa fa-cogs" aria-hidden="true"></i> &nbsp; Our Services</a><a href="<?php echo base_url('contactus');?>"  class="btn bg-warning"> Contact Us</a>
@@ -46,10 +46,10 @@
 					</div>
 					<div class="row mt-15-ban justify-content-md-center md-hide">
 						<div class="col-4 caption-tit">
-							<span class=""><a href="<?php echo base_url('servicesrm'); ?>">UI & UX Design</a>, <a href="<?php echo base_url('develop_service'); ?>">Web Design & Development </a></span>
+							<span class=""><a href="<?php echo base_url('servicesrm'); ?>">Web Designing</a>, <a href="<?php echo base_url('develop_service'); ?>">Web Design & Development </a></span>
 						</div>
 						<div class="col-4 caption-tit">
-							<span class=""><a href="<?php echo base_url('mobile_application'); ?>">Mobile Apps Development &nbsp; ( Android & iOS )  </a></span>
+							<span class=""><a href="<?php echo base_url('mobile_application'); ?>">Mobile App Development &nbsp; ( Android & iOS )  </a></span>
 						</div>
 						<div class="col-4 caption-tit">
 							<span class=""> <a href="<?php echo base_url('digitalmarketing'); ?>">Digital Marketing </span><br><span class="font-size:12px;">(SEO, SMM, Adwords,  etc.)</span></a>
@@ -59,7 +59,7 @@
 						<ul class="menu-service ">
 							<a href="<?php echo base_url('start_up'); ?>"><li style="border-left:none;">Start-Up</li></a>
 							<a href="<?php echo base_url('enterprise'); ?>"><li >Enterprise</li></a>
-							<a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>"><li >UI & UX Designing</li></a>
+							<a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>"><li >Web Designing</li></a>
 							<a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>"><li>Web Development</li></a>
 							<a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>"><li>Mobile App Development</li></a>
 							<a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>"><li>Digital Marketing</li></a>
