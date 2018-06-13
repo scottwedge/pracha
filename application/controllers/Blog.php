@@ -79,6 +79,14 @@ public function __construct()
 		$this->load->view('key_elements_to_design_a_best_website',$commets);
 		$this->load->view('footer');
 	}
+	public function how_to_start_and_earn_in_affiliate_marketing()
+	{
+		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
+		$this->load->view('how_to_start_and_earn_in_affiliate_marketing',$commets);
+		$this->load->view('footer');
+	}
 	public function registerpost(){
 		
 			$post=$this->input->post();

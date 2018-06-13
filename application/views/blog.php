@@ -173,7 +173,7 @@
 <br>
 			<div class="row">
 				<div class="col-md-7 ">
-					<p class="date-design">20-April-2018</p>
+					<p class="date-design">10th-May-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/importance_of_mobile_apps_in_business');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
@@ -211,6 +211,35 @@
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/key_elements_to_design_a_best_website');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
+				</div>
+			</div>
+        </div> 
+		</div>
+		<div class="col-lg-4 col-xs-12  ">
+		<div class="card  pad-10">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-2 mb-2">
+                <img src="<?php echo base_url(); ?>assets/vendor/img/how-to-start-and-earn-in-affiliate-marketing.png" class="img-fluid" alt="Key elements to design a best website">
+               <a href="<?php echo base_url('blog/how_to_start_and_earn_in_affiliate_marketing');?>">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            
+            <h3 class="mb-3  dark-grey-text font-25 mar-t20">
+                <strong>How To Start And Earn In Affiliate Marketing - A Guide To The Beginner</strong>
+            </h3>
+           
+            <p class="grey-text">Have you ever thought of making money by referring people to Amazon or any other ecommerce website? If you are new to affiliate marketing then this article is especially for you. 
+
+</p>
+<br>
+			<div class="row">
+				<div class="col-md-7 ">
+					<p class="date-design">30-April-2018</p>
+				</div>
+				<div class="col-md-5 ">
+					<a href="<?php echo base_url('blog/how_to_start_and_earn_in_affiliate_marketing');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
 				</div>
 			</div>
         </div> 

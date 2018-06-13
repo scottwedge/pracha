@@ -558,6 +558,9 @@ th.tabco3 {
 	font-size: 18px;
 	text-transform: uppercase;
 }
+.text-site{
+	color:#192f5d !important;
+}
 .tabco4 {
  border:1px solid #ddd;
   text-align: center;
