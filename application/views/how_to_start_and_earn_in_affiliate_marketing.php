@@ -93,6 +93,7 @@
 											
 										</div>
 									</div>
+									<br>
 							<div class="py-4">
 								<h2 class="text-left">
                                     <span class="tit1">For instance let’s take Amazon as an example</span>
@@ -122,7 +123,7 @@
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 					</div>
 					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Amazon</h5>
+						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Amazon</strong></h5>
 						
 					</div>
 				</div>
@@ -131,7 +132,7 @@
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 					</div>
 					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Flipkart</h5>
+						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Flipkart</strong></h5>
 						
 					</div>
 				</div>
@@ -140,7 +141,7 @@
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 					</div>
 					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Shopclues</h5>
+						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Shopclues</strong></h5>
 						
 					</div>
 				</div>
@@ -149,7 +150,7 @@
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 					</div>
 					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Tatacliq </h5>
+						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Tatacliq </strong></h5>
 						
 					</div>
 				</div>
@@ -158,7 +159,7 @@
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 					</div>
 					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Jabong </h5>
+						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Jabong</strong> </h5>
 						
 					</div>
 				</div>
@@ -167,7 +168,7 @@
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 					</div>
 					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">MakeMyTrip </h5>
+						<h5 class=" text-left  dark-grey-text font-w-400"><strong>MakeMyTrip</strong> </h5>
 						
 					</div>
 				</div>
@@ -176,7 +177,7 @@
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 					</div>
 					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">eBay</h5>
+						<h5 class=" text-left  dark-grey-text font-w-400"><strong>eBay</strong></h5>
 						
 					</div>
 				</div><div class="row ">
@@ -184,7 +185,7 @@
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 					</div>
 					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Nearnby</h5>
+						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Nearnby</strong></h5>
 						
 					</div>
 				</div>
@@ -193,7 +194,7 @@
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 					</div>
 					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Agoda </h5>
+						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Agoda</strong> </h5>
 						
 					</div>
 				</div> 	
@@ -202,7 +203,7 @@
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 					</div>
 					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">BigRock </h5>
+						<h5 class=" text-left  dark-grey-text font-w-400"><strong>BigRock</strong> </h5>
 						
 					</div>
 				</div> 	
