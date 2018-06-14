@@ -236,7 +236,7 @@
 <br>
 			<div class="row">
 				<div class="col-md-7 ">
-					<p class="date-design">30-April-2018</p>
+					<p class="date-design">10-May-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/how_to_start_and_earn_in_affiliate_marketing');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
