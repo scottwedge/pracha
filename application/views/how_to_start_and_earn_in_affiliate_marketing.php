@@ -45,7 +45,7 @@
                 <div class="row ">
                     <div class="col-md-10 mb-20 pt-30 ">
                         <h2 class="text-left">
-                            <span class="tit1">Affiliate Marketing:- </span>
+                            <span class="tit1">Affiliate Marketing </span>
                         </h2>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
 				<div class="row ">
                     <div class="col-md-10 mb-20 pt-30 ">
                         <h2 class="text-left">
-                            <span class="tit1">The concept of Affiliate Marketing:</span>
+                            <span class="tit1">The concept of Affiliate Marketing</span>
                         </h2>
                     </div>
                 </div>
@@ -71,13 +71,13 @@
 						<div class="clearfix">&nbsp;</div>
 						
                         </div>-->
-					<p class="pt-4"><h2>The steps to be followed in Online Affiliate Marketing:</h2> </p>
+					<p class="pt-4"><h2>The steps to be followed in Online Affiliate Marketing</h2> </p>
 									<div class="row py-3">
 										<div class="col-2 col-md-1 text-right">
 											<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 										</div>
 										<div class="col-10">
-											<h5 class=" text-left  dark-grey-text font-w-400 text-site"><strong>Step 1: Choose the type of product you want to promote:</strong></h5>
+											<h5 class=" text-left  dark-grey-text font-w-400 text-site"><strong>Step 1: Choose the type of product you want to promote</strong></h5>
 											<p>Select a category in which you are most interested in, this is very important because what you 
 											Choose here is going to be your topic which you are going to promote. You can view the Product and Commission list side by side in the category box. Once you are done with the category you can proceed to the next step.</p>
 											
@@ -88,7 +88,7 @@
 											<i class="fa fa-mail-forward fa-lg indigo-text"></i>
 										</div>
 										<div class="col-10">
-											<h5 class=" text-left  dark-grey-text font-w-400 text-site"><strong>Step 2: Website or Youtube Channel or Facebook Page: </strong></h5>
+											<h5 class=" text-left  dark-grey-text font-w-400 text-site"><strong>Step 2: Website or Youtube Channel or Facebook Page </strong></h5>
 											<p>To be an Affiliate Marketer you should have a <b> Website </b> or a <b>Youtube channel </b> or a  <b> Facebook Page </b> to promote the products. Among these three, creating a Website is most preferable to build trust to the customer. Driving traffic to your website is the most essential thing, in reality  without driving traffic to your site or channel you will go nowhere. Let driving traffic to your channel or site be your first priority. Then you can easily promote the product. </p>
 											
 										</div>
@@ -104,19 +104,19 @@
 				<br>
 				<div class="py-4">
 					<h2 class="text-left">
-						<span class="tit1">Sign-up For The Amazon Affiliate Program:</span>
+						<span class="tit1">Sign-up For The Amazon Affiliate Program</span>
 					</h2>
 				</div>
 				<p> Go to Amazon.in and you will find <b>Become an Affiliate</b> tab at the bottom of the page, and click on it and complete the Signup process. After completing you will find your Amazon Associate account is ready to be used. </p>	
 				<br>
 				<div class="py-4">
 					<h2 class="text-left">
-						<span class="tit1">How to bring a person to Amazon:</span>
+						<span class="tit1">How to bring a person to Amazon</span>
 					</h2>
 				</div>
 				<p> When you sign up Affiliate for Amazon, you will get an Affiliate link, you need to promote this link in your Website or Youtube channel or Facebook page, so that you get paid when people buy from it. There are many ways to share this link but the best way is by creating a website. When a person visits your site and clicks on your affiliate link this will take him to Amazon, once he buys the product you will get the commission, the best part of this is even that person buys some other product you will still get commision. He or she has to make a purchase within 24 hours. The commision will be deposited into your bank account automatically. </p>
 				<p>The process will be same for other ecommerce websites also.</p>
-				<h2>Top 10 ecommerce sites that offer Affiliate Marketing: </h2>
+				<h2>Top 10 ecommerce sites that offer Affiliate Marketing </h2>
 				<div class="row pt-3">
 					<div class="col-2 col-md-1 text-right">
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
@@ -212,10 +212,10 @@
 		<div >
 		<div class="col-md-10 mb-20 pt-30 ">
 			<h2 class="">
-				<span class="tit1">Conclusion :</div>
+				<span class="tit1">Conclusion </div>
 			</h2>
 		</div>
-			<p>To be a successful Affiliate Marketer you need to follow the following things:</p>
+			<p>To be a successful Affiliate Marketer you need to follow the following things</p>
 				<div class="row ">
 					<div class="col-2 col-md-1 text-right">
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
