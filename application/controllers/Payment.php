@@ -66,7 +66,7 @@ class Payment extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-			if($data['userdetails']['role']==4){
+			if($data['userdetails']['role']==4 || $data['userdetails']['role']==1){
 					$post=$this->input->post();
 							$data['billing_details']=$this->Employee_model->get_billing_details($post['b_id']);
 							$path = rtrim(FCPATH,"/");
@@ -137,7 +137,7 @@ class Payment extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-			if($data['userdetails']['role']==4){
+			if($data['userdetails']['role']==4 || $data['userdetails']['role']==1){
 				$bill_id=base64_decode($this->uri->segment(3));
 				if(isset($bill_id) && $bill_id!=''){
 				$data['bill_details'] = $this->Employee_model->get_billing_details($bill_id);
@@ -186,7 +186,7 @@ class Payment extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-			if($data['userdetails']['role']==4){
+			if($data['userdetails']['role']==4 || $data['userdetails']['role']==1){
 				$bill_id=base64_decode($this->uri->segment(3));
 				$bill_details = $this->Employee_model->get_billing_details($bill_id);
 				$data['bill_details'] = $bill_details;
@@ -245,9 +245,9 @@ class Payment extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-			if($data['userdetails']['role']==4){
+			if($data['userdetails']['role']==1 || $data['userdetails']['role']==4){
 				$post=$this->input->post();
-				//echo "<pre>";print_r($post);exit;
+				//echo "<pre>";print_r($userdetails);exit;
 				$add=array(
 				'name'=>isset($post['name'])?$post['name']:'',
 				'email_id'=>isset($post['email'])?$post['email']:'',
