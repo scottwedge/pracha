@@ -117,7 +117,12 @@
 				</div>
 				<p> When you sign up Affiliate for Amazon, you will get an Affiliate link, you need to promote this link in your Website or Youtube channel or Facebook page, so that you get paid when people buy from it. There are many ways to share this link but the best way is by creating a website. When a person visits your site and clicks on your affiliate link this will take him to Amazon, once he buys the product you will get the commission, the best part of this is even that person buys some other product you will still get commision. He or she has to make a purchase within 24 hours. The commision will be deposited into your bank account automatically. </p>
 				<p>The process will be same for other ecommerce websites also.</p>
-				<h2>Top 10 ecommerce sites that offer Affiliate Marketing </h2>
+				<br>
+				<div class="py-4">
+					<h2 class="text-left">
+						<span class="tit1">Top 10 eCommerce sites that offer Affiliate Marketing </span>
+					</h2>
+				</div>
 				<div class="row pt-3">
 					<div class="col-2 col-md-1 text-right">
 						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
