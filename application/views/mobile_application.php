@@ -1,9 +1,9 @@
 <head>
-	<title> Mobile App Development Company In Hyderabad | Web Designing Agency | Digital Marketing Company </title>
+	<title> Mobile App Development Company In Hyderabad | Prachatech </title>
 	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Web Designing & Mobile App development company in Hyderabad. The company is specialized in developing eCommerce websites, Static & Dynamic Websites , Mobile Apps for (iOS & Android softwares), and offer Digital Marketing services at affordable prices."> 
 	<meta name="keywords" content=" Mobile App Development Company In Hyderabad, mobile app developers in hyderabad, mobile application developers in hyderabad, mobile apps designer in hyderabad, mobile applications designer in hyderabad, mobile application services in hyderabad, mobile app services in hyderabad. ">
 </head>
-<section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/mobile-application-development-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
+<section title="Mobile App Development Company In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/mobile-application-development-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
 
   <h1>
    MOBILE APP DEVELOPMENT <br />
@@ -22,7 +22,7 @@
 <section class="mar-mi140">
 <div class="container-sty card " >
 
-	<div class="row justify-content-md-center" >
+	<div class="row justify-content-md-center pad-t40" >
 		<p class="font-18 col-md-11">As per latest Google reports, two in five Google searches is now being carried out on a mobile device or a smartphone. One out of every three searches is now local, so if you don’t have a mobile optimized version of your website you are throwing away a large chance of your business. Creating a mobile optimised version of your website is faster, easier and less expensive. Let’s have a glimpse about the different types of Mobile Apps . </p>
 	</div>
 	</br>
@@ -41,7 +41,7 @@
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
 <li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="logo Mobile App Development Company In Hyderabad"></a>
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" title="Mobile App development Company" alt="logo Mobile App Development Company In Hyderabad"></a>
     </li>
     <li class="nav-item">
         <a class="nav-link active"  href="#iOS-application-development" role="tab">iOS Application Development</a>
@@ -80,8 +80,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ios-application-development.png" alt="iOS Mobile App Development Company In Hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ios-application-development.png" title="iOS Mobile App Development" alt="iOS Mobile App Development Company In Hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -123,8 +123,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/andriod-application-development.png" alt="Android Mobile App Development Company In Hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/andriod-application-development.png" title="Android Mobile App Development" alt="Android Mobile App Development Company In Hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -144,8 +144,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/hybrid-mobile-applications.png" alt="Hybrid Mobile App Development Company In Hyderabad" class="img-fluid">
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/hybrid-mobile-applications.png" title="Hybrid Mobile App Development" alt="Hybrid Mobile App Development Company In Hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -183,8 +183,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-integration.png" alt="Integrated Mobile App Development Company In Hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-integration.png" title="Mobile Integration" alt="Integrated Mobile App Development Company In Hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -204,8 +204,8 @@
     <!--Grid column-->
     <div class="col-lg-5 col-xl-5 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-testing.png" alt="Testing Mobile App Development Company In Hyderabad" class="img-fluid">
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-testing.png" title="Mobile App Testing" alt="Testing Mobile App Development Company In Hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -247,8 +247,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-security.png" alt="Security Mobile App Development Company In Hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-security.png" title="Mobile App Security" alt="Security Mobile App Development Company In Hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>

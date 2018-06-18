@@ -1,7 +1,7 @@
 <head>
-	<title>Web Designing Services In Hyderabad| Mobile App Developers | Digital Marketing Company </title>
-	<meta name="description" content="Pracha Technologies Pvt. Ltd. offers various web designing services in Hyderabad for startups and mid-level companies. The company deals with mobile apps (iOS and Android), ecommerce websites, corporate websites and promote them on the internet through its  digital marketing strategies.">
-	<meta name="keywords" content=" web designing services in hyderabad, web designing services, web designing company in hyderabad, mobile app developers in hyderabad, digital marketing agency in hyderabad, web designing companies in hyderabad, web development services in hyderabad, web development, web designing, digital marketing, ecommerce website design in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+	<title>Web Designing Services In Hyderabad | Prachatech Pvt. Ltd. </title>
+	<meta name="description" content="Prachatech Pvt. Ltd. offers various Web Designing Services in Hyderabad, the company also deals with Mobile Apps and Digital Marketing services for startups and mid-level companies.">
+	<meta name="keywords" content="web designing, best web designing services in hyderabad, web development, mobile apps, mobile apps development, mobile applications, mobile applications development, digital marketing, digital marketing services, digital marketing company, web designing company, best web designing agency, ui and ux, ui and ux design, ui and ux development, android mobile apps, ios mobile apps, ecommerce, ecommerce website developers, business solutions">
 </head>
  <style>
  #sticky {
@@ -25,11 +25,11 @@
       z-index: 9999 !important;
   }
   </style>
-  <section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png); ">
+  <section title="Web Designing Services In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png); ">
 	<h1>
     Pracha Technologies Pvt. Ltd.<br />
 	<br>
-		<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Web Designing Services In Hyderabad", "Digital Marketing Company In Hyderabad", "Web Designing Company In Hyderabad", "Mobile App Development Company In Hyderabad", "eCommerce Website Development In Hyderabad" ]'></p>
+		<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Web Designing Services", "Digital Marketing Company", "Web Designing Company", "Mobile App Development Company", "eCommerce Website Developers" ]'></p>
 	</h1>
 	
 </section>
@@ -97,7 +97,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ui-and ux-design.png" alt="the best web designing services in hyderabad"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ui-and ux-design.png" title="web designing plan" alt="the best web designing services in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -149,7 +149,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/web-development.png" alt="our web designing services in hyderabad"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/web-development.png" title="web development" alt="our web development services in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -170,7 +170,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-development.png" alt="Mobile web designing services in hyderabad" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-development.png" title="mobile apps development" alt="Mobile web designing services in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -216,7 +216,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-marketing.png" alt="Digital marketing and web designing services in hyderabad" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-marketing.png" title="digital marketing" alt="Digital marketing and web designing services in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -250,7 +250,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-website.png" alt="ecommerce web designing services in hyderabad"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-website.png" title="eCommerce website design" alt="ecommerce web designing services in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -285,7 +285,7 @@
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/business-solutions.png" alt="prachatech web designing services in hyderabad"
+        <img src="<?php echo base_url(); ?>assets/vendor/img/business-solutions.png" title="business solutions" alt="prachatech web designing services in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -306,7 +306,7 @@
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
         <div class=" overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/website-maintenance.png" alt="prachatechnologies Web designing services in hyderabad" class="img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/website-maintenance.png" title="website maintenance" alt="prachatechnologies Web designing services in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>

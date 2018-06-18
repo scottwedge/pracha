@@ -1,7 +1,7 @@
-<title>Web Designing Agency In Hyderabad - UI And UX Design </title>
-<meta name="description" content="Pracha Technologies Pvt. Ltd. is a web designing agency in Hyderabad. The company deals with eCommerce websites, corporate websites, static & dynamic website design, custom web design, responsive web design, mobile apps (iOS and Android) and offer digital marketing services at affordable prices. ">
-	<meta name="keywords" content="Web designing agency in hyderabad, ui and ux design in hyderabad, ui & ux design in hyderabad, ui and ux design, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
-<section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/ui-and-ux-design-background.png); ">
+<title>Web Designing Agency In Hyderabad | Prachatech Pvt. Ltd. </title>
+<meta name="description" content="Prachatech Pvt. Ltd. is a Web Designing Agency in Hyderabad. The company deals with eCommerce websites, static & dynamic website design,  mobile apps (iOS and Android)  and offer digital marketing services at affordable prices. ">
+	<meta name="keywords" content="web designing agency, web designing agency in hyderabad, best web designing agencies in hyderabad, web designing, ui and ux design in hyderabad, ui and ux design, web design company in hyderabad, Web design and development company in hyderabad, site architecture and design, static and Dynamic website design, responsive web design, custom web design, corporate website design, template design & customization, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+<section title="Web Designing Agency In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/ui-and-ux-design-background.png); ">
 	<h1>
     WEB DESIGNING <br />
 	<br>
@@ -13,8 +13,8 @@
 <section class="mar-mi140">
 <div class="container-sty card " >
 
-	<div class="row justify-content-md-center" >
-		<p class="font-18 col-md-11"> Web designing is concerned about visual aesthetics and usability, which means it mainly focuses on what user sees on the desktop or mobile screen. In other words web designing governs UI and UX design. UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. <strong>In simple UI aims on website and UX aims on product</strong>, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user.</p>
+	<div class="row justify-content-md-center  pad-t40" >
+		<p class="font-18 col-md-11 "> Web designing is concerned about visual aesthetics and usability, which means it mainly focuses on what user sees on the desktop or mobile screen. In other words web designing governs UI and UX design. UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. <strong>In simple UI aims on website and UX aims on product</strong>, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user.</p>
 	</div><br>
 	<h2 class="head-ing">UI & UX:</h2>
 	<div class="row justify-content-md-center" >
@@ -31,7 +31,7 @@
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
 <li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="web designing agency in hyderabad">
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" title="web designing agency " alt="web designing agency in hyderabad">
 
 </a>
     </li>
@@ -71,9 +71,8 @@
 	<!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/site-architecture-and-design.png" alt="Site Architecture web designing agency in hyderabad"
-            class="img-fluid">
+        <div class=" overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/site-architecture-and-design.png"  title="site architecture and design"  alt="Site Architecture web designing agency in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -117,9 +116,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/static-and-dynamic-web-design.png" alt="Static web design company in hyderabad"
-            class="img-fluid">
+        <div class=" overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/static-and-dynamic-web-design.png" title="static and dynamic web design " alt="Static web design company in hyderabad"  class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -138,8 +136,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/responsive-web-design.png" alt="Responsive Web designing agency in hyderabad" class="img-fluid">
+        <div class=" overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/responsive-web-design.png" title="Responsive Web Design" alt="Responsive Web designing agency in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -180,8 +178,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/custom-web-design.png" alt="Custom Web designing agency in hyderabad"
+        <div class=" overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/custom-web-design.png" title="Custom Web Design" alt="Custom Web designing agency in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -201,8 +199,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/corporate-web-design.png" alt="Corporate Web designing agency in hyderabad" class="img-fluid">
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/corporate-web-design.png" title="Corporate Website Design" alt="Corporate Web designing agency in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -247,8 +245,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/template-design-and-customization.png" alt="Template web designing agency in hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/template-design-and-customization.png" title="Website Templates" alt="Template web designing agency in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
