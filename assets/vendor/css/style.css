@@ -96,7 +96,7 @@ p{
 .active-menu{
 	background:#ff9800;
 	color:#fff;
-	border-radius:6px;
+	/* border-radius:6px; */
 }
 /* .bg-grow{ */
 	   /* background-image: url("../img/busin-grow.png "); */
@@ -1313,7 +1313,7 @@ z-index:0;
 .carousel-multi-item .controls-top {
     margin-bottom: 30px;
     position: absolute;
-    top: -75px;
+    top: 5px;
     right: 0;
 }
 .dis-team span {
