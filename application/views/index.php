@@ -7,82 +7,49 @@
 <div class="selectstate">
 <section class=" bod-st" >
     <!--Carousel Wrapper-->
-<div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel" style="height:500%">
-    <!--Indicators-->
-    <ol class="carousel-indicators">
-         <!--<li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
-       <li data-target="#video-carousel-example2" data-slide-to="1"></li>
-        <li data-target="#video-carousel-example2" data-slide-to="2"></li>-->
-    </ol>
-    <!--/.Indicators-->
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-        <!-- First slide -->
-        <div class="carousel-item active">
-            <!--Mask color-->
-            <div class="view hm-indigo-light md-hide" >
-                <!--Video source-->
-               <img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/mobile-background.png" alt="mobile app web designing company in hyderabad">
-                <div class="full-bg-img"></div>
-            </div>
-			<div class="view hm-indigo-light sm-hide" >
-                <!--Video source-->
-                <video class="video-fluid" autoplay loop >
-                    <source src="<?php echo base_url(); ?>assets/videos/vid3.mp4" type="video/mp4" />
-                </video>
-                <div class="full-bg-img"></div>
-            </div>
-				
-            <!--Caption-->
-            <div class="carousel-caption">
-                <div class="animated fadeInDown">
-                    <span class="text-white">
-					<h1 style="text-transform:capitalize;"><span class="caption-sty text-white font-desktop" >Digital Marketing <br> Mobile App Development <br> Web Designing Company In Hyderabad</span></h1></span>
-					<div class="clearfix hid-320">&nbsp;</div>
-					<div class="row justify-content-md-center help-btn-sl">
-						<a href="<?php echo base_url('web-designing-services-in-hyderabad'); ?>"  class="btn bg-warning"><i class="fa fa-cogs" aria-hidden="true"></i> &nbsp; Our Services</a><a href="<?php echo base_url('contactus');?>"  class="btn bg-warning"> Contact Us</a>
-						<!--<a href="<?php echo base_url('pracha/contactus'); ?>" class="btn btn-success"> <i class="fa fa-volume-control-phone  ml-1"></i> &nbsp; Talk to Us</a>-->
-					<div class="clearfix">&nbsp;</div>
-					</div>
-					<div class="row mt-15-ban justify-content-md-center md-hide">
-						<div class="col-4 caption-tit">
-							<span class=""><a href="<?php echo base_url('servicesrm'); ?>">Web Designing</a>, <a href="<?php echo base_url('develop_service'); ?>">Web Design & Development </a></span>
-						</div>
-						<div class="col-4 caption-tit">
-							<span class=""><a href="<?php echo base_url('mobile_application'); ?>">Mobile App Development &nbsp; ( Android & iOS )  </a></span>
-						</div>
-						<div class="col-4 caption-tit">
-							<span class=""> <a href="<?php echo base_url('digitalmarketing'); ?>">Digital Marketing </span><br><span class="font-size:12px;">(SEO, SMM, Adwords,  etc.)</span></a>
-						</div>
-					</div>
-					<div class="row mar-t150 sm-hide justify-content-md-center" >
-						<ul class="menu-service ">
-							<a href="<?php echo base_url('start_up'); ?>"><li style="border-left:none;">Start-Up</li></a>
-							<a href="<?php echo base_url('enterprise'); ?>"><li >Enterprise</li></a>
-							<a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>"><li >Web Designing</li></a>
-							<a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>"><li>Web Development</li></a>
-							<a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>"><li>Mobile App Development</li></a>
-							<a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>"><li>Digital Marketing</li></a>
-							<a href="<?php echo base_url('ecommerce'); ?>"><li>eCommerce Website </li></a>
-							
-							<a href="<?php echo base_url('website_maintainence'); ?>"><li style="border:none;">Maintenance</li></a>
-							
-						</ul>
-				</div>
-					
-                   
-                </div>
-            </div>
-            <!--Caption-->
-        </div>
-        
-    </div>
-  
-    <!--/.Controls-->
+<div id="main-slide" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#main-slide" data-slide-to="0" class="active"></li>
+<li data-target="#main-slide" data-slide-to="1"></li>
+<li data-target="#main-slide" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban1.png" alt="First slide">
+<div class="carousel-caption d-md-block">
+<h1 class="animated wow fadeInDown text-warning text-shadow" data-wow-delay=".4s">Web Designing Company In Hyderabad</h1>
+</h5>
+
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban2.png" alt="Second slide">
+<div class="carousel-caption d-md-block">
+<h1 class="animated wow fadeInLeft text-warning text-shadow" data-wow-delay=".7s">WEB DEVELOPMENT</h1>
+
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban3.png" alt="Third slide">
+<div class="carousel-caption d-md-block">
+<h1 class="animated wow fadeInDown text-warning text-shadow" data-wow-delay=".6s">Mobile Application 
+Development</h1>
+
+</div>
+</div>
+</div>
+<a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
+<span class="carousel-control" aria-hidden="true"><i class="mdi mdi-arrow-left" data-ripple-color="#F0F0F0"></i></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#main-slide" role="button" data-slide="next">
+<span class="carousel-control" aria-hidden="true"><i class="mdi mdi-arrow-right" data-ripple-color="#F0F0F0"></i></span>
+<span class="sr-only">Next</span>
+</a>
 </div>
 <!--Carousel Wrapper-->
 </section>
-<section id="seric-sc" class="our_service padding-10 ptb-xs-60 mar-150 wow slideInUp" data-wow-delay="0.5s">
+<section id="seric-sc" class="our_service padding-10 ptb-xs-60  wow slideInUp" data-wow-delay="0.5s">
     <div class="container-sty card ">
       <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
@@ -104,9 +71,9 @@
 				<div class="col-1 "> 
 					&nbsp;
 				</div>
-				<div class="col-10 text-center"> 
-					We at Prachatech Software Solutions, are delighted  to offer the full spectrum of digital marketing and web designing services to serve our clients. We generate static & complex websites, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. We are considered as the best digital marketing and web designing company in Hyderabad, by our clients for we  developed user-friendly Software's, and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally across the web, to all our existing clients. We also have a skillful team of Mobile App developers, who develops mobile app softwares for Android and iOS platforms. Quality work & Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
-					
+				<div class="col-md-12 text-center"> 
+					<p>We at Prachatech Software Solutions, are delighted  to offer the full spectrum of digital marketing and web designing services to serve our clients. We generate static & complex websites, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. We are considered as the best digital marketing and web designing company in Hyderabad, by our clients for we  developed user-friendly Software's, and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally across the web, to all our existing clients. We also have a skillful team of Mobile App developers, who develops mobile app softwares for Android and iOS platforms. Quality work & Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
+					</p>
 					
 					
 					</div>
@@ -128,7 +95,8 @@
 
 <section id="seric-sc" class="our_service padding-10 ptb-xs-60">
     <div class="container-sty card ">
-        <div class="row  text-center">
+		<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+		     <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
 
                 <h3 class="font-bold">
@@ -141,16 +109,24 @@
             </div>
 
         </div>
+    <!--Controls-->
+    <div class="controls-top">
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+    </div>
+    <div class="carousel-inner" role="listbox">
 
-        <div class="row">
-		<a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>">
-            <div class="col-md-4 wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
+        <!--First slide-->
+        <div class="carousel-item active">
+
+            <div class="col-md-4">
+                <div class="card ">
+                 <a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>">
+            <div class=" wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
 			
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
-				
-                    <div class="service_icon">
-
-                        <i class="hi-icon fa fa-globe" aria-hidden="true"></i>
+				<div class="service_icon ">
+                        <i class="hi-icon fa fa-television" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
                         <h2 class="font-color_base no_stripe">UI & UX DESIGNING
@@ -158,9 +134,10 @@
 									</h2>
                     </div>
                     <div class="service_content">
+				
 						<div class="pad-lr30">
 							<ul>
-							  <li>Site Architecture and design </li>
+							  <li> Site Architecture And Design</li>
 							  <li>Static & Dynamic Website Design</li>
 							  <li>Responsive Web Design</li>
 							  <li>Custom Web Design</li>
@@ -181,8 +158,13 @@
                 </div>
             </div>
 			</a>
-			<a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>">
-            <div class="col-md-4 wow tada" style="visibility: visible; animation-name: tada;">
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                   <a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>">
+            <div class="wow tada" style="visibility: visible; animation-name: tada;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon ">
                         <i class="hi-icon fa fa-television" aria-hidden="true"></i>
@@ -209,8 +191,13 @@
                 </div>
             </div>
 			</a>
-		<a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>">
-            <div class="col-md-4 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+              <a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>">
+            <div class=" wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-mobile" aria-hidden="true"></i>
@@ -235,10 +222,19 @@
                 </div>
             </div>
 			</a>
-            </div><br>
-			 <div class="row">
-			 <a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>">
-            <div class="col-md-4 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                </div>
+            </div>
+
+        </div>
+        <!--/.First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+
+            <div class="col-md-4">
+                <div class="card mb-2">
+                <a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>">
+            <div class=" wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-industry" aria-hidden="true"></i>
@@ -263,40 +259,13 @@
                     </div>
                 </div>
             </div></a>
-			<!-- <a href="<?php echo base_url('seo'); ?>">
-			<div class="col-sm-4">
-                <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
-                    <div class="service_icon">
-                        <i class="hi-icon fa fa-group" aria-hidden="true"></i>
-                    </div>
-                    <div class="service_details">
-                        <h5 class="font-color_base no_stripe"> SEO</h5>
-                    </div>
-                    <div class="service_content">
-							<div class="pad-lr30">
-							<p>Each website is unique in its own way and hence our search engine optimization (SEO) plans differs from website to website. </p>
-								<ul>
-								  <li>Inbound Marketing</li>
-								  <li>SEO</li>
-								  <li>SEM & PPC</li>
-								  </ul>
-								 
-								  <br class="sm-hide">
-								  <br class="sm-hide">
-								  <br class="sm-hide">
-								</div>
-								
-
-
-
-
-								<p class="text-center"> <a href="<?php echo base_url('seo'); ?>" class="btn btn-warning btn-sm">Know more...</a></p>
-                    </div>
                 </div>
             </div>
-			</a>-->
-			 <a href="<?php echo base_url('ecommerce'); ?>">
-            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.2s;">
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+               <a href="<?php echo base_url('ecommerce'); ?>">
+            <div class=" wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.2s;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-shopping-basket" aria-hidden="true"></i>
@@ -324,8 +293,13 @@
                     </div>
                 </div>
             </div></a>
-			 <a href="<?php echo base_url('website_maintainence'); ?>">
-			<div class="col-md-4 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.6s;">
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                   <a href="<?php echo base_url('website_maintainence'); ?>">
+			<div class=" wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.6s;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
                     <div class="service_icon">
                         <i class="hi-icon fa fa-keyboard-o" aria-hidden="true"></i>
@@ -353,17 +327,25 @@
                     </div>
                 </div>
             </div></a>
-            
+                </div>
+            </div>
+
         </div>
-        <div class="clearfix">&nbsp;</div>
-		<div class="text-right">
+        <!--/.Second slide-->
+
+			
+
+    </div>
+    <!--/.Slides-->
+	<div class="text-right">
 			<a href="<?php echo base_url('web-designing-services-in-hyderabad'); ?>"><button type="button" class="btn btn-dark btn-rounded">See More</button></a>
 
 		</div>
-		<div class="clearfix">&nbsp;</div>
-    </div>
+</div>
+	
+	</div>
+	</section>
 
-</section><!--our industries-->
 <section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
     <div class="container-sty card ">
         <div class="row  text-center">

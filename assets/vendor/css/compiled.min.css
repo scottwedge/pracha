@@ -14322,6 +14322,7 @@ body.scrollable {
 	margin:5px 20px 5px 0px;
 	cursor:pointer;
 	border:1px solid #cfd4de;
+	float:right;
 }
 .carousel .carousel-indicators li:hover {
 	-webkit-transform: rotate(360deg) scale(1.1);
