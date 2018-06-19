@@ -36,7 +36,7 @@
 
 
 <div class=" "  id="navbarSupportedContent" >
-<section class="py-4 text-center text-lg-left">
+<!--<section class="py-4 text-center text-lg-left">
 <div id="sticky-anchor"></div>
 	<div class="container-sty card " id="sticky">
 
@@ -72,7 +72,7 @@
 	
 </ul>
 </div>
-</section>
+</section>-->
 <section class="py-4 text-center text-lg-left  jarallax"   data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/ui-bac.png'); height: 100%;">
 <div class="container-sty" >
 <div class="row" >

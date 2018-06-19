@@ -56,8 +56,8 @@
     </li>
 </ul>
 </div>
-</section>-->
-<div class="mb-5 mt-5 pb-3" id="custom-application-development">&nbsp;</div>
+</section>
+<div class="mb-5 mt-5 pb-3" id="custom-application-development">&nbsp;</div>-->
 <section class="py-4 text-center text-lg-left ">
 <div class="container-sty  mar-t2" >
 <!-- Tab panels -->

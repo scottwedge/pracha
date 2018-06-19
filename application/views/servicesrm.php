@@ -24,7 +24,7 @@
 	</div>
 		
 <div class=" "  id="navbarSupportedContent" >
-<section class="py-4 text-center text-lg-left">
+<!--<section class="py-4 text-center text-lg-left">
 <div id="sticky-anchor"></div>
 	<div class="container-sty card sm-hide" id="sticky">
 
@@ -60,10 +60,10 @@
 	
 </ul>
 </div>
-</section>
-<div class="mb-5 mt-5 pb-3" id="site-architecture-and-design">&nbsp;</div>
+</section>-->
+
 <section class="py-4 text-center text-lg-left">
-<div class="container-sty  mar-t2" >
+<div class="container-sty  " >
 <!-- Tab panels -->
 <div class="tab-content"><!--Panel 1-->
     <div class=" active" >
