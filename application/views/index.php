@@ -12,13 +12,16 @@
 <li data-target="#main-slide" data-slide-to="0" class="active"></li>
 <li data-target="#main-slide" data-slide-to="1"></li>
 <li data-target="#main-slide" data-slide-to="2"></li>
+<li data-target="#main-slide" data-slide-to="3"></li>
+
+
 </ol>
 <div class="carousel-inner">
 <div class="carousel-item active">
 <img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban1.png" alt="First slide">
 <div class="carousel-caption d-md-block">
-<h1 class="animated wow fadeInDown text-warning text-shadow" data-wow-delay=".4s">Web Designing Company In Hyderabad</h1>
-</h5>
+<h1 class="animated wow fadeInDown text-warning text-shadow" data-wow-delay=".4s">Web Designing Company </h1>
+
 
 </div>
 </div>
@@ -32,8 +35,15 @@
 <div class="carousel-item">
 <img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban3.png" alt="Third slide">
 <div class="carousel-caption d-md-block">
-<h1 class="animated wow fadeInDown text-warning text-shadow" data-wow-delay=".6s">Mobile Application 
+<h1 class=" col-md-8 animated wow fadeInDown text-warning text-shadow" data-wow-delay=".6s">Mobile Application 
 Development</h1>
+
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban4.png" alt="Third slide">
+<div class="carousel-caption d-md-block">
+<h1 class=" col-md-6 animated wow fadeInDown text-warning text-shadow" data-wow-delay=".6s">Digital Marketing Company</h1>
 
 </div>
 </div>
