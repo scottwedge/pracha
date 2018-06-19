@@ -1,4 +1,4 @@
-<section class=" py-5 bg-light-brown" style="overflow:hidden;">
+<section class=" py-4 bg-light-brown" style="overflow:hidden;">
 <div class="row justify-content-center">
 	<div class="half-circle">
 		<div class="text-white" style="line-height:380px;font-size:35px;padding-left:110px;font-weight:400;margin-top:30px">FACT</div>
@@ -8,13 +8,13 @@
 	<div class="text-center container-sty text-white">
 		<div class="row justify-content-center">
 		<div class="col-md-10">
-		<div class="py-5 text-shad font-20 font-bold"> Quality work & Customer service are the two main objectives of our company. Our dedicated and proficient team will solve all your issues and leads your projects in a successful way. We will be with you through out the project as per company norms, to achieve the desired results .</div>
+		<div class="py-2 text-shad font-20 font-bold"> Quality work & Customer service are the two main objectives of our company. Our dedicated and proficient team will solve all your issues and leads your projects in a successful way. We will be with you through out the project as per company norms, to achieve the desired results .</div>
 		<div class="py-3">
 		<a href="<?php echo base_url('contactus');?>" class="btn btn-warning btn-rounded " style="font-size:20px;">Let’s talk!</a>
 			
 		</div>
 		
-		<p class="font-20 py-4 text-shad">Let’s talk! 
+		<p class="font-20 py-2 text-shad">Let’s talk! 
 		Tell us about your idea! We want to know how we can help you. Let's have a session of brisk inception.
 		</p>
 		</div>
@@ -22,10 +22,10 @@
 	</div>
 </section>
 <section class="  ">
-	<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/footerbanner1.png);height:700px;">
+	<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/startup.png);height:700px;">
     <div class="full-bg-img">
       <div class="mask ">
-        <div class="container flex-center text-center text-white" style="position:relative">
+        <div class=" flex-center text-center text-white" style="position:relative">
           <div class="row  algin-pos-left">
             <div class="col-md-5 ">
 			<div class="help-foot-banner">
@@ -57,12 +57,12 @@
     </div>
 </div>
 </section>
-<section class=" py-5 stylish-color-dark">
+<section class=" py-3 stylish-color-dark">
 	<div class="text-center container-sty text-white">
 		<div class="row justify-content-center">
 		<div class="col-md-10">
 		<div class="py-2 font-28">Assuredly Your digital presence is Your online reputation, and the million dollar question is, how have you presented yourself?</div>
-		<div class="py-5 font-weight-bold font-25">Join Us! We will present your business much better on online.</div>
+		<div class="py-3 font-weight-bold font-25">Join Us! We will present your business much better on online.</div>
 		<h2 class="pull-right">— Pracha Technologies Pvt. Ltd.</h2>
 		</div>
 		</div>
