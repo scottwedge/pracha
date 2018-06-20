@@ -18,7 +18,7 @@
 </ol>
 <div class="carousel-inner">
 <div class="carousel-item active">
-<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban1.png" alt="First slide">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban1.png" title="Web Designing Company" alt="web designing company in hyderabad">
 <div class="carousel-caption d-md-block">
 <h1 class="animated wow fadeInDown text-warning text-shadow" data-wow-delay=".4s">Web Designing Company </h1>
 
@@ -26,22 +26,21 @@
 </div>
 </div>
 <div class="carousel-item">
-<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban2.png" alt="Second slide">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban2.png" title="Web Development Company" alt="web designing company in hyderabad">
 <div class="carousel-caption d-md-block">
-<h1 class="animated wow fadeInLeft text-warning text-shadow" data-wow-delay=".7s">WEB DEVELOPMENT</h1>
+<h1 class="animated wow fadeInLeft text-warning text-shadow" data-wow-delay=".7s">Web Development Company</h1>
 
 </div>
 </div>
 <div class="carousel-item">
-<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban3.png" alt="Third slide">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban3.png" title="Mobile Apps Development company" alt="Mobile Apps Development company in hyderabad">
 <div class="carousel-caption d-md-block">
-<h1 class=" col-md-8 animated wow fadeInDown text-warning text-shadow" data-wow-delay=".6s">Mobile Application 
-Development</h1>
+<h1 class=" col-md-8 animated wow fadeInDown text-warning text-shadow" data-wow-delay=".6s">Mobile Apps Development</h1>
 
 </div>
 </div>
 <div class="carousel-item">
-<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban4.png" alt="Third slide">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban4.png" title="Digital Marketing Company" alt="Digital Marketing Company In Hyderabad">
 <div class="carousel-caption d-md-block">
 <h1 class=" col-md-6 animated wow fadeInDown text-warning text-shadow" data-wow-delay=".6s">Digital Marketing Company</h1>
 
@@ -82,7 +81,7 @@ Development</h1>
 					&nbsp;
 				</div>
 				<div class="col-md-12 text-center"> 
-					<p>We at Prachatech Software Solutions, are delighted  to offer the full spectrum of digital marketing and web designing services to serve our clients. We generate static & complex websites, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. We are considered as the best digital marketing and web designing company in Hyderabad, by our clients for we  developed user-friendly Software's, and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally across the web, to all our existing clients. We also have a skillful team of Mobile App developers, who develops mobile app softwares for Android and iOS platforms. Quality work & Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
+					<p>Pracha Technologies Pvt. Ltd. is a web design company located in Hyderabad, providing top-notch web designs, eCommerce websites, digital marketing services and mobile app development services especially for individuals, startups and mid-level companies. We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web designing services to serve our clients. We generate static & complex web designs, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. Our clients has considered our company as the best digital marketing and web designing company in Hyderabad, for we have developed user-friendly Software's, mobile apps and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally through various digital marketing channels across the web, and helped them in better rankings. Regarding mobile apps development, we have a skillful team of Mobile App developers, who develops mobile app softwares for Android & iOS platforms, Web apps and Hybrid Mobile apps. Quality work & Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
 					</p>
 					
 					
