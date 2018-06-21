@@ -170,7 +170,11 @@
 				     
           
 
+<<<<<<< HEAD
                     <li><a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>">Web Designing </a></li>
+=======
+                    <li><a href="<?php echo base_url('web-designing-agency-in-hyderabad'); ?>">UI & UX Designing </a></li>
+>>>>>>> 0b4a22da8b97b60e4b34b1829d16f1e7e9b35c07
                     <li><a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>">Web Development</a></li>
                     <li><a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>">Mobile Applications</a></li>
                     <li><a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>">Digital Marketing </a></li>
@@ -237,23 +241,7 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/mdb.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/wow.min.js"></script>
-	<!--  <script>
-    wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       100,
-        callback:     function(box) {
-          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-        }
-      }
-    );
-    wow.init();
-    document.getElementById('moar').onclick = function() {
-      var section = document.createElement('section');
-      section.className = 'section--purple wow fadeInDown';
-      this.parentNode.insertBefore(section, this);
-    };
-  </script>-->
+	
 </body>
 
 </html>
