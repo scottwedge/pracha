@@ -22,7 +22,7 @@ class Ui_and_ux_design extends CI_Controller {
 	{
 		$data['currentURL'] = current_url();
 		if($data['currentURL']== base_url('ui_and_ux_design') || $data['currentURL']== base_url('ui_and_ux_design.xml')){
-			redirect('web-designing-agency-in-hyderabad-ui-and-ux-design');
+			redirect('web-designing-agency-in-hyderabad');
 		}
 		
 		//echo '<pre>';print_r($data);exit;
