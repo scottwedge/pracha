@@ -77,13 +77,13 @@
 					<a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>">Web Development</a>
 					<a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>">Mobile Applications</a>
 					<a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>"> Digital Marketing</a>
-					<!--<a href="<?php echo base_url('seo'); ?>">SEO</a>-->
+					
 				
 					<a href="<?php echo base_url('website_maintainence'); ?>"> Software Maintenance</a>
 					
 				  </div>
 				  <div class="col-md-6">
-					<a href="<?php echo ba	se_url('start_up'); ?>">Start-Up</a>
+					<a href="<?php echo base_url('start_up'); ?>">Start-Up</a>
 					<a href="<?php echo base_url('enterprise'); ?>">Enterprise</a>
 					<a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
 					<a href="<?php echo base_url('on_demand_services'); ?>">On Demand Services</a>
