@@ -1,10 +1,10 @@
 <head>
-	<title>Web Development Company In Hyderabad | Digital Marketing | Mobile App Developers</title>
-	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a web development company in Hyderabad that deals with Custom Application Development, Content Management System, MEAN Stack Development etc., to make the website much attractive. It also develops Mobile apps (iOS & Android), and offer  Digital Marketing services.">
-	<meta name="keywords" content="web development company in hyderabad, web designing agency in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+	<title>Web Development Company In Hyderabad|Prachatech Pvt. Ltd.</title>
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a web development company in Hyderabad, India. The company also develops mobile apps and offer digital marketing services at affordable prices.">
+	<meta name="keywords" content="web development, web development company in hyderabad, web designing agency in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, mobile apps, mobile apps development, mobile applications, mobile applications development, digital marketing, digital marketing services, digital marketing company, ui and ux, ui and ux design, ui and ux development, android mobile apps, ios mobile apps, ecommerce, ecommerce website developers, web design & development company in hyderabad, web designing company, web design and development, web designing and development, web development company in India, ">
 
 </head>
-<section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-development-background.png);background-repeat: no-repeat;background-size: 100% 100%;  ">
+<section title="Web Development Company In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-development-background.png);background-repeat: no-repeat;background-size: 100% 100%;  ">
 
   <h1>
     WEB DEVELOPMENT <br />
@@ -23,7 +23,7 @@
 <section class="mar-mi140">
 <div class="container-sty card " >
 
-	<div class="row  justify-content-md-center" >
+	<div class="row  justify-content-md-center pad-t40" >
 		<p class="font-18 col-md-11">We focus on many principal things to make the website much attractive, we focus on  Custom Application Development, Content Management System, Ui & Ux Design and MEAN (Mongo DB, Express.js, Angular.js, Node.js) Stack Development etc., so lets have a glimpse on each and every attribute and its functionalities.</p>
 	</div><br>
 	<h2 class="head-ing">Web Development</h2>
@@ -33,14 +33,14 @@
 		</div>
 		
 <div class=" "  id="navbarSupportedContent" >
-<section class="py-4 text-center text-lg-left">
+<!--<section class="py-4 text-center text-lg-left">
 <div id="sticky-anchor"></div>
 	<div class="container-sty card sm-hide" id="sticky">
 
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
 <li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="best web development company in hyderabad"></a>
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" title="Web Development Company" alt="best web development company in hyderabad"></a>
     </li>
     <li class="nav-item">
         <a class="nav-link active"  href="#custom-application-development" role="tab">Custom Application Development</a>
@@ -57,7 +57,7 @@
 </ul>
 </div>
 </section>
-<div class="mb-5 mt-5 pb-3" id="custom-application-development">&nbsp;</div>
+<div class="mb-5 mt-5 pb-3" id="custom-application-development">&nbsp;</div>-->
 <section class="py-4 text-center text-lg-left ">
 <div class="container-sty  mar-t2" >
 <!-- Tab panels -->
@@ -69,8 +69,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/custom-application-development.png" alt="Custom web development company in hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/custom-application-development.png" title="Custom Web Development" alt="Custom web development company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -111,8 +111,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/content-management-system.png" alt="CMS web development company in hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/content-management-system.png" title="CMS Web Development" alt="CMS web development company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -132,8 +132,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-web-development.png" alt="ecommerce web Development company in hyderabad" class="img-fluid">
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-web-development.png" title="eCommerce Web Development" alt="ecommerce web Development company in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -176,8 +176,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mean-stack-development.png" alt="MEAN Stack web development company in hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mean-stack-development.png" title="MEAN Stack Web Development" alt="MEAN Stack web development company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>

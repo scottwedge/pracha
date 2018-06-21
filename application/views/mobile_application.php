@@ -1,14 +1,14 @@
 <head>
-	<title> Mobile App Development Company In Hyderabad | Web Designing Agency | Digital Marketing Company </title>
+	<title> Mobile App Development Services In Hyderabad | Prachatech </title>
 	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Web Designing & Mobile App development company in Hyderabad. The company is specialized in developing eCommerce websites, Static & Dynamic Websites , Mobile Apps for (iOS & Android softwares), and offer Digital Marketing services at affordable prices."> 
-	<meta name="keywords" content=" Mobile App Development Company In Hyderabad, mobile app developers in hyderabad, mobile application developers in hyderabad, mobile apps designer in hyderabad, mobile applications designer in hyderabad, mobile application services in hyderabad, mobile app services in hyderabad. ">
+	<meta name="keywords" content=" mobile apps, mobile applications, phone apps, phone app services, mobile app development services, mobile app development services in hyderabad, mobile app development company in hyderabad, mobile app developers in hyderabad, mobile application developers in hyderabad, mobile apps designer in hyderabad, mobile applications designer in hyderabad, mobile application services in hyderabad, mobile app services in hyderabad. ">
 </head>
-<section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/mobile-application-development-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
+<section title="Mobile App Development Services In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/mobile-application-development-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
 
   <h1>
    MOBILE APP DEVELOPMENT <br />
 	<br>
-	<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[   "iOS Mobile App Development", "Android Mobile App Development", "Hybrid Mobile Apps","Mobile Integration","Mobile Application Testing","Mobile Application Security", "Mobile App Development Company In Hyderabad",  " " ]'>
+	<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[   "iOS Mobile App Development", "Android Mobile App Development", "Hybrid Mobile Apps","Mobile Integration","Mobile Application Testing","Mobile Application Security", "Mobile App Development Services  In Hyderabad",  " " ]'>
    
   </p>
  
@@ -22,26 +22,26 @@
 <section class="mar-mi140">
 <div class="container-sty card " >
 
-	<div class="row justify-content-md-center" >
+	<div class="row justify-content-md-center pad-t40" >
 		<p class="font-18 col-md-11">As per latest Google reports, two in five Google searches is now being carried out on a mobile device or a smartphone. One out of every three searches is now local, so if you don’t have a mobile optimized version of your website you are throwing away a large chance of your business. Creating a mobile optimised version of your website is faster, easier and less expensive. Let’s have a glimpse about the different types of Mobile Apps . </p>
 	</div>
 	</br>
 	<h2 class="head-ing">MOBILE APPLICATIONS</h2>
 	<div class="row justify-content-md-center" >
 		
-		<p class="col-md-11">Mobile Apps can benefit your business in a real good manner. As per the   ABI’s latest research Mobile apps help boosting business upto 80%,	because people spend more time on mobiles than on TV or Computer. Mobile apps are three types namely: Native apps, Web apps and Hybrid apps.</p>
+		<p class="col-md-11">Mobile Apps can benefit your business in a real good manner. As per the   ABI’s latest research Mobile apps help boosting business upto 80%,	because people spend more time on mobiles than on TV or Computer. Mobile apps are three types namely: Native Mobile apps, Web apps and Hybrid Mobile apps.</p>
 
 	</div>
 		
 <div class=" "  id="navbarSupportedContent" >
-<section class="py-4 text-center text-lg-left">
+<!--<section class="py-4 text-center text-lg-left">
 <div id="sticky-anchor"></div>
 	<div class="container-sty card sm-hide" id="sticky">
 
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
 <li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="logo Mobile App Development Company In Hyderabad"></a>
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" title="Mobile App development Company" alt="logo Mobile App Development Company In Hyderabad"></a>
     </li>
     <li class="nav-item">
         <a class="nav-link active"  href="#iOS-application-development" role="tab">iOS Application Development</a>
@@ -69,7 +69,7 @@
 </ul>
 </div>
 </section>
-<div class="mb-5 mt-5 pb-3" id="iOS-application-development">&nbsp;</div>
+<div class="mb-5 mt-5 pb-3" id="iOS-application-development">&nbsp;</div>-->
 <section class="py-4 text-center text-lg-left" >
 <div class="container-sty  mar-t2" >
 <!-- Tab panels -->
@@ -80,8 +80,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/ios-application-development.png" alt="iOS Mobile App Development Company In Hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/ios-application-development.png" title="iOS Mobile App Development" alt="iOS Mobile App Development Company In Hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -113,7 +113,7 @@
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
 			<strong>Android Mobile App Development</strong>
         </h2>
-         <p>Android OS is developed by Google. According to 2017 statistics, Android has captured 85% in the global mobile OS market share, this survey tells us that most of the enterprises adopt Android OS to develop customized mobile apps for their business. Android is an open platform built on Linux operating system which is highly secured. Customizable user interface, Open source, Multiple sales channels, Low investment and high Return on investment are its advantages. Android application is much beneficiary to  Medium sized enterprises and startups, and we as a mobile app development company in Hyderabad encourage businesses by developing android mobile apps at affordable prices. </p>
+         <p>Android OS is developed by Google. According to 2017 statistics, Android has captured 85% in the global mobile OS market share, this survey tells us that most of the enterprises adopt Android OS to develop customized mobile apps for their business. Android is an open platform built on Linux operating system which is highly secured. Customizable user interface, Open source, Multiple sales channels, Low investment and high Return on investment are its advantages. Android application is much beneficiary to  Medium sized enterprises and startups, and we offer mobile app development services to encourage businesses by developing Android mobile apps at affordable prices. </p>
         
         
        
@@ -123,8 +123,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/andriod-application-development.png" alt="Android Mobile App Development Company In Hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/andriod-application-development.png" title="Android Mobile App Development" alt="Android Mobile App Development Company In Hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -144,8 +144,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/hybrid-mobile-applications.png" alt="Hybrid Mobile App Development Company In Hyderabad" class="img-fluid">
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/hybrid-mobile-applications.png" title="Hybrid Mobile App Development" alt="Hybrid Mobile App Development Company In Hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -158,7 +158,7 @@
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
 			<strong>Hybrid Mobile App Development</strong>
         </h2>
-        <p>Hybrid mobile apps are the combination of Native applications and Web applications, which are built by HTML / CSS / Javascript and runs inside a webview. These apps has a single source code and is accessible to all the APIs platforms. So, one set of source code is enough to run the application on the Android, iOS and Windows platforms, and its web portions are updated on the server-side.  These hybrid apps are available in the app stores and also as an application icon on the device. The coding and developing of Hybrid mobile apps are easier, faster and are available at affordable prices, especially for simpler mobile applications.    </p>
+        <p>Hybrid mobile apps are the combination of Native applications and Web applications, which are built by HTML / CSS / Javascript and runs inside a webview. These apps has a single source code and is accessible to all the APIs platforms. So, one set of source code is enough to run the application on the Android, iOS and Windows platforms, and its web portions are updated on the server-side.  These hybrid apps are available in the app stores and also as an application icon on the device. The coding and developing of Hybrid mobile apps are easier, faster and are available at affordable prices, especially for simpler mobile applications and our mobile app developers are efficient in designing hybrid mobile apps.    </p>
         
 		 
     </div>
@@ -175,7 +175,7 @@
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
 			<strong>Mobile Integration</strong>
         </h2>
-        <p>Mobile Integration varies from Business to Business (B2B) and Business to Customer (B2C). Generally under Mobile Integration the following core things are considered, they are:- Security and privacy, Device independent services, UI Design, Scalability, Social networking, Offline behaviour, Device management and monitoring, Backend Integration etc. As a mobile app development company in Hyderabad, we integrate well secured payment gateways to your website with end to end encryption and also integrate analytical tools to your website for tracking. These days most of the business organizations are integrating mobile applications with their backend applications like CRM, POS, and ERP to get better results and improved productivity. </p>
+        <p>Mobile Integration varies from Business to Business (B2B) and Business to Customer (B2C). Generally under Mobile Integration the following core things are considered, they are:- Security and privacy, Device independent services, UI Design, Scalability, Social networking, Offline behaviour, Device management and monitoring, Backend Integration etc. We offer the best mobile app development services and integrate well secured payment gateways to your website with end to end encryption and also integrate analytical tools to your website for tracking the flow of the web traffic. Our mobile app developers will integrate mobile applications with their backend applications like CRM, POS, and ERP to get better results and improved productivity. </p>
        
     </div>
     <!--Grid column-->
@@ -183,8 +183,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-integration.png" alt="Integrated Mobile App Development Company In Hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-integration.png" title="Mobile Integration" alt="Integrated Mobile App Development Services In Hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -204,8 +204,8 @@
     <!--Grid column-->
     <div class="col-lg-5 col-xl-5 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-testing.png" alt="Testing Mobile App Development Company In Hyderabad" class="img-fluid">
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-testing.png" title="Mobile App Testing" alt="testing mobile app Development services in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -218,7 +218,7 @@
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
 			<strong>Mobile Application Testing</strong>
         </h2>
-        <p>"Mobile Application Testing" is the process of testing the mobile devices and their functionality. There are various kinds of tests for mobile applications they are: Functionality, Non-Functionality, Interrupt testing, Installation testing, Stress testing, Compatibility testing, Power consumption testing and Interoperability testing etc. We, as a mobile app development company in Hyderabad test the mobile application and its functionalities, in various areas like: level of simulation, speed, resolution, settings, configuration, orientation etc. We test our clients mobile application on various devices, browsers, emulated devices etc. to check the responsive status. Even after launching the mobile application and making it live we continually monitor for further developments.                        
+        <p>"Mobile Application Testing" is the process of testing the mobile devices and their functionality. There are various kinds of tests for mobile applications they are: Functionality, Non-Functionality, Interrupt testing, Installation testing, Stress testing, Compatibility testing, Power consumption testing and Interoperability testing etc. Our mobile app developers will test the mobile applications and all its functionalities, in various areas like: level of simulation, speed, resolution, settings, configuration, orientation etc. We test our clients mobile application on various devices, browsers, emulated devices etc. to check the responsive status. Even after launching the mobile application and making it live, we continually monitor for further developments in mobile applications and do the appropriate changes when required.                        
 </p>
        
 		
@@ -238,7 +238,7 @@
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
 			<strong>Mobile Application Security</strong>
         </h2>
-        <p>Usually mobile apps which are on gigantic platforms like Android and iOS are fully secured, yet the hackers find loopholes that can  always open backdoors for hackers and can put any business in concern. The possible vulnerabilities are: Weak server-side controls, Insufficient transport layer protection, Unintended data leakage, Poor authentication and authorization and Lack of binary protection. So, it is suggested to go for a third party information security audit, to check whether your app is completely secured or not. We, as a mobile app development company in Hyderabad check all the possible vulnerable areas and rectify ever error for our clients. 
+        <p>Usually mobile apps which are on gigantic platforms like Android and iOS are fully secured, yet the hackers find loopholes that can  always open backdoors for hackers and can put any business in concern. The possible vulnerabilities are: Weak server-side controls, Insufficient transport layer protection, Unintended data leakage, Poor authentication and authorization and Lack of binary protection. So, we as a mobile app development company  suggests all our visitors to go for a third party information security audit, to check whether your app is completely secured or not, or else you can contact our mobile app developers, who will check all the possible vulnerable areas and rectify ever error. 
  </p>
        
     </div>
@@ -247,8 +247,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-security.png" alt="Security Mobile App Development Company In Hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/mobile-application-security.png" title="Mobile App Security" alt="Security Mobile App Development Services In Hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>

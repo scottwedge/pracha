@@ -2,6 +2,7 @@
 <title>Pracha Technologies blog	</title>
 	
 	<meta name="description" content=" Through this blog we share latest updates, best practices, tips and tricks, upcoming things, case studies and many more interesting things to gain much insights.">
+	<meta name="keywords" content="Web designing company, best web designing company in hyderabad, mobile apps development services, mobile apps development company in hyderabad, digital marketing, seo, smm, search engine optimization, social media marketing,  ">
 </head>
 
 <section class="pt-5 mt-4 pb-3 pargh">

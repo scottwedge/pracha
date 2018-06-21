@@ -1,9 +1,9 @@
 <head>
-	<title> Digital Marketing Company In Hyderabad | Web Designing Agency | Mobile App Developers</title>
-	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Web Designing & Digital Marketing Company in Hyderabad. The Company deals with Web design & development, UI & UX design, Mobile apps (Android & iOS) etc., and promotes them digitally at affordable prices to support the Startups and Mid-level companies.">
-	<meta name="keywords" content="digital marketing company in hyderabad, digital marketing services in hyderabad, digital marketing agency in hyderabad, digital marketing in hyderabad, digital marketing. ">
+	<title> Digital Marketing Company In Hyderabad | Prachatech Pvt.Ltd.</title>
+	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Web Designing & Digital Marketing Company in Hyderabad. The Company also develops Mobile apps (Android & iOS)  and promotes them digitally at affordable prices to support the Startups and Mid-level companies.">
+	<meta name="keywords" content="digital marketing, digital marketing company in hyderabad, digital marketing services in hyderabad, digital marketing agency in hyderabad, digital marketing in hyderabad, mobile apps, mobile apps development, mobile applications, mobile applications development, digital marketing, ui and ux, ui and ux design, ui and ux development, android mobile apps, ios mobile apps, ecommerce website developers, digital marketing company in india. ">
 </head>
-<section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/digital-marketing-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
+<section title="Digital Marketing Company In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/digital-marketing-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
 
   <h1>
   DIGITAL MARKETING<br /><br>
@@ -23,21 +23,21 @@
 <section class="mar-mi140">
 <div class="container-sty card " >
 
-	<div class="row justify-content-md-center" >
+	<div class="row justify-content-md-center pad-t40" >
 		<p class="font-18 col-md-11">In reality Digital Marketing is very vast, it is an ongoing process that needs to be updated from time to time. The major functionalities in Digital Marketing are Search Engine Optimization (SEO),  Social Media Marketing (SMM), Google Adwords, Content Marketing, email Marketing, Google Analytics, Google Web Master Tools etc. In simple words we can say that Digital Marketing is just marketing of products or services using digital technologies, and the major digital marketing services we offer are briefly explained below.</p>
 	</div><br>
 	<h2 class="head-ing">DIGITAL MARKETING SERVICES</h2>
 	
 		
 <div class=" "  id="navbarSupportedContent" >
-<section class="py-4 text-center text-lg-left">
+<!--<section class="py-4 text-center text-lg-left">
 <div id="sticky-anchor"></div>
 	<div class="container-sty card sm-hide" id="sticky">
 
 		                            
 <ul class="nav md-pills nav-justified pills-primary single-page-scr">
 <li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" alt="digital marketing company in hyderabad"></a>
+        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" title="Digital Marketing Company" alt="digital marketing company in hyderabad"></a>
     </li>
     <li class="nav-item">
         <a class="nav-link active"  href="#seo" role="tab">SEO</a>
@@ -65,7 +65,7 @@
 </ul>
 </div>
 </section>
-  <div class="mb-5 mt-5 pb-3" id="seo">&nbsp;</div>
+  <div class="mb-5 mt-5 pb-3" id="seo">&nbsp;</div>-->
 <section class="py-4 text-center text-lg-left">
 <div class="container-sty  mar-t2" >
 <!-- Tab panels -->
@@ -76,8 +76,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/search-engine-optimization.png" alt="SEO and digital marketing company in hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/search-engine-optimization.png" title="SEO - Search Engine Optimization " alt="SEO and digital marketing company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -121,8 +121,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/social-media-marketing.png" alt="SMM and digital marketing company in hyderabad."
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/social-media-marketing.png" title="SMM - Social Media Marketing" alt="SMM and digital marketing company in hyderabad."
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -142,8 +142,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/adwards.png" alt="Adwords digital marketing company in hyderabad" class="img-fluid">
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/adwards.png" title="Google Adwords" alt="Google Adwords digital marketing company in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -182,8 +182,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/content-marketing.png" alt="Content Marketing and digital marketing company in hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/content-marketing.png" title="Content Marketing" alt="Content Marketing and digital marketing company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>
@@ -203,8 +203,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 pb-3">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/email-marketing.png" alt="Email Marketing and digital marketing company in hyderabad" class="img-fluid">
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/email-marketing.png" title="email Marketing" alt="Email Marketing and digital marketing company in hyderabad" class="img-fluid">
         <a>
             <div class="mask"></div>
         </a>
@@ -245,9 +245,8 @@
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
         <!--Featured image-->
-        <div class="view overlay hm-white-slight rounded z-depth-2">
-        <img src="<?php echo base_url(); ?>
-assets/vendor/img/google-analytics.png" alt="Google Analytics digital marketing company in hyderabad"
+        <div class="overlay hm-white-slight rounded z-depth-2">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/google-analytics.png" title="Google Analytics" alt="Google Analytics digital marketing company in hyderabad"
             class="img-fluid">
         <a>
             <div class="mask"></div>

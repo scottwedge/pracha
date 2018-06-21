@@ -19,7 +19,7 @@
 <section class="mar-mi140">
 <div class="container-sty card  padding-10 " >
  
-	<div class="row justify-content-md-center">
+	<div class="row justify-content-md-center pad-t40">
 		<div class="col-sm-12 mb-20 pt-30 text-center">
 
 			<h2 class="font-14">
