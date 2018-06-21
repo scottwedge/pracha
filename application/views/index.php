@@ -138,7 +138,7 @@
                         <i class="hi-icon fa fa-television" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h2 class="font-color_base no_stripe">UI & UX DESIGNING
+                        <h2 class="font-color_base no_stripe">WEB DESIGNING
 								
 									</h2>
                     </div>
@@ -146,11 +146,11 @@
 				
 						<div class="pad-lr30">
 							<ul>
-							  <li> Site Architecture And Design</li>
+							  <li> Website Architecture And Design</li>
 							  <li>Static & Dynamic Website Design</li>
-							  <li>Responsive Web Design</li>
-							  <li>Custom Web Design</li>
-							  <li>Corporate Website Design</li>
+							  <li>Responsive Web Designing</li>
+							  <li>Custom Web Designing</li>
+							  <li>Corporate Website Designing</li>
 							  <li>Template Design & Customization</li>
 							 
 							</ul>  
@@ -186,7 +186,7 @@
 							<ul>
 							  <li>Custom Application Development </li>
 							  <li>Content Management System (CMS)</li>
-							  <li>eCommerce Development</li>
+							  <li>eCommerce Website Development</li>
 							  <li>MEAN Stack Development</li>
 							  <li>Dynamic Web Development</li>
 							  <li>Web Development Methodologies</li>
@@ -314,7 +314,7 @@
                         <i class="hi-icon fa fa-keyboard-o" aria-hidden="true"></i>
                     </div>
                     <div class="service_details">
-                        <h2 class="font-color_base no_stripe">WEB MAINTENANCE </h2>
+                        <h2 class="font-color_base no_stripe">WEBSITE MAINTENANCE </h2>
                     </div>
                     <div class="service_content">
                         <div class="pad-lr30">
@@ -937,7 +937,7 @@
 							
 								<p class="text-white">Starting At <br><span class="pric-rate">₹ 6,999</span></p>
 									<div class="pric-tit-pos bg-dark">
-										UI & UX Designing
+										Web Designing
 									 </div>
 								 
 								</div>
