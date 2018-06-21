@@ -83,7 +83,7 @@
 					
 				  </div>
 				  <div class="col-md-6">
-					<a href="<?php echo base_url('start_up'); ?>">Start-Up</a>
+					<a href="<?php echo ba	se_url('start_up'); ?>">Start-Up</a>
 					<a href="<?php echo base_url('enterprise'); ?>">Enterprise</a>
 					<a href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
 					<a href="<?php echo base_url('on_demand_services'); ?>">On Demand Services</a>
