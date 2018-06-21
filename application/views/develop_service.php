@@ -33,31 +33,7 @@
 		</div>
 		
 <div class=" "  id="navbarSupportedContent" >
-<!--<section class="py-4 text-center text-lg-left">
-<div id="sticky-anchor"></div>
-	<div class="container-sty card sm-hide" id="sticky">
 
-		                            
-<ul class="nav md-pills nav-justified pills-primary single-page-scr">
-<li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" title="Web Development Company" alt="best web development company in hyderabad"></a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link active"  href="#custom-application-development" role="tab">Custom Application Development</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link "  href="#content-management-system" role="tab">Content Management System (CMS)</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link"  href="#eCommerce-development" role="tab">eCommerce Development</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link"  href="#MEAN-stack-development" role="tab">MEAN Stack Development</a>
-    </li>
-</ul>
-</div>
-</section>
-<div class="mb-5 mt-5 pb-3" id="custom-application-development">&nbsp;</div>-->
 <section class="py-4 text-center text-lg-left ">
 <div class="container-sty  mar-t2" >
 <!-- Tab panels -->

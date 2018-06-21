@@ -30,42 +30,7 @@
 	
 		
 <div class=" "  id="navbarSupportedContent" >
-<!--<section class="py-4 text-center text-lg-left">
-<div id="sticky-anchor"></div>
-	<div class="container-sty card sm-hide" id="sticky">
 
-		                            
-<ul class="nav md-pills nav-justified pills-primary single-page-scr">
-<li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" title="Digital Marketing Company" alt="digital marketing company in hyderabad"></a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link active"  href="#seo" role="tab">SEO</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link "  href="#social-media-marketing" role="tab">Social Media Marketing</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link"  href="#google-adwords" role="tab"> Google Adwords</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link"  href="#content-marketing" role="tab">Content Marketing</a>
-    </li>
-	  <li class="nav-item">
-        <a class="nav-link"  href="#email-marketing" role="tab">Email Marketing</a>
-    </li> 
-		<li class="nav-item">
-        <a class="nav-link"  href="#google-analytics" role="tab">Google Analytics
-</a>
-    </li>
-	
-	
-
-	
-</ul>
-</div>
-</section>
-  <div class="mb-5 mt-5 pb-3" id="seo">&nbsp;</div>-->
 <section class="py-4 text-center text-lg-left">
 <div class="container-sty  mar-t2" >
 <!-- Tab panels -->

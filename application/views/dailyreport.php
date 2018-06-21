@@ -33,14 +33,7 @@
                            </div>
                         </div>
                      </div>
-                     <!--<div class="col-md-6">
-                        <label for="telephone"> Image Privew</label>
-                        <div class=" card img-privew text-center">
-                        <div class="avatar " >
-                        		<img src="http://www.nextflowers.co.uk/assets/images/md/no-image.png">
-                        </div>
-                        </div>
-                        </div>-->
+                     
                   </div>
                   <div class="clearfix">&nbsp;</div>
                   <div class="row justify-content-md-center">

@@ -34,42 +34,7 @@
 	</div>
 		
 <div class=" "  id="navbarSupportedContent" >
-<!--<section class="py-4 text-center text-lg-left">
-<div id="sticky-anchor"></div>
-	<div class="container-sty card sm-hide" id="sticky">
 
-		                            
-<ul class="nav md-pills nav-justified pills-primary single-page-scr">
-<li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url(); ?>" role="tab"><img src="<?php echo base_url(); ?>assets/vendor/img/home.png" title="Mobile App development Company" alt="logo Mobile App Development Company In Hyderabad"></a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link active"  href="#iOS-application-development" role="tab">iOS Application Development</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link "  href="#android-application-development" role="tab">Android Application Development</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link"  href="#hybrid-mobile-applications" role="tab">Hybrid Mobile Applications</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link"  href="#mobile-integration" role="tab">Mobile Integration</a>
-    </li>
-	  <li class="nav-item">
-        <a class="nav-link"  href="#mobile-application-testing" role="tab">Mobile Application Testing</a>
-    </li> 
-		<li class="nav-item">
-        <a class="nav-link"  href="#mobile-application-security" role="tab">Mobile Application Security
-</a>
-    </li>
-	
-	
-
-	
-</ul>
-</div>
-</section>
-<div class="mb-5 mt-5 pb-3" id="iOS-application-development">&nbsp;</div>-->
 <section class="py-4 text-center text-lg-left" >
 <div class="container-sty  mar-t2" >
 <!-- Tab panels -->

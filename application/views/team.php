@@ -22,15 +22,7 @@
                 <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
                 <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
             </div>
-            <!--/.Controls-->
-
-            <!--Indicators--><!--
-            <ol class="carousel-indicators">
-                <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-                <li data-target="#multi-item-example" data-slide-to="1"></li>
-                
-            </ol>-->
-            <!--/.Indicators-->
+     
 
             <!--Slides-->
             <div class="carousel-inner" role="listbox">

@@ -36,43 +36,7 @@
 
 
 <div class=" "  id="navbarSupportedContent" >
-<!--<section class="py-4 text-center text-lg-left">
-<div id="sticky-anchor"></div>
-	<div class="container-sty card " id="sticky">
 
-		                            
-<ul class="nav md-pills nav-justified pills-primary single-page-scr">
-    <li class="nav-item">
-        <a class="nav-link "  href="<?php echo base_url('digital-marketing-and-web-designing-company-in-hyderabad'); ?>" role="tab">Home</a>
-    </li>
-	<li class="nav-item">
-        <a class="nav-link active"  href="#ui-and-ux-designing" role="tab">Web Designing</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link "  href="#web-development" role="tab">Web Development </a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link"  href="#mobile-applications" role="tab"> Mobile Apps Development </a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link"  href="#digital-marketing" role="tab">Digital Marketing  </a>
-    </li>
-	
-	  <li class="nav-item">
-        <a  style="text-transform: none;" class="nav-link"  href="#eCommerce" role="tab">eCommerce </a>
-    </li>
-	  <li class="nav-item">
-        <a class="nav-link"  href="#business-solutions" role="tab">Business Solutions</a>
-    </li>
-	<li class="nav-item">
-        <a class="nav-link"  href="#software-maintenance" role="tab">Maintenance</a>
-    </li>
-	
-
-	
-</ul>
-</div>
-</section>-->
 <section class="py-4 text-center text-lg-left  jarallax"   data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/ui-bac.png'); height: 100%;">
 <div class="container-sty" >
 <div class="row" >

@@ -94,23 +94,7 @@
 				</div>
             </li>
 				
-				<!--<li class="nav-item"><a href="<?php echo base_url('pracha/howwework');?>" class="nav-link"> <span class=" ">How We work?</span></a></li>-->
-			
-				<!--<li class="nav-item">
-				<div class="dropdown">
-					<a class="nav-link dropdown-toggle"> <span class=" ">Pricing</span></a>
-				  <div class="dropdown-content1">
-					<a href="<?php echo base_url('price/design'); ?>">UI/UX Designing</a>
-					<a href="<?php echo base_url('develop_service/price'); ?>">Web Development</a>
-					<a href="<?php echo base_url('mobile_application/price'); ?>">Mobile Applications</a>
-					<a href="<?php echo base_url('digitalmarketing/price'); ?>"> Digital Marketing</a>
-					
-					<a href="<?php echo base_url('ecommerce/price'); ?>">E-Commerce</a>
-					<a href="<?php echo base_url('maintainence'); ?>"> Maintenance</a>
-					
-				  </div>
-				</div>
-            </li>-->
+				
 			<li class="nav-item "> <a href="<?php echo base_url('portfolio');?>" class="nav-link"> <span class=" ">Portfolio</span></a></li>
 			<li class="nav-item <?php if($currentURL==base_url('industries.xml')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('industries');?>" class="nav-link"> <span class=" ">Industries</span></a></li>
 			<li class="nav-item <?php if($currentURL==base_url('carriers.xml')){ echo "active-menu"; } ?>" ><a href="<?php echo base_url('carriers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>

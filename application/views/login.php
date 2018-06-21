@@ -64,45 +64,7 @@
         </div>
 		
 		
-			<!--forget password-->
-		<!--<div class="card-body mx-4 card col-4 ">
-			<form>
-				<p class="h5 text-center mb-4">Forgot Password</p>
-
-				<div class="md-form">
-					<i class="fa fa-user prefix grey-text"></i>
-					<input type="text" id="orangeForm-name" class="form-control">
-					<label for="orangeForm-name">Your name</label>
-				</div>
-				<div class="md-form">
-					<i class="fa fa-envelope prefix grey-text"></i>
-					<input type="text" id="orangeForm-email" class="form-control">
-					<label for="orangeForm-email">Your email</label>
-				</div>
-
-				<div class="md-form">
-					<i class="fa fa-lock prefix grey-text"></i>
-					<input type="password" id="orangeForm-pass" class="form-control">
-					<label for="orangeForm-pass"> Password</label>
-				</div>
-				<div class="md-form">
-					<i class="fa fa-lock prefix grey-text"></i>
-					<input type="password" id="orangeForm-pass" class="form-control">
-					<label for="orangeForm-pass">Confirm Password</label>
-				</div>
-
-				<div class="text-center mb-3">
-					<button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Reset Password</button>
-				</div>
-
-			</form>
 			
-			
-			
-			
-
-        </div>-->
-
      
     </div>
     <!--/Form without header-->

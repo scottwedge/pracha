@@ -61,16 +61,6 @@
 
                 <p>The concept of affiliate marketing is very simple, for example let’s say you become an affiliate for Amazon, Flipkart, Snapdeal, eBay or any other ecommerce websites that offer affiliate marketing,  and if you bring a person to their website  and if that person makes a purchase then you will get a commission from these ecommerce websites, and this is what affiliate marketing means. If you are an active participant to bring customers to these sites then there is a great possibility to draw decent income from these huge ecommerce websites.</p>
 					
-						<!--<div class="row justify-content-center">
-                            <div class="col-md-10 mb-20 pt-30 ">
-                               
-                            </div>
-                        <div class="text-center">
-							<img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/types-of-apps.png" alt="How Social Media Works">
-						</div>
-						<div class="clearfix">&nbsp;</div>
-						
-                        </div>-->
 					<p class="pt-4"><h2>The steps to be followed in Online Affiliate Marketing</h2> </p>
 									<div class="row py-3">
 										<div class="col-2 col-md-1 text-right">
