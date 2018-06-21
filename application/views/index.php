@@ -735,7 +735,7 @@
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center ">Try us! Yeah, You make it worth of Trying us.</p>
+				 <p class="text-center font-bold "> We are Web Designers! We are Mobile App Developers! We are Digital Marketers! <br> Try us! Yeah, You make it worth of Trying us.</p>
 
 
             </div>
@@ -763,7 +763,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We are entrusted with the most professional and advanced resources</div>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best web designing companies in Hyderabad, and we have a proven track record for bringing forth best website designs, mobile apps and marketing them digitally. </div>
             
         </div>
         </div>
@@ -777,43 +777,25 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We have a Passionate team of Creativity and problem Solving </div> 
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: web designing services, search engine optimization, social media marketing, Google adwords, email campaigns, mobile app development services at affordable prices especially for individuals and startups. </div> 
             
         </div>
         </div>
 	
 
         <!--Grid row-->
-        <div data-wow-duration="1s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
-        <div class="col-2 col-md-1">
-            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
-        </div>
-        <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We focus on your Core Business</div>
-            
-        </div>
-        </div>
-        <!--Grid row-->
-
+       
         <!--Grid row-->
         <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
         <div class="col-2 col-md-1">
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We offer a dedicative team to support you</div>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We offer a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
             <p class="grey-text text-left"></p>
         </div>
         </div>
-		<div data-wow-duration="2s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
-        <div class="col-2 col-md-1">
-            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
-        </div>
-        <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We Deliver your projects in Time</div>
-            
-        </div>
-        </div>
+		
         <!--Grid row-->
 
     </div>
