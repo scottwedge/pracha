@@ -165,7 +165,7 @@
 
             <!--Third column-->
             <div class="col-md-2 mx-auto">
-                <h6 class="title-footer mb-4 mt-3 font-bold font-20" style="letter-spacing: 0px;">Services</h6>
+                <h6 class="title-footer mb-4 mt-3 font-bold font-20" style="letter-spacing: 0px;">Our Services</h6>
                 <ul>
 				     
           
