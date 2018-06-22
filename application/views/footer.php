@@ -170,7 +170,7 @@
 				     
           
 
-                    <li><a href="<?php echo base_url('web-designing-agency-in-hyderabad'); ?>">UI & UX Designing </a></li>
+                    <li><a href="<?php echo base_url('web-designing-agency-in-hyderabad'); ?>">Web Designing </a></li>
                     <li><a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>">Web Development</a></li>
                     <li><a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>">Mobile Applications</a></li>
                     <li><a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>">Digital Marketing </a></li>

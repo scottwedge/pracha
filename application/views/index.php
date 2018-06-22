@@ -155,7 +155,7 @@
 							 
 							</ul>  
 						</div>
-						<p class="text-center"> <a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+						<p class="text-center"> <a href="<?php echo base_url('web-designing-agency-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
 
 
 
@@ -832,7 +832,7 @@
 						<ul class="box">
 						  <!-- BEGIN LIST ELEMENT -->
 						  
-							<li class=" wow rollIn center" style="visibility: visible; animation-name: rollIn;"><a href="<?php echo base_url('servicesrm'); ?>">
+							<li class=" wow rollIn center" style="visibility: visible; animation-name: rollIn;">
 							  <div class="circle">
 								<div class="front-home bg-mdb-color " >
 								<p class="clearfix ">&nbsp;</p>
@@ -846,10 +846,10 @@
 								</div>
 								
 								</div><!-- end div .back color-1-bg info -->
-							 </a>
+							 
 							</li>
 							<li  data-wow-delay="0.5s" class="wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
-								<a href="<?php echo base_url('develop_service'); ?>">
+								
 							  <div class="circle">
 								<div class="front-home bg-primary " >
 								<p class="clearfix ">&nbsp;</p>
@@ -863,11 +863,11 @@
 								</div>
 								
 								</div><!-- end div .back color-1-bg info -->
-								</a>
+								
 							</li>
 							
 							<li class="wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
-								<a href="<?php echo base_url('ecommerce'); ?>">
+							
 							  <div class="circle">
 								<div class="front-home bg-pink " >
 								<p class="clearfix ">&nbsp;</p>
@@ -881,13 +881,13 @@
 								</div>
 								
 								</div><!-- end div .back color-1-bg info -->
-								</a>
+								
 							</li>
 							</ul>
 							<ul class="box">
 							
 							<li data-wow-delay="0.5s" class=" wow rollIn" style="visibility: visible; animation-delay: 0.5s; animation-name: rollIn;">
-								<a href="<?php echo base_url('mobile_application'); ?>">
+							
 							  <div class="circle">
 								<div class="front-home bg-info " >
 								<p class="clearfix ">&nbsp;</p>
@@ -901,11 +901,11 @@
 								</div>
 								
 								</div><!-- end div .back color-1-bg info -->
-								</a>
+							
 							</li>
 						
 							<li class=" wow bounceInUp center" style="visibility: visible; animation-name: bounceInUp;">
-							<a href="<?php echo base_url('digitalmarketing'); ?>">
+						
 							  <div class="circle">
 								<div class="front-home bg-secondary " >
 								<p class="clearfix ">&nbsp;</p>
@@ -919,11 +919,11 @@
 								</div>
 								
 								</div><!-- end div .back color-1-bg info -->
-								</a>
+								
 							</li>
 							
 							<li  class=" wow bounceInRight" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInRight;">
-							<a href="<?php echo base_url('maintainence'); ?>">
+							
 							  <div class="circle">
 								<div class="front-home bg-blue-grey " >
 								<p class="clearfix ">&nbsp;</p>
@@ -937,16 +937,12 @@
 								</div>
 								
 								</div><!-- end div .back color-1-bg info -->
-							 </a>
+							 
 							</li>
 							
 							</ul>
 					</div>
-					<div class=" row justify-content-md-center mar-t30">
-			
-				<!---<a href="<?php echo base_url('price/details');?>"><button type="button" class="btn btn-dark btn-rounded">View All</button></a>-->
-			
-		</div>
+					
 			<div class="clearfix">&nbsp;</div>
 			</div>
         
