@@ -1,5 +1,5 @@
 <head>
-<title>Pracha Technologies blog	</title>
+<title>Web Designing|Mobile Apps|Digital Marketing| Prachatech blog	</title>
 	
 	<meta name="description" content=" Through this blog we share latest updates, best practices, tips and tricks, upcoming things, case studies and many more interesting things to gain much insights.">
 	<meta name="keywords" content="Web designing company, best web designing company in hyderabad, mobile apps development services, mobile apps development company in hyderabad, digital marketing, seo, smm, search engine optimization, social media marketing,  ">
@@ -62,7 +62,7 @@
 </p>
 			<div class="row">
 				<div class="col-md-7 ">
-					<p class="date-design">10-March-2018</p>
+					<p class="date-design">15-March-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/what_is_onpage_and_offpage_optimization');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
@@ -90,7 +90,7 @@
 </p>
 			<div class="row">
 				<div class="col-md-7 ">
-					<p class="date-design">20-March-2018</p>
+					<p class="date-design">1-April-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/social_media_marketing_and_its_benefits');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
@@ -121,7 +121,7 @@
             <p class="grey-text">eCommerce is huge and it is ever growing. Have you ever purchased goods on the internet? If yes, then assuredly you have played an active role in the world  </p>
 			<div class="row">
 				<div class="col-md-7 ">
-					<p class="date-design">30-March-2018</p>
+					<p class="date-design">15-April-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/what_is_ecommerce_and_its_types');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
@@ -147,7 +147,7 @@
             <p class="grey-text">Web development is the term that we apply to develop a website. Either a single static page or the most complex website must undergo web development.  </p><br>
 			<div class="row">
 				<div class="col-md-7 ">
-					<p class="date-design">10-April-2018</p>
+					<p class="date-design">1-May-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/Web_development_a_practical_guide_to_a_Web_developer');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
@@ -174,7 +174,7 @@
 <br>
 			<div class="row">
 				<div class="col-md-7 ">
-					<p class="date-design">10th-May-2018</p>
+					<p class="date-design">15-May-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/importance_of_mobile_apps_in_business');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
@@ -208,7 +208,7 @@
 <br>
 			<div class="row">
 				<div class="col-md-7 ">
-					<p class="date-design">30-April-2018</p>
+					<p class="date-design">1-June-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/key_elements_to_design_a_best_website');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
@@ -237,7 +237,7 @@
 <br>
 			<div class="row">
 				<div class="col-md-7 ">
-					<p class="date-design">10-May-2018</p>
+					<p class="date-design">15-June-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/how_to_start_and_earn_in_affiliate_marketing');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
