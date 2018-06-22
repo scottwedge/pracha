@@ -155,7 +155,7 @@
 							 
 							</ul>  
 						</div>
-						<p class="text-center"> <a href="<?php echo base_url('web-designing-agency-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+						<p class="text-center"> <a href="<?php echo base_url('web-designing-agency-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> </p>
 
 
 
@@ -195,7 +195,7 @@
 							</ul>
 						</div>
 						
-							<p class="text-center"> <a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+							<p class="text-center"> <a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> </p>
 						</div>
                 </div>
             </div>
