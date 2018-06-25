@@ -1,7 +1,7 @@
 <head>
-	<title>Web Designing Company In Hyderabad | Digital Marketing Company | Mobile App Developent company </title>
-	<meta name="description" content="Pracha Technologies Pvt. Ltd. is  a Digital Marketing & Web Designing Company in Hyderabad. The company also deals with Mobile Applications that supports iOS & Android platforms and promote them digitally across the web through its various digital marketing techniques at affordable prices.">
-	<meta name="keywords" content="Web designing company in hyderabad, best web designing company in hyderabad, best web designing companies in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+	<title>Web Designing Company In Hyderabad | Prachatech Pvt. Ltd. </title>
+	<meta name="description" content="Prachatech Pvt. Ltd. is primarily a web designing company in Hyderabad, that also deals with Mobile Apps  and offer Digital Marketing services at affordable prices. .">
+	<meta name="keywords" content="web designing, web designing company, Web designing company in hyderabad, best web designing company in hyderabad, best web designing companies in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 
 </head>
 <div class="selectstate">
@@ -28,21 +28,21 @@
 <div class="carousel-item">
 <img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban2.png" title="Web Development Company" alt="web designing company in hyderabad">
 <div class="carousel-caption d-md-block">
-<h1 class="animated wow fadeInLeft text-warning text-shadow" data-wow-delay=".7s">Web Development Company</h1>
+<h2 class="animated wow fadeInLeft text-warning text-shadow h1" data-wow-delay=".7s">Web Development Company</h2>
 
 </div>
 </div>
 <div class="carousel-item">
 <img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban3.png" title="Mobile Apps Development company" alt="Mobile Apps Development company in hyderabad">
 <div class="carousel-caption d-md-block">
-<h1 class=" col-md-8 animated wow fadeInDown text-warning text-shadow" data-wow-delay=".6s">Mobile Apps Development</h1>
+<h2 class=" col-md-8 animated wow fadeInDown text-warning text-shadow h1" data-wow-delay=".6s">Mobile Apps Development</h2>
 
 </div>
 </div>
 <div class="carousel-item">
 <img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban4.png" title="Digital Marketing Company" alt="Digital Marketing Company In Hyderabad">
 <div class="carousel-caption d-md-block">
-<h1 class=" col-md-6 animated wow fadeInDown text-warning text-shadow" data-wow-delay=".6s">Digital Marketing Company</h1>
+<h2 class=" col-md-6 animated wow fadeInDown text-warning text-shadow h1" data-wow-delay=".6s">Digital Marketing Company</h2>
 
 </div>
 </div>
