@@ -130,7 +130,7 @@
 
             <div class="col-md-4">
                 <div class="card ">
-                 <a href="<?php echo base_url('web-designing-agency-in-hyderabad-ui-and-ux-design'); ?>">
+                 <a href="<?php echo base_url('web-designing-agency-in-hyderabad'); ?>">
             <div class=" wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
 			
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
