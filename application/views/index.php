@@ -264,7 +264,7 @@
 								</ul></div>
 								<br>
 								<br>
-							<p class="text-center"> <a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+							<p class="text-center"> <a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> </p>
                     </div>
                 </div>
             </div></a>
