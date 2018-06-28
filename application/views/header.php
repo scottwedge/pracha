@@ -34,13 +34,13 @@
 <!--Main Navigation-->
 <header>
  <nav class="navbar fixed-top navbar-expand-lg navbar-dark  bg-dark scrolling-navbar" id="home" >
-   <a href="<?php echo base_url('digital-marketing-and-web-designing-company-in-hyderabad'); ?>"><img src="<?php echo base_url(); ?>assets/vendor/img/logo.png" alt="logo"></a>
+   <a href="<?php echo base_url('web-designing-company-in-hyderabad'); ?>"><img src="<?php echo base_url(); ?>assets/vendor/img/logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
 			<ul class="nav navbar-nav  ml-auto">
-				<li class="nav-item <?php if($currentURL==base_url() || $currentURL==base_url('digital-marketing-and-web-designing-company-in-hyderabad.xml')){ echo "active-menu"; } ?> " id="homepageative"><a href="<?php echo base_url('digital-marketing-and-web-designing-company-in-hyderabad'); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
+				<li class="nav-item <?php if($currentURL==base_url() || $currentURL==base_url('web-designing-company-in-hyderabad.xml')){ echo "active-menu"; } ?> " id="homepageative"><a href="<?php echo base_url('web-designing-company-in-hyderabad'); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
 				<li class="nav-item sm-hide <?php if($currentURL==base_url('start_up.xml') ||$currentURL==base_url('web-designing-agency-in-hyderabad.xml') || $currentURL==base_url('enterprise.xml') || $currentURL==base_url('servicesrm.xml') || $currentURL==base_url('web-development-company-in-hyderabad.xml') || $currentURL==base_url('mobile-app-development-company-in-hyderabad.xml') || $currentURL==base_url('digital-marketing-company-in-hyderabad.xml') || $currentURL==base_url('ecommerce.xml') || $currentURL==base_url('maintainence.xml') || $currentURL==base_url('web-designing-services-in-hyderabad.xml')){ echo "active-menu"; } ?>" > 
 				<div class="dropdown">
 					<a href="<?php echo base_url('web-designing-services-in-hyderabad'); ?>" class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
@@ -95,7 +95,7 @@
             </li>
 				
 				
-			<li class="nav-item "> <a href="<?php echo base_url('portfolio');?>" class="nav-link"> <span class=" ">Portfolio</span></a></li>
+			<li class="nav-item <?php if($currentURL==base_url('portfolio.xml')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('portfolio');?>" class="nav-link"> <span class=" ">Portfolio</span></a></li>
 			<li class="nav-item <?php if($currentURL==base_url('industries.xml')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('industries');?>" class="nav-link"> <span class=" ">Industries</span></a></li>
 			<li class="nav-item <?php if($currentURL==base_url('carriers.xml')){ echo "active-menu"; } ?>" ><a href="<?php echo base_url('carriers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>
 				<li class="nav-item <?php if($currentURL==base_url('blog.xml') || $currentURL==base_url('blog/how_to_create_manage_and_optimize_a_youtube_channel.xml') || $currentURL==base_url('blog/social_media_marketing_and_its_benefits.xml') || $currentURL==base_url('blog/what_is_onpage_and_offpage_optimization.xml')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('blog');?>" class="nav-link"> <span class=" ">Blog</span></a></li>
