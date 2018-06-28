@@ -1,5 +1,5 @@
 User-agent: Googlebot
 Disallow: /local/
-Disallow: /Assets/
+Allow: /
 
 Sitemap: http://prachatech.com/sitemap.xml
