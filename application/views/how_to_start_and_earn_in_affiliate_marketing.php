@@ -1,7 +1,7 @@
 <head>
     <title>How To Start And Earn In Affiliate Marketing</title>
-    <meta name="description" content="The majority of mobile users who use mobile apps are more than them that access the internet on a personal computer. That means if you are only  using a website as a marketing tool without any mobile app related to your business, then you are missing your potential customers in a large range">
-    <meta name="keywords" content=" importance of mobile apps in business, importance of mobile apps, mobile apps importance, why mobile apps are essential, why mobile apps are essential in business ">
+    <meta name="description" content="Have you ever thought of making money by referring people to Amazon or any other ecommerce website? If you are new to affiliate marketing then this article is especially for you.">
+    <meta name="keywords" content=" affiliate marketing, digital marketing, how to earn in affiliate marketing, amazon affiliate, flipkart affiliate, become an affiliate.">
 </head>
 <div class="selectstate">
     <section class="pt-5 mt-4 pb-3 pargh">
