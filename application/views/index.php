@@ -748,7 +748,7 @@
     <div class="row pt-2">
 
  
-    <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
+    <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> <br>
         <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="our mobile web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
     </div>
     <!--Grid column-->
@@ -811,6 +811,97 @@
 
 </section>
 
+<section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
+    <div class="container-sty card ">
+        <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h3 class="font-bold">
+                    <span class="tit">
+									Our <span class="des_t">Keyword </span>Strategy In SEO
+                    </span>
+                </h3>
+				<div class="clearfix">&nbsp;</div>
+				 <p class="text-center font-bold "> We not only design stunning websites but also implement various SEO techniques <br> for our clients, for better rankings in Google. “Keyword” plays a major role in SEO, <br> for by it people search on Google, so it is must to identify the targeted keywords.</p>
+
+
+            </div>
+
+        </div>
+		       
+
+
+    <!--Grid row-->
+    <div class="row pt-2">
+	
+	<div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> <br> 
+        <img src="<?php echo base_url(); ?>assets/vendor/img/search-engine-optimization.png" title="SEO - Search Engine Optimization " alt="SEO and digital marketing company in hyderabad" class="img-fluid " style="margin-center:-100px;">
+    </div>
+
+ 
+    
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      
+		<!--Grid row-->
+        <div class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Web Designing" - Is a short tail keyword. <br> "Web Designing Company in Hyderabad" - Is a long tail keyword.
+ </div>
+            
+        </div>
+        </div>
+        <!--Grid row-->
+
+       
+
+        <!--Grid row-->
+        <div data-wow-duration="0.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web designing company" located in Hyderabad, you will find the below listed LSI keywords. <p> <br> list of web designing companies in hyderabad - 260/mo - Rs2628 - 0.39 <br> top web designing companies in hyderabad - 320/mo - Rs52.04 - 0.34 <br> freelance web designers in hyderabad - 590/mo - Rs26.71 - 0.18 <br> best web design company in hyderabad - 260/mo - Rs59.57 - 0.15 <br> web designing services in hyderabad - 590/mo - Rs34.24 - 0.12 <br> website design in hyderabad price - 0/mo - Rs0.00 - 0 <br> best website designers in hyderabad - 50/mo - Rs28.76 - 0.42 </p>
+ </div> 
+            
+        </div>
+        </div>
+	
+
+        <!--Grid row-->
+       
+        <!--Grid row-->
+        <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</div>
+            <p class="grey-text text-left"></p>
+        </div>
+        </div>
+		
+		
+        <!--Grid row-->
+
+    </div>
+    <!--Grid column-->
+
+    </div>
+    
+<div class="clearfix"> &nbsp;</div>
+
+       
+           
+    </div>
+
+</section>
 
   
  <!-- pricing-->
