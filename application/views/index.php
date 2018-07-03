@@ -873,7 +873,8 @@
         <div class="col-10">
             <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web designing company" located in Hyderabad, you will find the below listed LSI keywords. 
 			<div class="clearfix"> &nbsp;</div>	
-			<div class="lsi-help">			
+			<div class="lsi-help">		
+			<h3><strong>LSI keywords:</strong></h3>
 			<p>list of web designing companies in hyderabad - 260/mo - Rs2628 - 0.39 </p>
 			<p>top web designing companies in hyderabad - 320/mo - Rs52.04 - 0.34 </p> 
 			<p>freelance web designers in hyderabad - 590/mo - Rs26.71 - 0.18 </p>
@@ -896,7 +897,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 indigo-text font-bold font-20">Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</div>
+            <div class="font-bold text-left mb-3  font-bold font-20">Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</div>
             <p class="grey-text text-left"></p>
         </div>
         </div>
