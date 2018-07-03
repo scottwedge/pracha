@@ -80,7 +80,7 @@
 				<div class="col-1 "> 
 					&nbsp;
 				</div>
-				<div class="col-md-12 text-center"> 
+				<div class="col-md-12"> 
 					<p>Pracha Technologies Pvt. Ltd. is a web design company located in Hyderabad, providing top-notch web designs, eCommerce websites, digital marketing services and mobile app development services especially for individuals, startups and mid-level companies. We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web designing services to serve our clients. We generate static & complex web designs, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. Our clients has considered our company as the best digital marketing and web designing company in Hyderabad, for we have developed user-friendly Software's, mobile apps and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally through various digital marketing channels across the web, and helped them in better rankings. Regarding mobile apps development, we have a skillful team of Mobile App developers, who develops mobile app softwares for Android & iOS platforms, Web apps and Hybrid Mobile apps. Quality work & Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
 					</p>
 					
@@ -748,7 +748,11 @@
     <div class="row pt-2">
 
  
-    <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> <br>
+    <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
+	<br>
+	<br>
+	<br>
+	<br>
         <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="our mobile web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
     </div>
     <!--Grid column-->
@@ -835,7 +839,7 @@
     <div class="row pt-2">
 	
 	<div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> <br> 
-        <img src="<?php echo base_url(); ?>assets/vendor/img/search-engine-optimization.png" title="SEO - Search Engine Optimization " alt="SEO and digital marketing company in hyderabad" class="img-fluid " style="margin-center:-100px;">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/lsi-key-words.png" title="SEO - Search Engine Optimization " alt="SEO and digital marketing company in hyderabad" class="img-fluid " style="margin-center:-100px;">
     </div>
 
  
@@ -867,7 +871,17 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web designing company" located in Hyderabad, you will find the below listed LSI keywords. <p> <br> list of web designing companies in hyderabad - 260/mo - Rs2628 - 0.39 <br> top web designing companies in hyderabad - 320/mo - Rs52.04 - 0.34 <br> freelance web designers in hyderabad - 590/mo - Rs26.71 - 0.18 <br> best web design company in hyderabad - 260/mo - Rs59.57 - 0.15 <br> web designing services in hyderabad - 590/mo - Rs34.24 - 0.12 <br> website design in hyderabad price - 0/mo - Rs0.00 - 0 <br> best website designers in hyderabad - 50/mo - Rs28.76 - 0.42 </p>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web designing company" located in Hyderabad, you will find the below listed LSI keywords. 
+			<div class="clearfix"> &nbsp;</div>	
+			<div class="lsi-help">			
+			<p>list of web designing companies in hyderabad - 260/mo - Rs2628 - 0.39 </p>
+			<p>top web designing companies in hyderabad - 320/mo - Rs52.04 - 0.34 </p> 
+			<p>freelance web designers in hyderabad - 590/mo - Rs26.71 - 0.18 </p>
+			<p>best web design company in hyderabad - 260/mo - Rs59.57 - 0.15 </p> 
+			<p>web designing services in hyderabad - 590/mo - Rs34.24 - 0.12 </p>
+			<p>website design in hyderabad price - 0/mo - Rs0.00 - 0 </p>
+			<p>best website designers in hyderabad - 50/mo - Rs28.76 - 0.42 </p>
+			</div>
  </div> 
             
         </div>
@@ -882,7 +896,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</div>
+            <div class="font-bold text-left mb-3 indigo-text font-bold font-20">Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</div>
             <p class="grey-text text-left"></p>
         </div>
         </div>

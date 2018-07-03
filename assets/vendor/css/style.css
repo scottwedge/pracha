@@ -16,6 +16,9 @@ p{
 .pad-6px{
 	margin-bottom: 0.2rem!important;
 }
+.lsi-help p{
+	font-size:16px !important;
+}
 .head-h2{
 	font-size:35px;
 }
