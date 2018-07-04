@@ -1,5 +1,5 @@
 <head>
-	<title>Web Designing Company In Hyderabad | Prachatech Pvt. Ltd. </title>
+	<title>The Best Web Designing Company In Hyderabad | Prachatech Pvt. Ltd. </title>
 	<meta name="description" content="Prachatech Pvt. Ltd. is primarily a web designing company in Hyderabad, that also deals with Mobile Apps  and offer Digital Marketing services at affordable prices. .">
 	<meta name="keywords" content="web designing, web designing company, Web designing company in hyderabad, best web designing company in hyderabad, best web designing companies in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 
@@ -80,7 +80,7 @@
 				<div class="col-1 "> 
 					&nbsp;
 				</div>
-				<div class="col-md-12"> 
+				<div class="col-md-10 justify-content-md-center"> 
 					<p>Pracha Technologies Pvt. Ltd. is a web design company located in Hyderabad, providing top-notch web designs, eCommerce websites, digital marketing services and mobile app development services especially for individuals, startups and mid-level companies. We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web designing services to serve our clients. We generate static & complex web designs, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. Our clients has considered our company as the best digital marketing and web designing company in Hyderabad, for we have developed user-friendly Software's, mobile apps and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally through various digital marketing channels across the web, and helped them in better rankings. Regarding mobile apps development, we have a skillful team of Mobile App developers, who develops mobile app softwares for Android & iOS platforms, Web apps and Hybrid Mobile apps. Quality work & Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
 					</p>
 					
@@ -875,13 +875,14 @@
 			<div class="clearfix"> &nbsp;</div>	
 			<div class="lsi-help">		
 			<h3><strong>LSI keywords:</strong></h3>
-			<p>list of web designing companies in hyderabad - 260/mo - Rs2628 - 0.39 </p>
-			<p>top web designing companies in hyderabad - 320/mo - Rs52.04 - 0.34 </p> 
-			<p>freelance web designers in hyderabad - 590/mo - Rs26.71 - 0.18 </p>
-			<p>best web design company in hyderabad - 260/mo - Rs59.57 - 0.15 </p> 
-			<p>web designing services in hyderabad - 590/mo - Rs34.24 - 0.12 </p>
-			<p>website design in hyderabad price - 0/mo - Rs0.00 - 0 </p>
-			<p>best website designers in hyderabad - 50/mo - Rs28.76 - 0.42 </p>
+			<h2 class="h2-custom">list of web designing companies in hyderabad - 260/mo - Rs2628 - 0.39 </h2>
+			<h2 class="h2-custom">top web designing companies in hyderabad - 320/mo - Rs52.04 - 0.34 </h2>
+			<h2 class="h2-custom">best web designing company in hyderabad - 420/mo - Rs61.04 - 0.43 </h2>
+			<h2 class="h2-custom">freelance web designers in hyderabad - 590/mo - Rs26.71 - 0.18 </h2>
+			<h2 class="h2-custom">best web design company in hyderabad - 260/mo - Rs59.57 - 0.15 </h2> 
+			<h2 class="h2-custom">web designing services in hyderabad - 590/mo - Rs34.24 - 0.12 </h2>
+			<h2 class="h2-custom">website design in hyderabad price - 0/mo - Rs0.00 - 0 </h2>
+			<h2 class="h2-custom">best website designers in hyderabad - 50/mo - Rs28.76 - 0.42 </h2>
 			</div>
  </div> 
             
