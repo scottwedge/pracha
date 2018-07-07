@@ -1,5 +1,5 @@
 <head>
-	<title>The Best Web Designing Company In Hyderabad | Prachatech Pvt. Ltd. </title>
+	<title>The Best Web Designing Company In Hyderabad | Prachatech Pvt Ltd </title>
 	<meta name="description" content="Prachatech Pvt. Ltd. is primarily a web designing company in Hyderabad, that also deals with Mobile Apps  and offer Digital Marketing services at affordable prices. .">
 	<meta name="keywords" content="web designing, web designing company, Web designing company in hyderabad, best web designing company in hyderabad, best web designing companies in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 
@@ -822,7 +822,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									Our <span class="des_t">Keyword </span>Strategy In SEO
+									Our <span class="des_t">Keyword Strategy </span> In SEO
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
@@ -839,7 +839,7 @@
     <div class="row pt-2">
 	
 	<div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> <br> 
-        <img src="<?php echo base_url(); ?>assets/vendor/img/lsi-key-words.png" title="SEO - Search Engine Optimization " alt="SEO and digital marketing company in hyderabad" class="img-fluid " style="margin-center:-100px;">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/lsi.png" title="SEO - Search Engine Optimization " alt="SEO and digital marketing company in hyderabad" class="img-fluid " style="margin-center:-100px;">
     </div>
 
  
@@ -875,14 +875,13 @@
 			<div class="clearfix"> &nbsp;</div>	
 			<div class="lsi-help">		
 			<h3><strong>LSI keywords:</strong></h3>
-			<h2 class="h2-custom">list of web designing companies in hyderabad - 260/mo - Rs2628 - 0.39 </h2>
-			<h2 class="h2-custom">top web designing companies in hyderabad - 320/mo - Rs52.04 - 0.34 </h2>
-			<h2 class="h2-custom">best web designing company in hyderabad - 420/mo - Rs61.04 - 0.43 </h2>
-			<h2 class="h2-custom">freelance web designers in hyderabad - 590/mo - Rs26.71 - 0.18 </h2>
-			<h2 class="h2-custom">best web design company in hyderabad - 260/mo - Rs59.57 - 0.15 </h2> 
-			<h2 class="h2-custom">web designing services in hyderabad - 590/mo - Rs34.24 - 0.12 </h2>
-			<h2 class="h2-custom">website design in hyderabad price - 0/mo - Rs0.00 - 0 </h2>
-			<h2 class="h2-custom">best website designers in hyderabad - 50/mo - Rs28.76 - 0.42 </h2>
+			<h2 class="h2-custom">Web designing company in hyd </h2>
+            <h2 class="h2-custom">Web designing companies in hyderabad </h2>
+            <h2 class="h2-custom">Web designing companies in hyderabad list etc. </h2> 
+			<p> The above mentioned are some of the examples of the LSI keywords, and the best is shown in the side image. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
+            
+
+			
 			</div>
  </div> 
             
