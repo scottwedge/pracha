@@ -20,6 +20,9 @@ class Portfolio extends CI_Controller {
 	 */
 	public function index()
 	{
+		$data['meta_title'] = 'Hello';
+		$data['meta_description'] = 'reddem';
+		$data['meta_keywords'] = 'vasudevareddy';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('portfolio');

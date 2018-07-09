@@ -17,7 +17,9 @@ class Pracha extends CI_Controller {
 	{
 		
 		$data['currentURL'] = current_url();
-		
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		//echo '<pre>';print_r($data);exit;
 		$this->load->view('header',$data);
 		$this->load->view('index');

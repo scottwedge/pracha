@@ -1,8 +1,4 @@
-<head>
-	<title>Portfolio</title>
-	
-</head>
- <section  class=" bod-st">
+<section  class=" bod-st">
  <br>
     <div class="container-sty ptb-15">
 		<div class="divider-new mt-0 mb-4 py-3">

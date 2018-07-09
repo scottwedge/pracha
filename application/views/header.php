@@ -5,6 +5,9 @@
 	
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title><?php echo isset($meta_title)?$meta_title:''; ?></title>
+	<meta name="description" content="<?php echo isset($meta_description)?$meta_description:''; ?>" />
+	<meta name="keywords" content="<?php echo isset($meta_keywords)?$meta_keywords:''; ?>" />
     
 	<link rel="icon" href="<?php echo base_url(); ?>assets/vendor/img/fav.png" >
     <!-- Font Awesome -->
