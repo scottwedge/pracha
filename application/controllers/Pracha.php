@@ -17,7 +17,7 @@ class Pracha extends CI_Controller {
 	{
 		
 		$data['currentURL'] = current_url();
-		$data['meta_title'] = 'Pracha';
+		$data['meta_title'] = 'The Best Web Designing Company In Hyderabad | Prachatech Pvt Ltd';
 		$data['meta_description'] = 'digital';
 		$data['meta_keywords'] = 'matketing';
 		//echo '<pre>';print_r($data);exit;

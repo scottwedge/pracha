@@ -1,9 +1,4 @@
-<head>
-	<title>The Best Web Designing Company In Hyderabad | Prachatech Pvt Ltd </title>
-	<meta name="description" content="Prachatech Pvt. Ltd. is primarily a web designing company in Hyderabad, that also deals with Mobile Apps  and offer Digital Marketing services at affordable prices. .">
-	<meta name="keywords" content="web designing, web designing company, Web designing company in hyderabad, best web designing company in hyderabad, best web designing companies in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
 
-</head>
 <div class="selectstate">
 <section class=" bod-st" >
     <!--Carousel Wrapper-->
