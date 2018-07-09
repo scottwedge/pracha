@@ -14,9 +14,9 @@ class On_demand_services extends CI_Controller {
 	}
 	public function index()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'On Demand Services In Hyderabad | Pracha Technologies Pvt Ltd.';
+		$data['meta_description'] = 'Pracha Technologies Pvt. Ltd. offers various web designing services in Hyderabad for startups and mid-level companies. The company deals with static & complex websites, ecommerce websites, corporate websites, mobile apps (iOS and Android), and promote them across the world digitally through its digital marketing strategies.';
+		$data['meta_keywords'] = 'ecommerce websites in hyderabad, complex websites in hyderabad, corporate websites developers, mobile apps developers';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('on_demand_services');

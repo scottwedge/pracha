@@ -20,9 +20,9 @@ class Portfolio extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['meta_title'] = 'Hello';
-		$data['meta_description'] = 'reddem';
-		$data['meta_keywords'] = 'vasudevareddy';
+		$data['meta_title'] = 'Portfolio | Pracha Technologies Pvt Ltd';
+		$data['meta_description'] = 'Pracha Technologies Pvt. Ltd. offers digital marketing and web designing services in Hyderabad for startups and mid-level companies. The company deals with static & complex websites, ecommerce websites, corporate websites, mobile apps (iOS and Android), and promote them across the world digitally through its digital marketing strategies.';
+		$data['meta_keywords'] = 'web designing company in hyderabad';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('portfolio');

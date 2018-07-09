@@ -1,8 +1,4 @@
-<head>
-	<title>Web Designing Services In Hyderabad | Prachatech Pvt. Ltd. </title>
-	<meta name="description" content="Prachatech Pvt. Ltd. offers various Web Designing Services in Hyderabad, the company also deals with Mobile Apps and Digital Marketing services for startups and mid-level companies.">
-	<meta name="keywords" content="web designing, best web designing services in hyderabad, web development, mobile apps, mobile apps development, mobile applications, mobile applications development, digital marketing, digital marketing services, digital marketing company, web designing company, best web designing agency, ui and ux, ui and ux design, ui and ux development, android mobile apps, ios mobile apps, ecommerce, ecommerce website developers, business solutions">
-</head>
+
  <style>
  #sticky {
     padding: 0.5ex;

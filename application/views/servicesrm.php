@@ -1,6 +1,4 @@
-<title>Web Designing Agency In Hyderabad | Prachatech Pvt. Ltd. </title>
-<meta name="description" content="Prachatech Pvt. Ltd. is a Web Designing Agency in Hyderabad. The company deals with eCommerce websites, static & dynamic website design,  mobile apps (iOS and Android)  and offer digital marketing services at affordable prices. ">
-	<meta name="keywords" content="web designing agency, web designing agency in hyderabad, best web designing agencies in hyderabad, web designing, ui and ux design in hyderabad, ui and ux design, web design company in hyderabad, Web design and development company in hyderabad, site architecture and design, static and Dynamic website design, responsive web design, custom web design, corporate website design, template design & customization, web design & development company in hyderabad, web designing company, web design and development, web designing and development ">
+
 <section title="Web Designing Agency In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/ui-and-ux-design-background.png); ">
 	<h1>
     WEB DESIGNING <br />

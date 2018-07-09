@@ -1,8 +1,4 @@
-<head>
-	<title> Digital Marketing Company In Hyderabad | Prachatech Pvt.Ltd.</title>
-	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a Web Designing & Digital Marketing Company in Hyderabad. The Company also develops Mobile apps (Android & iOS)  and promotes them digitally at affordable prices to support the Startups and Mid-level companies.">
-	<meta name="keywords" content="digital marketing, digital marketing company in hyderabad, digital marketing services in hyderabad, digital marketing agency in hyderabad, digital marketing in hyderabad, mobile apps, mobile apps development, mobile applications, mobile applications development, digital marketing, ui and ux, ui and ux design, ui and ux development, android mobile apps, ios mobile apps, ecommerce website developers, digital marketing company in india. ">
-</head>
+
 <section title="Digital Marketing Company In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/digital-marketing-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
 
   <h1>

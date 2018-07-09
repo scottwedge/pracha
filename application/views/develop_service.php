@@ -1,9 +1,4 @@
-<head>
-	<title>Web Development Company In Hyderabad|Prachatech Pvt. Ltd.</title>
-	<meta name="description" content="Pracha Technologies Pvt. Ltd. is a web development company in Hyderabad, India. The company also develops mobile apps and offer digital marketing services at affordable prices.">
-	<meta name="keywords" content="web development, web development company in hyderabad, web designing agency in hyderabad, web design company in hyderabad, Web design and development company in hyderabad, mobile apps, mobile apps development, mobile applications, mobile applications development, digital marketing, digital marketing services, digital marketing company, ui and ux, ui and ux design, ui and ux development, android mobile apps, ios mobile apps, ecommerce, ecommerce website developers, web design & development company in hyderabad, web designing company, web design and development, web designing and development, web development company in India, ">
 
-</head>
 <section title="Web Development Company In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-development-background.png);background-repeat: no-repeat;background-size: 100% 100%;  ">
 
   <h1>

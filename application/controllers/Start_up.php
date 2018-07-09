@@ -20,9 +20,9 @@ class Start_up extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'Pracha Technologies Pvt Ltd for Startups';
+		$data['meta_description'] = 'Pracha Technologies Pvt. Ltd. offers digital marketing and web designing services in Hyderabad for startups and mid-level companies. ';
+		$data['meta_keywords'] = 'web designing for startups, web designing for individuals, digital marketing for startups, digital marketing for individuals';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('start_up');

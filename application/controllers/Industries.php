@@ -20,9 +20,9 @@ class Industries extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'Industries | Pracha Technologies Pvt Ltd';
+		$data['meta_description'] = 'We at Prachatech Software Solutions, are delighted to offer the full spectrum of web designing services to serve industries.';
+		$data['meta_keywords'] = 'web designing company in hyderabad, mobile app development, digital matketing company in hyderabad';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('industries');

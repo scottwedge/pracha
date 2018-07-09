@@ -20,9 +20,9 @@ class Website_maintainence extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'Website Maintenance In Hyderabad | Pracha Technologies Pvt Ltd';
+		$data['meta_description'] = 'Prachatech Software Solutions offers Website maintenance at affordable prices.';
+		$data['meta_keywords'] = 'web designing company in hyderabad, digital marketing company in hyderabad';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('maintainence');

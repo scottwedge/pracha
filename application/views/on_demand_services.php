@@ -1,9 +1,4 @@
-<head>
-	<title>Prachatech On Demand Services In Hyderabadad </title>
-	<meta name="description" content="Pracha Technologies Pvt. Ltd. offers various web designing services in Hyderabad for startups and mid-level companies. The company deals with static & complex websites, ecommerce websites, corporate websites, mobile apps (iOS and Android), and promote them across the world digitally through its digital marketing strategies. ">
-	<meta name="keywords" content="ecommerce websites in hyderabad, complex websites in hyderabad, corporate websites developers, mobile apps developers">
 
-</head>
 <section class=" bod-st">
 <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/ondemand-first-background.png); ">
     <div class="full-bg-img">

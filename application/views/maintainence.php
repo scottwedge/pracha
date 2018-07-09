@@ -1,7 +1,4 @@
-<head>
-	<title>Website Maintenance In Hyderabad</title>
-	<meta name="description" content="Prachatech Software Solutions offers Website maintenance at affordable prices ">
-</head>
+
 <section id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/website-maintenance-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
 
   <h1>

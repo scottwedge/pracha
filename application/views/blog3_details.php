@@ -1,8 +1,4 @@
-<head>
-    <title>Social Media Marketing and its benefits</title>
-    <meta name="description" content="Social Media can make you or break you! Social Media is the computer-mediated tool that allow people to create, share or exchange information, pictures, videos, ideas in virtual communities and networks. Social Media Marketing is the process of getting attention through social media sites.">
-    <meta name="keywords" content=" social media marketing and its benefits, social media marketing, social media marketing strategies, social media. ">
-</head>
+
 <div class="selectstate">
     <section class="pt-5 mt-4 pb-3 pargh">
         <!--Grid row-->

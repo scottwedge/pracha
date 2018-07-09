@@ -15,9 +15,9 @@ class Services extends CI_Controller {
 	}
 	public function index()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'Web Designing Services In Hyderabad | Prachatech Pvt. Ltd.';
+		$data['meta_description'] = 'Prachatech Pvt. Ltd. offers various Web Designing Services in Hyderabad, the company also deals with Mobile Apps and Digital Marketing services for startups and mid-level companies.';
+		$data['meta_keywords'] = 'web designing, best web designing services in hyderabad, web development, mobile apps, mobile apps development, mobile applications, mobile applications development, digital marketing, digital marketing services, digital marketing company, web designing company, best web designing agency, ui and ux, ui and ux design, ui and ux development, android mobile apps, ios mobile apps, ecommerce, ecommerce website developers, business solutions';
 		$data['currentURL'] = current_url();
 		if($data['currentURL']== base_url('services') || $data['currentURL']== base_url('services.xml')){
 			redirect('web-designing-services-in-hyderabad');

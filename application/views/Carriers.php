@@ -1,7 +1,4 @@
-<head>
-	<title>carrers	</title>
-	
-</head>
+
 <br>
 	<section class="bod-st">
 		<div class="container card ">

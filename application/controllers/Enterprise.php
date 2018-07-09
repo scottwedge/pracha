@@ -20,9 +20,9 @@ class Enterprise extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'Enterprise Solutions | Pracha Technologies Pvt Ltd';
+		$data['meta_description'] = 'Pracha Technologies Pvt. Ltd. provides various enterprise solutions';
+		$data['meta_keywords'] = 'web designing company in hyderabad, web designing for enterprise, digital marketing for enterprise';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('enterprise');

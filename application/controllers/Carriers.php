@@ -20,9 +20,9 @@ class Carriers extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'Pracha Technologies Career Opportunities';
+		$data['meta_description'] = 'Learn more about job and career opportunities at Pracha Technologies. Search our current openings today to find the best fit for you and your career goals.';
+		$data['meta_keywords'] = 'career opportunity, job openings, jobs, careers, carriers, carrier.';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('carriers');

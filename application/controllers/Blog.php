@@ -15,9 +15,9 @@ public function __construct()
 	}
 	public function index()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'Pracha Technologies Blog';
+		$data['meta_description'] = 'Through this blog we share latest updates, best practices, tips and tricks, upcoming things, case studies and many more interesting things to gain much insights.';
+		$data['meta_keywords'] = 'blogging, how to write a blog, ';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('blog');
@@ -27,9 +27,9 @@ public function __construct()
 	{
 		
 		
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'How to  Optimize a Youtube Channel | Prachatech Web Designing Company';
+		$data['meta_description'] = 'How to Create, Manage and Optimize a Youtube Channel? - If you have the desire to attract audience attention across the world with your creative ideas and videos, then this article is for you.';
+		$data['meta_keywords'] = 'How to optimize a youtube channel, how to create a youtube channel, how to manage a youtube channel.';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(1);
 		//echo '<pre>';print_r($commets);exit;
 		$data['currentURL'] = current_url();
@@ -39,9 +39,9 @@ public function __construct()
 	}
 	public function what_is_onpage_and_offpage_optimization()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'What Is Onpage and Offpage SEO | Prachatech web designing company';
+		$data['meta_description'] = 'What is onpage and offpage SEO? - SEO is of two types, namely On-Page Optimization and Off-Page Optimization.On page optimization deals with the aspects of a website or blog post that can be optimized to read by the search engines. Though it is a time taking process yet this kind of optimization...';
+		$data['meta_keywords'] = 'what is onpage and offpage seo, onpage and offpage seo, onpage and offpage optimization, onpage optimization and offpage optimization, onpage-and-offpage-optimization';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(2);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
@@ -50,9 +50,9 @@ public function __construct()
 	}
 	public function social_media_marketing_and_its_benefits()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'Social Media Marketing and its benefits';
+		$data['meta_description'] = 'Social Media can make you or break you! Social Media is the computer-mediated tool that allow people to create, share or exchange information, pictures, videos, ideas in virtual communities and networks. Social Media Marketing is the process of getting attention through social media sites.';
+		$data['meta_keywords'] = 'social media marketing and its benefits, social media marketing, social media marketing strategies, social media.';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
@@ -61,9 +61,9 @@ public function __construct()
 	}
 	public function what_is_ecommerce_and_its_types()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'What is eCommerce and how many types of eCommerce are there?';
+		$data['meta_description'] = 'Electronic Commerce is the buying and selling of goods and services, or transmitting of data or funds majorly on the internet, in simple eCommerce is the purchase of goods or services on the internet which takes place in between organisations, merchants and consumers.';
+		$data['meta_keywords'] = 'how many types of ecommerce, types of ecommerce, types of ecommerce websites, ecommerce websites';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
@@ -72,6 +72,9 @@ public function __construct()
 	}
 	public function Web_development_a_practical_guide_to_a_Web_developer()
 	{
+		$data['meta_title'] = 'Web Development - A Practical Guide To A Web Developer';
+		$data['meta_description'] = 'Web development is the term that we apply to develop a website. Either a single static page or the most complex website must undergo web development. There are 3 kinds of web development specializations namely  Front-end, Back-end and Full-stack web developers.';
+		$data['meta_keywords'] = 'web development, practical guide to web development, practical guide to web developer, web developers guide.';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
@@ -80,9 +83,9 @@ public function __construct()
 	}
 	public function importance_of_mobile_apps_in_business()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'Importance Of Mobile Apps In Business';
+		$data['meta_description'] = 'The majority of mobile users who use mobile apps are more than them that access the internet on a personal computer. That means if you are only  using a website as a marketing tool without any mobile app related to your business, then you are missing your potential customers in a large range';
+		$data['meta_keywords'] = 'importance of mobile apps in business, importance of mobile apps, mobile apps importance, why mobile apps are essential, why mobile apps are essential in business';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
@@ -91,9 +94,9 @@ public function __construct()
 	}
 	public function key_elements_to_design_a_best_website()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'Key Elements To Be Considered While Designing A  Website';
+		$data['meta_description'] = "In this digital age the internet is so intertwined with people's ls lives, and it isn't exaggerating to mention we are literally dwelling online! Maximum number of the customers check online before they purchase the product or service...";
+		$data['meta_keywords'] = 'key elements to be considered while designing a website, designing a website, how to design a website, steps to design a website';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
@@ -102,9 +105,9 @@ public function __construct()
 	}
 	public function how_to_start_and_earn_in_affiliate_marketing()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'How To Start And Earn In Affiliate Marketing';
+		$data['meta_description'] = 'Have you ever thought of making money by referring people to Amazon or any other ecommerce website? If you are new to affiliate marketing then this article is especially for you.';
+		$data['meta_keywords'] = 'affiliate marketing, digital marketing, how to earn in affiliate marketing, amazon affiliate, flipkart affiliate, become an affiliate.';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);

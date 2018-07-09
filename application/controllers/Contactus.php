@@ -14,9 +14,9 @@ public function __construct()
 	}
 	public function index()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'Pracha Technologies Pvt Ltd';
+		$data['meta_description'] = 'If you are searching for a web designing company in Hyderabad, you can contact us at admin@prachatech.com';
+		$data['meta_keywords'] = 'web designing company in hyderabad, mobile apps development, digital marketing';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('contactus');

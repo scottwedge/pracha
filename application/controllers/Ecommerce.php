@@ -14,9 +14,9 @@ class Ecommerce extends CI_Controller {
 	}
 	public function index()
 	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
+		$data['meta_title'] = 'E-Commerce Web Development In Hyderabad | Pracha Technologies Pvt Ltd';
+		$data['meta_description'] = 'Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are six types of eCommerce they are: Business to Customer (B2C), Business to Business (B2B),...';
+		$data['meta_keywords'] = 'ecommerce website development in hyderabad, ecommerce web development in hyderabad, ecommerce web designing in hyderabad.';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('ecommerce');

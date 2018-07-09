@@ -1,7 +1,4 @@
-<head>
-	<title>Start-up</title>
-	
-</head>
+
 <section class=" bod-st">
 <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/startup.png); ">
     <div class="full-bg-img">

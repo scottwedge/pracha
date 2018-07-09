@@ -1,7 +1,4 @@
-<head>
-	<title>Contact us</title>
-	
-</head>
+
 <div class="selectstate">
 
 

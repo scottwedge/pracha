@@ -1,8 +1,4 @@
-<head>
-	<title>How to  Optimize a Youtube Channel | Prachatech Web Designing Company	</title>
-	<meta name="description" content="How to Create, Manage and Optimize a Youtube Channel? - If you have the desire to attract audience attention across the world with your creative ideas and videos, then this article is for you.">
-	<meta name="keywords" content="How to optimize a youtube channel, how to create a youtube channel, how to manage a youtube channel.">
-</head>
+
 <?php if($this->session->flashdata('success')): ?>
 				<div class="alert_msg1 animated slideInUp bg-succ">
 				<?php echo $this->session->flashdata('success');?> &nbsp; <i class="glyphicon glyphicon-ok text-success ico_bac" aria-hidden="true"></i>

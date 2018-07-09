@@ -1,7 +1,4 @@
-<head>
-	<title>Industries</title>
-	
-</head>
+
  <section  class=" bod-st">
  <br>
     <div class="container-sty ptb-15">

@@ -1,8 +1,4 @@
-<head>
-    <title>Web Development - A Practical Guide To A Web Developer</title>
-    <meta name="description" content="Web development is the term that we apply to develop a website. Either a single static page or the most complex website must undergo web development. There are 3 kinds of web development specializations namely  Front-end, Back-end and Full-stack web developers.">
-    <meta name="keywords" content="web development, practical guide to web development, practical guide to web developer, web developers guide. ">
-</head>
+
 <div class="selectstate">
     <section class="pt-5 mt-4 pb-3 pargh">
         <!--Grid row-->
