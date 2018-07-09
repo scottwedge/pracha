@@ -100,7 +100,7 @@
 				
 			<li class="nav-item <?php if($currentURL==base_url('portfolio.xml')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('portfolio');?>" class="nav-link"> <span class=" ">Portfolio</span></a></li>
 			<li class="nav-item <?php if($currentURL==base_url('industries.xml')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('industries');?>" class="nav-link"> <span class=" ">Industries</span></a></li>
-			<li class="nav-item <?php if($currentURL==base_url('carriers.xml')){ echo "active-menu"; } ?>" ><a href="<?php echo base_url('carriers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>
+			<li class="nav-item <?php if($currentURL==base_url('careers.xml')){ echo "active-menu"; } ?>" ><a href="<?php echo base_url('careers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>
 				<li class="nav-item <?php if($currentURL==base_url('blog.xml') || $currentURL==base_url('blog/how_to_create_manage_and_optimize_a_youtube_channel.xml') || $currentURL==base_url('blog/social_media_marketing_and_its_benefits.xml') || $currentURL==base_url('blog/what_is_onpage_and_offpage_optimization.xml')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('blog');?>" class="nav-link"> <span class=" ">Blog</span></a></li>
 				<li class="nav-item <?php if($currentURL==base_url('contactus.xml')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>
 			</ul>

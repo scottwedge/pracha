@@ -194,7 +194,7 @@
                      <li><a href="<?php echo base_url(); ?>" >Home</a></li>
 					 <!--<li><a href="#">About Us</a></li>-->
 					<!--  <li><a href="<?php echo base_url('price/estimate'); ?>">Pricing</a></li>-->
-                    <li><a href="<?php echo base_url('carriers'); ?>">Careers</a></li>
+                    <li><a href="<?php echo base_url('careers'); ?>">Careers</a></li>
 					<li><a href="<?php echo base_url('blog'); ?>">Blog</a></li>
                     
                     <li><a href="<?php echo base_url('contactus');?>">Contact Us</a></li>
