@@ -14,6 +14,9 @@ class Ecommerce extends CI_Controller {
 	}
 	public function index()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('ecommerce');

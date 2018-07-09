@@ -15,6 +15,9 @@ public function __construct()
 	}
 	public function index()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('blog');
@@ -24,6 +27,9 @@ public function __construct()
 	{
 		
 		
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(1);
 		//echo '<pre>';print_r($commets);exit;
 		$data['currentURL'] = current_url();
@@ -33,6 +39,9 @@ public function __construct()
 	}
 	public function what_is_onpage_and_offpage_optimization()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(2);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
@@ -41,6 +50,9 @@ public function __construct()
 	}
 	public function social_media_marketing_and_its_benefits()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
@@ -49,6 +61,9 @@ public function __construct()
 	}
 	public function what_is_ecommerce_and_its_types()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
@@ -65,6 +80,9 @@ public function __construct()
 	}
 	public function importance_of_mobile_apps_in_business()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
@@ -73,6 +91,9 @@ public function __construct()
 	}
 	public function key_elements_to_design_a_best_website()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
@@ -81,6 +102,9 @@ public function __construct()
 	}
 	public function how_to_start_and_earn_in_affiliate_marketing()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);

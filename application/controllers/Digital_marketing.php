@@ -21,6 +21,9 @@ class Digital_marketing extends CI_Controller {
 	public function index()
 	{
 		
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$data['currentURL'] = current_url();
 		if($data['currentURL']== base_url('digital_marketing') || $data['currentURL']== base_url('digital_marketing.xml')){
 			redirect('digital-marketing-company-in-hyderabad');
@@ -32,6 +35,9 @@ class Digital_marketing extends CI_Controller {
 	}
 	public function readmore()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('digital_marketing_readmore');

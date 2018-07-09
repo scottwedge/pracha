@@ -20,6 +20,9 @@ class Ui_and_ux_design extends CI_Controller {
 	 */
 	public function index()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$data['currentURL'] = current_url();
 		if($data['currentURL']== base_url('ui_and_ux_design') || $data['currentURL']== base_url('ui_and_ux_design.xml')){
 			redirect('web-designing-agency-in-hyderabad');

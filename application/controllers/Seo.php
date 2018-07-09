@@ -26,10 +26,13 @@ class Seo extends CI_Controller {
 	
 	public function readmore()
 	{
-	$data['currentURL'] = current_url();
-		$this->load->view('header',$data);
-	$this->load->view('seoreadmore');
-	$this->load->view('footer');
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
+		$data['currentURL'] = current_url();
+			$this->load->view('header',$data);
+		$this->load->view('seoreadmore');
+		$this->load->view('footer');
 	}
 	/*public function ppc()
 	{

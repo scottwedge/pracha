@@ -20,6 +20,9 @@ class Web_development extends CI_Controller {
 	 */
 	public function index()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$data['currentURL'] = current_url();
 		if($data['currentURL']== base_url('web_development') || $data['currentURL']== base_url('web_development.xml')){
 			redirect('web-development-company-in-hyderabad');

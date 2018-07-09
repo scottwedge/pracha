@@ -15,6 +15,9 @@ class Services extends CI_Controller {
 	}
 	public function index()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$data['currentURL'] = current_url();
 		if($data['currentURL']== base_url('services') || $data['currentURL']== base_url('services.xml')){
 			redirect('web-designing-services-in-hyderabad');
@@ -25,6 +28,9 @@ class Services extends CI_Controller {
 	}
 	public function combo()
 	{
+		$data['meta_title'] = 'Pracha';
+		$data['meta_description'] = 'digital';
+		$data['meta_keywords'] = 'matketing';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('comboprice');
