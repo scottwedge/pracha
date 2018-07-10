@@ -60,8 +60,8 @@
 
                 <h2>
                     <span class="tit">
-									Prachatech <span class="des_t"> Software 
-                    </span> Solutions
+									Prachatech <span class="des_t"> Web Designing 
+                    </span> Services
                 </h2>
 
 
@@ -105,7 +105,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									<span class="des_t">Our</span> Services
+									<span class="des_t">Our</span>  Web Services
                     </span>
                 </h3>
 
@@ -486,7 +486,7 @@
 
 </section>
 <!--our process-->
-<section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
+<!-- <section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
     <div class="container-sty card ">
         <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
@@ -516,7 +516,7 @@
         <div class="clearfix">&nbsp;</div>
     </div>
 
-</section>
+</section> -->
 <section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
     <div class="container-sty card ">
         <div class="row  text-center">
@@ -545,7 +545,7 @@
                     </div>
                     <div class="service_content">
                         <p>
-                          We have earlier introduced about our web designing company in Hyderabad, who not only builds  websites but also promotes them  digitally through various digital marketing techniques. By means of these digital promotions across the web, we bring your business into light that creates more opportunities for your business to connect with its targeted audience. We do all the possible ways to promote your website digitally on social media and on search engines results page by applying various digital marketing tools.
+                          We have earlier introduced about our web designing company in Hyderabad, who not only build  websites but also promotes them  digitally through various digital marketing techniques. By means of these digital promotions across the web, we bring your business into light that creates more opportunities for your business to connect with its targeted audience. We do all the possible ways to promote your website digitally on social media and on search engines results page by applying various digital marketing tools.
                         </p>
 						
 						
@@ -577,7 +577,7 @@
                     </div>
                     <div class="service_content">
                         <p>
-                           As people need houses to dwell in this world, so also business people need online houses (websites) to dwell in the digital world. Just like a house, a website also needs to be maintained properly. When things break-up, they need to be fixed! When it gets out dated, it needs to be updated.  Website updating may be difficult and time consuming process; but we, as the best web designing company in Hyderabad are here to help and encourage Startups, and serve them at affordable prices. The whole world is online now! So join us to make your business online.</p>
+                           As people need houses to dwell in this world, so also businesses need online houses (websites) to dwell in the digital world. Just like a house, a website also needs to be maintained properly. When things break-up, they need to be fixed! When it gets out dated, it needs to be updated.  Website updating may be difficult and time consuming process; but we, as the best web designing company in Hyderabad are here to help and encourage Startups, and serve them at affordable prices. The whole world is online now! So join us to make your business online.</p>
 
 						
                         </p>
@@ -719,96 +719,7 @@
     </div>
 
 </section>
-<section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
-    <div class="container-sty card ">
-        <div class="row  text-center">
-            <div class="col-sm-12 mb-20 pt-30">
 
-                <h3 class="font-bold">
-                    <span class="tit">
-									Why <span class="des_t">Choose </span>us ?
-                    </span>
-                </h3>
-				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center font-bold "> We are Web Designers! We are Mobile App Developers! We are Digital Marketers! <br> Try us! Yeah, You make it worth of Trying us.</p>
-
-
-            </div>
-
-        </div>
-		       
-
-
-    <!--Grid row-->
-    <div class="row pt-2">
-
- 
-    <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
-	<br>
-	<br>
-	<br>
-	<br>
-        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="our mobile web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-7">
-
-      
-		<!--Grid row-->
-        <div class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
-        <div class="col-2 col-md-1">
-            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
-        </div>
-        <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best web designing companies in Hyderabad, and we have a proven track record for bringing forth best website designs, mobile apps and marketing them digitally. </div>
-            
-        </div>
-        </div>
-        <!--Grid row-->
-
-       
-
-        <!--Grid row-->
-        <div data-wow-duration="0.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
-        <div class="col-2 col-md-1">
-            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
-        </div>
-        <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: web designing services, search engine optimization, social media marketing, Google adwords, email campaigns, mobile app development services at affordable prices especially for individuals and startups. </div> 
-            
-        </div>
-        </div>
-	
-
-        <!--Grid row-->
-       
-        <!--Grid row-->
-        <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
-        <div class="col-2 col-md-1">
-            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
-        </div>
-        <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We offer a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
-            <p class="grey-text text-left"></p>
-        </div>
-        </div>
-		
-        <!--Grid row-->
-
-    </div>
-    <!--Grid column-->
-
-    </div>
-    
-<div class="clearfix"> &nbsp;</div>
-
-       
-           
-    </div>
-
-</section>
 
 <section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
     <div class="container-sty card ">
@@ -897,6 +808,97 @@
         </div>
         </div>
 		
+		
+        <!--Grid row-->
+
+    </div>
+    <!--Grid column-->
+
+    </div>
+    
+<div class="clearfix"> &nbsp;</div>
+
+       
+           
+    </div>
+
+</section> 
+
+<section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
+    <div class="container-sty card ">
+        <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h3 class="font-bold">
+                    <span class="tit">
+									Why <span class="des_t">Choose </span>us ?
+                    </span>
+                </h3>
+				<div class="clearfix">&nbsp;</div>
+				 <p class="text-center font-bold "> We are Web Designers! We are Mobile App Developers! We are Digital Marketers! <br> Try us! Yeah, You make it worth of Trying us.</p>
+
+
+            </div>
+
+        </div>
+		       
+
+
+    <!--Grid row-->
+    <div class="row pt-2">
+
+ 
+    <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
+	<br>
+	<br>
+	<br>
+	<br>
+        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="our mobile web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      
+		<!--Grid row-->
+        <div class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best web designing companies in Hyderabad, and we have a proven track record for bringing forth best website designs, mobile apps and marketing them digitally. </div>
+            
+        </div>
+        </div>
+        <!--Grid row-->
+
+       
+
+        <!--Grid row-->
+        <div data-wow-duration="0.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: web designing services, search engine optimization, social media marketing, Google adwords, email campaigns, mobile app development services at affordable prices especially for individuals and startups. </div> 
+            
+        </div>
+        </div>
+	
+
+        <!--Grid row-->
+       
+        <!--Grid row-->
+        <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We offer a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
+            <p class="grey-text text-left"></p>
+        </div>
+        </div>
 		
         <!--Grid row-->
 
