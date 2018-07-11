@@ -24,7 +24,7 @@
 
                 <h2>
                     <span class="tit">
-									Prachatech <span class="des_t"> Digital Marketing 
+									Prachatech -<span class="des_t"> Digital Marketing 
                     </span> Company
                 </h2>
 
@@ -40,7 +40,9 @@
 					&nbsp;
 				</div>
 				<div class="col-md-10 justify-content-md-center"> 
-					<p>Pracha Technologies Pvt. Ltd. is a web design company located in Hyderabad, providing top-notch web designs, eCommerce websites, digital marketing services and mobile app development services especially for individuals, startups and mid-level companies. We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web designing services to serve our clients. We generate static & complex web designs, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. Our clients has considered our company as the best digital marketing and web designing company in Hyderabad, for we have developed user-friendly Software's, mobile apps and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally through various digital marketing channels across the web, and helped them in better rankings. Regarding mobile apps development, we have a skillful team of Mobile App developers, who develops mobile app softwares for Android & iOS platforms, Web apps and Hybrid Mobile apps. Quality work & Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
+					<p>Pracha Technologies Pvt. Ltd. is a digital marketing company located in Hyderabad. The company also provides top-notch web designs, eCommerce websites and offers mobile app development services especially for individuals, startups and mid-level companies. We at Prachatech Software Solutions, are delighted  to offer the full spectrum of digital marketing services to serve our clients. Quality work & Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. Some of our core digital marketing services are listed below.
+
+					  
 					</p>
 					
 					
@@ -56,7 +58,7 @@
 		 
 	<div class="row justify-content-md-center " >
 	
-		<p class="font-18 col-md-10">In reality Digital Marketing is very vast, it is an ongoing process that needs to be updated from time to time. The major functionalities in Digital Marketing are Search Engine Optimization (SEO),  Social Media Marketing (SMM), Google Adwords, Content Marketing, email Marketing, <a class="text-primary" target="_blank" href="https://www.google.com/analytics/#?modal_active=none">Google Analytics</a>, Google Web Master Tools etc. In simple words we can say that Digital Marketing is just marketing of products or services using digital technologies, and the major digital marketing services we offer are briefly explained below.</p>
+		<p class="font-18 col-md-10">In reality Digital Marketing is very vast, it is an ongoing process that needs to be updated from time to time. The major functionalities in Digital Marketing are Search Engine Optimization (SEO),  Social Media Marketing (SMM), Google Adwords, Content Marketing, email Marketing, Google Analytics, Google Web Master Tools etc. In simple words we can say that Digital Marketing is just marketing of products or services using digital technologies, and the major digital marketing services we offer are briefly explained below.</p>
 	</div>
 	
 	<br>
@@ -235,7 +237,7 @@
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
 			<strong>Google Analytics</strong>
         </h2>
-        <p> Google Analytics can be a much better help to understand the effectiveness of your marketing efforts, and it can give a better understanding about your visitors and also helps to optimize your store for conversions and sales. Google Analytics gives you clear reports regarding Real-Time, Audience, Acquisition, Behaviour and Conversions reports etc., which are very essential for further proceedings. As a digital marketing company in Hyderabad, we track each and every event of your website by implementing a tracking code and setup data filters on  Google Analytics, for we have a special team to monitor each and every move of your website. We collect the overall analytical reports of your website and analyze them and remarket them for better targeting with various dynamic remarketing techniques.
+        <p> <a class="text-primary" target="_blank" href="https://www.google.com/analytics/#?modal_active=none">Google Analytics</a> can be a much better help to understand the effectiveness of your marketing efforts, and it can give a better understanding about your visitors and also helps to optimize your store for conversions and sales. Google Analytics gives you clear reports regarding Real-Time, Audience, Acquisition, Behaviour and Conversions reports etc., which are very essential for further proceedings. As a digital marketing company in Hyderabad, we track each and every event of your website by implementing a tracking code and setup data filters on  Google Analytics, for we have a special team to monitor each and every move of your website. We collect the overall analytical reports of your website and analyze them and remarket them for better targeting with various dynamic remarketing techniques.
  </p>
        
     </div>
