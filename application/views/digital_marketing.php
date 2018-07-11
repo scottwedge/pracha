@@ -16,13 +16,51 @@
 
 </section>
 <div class="clearfix">&nbsp;</div>
-<section class="mar-mi140">
+<!--<section class="mar-mi140">-->
+<section class="">
 <div class="container-sty card " >
+<div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
 
-	<div class="row justify-content-md-center pad-t40" >
-		<p class="font-18 col-md-11">In reality Digital Marketing is very vast, it is an ongoing process that needs to be updated from time to time. The major functionalities in Digital Marketing are Search Engine Optimization (SEO),  Social Media Marketing (SMM), Google Adwords, Content Marketing, email Marketing, Google Analytics, Google Web Master Tools etc. In simple words we can say that Digital Marketing is just marketing of products or services using digital technologies, and the major digital marketing services we offer are briefly explained below.</p>
-	</div><br>
-	<h2 class="head-ing">DIGITAL MARKETING SERVICES</h2>
+                <h2>
+                    <span class="tit">
+									Prachatech <span class="des_t"> Digital Marketing 
+                    </span> Company
+                </h2>
+
+
+            </div>
+			
+
+        </div>
+		  <div class="clearfix">&nbsp;</div>
+			<div class="row">
+				
+				<div class="col-1 "> 
+					&nbsp;
+				</div>
+				<div class="col-md-10 justify-content-md-center"> 
+					<p>Pracha Technologies Pvt. Ltd. is a web design company located in Hyderabad, providing top-notch web designs, eCommerce websites, digital marketing services and mobile app development services especially for individuals, startups and mid-level companies. We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web designing services to serve our clients. We generate static & complex web designs, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. Our clients has considered our company as the best digital marketing and web designing company in Hyderabad, for we have developed user-friendly Software's, mobile apps and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally through various digital marketing channels across the web, and helped them in better rankings. Regarding mobile apps development, we have a skillful team of Mobile App developers, who develops mobile app softwares for Android & iOS platforms, Web apps and Hybrid Mobile apps. Quality work & Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
+					</p>
+					
+					
+					</div>
+				
+				
+			</div>
+			<br>
+			<div class="row justify-content-md-center " >
+	
+				<h2 class=" col-md-10 text-warning font-bold">DIGITAL MARKETING SERVICES</h2>
+			</div>
+		 
+	<div class="row justify-content-md-center " >
+	
+		<p class="font-18 col-md-10">In reality Digital Marketing is very vast, it is an ongoing process that needs to be updated from time to time. The major functionalities in Digital Marketing are Search Engine Optimization (SEO),  Social Media Marketing (SMM), Google Adwords, Content Marketing, email Marketing, <a class="text-primary" target="_blank" href="https://www.google.com/analytics/#?modal_active=none">Google Analytics</a>, Google Web Master Tools etc. In simple words we can say that Digital Marketing is just marketing of products or services using digital technologies, and the major digital marketing services we offer are briefly explained below.</p>
+	</div>
+	
+	<br>
+	
 	
 		
 <div class=" "  id="navbarSupportedContent" >
@@ -234,6 +272,336 @@
 </div>
 
 	
+</section>
+<section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
+    <div class="container-sty card ">
+        <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h3 class="font-bold">
+                    <span class="tit">
+									Our <span class="des_t">Keyword Strategy </span> In SEO
+                    </span>
+                </h3>
+				<div class="clearfix">&nbsp;</div>
+				 <p class="text-center font-bold "> We not only design stunning websites but also implement various SEO techniques <br> for our clients, for better rankings in Google. “Keyword” plays a major role in SEO, <br> for by it people search on Google, so it is must to identify the targeted keywords.</p>
+
+
+            </div>
+
+        </div>
+		       
+
+
+    <!--Grid row-->
+    <div class="row pt-2">
+	
+	<div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> <br> 
+        <img src="<?php echo base_url(); ?>assets/vendor/img/lsi.png" title="SEO - Search Engine Optimization " alt="SEO and digital marketing company in hyderabad" class="img-fluid " style="margin-center:-100px;">
+    </div>
+
+ 
+    
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      
+		<!--Grid row-->
+        <div class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Web Designing" - Is a short tail keyword. <br> "Web Designing Company in Hyderabad" - Is a long tail keyword.
+ </div>
+            
+        </div>
+        </div>
+        <!--Grid row-->
+
+       
+
+        <!--Grid row-->
+        <div data-wow-duration="0.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web designing company" located in Hyderabad, you will find the below listed LSI keywords. 
+			<div class="clearfix"> &nbsp;</div>	
+			<div class="lsi-help">		
+			<h3><strong>LSI keywords:</strong></h3>
+			<h2 class="h2-custom">Web designing company in hyd </h2>
+            <h2 class="h2-custom">Web designing companies in hyderabad </h2>
+            <h2 class="h2-custom">Web designing companies in hyderabad list etc. </h2> 
+			<p> The above mentioned are some of the examples of the LSI keywords, and the best is shown in the side image. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
+            
+
+			
+			</div>
+ </div> 
+            
+        </div>
+        </div>
+	
+
+        <!--Grid row-->
+       
+        <!--Grid row-->
+        <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3  font-bold font-20">Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</div>
+            <p class="grey-text text-left"></p>
+        </div>
+        </div>
+		
+		
+        <!--Grid row-->
+
+    </div>
+    <!--Grid column-->
+
+    </div>
+    
+<div class="clearfix"> &nbsp;</div>
+
+       
+           
+    </div>
+
+</section> 
+
+<section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
+    <div class="container-sty card ">
+        <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h3 class="font-bold">
+                    <span class="tit">
+									Why <span class="des_t">Choose </span>us ?
+                    </span>
+                </h3>
+				<div class="clearfix">&nbsp;</div>
+				 <p class="text-center font-bold "> We are Web Designers! We are Mobile App Developers! We are Digital Marketers! <br> Try us! Yeah, You make it worth of Trying us.</p>
+
+
+            </div>
+
+        </div>
+		       
+
+
+    <!--Grid row-->
+    <div class="row pt-2">
+
+ 
+    <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
+	<br>
+	<br>
+	<br>
+	<br>
+        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="our mobile web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      
+		<!--Grid row-->
+        <div class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best web designing companies in Hyderabad, and we have a proven track record for bringing forth best website designs, mobile apps and marketing them digitally. </div>
+            
+        </div>
+        </div>
+        <!--Grid row-->
+
+       
+
+        <!--Grid row-->
+        <div data-wow-duration="0.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: web designing services, search engine optimization, social media marketing, Google adwords, email campaigns, mobile app development services at affordable prices especially for individuals and startups. </div> 
+            
+        </div>
+        </div>
+	
+
+        <!--Grid row-->
+       
+        <!--Grid row-->
+        <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We offer a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
+            <p class="grey-text text-left"></p>
+        </div>
+        </div>
+		
+        <!--Grid row-->
+
+    </div>
+    <!--Grid column-->
+
+    </div>
+    
+<div class="clearfix"> &nbsp;</div>
+
+       
+           
+    </div>
+
+</section>
+
+  
+ <!-- pricing-->
+ <section id="pricings" class="our_service padding-10 ptb-xs-60">
+    <div class="container-sty card ">
+			<div class="row  text-center">
+				<div class="col-sm-12 mb-20 pt-30">
+					<h3 class="tex-lef-mob font-bold">
+						<span class="tit"><span class="des_t">Pricing </span>
+						 
+						</span>
+					</h3>
+					<div class="clearfix">&nbsp;</div>
+				 <p class="text-center mb-5 ">This is not an expenditure, but an investment on your business!</p>
+				</div>
+				</div>
+				
+					<div class="row  text-center">
+						<ul class="box">
+						  <!-- BEGIN LIST ELEMENT -->
+						  
+							<li class=" wow rollIn center" style="visibility: visible; animation-name: rollIn;">
+							  <div class="circle">
+								<div class="front-home bg-mdb-color " >
+								<p class="clearfix ">&nbsp;</p>
+							
+							
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 6,999</span></p>
+									<div class="pric-tit-pos bg-dark">
+										Web Designing
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+							 
+							</li>
+							<li  data-wow-delay="0.5s" class="wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
+								
+							  <div class="circle">
+								<div class="front-home bg-primary " >
+								<p class="clearfix ">&nbsp;</p>
+							
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 9,999</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+										Web Development
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								
+							</li>
+							
+							<li class="wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
+							
+							  <div class="circle">
+								<div class="front-home bg-pink " >
+								<p class="clearfix ">&nbsp;</p>
+							
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 69,999</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+									eCommerce
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								
+							</li>
+							</ul>
+							<ul class="box">
+							
+							<li data-wow-delay="0.5s" class=" wow rollIn" style="visibility: visible; animation-delay: 0.5s; animation-name: rollIn;">
+							
+							  <div class="circle">
+								<div class="front-home bg-info " >
+								<p class="clearfix ">&nbsp;</p>
+							
+							<p class="text-white">Starting At <br><span class="pric-rate">₹ 39,999</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+										Mobile Applications
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+							
+							</li>
+						
+							<li class=" wow bounceInUp center" style="visibility: visible; animation-name: bounceInUp;">
+						
+							  <div class="circle">
+								<div class="front-home bg-secondary " >
+								<p class="clearfix ">&nbsp;</p>
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 19,999</span></p>
+							
+								
+									<div class="pric-tit-pos bg-dark">
+										Digital Marketing
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								
+							</li>
+							
+							<li  class=" wow bounceInRight" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInRight;">
+							
+							  <div class="circle">
+								<div class="front-home bg-blue-grey " >
+								<p class="clearfix ">&nbsp;</p>
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 4,999</span></p>
+							
+								
+									<div class="pric-tit-pos bg-dark">
+										Maintenance
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+							 
+							</li>
+							
+							</ul>
+					</div>
+					
+			<div class="clearfix">&nbsp;</div>
+			</div>
+        
+	<div class="clearfix">&nbsp;</div>
 </section>
 <div class="clearfix">&nbsp;</div>
 
