@@ -40,7 +40,7 @@
 					&nbsp;
 				</div>
 				<div class="col-md-10 justify-content-md-center"> 
-					<p>Pracha Technologies Pvt. Ltd. is a digital marketing company located in Hyderabad. The company also provides top-notch web designs, eCommerce websites and offers mobile app development services for Android and iOS platforms. In this digital era, it is required for every business to have a website and to takeup digital promotions. These days everybody knows that 'A website without digital marketing is in vain', because it neither brings customer nor get sales. So it is required to follow the trend for your business to enter into the algorithms of Google and other search engines through various digital marketing techniques. The goal of every business is to reach the maximum number of customers and to generate sales & leads, for that reason we are here offering the full spectrum of digital marketing services. We are recognised by our clients through our quality work and customer service , and  we can assure the most satisfactory outcomes at affordable prices. Some of our core digital marketing services are listed below.
+					<p>Pracha Technologies Pvt. Ltd. is a digital marketing company in Hyderabad. The company also provides top-notch web designs, eCommerce websites and offers mobile app development services for Android and iOS platforms. In this digital era, it is required for every business to have a website and to takeup digital promotions. We know that 'A website without digital marketing is in vain', because it neither brings customer nor get sales. So it is required to follow the trend for your business to enter into the algorithms of Google and other search engines through various digital marketing techniques. The goal of every business is to reach the maximum number of customers and to generate sales & leads, for that reason we are here offering the full spectrum of digital marketing services. We are recognised by our clients through our quality work and customer service , and  we can assure the most satisfactory outcomes at affordable prices. Some of our core digital marketing services are listed below.
 
 					  
 					</p>
@@ -346,7 +346,7 @@
 			<h2 class="h2-custom">Digital Marketing Company In Hyd </h2>
             <h2 class="h2-custom">Digital Marketing Services In Hyderabad </h2>
             <h2 class="h2-custom">Digital Marketing Agencies In Hyderabad etc. </h2> 
-			<p> The above mentioned are some of the examples of the LSI keywords, and the best is shown in the side image. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
+			<p> The above mentioned are some of the examples of the LSI keywords. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
             
 
 			
@@ -443,7 +443,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: search engine optimization, social media marketing, Google adwords, email campaigns, mobile app development services at affordable prices especially for individuals and startups. </div> 
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: search engine optimization, social media marketing, Google adwords, Google analytics and email campaigns etc., at affordable prices especially for individuals and startups. </div> 
             
         </div>
         </div>
@@ -457,7 +457,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We offer a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
             <p class="grey-text text-left"></p>
         </div>
         </div>

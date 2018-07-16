@@ -26,7 +26,7 @@ class Services extends CI_Controller {
 		$this->load->view('services');
 		$this->load->view('footer');
 	}
-	public function combo()
+	/*public function combo()
 	{
 		$data['meta_title'] = 'Pracha';
 		$data['meta_description'] = 'digital';
@@ -35,6 +35,6 @@ class Services extends CI_Controller {
 		$this->load->view('header',$data);
 		$this->load->view('comboprice');
 		$this->load->view('footer');
-	}
+	}*/
 	
 }

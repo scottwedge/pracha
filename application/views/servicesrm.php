@@ -16,7 +16,7 @@
                 <h2>
                     <span class="tit">
 									Prachatech -<span class="des_t"> Web Designing 
-                    </span> Company
+                    </span> Agency
                 </h2>
 
 
@@ -31,7 +31,10 @@
 					&nbsp;
 				</div>
 				<div class="col-md-10 justify-content-md-center"> 
-					<p>Pracha Technologies Pvt. Ltd. is a digital marketing company located in Hyderabad. The company also provides top-notch web designs, eCommerce websites and offers mobile app development services for Android and iOS platforms. In this digital era, it is required for every business to have a website and to takeup digital promotions. These days everybody knows that 'A website without digital marketing is in vain', because it neither brings customer nor get sales. So it is required to follow the trend for your business to enter into the algorithms of Google and other search engines through various digital marketing techniques. The goal of every business is to reach the maximum number of customers and to generate sales & leads, for that reason we are here offering the full spectrum of digital marketing services. We are recognised by our clients through our quality work and customer service , and  we can assure the most satisfactory outcomes at affordable prices. Some of our core digital marketing services are listed below.
+					<p>Pracha Technologies Pvt. Ltd. is a web designing agency in Hyderabad. The company deals with static, dynamic & eCommerce websites and offers mobile app development services for Android and iOS platforms, and promote them digitally through various digital marketing techniques. Web designing is concerned about visual aesthetics and usability, it mainly focuses on what user sees on the desktop or on the mobile screen. In other words web designing governs UI and UX design. UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. <strong>In simple UI aims on website and UX aims on product</strong>, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user.
+
+
+					
 
 					  
 					</p>
@@ -44,14 +47,12 @@
 			<br>
 			<div class="row justify-content-md-center " >
 	
-				<h2 class=" col-md-10 text-warning font-bold">Web Designing Services</h2>
+				<h2 class=" col-md-10 text-warning font-bold">Web Designing Services :</h2>
 			</div>
 
-	<div class="row justify-content-md-center " >
-		<p class="font-18 col-md-10 "> Web designing is concerned about visual aesthetics and usability, which means it mainly focuses on what user sees on the desktop or mobile screen. In other words web designing governs UI and UX design. UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. <strong>In simple UI aims on website and UX aims on product</strong>, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user.</p>
-	</div><br>
+	<br>
 	<div class="row justify-content-md-center" >
-		<h2 class="col-md-10 ">UI & UX:</h2>
+		<h2 class="col-md-10 ">UI & UX</h2>
 	</div>
 	<div class="row justify-content-md-center" >
 		
@@ -296,13 +297,9 @@
 	
 	<div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> 
 	<br> 
+	
 	<br> 
-	<br> 
-	<br> 
-	<br> 
-	<br> 
-	<br> 
-        <img src="<?php echo base_url(); ?>assets/vendor/img/keywords.jpg" title="Searching Keywords " alt="searching keywords for digital marketing" class="img-fluid " style="margin-center:-100px;">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/lsi-web-agency.png" title="Search Keywords " alt="searching keywords " class="img-fluid " style="margin-center:-100px;">
     </div>
 
  
@@ -319,7 +316,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Digital Marketing" - Is a short tail keyword. <br> "Digital Marketing Company in Hyderabad" - Is a long tail keyword.
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Web Designing" - Is a short tail keyword. <br> "Web Designing Agency in Hyderabad" - Is a long tail keyword.
  </div>
             
         </div>
@@ -334,14 +331,14 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "digital marketing company" located in Hyderabad, you will find the below listed LSI keywords. 
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web designing agency" located in Hyderabad, you will find the below listed LSI keywords. 
 			<div class="clearfix"> &nbsp;</div>	
 			<div class="lsi-help">		
 			<h3><strong>LSI keywords:</strong></h3>
-			<h2 class="h2-custom">Digital Marketing Company In Hyd </h2>
-            <h2 class="h2-custom">Digital Marketing Services In Hyderabad </h2>
-            <h2 class="h2-custom">Digital Marketing Agencies In Hyderabad etc. </h2> 
-			<p> The above mentioned are some of the examples of the LSI keywords, and the best is shown in the side image. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
+			<h2 class="h2-custom">web Designing Agency In Hyd </h2>
+            <h2 class="h2-custom">Web Designing Agency In Hyderabad </h2>
+            <h2 class="h2-custom">Web Designing Agencies In Hyderabad etc. </h2> 
+			<p> The above mentioned are some of the examples of the LSI keywords. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
             
 
 			
@@ -392,7 +389,7 @@
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center font-bold "> We are Digital Marketers! We are Web Designers! We are Mobile App Developers!  <br> Try us! Yeah, You make it worth of Trying us.</p>
+				 <p class="text-center font-bold ">  We are Web Designers! We are Mobile App Developers! We are Digital Marketers! <br> Try us! Yeah, You make it worth of Trying us.</p>
 
 
             </div>
@@ -410,7 +407,7 @@
 	<br>
 	<br>
 	<br>
-        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="our mobile web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us1.png" alt="web designing agency team" class="img-fluid " style="margin-top:-100px;">
     </div>
     <!--Grid column-->
 
@@ -424,7 +421,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best digital marketing  companies in Hyderabad, and we have a proven track record for bringing forth best SEO results & SMM promotions. </div>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best web designing agencies in Hyderabad, and we have a proven track record for bringing forth the best websites. </div>
             
         </div>
         </div>
@@ -438,7 +435,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: search engine optimization, social media marketing, Google adwords, email campaigns, mobile app development services at affordable prices especially for individuals and startups. </div> 
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: UI&UX, Static, Dynamic, Responsive, Custom and Corporate web designs and promote them digitally at affordable prices especially for individuals and startups. </div> 
             
         </div>
         </div>
@@ -452,7 +449,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We offer a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
             <p class="grey-text text-left"></p>
         </div>
         </div>
@@ -465,7 +462,7 @@
 	<div class=" col-md-1"> &nbsp;
 	</div>
 	<div class=" justify-content-md-center col-md-10">
-		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best digital marketing company in Hyderabad above all our competitors. 
+		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best web designing agency and digital marketing company in Hyderabad above all our competitors. 
 </p>
 	</div>	
 
