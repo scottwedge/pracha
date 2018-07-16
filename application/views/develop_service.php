@@ -168,10 +168,10 @@
 			<strong>MEAN Stack Development</strong>
         </h2>
         <p>MEAN is a combination of technologies that makes simple and quick to create web applications. MEAN is an open-source software package that combines the four most advanced web development frameworks. </p>
-		<p>Mongo DB - Is the database that stores your application.</p>
-		<p>Express.js - Provides more robust features to your application and acts as a backend web framework.</p>	
-		<p>Angular.js - It allows your web application to have a expanded HTML library and acts as a frontend framework.</p>
-		<p>Node.js - It is an open source server framework which works fast and efficient. </p>
+		<p><strong> Mongo DB </strong> - Is the database that stores your application.</p>
+		<p><strong>Express.js </strong>- Provides more robust features to your application and acts as a backend web framework.</p>	
+		<p><strong>Angular.js </strong>- It allows your web application to have a expanded HTML library and acts as a frontend framework.</p>
+		<p><strong>Node.js </strong> - It is an open source server framework which works fast and efficient. </p>
 		
        
     </div>
@@ -179,8 +179,12 @@
 
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
+	<br>
+		<br>
+		<br>
         <!--Featured image-->
         <div class="overlay hm-white-slight rounded z-depth-2">
+		
         <img src="<?php echo base_url(); ?>assets/vendor/img/mean-stack-development.png" title="MEAN Stack Web Development" alt="MEAN Stack web development company in hyderabad"
             class="img-fluid">
         <a>
