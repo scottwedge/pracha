@@ -470,7 +470,7 @@
 	<div class=" col-md-1"> &nbsp;
 	</div>
 	<div class=" justify-content-md-center col-md-10">
-		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best digital marketing company in Hyderabad above all our competitors. 
+		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best web designing and digital marketing company in Hyderabad above all our competitors. 
 </p>
 	</div>	
 

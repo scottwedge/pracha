@@ -38,7 +38,7 @@
 					&nbsp;
 				</div>
 				<div class="col-md-10 justify-content-md-center"> 
-					<p>Pracha Technologies Pvt. Ltd. is a digital marketing company located in Hyderabad. The company also provides top-notch web designs, eCommerce websites and offers mobile app development services for Android and iOS platforms. In this digital era, it is required for every business to have a website and to takeup digital promotions. These days everybody knows that 'A website without digital marketing is in vain', because it neither brings customer nor get sales. So it is required to follow the trend for your business to enter into the algorithms of Google and other search engines through various digital marketing techniques. The goal of every business is to reach the maximum number of customers and to generate sales & leads, for that reason we are here offering the full spectrum of digital marketing services. We are recognised by our clients through our quality work and customer service , and  we can assure the most satisfactory outcomes at affordable prices. Some of our core digital marketing services are listed below.
+					<p>Pracha Technologies Pvt. Ltd. is primarily a web designing & web development company in Hyderabad. The company designs static, complex and eCommerce websites and offers mobile app development services for Android and iOS platforms. Since the goal of every business is to reach the maximum number of customers and to generate sales & leads, so we are also offering the full spectrum of digital marketing services. We are recognised by our clients through our quality work and customer service , and  we can assure the most satisfactory outcomes at affordable prices.  
 
 					  
 					</p>
@@ -191,14 +191,8 @@
     <!--Grid column-->
 
     </div>
-    <!--Grid row--><hr>
-	<div class="row">
-		<div class=" pb-3">
-			<p class="text-dark"><strong>Note : </strong>There are many things to explain but because of time and space we will continue these topics in blogs. Hope the above briefly explained terms are informative! </p> 
-			
-		<p>Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best web development company in Hyderabad above all our competitors.</p>
-		</div>
-	</div>
+    <!--Grid row-->
+	
 
 </div>
 	</div>
@@ -256,7 +250,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Digital Marketing" - Is a short tail keyword. <br> "Digital Marketing Company in Hyderabad" - Is a long tail keyword.
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Web Development" - Is a short tail keyword. <br> "Web Development Company in Hyderabad" - Is a long tail keyword.
  </div>
             
         </div>
@@ -271,14 +265,14 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "digital marketing company" located in Hyderabad, you will find the below listed LSI keywords. 
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web development company" located in Hyderabad, you will find the below listed LSI keywords. 
 			<div class="clearfix"> &nbsp;</div>	
 			<div class="lsi-help">		
 			<h3><strong>LSI keywords:</strong></h3>
-			<h2 class="h2-custom">Digital Marketing Company In Hyd </h2>
-            <h2 class="h2-custom">Digital Marketing Services In Hyderabad </h2>
-            <h2 class="h2-custom">Digital Marketing Agencies In Hyderabad etc. </h2> 
-			<p> The above mentioned are some of the examples of the LSI keywords, and the best is shown in the side image. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
+			<h2 class="h2-custom">Web Development Company In Hyd </h2>
+            <h2 class="h2-custom">Web Development Company In Hyderabad </h2>
+            <h2 class="h2-custom">Web Development Company In Hyderabad list etc. </h2> 
+			<p> The above mentioned are some of the examples of the LSI keywords. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
             
 
 			
@@ -329,7 +323,7 @@
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center font-bold "> We are Digital Marketers! We are Web Designers! We are Mobile App Developers!  <br> Try us! Yeah, You make it worth of Trying us.</p>
+				 <p class="text-center font-bold ">  We are Web Developers! We are Mobile App Developers! We are Digital Marketers! <br> Try us! Yeah, You make it worth of Trying us.</p>
 
 
             </div>
@@ -361,7 +355,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best digital marketing  companies in Hyderabad, and we have a proven track record for bringing forth best SEO results & SMM promotions. </div>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best web development   companies in Hyderabad, and we have a proven track record for bringing forth best websites and its promotions. </div>
             
         </div>
         </div>
@@ -375,7 +369,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: search engine optimization, social media marketing, Google adwords, email campaigns, mobile app development services at affordable prices especially for individuals and startups. </div> 
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: Custom Application Development, Content Management System (CMS), ECommerce Web Development and MEAN Stack Development etc., and develop mobile apps at affordable prices especially for individuals and startups. </div> 
             
         </div>
         </div>
@@ -389,7 +383,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We offer a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you to deliver your projects in time.</div>
             <p class="grey-text text-left"></p>
         </div>
         </div>
@@ -402,7 +396,7 @@
 	<div class=" col-md-1"> &nbsp;
 	</div>
 	<div class=" justify-content-md-center col-md-10">
-		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best digital marketing company in Hyderabad above all our competitors. 
+		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best digital marketing and web development company in Hyderabad above all our competitors. 
 </p>
 	</div>	
 
