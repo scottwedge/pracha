@@ -1,10 +1,58 @@
 
 <div class="selectstate">
-<section title="Web Designing Agency In Hyderabad" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-design-company-in-hyderabad.jpg);   height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;min-height:550px ">
-	<h1 class="text-center text-white " style="padding-top:100px;text-shadow: 1px 1px 8px #555;">Web Designing Company In Hyderabad</h1>
-	
-</section>
+<section class=" bod-st" >
+    <!--Carousel Wrapper-->
+<div id="main-slide" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#main-slide" data-slide-to="0" class="active"></li>
+<li data-target="#main-slide" data-slide-to="1"></li>
+<li data-target="#main-slide" data-slide-to="2"></li>
+<li data-target="#main-slide" data-slide-to="3"></li>
 
+
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban1.png" title="Web Designing Company" alt="web designing company in hyderabad">
+<div class="carousel-caption d-md-block">
+<h1 class="animated wow fadeInDown text-warning text-shadow" data-wow-delay=".4s">Web Designing Company </h1>
+
+
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban2.png" title="Web Development Company" alt="web designing company in hyderabad">
+<div class="carousel-caption d-md-block">
+<h2 class="animated wow fadeInLeft text-warning text-shadow h1" data-wow-delay=".7s">Web Development Company</h2>
+
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban3.png" title="Mobile Apps Development company" alt="Mobile Apps Development company in hyderabad">
+<div class="carousel-caption d-md-block">
+<h2 class=" col-md-8 animated wow fadeInDown text-warning text-shadow h1" data-wow-delay=".6s">Mobile Apps Development</h2>
+
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban4.png" title="Digital Marketing Company" alt="Digital Marketing Company In Hyderabad">
+<div class="carousel-caption d-md-block">
+<h2 class=" col-md-6 animated wow fadeInDown text-warning text-shadow h1" data-wow-delay=".6s">Digital Marketing Company</h2>
+
+</div>
+</div>
+</div>
+<a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
+<span class="carousel-control" aria-hidden="true"><i class="mdi mdi-arrow-left" data-ripple-color="#F0F0F0"></i></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#main-slide" role="button" data-slide="next">
+<span class="carousel-control" aria-hidden="true"><i class="mdi mdi-arrow-right" data-ripple-color="#F0F0F0"></i></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+<!--Carousel Wrapper-->
+</section>
 <section id="seric-sc" class="our_service padding-10 ptb-xs-60  wow slideInUp" data-wow-delay="0.5s">
     <div class="container-sty card ">
       <div class="row  text-center">
