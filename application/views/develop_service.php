@@ -15,18 +15,51 @@
 
 </section>
 <div class="clearfix">&nbsp;</div>
-<section class="mar-mi140">
+<section class="">
 <div class="container-sty card " >
+<div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
 
-	<div class="row  justify-content-md-center pad-t40" >
-		<p class="font-18 col-md-11">We focus on many principal things to make the website much attractive, we focus on  Custom Application Development, Content Management System, Ui & Ux Design and MEAN (Mongo DB, Express.js, Angular.js, Node.js) Stack Development etc., so lets have a glimpse on each and every attribute and its functionalities.</p>
+                <h2>
+                    <span class="tit">
+									Prachatech -<span class="des_t"> Web Development 
+                    </span> Company
+                </h2>
+
+
+            </div>
+			
+
+        </div>
+		  <div class="clearfix">&nbsp;</div>
+			<div class="row">
+				
+				<div class="col-1 "> 
+					&nbsp;
+				</div>
+				<div class="col-md-10 justify-content-md-center"> 
+					<p>Pracha Technologies Pvt. Ltd. is primarily a web designing & web development company in Hyderabad. The company designs static, complex and eCommerce websites and offers mobile app development services for Android and iOS platforms. Since the goal of every business is to reach the maximum number of customers and to generate sales & leads, so we are also offering the full spectrum of digital marketing services. We are recognised by our clients through our quality work and customer service , and  we can assure the most satisfactory outcomes at affordable prices.  
+
+					  
+					</p>
+					
+					
+					</div>
+				
+				
+			</div>
+			<br>
+			<div class="row justify-content-md-center " >
+	
+				<h2 class=" col-md-10 text-warning font-bold">Web Development Services</h2>
+			</div>
+
+	<div class="row justify-content-md-center " >
+		<p class="font-18 col-md-10 "> We focus on many principal things to make the website much attractive, we focus on  Custom Application Development, Content Management System, Ui & Ux Design and MEAN (Mongo DB, Express.js, Angular.js, Node.js) Stack Development etc., so lets have a glimpse on each and every attribute and its functionalities.</p>
+		<p class="font-18 col-md-10 "> Software development is limitless! There are many methodologies that comes under web development: Spiral Model, Dynamic System Development, Agile Software Development, Prototype Methodology, Waterfall Model, Extreme Programming Methodology and Scrum development methodology etc. These softwares are applied depending upon the requirements of the website.</p>
 	</div><br>
-	<h2 class="head-ing">Web Development</h2>
-	<div class="row justify-content-md-center" >
-		
-		<p class="col-md-11 font-18">Software development is limitless! There are many methodologies that comes under web development: Spiral Model, Dynamic System Development, Agile Software Development, Prototype Methodology, Waterfall Model, Extreme Programming Methodology and Scrum development methodology etc. These softwares are applied depending upon the requirements of the website. </p>
-		</div>
-		
+
+
 <div class=" "  id="navbarSupportedContent" >
 
 <section class="py-4 text-center text-lg-left ">
@@ -135,10 +168,10 @@
 			<strong>MEAN Stack Development</strong>
         </h2>
         <p>MEAN is a combination of technologies that makes simple and quick to create web applications. MEAN is an open-source software package that combines the four most advanced web development frameworks. </p>
-		<p>Mongo DB - Is the database that stores your application.</p>
-		<p>Express.js - Provides more robust features to your application and acts as a backend web framework.</p>	
-		<p>Angular.js - It allows your web application to have a expanded HTML library and acts as a frontend framework.</p>
-		<p>Node.js - It is an open source server framework which works fast and efficient. </p>
+		<p><strong> Mongo DB </strong> - Is the database that stores your application.</p>
+		<p><strong>Express.js </strong>- Provides more robust features to your application and acts as a backend web framework.</p>	
+		<p><strong>Angular.js </strong>- It allows your web application to have a expanded HTML library and acts as a frontend framework.</p>
+		<p><strong>Node.js </strong> - It is an open source server framework which works fast and efficient. </p>
 		
        
     </div>
@@ -146,8 +179,12 @@
 
     <!--Grid column-->
     <div class="col-lg-4 col-xl-4 mb-5">
+	<br>
+		<br>
+		<br>
         <!--Featured image-->
         <div class="overlay hm-white-slight rounded z-depth-2">
+		
         <img src="<?php echo base_url(); ?>assets/vendor/img/mean-stack-development.png" title="MEAN Stack Web Development" alt="MEAN Stack web development company in hyderabad"
             class="img-fluid">
         <a>
@@ -158,14 +195,8 @@
     <!--Grid column-->
 
     </div>
-    <!--Grid row--><hr>
-	<div class="row">
-		<div class=" pb-3">
-			<p class="text-dark"><strong>Note : </strong>There are many things to explain but because of time and space we will continue these topics in blogs. Hope the above briefly explained terms are informative! </p> 
-			
-		<p>Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best web development company in Hyderabad above all our competitors.</p>
-		</div>
-	</div>
+    <!--Grid row-->
+	
 
 </div>
 	</div>
@@ -173,6 +204,350 @@
 </div>
 
 	
+</section>
+<section class="py-4" >
+    <div class="container-sty card ">
+        <div class="row  text-center py-4">
+            <div class="col-sm-12 mb-20 pt-30 justify-content-md-center">
+
+                <h3 class="font-bold">
+                    <span class="tit">
+									Our <span class="des_t">Keyword Strategy </span> In SEO
+                    </span>
+                </h3>
+				
+
+
+            </div>
+			<div class="clearfix">&nbsp;</div>
+				<div class="col-md-1"></div>
+				 <p class="text-left font-bold col-md-10  "> We not only design stunning websites but also implement various SEO techniques  for our clients, for better rankings in Google. “Keyword” plays a major role in SEO,  for by it people search on Google, so it is must to identify the targeted keywords.</p>
+        </div>
+		       
+			   
+
+
+    <!--Grid row-->
+    <div class="row pt-2">
+	
+	<div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> 
+	<br> 
+	<br> 
+	<br> 
+	<br> 
+	
+        <img src="<?php echo base_url(); ?>assets/vendor/img/keywords2.jpg" title="Searching Keywords " alt="searching keywords for digital marketing" class="img-fluid " style="margin-center:-100px;">
+    </div>
+
+ 
+    
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      
+		<!--Grid row-->
+        <div class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Web Development" - Is a short tail keyword. <br> "Web Development Company in Hyderabad" - Is a long tail keyword.
+ </div>
+            
+        </div>
+        </div>
+        <!--Grid row-->
+
+       
+
+        <!--Grid row-->
+        <div data-wow-duration="0.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web development company" located in Hyderabad, you will find the below listed LSI keywords. 
+			<div class="clearfix"> &nbsp;</div>	
+			<div class="lsi-help">		
+			<h3><strong>LSI keywords:</strong></h3>
+			<h2 class="h2-custom">Web Development Company In Hyd </h2>
+            <h2 class="h2-custom">Web Development Company In Hyderabad </h2>
+            <h2 class="h2-custom">Web Development Company In Hyderabad list etc. </h2> 
+			<p> The above mentioned are some of the examples of the LSI keywords. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
+            
+
+			
+			</div>
+ </div> 
+            
+        </div>
+        </div>
+	
+
+        <!--Grid row-->
+       
+        <!--Grid row-->
+        <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3  font-bold font-20">Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</div>
+            <p class="grey-text text-left"></p>
+        </div>
+        </div>
+		
+		
+        <!--Grid row-->
+
+    </div>
+    <!--Grid column-->
+
+    </div>
+    
+<div class="clearfix"> &nbsp;</div>
+
+       
+           
+    </div>
+
+</section> 
+
+<section  class="py-4">
+    <div class="container-sty card ">
+        <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h3 class="font-bold">
+                    <span class="tit">
+									Why <span class="des_t">Choose </span>us ?
+                    </span>
+                </h3>
+				<div class="clearfix">&nbsp;</div>
+				 <p class="text-center font-bold ">  We are Web Developers! We are Mobile App Developers! We are Digital Marketers! <br> Try us! Yeah, You make it worth of Trying us.</p>
+
+
+            </div>
+
+        </div>
+		       
+
+
+    <!--Grid row-->
+    <div class="row pt-2">
+
+ 
+    <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
+	<br>
+	<br>
+	<br>
+	<br>
+        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us2.png" alt="our mobile web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      
+		<!--Grid row-->
+        <div class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best web development   companies in Hyderabad, and we have a proven track record for bringing forth best websites and its promotions. </div>
+            
+        </div>
+        </div>
+        <!--Grid row-->
+
+       
+
+        <!--Grid row-->
+        <div data-wow-duration="0.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: Custom Application Development, Content Management System (CMS), ECommerce Web Development and MEAN Stack Development etc., and develop mobile apps at affordable prices especially for individuals and startups. </div> 
+            
+        </div>
+        </div>
+	
+
+        <!--Grid row-->
+       
+        <!--Grid row-->
+        <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you to deliver your projects in time.</div>
+            <p class="grey-text text-left"></p>
+        </div>
+        </div>
+		
+        <!--Grid row-->
+
+    </div>
+    <!--Grid column-->
+	<div class="clearfix"> &nbsp;</div>
+	<div class=" col-md-1"> &nbsp;
+	</div>
+	<div class=" justify-content-md-center col-md-10">
+		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best digital marketing and web development company in Hyderabad above all our competitors. 
+</p>
+	</div>	
+
+    </div>
+    
+<div class="clearfix"> &nbsp;</div>
+
+       
+           
+    </div>
+
+</section>
+
+  
+ <!-- pricing-->
+ <section  class="py-4">
+    <div class="container-sty card ">
+			<div class="row  text-center">
+				<div class="col-sm-12 mb-20 pt-30">
+					<h3 class="tex-lef-mob font-bold">
+						<span class="tit"><span class="des_t">Pricing </span>
+						 
+						</span>
+					</h3>
+					<div class="clearfix">&nbsp;</div>
+				 <p class="text-center mb-5 ">This is not an expenditure, but an investment on your business!</p>
+				</div>
+				</div>
+				
+					<div class="row  text-center">
+						<ul class="box">
+						  <!-- BEGIN LIST ELEMENT -->
+						  
+							<li class=" wow rollIn center" style="visibility: visible; animation-name: rollIn;">
+							  <div class="circle">
+								<div class="front-home bg-mdb-color " >
+								<p class="clearfix ">&nbsp;</p>
+							
+							
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 6,999</span></p>
+									<div class="pric-tit-pos bg-dark">
+										Web Designing
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+							 
+							</li>
+							<li  data-wow-delay="0.5s" class="wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
+								
+							  <div class="circle">
+								<div class="front-home bg-primary " >
+								<p class="clearfix ">&nbsp;</p>
+							
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 9,999</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+										Web Development
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								
+							</li>
+							
+							<li class="wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
+							
+							  <div class="circle">
+								<div class="front-home bg-pink " >
+								<p class="clearfix ">&nbsp;</p>
+							
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 69,999</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+									eCommerce
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								
+							</li>
+							</ul>
+							<ul class="box">
+							
+							<li data-wow-delay="0.5s" class=" wow rollIn" style="visibility: visible; animation-delay: 0.5s; animation-name: rollIn;">
+							
+							  <div class="circle">
+								<div class="front-home bg-info " >
+								<p class="clearfix ">&nbsp;</p>
+							
+							<p class="text-white">Starting At <br><span class="pric-rate">₹ 39,999</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+										Mobile Applications
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+							
+							</li>
+						
+							<li class=" wow bounceInUp center" style="visibility: visible; animation-name: bounceInUp;">
+						
+							  <div class="circle">
+								<div class="front-home bg-secondary " >
+								<p class="clearfix ">&nbsp;</p>
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 19,999</span></p>
+							
+								
+									<div class="pric-tit-pos bg-dark">
+										Digital Marketing
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								
+							</li>
+							
+							<li  class=" wow bounceInRight" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInRight;">
+							
+							  <div class="circle">
+								<div class="front-home bg-blue-grey " >
+								<p class="clearfix ">&nbsp;</p>
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 4,999</span></p>
+							
+								
+									<div class="pric-tit-pos bg-dark">
+										Maintenance
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+							 
+							</li>
+							
+							</ul>
+					</div>
+					
+			<div class="clearfix">&nbsp;</div>
+			</div>
+        
+	<div class="clearfix">&nbsp;</div>
 </section>
 <div class="clearfix">&nbsp;</div>
 

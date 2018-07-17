@@ -8,16 +8,55 @@
 	
 </section>
 <div class="clearfix">&nbsp;</div>
-<section class="mar-mi140">
+<section class="">
 <div class="container-sty card " >
+<div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
 
-	<div class="row justify-content-md-center  pad-t40" >
-		<p class="font-18 col-md-11 "> Web designing is concerned about visual aesthetics and usability, which means it mainly focuses on what user sees on the desktop or mobile screen. In other words web designing governs UI and UX design. UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. <strong>In simple UI aims on website and UX aims on product</strong>, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user.</p>
-	</div><br>
-	<h2 class="head-ing">UI & UX:</h2>
+                <h2>
+                    <span class="tit">
+									Prachatech -<span class="des_t"> Web Designing 
+                    </span> Agency
+                </h2>
+
+
+            </div>
+			
+
+        </div>
+		  <div class="clearfix">&nbsp;</div>
+			<div class="row">
+				
+				<div class="col-1 "> 
+					&nbsp;
+				</div>
+				<div class="col-md-10 justify-content-md-center"> 
+					<p>Pracha Technologies Pvt. Ltd. is a web designing agency in Hyderabad. The company deals with static, dynamic & eCommerce websites and offers mobile app development services for Android and iOS platforms, and promote them digitally through various digital marketing techniques. Web designing is concerned about visual aesthetics and usability, it mainly focuses on what user sees on the desktop or on the mobile screen. In other words web designing governs UI and UX design. UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. <strong>In simple UI aims on website and UX aims on product</strong>, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user.
+
+
+					
+
+					  
+					</p>
+					
+					
+					</div>
+				
+				
+			</div>
+			<br>
+			<div class="row justify-content-md-center " >
+	
+				<h2 class=" col-md-10 text-warning font-bold">Web Designing Services :</h2>
+			</div>
+
+	<br>
+	<div class="row justify-content-md-center" >
+		<h2 class="col-md-10 ">UI & UX</h2>
+	</div>
 	<div class="row justify-content-md-center" >
 		
-		<p class="col-md-11"> User Interface Design is the combination of Visual Design and Interaction Design. Visual Design is the look and feel of the site, and Interaction Design is the way public interacts with your site. Under UI and UX Design, we focus on the core functions like Site Architecture and Design, Static & Dynamic Website Design, Responsive Web Design, Custom Web Design, Template Design & Customization etc., let’s have a glimpse on these attributes and their functionalities. </p>
+		<p class="col-md-10"> User Interface Design is the combination of Visual Design and Interaction Design. Visual Design is the look and feel of the site, and Interaction Design is the way public interacts with your site. Under UI and UX Design, we focus on the core functions like Site Architecture and Design, Static & Dynamic Website Design, Responsive Web Design, Custom Web Design, Template Design & Customization etc., let’s have a glimpse on these attributes and their functionalities. </p>
 
 	</div>
 		
@@ -217,19 +256,361 @@
     </div>
     <!--Grid column-->
 
-    </div><hr>
+    </div>
+	<!--<hr>
 	<div class="row">
 		<div class=" pb-3">
 			<p class="text-dark"><strong>Note : </strong>There are many things to explain but because of time and space we will continue these topics in blogs. Hope the above briefly explained terms are informative! </p> 
 			<p> Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best web designing agency in Hyderabad above all our competitors. </p>
 		</div>
-	</div>
+	</div>-->
 </div>
 	</div>
 	</section>
 </div>
 
 	
+</section>
+<section class="py-4" >
+    <div class="container-sty card ">
+        <div class="row  text-center py-4">
+            <div class="col-sm-12 mb-20 pt-30 justify-content-md-center">
+
+                <h3 class="font-bold">
+                    <span class="tit">
+									Our <span class="des_t">Keyword Strategy </span> In SEO
+                    </span>
+                </h3>
+				
+
+
+            </div>
+			<div class="clearfix">&nbsp;</div>
+				<div class="col-md-1"></div>
+				 <p class="text-left font-bold col-md-10  "> We not only design stunning websites but also implement various SEO techniques  for our clients, for better rankings in Google. “Keyword” plays a major role in SEO,  for by it people search on Google, so it is must to identify the targeted keywords.</p>
+        </div>
+		       
+
+
+    <!--Grid row-->
+    <div class="row pt-2">
+	
+	<div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> 
+	<br> 
+	
+	<br> 
+        <img src="<?php echo base_url(); ?>assets/vendor/img/lsi-web-agency.png" title="Search Keywords " alt="searching keywords " class="img-fluid " style="margin-center:-100px;">
+    </div>
+
+ 
+    
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      
+		<!--Grid row-->
+        <div class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Web Designing" - Is a short tail keyword. <br> "Web Designing Agency in Hyderabad" - Is a long tail keyword.
+ </div>
+            
+        </div>
+        </div>
+        <!--Grid row-->
+
+       
+
+        <!--Grid row-->
+        <div data-wow-duration="0.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web designing agency" located in Hyderabad, you will find the below listed LSI keywords. 
+			<div class="clearfix"> &nbsp;</div>	
+			<div class="lsi-help">		
+			<h3><strong>LSI keywords:</strong></h3>
+			<h2 class="h2-custom">web Designing Agency In Hyd </h2>
+            <h2 class="h2-custom">Web Designing Agency In Hyderabad </h2>
+            <h2 class="h2-custom">Web Designing Agencies In Hyderabad etc. </h2> 
+			<p> The above mentioned are some of the examples of the LSI keywords. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
+            
+
+			
+			</div>
+ </div> 
+            
+        </div>
+        </div>
+	
+
+        <!--Grid row-->
+       
+        <!--Grid row-->
+        <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3  font-bold font-20">Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</div>
+            <p class="grey-text text-left"></p>
+        </div>
+        </div>
+		
+		
+        <!--Grid row-->
+
+    </div>
+    <!--Grid column-->
+
+    </div>
+    
+<div class="clearfix"> &nbsp;</div>
+
+       
+           
+    </div>
+
+</section> 
+
+<section  class="py-4">
+    <div class="container-sty card ">
+        <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h3 class="font-bold">
+                    <span class="tit">
+									Why <span class="des_t">Choose </span>us ?
+                    </span>
+                </h3>
+				<div class="clearfix">&nbsp;</div>
+				 <p class="text-center font-bold ">  We are Web Designers! We are Mobile App Developers! We are Digital Marketers! <br> Try us! Yeah, You make it worth of Trying us.</p>
+
+
+            </div>
+
+        </div>
+		       
+
+
+    <!--Grid row-->
+    <div class="row pt-2">
+
+ 
+    <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
+	<br>
+	<br>
+	<br>
+	<br>
+        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us1.png" alt="web designing agency team" class="img-fluid " style="margin-top:-100px;">
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      
+		<!--Grid row-->
+        <div class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best web designing agencies in Hyderabad, and we have a proven track record for bringing forth the best websites. </div>
+            
+        </div>
+        </div>
+        <!--Grid row-->
+
+       
+
+        <!--Grid row-->
+        <div data-wow-duration="0.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: UI&UX, Static, Dynamic, Responsive, Custom and Corporate web designs and promote them digitally at affordable prices especially for individuals and startups. </div> 
+            
+        </div>
+        </div>
+	
+
+        <!--Grid row-->
+       
+        <!--Grid row-->
+        <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
+            <p class="grey-text text-left"></p>
+        </div>
+        </div>
+		
+        <!--Grid row-->
+
+    </div>
+    <!--Grid column-->
+	<div class="clearfix"> &nbsp;</div>
+	<div class=" col-md-1"> &nbsp;
+	</div>
+	<div class=" justify-content-md-center col-md-10">
+		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best digital marketing and web designing agency in Hyderabad above all our competitors. 
+</p>
+	</div>	
+
+    </div>
+    
+<div class="clearfix"> &nbsp;</div>
+
+       
+           
+    </div>
+
+</section>
+
+  
+ <!-- pricing-->
+ <section  class="py-4">
+    <div class="container-sty card ">
+			<div class="row  text-center">
+				<div class="col-sm-12 mb-20 pt-30">
+					<h3 class="tex-lef-mob font-bold">
+						<span class="tit"><span class="des_t">Pricing </span>
+						 
+						</span>
+					</h3>
+					<div class="clearfix">&nbsp;</div>
+				 <p class="text-center mb-5 ">This is not an expenditure, but an investment on your business!</p>
+				</div>
+				</div>
+				
+					<div class="row  text-center">
+						<ul class="box">
+						  <!-- BEGIN LIST ELEMENT -->
+						  
+							<li class=" wow rollIn center" style="visibility: visible; animation-name: rollIn;">
+							  <div class="circle">
+								<div class="front-home bg-mdb-color " >
+								<p class="clearfix ">&nbsp;</p>
+							
+							
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 6,999</span></p>
+									<div class="pric-tit-pos bg-dark">
+										Web Designing
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+							 
+							</li>
+							<li  data-wow-delay="0.5s" class="wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
+								
+							  <div class="circle">
+								<div class="front-home bg-primary " >
+								<p class="clearfix ">&nbsp;</p>
+							
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 9,999</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+										Web Development
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								
+							</li>
+							
+							<li class="wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
+							
+							  <div class="circle">
+								<div class="front-home bg-pink " >
+								<p class="clearfix ">&nbsp;</p>
+							
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 69,999</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+									eCommerce
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								
+							</li>
+							</ul>
+							<ul class="box">
+							
+							<li data-wow-delay="0.5s" class=" wow rollIn" style="visibility: visible; animation-delay: 0.5s; animation-name: rollIn;">
+							
+							  <div class="circle">
+								<div class="front-home bg-info " >
+								<p class="clearfix ">&nbsp;</p>
+							
+							<p class="text-white">Starting At <br><span class="pric-rate">₹ 39,999</span></p>
+								
+									<div class="pric-tit-pos bg-dark">
+										Mobile Applications
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+							
+							</li>
+						
+							<li class=" wow bounceInUp center" style="visibility: visible; animation-name: bounceInUp;">
+						
+							  <div class="circle">
+								<div class="front-home bg-secondary " >
+								<p class="clearfix ">&nbsp;</p>
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 19,999</span></p>
+							
+								
+									<div class="pric-tit-pos bg-dark">
+										Digital Marketing
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+								
+							</li>
+							
+							<li  class=" wow bounceInRight" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInRight;">
+							
+							  <div class="circle">
+								<div class="front-home bg-blue-grey " >
+								<p class="clearfix ">&nbsp;</p>
+								<p class="text-white">Starting At <br><span class="pric-rate">₹ 4,999</span></p>
+							
+								
+									<div class="pric-tit-pos bg-dark">
+										Maintenance
+									 </div>
+								 
+								</div>
+								
+								</div><!-- end div .back color-1-bg info -->
+							 
+							</li>
+							
+							</ul>
+					</div>
+					
+			<div class="clearfix">&nbsp;</div>
+			</div>
+        
+	<div class="clearfix">&nbsp;</div>
 </section>
 
 

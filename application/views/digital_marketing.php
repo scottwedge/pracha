@@ -40,7 +40,7 @@
 					&nbsp;
 				</div>
 				<div class="col-md-10 justify-content-md-center"> 
-					<p>Pracha Technologies Pvt. Ltd. is a digital marketing company located in Hyderabad. The company also provides top-notch web designs, eCommerce websites and offers mobile app development services especially for individuals, startups and mid-level companies. We at Prachatech Software Solutions, are delighted  to offer the full spectrum of digital marketing services to serve our clients. Quality work & Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. Some of our core digital marketing services are listed below.
+					<p>Pracha Technologies Pvt. Ltd. is a digital marketing company in Hyderabad. The company also provides top-notch web designs, eCommerce websites and offers mobile app development services for Android and iOS platforms. In this digital era, it is required for every business to have a website and to takeup digital promotions. We know that 'A website without digital marketing is in vain', because it neither brings customer nor get sales. So it is required to follow the trend for your business to enter into the algorithms of Google and other search engines through various digital marketing techniques. The goal of every business is to reach the maximum number of customers and to generate sales & leads, for that reason we are here offering the full spectrum of digital marketing services. We are recognised by our clients through our quality work and customer service , and  we can assure the most satisfactory outcomes at affordable prices. Some of our core digital marketing services are listed below.
 
 					  
 					</p>
@@ -58,7 +58,7 @@
 		 
 	<div class="row justify-content-md-center " >
 	
-		<p class="font-18 col-md-10">In reality Digital Marketing is very vast, it is an ongoing process that needs to be updated from time to time. The major functionalities in Digital Marketing are Search Engine Optimization (SEO),  Social Media Marketing (SMM), Google Adwords, Content Marketing, email Marketing, Google Analytics, Google Web Master Tools etc. In simple words we can say that Digital Marketing is just marketing of products or services using digital technologies, and the major digital marketing services we offer are briefly explained below.</p>
+		<p class="font-18 col-md-10">In reality Digital Marketing is very vast, it is an ongoing process that needs to be updated from time to time. The major functionalities in Digital Marketing are Search Engine Optimization (SEO),  Social Media Marketing (SMM), Google Adwords, Content Marketing, email Marketing, Google Analytics, Google Web Master Tools etc. <br> In simple words we can say that Digital Marketing is just marketing of products or services using digital technologies.</p>
 	</div>
 	
 	<br>
@@ -256,18 +256,18 @@
     </div>
     <!--Grid column-->
 
-    </div><hr>
+    </div>
+<!--	<hr>
 	<div class="row">
 		<div class=" pb-3">
 			<p class="text-dark"><strong>Note : </strong>  There are many more topics to be covered under Digital Marketing, but because of time and space we restrict here, yet you will be knowing latest techniques and trends in digital marketing in our regular blog posts. Hope the above briefly explained terms are informative! 
  </p> 
-			<p>Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best digital marketing company in Hyderabad above all our competitors. 
-</p>			
+						
  
 
 
 		</div>
-	</div>
+	</div>-->
 </div>
 	</div>
 	</section>
@@ -275,22 +275,23 @@
 
 	
 </section>
-<section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
+<section class="py-4" >
     <div class="container-sty card ">
-        <div class="row  text-center">
-            <div class="col-sm-12 mb-20 pt-30">
+        <div class="row  text-center py-4">
+            <div class="col-sm-12 mb-20 pt-30 justify-content-md-center">
 
                 <h3 class="font-bold">
                     <span class="tit">
 									Our <span class="des_t">Keyword Strategy </span> In SEO
                     </span>
                 </h3>
-				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center font-bold "> We not only design stunning websites but also implement various SEO techniques <br> for our clients, for better rankings in Google. “Keyword” plays a major role in SEO, <br> for by it people search on Google, so it is must to identify the targeted keywords.</p>
+				
 
 
             </div>
-
+			<div class="clearfix">&nbsp;</div>
+				<div class="col-md-1"></div>
+				 <p class="text-left font-bold col-md-10  "> We not only design stunning websites but also implement various SEO techniques  for our clients, for better rankings in Google. “Keyword” plays a major role in SEO,  for by it people search on Google, so it is must to identify the targeted keywords.</p>
         </div>
 		       
 
@@ -298,8 +299,15 @@
     <!--Grid row-->
     <div class="row pt-2">
 	
-	<div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> <br> 
-        <img src="<?php echo base_url(); ?>assets/vendor/img/lsi.png" title="SEO - Search Engine Optimization " alt="SEO and digital marketing company in hyderabad" class="img-fluid " style="margin-center:-100px;">
+	<div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> 
+	<br> 
+	<br> 
+	<br> 
+	<br> 
+	<br> 
+	<br> 
+	<br> 
+        <img src="<?php echo base_url(); ?>assets/vendor/img/keywords.jpg" title="Searching Keywords " alt="searching keywords for digital marketing" class="img-fluid " style="margin-center:-100px;">
     </div>
 
  
@@ -316,7 +324,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Web Designing" - Is a short tail keyword. <br> "Web Designing Company in Hyderabad" - Is a long tail keyword.
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Digital Marketing" - Is a short tail keyword. <br> "Digital Marketing Company in Hyderabad" - Is a long tail keyword.
  </div>
             
         </div>
@@ -331,14 +339,14 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web designing company" located in Hyderabad, you will find the below listed LSI keywords. 
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "digital marketing company" located in Hyderabad, you will find the below listed LSI keywords. 
 			<div class="clearfix"> &nbsp;</div>	
 			<div class="lsi-help">		
 			<h3><strong>LSI keywords:</strong></h3>
-			<h2 class="h2-custom">Web designing company in hyd </h2>
-            <h2 class="h2-custom">Web designing companies in hyderabad </h2>
-            <h2 class="h2-custom">Web designing companies in hyderabad list etc. </h2> 
-			<p> The above mentioned are some of the examples of the LSI keywords, and the best is shown in the side image. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
+			<h2 class="h2-custom">Digital Marketing Company In Hyd </h2>
+            <h2 class="h2-custom">Digital Marketing Services In Hyderabad </h2>
+            <h2 class="h2-custom">Digital Marketing Agencies In Hyderabad etc. </h2> 
+			<p> The above mentioned are some of the examples of the LSI keywords. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
             
 
 			
@@ -378,7 +386,7 @@
 
 </section> 
 
-<section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
+<section  class="py-4">
     <div class="container-sty card ">
         <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
@@ -389,7 +397,7 @@
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center font-bold "> We are Web Designers! We are Mobile App Developers! We are Digital Marketers! <br> Try us! Yeah, You make it worth of Trying us.</p>
+				 <p class="text-center font-bold "> We are Digital Marketers! We are Web Designers! We are Mobile App Developers!  <br> Try us! Yeah, You make it worth of Trying us.</p>
 
 
             </div>
@@ -421,7 +429,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best web designing companies in Hyderabad, and we have a proven track record for bringing forth best website designs, mobile apps and marketing them digitally. </div>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best digital marketing  companies in Hyderabad, and we have a proven track record for bringing forth best SEO results & SMM promotions. </div>
             
         </div>
         </div>
@@ -435,7 +443,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: web designing services, search engine optimization, social media marketing, Google adwords, email campaigns, mobile app development services at affordable prices especially for individuals and startups. </div> 
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: search engine optimization, social media marketing, Google adwords, Google analytics and email campaigns etc., at affordable prices especially for individuals and startups. </div> 
             
         </div>
         </div>
@@ -449,7 +457,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We offer a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
             <p class="grey-text text-left"></p>
         </div>
         </div>
@@ -458,6 +466,13 @@
 
     </div>
     <!--Grid column-->
+	<div class="clearfix"> &nbsp;</div>
+	<div class=" col-md-1"> &nbsp;
+	</div>
+	<div class=" justify-content-md-center col-md-10">
+		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best web designing and digital marketing company in Hyderabad above all our competitors. 
+</p>
+	</div>	
 
     </div>
     
@@ -471,7 +486,7 @@
 
   
  <!-- pricing-->
- <section id="pricings" class="our_service padding-10 ptb-xs-60">
+ <section  class="py-4">
     <div class="container-sty card ">
 			<div class="row  text-center">
 				<div class="col-sm-12 mb-20 pt-30">
