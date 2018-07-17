@@ -1,10 +1,27 @@
 
 <div class="selectstate">
-<section title="Web Designing Agency In Hyderabad" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-design-company-in-hyderabad.jpg);   height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;min-height:550px ">
-	<h1 class="text-center text-white " style="padding-top:100px;text-shadow: 1px 1px 8px #555;">Web Designing Company In Hyderabad</h1>
-	
-</section>
+<section class=" bod-st" >
+    <!--Carousel Wrapper-->
+<div id="main-slide" class="carousel slide" data-ride="carousel">
 
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban1.png" title="Web Designing Company" alt="web designing company in hyderabad">
+<div class="carousel-caption d-md-block">
+<h1 class="animated wow fadeInDown text-white text-shadow" data-wow-delay=".4s">Web designing company in hyderabad </h1>
+
+
+</div>
+</div>
+
+
+
+</div>
+
+
+</div>
+<!--Carousel Wrapper-->
+</section>
 <section id="seric-sc" class="our_service padding-10 ptb-xs-60  wow slideInUp" data-wow-delay="0.5s">
     <div class="container-sty card ">
       <div class="row  text-center">
