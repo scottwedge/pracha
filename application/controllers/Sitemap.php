@@ -24,10 +24,11 @@ class Sitemap extends CI_Controller {
 				
 				header("Content-type: text/xml");
 
-		$xml_file = file_get_contents('F:\xampp\htdocs\pracha\application\views/sitemap.xml');
+		//$xml_file = file_get_contents('home/avinashavi941/public_html/application/view/sitemap.xml');
+		////$xml_file = file_get_contents('/home/avinashavi941/public_html/view/sitemap.xml');
 		//$xml_file = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/view/sitemap.xml");
-		echo $xml_file;
-		//$this->load->view('sitemap');
+		//echo $xml_file;
+		$this->load->view('sitemap.xml');
 	}
 	
 	
