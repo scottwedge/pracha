@@ -701,7 +701,13 @@
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center font-bold "> We not only design stunning websites but also implement various SEO techniques <br> for our clients, for better rankings in Google. “Keyword” plays a major role in SEO, <br> for by it people search on Google, so it is must to identify the targeted keywords.</p>
+				
+				
+				<div class="d-flex justify-content-md-center">
+				<div class="col-md-10 ">
+				 <p class="text-left"> We not only design stunning websites but also implement various SEO techniques  for our clients, for better rankings in Google. “Keyword” plays a major role in SEO,  because people use keywords to search on Google and on other  search engines, so it is must to identify the targeted keywords.</p>
+				 </div>
+				 </div>
 
 
             </div>

@@ -221,7 +221,7 @@
             </div>
 			<div class="clearfix">&nbsp;</div>
 				<div class="col-md-1"></div>
-				 <p class="text-left font-bold col-md-10  "> We not only design stunning websites but also implement various SEO techniques  for our clients, for better rankings in Google. “Keyword” plays a major role in SEO,  for by it people search on Google, so it is must to identify the targeted keywords.</p>
+				 <p class="text-left font-bold col-md-10  "> We not only design stunning websites but also implement various SEO techniques  for our clients, for better rankings in Google. “Keyword” plays a major role in SEO, so it is must to identify the targeted keywords.</p>
         </div>
 		       
 			   
