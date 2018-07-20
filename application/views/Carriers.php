@@ -272,7 +272,7 @@
 						 <li>Identify, analyze, trouble-shoot and report product defects.</li>
 						 <li>Tools familiarity on QA life-cycle such as bug-tracking tools, test management.</li>
 						 <li>Should have experience in writing SQL queries. </li>
-						 <li>Very good oral and written communication skills.</li>
+						 <li>Very good oral and written communication skills.</li> 
 						
 									</ul>
 								 
