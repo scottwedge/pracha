@@ -281,7 +281,7 @@
 							   <div class="row">
 								<h3>Key skills:</h3>
 								<p>
-								Manual Testing, Automation Testing, Functional Testing, Test Engineering, Selenium, Appium, QA Testing, Test Cases, Test Scenarios, Defect Reporting.</p>
+								Manual Testing, Automation Testing, Functional Testing, Test Engineering, Selenium, Appium, QA Testing, Test Cases, Test Scenarios, Defect Reporting. </p>
 							   </div>
 						</div>
 					</div>
