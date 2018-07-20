@@ -48,7 +48,7 @@
             <div class="col-md-5  algin-pos-right">
 			<div class="help-foot-banner">
 			<h4 class="text-warning font-25">We are here for you</h4>
-			<p> Many of our clients have certified that our web designing services and digital marketing services are appraisable. We are here to help and encorage your business to present it online.</p>
+			<p> Many of our clients have certified that our web designing services and digital marketing services are appraisable. We are here to help and encourage your business to present it online.</p>
 			</div>
             </div>
           </div>

@@ -199,7 +199,7 @@
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
 			<strong>Mobile Application Security</strong>
         </h2>
-        <p>Usually mobile apps which are on gigantic platforms like Android and iOS are fully secured, yet the hackers find loopholes that can  always open backdoors for hackers and can put any business in concern. The possible vulnerabilities are: Weak server-side controls, Insufficient transport layer protection, Unintended data leakage, Poor authentication and authorization and Lack of binary protection. So, we as a mobile app development company  suggests all our visitors to go for a third party information security audit, to check whether your app is completely secured or not, or else you can contact our mobile app developers, who will check all the possible vulnerable areas and rectify ever error. 
+        <p>Usually mobile apps which are on gigantic platforms like Android and iOS are fully secured, yet the hackers find loopholes that can  always open backdoors for hackers and can put any business in concern. The possible vulnerabilities are: Weak server-side controls, Insufficient transport layer protection, Unintended data leakage, Poor authentication and authorization and Lack of binary protection. So, we as a mobile app development company  suggests all our visitors to go for a third party information security audit, to check whether your app is completely secured or not, or else you can contact our mobile app developers, who will check all the possible vulnerable areas and rectify every error. 
  </p>
        
     </div>

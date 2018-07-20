@@ -40,7 +40,7 @@
 <section class="text-center container-sty">
 
     <!--Section heading-->
-    <h2 class="py-5 font-weight-bold text-dark">A WIDE RANGE OF POWERFUL AND SCALABLE SOLUTIONS TO BOST YOUR eCommerce PROJECT</h2>
+    <h2 class="py-5 font-weight-bold text-dark">A WIDE RANGE OF POWERFUL AND SCALABLE SOLUTIONS TO BOOST YOUR eCommerce PROJECT</h2>
     <div class="row">
 		<div class="col-md-3">
 			
@@ -439,7 +439,7 @@
 				</div>
 				<div class="col-md-3 col-xs-12">
 					<div class="card card-body text-center border-warning">
-						OpneCart Customized Template Design
+						OpenCart Customized Template Design
 					</div>
 				</div>
 				<div class="col-md-3 col-xs-12">

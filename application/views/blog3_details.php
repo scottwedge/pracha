@@ -21,7 +21,7 @@
                             <div class="text-center ">
                                 <h1 class="ptb-15 font-30" Style="text-transform: capitalize; "><b>Social Media Marketing and Its Benefits</b></h1>
                                 <br>
-                                <p>Social Media can make you or break you! The power of Social Media is unpredictable, it is an undeniable force in today's world. It will be a mighty tool for business when handled efficently. Recent statistics declares that there will be approximately 3 billion active social media users by 2021. </p>
+                                <p>Social Media can make you or break you! The power of Social Media is unpredictable, it is an undeniable force in today's world. It will be a mighty tool for business when handled efficiently . Recent statistics declares that there will be approximately 3 billion active social media users by 2021. </p>
                             </div>
                             <div class=" view overlay card " style="margin-top:50px;">
                                 <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/social-media-marketing-blog-view.png" alt="social media marketing and its benefits" class="">
