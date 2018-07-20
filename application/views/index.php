@@ -892,7 +892,7 @@
 
   
  <!-- pricing-->
- <section id="pricings" class="our_service padding-10 ptb-xs-60">
+ <!--<section id="pricings" class="our_service padding-10 ptb-xs-60">
     <div class="container-sty card ">
 			<div class="row  text-center">
 				<div class="col-sm-12 mb-20 pt-30">
@@ -908,7 +908,7 @@
 				
 					<div class="row  text-center">
 						<ul class="box">
-						  <!-- BEGIN LIST ELEMENT -->
+						 
 						  
 							<li class=" wow rollIn center" style="visibility: visible; animation-name: rollIn;">
 							  <div class="circle">
@@ -923,7 +923,7 @@
 								 
 								</div>
 								
-								</div><!-- end div .back color-1-bg info -->
+								</div>
 							 
 							</li>
 							<li  data-wow-delay="0.5s" class="wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
@@ -940,7 +940,7 @@
 								 
 								</div>
 								
-								</div><!-- end div .back color-1-bg info -->
+								</div>
 								
 							</li>
 							
@@ -958,7 +958,7 @@
 								 
 								</div>
 								
-								</div><!-- end div .back color-1-bg info -->
+								</div>
 								
 							</li>
 							</ul>
@@ -978,7 +978,7 @@
 								 
 								</div>
 								
-								</div><!-- end div .back color-1-bg info -->
+								</div>
 							
 							</li>
 						
@@ -996,7 +996,7 @@
 								 
 								</div>
 								
-								</div><!-- end div .back color-1-bg info -->
+								</div>
 								
 							</li>
 							
@@ -1014,7 +1014,7 @@
 								 
 								</div>
 								
-								</div><!-- end div .back color-1-bg info -->
+								</div>
 							 
 							</li>
 							
@@ -1026,7 +1026,7 @@
         
 	<div class="clearfix">&nbsp;</div>
 </section>
-
+-->
  
   
 
