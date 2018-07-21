@@ -43,8 +43,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
 			<ul class="nav navbar-nav  ml-auto">
-				<li class="nav-item <?php if($currentURL==base_url() || $currentURL==base_url('web-designing-company-in-hyderabad.xml')){ echo "active-menu"; } ?> " id="homepageative"><a href="<?php echo base_url('web-designing-company-in-hyderabad'); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
-				<li class="nav-item sm-hide <?php if($currentURL==base_url('start_up.xml') ||$currentURL==base_url('web-designing-agency-in-hyderabad.xml') || $currentURL==base_url('enterprise.xml') || $currentURL==base_url('servicesrm.xml') || $currentURL==base_url('web-development-company-in-hyderabad.xml') || $currentURL==base_url('mobile-app-development-company-in-hyderabad.xml') || $currentURL==base_url('digital-marketing-company-in-hyderabad.xml') || $currentURL==base_url('ecommerce.xml') || $currentURL==base_url('maintainence.xml') || $currentURL==base_url('web-designing-services-in-hyderabad.xml')){ echo "active-menu"; } ?>" > 
+				<li class="nav-item <?php if($currentURL==base_url() || $currentURL==base_url('web-designing-company-in-hyderabad')){ echo "active-menu"; } ?> " id="homepageative"><a href="<?php echo base_url('web-designing-company-in-hyderabad'); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
+				<li class="nav-item sm-hide <?php if($currentURL==base_url('start_up') ||$currentURL==base_url('web-designing-agency-in-hyderabad') || $currentURL==base_url('enterprise') || $currentURL==base_url('servicesrm') || $currentURL==base_url('web-development-company-in-hyderabad') || $currentURL==base_url('mobile-app-development-company-in-hyderabad') || $currentURL==base_url('digital-marketing-company-in-hyderabad') || $currentURL==base_url('ecommerce') || $currentURL==base_url('maintainence') || $currentURL==base_url('website_maintainence') || $currentURL==base_url('web-designing-services-in-hyderabad') || $currentURL==base_url('on_demand_services')){ echo "active-menu"; } ?>" > 
 				<div class="dropdown">
 					<a href="<?php echo base_url('web-designing-services-in-hyderabad'); ?>" class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
 				  <div class="dropdown-content1">
@@ -70,7 +70,7 @@
 				  </div>
 				</div>
             </li>
-			<li class="nav-item md-hide <?php if($currentURL==base_url('start_up.xml') || $currentURL==base_url('enterprise.xml') || $currentURL==base_url('servicesrm.xml') || $currentURL==base_url('develop_service.xml') || $currentURL==base_url('mobile_application.xml') || $currentURL==base_url('digitalmarketing.xml') || $currentURL==base_url('ecommerce.xml') || $currentURL==base_url('maintainence.xml') || $currentURL==base_url('services.xml')){ echo "active-menu"; } ?>" > 
+			<li class="nav-item md-hide <?php if($currentURL==base_url('start_up') || $currentURL==base_url('enterprise') || $currentURL==base_url('servicesrm') || $currentURL==base_url('develop_service') || $currentURL==base_url('mobile_application') || $currentURL==base_url('digitalmarketing') || $currentURL==base_url('ecommerce') || $currentURL==base_url('maintainence') || $currentURL==base_url('services')){ echo "active-menu"; } ?>" > 
 				<div class="dropdown">
 					<a  class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
 				  <div class="dropdown-content1">
@@ -98,11 +98,11 @@
             </li>
 				
 				
-			<li class="nav-item <?php if($currentURL==base_url('portfolio.xml')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('portfolio');?>" class="nav-link"> <span class=" ">Portfolio</span></a></li>
-			<li class="nav-item <?php if($currentURL==base_url('industries.xml')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('industries');?>" class="nav-link"> <span class=" ">Industries</span></a></li>
-			<li class="nav-item <?php if($currentURL==base_url('careers.xml')){ echo "active-menu"; } ?>" ><a href="<?php echo base_url('careers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>
-				<li class="nav-item <?php if($currentURL==base_url('blog.xml') || $currentURL==base_url('blog/how_to_create_manage_and_optimize_a_youtube_channel.xml') || $currentURL==base_url('blog/social_media_marketing_and_its_benefits.xml') || $currentURL==base_url('blog/what_is_onpage_and_offpage_optimization.xml')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('blog');?>" class="nav-link"> <span class=" ">Blog</span></a></li>
-				<li class="nav-item <?php if($currentURL==base_url('contactus.xml')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>
+			<li class="nav-item <?php if($currentURL==base_url('portfolio')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('portfolio');?>" class="nav-link"> <span class=" ">Portfolio</span></a></li>
+			<li class="nav-item <?php if($currentURL==base_url('industries')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('industries');?>" class="nav-link"> <span class=" ">Industries</span></a></li>
+			<li class="nav-item <?php if($currentURL==base_url('careers')){ echo "active-menu"; } ?>" ><a href="<?php echo base_url('careers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>
+				<li class="nav-item <?php if($currentURL==base_url('blog') || $currentURL==base_url('blog/how_to_create_manage_and_optimize_a_youtube_channel') || $currentURL==base_url('blog/social_media_marketing_and_its_benefits') || $currentURL==base_url('blog/what_is_onpage_and_offpage_optimization') || $currentURL==base_url('blog/what_is_ecommerce_and_its_types') || $currentURL==base_url('blog/Web_development_a_practical_guide_to_a_Web_developer') || $currentURL==base_url('blog/importance_of_mobile_apps_in_business') || $currentURL==base_url('blog/key_elements_to_design_a_best_website') || $currentURL==base_url('blog/how_to_start_and_earn_in_affiliate_marketing')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('blog');?>" class="nav-link"> <span class=" ">Blog</span></a></li>
+				<li class="nav-item <?php if($currentURL==base_url('contactus')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>
 			</ul>
         </div>
    </nav>

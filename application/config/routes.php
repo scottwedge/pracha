@@ -50,6 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'pracha';
+$route['sitemap\.xml'] = 'sitemap';
 $route['404_override'] = '';
 $route['web-designing-agency-in-hyderabad'] = 'Ui_and_ux_design/index';
 $route['web-development-company-in-hyderabad'] = 'web_development/index';
