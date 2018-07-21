@@ -29,8 +29,8 @@
 
                 <h2>
                     <span class="tit">
-									Prachatech <span class="des_t"> Web Designing 
-                    </span> Services
+									 <span class="des_t">Prachatech Web Designing Services
+                    </span> 
                 </h2>
 
 
@@ -74,7 +74,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									<span class="des_t">Our</span>  Web Services
+									<span class="des_t">Our  Web Services </span>
                     </span>
                 </h3>
 
@@ -326,7 +326,7 @@
 
                 <h3 class="wow flipInX font-bold" data-wow-delay="0.1s" style="visibility: visible; animation-name: flipInX; animation-delay: 0.2s;">
                     <span class="tit "> 
-									 <span class="des_t">Industries </span>we serve
+									 <span class="des_t">Industries We Serve </span>
                     </span>
                 </h3>
 
@@ -697,7 +697,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									Our <span class="des_t">Keyword Strategy </span> In SEO
+									 <span class="des_t"> Our Keyword Strategy In SEO </span>
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
@@ -806,7 +806,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									Why <span class="des_t">Choose </span>us ?
+									 <span class="des_t"> Why Choose Us? </span>
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
