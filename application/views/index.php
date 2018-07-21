@@ -29,8 +29,8 @@
 
                 <h2>
                     <span class="tit">
-									Prachatech <span class="des_t"> Web Designing 
-                    </span> Services
+									 <span class="des_t">Prachatech Web Designing Services
+                    </span> 
                 </h2>
 
 
@@ -45,7 +45,7 @@
 					&nbsp;
 				</div>
 				<div class="col-md-10 justify-content-md-center"> 
-					<p>Pracha Technologies Pvt. Ltd. is a web design company located in Hyderabad, providing top-notch web designs, eCommerce websites, digital marketing services and mobile app development services especially for individuals, startups and mid-level companies. We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web designing services to serve our clients. We generate static & complex web designs, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. Our clients has considered our company as the best digital marketing and web designing company in Hyderabad, for we have developed user-friendly Software's, mobile apps and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally through various digital marketing channels across the web, and helped them in better rankings. Regarding mobile apps development, we have a skillful team of Mobile App developers, who develops mobile app softwares for Android & iOS platforms, Web apps and Hybrid Mobile apps. Quality work & Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
+					<p>Pracha Technologies Pvt. Ltd. is a web design company located in Hyderabad, providing top-notch web designs, eCommerce websites, digital marketing services and mobile app development services especially for individuals, startups and mid-level companies. We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web designing services to serve our clients. We generate static & complex web designs, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. Our clients has considered our company as the best digital marketing and web designing company in Hyderabad, for we have developed user-friendly Software's, mobile apps and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally through various digital marketing channels across the web, and helped them in better rankings. Regarding mobile apps development, we have a skillful team of Mobile App developers, who develops mobile app softwares for Android & iOS platforms, Web apps and Hybrid Mobile apps. Quality work and Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
 					</p>
 					
 					
@@ -74,7 +74,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									<span class="des_t">Our</span>  Web Services
+									<span class="des_t">Our  Web Services </span>
                     </span>
                 </h3>
 
@@ -326,7 +326,7 @@
 
                 <h3 class="wow flipInX font-bold" data-wow-delay="0.1s" style="visibility: visible; animation-name: flipInX; animation-delay: 0.2s;">
                     <span class="tit "> 
-									 <span class="des_t">Industries </span>we serve
+									 <span class="des_t">Industries We Serve </span>
                     </span>
                 </h3>
 
@@ -493,11 +493,11 @@
 
                 <h3 class="font-bold">
                     <span class="tit" style="text-transform: none;"> 
-									Our<span class="des_t"> Support & Services</span> 
+									<span class="des_t"> Our Support</span> 
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center mb-5 ">Leave your online presence responsibility      to us and focus on your Core Business.</p>
+				 <p class="text-center mb-5 "></p>
 
 
             </div>
@@ -510,11 +510,11 @@
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
-                        <h5 class=""><a href="#">We Build & Expose Your Website Online</a></h5>
+                        <h5 class=""><a href="#">Digital Promotion Support</a></h5>
                     </div>
                     <div class="service_content">
                         <p>
-                          We have earlier introduced about our web designing company in Hyderabad, who not only build  websites but also promotes them  digitally through various digital marketing techniques. By means of these digital promotions across the web, we bring your business into light that creates more opportunities for your business to connect with its targeted audience. We do all the possible ways to promote your website digitally on social media and on search engines results page by applying various digital marketing tools.
+                          Our web designing company in Hyderabad build  websites and promotes them  digitally through various digital marketing strategies. Through our digital promotions across the web, we bring your business into light that creates more opportunities for you to connect with your targeted audience. Our excelent digital marketing strategies would promote your website digitally on social media, and on search engines results page.
                         </p>
 						
 						
@@ -531,7 +531,7 @@
                     </div>
                     <div class="service_content">
                         <p>
-                            Pracha technologies Pvt. Ltd. provides a variety of support services to marketing and business development departments, covering key areas ranging from creative to research services. Our strategy team works closely with you to understand your business and,  follow the latest marketing style guides, templates and execution guidelines. As Marketing is very necessary for every firm; however, many find it difficult to recruit or afford the skilled resources, so we as a digital marketing and web designing company in Hyderabad provide marketing support services.  
+                            Pracha Technologies Pvt. Ltd. provides a variety of support services to marketing and business development departments, covering key areas ranging from creative to research services. Our team works closely with you to understand your business and   follow the latest marketing style guides, templates and execution guidelines. Marketing is essential for every firm; however, many find it difficult to recruit or afford the skilled resources. So, we at web designing company in Hyderabad provide marketing support services.  
                         </p>
                     </div>
                 </div>
@@ -542,7 +542,7 @@
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
                     <div class="service_details p-le0">
-                        <h5 class=""><a href="#">Website Maintenance & Services </a></h5>
+                        <h5 class=""><a href="#">Maintenance Support </a></h5>
                     </div>
                     <div class="service_content">
                         <p>
@@ -577,11 +577,11 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									We Elevate<span class="des_t"> Your Business </span> 
+									<span class="des_t"> Your Business - Our Responsibility </span> 
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center" style="padding:20px 100px 5px 100px">Technology is the only thing that can truly perform a miracle and make ideas success in the real world. To interact with today's busy customers, it is must to have a website to promote your business, and we as a web designing company in hyderabad are here to design stunning websites and promote them digitally to elevate your business.</p>
+				 <p class="text-center" style="padding:20px 100px 5px 100px"> Finding it  hard to interact with busy customers??!!. Relax!! <br> We as a web designing company in hyderabad are here to help you to convert your ideas into success. We design stunning websites and promote them digitally to elevate your business. </p>
 
 
             </div>
@@ -652,7 +652,7 @@
         </div>
         <div class="col-10 text-left">
             <h5 class="font-bold">Get the right Business </h5>
-            <p class="grey-text">Every business wants Customers, not Visitors! Watching the number of visitors to your site grow is pretty awesome, but visits alone do not make a successful business. So we, through our expertise we will catch the pulse of the visitor and turn them into customer mostly. </p>
+            <p class="grey-text">Every business wants Customers, not Visitors! Watching the number of visitors to your site grow is pretty awesome, but visits alone do not make a successful business. So we, through our expertise will catch the pulse of the visitor and turn them into customer. </p>
         </div>
         </div>
         <!--Grid row--><!--Grid row-->
@@ -661,8 +661,8 @@
             <i class="fa fa-2x fa-phone-square text-dark"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Marketing , Advertising support & Consultation</h5>
-            <p class="grey-text">We help you to make effective decisions about where to target your resources and how to achieve accelerated growth.</p>
+            <h5 class="font-bold">Marketing  support & Consultation</h5>
+            <p class="grey-text">We as a web designing company in Hyderabad help you to make effective decisions to target your resources and to achieve accelerated growth.</p>
         </div>
         </div>
 		
@@ -671,7 +671,7 @@
             <i class="fa fa-2x  fa-laptop text-dark"></i>
         </div>
         <div class="col-10 text-left">
-            <h5 class="font-bold">Technical Support & Consultation</h5>
+            <h5 class="font-bold">Technical Support</h5>
             <p class="grey-text">We, as a digital marketing and web designing company have a highly qualified technical team to provide you a full-time technical support. However this will be applicable depending upon the subscription plan of the client. </p>
         </div>
         </div>
@@ -697,7 +697,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									Our <span class="des_t">Keyword Strategy </span> In SEO
+									 <span class="des_t"> Our Keyword Strategy In SEO </span>
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
@@ -806,7 +806,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									Why <span class="des_t">Choose </span>us ?
+									 <span class="des_t"> Why Choose Us? </span>
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
@@ -892,7 +892,7 @@
 
   
  <!-- pricing-->
- <section id="pricings" class="our_service padding-10 ptb-xs-60">
+ <!--<section id="pricings" class="our_service padding-10 ptb-xs-60">
     <div class="container-sty card ">
 			<div class="row  text-center">
 				<div class="col-sm-12 mb-20 pt-30">
@@ -908,7 +908,7 @@
 				
 					<div class="row  text-center">
 						<ul class="box">
-						  <!-- BEGIN LIST ELEMENT -->
+						 
 						  
 							<li class=" wow rollIn center" style="visibility: visible; animation-name: rollIn;">
 							  <div class="circle">
@@ -923,7 +923,7 @@
 								 
 								</div>
 								
-								</div><!-- end div .back color-1-bg info -->
+								</div>
 							 
 							</li>
 							<li  data-wow-delay="0.5s" class="wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
@@ -940,7 +940,7 @@
 								 
 								</div>
 								
-								</div><!-- end div .back color-1-bg info -->
+								</div>
 								
 							</li>
 							
@@ -958,7 +958,7 @@
 								 
 								</div>
 								
-								</div><!-- end div .back color-1-bg info -->
+								</div>
 								
 							</li>
 							</ul>
@@ -978,7 +978,7 @@
 								 
 								</div>
 								
-								</div><!-- end div .back color-1-bg info -->
+								</div>
 							
 							</li>
 						
@@ -996,7 +996,7 @@
 								 
 								</div>
 								
-								</div><!-- end div .back color-1-bg info -->
+								</div>
 								
 							</li>
 							
@@ -1014,7 +1014,7 @@
 								 
 								</div>
 								
-								</div><!-- end div .back color-1-bg info -->
+								</div>
 							 
 							</li>
 							
@@ -1026,7 +1026,7 @@
         
 	<div class="clearfix">&nbsp;</div>
 </section>
-
+-->
  
   
 

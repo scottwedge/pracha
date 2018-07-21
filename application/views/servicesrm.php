@@ -87,7 +87,7 @@
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
         <strong>Site Architecture and design </strong>
         </h2>
-        <p>Site architecture is the crucial thing in developing a website, for instance before constructing a house we need an engineer to draw the architecture, so also a website needs a designer to develop the archtiecture which is done at a web designing agency. Website architecture deals with the principles of design and construction and ornamentation of fine websites. Before designing site architecture we need to have a complete research on  our Customer, Competitor and Product or Service. Depending upon the research we need to develop content, UI and UX designs for the website. Under UX Design we work on Wireframing, Prototyping, Testing, Development Planning, Execution and Analytics etc. Under UI Design we test Look and Feel, Responsive website, UI Prototyping, Animation, Autofit to all screen sizes and Interactive etc.</p>
+        <p>Site architecture is the crucial thing in developing a website, for instance before constructing a house we need an engineer to draw the architecture, so also a website needs a designer to develop the architecture which is done at a web designing agency. Website architecture deals with the principles of design and construction and ornamentation of fine websites. Before designing site architecture we need to have a complete research on  our Customer, Competitor and Product or Service. Depending upon the research we need to develop content, UI and UX designs for the website. Under UX Design we work on Wireframing, Prototyping, Testing, Development Planning, Execution and Analytics etc. Under UI Design we test Look and Feel, Responsive website, UI Prototyping, Animation, Autofit to all screen sizes and Interactive etc.</p>
 		
     </div>
     <!--Grid column-->
@@ -153,7 +153,7 @@
         <strong>Responsive Web Design</strong>
         </h2>
        
-        <p>In this generation, due to heavy use of technology and various gadgets, people view websites on various devices with different screen sizes. So it is good to think about the responsive design for your site to make your websites mobile friendly, because there is a rapid usage of smartphones and tablets these days. We make the site easy to use and easy to view, no matter which device it is viewed on. Therefore we make our clients websites as  “Responsive Website”, meaning the design responds to the specifications of the device. From HD sized monitor to palm sized smartphone we make the videos, graphics, links, text, page width, colours etc., to be adjusted automatically to screen size. As a web designing agency in Hyderabad, we make your company's website to be responsive to all sorts of devices and work their best on every screen to gaurd your online reputation.     </p>
+        <p>In this generation, due to heavy use of technology and various gadgets, people view websites on various devices with different screen sizes. So it is good to think about the responsive design for your site to make your websites mobile friendly, because there is a rapid usage of smartphones and tablets these days. We make the site easy to use and easy to view, no matter which device it is viewed on. Therefore we make our clients websites as  “Responsive Website”, meaning the design responds to the specifications of the device. From HD sized monitor to palm sized smartphone we make the videos, graphics, links, text, page width, colours etc., to be adjusted automatically to screen size. As a web designing agency in Hyderabad, we make your company's website to be responsive to all sorts of devices and work their best on every screen to guard your online reputation.     </p>
         
 		 
     </div>
@@ -171,7 +171,7 @@
 		<h2 class="mb-4 font-bold dark-grey-text head-h2">
 			<strong>Custom Web Design</strong>
         </h2>
-        <p>A Custom web design allows you to establish your brand and to express what is unique about the product or services you are providing. There are many areas that needs to be focused to develop a custom web design, especially the design should be pleasing to the viewers i.e theme, logo, banner, flash annimation etc., must be impressive. Navigation is very important, without which the viewer will be frustrated. Content is the final thing that makes your customer to sit on the website, so a professional content writer is preferable to write the content of your website. Your website needs personality, and our web designing agency in Hyderabad will help you to come up with unique features, from start to finish. Important factors to consider are navigation, ease of use, layout, graphics, colour scheme, etc.</p>
+        <p>A Custom web design allows you to establish your brand and to express what is unique about the product or services you are providing. There are many areas that needs to be focused to develop a custom web design, especially the design should be pleasing to the viewers i.e theme, logo, banner, flash animation etc., must be impressive. Navigation is very important, without which the viewer will be frustrated. Content is the final thing that makes your customer to sit on the website, so a professional content writer is preferable to write the content of your website. Your website needs personality, and our web designing agency in Hyderabad will help you to come up with unique features, from start to finish. Important factors to consider are navigation, ease of use, layout, graphics, colour scheme, etc.</p>
        
     </div>
     <!--Grid column-->
@@ -477,141 +477,7 @@
 </section>
 
   
- <!-- pricing-->
- <section  class="py-4">
-    <div class="container-sty card ">
-			<div class="row  text-center">
-				<div class="col-sm-12 mb-20 pt-30">
-					<h3 class="tex-lef-mob font-bold">
-						<span class="tit"><span class="des_t">Pricing </span>
-						 
-						</span>
-					</h3>
-					<div class="clearfix">&nbsp;</div>
-				 <p class="text-center mb-5 ">This is not an expenditure, but an investment on your business!</p>
-				</div>
-				</div>
-				
-					<div class="row  text-center">
-						<ul class="box">
-						  <!-- BEGIN LIST ELEMENT -->
-						  
-							<li class=" wow rollIn center" style="visibility: visible; animation-name: rollIn;">
-							  <div class="circle">
-								<div class="front-home bg-mdb-color " >
-								<p class="clearfix ">&nbsp;</p>
-							
-							
-								<p class="text-white">Starting At <br><span class="pric-rate">₹ 6,999</span></p>
-									<div class="pric-tit-pos bg-dark">
-										Web Designing
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-							 
-							</li>
-							<li  data-wow-delay="0.5s" class="wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
-								
-							  <div class="circle">
-								<div class="front-home bg-primary " >
-								<p class="clearfix ">&nbsp;</p>
-							
-								<p class="text-white">Starting At <br><span class="pric-rate">₹ 9,999</span></p>
-								
-									<div class="pric-tit-pos bg-dark">
-										Web Development
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-								
-							</li>
-							
-							<li class="wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
-							
-							  <div class="circle">
-								<div class="front-home bg-pink " >
-								<p class="clearfix ">&nbsp;</p>
-							
-								<p class="text-white">Starting At <br><span class="pric-rate">₹ 69,999</span></p>
-								
-									<div class="pric-tit-pos bg-dark">
-									eCommerce
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-								
-							</li>
-							</ul>
-							<ul class="box">
-							
-							<li data-wow-delay="0.5s" class=" wow rollIn" style="visibility: visible; animation-delay: 0.5s; animation-name: rollIn;">
-							
-							  <div class="circle">
-								<div class="front-home bg-info " >
-								<p class="clearfix ">&nbsp;</p>
-							
-							<p class="text-white">Starting At <br><span class="pric-rate">₹ 39,999</span></p>
-								
-									<div class="pric-tit-pos bg-dark">
-										Mobile Applications
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-							
-							</li>
-						
-							<li class=" wow bounceInUp center" style="visibility: visible; animation-name: bounceInUp;">
-						
-							  <div class="circle">
-								<div class="front-home bg-secondary " >
-								<p class="clearfix ">&nbsp;</p>
-								<p class="text-white">Starting At <br><span class="pric-rate">₹ 19,999</span></p>
-							
-								
-									<div class="pric-tit-pos bg-dark">
-										Digital Marketing
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-								
-							</li>
-							
-							<li  class=" wow bounceInRight" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInRight;">
-							
-							  <div class="circle">
-								<div class="front-home bg-blue-grey " >
-								<p class="clearfix ">&nbsp;</p>
-								<p class="text-white">Starting At <br><span class="pric-rate">₹ 4,999</span></p>
-							
-								
-									<div class="pric-tit-pos bg-dark">
-										Maintenance
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-							 
-							</li>
-							
-							</ul>
-					</div>
-					
-			<div class="clearfix">&nbsp;</div>
-			</div>
-        
-	<div class="clearfix">&nbsp;</div>
-</section>
+ 
 
 
 <div class="clearfix">&nbsp;</div>

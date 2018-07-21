@@ -346,7 +346,7 @@ background-size: cover;}
 .arrow-start-enter{
 	position: absolute;
     top: 24px;
-    z-index: 1024;
+    z-index: 1;
     left: 23px;
 }
 .font-s-60{

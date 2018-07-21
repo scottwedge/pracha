@@ -55,7 +55,7 @@
 			</div>
 
 	<div class="row justify-content-md-center " >
-		<p class="font-18 col-md-10 "> We focus on many principal things to make the website much attractive, we focus on  Custom Application Development, Content Management System, Ui & Ux Design and MEAN (Mongo DB, Express.js, Angular.js, Node.js) Stack Development etc., so lets have a glimpse on each and every attribute and its functionalities.</p>
+		<p class="font-18 col-md-10 "> We focus on many principle things to make the website much attractive, we focus on  Custom Application Development, Content Management System, Ui & Ux Design and MEAN (Mongo DB, Express.js, Angular.js, Node.js) Stack Development etc., so lets have a glimpse on each and every attribute and its functionalities.</p>
 		<p class="font-18 col-md-10 "> Software development is limitless! There are many methodologies that comes under web development: Spiral Model, Dynamic System Development, Agile Software Development, Prototype Methodology, Waterfall Model, Extreme Programming Methodology and Scrum development methodology etc. These softwares are applied depending upon the requirements of the website.</p>
 	</div><br>
 
