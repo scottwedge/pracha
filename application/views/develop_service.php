@@ -22,8 +22,8 @@
 
                 <h2>
                     <span class="tit">
-									Prachatech -<span class="des_t"> Web Development 
-                    </span> Company
+									<span class="des_t"> Prachatech Web Development Company
+                    </span> 
                 </h2>
 
 
@@ -212,7 +212,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									Our <span class="des_t">Keyword Strategy </span> In SEO
+									 <span class="des_t">Our Keyword Strategy In SEO </span> 
                     </span>
                 </h3>
 				
@@ -322,7 +322,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									Why <span class="des_t">Choose </span>us ?
+									<span class="des_t">Why Choose Us? </span>
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
@@ -414,141 +414,7 @@
 </section>
 
   
- <!-- pricing-->
- <section  class="py-4">
-    <div class="container-sty card ">
-			<div class="row  text-center">
-				<div class="col-sm-12 mb-20 pt-30">
-					<h3 class="tex-lef-mob font-bold">
-						<span class="tit"><span class="des_t">Pricing </span>
-						 
-						</span>
-					</h3>
-					<div class="clearfix">&nbsp;</div>
-				 <p class="text-center mb-5 ">This is not an expenditure, but an investment on your business!</p>
-				</div>
-				</div>
-				
-					<div class="row  text-center">
-						<ul class="box">
-						  <!-- BEGIN LIST ELEMENT -->
-						  
-							<li class=" wow rollIn center" style="visibility: visible; animation-name: rollIn;">
-							  <div class="circle">
-								<div class="front-home bg-mdb-color " >
-								<p class="clearfix ">&nbsp;</p>
-							
-							
-								<p class="text-white">Starting At <br><span class="pric-rate">₹ 6,999</span></p>
-									<div class="pric-tit-pos bg-dark">
-										Web Designing
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-							 
-							</li>
-							<li  data-wow-delay="0.5s" class="wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
-								
-							  <div class="circle">
-								<div class="front-home bg-primary " >
-								<p class="clearfix ">&nbsp;</p>
-							
-								<p class="text-white">Starting At <br><span class="pric-rate">₹ 9,999</span></p>
-								
-									<div class="pric-tit-pos bg-dark">
-										Web Development
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-								
-							</li>
-							
-							<li class="wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
-							
-							  <div class="circle">
-								<div class="front-home bg-pink " >
-								<p class="clearfix ">&nbsp;</p>
-							
-								<p class="text-white">Starting At <br><span class="pric-rate">₹ 69,999</span></p>
-								
-									<div class="pric-tit-pos bg-dark">
-									eCommerce
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-								
-							</li>
-							</ul>
-							<ul class="box">
-							
-							<li data-wow-delay="0.5s" class=" wow rollIn" style="visibility: visible; animation-delay: 0.5s; animation-name: rollIn;">
-							
-							  <div class="circle">
-								<div class="front-home bg-info " >
-								<p class="clearfix ">&nbsp;</p>
-							
-							<p class="text-white">Starting At <br><span class="pric-rate">₹ 39,999</span></p>
-								
-									<div class="pric-tit-pos bg-dark">
-										Mobile Applications
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-							
-							</li>
-						
-							<li class=" wow bounceInUp center" style="visibility: visible; animation-name: bounceInUp;">
-						
-							  <div class="circle">
-								<div class="front-home bg-secondary " >
-								<p class="clearfix ">&nbsp;</p>
-								<p class="text-white">Starting At <br><span class="pric-rate">₹ 19,999</span></p>
-							
-								
-									<div class="pric-tit-pos bg-dark">
-										Digital Marketing
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-								
-							</li>
-							
-							<li  class=" wow bounceInRight" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInRight;">
-							
-							  <div class="circle">
-								<div class="front-home bg-blue-grey " >
-								<p class="clearfix ">&nbsp;</p>
-								<p class="text-white">Starting At <br><span class="pric-rate">₹ 4,999</span></p>
-							
-								
-									<div class="pric-tit-pos bg-dark">
-										Maintenance
-									 </div>
-								 
-								</div>
-								
-								</div><!-- end div .back color-1-bg info -->
-							 
-							</li>
-							
-							</ul>
-					</div>
-					
-			<div class="clearfix">&nbsp;</div>
-			</div>
-        
-	<div class="clearfix">&nbsp;</div>
-</section>
+
 <div class="clearfix">&nbsp;</div>
 
 

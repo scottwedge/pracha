@@ -45,6 +45,20 @@
     <div class=" active" >
         <br>
 			<!--Grid row-->
+			     <div class="row  text-center py-4">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h2>
+                    <span class="tit">
+									 <span class="des_t">Prachatech Web Designing Services
+                    </span> 
+                </h2>
+
+
+            </div>
+			
+
+        </div>
 			 <h2 style="font-size: 27px;  text-transform: capitalize;" class="h1 font-bold text-center ">Web Designing Services, Mobile Apps & Digital Marketing </h2>
     <!--Section description-->
     <p class="mb-5 py-3">
@@ -293,6 +307,13 @@
     <!--Grid column-->
 
     </div>
+	
+	<div class=" row justify-content-md-center">
+	<div class="  col-md-10">
+		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best digital marketing and web designing services in Hyderabad above all our competitors. 
+</p>
+	</div>	
+	</div>
     
 
 

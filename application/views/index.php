@@ -29,7 +29,7 @@
 
                 <h2>
                     <span class="tit">
-									 <span class="des_t">Prachatech Web Designing Services
+									 <span class="des_t">Prachatech Web Designing Company
                     </span> 
                 </h2>
 
@@ -45,7 +45,7 @@
 					&nbsp;
 				</div>
 				<div class="col-md-10 justify-content-md-center"> 
-					<p>Pracha Technologies Pvt. Ltd. is a web design company located in Hyderabad, providing top-notch web designs, eCommerce websites, digital marketing services and mobile app development services especially for individuals, startups and mid-level companies. We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web designing services to serve our clients. We generate static & complex web designs, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. Our clients has considered our company as the best digital marketing and web designing company in Hyderabad, for we have developed user-friendly Software's, mobile apps and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally through various digital marketing channels across the web, and helped them in better rankings. Regarding mobile apps development, we have a skillful team of Mobile App developers, who develops mobile app softwares for Android & iOS platforms, Web apps and Hybrid Mobile apps. Quality work and Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
+					<p>Pracha Technologies Pvt. Ltd. is a web designing company located in Hyderabad, providing top-notch web designs, eCommerce websites, digital marketing services and mobile app development services especially for individuals, startups and mid-level companies. We at Prachatech Software Solutions, are delighted  to offer the full spectrum of web designing services to serve our clients. We generate static & complex web designs, ecommerce websites, corporate websites etc., and decorate them with charming designs and mesmerizing themes. Our clients has considered our company as the best digital marketing and web designing company in Hyderabad, for we have developed user-friendly Software's, mobile apps and designed responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices and promoted them digitally through various digital marketing channels across the web, and helped them in better rankings. Regarding mobile apps development, we have a skillful team of Mobile App developers, who develops mobile app softwares for Android & iOS platforms, Web apps and Hybrid Mobile apps. Quality work and Customer service are the two main objectives of our company, so that we can assure the most satisfactory outcomes at affordable prices. 
 					</p>
 					
 					
@@ -74,7 +74,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									<span class="des_t">Our  Web Services </span>
+									<span class="des_t">Our  Web Designing Company Services </span>
                     </span>
                 </h3>
 
@@ -289,11 +289,12 @@
 								  <li>SEO Maintenance</li>
 								  <li>Cloud Services Maintenance</li>
 								  <li>Hack Proof Maintenance</li>
+								  <li>Web Designing Maintenance</li>
 								</ul>
 								  
 								 
 								 
-								  <br class="sm-hide">
+								  
 								  <br class="sm-hide">
 								</div>
 								<p class="text-center"> <a href="<?php echo base_url('website_maintainence'); ?>" class="btn btn-warning btn-sm">Know more...</a></p>
@@ -340,7 +341,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow rollIn center" style="visibility: visible; animation-name: rollIn;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/real-estate.png" class="my-3" alt="">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/real-estate.png" class="my-3" alt="web design for realestate">
 										<div class="">
 											<strong>Real Estate and Property</strong>
 										</div>
@@ -360,7 +361,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/sociali.png" class="my-3" alt="">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/sociali.png" class="my-3" alt="social network and web designing">
 										<div class="">
 											<strong>Social Networking<br></strong><br>
 										</div>
@@ -370,7 +371,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/food.png" class="my-3" alt="Restaurant web designing company in hyderabad">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/food.png" class="my-3" alt="Restaurants web design">
 										<div class="">
 											<strong>Food & Restaurant <br/><br/> </strong>
 										</div>
@@ -380,7 +381,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow lightSpeedIn" style="visibility: visible; animation-delay: 0.5s; animation-name: lightSpeedIn;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/bank.png" class="my-3" alt="">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/bank.png" class="my-3" alt="web design for finance">
 										<div class="">
 											<strong>Banking, Finance & Insurance</strong>
 										</div>
@@ -391,7 +392,7 @@
 							<div data-wow-delay="0.5s" class="col-xl-2 col-lg-6 mb-4 wow lightSpeedIn" style="visibility: visible; animation-delay: 0.5s; animation-name: lightSpeedIn;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/education.png" class="my-3" alt="Educational web designing company in hyderabad">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/education.png" class="my-3" alt="web designing company in hyderabad esp for educational sec">
 										<div class="">
 											<strong>Education & Training</strong>
 										</div>
@@ -401,7 +402,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow rollIn center" style="visibility: visible; animation-name: rollIn;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/ecommerce.png" class="my-3" alt="">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/ecommerce.png" class="my-3" alt="ecommerce web designing company in hyderabad">
 										<div class="">
 											<strong>Ecommerce, Retail, B2B & B2C</strong>
 										</div>
@@ -411,7 +412,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow rollIn center" style="visibility: visible; animation-name: rollIn;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/hospital.png" class="my-3" alt="hospitality web designing company in hyderabad">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/hospital.png" class="my-3" alt="hospitality web design">
 										<div class="">
 											<strong>Travel & Hospitality  <br/></strong>
 										</div>
@@ -422,7 +423,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow bounceInUp center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/fitness.png" class="my-3" alt="Healthy web designing company in hyderabad">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/fitness.png" class="my-3" alt="Health and fitness web design">
 										<div class="">
 											<strong>Healthcare & Fitness</strong>
 										</div>
@@ -432,7 +433,7 @@
 							<div class="col-xl-2 col-lg-6 mb-4 wow bounceInUp center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
 								<div class="card">
 									<div class="card-body text-center">
-										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/transport.png" class="my-3" alt="Transport web designing company in hyderabad">
+										<img src="<?php echo base_url(); ?>assets/vendor/img/ind/transport.png" class="my-3" alt="Transport web design">
 										<div class="">
 											<strong>Transport & Automotive</strong>
 										</div>
@@ -476,7 +477,7 @@
             <div class="col-md-8 ">
 			
              
-                <div style=""><img  style="visibility: visible; animation-duration: 0.25s; animation-iteration-count: 5; animation-name: pulse;" data-wow-iteration="5" data-wow-duration="0.25s" class="img-fluid wow pulse" src="<?php echo base_url(); ?>assets/vendor/img/how-we-work.png" alt="formulae for the web designing company in hyderabad" ></div>
+                <div style=""><img  style="visibility: visible; animation-duration: 0.25s; animation-iteration-count: 5; animation-name: pulse;" data-wow-iteration="5" data-wow-duration="0.25s" class="img-fluid wow pulse" src="<?php echo base_url(); ?>assets/vendor/img/how-we-work.png" alt="formulae for the web designing " ></div>
             
             </div>
             
@@ -514,7 +515,7 @@
                     </div>
                     <div class="service_content">
                         <p>
-                          Our web designing company in Hyderabad build  websites and promotes them  digitally through various digital marketing strategies. Through our digital promotions across the web, we bring your business into light that creates more opportunities for you to connect with your targeted audience. Our excelent digital marketing strategies would promote your website digitally on social media, and on search engines results page.
+                          Our web designing company in Hyderabad build  websites and promotes them  digitally through various digital marketing strategies. Through our digital promotions across the web, we bring your business into light that creates more opportunities for you to connect with your targeted audience. Our excelent digital marketing strategies would promote your website digitally on various social media platforms, and on Google and other search engines results page.
                         </p>
 						
 						
@@ -638,7 +639,7 @@
 
     <!--Grid column-->
     <div class="col-md-4 mb-2 center-on-small-only flex-center wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;">
-        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-presence.png" alt="web designing company in hyderabad" class="z-depth-0 img-fluid">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/digital-presence.png" alt="web designing getting digital presence" class="z-depth-0 img-fluid">
     </div>
     <!--Grid column-->
 
@@ -720,7 +721,7 @@
     <div class="row pt-2">
 	
 	<div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> <br> 
-        <img src="<?php echo base_url(); ?>assets/vendor/img/lsi.png" title="SEO - Search Engine Optimization " alt="SEO and digital marketing company in hyderabad" class="img-fluid " style="margin-center:-100px;">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/lsi.png" title="SEO - Search Engine Optimization " alt="SEO and web designing company in hyderabad" class="img-fluid " style="margin-center:-100px;">
     </div>
 
  
@@ -828,7 +829,7 @@
 	<br>
 	<br>
 	<br>
-        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="our mobile web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/why-choose-us.png" alt="why to choose our web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
     </div>
     <!--Grid column-->
 
@@ -882,7 +883,13 @@
 
     </div>
     
-<div class="clearfix"> &nbsp;</div>
+	<div class="clearfix"> &nbsp;</div>
+	<div class=" row justify-content-md-center">
+	<div class="  col-md-10">
+		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best digital marketing and web designing company in Hyderabad above all our competitors. 
+</p>
+	</div>	
+	</div>	
 
        
            

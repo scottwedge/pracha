@@ -24,8 +24,8 @@
 
                 <h2>
                     <span class="tit">
-									Prachatech -<span class="des_t"> Digital Marketing 
-                    </span> Company
+									<span class="des_t"> Prachatech Digital Marketing Company
+                    </span> 
                 </h2>
 
 
@@ -282,7 +282,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									Our <span class="des_t">Keyword Strategy </span> In SEO
+									<span class="des_t">Our Keyword Strategy In SEO </span>
                     </span>
                 </h3>
 				
@@ -393,7 +393,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									Why <span class="des_t">Choose </span>us ?
+									<span class="des_t">Why Choose Us? </span>
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
