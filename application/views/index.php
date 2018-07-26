@@ -72,9 +72,9 @@
 		     <div class="row  text-center">
             <div class="col-sm-12 mb-20 pt-30">
 
-                <h3 class="font-bold">
+                <h3 class="font-bold ">
                     <span class="tit">
-									<span class="des_t">Our  Web Designing Company Services </span>
+									<span class="des_t h3-mobile">Our  Web Designing Company Services </span>
                     </span>
                 </h3>
 
@@ -506,7 +506,7 @@
         </div>
 		
 
-        <div class="row ">
+        <div class="row mobile-cus-support">
             <div data-wow-iteration="2" class="col-sm-6 col-md-4 wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
                 <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
 
@@ -573,19 +573,21 @@
 </section>
 <section id="proc-scroll" class="our_service padding-10 ptb-xs-60">
     <div class="container-sty card ">
-        <div class="row  text-center">
+        <div class="row  ">
             <div class="col-sm-12 mb-20 pt-30">
 
-                <h3 class="font-bold">
+                <h3 class="font-bold text-center">
                     <span class="tit">
-									<span class="des_t"> Your Business - Our Responsibility </span> 
+									<span class="des_t h3-mobile"> Your Business - Our Responsibility </span> 
                     </span>
                 </h3>
-				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center" style="padding:20px 100px 5px 100px"> Finding it  hard to interact with busy customers??!!. Relax!! <br> We as a web designing company in hyderabad are here to help you to convert your ideas into success. We design stunning websites and promote them digitally to elevate your business. </p>
+				  <div class="row  d-flex justify-content-center py-4">
+				
+				 <p class="col-md-8 text-center" > Finding it  hard to interact with busy customers??!!. Relax!! <br> We as a web designing company in hyderabad are here to help you to convert your ideas into success. We design stunning websites and promote them digitally to elevate your business. </p>
 
 
             </div>
+		</div>
 		</div>
 		     
 
@@ -698,7 +700,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									 <span class="des_t"> Our Keyword Strategy In SEO </span>
+									 <span class="des_t h3-mobile"> Our Keyword Strategy In SEO </span>
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
