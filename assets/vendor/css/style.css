@@ -2274,14 +2274,19 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 }
  
 @media only screen and (max-width: 767px) {
-	/* /* new design */ */
-	/* .centered { */
-    /* position: absolute; */
-    /* top: 100px; */
-	/* width:100%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
-/* } */
+	.carousel-multi-item .controls-top {
+    margin-bottom: 30px;
+    position: absolute;
+    top: 70px;
+    right: 25%;
+}
+.mobile-cus-support .col-sm-6{
+	margin-top:85px;
+}
+.h3-mobile {
+	
+	font-size:16px !important;
+}
 .centered p{
 	font-size:16px !important;
 	color:#fff;
@@ -2458,6 +2463,10 @@ h2 {
 
 }
 @media only screen and (max-width: 320px) {
+	.h3-mobile {
+	
+	font-size:10px !important;
+
 	.caption-sty {
     font-size: 10px !important;
     border: 2px solid #fff;

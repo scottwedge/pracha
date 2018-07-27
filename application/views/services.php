@@ -37,7 +37,7 @@
 <div class="container-sty" >
 <div class="row" >
 <div class="col-md-9" >
-<div class=" card mar-t2 px-5" >
+<div class=" card mar-t2 " >
 <!-- Tab panels -->
 <div class="tab-content">
 
@@ -45,12 +45,12 @@
     <div class=" active" >
         <br>
 			<!--Grid row-->
-			     <div class="row  text-center py-4">
+			     <div class="row  text-center ">
             <div class="col-sm-12 mb-20 pt-30">
 
                 <h2>
                     <span class="tit">
-									 <span class="des_t">Prachatech Web Designing Services
+									 <span class="des_t  h3-mobile">Prachatech Web Designing Services
                     </span> 
                 </h2>
 

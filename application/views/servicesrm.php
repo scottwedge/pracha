@@ -278,7 +278,7 @@
 
                 <h3 class="font-bold">
                     <span class="tit">
-									<span class="des_t">Our Keyword Strategy In SEO </span> 
+									<span class="des_t h3-mobile">Our Keyword Strategy In SEO </span> 
                     </span>
                 </h3>
 				
