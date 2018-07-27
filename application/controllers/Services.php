@@ -26,15 +26,6 @@ class Services extends CI_Controller {
 		$this->load->view('services');
 		$this->load->view('footer');
 	}
-	/*public function combo()
-	{
-		$data['meta_title'] = 'Pracha';
-		$data['meta_description'] = 'digital';
-		$data['meta_keywords'] = 'matketing';
-		$data['currentURL'] = current_url();
-		$this->load->view('header',$data);
-		$this->load->view('comboprice');
-		$this->load->view('footer');
-	}*/
+	
 	
 }
