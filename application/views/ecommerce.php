@@ -262,7 +262,7 @@
         <!--Panel 2-->
         <div class="tab-pane fade" id="panel22" role="tabpanel">
 
-           <p class="font-w-400">Our developers at PrachaTech use WooCommerce for delivering a simple, beautiful and enjoyable shopping cart experience,. An extendable, adaptable, open-source commerce platform by WordPress. Combining the powers of different plug-ins into a single standalone eCommerce platform. we provide the following WooCommerce services.</p>
+           <p class="font-w-400">Our developers at Pracha Tech use WooCommerce for delivering a simple, beautiful and enjoyable shopping cart experience. It is an extendable, adaptable, open-source commerce platform by WordPress. Combining the powers of different plug-ins into a single standalone eCommerce platform. We provide the following WooCommerce services.</p>
 			<div class="row">
 				<div class="col-md-3 col-xs-12">
 					<div class="card card-body text-center border-warning">
@@ -322,7 +322,7 @@
         <!--/.Panel 2-->
         <!--Panel 3-->
         <div class="tab-pane fade" id="panel23" role="tabpanel">
-			<p class="font-w-400">We at PrachaTech, offer you a wide range of Shopify services. Shopify gives you full control over your website- you can innovate anything from marketing and payments to secure checkout and shipping. Our team uses the best themes and contemporary sales channels offered by Shopify to impress your customers with a wonderful UX/UI and over 70 international payment gateways. </p>
+			<p class="font-w-400">We at Pracha Tech, offer you a wide range of Shopify services. Shopify gives you full control over your website and can innovate anything from marketing to secure payments, and from buying to shipping and secured chekouts. We use the best themes and contemporary sales channels offered by Shopify including 70 international payment gateways to impress your customers with a wonderful user interface and user experience. </p>
 			<div class="row">
 				<div class="col-md-3 col-xs-12">
 					<div class="card card-body text-center border-warning">
@@ -403,7 +403,7 @@
 			</div>
         </div>
         <div class="tab-pane fade" id="panel24" role="tabpanel">
-			<p class="font-w-400">OpenCart powers over 320,000 eCommerce entrepreneurs worldwide with a powerful store management. Using OpenCart, our team puts the best efforts to scale and run your online business., Our eCommerce web developers use all the powers of OpenCart and offer infinite services. We’ve chosen it to develop seamless websites with best-in-class service integrations, payment providers, shipping methods, sales and accounting, analytics and social selling. </p>
+			<p class="font-w-400">Open Cart powers over 320,000 eCommerce entrepreneurs worldwide with a powerful store management. Through Open Cart, we  put the best efforts to scale and run your online business, and offers numerable services like sales, accounting, analytics, social selling, payment providers, shipping methods and many more.  </p>
 			<div class="row justify-content-center">
 				<div class="col-md-3 col-xs-12">
 					<div class="card card-body text-center border-warning">
@@ -456,62 +456,9 @@
 				
 			</div>
         </div>
-		<div class="tab-pane fade" id="panel24" role="tabpanel">
-			<p class="font-w-400">OpenCart powers over 320,000 eCommerce entrepreneurs worldwide with a powerful store management. Using OpenCart, our team puts the best efforts to scale and run your online business., Our eCommerce web developers use all the powers of OpenCart and offer infinite services. We’ve chosen it to develop seamless websites with best-in-class service integrations, payment providers, shipping methods, sales and accounting, analytics and social selling. </p>
-			<div class="row justify-content-center">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Powerful Store Management
-						<br class="sm-hide">
-						<br class="sm-hide">
-						
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Extensions & Themes
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						OpenCart-based Shopping Cart Development
-						
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center py-3">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						OpenCart Module Integration
-						<br class="sm-hide">
-						<br class="sm-hide">
-						
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						OpneCart Customized Template Design
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Payment, Shipping & Tax Integration
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-			</div>
-			
-			
-			<div class="row py-3 justify-content-center">
-				<a href="<?php echo base_url('contactus');?>" class="btn btn-warning ">Lets Discuss</a>
-				
-			</div>
-        </div>
+		
 		<div class="tab-pane fade" id="panel25" role="tabpanel">
-			<p class="font-w-400">Best of technologies with best of frameworks and tools provide amazing eCommerce web development services. We at PrachaTech, Building a custom eCommerce website, we provide all the features you need, better third-party integrations, better integrations with other systems and operations, faster page loading and much more to better represent your brand. </p>
+			<p class="font-w-400"> We at Pracha Technologies, design and develop stunning eCommerce websites. We provide services for existing ecommerce sites, and develop new ecommerce secured websites with best frameworks, UI/UX, better third-party integrations and highly secured payment transactions  at affordable prices. We focus on each and every aspect like Page loading time, Site responsive, Size of the site for better User experience.  </p>
 			<div class="row justify-content-center">
 				<div class="col-md-3 col-xs-12">
 					<div class="card card-body text-center border-warning">
