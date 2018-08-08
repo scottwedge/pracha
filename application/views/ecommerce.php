@@ -2,7 +2,7 @@
 <section class=" bod-st">
 <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/ecommerce-page-background.png); ">
     <div class="full-bg-img">
-      <div class="mask ">
+      <div style="width: 100%;height: 100%;position: absolute;overflow: hidden;top: 0;left: 0;">
         <div class="container flex-center text-center">
           <div class="row mt-5 justify-content-center">
             <div class="col-md-10 ">
@@ -26,11 +26,11 @@
 	<section>
 		<div class="jumbotron  text-center text-md-left bg-dark pad-tb-20 help-start py-5">
 			<!-- Name -->
-			<h2 class="h2-responsive text-center font-weight-bold dark-grey-text ">MOST RELIABLE eCommerce DEVELOPMENT COMPANY</h2>
+			<h2 class="h2-responsive text-center font-weight-bold dark-grey-text ">Most Reliable eCommerce Development Company In Hyderabad</h2>
 			<h3 class="text-center py-2">CO-OPERATIVE. TRANSPARENT. SUPPORTIVE. STRATEGIC</h3>
 			<div class="row py-4 justify-content-center">
 				<div class="col-12 col-md-10">
-					<p class="text-center">Our vast experience in developing ecommerce websites has made us one of the best choices for ecommerce website Development Company. We understand the need of each client is different and thus we plan the e commerce application development accordingly. Though from top its look all the e commerce websites are same but there is huge difference in each website. It depends mainly on the target market and thus the design and functionalities also change according to that. Our vast experience helps us not only in developing e commerce websites, but we are also providing our consultancy to many ecommerce companies.</p>
+					<p class=""> ECommerce is huge and it is ever growing! eCommerce allows the transact across cultural, regional and national in a more convenient and cost effective way, with eCommerce it is easier to successfully get over across national boundaries in comparison to the traditional commerce. The technical standards for conducting eCommerce are same among all nations, and it is easier to find suppliers, prices and delivery terms of the products. We understand the need of each client and thus we plan the eCommerce application development accordingly. As an eCommerce web development company in Hyderabad we design and develop stunning eCommerce websites with highly secured payment transactions and also provide services for existing ecommerce sites.</p>
 				</div>
 			</div>
 		</div>
@@ -40,7 +40,7 @@
 <section class="text-center container-sty">
 
     <!--Section heading-->
-    <h2 class="py-5 font-weight-bold text-dark">A WIDE RANGE OF POWERFUL AND SCALABLE SOLUTIONS TO BOOST YOUR eCommerce PROJECT</h2>
+    <h2 class="py-5 font-weight-bold text-dark">A Wide Range Of Powerful And Scalable Solutions To Boost Your eCommerce Project</h2>
     <div class="row">
 		<div class="col-md-3">
 			
@@ -53,8 +53,8 @@
 			</p>
 		</div>
 		<div class="col-md-3">
-			<h5 class="font-weight-bold mt-3">Advanced Features Development.</h5>
-			<p class="grey-text"> Real-time support (phone, live chat) Product Catalog management</p>
+			<h5 class="font-weight-bold mt-3">Advanced Features </h5>
+			<p class="grey-text"> Real-time support (phone, live chat) Product Catalog management and many more...</p>
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">Third-Party Integrations</h5>
@@ -68,15 +68,15 @@
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">Data analysis and business intelligence</h5>
-			<p class="grey-text">Warehouse management Data collection and analysis</p>
+			<p class="grey-text">Warehouse management, data collection and analysis</p>
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">Quality and Security</h5>
-			<p class="grey-text">Dedicated Quality Assurance team undertakes the full responsibility of every developed product Manual and automated testing, support and maintenance services</p>
+			<p class="grey-text">Dedicated Quality Assurance team, automated testing, support & maintenance and high level security services</p>
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">End-End Support</h5>
-			<p class="grey-text">Your queries and doubts are resolved and taken care of even after launch</p>
+			<p class="grey-text">Your queries and doubts are resolved and taken care even after launch</p>
 		</div>
     </div>
 </section>
@@ -87,9 +87,8 @@
         <div class="container  py-5 mb-5 sm-col-xs-mar">
 		<div class="row justify-content-center centered ">
 		<div class="col-md-10">
-				<h2 class="py-4 font-weight-bold text-text" style="font-size:30px;line-height:40px;">E-COMMERCE DEVELOPMENT WITHOUT ANY LIMITS!</h2>
-					<p class="font-w-400 text-shadow" style="font-style:normal">There is an increase of purchases being made on computers and mobile devices whether 
-					it's for B2C or B2B. To reach the customer, we offer the best personalization methods and top-notch eCommerce web development services.</p>
+				<h2 class="py-4 font-weight-bold text-text" style="font-size:30px;line-height:40px;">eCommerce Development Without Any Limits!</h2>
+					<p class="font-w-400 text-shadow" style="font-style:normal">There is an increase of purchases being made on computers and mobile devices whether it's for B2C or B2B. To reach the customer, we offer the best personalization methods and top-notch eCommerce web development services.</p>
 				</div>
 		</div>
           <div class="row mt-2 justify-content-center">
@@ -577,9 +576,9 @@
 <div class="container-sty">
 	<div class="row justify-content-center text-center text-white how-we-help">
 		<div class="col-md-9">
-		<p>We use Brisk methods all the way. Brisk inception, Brisk planning, Researching, programming, designing, coding, Brisk project management. That way we can adapt to your every need.</p>
+		<p>We have our own researched methodology for applying brisk Inception, Planning, Programming, Designing, Coding, and Project Management.</p>
 		<br>
-		<h2 class="py4">FOCUSED ON SCALABILITY & PERFORMANCE</h2>
+		<h2 class="py4">Focused On Scalability  & Performance</h2>
 		<br>
 		</div>
 	</div>
@@ -663,7 +662,7 @@
 <div class="text-center container-sty text-white">
 	<div class="row justify-content-center">
 	<div class="col-md-10">
-    <h2 class="py-2 font-weight-bold">FOCUSED ON COMMERCE SCALABILITY & PERFORMANCE </h2>
+    <h2 class="py-2 font-weight-bold">Focused On Commerce Scability & Performance </h2>
 	<p class=" font-w-400">We are fuelled to develop innovative and powerful solution oriented eCommerce platforms across industries that will raise untold fortunes of millions of entrepreneurs who are struggling to launch lucrative eCommerce businesses to meet a marketplace need.
 
 	</p>
