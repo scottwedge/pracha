@@ -2,13 +2,13 @@
 <section class=" bod-st">
 <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/startup.png); ">
     <div class="full-bg-img">
-      <div class="mask ">
+      <div style="width: 100%;height: 100%;position: absolute;overflow: hidden;top: 0;left: 0; ">
         <div class="container flex-center text-center">
           <div class="row mt-5">
             <div class="col-md-12 ">
 			<div class="centered">
-			<h2>Leveraging world-class solutions for the Start-up age!</h2>
-			<p>HELPING STARTUPS TO CONVERT INTO ENTERPRISES</p>
+			<h2>Leveraging world-class solutions for Start-up's</h2>
+			<p>Helping Startups To Convert Into Mid-Level Companies</p>
 			</div>
             </div>
           </div>
@@ -22,12 +22,11 @@
 	<section>
 		<div class="jumbotron  text-center text-md-left bg-dark pad-tb-20 help-start py-5">
 			<!-- Name -->
-			<h2 class="h2-responsive text-center font-weight-bold dark-grey-text ">WE PARTNER WITH STARTUPS FOR THEIR SUBSTANTIAL GROWTH</h2>
-			<h3 class="text-center py-2">CO-OPERATIVE. TRANSPARENT. SUPPORTIVE. STRATEGIC
-			</h3>
+			<h2 class="h2-responsive text-center font-weight-bold dark-grey-text ">Partner With Us For Substantial Growth</h2>
+			<h4 class="text-center py-2">We are Co-operative, Dedicated, Transparent, Supportive and Strategic.</h4>
 			<div class="row py-4 justify-content-md-center">
 				<div class="col-12 col-md-10">
-					<p class="text-center">Our start-up development services cover all factors. Once we work together, we develop that warm feeling of seeing start-ups grow because their success reflects our growth- and we love to excel like a team. A significant percentage of our resources is dedicated towards incubation projects.</p>
+					<p class="text-center">Our start-up development services cover all factors. Join us and observe quick sprouts from your start-up! </p>
 				</div>
 			</div>
 		</div>
@@ -37,7 +36,7 @@
 <section class="text-center container-sty">
 
     <!--Section heading-->
-    <h2 class="py-5 font-weight-bold">A WIDE RANGE OF POWERFUL AND SCALABLE SOLUTIONS TO BOST YOUR IDEA
+    <h2 class="py-5 font-weight-bold">A Wide Range Of Powerful And Scalable Solutions To Boost Your Ideas
 	</h2>
     <div class="row">
 		<div class="col-md-3">
@@ -56,14 +55,14 @@
 		<div class="col-md-3">
 			<i class="fa fa-line-chart fa-3x orange-text"></i>
 			<h5 class="font-weight-bold mt-3">Modular Development</h5>
-			<p class="grey-text">A focused and phased approach to build-to-market, to scale and to grow
+			<p class="grey-text">A focused and phased approach to build, to market, to scale and to grow
 
 			</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-universal-access fa-3x indigo-text"></i>
 			<h5 class="font-weight-bold mt-3">Expertise in Technology</h5>
-			<p class="grey-text">Cloud, Cross-platform, Hybrid Platform, Mobile, Desktop, Tablets- we create everything & beyond
+			<p class="grey-text">Cloud, Cross & Hybrid platforms, Mobile, Desktop, Tablets- we develop softwares for all versions
 
 			</p>
 		</div>
@@ -73,7 +72,7 @@
 			<i class="fa fa-handshake-o fa-3x orange-text"></i>
 			<h5 class="font-weight-bold mt-3">Value Focused
 			</h5>
-			<p class="grey-text">The end-product is assured to add value to your business and deliver it to users
+			<p class="grey-text">We keep your attention throughout the decision process on what you hope to achieve
 
 			</p>
 		</div>
@@ -104,7 +103,7 @@
 <div class="container-sty">
 	<div class="row justify-content-md-center text-center text-white how-we-help">
 		<div class="col-md-9">
-		<p>We use Brisk methods all the way. Brisk inception, Brisk planning, Researching, programming, designing, coding, Brisk project management. That way we can adapt to your every need</p>
+		<p>We have our own researched methodology for applying brisk Inception, Planning, Programming, Designing, Coding, and Project Management. </p>
 		<br>
 		<h2 class="py4">THE FOUR BRISK STAGES FROM STARTUPS TO FULL SIZED ENTERPRISES</h2>
 		<br>
