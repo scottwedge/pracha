@@ -20,9 +20,9 @@ class Careers extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['meta_title'] = 'Pracha Technologies Career Opportunities';
-		$data['meta_description'] = 'Learn more about job and career opportunities at Pracha Technologies. Search our current openings today to find the best fit for you and your career goals.';
-		$data['meta_keywords'] = 'career opportunity, job openings, jobs, careers, carriers, carrier.';
+		$data['meta_title'] = 'Jobs In Hyderabad | Pracha Technologies Career Opportunities';
+		$data['meta_description'] = 'Learn more about jobs in Hyderabad and career opportunities at Pracha Technologies. Search our current openings today to find the best fit for you and your career goals.';
+		$data['meta_keywords'] = 'jobs in hyderabad, software jobs in hyderabad, marketing jobs in hyderabad, career opportunity, job openings, jobs, careers, carriers, carrier.';
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('carriers');

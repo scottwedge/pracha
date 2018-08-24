@@ -13,6 +13,7 @@
 					<li>At Prachatech, we are looking for people who are concerned about the Clients always. Client centricity is a key tenet of all our processes.</li>
 					<li>We value creativity, hard work, initiative and radical ideas. We’re always looking for talented individuals to join our team.</li>
 					<li>If you think you could be our next hire, drop your details below with a cover note detailing your skills and experience ASAP.</li>
+					<li>Interested candidates can forward their resume to <strong>hr@prachatech.com.</strong></li>
 				</ul>
 			</div>
 			</div>
@@ -111,13 +112,15 @@
 						 <li>Meeting customers (companies, B-B) </li>
 						 <li>Demonstration of the software at client place</li>
 						 <li>Finalization and closing of the sale</li>
-									</ul>
-								 
+									</ul>		 
 							  </div>
 							   </div>
 						</div>
+						<div class="col-md-12 py-2"> <p class="text-center">Interested candidates can forward their resume to <strong class="text-primary">hr@prachatech.com.</strong></p> </div>
 					</div>
 				</div>
+				
+				
 				<!-- Accordion card -->
 
 				<!-- Accordion card -->
@@ -200,9 +203,12 @@
 									</ul>
 								 
 							  </div>
+							  	   
 							   </div>
+						
 							   
 						</div>
+						<div class="col-md-12 py-2"> <p class="text-center">Interested candidates can forward their resume to <strong class="text-primary">hr@prachatech.com.</strong></p> </div>
 					</div>
 				</div>
 			
@@ -284,6 +290,7 @@
 								Manual Testing, Automation Testing, Functional Testing, Test Engineering, Selenium, Appium, QA Testing, Test Cases, Test Scenarios, Defect Reporting. </p>
 							   </div>
 						</div>
+						<div class="col-md-12 py-2"> <p class="text-center">Interested candidates can forward their resume to <strong class="text-primary">hr@prachatech.com.</strong></p> </div>
 					</div>
 				</div>
 				
