@@ -43,7 +43,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
 			<ul class="nav navbar-nav  ml-auto">
-				<li class="nav-item <?php if($currentURL==base_url() || $currentURL==base_url('web-designing-company-in-hyderabad')){ echo "active-menu"; } ?> " id="homepageative"><a href="<?php echo base_url('web-designing-company-in-hyderabad'); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
+				<li class="nav-item <?php if($currentURL==base_url() || $currentURL==base_url('')){ echo "active-menu"; } ?> " id="homepageative"><a href="<?php echo base_url(); ?>" class="nav-link"> <span class=" ">Home</span></a></li>  
 				<li class="nav-item sm-hide <?php if($currentURL==base_url('start_up') ||$currentURL==base_url('web-designing-agency-in-hyderabad') || $currentURL==base_url('enterprise') || $currentURL==base_url('servicesrm') || $currentURL==base_url('web-development-company-in-hyderabad') || $currentURL==base_url('mobile-app-development-company-in-hyderabad') || $currentURL==base_url('digital-marketing-company-in-hyderabad') || $currentURL==base_url('ecommerce') || $currentURL==base_url('maintainence') || $currentURL==base_url('website_maintainence') || $currentURL==base_url('web-designing-services-in-hyderabad') || $currentURL==base_url('on_demand_services')){ echo "active-menu"; } ?>" > 
 				<div class="dropdown">
 					<a href="<?php echo base_url('web-designing-services-in-hyderabad'); ?>" class="nav-link dropdown-toggle"> <span class=" ">Our Services</span></a>
