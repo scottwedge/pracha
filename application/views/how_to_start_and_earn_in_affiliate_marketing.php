@@ -1,8 +1,8 @@
 
 <div class="selectstate">
-    <section class="pt-5 mt-4 pb-3 pargh">
+    <section class="pt-5 mt-4 pb-3 pargh" style="padding:10px;">
         <!--Grid row-->
-        <div class="row justify-content-md-center   ">
+        <div class="d-flex justify-content-md-center   ">
             <div class="col-md-10 card  pad-lr15">
                 <div class="row justify-content-md-center  ptb-15">
                     <div class="col-md-12   ptb-15">
@@ -286,7 +286,7 @@
 	</div>
 	</div>
 	</div>
-<div class="row justify-content-md-center   ">
+<div class="d-flex justify-content-md-center   ">
 	 <div class="col-md-10 card  " style="padding:0px;">
 	 <div class="bg-dark " style="padding:15px;margin:0">
 		<div class="row justify-content-md-center ">
@@ -330,7 +330,7 @@
 	 </div>
 	 </div>
 	 <br>
-	 <div class="row justify-content-md-center   ">
+	 <div class="d-flex justify-content-md-center   ">
 	 <div class="col-md-10 card  " style="padding:0px;">
 				
 			<div class="row pad30 justify-content-md-center">

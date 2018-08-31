@@ -2328,6 +2328,11 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 	text-align:left !important;
 	width:50%;
 }
+.algin-pos-right {
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+}
 .mt-15-ban {
 	margin-top: 0px;
 }
@@ -2366,7 +2371,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     background: #192f5d;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 10px;
     color: #fff;
 }
 .font-30 {
@@ -2389,7 +2394,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     font-size: 30px;
     font-weight: 100;
     position: relative;
-    top: 180px;
+    top: 100px;
     max-width: 90%;
     z-index: 1;
     word-spacing: 0.3em;
@@ -2465,7 +2470,7 @@ h2 {
 @media only screen and (max-width: 320px) {
 	.h3-mobile {
 	
-	font-size:10px !important;
+	font-size:10px !important;}
 
 	.caption-sty {
     font-size: 10px !important;

@@ -25,7 +25,7 @@
 	<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/startup.png);height:700px;">
     <div class="full-bg-img">
       <div class="mask ">
-        <div class=" flex-center text-center text-white" style="position:relative">
+        <div class=" flex-center text-center text-white" style="position:relative;padding:10px;" >
           <div class="row  algin-pos-left">
             <div class="col-md-5 ">
 			<div class="help-foot-banner">
@@ -36,7 +36,7 @@
 			</div>
             </div>
           </div>
-		  <div class="row  justify-content-center">
+		  <div class=" d-flex justify-content-center" style="padding:10px;">
             <div class="col-md-5 ">
 			<div class="help-foot-banner">
 			<h4 class="text-warning font-25">Cost-Effective</h4>
@@ -44,8 +44,8 @@
 			</div>
             </div>
           </div>
-		  <div class="row justify-content-right ">
-            <div class="col-md-5  algin-pos-right">
+		  <div class="d-flex justify-content-right ">
+            <div class="col-md-5  algin-pos-right" style="padding:10px;">
 			<div class="help-foot-banner">
 			<h4 class="text-warning font-25">We are here for you</h4>
 			<p> Many of our clients have certified that our web designing services and digital marketing services are appraisable. We are here to help and encourage your business to present it online.</p>
@@ -74,12 +74,17 @@
 		<h2 class="pb-40" style="text-transform: none;" >Contact us for a FREE Analysis!</h2>
 		<p style="font-size:20px;"></p>
 
-		<p class="dis-team">
+		<div class="row dis-team py-4">
+		<div class="col-md-4">
 			<span><i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 040 - 48541273</span>
-			
+			</div>
+			<div class="col-md-4">
 			<a href="mailto:support@prachatech.com" target="_top"><span><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; support@prachatech.com</span></a>
+			</div>
+			<div class="col-md-4">
 			<a href="skype:Prachatech@skype?chat"><span><i class="fa fa-skype" aria-hidden="true"></i> &nbsp; Prachatech@skype</span></a>
-		</p>
+			</div>
+		</div>
 		
 		<a href="<?php echo base_url('contactus');?>"><button type="button" class="btn btn-dark btn-rounded">REQUEST A FREE QUOTE</button></a>
 	</div>

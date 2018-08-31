@@ -66,7 +66,253 @@
 
 </section>
 
-<section id="seric-sc" class="our_service padding-10 ptb-xs-60">
+<section id="seric-sc" class="our_service padding-10 ptb-xs-60 md-hide">
+    <div class="container-sty card ">
+		<div >
+		     <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h3 class="font-bold ">
+                    <span class="tit">
+									<span class="des_t h3-mobile">Our  Web Designing Company Services </span>
+                    </span>
+                </h3>
+
+
+            </div>
+
+        </div>
+
+
+        <!--First slide-->
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card ">
+                 <a href="<?php echo base_url('web-designing-agency-in-hyderabad'); ?>">
+            <div class=" wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
+			
+                <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
+				<div class="service_icon ">
+                        <i class="hi-icon fa fa-television" aria-hidden="true"></i>
+                    </div>
+                    <div class="service_details">
+                        <h2 class="font-color_base no_stripe">WEB DESIGNING
+								
+									</h2>
+                    </div>
+                    <div class="service_content">
+				
+						<div class="pad-lr30">
+							<ul>
+							  <li> Website Architecture And Design</li>
+							  <li>Static & Dynamic Website Design</li>
+							  <li>Responsive Web Designing</li>
+							  <li>Custom Web Designing</li>
+							  <li>Corporate Website Designing</li>
+							  <li>Template Design & Customization</li>
+							 
+							</ul>  
+						</div>
+						<p class="text-center"> <a href="<?php echo base_url('web-designing-agency-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> </p>
+
+
+
+
+
+
+                    </div>
+					
+                </div>
+            </div>
+			</a>
+                </div>
+            </div>
+			<div class="clearfix">&nbsp;</div>
+
+            <div class="col-md-4 ">
+                <div class="card mb-2">
+                   <a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>">
+            <div class="wow tada" style="visibility: visible; animation-name: tada;">
+                <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
+                    <div class="service_icon ">
+                        <i class="hi-icon fa fa-television" aria-hidden="true"></i>
+                    </div>
+                    <div class="service_details">
+                        <h2 class="font-color_base no_stripe">WEB DEVELOPMENT</h2>
+                    </div>
+                    <div class="service_content">
+						<div class="pad-lr30">
+							<ul>
+							  <li>Custom Application Development </li>
+							  <li>Content Management System (CMS)</li>
+							  <li>eCommerce Website Development</li>
+							  <li>MEAN Stack Development</li>
+							  <li>Dynamic Web Development</li>
+							  <li>Web Development Methodologies</li>
+							 
+							 
+							</ul>
+						</div>
+						
+							<p class="text-center"> <a href="<?php echo base_url('web-development-company-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> </p>
+						</div>
+                </div>
+            </div>
+			</a>
+                </div>
+            </div>
+<div class="clearfix">&nbsp;</div>
+            <div class="col-md-4">
+                <div class="card mb-2">
+              <a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>">
+            <div class=" wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
+                    <div class="service_icon">
+                        <i class="hi-icon fa fa-mobile" aria-hidden="true"></i>
+                    </div>
+                    <div class="service_details">
+                        <h2 class="font-color_base no_stripe"> MOBILE APPLICATIONS</h2>
+                    </div>
+                    <div class="service_content">
+							<div class="pad-lr30">
+								<ul>
+								  <li>iOS Application Development </li>
+								  <li>Android Application Development</li>
+								  <li>Hybrid Mobile Applications</li>
+								  <li>Mobile Integration</li>
+								  <li>Mobile Application Testing</li>
+								  <li>Mobile Application Security</li>
+								
+								</ul>
+							</div>
+							<p class="text-center"> <a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+                    </div>
+                </div>
+            </div>
+			</a>
+                </div>
+            </div>
+
+     <div class="clearfix">&nbsp;</div>
+
+            <div class="col-md-4">
+                <div class="card mb-2">
+                <a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>">
+            <div class=" wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
+                    <div class="service_icon">
+                        <i class="hi-icon fa fa-industry" aria-hidden="true"></i>
+                    </div>
+                    <div class="service_details">
+                        <h2 class="font-color_base no_stripe">DIGITAL MARKETING </h2>
+                    </div>
+                    <div class="service_content">
+							<div class="pad-lr30">
+							<ul>
+								  <li>Search Engine Optimization (SEO)</li>
+								  <li>Social Media Marketing (SMM)</li>
+								  <li>Google Adwords</li>
+								  <li>Content Marketing</li>
+								  <li>Email Marketing</li>
+								  <li>Google Analytics</li>
+								  
+								</ul></div>
+								<br>
+								<br>
+							<p class="text-center"> <a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> </p>
+                    </div>
+                </div>
+            </div></a>
+                </div>
+            </div>
+<div class="clearfix">&nbsp;</div>
+            <div class="col-md-4 ">
+                <div class="card mb-2">
+               <a href="<?php echo base_url('ecommerce'); ?>">
+            <div class=" wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.2s;">
+                <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
+                    <div class="service_icon">
+                        <i class="hi-icon fa fa-shopping-basket" aria-hidden="true"></i>
+                    </div>
+                    <div class="service_details">
+                        <h2 class="font-color_base no_stripe">E-COMMERCE DEVELOPMENT</h2>
+                    </div>
+                    <div class="service_content">
+                        <div class="pad-lr30">
+								<ul>
+								  <li>Tailored e-commerce solutions </li>
+								  <li>Well-Designed Business Toolset</li>
+								  <li>Enhanced Filtration</li>
+								  <li>Searching Option</li>
+								 
+								  <li>Diverse and Secure Payment Options</li>
+								  <li>Real-time support (phone, live chat)</li>
+								  <li>UX for E-Commerce</li>
+								  
+								
+								</ul>
+								<br>
+								</div>
+								<p class="text-center"> <a href="<?php echo base_url('ecommerce'); ?>"class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
+                    </div>
+                </div>
+            </div></a>
+                </div>
+            </div>
+<div class="clearfix">&nbsp;</div>
+            <div class="col-md-4 ">
+                <div class="card mb-2">
+                   <a href="<?php echo base_url('website_maintainence'); ?>">
+			<div class=" wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.6s;">
+                <div class="service_box hi-icon-effect-3 hi-icon-effect-3b">
+                    <div class="service_icon">
+                        <i class="hi-icon fa fa-keyboard-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="service_details">
+                        <h2 class="font-color_base no_stripe">WEBSITE MAINTENANCE </h2>
+                    </div>
+                    <div class="service_content">
+                        <div class="pad-lr30">
+								<ul>
+								  <li>Website Maintenance </li>
+								  <li>Mobile Applications Maintenance</li>
+								  <li>Digital Marketing Maintenance</li>
+								  <li>SEO Maintenance</li>
+								  <li>Cloud Services Maintenance</li>
+								  <li>Hack Proof Maintenance</li>
+								  <li>Web Designing Maintenance</li>
+								</ul>
+								  
+								 
+								 
+								  
+								  <br class="sm-hide">
+								</div>
+								<p class="text-center"> <a href="<?php echo base_url('website_maintainence'); ?>" class="btn btn-warning btn-sm">Know more...</a></p>
+                    </div>
+                </div>
+            </div></a>
+                </div>
+            </div>
+
+        </div>
+        <!--/.Second slide-->
+
+			
+
+    </div>
+    <!--/.Slides-->
+	<div class=" d-flex justify-content-center">
+			<a href="<?php echo base_url('web-designing-services-in-hyderabad'); ?>"><button type="button" class="btn btn-dark btn-rounded">See More</button></a>
+
+		</div>
+		<div class="clearfix">&nbsp;</div>
+</div>
+	
+	</div>
+	</section>
+	<section id="seric-sc" class="our_service padding-10 ptb-xs-60 sm-hide">
     <div class="container-sty card ">
 		<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 		     <div class="row  text-center">
@@ -87,7 +333,7 @@
         <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
         <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
     </div>
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner" role="listbox" >
 
         <!--First slide-->
         <div class="carousel-item active">
