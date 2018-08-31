@@ -20,7 +20,7 @@ class Mobile_applications extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['meta_title'] = 'Best Mobile App Development Company In Hyderabad | Prachatech';
+		$data['meta_title'] = 'The Best Mobile App Development Company In Hyderabad | Prachatech';
 		$data['meta_description'] = 'Pracha Technologies Pvt. Ltd. is a Web Designing & Mobile App development company in Hyderabad. The company is specialized in developing eCommerce websites, Static & Dynamic Websites , Mobile Apps for (iOS & Android softwares), and offer Digital Marketing services at affordable prices.';
 		$data['meta_keywords'] = 'mobile apps, mobile applications, phone apps, phone app services, mobile app development services, mobile app development services in hyderabad, mobile app development company in hyderabad, mobile app developers in hyderabad, mobile application developers in hyderabad, mobile apps designer in hyderabad, mobile applications designer in hyderabad, mobile application services in hyderabad, mobile app services in hyderabad.';
 		$data['currentURL'] = current_url();

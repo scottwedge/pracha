@@ -2,7 +2,7 @@
 <section class=" bod-st">
 <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/ecommerce-page-background.png); ">
     <div class="full-bg-img">
-      <div class="mask ">
+      <div style="width: 100%;height: 100%;position: absolute;overflow: hidden;top: 0;left: 0;">
         <div class="container flex-center text-center">
           <div class="row mt-5 justify-content-center">
             <div class="col-md-10 ">
@@ -26,11 +26,11 @@
 	<section>
 		<div class="jumbotron  text-center text-md-left bg-dark pad-tb-20 help-start py-5">
 			<!-- Name -->
-			<h2 class="h2-responsive text-center font-weight-bold dark-grey-text ">MOST RELIABLE eCommerce DEVELOPMENT COMPANY</h2>
+			<h2 class="h2-responsive text-center font-weight-bold dark-grey-text ">Most Reliable eCommerce Development Company In Hyderabad</h2>
 			<h3 class="text-center py-2">CO-OPERATIVE. TRANSPARENT. SUPPORTIVE. STRATEGIC</h3>
 			<div class="row py-4 justify-content-center">
 				<div class="col-12 col-md-10">
-					<p class="text-center">Our vast experience in developing ecommerce websites has made us one of the best choices for ecommerce website Development Company. We understand the need of each client is different and thus we plan the e commerce application development accordingly. Though from top its look all the e commerce websites are same but there is huge difference in each website. It depends mainly on the target market and thus the design and functionalities also change according to that. Our vast experience helps us not only in developing e commerce websites, but we are also providing our consultancy to many ecommerce companies.</p>
+					<p class=""> ECommerce is huge and it is ever growing! eCommerce allows the transact across cultural, regional and national in a more convenient and cost effective way, with eCommerce it is easier to successfully get over across national boundaries in comparison to the traditional commerce. The technical standards for conducting eCommerce are same among all nations, and it is easier to find suppliers, prices and delivery terms of the products. We understand the need of each client and thus we plan the eCommerce application development accordingly. As an eCommerce web development company in Hyderabad we design and develop stunning eCommerce websites with highly secured payment transactions and also provide services for existing ecommerce sites.</p>
 				</div>
 			</div>
 		</div>
@@ -40,7 +40,7 @@
 <section class="text-center container-sty">
 
     <!--Section heading-->
-    <h2 class="py-5 font-weight-bold text-dark">A WIDE RANGE OF POWERFUL AND SCALABLE SOLUTIONS TO BOOST YOUR eCommerce PROJECT</h2>
+    <h2 class="py-5 font-weight-bold text-dark">A Wide Range Of Powerful And Scalable Solutions To Boost Your eCommerce Project</h2>
     <div class="row">
 		<div class="col-md-3">
 			
@@ -53,8 +53,8 @@
 			</p>
 		</div>
 		<div class="col-md-3">
-			<h5 class="font-weight-bold mt-3">Advanced Features Development.</h5>
-			<p class="grey-text"> Real-time support (phone, live chat) Product Catalog management</p>
+			<h5 class="font-weight-bold mt-3">Advanced Features </h5>
+			<p class="grey-text"> Real-time support (phone, live chat) Product Catalog management and many more...</p>
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">Third-Party Integrations</h5>
@@ -68,15 +68,15 @@
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">Data analysis and business intelligence</h5>
-			<p class="grey-text">Warehouse management Data collection and analysis</p>
+			<p class="grey-text">Warehouse management, data collection and analysis</p>
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">Quality and Security</h5>
-			<p class="grey-text">Dedicated Quality Assurance team undertakes the full responsibility of every developed product Manual and automated testing, support and maintenance services</p>
+			<p class="grey-text">Dedicated Quality Assurance team, automated testing, support & maintenance and high level security services</p>
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">End-End Support</h5>
-			<p class="grey-text">Your queries and doubts are resolved and taken care of even after launch</p>
+			<p class="grey-text">Your queries and doubts are resolved and taken care even after launch</p>
 		</div>
     </div>
 </section>
@@ -87,9 +87,8 @@
         <div class="container  py-5 mb-5 sm-col-xs-mar">
 		<div class="row justify-content-center centered ">
 		<div class="col-md-10">
-				<h2 class="py-4 font-weight-bold text-text" style="font-size:30px;line-height:40px;">E-COMMERCE DEVELOPMENT WITHOUT ANY LIMITS!</h2>
-					<p class="font-w-400 text-shadow" style="font-style:normal">There is an increase of purchases being made on computers and mobile devices whether 
-					it's for B2C or B2B. To reach the customer, we offer the best personalization methods and top-notch eCommerce web development services.</p>
+				<h2 class="py-4 font-weight-bold text-text" style="font-size:30px;line-height:40px;">eCommerce Development Without Any Limits!</h2>
+					<p class="font-w-400 text-shadow" style="font-style:normal">There is an increase of purchases being made on computers and mobile devices whether it's for B2C or B2B. To reach the customer, we offer the best personalization methods and top-notch eCommerce web development services.</p>
 				</div>
 		</div>
           <div class="row mt-2 justify-content-center">
@@ -263,7 +262,7 @@
         <!--Panel 2-->
         <div class="tab-pane fade" id="panel22" role="tabpanel">
 
-           <p class="font-w-400">Our developers at PrachaTech use WooCommerce for delivering a simple, beautiful and enjoyable shopping cart experience,. An extendable, adaptable, open-source commerce platform by WordPress. Combining the powers of different plug-ins into a single standalone eCommerce platform. we provide the following WooCommerce services.</p>
+           <p class="font-w-400">Our developers at Pracha Tech use WooCommerce for delivering a simple, beautiful and enjoyable shopping cart experience. It is an extendable, adaptable, open-source commerce platform by WordPress. Combining the powers of different plug-ins into a single standalone eCommerce platform. We provide the following WooCommerce services.</p>
 			<div class="row">
 				<div class="col-md-3 col-xs-12">
 					<div class="card card-body text-center border-warning">
@@ -323,7 +322,7 @@
         <!--/.Panel 2-->
         <!--Panel 3-->
         <div class="tab-pane fade" id="panel23" role="tabpanel">
-			<p class="font-w-400">We at PrachaTech, offer you a wide range of Shopify services. Shopify gives you full control over your website- you can innovate anything from marketing and payments to secure checkout and shipping. Our team uses the best themes and contemporary sales channels offered by Shopify to impress your customers with a wonderful UX/UI and over 70 international payment gateways. </p>
+			<p class="font-w-400">We at Pracha Tech, offer you a wide range of Shopify services. Shopify gives you full control over your website and can innovate anything from marketing to secure payments, and from buying to shipping and secured chekouts. We use the best themes and contemporary sales channels offered by Shopify including 70 international payment gateways to impress your customers with a wonderful user interface and user experience. </p>
 			<div class="row">
 				<div class="col-md-3 col-xs-12">
 					<div class="card card-body text-center border-warning">
@@ -404,7 +403,7 @@
 			</div>
         </div>
         <div class="tab-pane fade" id="panel24" role="tabpanel">
-			<p class="font-w-400">OpenCart powers over 320,000 eCommerce entrepreneurs worldwide with a powerful store management. Using OpenCart, our team puts the best efforts to scale and run your online business., Our eCommerce web developers use all the powers of OpenCart and offer infinite services. We’ve chosen it to develop seamless websites with best-in-class service integrations, payment providers, shipping methods, sales and accounting, analytics and social selling. </p>
+			<p class="font-w-400">Open Cart powers over 320,000 eCommerce entrepreneurs worldwide with a powerful store management. Through Open Cart, we  put the best efforts to scale and run your online business, and offers numerable services like sales, accounting, analytics, social selling, payment providers, shipping methods and many more.  </p>
 			<div class="row justify-content-center">
 				<div class="col-md-3 col-xs-12">
 					<div class="card card-body text-center border-warning">
@@ -457,62 +456,9 @@
 				
 			</div>
         </div>
-		<div class="tab-pane fade" id="panel24" role="tabpanel">
-			<p class="font-w-400">OpenCart powers over 320,000 eCommerce entrepreneurs worldwide with a powerful store management. Using OpenCart, our team puts the best efforts to scale and run your online business., Our eCommerce web developers use all the powers of OpenCart and offer infinite services. We’ve chosen it to develop seamless websites with best-in-class service integrations, payment providers, shipping methods, sales and accounting, analytics and social selling. </p>
-			<div class="row justify-content-center">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Powerful Store Management
-						<br class="sm-hide">
-						<br class="sm-hide">
-						
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Extensions & Themes
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						OpenCart-based Shopping Cart Development
-						
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center py-3">
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						OpenCart Module Integration
-						<br class="sm-hide">
-						<br class="sm-hide">
-						
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						OpneCart Customized Template Design
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12">
-					<div class="card card-body text-center border-warning">
-						Payment, Shipping & Tax Integration
-						<br class="sm-hide">
-						<br class="sm-hide">
-					</div>
-				</div>
-			</div>
-			
-			
-			<div class="row py-3 justify-content-center">
-				<a href="<?php echo base_url('contactus');?>" class="btn btn-warning ">Lets Discuss</a>
-				
-			</div>
-        </div>
+		
 		<div class="tab-pane fade" id="panel25" role="tabpanel">
-			<p class="font-w-400">Best of technologies with best of frameworks and tools provide amazing eCommerce web development services. We at PrachaTech, Building a custom eCommerce website, we provide all the features you need, better third-party integrations, better integrations with other systems and operations, faster page loading and much more to better represent your brand. </p>
+			<p class="font-w-400"> We at Pracha Technologies, design and develop stunning eCommerce websites. We provide services for existing ecommerce sites, and develop new ecommerce secured websites with best frameworks, UI/UX, better third-party integrations and highly secured payment transactions  at affordable prices. We focus on each and every aspect like Page loading time, Site responsive, Size of the site for better User experience.  </p>
 			<div class="row justify-content-center">
 				<div class="col-md-3 col-xs-12">
 					<div class="card card-body text-center border-warning">
@@ -577,9 +523,9 @@
 <div class="container-sty">
 	<div class="row justify-content-center text-center text-white how-we-help">
 		<div class="col-md-9">
-		<p>We use Brisk methods all the way. Brisk inception, Brisk planning, Researching, programming, designing, coding, Brisk project management. That way we can adapt to your every need.</p>
+		<p>We have our own researched methodology for applying brisk Inception, Planning, Programming, Designing, Coding, and Project Management.</p>
 		<br>
-		<h2 class="py4">FOCUSED ON SCALABILITY & PERFORMANCE</h2>
+		<h2 class="py4">Focused On Scalability  & Performance</h2>
 		<br>
 		</div>
 	</div>
@@ -663,7 +609,7 @@
 <div class="text-center container-sty text-white">
 	<div class="row justify-content-center">
 	<div class="col-md-10">
-    <h2 class="py-2 font-weight-bold">FOCUSED ON COMMERCE SCALABILITY & PERFORMANCE </h2>
+    <h2 class="py-2 font-weight-bold">Focused On Commerce Scability & Performance </h2>
 	<p class=" font-w-400">We are fuelled to develop innovative and powerful solution oriented eCommerce platforms across industries that will raise untold fortunes of millions of entrepreneurs who are struggling to launch lucrative eCommerce businesses to meet a marketplace need.
 
 	</p>
