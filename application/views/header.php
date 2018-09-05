@@ -107,8 +107,8 @@
         </div>
    </nav>
 </header>
-<a class="btn-floating btn-lg scrolltotop bg-dark">
-<i class="fa fa-arrow-up"></i></span></a>
+<!--<a class="btn-floating btn-lg scrolltotop bg-dark">
+<i class="fa fa-arrow-up"></i></span></a>-->
 <script>
 $('.scrolltotop').on('click', function() {
           $('html, body').animate({ scrollTop: 0 }, 800);

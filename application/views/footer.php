@@ -1,3 +1,92 @@
+<div class="chat-div">
+<div >
+	<div  style="display:none" class="chat-box">
+      <!-- DIRECT CHAT PRIMARY -->
+      <div class="box box-primary direct-chat direct-chat-primary">
+        <div class="box-header with-border">
+          <h3 class="box-title">Direct Chat</h3>
+		 <a> <i class="fa fa-times-circle pull-right btn-chat-box" aria-hidden="true"></i></a>
+    
+          
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
+          <!-- Conversations are loaded here -->
+          <div class="direct-chat-messages">
+            <!-- Message. Default to the left -->
+            <div class="direct-chat-msg">
+              <div class="direct-chat-info clearfix">
+                <span class="direct-chat-name pull-left">Alexander Pierce</span>
+                <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
+              </div>
+              <!-- /.direct-chat-info -->
+              <img class="direct-chat-img" src="https://bootdey.com/img/Content/user_1.jpg" alt="Message User Image"><!-- /.direct-chat-img -->
+              <div class="direct-chat-text">
+                Is this template really for free? That's unbelievable!
+              </div>
+              <!-- /.direct-chat-text -->
+            </div>
+            <!-- /.direct-chat-msg -->
+    
+            <!-- Message to the right -->
+            <div class="direct-chat-msg right">
+              <div class="direct-chat-info clearfix">
+                <span class="direct-chat-name pull-right">Sarah Bullock</span>
+                <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
+              </div>
+              <!-- /.direct-chat-info -->
+              <img class="direct-chat-img" src="https://bootdey.com/img/Content/user_2.jpg" alt="Message User Image"><!-- /.direct-chat-img -->
+              <div class="direct-chat-text">
+                You better believddde it!
+              </div>
+              <!-- /.direct-chat-text -->
+            </div>
+            <!-- /.direct-chat-msg -->
+          </div>
+          <!--/.direct-chat-messages-->
+    
+          <!-- Contacts are loaded here -->
+          <div class="direct-chat-contacts" >
+            <ul class="contacts-list">
+              <li>
+                <a href="#">
+                  <img class="contacts-list-img" src="https://bootdey.com/img/Content/user_1.jpg">
+    
+                  <div class="contacts-list-info">
+                        <span class="contacts-list-name">
+                          Count Dracula
+                          <small class="contacts-list-date pull-right">2/28/2015</small>
+                        </span>
+                    <span class="contacts-list-msg">How have you been? I was...</span>
+                  </div>
+                  <!-- /.contacts-list-info -->
+                </a>
+              </li>
+              <!-- End Contact Item -->
+            </ul>
+            <!-- /.contatcts-list -->
+          </div>
+          <!-- /.direct-chat-pane -->
+        </div>
+        <!-- /.box-body -->
+        <div class="box-footer">
+          <form action="#" method="post">
+            <div class="input-group">
+              <input type="text" name="message" placeholder="Type Message ..." class="form-control">
+                  <span class="input-group-btn">
+                    <button type="submit" class="btn btn-warning btn-sm waves-effect waves-light">Send</button>
+                  </span>
+            </div>
+          </form>
+        </div>
+        <!-- /.box-footer-->
+      </div>
+      <!--/.direct-chat -->
+    </div>
+</div>
+<img class="btn-chat-box" style="width:100px;height:auto;float:right;" src="<?php echo base_url(); ?>assets/vendor//img/livechat.png" alt="livechat">
+	
+</div>
 <section class=" py-4 bg-light-brown" style="overflow:hidden;">
 <div class="row justify-content-center">
 	<div class="half-circle">
@@ -25,7 +114,7 @@
 	<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/startup.png);height:700px;">
     <div class="full-bg-img">
       <div class="mask ">
-        <div class=" flex-center text-center text-white" style="position:relative;padding:10px;" >
+        <div class=" flex-center text-center text-white" style="position:relative">
           <div class="row  algin-pos-left">
             <div class="col-md-5 ">
 			<div class="help-foot-banner">
@@ -36,7 +125,7 @@
 			</div>
             </div>
           </div>
-		  <div class=" d-flex justify-content-center" style="padding:10px;">
+		  <div class="row  justify-content-center">
             <div class="col-md-5 ">
 			<div class="help-foot-banner">
 			<h4 class="text-warning font-25">Cost-Effective</h4>
@@ -44,8 +133,8 @@
 			</div>
             </div>
           </div>
-		  <div class="d-flex justify-content-right ">
-            <div class="col-md-5  algin-pos-right" style="padding:10px;">
+		  <div class="row justify-content-right ">
+            <div class="col-md-5  algin-pos-right">
 			<div class="help-foot-banner">
 			<h4 class="text-warning font-25">We are here for you</h4>
 			<p> Many of our clients have certified that our web designing services and digital marketing services are appraisable. We are here to help and encourage your business to present it online.</p>
@@ -74,17 +163,12 @@
 		<h2 class="pb-40" style="text-transform: none;" >Contact us for a FREE Analysis!</h2>
 		<p style="font-size:20px;"></p>
 
-		<div class="row dis-team py-4">
-		<div class="col-md-4">
+		<p class="dis-team">
 			<span><i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 040 - 48541273</span>
-			</div>
-			<div class="col-md-4">
+			
 			<a href="mailto:support@prachatech.com" target="_top"><span><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; support@prachatech.com</span></a>
-			</div>
-			<div class="col-md-4">
 			<a href="skype:Prachatech@skype?chat"><span><i class="fa fa-skype" aria-hidden="true"></i> &nbsp; Prachatech@skype</span></a>
-			</div>
-		</div>
+		</p>
 		
 		<a href="<?php echo base_url('contactus');?>"><button type="button" class="btn btn-dark btn-rounded">REQUEST A FREE QUOTE</button></a>
 	</div>
@@ -229,6 +313,13 @@
  
 
 </footer>
+<script>
+$(document).ready(function(){
+    $(".btn-chat-box").click(function(){
+        $(".chat-box").toggle();
+    });
+});
+</script>
 <!--/.Footer-->
     <!-- JQuery -->
 	
