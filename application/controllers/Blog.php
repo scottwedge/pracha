@@ -114,6 +114,17 @@ public function __construct()
 		$this->load->view('how_to_start_and_earn_in_affiliate_marketing',$commets);
 		$this->load->view('footer');
 	}
+	public function top_five_social_neworking_sites()
+	{
+		$data['meta_title'] = 'How To Start And Earn In Affiliate Marketing';
+		$data['meta_description'] = 'Have you ever thought of making money by referring people to Amazon or any other ecommerce website? If you are new to affiliate marketing then this article is especially for you.';
+		$data['meta_keywords'] = 'affiliate marketing, digital marketing, how to earn in affiliate marketing, amazon affiliate, flipkart affiliate, become an affiliate.';
+		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
+		$data['currentURL'] = current_url();
+		$this->load->view('header',$data);
+		$this->load->view('top_five_social_neworking_sites',$commets);
+		$this->load->view('footer');
+	}
 	public function registerpost(){
 		
 			$post=$this->input->post();
