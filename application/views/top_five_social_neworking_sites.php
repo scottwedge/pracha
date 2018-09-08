@@ -19,12 +19,12 @@
                         <?php endif; ?>
                         <div class=" ">
                             <div class="text-center ">
-                                <h1 class="ptb-15 font-30" style="text-transform:capitalize"><b>How To Start And Earn In Affiliate Marketing</b></h1>
+                                <h1 class="ptb-15 font-30" style="text-transform:capitalize"><b>Top Five Social Neworking Sites</b></h1>
                                 <br>
-                                <p>Have you ever thought of making money by referring people to Amazon or any other ecommerce website? If you are new to affiliate marketing then this article is especially for you. In this article you will know about affiliate marketing and how it works.</p>
+                                <p>This article is especially for dummies who are not aware of social media platforms. In this article you will find the top 5 social media platforms with their basic information.</p>
                             </div>
                             <div class=" view overlay  " style="margin-top:50px;">
-                                <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/how-to-start-and-earn-in-affiliate-marketing.png" alt="What is eCommerce and how many types of eCommerce are there?" class="">
+                                <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/top_five_social_neworking_sites.jpg" alt="What is eCommerce and how many types of eCommerce are there?" class="">
                                 <a>
                         
                     </a>
@@ -41,223 +41,59 @@
                 <div class="row ">
                     <div class="col-md-10 mb-20 pt-30 ">
                         <h2 class="text-left">
-                            <span class="tit1">Affiliate Marketing </span>
+                            <span class="tit1">Social Media </span>
                         </h2>
                     </div>
                 </div>
 
-                <p>The term “Affiliate” means a person or organization officially attached to a larger body, and  “Marketing” means the action of promoting and selling products or services. In simple “Affiliate Marketing” means a person or organization promoting and selling the products or services officially that belongs to a larger body. </p>
+                <p>Social Media is the computer-mediated tool that require a website or an application to interact with public and allows people to create, share or exchange information, pictures, videos, ideas and opinions etc., by means of virtual communities and networks. Social media is the best tool for marketing or promoting a website or a blog where you will get the maximum reach.</p>
+                <p>Let's talk regarding  the basic information about the top 5 social networking sites….. </p>
+                
 				<div class="row ">
                     <div class="col-md-10 mb-20 pt-30 ">
                         <h2 class="text-left">
-                            <span class="tit1">The concept of Affiliate Marketing</span>
+                            <span class="tit1">Facebook</span>
                         </h2>
                     </div>
                 </div>
 
-                <p>The concept of affiliate marketing is very simple, for example let’s say you become an affiliate for Amazon, Flipkart, Snapdeal, eBay or any other ecommerce websites that offer affiliate marketing,  and if you bring a person to their website  and if that person makes a purchase then you will get a commission from these ecommerce websites, and this is what affiliate marketing means. If you are an active participant to bring customers to these sites then there is a great possibility to draw decent income from these huge ecommerce websites.</p>
+                <p>Facebook is a social networking website which was founded by Mark Zuckerberg in  February 2004. The simplicity in design and efficiency in the performance made Facebook the best social site in the world. It is regarded as one of the best social media platforms that allow us to connect and share information with our targeted audience  friends and family. Bloggers can share their blogs, and users can share their opinions,  new topics and news topics. We can create a group or a  public page to promote businesses that will reach the targeted audience. This is an awesome platform to promote your business local or global, and serves as the best tool for communication, entertainment, education.</p>
 					
-					<p class="pt-4"><h2>The steps to be followed in Online Affiliate Marketing</h2> </p>
-									<div class="row py-3">
-										<div class="col-2 col-md-1 text-right">
-											<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-										</div>
-										<div class="col-10">
-											<h5 class=" text-left  dark-grey-text font-w-400 text-site"><strong>Step 1: Choose the type of product you want to promote</strong></h5>
-											<p>Select a category in which you are most interested in, this is very important because what you 
-											Choose here is going to be your topic which you are going to promote. You can view the Product and Commission list side by side in the category box. Once you are done with the category you can proceed to the next step.</p>
-											
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-2 col-md-1 text-right">
-											<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-										</div>
-										<div class="col-10">
-											<h5 class=" text-left  dark-grey-text font-w-400 text-site"><strong>Step 2: Website or Youtube Channel or Facebook Page </strong></h5>
-											<p>To be an Affiliate Marketer you should have a <b> Website </b> or a <b>Youtube channel </b> or a  <b> Facebook Page </b> to promote the products. Among these three, creating a Website is most preferable to build trust to the customer. Driving traffic to your website is the most essential thing, in reality  without driving traffic to your site or channel you will go nowhere. Let driving traffic to your channel or site be your first priority. Then you can easily promote the product. </p>
-											
-										</div>
-									</div>
-									<br>
-							<div class="py-4">
-								<h2 class="text-left">
-                                    <span class="tit1">For instance let’s take Amazon as an example</span>
-                                </h2>
-							</div>
-							 <div class="text-center">
-							<img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/amazon-as-an-example.jpg" alt="For instance let’s take Amazon as an example">
-						</div>
 				<br>
 				<div class="py-4">
 					<h2 class="text-left">
-						<span class="tit1">Sign-up For The Amazon Affiliate Program</span>
+						<span class="tit1">Youtube</span>
 					</h2>
 				</div>
-				<p> Go to Amazon.in and you will find <b>Become an Affiliate</b> tab at the bottom of the page, and click on it and complete the Signup process. After completing you will find your Amazon Associate account is ready to be used. </p>	
+				<p>Youtube is a video sharing platform where all the users can watch, like, comment and share the videos. Youtube was founded by Steve Chen, Chad Hurley and Jawed Karim in the year 2005. The interface of the Youtube website is available in 76 languages. Users can also share the videos in other messenger apps like Whatsapp, Skype etc.,Youtube is directly linked to Google, so without Gmail account a person cannot log in to Youtube. Youtube users can create their own  channel and  upload their own creative videos. Moreover youtube offers monetization, where one can earn money online through Google adsense account, i.e Google will display ads on the videos according to the specifications of the channel. Generally there are 4 types of ads Display ads, Video ads, Skippable ads and non skippable ads. Users likely get around Rs 450/- for 1000 Ad views, and can roughly earn upto Rs 1,20,000/- for every 10 lakh views, in that Youtube takes 45 percent.  </p>	
 				<br>
 				<div class="py-4">
 					<h2 class="text-left">
-						<span class="tit1">How to bring a person to Amazon</span>
+						<span class="tit1">Twitter</span>
 					</h2>
 				</div>
-				<p> When you sign up Affiliate for Amazon, you will get an Affiliate link, you need to promote this link in your Website or Youtube channel or Facebook page, so that you get paid when people buy from it. There are many ways to share this link but the best way is by creating a website. When a person visits your site and clicks on your affiliate link this will take him to Amazon, once he buys the product you will get the commission, the best part of this is even that person buys some other product you will still get commission. He or she has to make a purchase within 24 hours. The commission will be deposited into your bank account automatically. </p>
-				<p>The process will be same for other ecommerce websites also.</p>
-				<br>
-				<div class="py-4">
+				<p>Twitter is also one of the best social networking sites and online news site in which people can communicate and share their opinion in short messages known as “Tweet”. Twitter was created by Jack Dorsey, Noah Glass, Biz Stone and Evan Williams in the year 2006.  Tweeting means sending a short message to someone who is following you on Twitter. Tweet entry is limited upto 280 or less characters. The restrictions of the characters has really made twitter a popular social networking site. Twitter is a powerful tool for any organisation that want to be unique. A user can get Twitter feeds simply by following any interested person or celebrity and can also unfollow them when not interested. “Twitter Marketing” is another major thing to drive traffic to your website or business, the key is you should constantly promote your website in an interesting way  to engage your followers.</p>
+                <br>
+                <div class="py-4">
 					<h2 class="text-left">
-						<span class="tit1">Top 10 eCommerce sites that offer Affiliate Marketing </span>
+						<span class="tit1">Instagram</span>
 					</h2>
 				</div>
-				<div class="row pt-3">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Amazon</strong></h5>
-						
-					</div>
+				<p>Instagram is also the best social networking platform which allows the registered users to create their profile, share photos and videos with kins, colleagues and other type of audience. Instagram was founded by Kevin Systrom and Mike Krieger in 2010. Basically Instagram is the best among all the other social media platforms specially for photos and videos. Instagram is very similar to Twitter and Facebook in which users can get registered and create their own profile. When a user post a photo or video on Instagram it will appear on your profile as well as to  the users who are following you. Just like that you too can see the post from other users whom you are following. Instagram helps the registered users by giving better information as the application provides images, audios and videos from users.</p>
+                <br>
+                <div class="py-4">
+					<h2 class="text-left">
+						<span class="tit1">Linkedin</span>
+					</h2>
 				</div>
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Flipkart</strong></h5>
-						
-					</div>
-				</div>
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Shopclues</strong></h5>
-						
-					</div>
-				</div>
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Tatacliq </strong></h5>
-						
-					</div>
-				</div>
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Jabong</strong> </h5>
-						
-					</div>
-				</div>
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400"><strong>MakeMyTrip</strong> </h5>
-						
-					</div>
-				</div>
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400"><strong>eBay</strong></h5>
-						
-					</div>
-				</div><div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Nearnby</strong></h5>
-						
-					</div>
-				</div>
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400"><strong>Agoda</strong> </h5>
-						
-					</div>
-				</div> 	
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400"><strong>BigRock</strong> </h5>
-						
-					</div>
-				</div> 	
+				<p>Linkedin is a social networking site which is designed for career and business professionals to get connected. Linkedin was founded in the year 2002 by Reid Hoffman, Konstantin Guericke, Jean-Luk Vaillant, Allen Blue and Eric Ly. Linkedin is ideal for making connections with freelance work or to keep your job prospects. It also helps people to get in touch with old colleagues and potential clients. Users can also create their own group or page and promote in public. Linkedin is also a best tool for  promoting ads, it is especially designed for businesses and professionals. Linkedin helps a user to find a better job as per his/her qualification  and is equally useful to the organisation to get resumes or profiles of the candidates for required openings. People  use Linkedin to find and to be found by other people. Linkedin’s user profile appears like a digital resume, which tells about your skills and capabilities. Linkedin makes people   connected to the community.</p>
 				<div class="row justify-content-md-center">
                     <div class="col-md-12 mb-20 pt-30  ">  
-		<div class="py-4" >
-		<div >
-		<div class="col-md-10 mb-20 pt-30 ">
-			<h2 class="">
-				<span class="tit1">Conclusion </div>
-			</h2>
-		</div>
-			<p>To be a successful Affiliate Marketer you need to follow the following things</p>
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Study the market </h5>
-						
-					</div>
-				</div> 
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Choose the best products to sell</h5>
-						
-					</div>
-				</div> 
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Breadth and Depth of product knowledge</h5>
-						
-					</div>
-				</div>
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Develop the skill to market them correctly</h5>
-						
-					</div>
-				</div>
-				<div class="row ">
-					<div class="col-2 col-md-1 text-right">
-						<i class="fa fa-mail-forward fa-lg indigo-text"></i>
-					</div>
-					<div class="col-10">
-						<h5 class=" text-left  dark-grey-text font-w-400">Locate your audience and trigger them</h5>
-						
-					</div>
-				</div> 
-		</div>
+		
 	<div class="col-md-12 mb-20 pt-30  ">
 			<div class="pull-right">
 				<h4 class="text-success font20"><i>Article by:</i></h4>
-				<p class="text-dark">Chakravarthy Jah</p>
+				<p class="text-dark">Satish Jaiswal</p>
 			</div>
 		</div>
 			<div class="col-md-12 mb-20 pt-30 ">
