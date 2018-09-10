@@ -30,7 +30,7 @@
             <p class="grey-text">If you have the desire to attract audience attention across the world with your creative ideas and videos, then this article is for you.</p>
 			<div class="row">
 				<div class="col-md-7 ">
-					<p class="date-design">01-March-2018</p>
+					<p class="date-design">1-March-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/how_to_create_manage_and_optimize_a_youtube_channel');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>
@@ -244,7 +244,7 @@
 		<div class="card  pad-10">
             <!--Featured image-->
             <div class="view overlay rounded z-depth-2 mb-2">
-                <img src="<?php echo base_url(); ?>assets/vendor/img/top_five_social_neworking_sites.jpg" class="img-fluid" alt="Key elements to design a best website">
+                <img src="<?php echo base_url(); ?>assets/vendor/img/top_five_social_neworking_sites.png" class="img-fluid" alt="Key elements to design a best website">
                <a href="<?php echo base_url('blog/top_five_social_neworking_sites');?>">
                     <div class="mask rgba-white-slight"></div>
                 </a>
@@ -252,14 +252,14 @@
             
             
             <h3 class="mb-3  dark-grey-text font-25 mar-t20">
-                <strong>Social Media Marketing And Its Benefits</strong>
+                <strong>Top 5 Social Networking Sites - Social Media Platforms</strong>
             </h3>
            
             <p class="grey-text">This article is especially for dummies who are not aware of social media platforms. In this article you will find the top 5 social media platforms with their basic information. </p>
             <div class="py-3">&nbsp;</div>
 			<div class="row">
 				<div class="col-md-7 ">
-					<p class="date-design">30-June-2018</p>
+					<p class="date-design">1-July-2018</p>
 				</div>
 				<div class="col-md-5 ">
 					<a href="<?php echo base_url('blog/top_five_social_neworking_sites');?>" class="btn btn-warning btn-rounded btn-sm pull-right">Read more</a>

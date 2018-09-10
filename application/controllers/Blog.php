@@ -116,9 +116,9 @@ public function __construct()
 	}
 	public function top_five_social_neworking_sites()
 	{
-		$data['meta_title'] = 'How To Start And Earn In Affiliate Marketing';
-		$data['meta_description'] = 'Have you ever thought of making money by referring people to Amazon or any other ecommerce website? If you are new to affiliate marketing then this article is especially for you.';
-		$data['meta_keywords'] = 'affiliate marketing, digital marketing, how to earn in affiliate marketing, amazon affiliate, flipkart affiliate, become an affiliate.';
+		$data['meta_title'] = 'Top 5 Social Networking Sites';
+		$data['meta_description'] = 'This article is especially for dummies who are not aware of social media platforms. In this article you will find the top 5 social networking sites with their basic information.';
+		$data['meta_keywords'] = 'top 5 social networking sites, top five social networking sites, top 5 social media platforms, top five social media platforms, top 5 social media channels, top five social media channels.';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
