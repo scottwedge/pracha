@@ -2,7 +2,7 @@
 <section title="Web Development Company In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-development-background.png);background-repeat: no-repeat;background-size: 100% 100%;  ">
 
   <h1>
-    WEB DEVELOPMENT <br />
+    WEB DEVELOPMENT COMPANY IN HYDERABAD <br />
 	<br>
 	<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Custom Application Development", "Content Management System (CMS)", "eCommerce Web Development","MEAN Stack Development", "Web Development Company In Hyderabad", " " ]'>
    
@@ -88,7 +88,7 @@
         <h2 class="mb-4 font-bold dark-grey-text head-h2">
 			<strong>Custom Application Development</strong>
         </h2>
-        <p>Custom application development is the designing of software applications for a specific user within an organisation. Every business demands its own requirements, so we build complex applications to address your unique business needs. We offer a wide range of applications like Enterprise  application, web application, mobile apps development, business application, eCommerce application etc. These kind of configurable solutions are very  essential to the applications to customize the organisation's processes and its workflows. These are particularly designed for custom design customers with most demanding challenges  and cost effective.</p>
+        <p>Custom application development is the designing of software applications for a specific user within an organisation. Every business demand its own requirements, so we build complex applications to address your unique business needs. We offer a wide range of applications like Enterprise  application, web application, mobile apps development, business application, eCommerce application etc. These kind of configurable solutions are very  essential to the applications to customize the organisation's processes and its workflows. These are particularly designed for custom design customers with most demanding challenges  and cost effective.</p>
 		
     </div>
     <!--Grid column-->
@@ -221,7 +221,7 @@
             </div>
 			<div class="clearfix">&nbsp;</div>
 				<div class="col-md-1"></div>
-				 <p class="text-left font-bold col-md-10  "> We not only design stunning websites but also implement various SEO techniques  for our clients, for better rankings in Google. “Keyword” plays a major role in SEO, so it is must to identify the targeted keywords.</p>
+				 <p class="text-left font-bold col-md-10  "> We not only develop stunning websites but also implement various SEO techniques  for our clients, for better rankings in Google. “Keyword” plays a major role in SEO, so it is must to identify the targeted keywords.</p>
         </div>
 		       
 			   
@@ -274,7 +274,7 @@
 			<h3><strong>LSI keywords:</strong></h3>
 			<h2 class="h2-custom">Web Development Company In Hyd </h2>
             <h2 class="h2-custom">Web Development Company In Hyderabad </h2>
-            <h2 class="h2-custom">Web Development Company In Hyderabad list etc. </h2> 
+            <h2 class="h2-custom">Web Development Company In Hyderabad List <span style="text-transform: lowercase;">etc.</span> </h2> 
 			<p> The above mentioned are some of the examples of the LSI keywords. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
             
 
@@ -358,7 +358,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best web development   companies in Hyderabad, and we have a proven track record for bringing forth best websites and its promotions. </div>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as the best web development  company in Hyderabad, and we have a proven track record for bringing forth best websites and their digital promotions. </div>
             
         </div>
         </div>
