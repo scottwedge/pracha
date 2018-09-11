@@ -15,14 +15,23 @@
 
 </section>
 <div class="clearfix">&nbsp;</div>
-<section class="mar-mi140">
+<section class="py-4">
 <div class="container-sty card " >
-
-	<div class="row justify-content-md-center pad-t40" >
+        <div class="row  text-center">
+            <div class="col-sm-12 pt-30">
+                <h2>
+                    <span class="tit">
+                        <span class="des_t"> Prachatech Mobile App Development Company</span>
+                    </span> 
+                </h2>
+            </div>
+        </div>
+    <div class="clearfix">&nbsp;</div>
+	<div class="row justify-content-md-center" >
 		<p class="font-18 col-md-11">As per latest Google reports, two in five Google searches is now being carried out on a mobile device or a smartphone. One out of every three searches is now local, so if you don’t have a mobile optimized version of your website you are throwing away a large chance of your business. Creating a mobile optimised version of your website is faster, easier and less expensive. Let’s have a glimpse about the different types of Mobile Apps . </p>
 	</div>
-	</br>
-	<h2 class="head-ing">MOBILE APPLICATIONS</h2>
+	<br>
+	<h2 class="head-ing text-warning font-bold">MOBILE APPLICATIONS</h2>
 	<div class="row justify-content-md-center" >
 		
 		<p class="col-md-11">Mobile Apps can benefit your business in a real good manner. As per the   ABI’s latest research Mobile apps help boosting business upto 80%,	because people spend more time on mobiles than on TV or Computer. Mobile apps are three types namely: Native Mobile apps, Web apps and Hybrid Mobile apps.</p>
@@ -220,11 +229,108 @@
 
     </div>
 </div>
-	</div>
-	</section>
+    </div></div></section></div>
 </div>
 
 	
+</section>
+    
+<section  class="py-4">
+    <div class="container-sty card ">
+        <div class="row  text-center">
+            <div class="col-sm-12 mb-20 pt-30">
+
+                <h3 class="font-bold">
+                    <span class="tit">
+									<span class="des_t">Why Choose Us? </span>
+                    </span>
+                </h3>
+				<div class="clearfix">&nbsp;</div>
+				 <p class="text-center font-bold "> We are Digital Marketers! We are Web Designers! We are Mobile App Developers!  <br> Try us! Yeah, You make it worth of Trying us.</p>
+
+
+            </div>
+
+        </div>
+		       
+
+
+    <!--Grid row-->
+    <div class="row pt-2">
+
+ 
+    <div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;">
+	<br>
+	<br>
+	<br>
+	<br>
+        <img src="<?php echo base_url(); ?>assets/vendor/img/.png" alt="our mobile web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      
+		<!--Grid row-->
+        <div class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best digital marketing  companies in Hyderabad, and we have a proven track record for bringing forth best SEO results & SMM promotions. </div>
+            
+        </div>
+        </div>
+        <!--Grid row-->
+
+       
+
+        <!--Grid row-->
+        <div data-wow-duration="0.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: search engine optimization, social media marketing, Google adwords, Google analytics and email campaigns etc., at affordable prices especially for individuals and startups. </div> 
+            
+        </div>
+        </div>
+	
+
+        <!--Grid row-->
+       
+        <!--Grid row-->
+        <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
+        <div class="col-2 col-md-1">
+            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+        </div>
+        <div class="col-10">
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
+            <p class="grey-text text-left"></p>
+        </div>
+        </div>
+		
+        <!--Grid row-->
+
+    </div>
+    <!--Grid column-->
+	<div class="clearfix"> &nbsp;</div>
+	<div class=" col-md-1"> &nbsp;
+	</div>
+	<div class=" justify-content-md-center col-md-10">
+		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best web designing and digital marketing company in Hyderabad above all our competitors. 
+</p>
+	</div>	
+
+    </div>
+    
+<div class="clearfix"> &nbsp;</div>
+
+       
+           
+    </div>
+
 </section>
 <div class="clearfix">&nbsp;</div>
 
