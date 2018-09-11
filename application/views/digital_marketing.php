@@ -2,10 +2,10 @@
 <section title="Digital Marketing Company In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/digital-marketing-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
 
   <h1>
-  DIGITAL MARKETING<br /><br>
+  Digital Marketing Company In Hyderabad<br /><br>
   
 
-  <p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Search Engine Optimization", "Social Media Marketing", "Google Adwords","Content Marketing","email Marketing","Google Analytics", "Digital Marketing Company In Hyderabad",  " " ]'>
+  <p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Search Engine Optimization", "Social Media Marketing", "Google Adwords","Content Marketing","email Marketing","Google Analytics" ]'>
    
   </p>
 
