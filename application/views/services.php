@@ -23,9 +23,9 @@
   </style>
   <section title="Web Designing Services In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png); ">
 	<h1>
-    Pracha Technologies Pvt. Ltd.<br />
+    Web Designing Services In Hyderabad<br />
 	<br>
-		<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Web Designing Services", "Digital Marketing Company", "Web Designing Company", "Mobile App Development Company", "eCommerce Website Developers" ]'></p>
+		<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Digital Marketing", "Web Designing Services ", "Mobile App Development", "eCommerce Web Designing", "Software Maintenance" ]'></p>
 	</h1>
 	
 </section>
@@ -212,9 +212,9 @@
         <!--Excerpt-->
      
         <h2 class="mb-4 font-bold dark-grey-text">
-        <strong>E-Commerce Website</strong>
+        <strong>E-Commerce Web designing Services</strong>
         </h2>
-        <p>Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are various  types of eCommerce, they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G), Government To Business (G2B), Government To Citizen (G2C) and Mobile  commerce (m-commerce). Among all these commerce sites,  Mobile  commerce (m-commerce) is particularly done through mobile only. We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions, thats why we are considered as the best ecommerce web designing serv-ices in Hyderabad. 
+        <p>Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are various  types of eCommerce, they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G), Government To Business (G2B), Government To Citizen (G2C) and Mobile  commerce (m-commerce). Among all these commerce sites,  Mobile  commerce (m-commerce) is particularly done through mobile only. We provide services for existing ecommerce sites, and develop new ecommerce secure  websites with highly secured payment transactions, thats why we are considered as the best ecommerce web designing services in Hyderabad. 
 </p>
         <a href="<?php echo base_url('ecommerce'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
     </div>
@@ -295,7 +295,7 @@
         <h3 class="mb-4 font-bold dark-grey-text">
         <strong>Software Maintenance</strong>
         </h3>
-        <p>Maintenance and Support is a critical perspective towards upgrading and broadening the life of the applications. Typically organizations are battling with lack of specialized specialists to deal with both mission-basic assignments and unforeseen possibilities. At such circumstances Prachatech web designing services can help you in numerous ways. Our Maintenance team, who particularly work on it will guarantee your business applicat-ions work consistently to give a protected and superior stage for the clients. 
+        <p>Maintenance and Support is a critical perspective towards upgrading and broadening the life of the applications. Typically organizations are battling with lack of specialized specialists to deal with both mission-basic assignments and unforeseen possibilities, to eradicate such typical problems we, as a web designing services in Hyderabad are here to help you in numerous ways. Our Maintenance team, who particularly work on it will guarantee your business applications work consistently to give a protected and superior stage for the clients. 
 </p>
 
 
