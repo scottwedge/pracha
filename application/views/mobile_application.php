@@ -264,7 +264,7 @@
 	<br>
 	<br>
 	<br>
-        <img src="<?php echo base_url(); ?>assets/vendor/img/.png" alt="our mobile web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
+        <img src="<?php echo base_url(); ?>assets/vendor/img/wcs1.png" alt="our mobile web designing company in hyderabad" class="img-fluid " style="margin-top:-100px;">
     </div>
     <!--Grid column-->
 
