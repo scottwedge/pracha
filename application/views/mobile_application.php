@@ -2,9 +2,9 @@
 <section title="Mobile App Development Services In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/mobile-application-development-background.png);background-repeat: no-repeat;background-size: 100% 100%; ">
 
   <h1>
-   MOBILE APP DEVELOPMENT <br />
+   MOBILE APP DEVELOPMENT COMPANY IN HYDERABAD <br />
 	<br>
-	<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[   "iOS Mobile App Development", "Android Mobile App Development", "Hybrid Mobile Apps","Mobile Integration","Mobile Application Testing","Mobile Application Security", "Mobile App Development Services  In Hyderabad",  " " ]'>
+	<p  style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[   "iOS Mobile Apps", "Android Mobile Apps", "Hybrid Mobile Apps","Mobile Integration","Mobile Application Testing","Mobile Application Security" ]'>
    
   </p>
  
@@ -27,11 +27,21 @@
             </div>
         </div>
     <div class="clearfix">&nbsp;</div>
-	<div class="row justify-content-md-center" >
-		<p class="font-18 col-md-11">As per latest Google reports, two in five Google searches is now being carried out on a mobile device or a smartphone. One out of every three searches is now local, so if you don’t have a mobile optimized version of your website you are throwing away a large chance of your business. Creating a mobile optimised version of your website is faster, easier and less expensive. Let’s have a glimpse about the different types of Mobile Apps . </p>
-	</div>
+	
+	
+	
+	<div class="row justify-content-md-center" > 
+					<p class="font-18 col-md-11">Pracha Technologies Pvt. Ltd. is a mobile app development company in Hyderabad. The company deals with mobile apps for Android, iOS and Hybrid platforms. The company also provides top-notch web designs, eCommerce websites and offers digital marketing services to promote them across the world with various digital marketing techniques. In this digital era, it is required for every business to have a website and a mobile application because as per latest Google reports, two in five Google searches is now being carried out on a mobile device or a smartphone and one out of every three searches is now local, so if you don’t have a mobile app and a mobile optimized version of your website you are throwing away a large chance of your business. Creating a mobile optimised version of your website is faster, easier and less expensive. We are recognised by our clients through our quality work and customer service, and  we can assure the most satisfactory outcomes at affordable prices. Let’s have a glimpse about the different types of Mobile Apps.
+
+					  
+					</p>
+					
+					
+					</div>
 	<br>
 	<h2 class="head-ing text-warning font-bold">MOBILE APPLICATIONS</h2>
+	
+	
 	<div class="row justify-content-md-center" >
 		
 		<p class="col-md-11">Mobile Apps can benefit your business in a real good manner. As per the   ABI’s latest research Mobile apps help boosting business upto 80%,	because people spend more time on mobiles than on TV or Computer. Mobile apps are three types namely: Native Mobile apps, Web apps and Hybrid Mobile apps.</p>
@@ -246,7 +256,7 @@
                     </span>
                 </h3>
 				<div class="clearfix">&nbsp;</div>
-				 <p class="text-center font-bold "> We are Digital Marketers! We are Web Designers! We are Mobile App Developers!  <br> Try us! Yeah, You make it worth of Trying us.</p>
+				 <p class="text-center font-bold "> We are Mobile App Developers! We are Web Designers! We are Digital Marketers!   <br> Try us! Yeah, You make it worth of Trying us.</p>
 
 
             </div>
@@ -278,7 +288,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best digital marketing  companies in Hyderabad, and we have a proven track record for bringing forth best SEO results & SMM promotions. </div>
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best mobile app development companies in Hyderabad, and we have a proven track record for developing mobile applications that support various platforms. </div>
             
         </div>
         </div>
@@ -292,7 +302,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: search engine optimization, social media marketing, Google adwords, Google analytics and email campaigns etc., at affordable prices especially for individuals and startups. </div> 
+            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We design: Android mobile apps, iOS mobile apps, Hybrid mobile apps, Mobile optimised websites  at affordable prices especially for individuals and startups. </div> 
             
         </div>
         </div>
@@ -319,7 +329,7 @@
 	<div class=" col-md-1"> &nbsp;
 	</div>
 	<div class=" justify-content-md-center col-md-10">
-		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best web designing and digital marketing company in Hyderabad above all our competitors. 
+		<p class="">Whether an  individual or an enterprise, our customers always received unmatched services. Our knowledge of global best practices along with our deep research on each and every domain regarding web design, mobile apps and promoting them digitally at affordable prices had made us to stand as the best web designing and mobile app development company in Hyderabad above all our competitors. 
 </p>
 	</div>	
 
