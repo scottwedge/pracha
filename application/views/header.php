@@ -107,6 +107,29 @@
         </div>
    </nav>
 </header>
+<!-- Central Modal Small -->
+<div class="modal fade" id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-indigo text-white" style="border-radius:0px;">
+            <h5 class="modal-title" id="exampleModalLongTitle">Terms and Conditions</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Refunds/Cancellations: Kindly align the Refund policy to be inline with the products and services available on the website and include the number of days taken to process the refund and credit the amount to the customers bank account.(for e.g. 5-7 working days). </p>
+            
+          </div>
+         <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary waves-effect waves-light" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary waves-effect waves-light">Save changes</button>
+          </div>-->
+        </div>
+      </div>
+  </div>
+  <!-- Central Modal Small -->
 <!--<a class="btn-floating btn-lg scrolltotop bg-dark">
 <i class="fa fa-arrow-up"></i></span></a>-->
 <script>

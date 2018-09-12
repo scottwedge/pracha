@@ -5,6 +5,16 @@
 p{
 	font-size:18px;
 }
+.blink_me {
+  animation: blinker 1s linear infinite;
+  cursor: pointer !important;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 .pad-t40{
 	padding-top:40px
 }
