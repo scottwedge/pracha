@@ -110,22 +110,62 @@
 <!-- Central Modal Small -->
 <div class="modal fade" id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-fluid" role="document" style="padding:20px;">
         <div class="modal-content">
           <div class="modal-header bg-indigo text-white" style="border-radius:0px;">
-            <h5 class="modal-title" id="exampleModalLongTitle">Terms and Conditions</h5>
+            <h5 class="modal-title" id="exampleModalLongTitle">Payment Policy</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
-            <p>Refunds/Cancellations: Kindly align the Refund policy to be inline with the products and services available on the website and include the number of days taken to process the refund and credit the amount to the customers bank account.(for e.g. 5-7 working days). </p>
-            
+            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
+              rutrum faucibus dolor auctor.</p>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+            </p>
+            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
+              rutrum faucibus dolor auctor.</p>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+            </p>
+            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
+              rutrum faucibus dolor auctor.</p>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+            </p>
+            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
+              rutrum faucibus dolor auctor.</p>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+            </p>
+            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
+              rutrum faucibus dolor auctor.</p>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+            </p>
+            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
+              rutrum faucibus dolor auctor.</p>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+            </p>
           </div>
-         <!-- <div class="modal-footer">
+          <div class="modal-footer">
             <button type="button" class="btn btn-secondary waves-effect waves-light" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-primary waves-effect waves-light">Save changes</button>
-          </div>-->
+          </div>
         </div>
       </div>
   </div>
