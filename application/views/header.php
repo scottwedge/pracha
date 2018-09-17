@@ -339,7 +339,7 @@ Pracha Technologies may at any time, without notice to you and in its sole discr
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary waves-effect waves-light" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary waves-effect waves-light">Save changes</button>
+            
           </div>
         </div>
       </div>

@@ -299,12 +299,11 @@
     </div>
     <!--/.Footer Links-->
 
-    <hr>
-
+   
  
 
     <!--Social buttons-->
-	<div class="social-section text-center footer-copyright">
+	<div class="social-section text-center">
         <ul>
 		<li><h6 class="title-footer mb-4 mt-3 font-bold font-20" style="letter-spacing: 0px;">Follow us @</h6></li>
             <li>&nbsp;</li>
@@ -312,6 +311,10 @@
             <li><a href="https://twitter.com/Prachatech" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
            <li><a href="https://plus.google.com/103803990699303943827/" target="_blank" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
 			</ul>
+			
+    </div>
+	<div class="text-center footer-copyright">
+       <div class="text-center" style="font-size:16px;font-weight:500;letter-spacing:1px;">Copyright By Pracha Technologies Pvt Ltd. All Rights Reserved. <a href="">Privacy Policy </a>| <a href="">Terms & Conditions</a> | <a href="">Refunds / Cancellations </a>| <a href="">Sitemap</a></div>
 			
     </div>
 	
