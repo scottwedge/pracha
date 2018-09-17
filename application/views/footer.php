@@ -279,9 +279,6 @@
             <div class="col-md-2 mx-auto">
                 <h6 class="title-footer mb-4 mt-3 font-bold font-20" style="letter-spacing: 0px;">Our Webfolio</h6>
                 <ul>
-				
-
-
 
                      <li><a href="<?php echo base_url(); ?>" >Home</a></li>
 					 <!--<li><a href="#">About Us</a></li>-->
@@ -290,7 +287,6 @@
 					<li><a href="<?php echo base_url('blog'); ?>">Blog</a></li>
                     
                     <li><a href="<?php echo base_url('contactus');?>">Contact Us</a></li>
-                    <li class="blink_me"  data-toggle="modal" data-target="#centralModalSm">Payment Policy</li>
                    
                 </ul>
             </div>
@@ -314,7 +310,7 @@
 			
     </div>
 	<div class="text-center footer-copyright">
-       <div class="text-center" style="font-size:16px;font-weight:500;letter-spacing:1px;">Copyright By Pracha Technologies Pvt Ltd. All Rights Reserved. <a href="">Privacy Policy </a>| <a href="">Terms & Conditions</a> | <a href="">Refunds / Cancellations </a>| <a href="">Sitemap</a></div>
+       <div class="text-center" style="font-size:16px;font-weight:500;letter-spacing:1px;">Copyright By Pracha Technologies Pvt Ltd. All Rights Reserved. <a href="" data-toggle="modal" data-target="#privacyPolicy">Privacy Policy </a>| <a href="" data-toggle="modal" data-target="#termsConditions">Terms & Conditions</a> | <a href="" data-toggle="modal" data-target="#refundsCance">Refunds / Cancellations </a>
 			
     </div>
 	

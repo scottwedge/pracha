@@ -113,18 +113,17 @@
    </nav>
 </header>
 <!-- Central Modal Small -->
-<div class="modal fade" id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="privacyPolicy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
     <div class="modal-dialog modal-fluid" role="document" style="padding:20px;">
         <div class="modal-content">
           <div class="modal-header bg-indigo text-white" style="border-radius:0px;">
-            <h5 class="modal-title" id="exampleModalLongTitle">Payment Policy</h5>
+            <h5 class="modal-title" id="exampleModalLongTitle">Privacy Policy</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
-              <h3 class="text-warning">Privacy</h3><br>
             <p><strong class="privacy-policy-heading">We Value Your Privacy</strong></p>
             <p>PRACHA ONLINE PRIVACY POLICY STATEMENT HIGHLIGHTS</p>
             <br>
@@ -218,8 +217,28 @@ You can choose to not share your information by not filling up the form and not 
 You can at any time change your consent earlier provided for any specific use of your data.
 <p>
 If you have any question regarding our privacy policy or data handling practices, we would be glad to hear from you at mail@PRACHAinfo.com
-</p>    <br>
-              <h3 class="text-warning">Terms & Conditions</h3><br>
+</p>    
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary waves-effect waves-light" data-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- Central Modal Small -->
+    
+    <div class="modal fade" id="termsConditions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-fluid" role="document" style="padding:20px;">
+        <div class="modal-content">
+          <div class="modal-header bg-indigo text-white" style="border-radius:0px;">
+            <h5 class="modal-title" id="exampleModalLongTitle">Terms & Conditions</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
             <p><strong class="privacy-policy-heading">Know Your Rights</strong><br>
 STANDARD PRACHA TERMS OF USE OF WORKING WITH PRACHA
 </p>
@@ -275,9 +294,28 @@ These terms shall be governed by and interpreted in accordance with Indian Law. 
 </p>
             <p><strong class="privacy-policy-heading">Severability</strong><br>
 In the event any one or more of the provisions of this Agreement and/or Order shall be held to be invalid, illegal or unenforceable, the remaining provisions of this Agreement and/or Order shall be unimpaired, and the Agreement and/or Order shall not be void for this reason alone. Such invalid, illegal or unenforceable provision shall be replaced by a mutually acceptable valid, legal and enforceable provision, which comes closest to the intention of the parties underlying the invalid, illegal or unenforceable provision.
-</p>
-              <br>
-              <h3 class="text-warning">Refunds/Cancellations</h3><br>
+</p>        
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary waves-effect waves-light" data-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- Central Modal Small -->
+    
+    <div class="modal fade" id="refundsCance" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-fluid" role="document" style="padding:20px;">
+        <div class="modal-content">
+          <div class="modal-header bg-indigo text-white" style="border-radius:0px;">
+            <h5 class="modal-title" id="exampleModalLongTitle">Refunds/Cancellations</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
             <p>Every service offered by us takes different course of action to get accomplished from start to end thus refund policy differs from one service to other.
 There is always a certain set of resources that are involved in achieving every milestone of a campaign. Thus, a refund would not be entertained for the work already completed.
 No refund is possible for the fee paid in the form of administrative fees or installation charges.
@@ -345,8 +383,7 @@ Pracha Technologies may at any time, without notice to you and in its sole discr
       </div>
   </div>
   <!-- Central Modal Small -->
-<!--<a class="btn-floating btn-lg scrolltotop bg-dark">
-<i class="fa fa-arrow-up"></i></span></a>-->
+    
 <script>
 $('.scrolltotop').on('click', function() {
           $('html, body').animate({ scrollTop: 0 }, 800);
