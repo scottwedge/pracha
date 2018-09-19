@@ -21,7 +21,7 @@
                             <div class="text-center ">
                                 <h1 class="ptb-15 font-30" style="text-transform:capitalize"><b>Top 5 Social Networking Sites</b></h1>
                                 <br>
-                                <p>This article is especially for dummies who are not aware of social media platforms. In this article you will find the top 5 social media platforms with their basic information.</p>
+                                <p>This article is especially for beginners who are not aware of social media platforms. In this article you will find the top 5 social networking sites or social media platforms with their basic information.</p>
                             </div>
                             <div class=" view overlay  " style="margin-top:50px;">
                                 <img style="height:auto;width:100%;margin:0 auto;" src="<?php echo base_url(); ?>assets/vendor/img/top_five_social_neworking_sites.png" alt="What is eCommerce and how many types of eCommerce are there?" class="">
