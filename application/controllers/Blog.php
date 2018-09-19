@@ -117,7 +117,7 @@ public function __construct()
 	public function top_five_social_neworking_sites()
 	{
 		$data['meta_title'] = 'Top 5 Social Networking Sites';
-		$data['meta_description'] = 'This article is especially for dummies who are not aware of social media platforms. In this article you will find the top 5 social networking sites with their basic information.';
+		$data['meta_description'] = 'This article is especially for beginners who are not aware of social media platforms. In this article you will find the top 5 social networking sites with their basic information.';
 		$data['meta_keywords'] = 'top 5 social networking sites, top five social networking sites, top 5 social media platforms, top five social media platforms, top 5 social media channels, top five social media channels.';
 		$commets['comments_list']=$this->Blog_model->get_all_commets(3);
 		$data['currentURL'] = current_url();
