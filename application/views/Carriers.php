@@ -522,7 +522,7 @@
                               </tr>
 							</tbody>
 						  </table>
-							 <p>We are looking for an Android Developer who possesses a passion to push  mobile apps to another dimension with his/her creative thoughts and technicalities. He/She will work with our team of talented engineers to design and build the next generation  mobile applications. </p>
+							 <p>We are looking for an Android Developer who possesses a passion to push  mobile apps to another dimension with his/her creative thoughts and technicalities. He / She will work with our team of talented engineers to design and build the next generation  mobile applications. </p>
 						  </div>
 						 
 						<div class="col-md-6">
