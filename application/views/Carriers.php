@@ -341,7 +341,7 @@
 							  </tr> 
 							  <tr>
 								<th>Salary</th>
-								<td>2,40,000 – 3,00,000 + Work Incentives per annum</td>
+								<td>2,40,000 – 3,00,000</td>
                               </tr>
 							</tbody>
 						  </table>
@@ -431,7 +431,7 @@
 							  </tr> 
 							  <tr>
 								<th>Salary</th>
-								<td>2,40,000 – 3,00,000 + Work Incentives per annum</td>
+								<td>2,40,000 – 3,00,000</td>
                               </tr>
 							</tbody>
 						  </table>
@@ -518,7 +518,7 @@
 							  </tr> 
 							  <tr>
 								<th>Salary</th>
-								<td>2,40,000 – 3,00,000 + Work Incentives per annum</td>
+								<td>2,40,000 – 3,00,000</td>
                               </tr>
 							</tbody>
 						  </table>
@@ -560,7 +560,8 @@
 						</div>
 						<div class="col-md-12 py-2"> <p class="text-center">Interested candidates can forward their resume to <strong class="text-primary">hr@prachatech.com.</strong></p> </div>
 					</div>
-				</dive
+                    
+                </div>
                 
 				
 			</div>
