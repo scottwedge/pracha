@@ -214,6 +214,7 @@
 			
 				
 			
+<!--
 				<div class="card">
 					<div class="card-header" role="tab" id="headingThree">
 						<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -293,11 +294,276 @@
 						<div class="col-md-12 py-2"> <p class="text-center">Interested candidates can forward their resume to <strong class="text-primary">hr@prachatech.com.</strong></p> </div>
 					</div>
 				</div>
+-->
+                
+                <div class="card">
+
+					<!-- Card header -->
+					<div class="card-header" role="tab" id="headingThree">
+						<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+							<span class="mb-0">
+							<div class="row">
+								<div class="col-md-4 col-xs-4 col-sm-4">PHP Developer - With Codeigniter Framework</div>
+								 <div class="col-md-4 col-xs-4 col-sm-4">Software Developer</div>
+								 <div class="col-md-4 col-xs-4 col-sm-4">2-3 years of experience <i class="fa fa-angle-down rotate-icon"></i></div>
+								
+								</div>
+							</span>
+						</a>
+					</div>
+
+					<!-- Card body -->
+					<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<div class="card-body">
+							<div class="row">
+							<div class="col-md-6">
+						<table class="table table-bordered">
+							<tbody>
+							  <tr>
+								<th>Designation</th>
+								<td>PHP Developer</td>
+							  </tr>
+							  <tr>
+								<th>Eligibility</th>
+								<td>2-3 years of experience</td>
+							  </tr>
+							  <tr>
+								<th>Qualification</th>
+								<td>B.Tech</td>
+							  </tr>
+                              <tr>
+								<th>Job Type</th>
+								<td>Full Time</td>
+							  </tr>
+							  <tr>
+								<th>Number of positions</th>
+								<td>1</td>
+							  </tr> 
+							  <tr>
+								<th>Salary</th>
+								<td>2,40,000 – 3,00,000 + Work Incentives per annum</td>
+                              </tr>
+							</tbody>
+						  </table>
+							 <p>We are hiring PHP Developer with codeigniter framework  who  has the ability to craft and  write  code.  Candidate must have high PHP standard, and should be able to deliver in time. He / She will be a part of  full-stack creative team that is responsible for all aspects.</p>
+						  </div>
+						 
+						<div class="col-md-6">
+                            <h3>Responsibilities:</h3>
+							 <ul>
+						 <li>Write “clean”, well-designed code</li>
+						 <li>Produce detailed specifications</li>
+						 <li>Troubleshoot, test and maintain the core product software and databases to ensure strong optimization and functionality</li>
+						 <li>Contribute in all phases of the development lifecycle</li>
+						 <li>Follow industry best practices</li>
+						 <li>Develop and deploy new features to facilitate related procedures and tools if necessary</li>
+									</ul>
+                            
+						<h3>Requirements:</h3>
+						<ul>
+						 <li>Proven software development experience in PHP</li>
+						 <li>Understanding of open source projects like Joomla, Drupal, Wikis, osCommerce, etc</li>
+						 <li>Demonstrable knowledge of web technologies including HTML, CSS, Javascript, AJAX etc</li>
+						 <li>Good knowledge of relational databases, version control tools and of developing web services</li>
+						 <li>Experience in common third-party APIs (Google, Facebook, Ebay etc)</li>
+						 <li>Passion for best design and coding practices and a desire to develop new bold ideas</li>
+						 <li>BS/MS degree in Computer Science, Engineering or a related subject</li>
+						
+									</ul>
+								 
+							  </div>
+							  	   
+							   </div>
+						
+							   
+						</div>
+						<div class="col-md-12 py-2"> <p class="text-center">Interested candidates can forward their resume to <strong class="text-primary">hr@prachatech.com.</strong></p> </div>
+					</div>
+				</div>
+                
+                
+                <div class="card">
+
+					<!-- Card header -->
+					<div class="card-header" role="tab" id="headingFour">
+						<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+							<span class="mb-0">
+							<div class="row">
+								<div class="col-md-4 col-xs-4 col-sm-4">Graphic Designer </div>
+								 <div class="col-md-4 col-xs-4 col-sm-4">Graphics</div>
+								 <div class="col-md-4 col-xs-4 col-sm-4">2-3 years of experience <i class="fa fa-angle-down rotate-icon"></i></div>
+								
+								</div>
+							</span>
+						</a>
+					</div>
+
+					<!-- Card body -->
+					<div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<div class="card-body">
+							<div class="row">
+							<div class="col-md-6">
+						<table class="table table-bordered">
+							<tbody>
+							  <tr>
+								<th>Designation</th>
+								<td>Graphic Designer </td>
+							  </tr>
+                                <tr>
+								<th>Skills</th>
+								<td>Adobe, After-effects etc </td>
+							  </tr>
+							  <tr>
+								<th>Eligibility</th>
+								<td>2-3 years of experience</td>
+							  </tr>
+							  <tr>
+								<th>Qualification</th>
+								<td>Any Degree </td>
+							  </tr>
+                              <tr>
+								<th>Job Type</th>
+								<td>Full Time</td>
+							  </tr>
+							  <tr>
+								<th>Number of positions</th>
+								<td>1</td>
+							  </tr> 
+							  <tr>
+								<th>Salary</th>
+								<td>2,40,000 – 3,00,000 + Work Incentives per annum</td>
+                              </tr>
+							</tbody>
+						  </table>
+							 <p>We are looking for a creative Graphic designer with up-to-date knowledge to interpret our clients needs and to design solutions with high visual impact. You will work on a variety of products, including websites, books, magazines, product packaging, corporate identity etc.</p>
+						  </div>
+						 
+						<div class="col-md-6">
+                            
+						<h3>Requirements:</h3>
+						<ul>
+						 <li>Proven graphic designing experience</li>
+						 <li>Possession of creative flair, versatility, conceptual/visual ability and originality</li>
+						 <li>Demonstrable graphic design skills with a strong portfolio</li>
+						 <li>Ability to interact, communicate and present ideas</li>
+						 <li>Up to date with industry leading software and technologies (In Design, Illustrator, Dreamweaver, Photoshop etc)</li>
+						 <li>Highly proficient in all design aspects</li>
+						 <li>Professionalism regarding time, costs and deadlines</li>
+						
+									</ul>
+				        <h3>Responsibilities:</h3>
+				        <ul>
+						 <li>Cultivate a solid body of work</li>
+						 <li>Take the design “brief” to record requirements and clients needs</li>
+						 <li>Schedule project implementation and define budget constraints</li>
+						 <li>Work with a wide range of media and use graphic design software</li>
+						 <li>Think creatively and develop new design concepts, graphics and layouts</li>
+						 <li>Prepare rough drafts and present your ideas</li>
+						 <li>Amend final designs to clients comments and gain full approval</li>
+						 <li>Work as part of a team with copywriters, designers, stylists, executives etc.</li>
+									</ul>
+							  </div>
+							  	   
+							   </div>
+						
+							   
+						</div>
+						<div class="col-md-12 py-2"> <p class="text-center">Interested candidates can forward their resume to <strong class="text-primary">hr@prachatech.com.</strong></p> </div>
+					</div>
+				</div>
+                
+                
+                <div class="card">
+
+					<!-- Card header -->
+					<div class="card-header" role="tab" id="headingFive">
+						<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+							<span class="mb-0">
+							<div class="row">
+								<div class="col-md-4 col-xs-4 col-sm-4">Android Developer  </div>
+								 <div class="col-md-4 col-xs-4 col-sm-4">Software Developer</div>
+								 <div class="col-md-4 col-xs-4 col-sm-4">2-3 years of experience <i class="fa fa-angle-down rotate-icon"></i></div>
+								
+								</div>
+							</span>
+						</a>
+					</div>
+
+					<!-- Card body -->
+					<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<div class="card-body">
+							<div class="row">
+							<div class="col-md-6">
+						<table class="table table-bordered">
+							<tbody>
+							  <tr>
+								<th>Designation</th>
+								<td>Graphic Designer </td>
+							  </tr>
+							  <tr>
+								<th>Eligibility</th>
+								<td>2-3 years of experience</td>
+							  </tr>
+							  <tr>
+								<th>Qualification</th>
+								<td>B.Tech / Any Degree </td>
+							  </tr>
+                              <tr>
+								<th>Job Type</th>
+								<td>Full Time</td>
+							  </tr>
+							  <tr>
+								<th>Number of positions</th>
+								<td>1</td>
+							  </tr> 
+							  <tr>
+								<th>Salary</th>
+								<td>2,40,000 – 3,00,000 + Work Incentives per annum</td>
+                              </tr>
+							</tbody>
+						  </table>
+							 <p>We are looking for an Android Developer who possesses a passion to push  mobile apps to another dimension with his/her creative thoughts and technicalities. He / She will work with our team of talented engineers to design and build the next generation  mobile applications. </p>
+						  </div>
+						 
+						<div class="col-md-6">
+                            
+						<h3>Requirements:</h3>
+						<ul>
+						 <li>BS/MS degree in Computer Science, Engineering or a related subject</li>
+						 <li>Proven software development experience and Android skills development</li>
+						 <li>Proven working experience in Android app development</li>
+						 <li>Have published at least one original Android app</li>
+						 <li>Experience with Android SDK</li>
+						 <li>Experience working with remote data via REST and JSON</li>
+						 <li>Experience with third-party libraries and APIs</li>
+						 <li>Working knowledge of the general mobile landscape, architectures, trends, and emerging technologies</li>
+						 <li>Solid understanding of the full mobile development life cycle</li>
+						
+									</ul>
+				        <h3>Responsibilities:</h3>
+				        <ul>
+						 <li>Design and build advanced applications for the Android platform</li>
+						 <li>Collaborate with cross-functional teams to define, design, and ship new features</li>
+						 <li>Work with outside data sources and APIs</li>
+						 <li>Unit-test code for robustness, including edge cases, usability, and general reliability</li>
+						 <li>Work on bug fixing and improving application performance</li>
+						 <li>Continuously discover, evaluate, and implement new technologies to maximize development efficiency </li>
+						 <li>Designing and developing advanced applications for the Android platform</li>
+						 <li>Unit-testing code for robustness, including edge cases, usability, and general reliability</li>
+						 <li>Bug fixing and improving application performance</li>
+									</ul>
+							  </div>
+							  	   
+							   </div>
+						
+							   
+						</div>
+						<div class="col-md-12 py-2"> <p class="text-center">Interested candidates can forward their resume to <strong class="text-primary">hr@prachatech.com.</strong></p> </div>
+					</div>
+				</dive
+                
 				
 			</div>
-
-                
-            
 		</div>
 	</section>
 	<br>
