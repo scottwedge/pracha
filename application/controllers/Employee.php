@@ -1261,6 +1261,38 @@ class Employee extends CI_Controller {
 		} 	
 	}
 	
+	public  function taskexport(){
+		
+		 
+		$emp_id=base64_decode($this->uri->segment(3));
+		$filename=$emp_id;
+		$usersdetails=$this->Employee_model->get_employee_name($emp_id);
+		$name=str_replace(" ","_",$usersdetails['emp_name']);
+		$usersData=$this->Employee_model->get_export_task_details($emp_id);
+		$filename = $name.'_daily_work_update_sheet_'.date('Ymd').'.csv';
+		//echo '<pre>';print_r($filename);exit;
+		header("Content-Description: File Transfer");
+		header("Content-Disposition: attachment; filename=$filename");
+		header("Content-Type: application/csv; "); 
+
+		// get data
+		//$usersData = $this->Main_model->getUserDetails();
+
+		// file creation
+		$file = fopen('php://output', 'w');
+
+		$header = array("Comment","Upload File","Upload Date & Time","Date");
+		fputcsv($file, $header);
+
+		foreach ($usersData as $key=>$line){
+		 fputcsv($file,$line);
+		}
+
+		fclose($file);
+		exit;
+		
+	}
+	
 	
 	
 	

@@ -59,7 +59,9 @@
 					<b>Paid Leaves : </b><?php if($elist['paid_leaves']>0){ echo $elist['paid_leaves'];}else{ echo "0";}; ?>
 					</td>
 					<td><a href="<?php echo base_url('employee/employeeedit/'.base64_encode($elist['emp_id'])); ?>">Edit</a>
-					|<a href="<?php echo base_url('employee/status/'.base64_encode($elist['emp_id']).'/'.base64_encode($elist['status'])); ?>"><?php if($elist['status']==1){ echo "Deactive"; }else{ echo "Active"; } ?></a></td>
+					|<a href="<?php echo base_url('employee/status/'.base64_encode($elist['emp_id']).'/'.base64_encode($elist['status'])); ?>"><?php if($elist['status']==1){ echo "Deactive"; }else{ echo "Active"; } ?></a>
+					|<a href="<?php echo base_url('employee/taskexport/'.base64_encode($elist['emp_id'])); ?>">Work Export</a>
+					</td>
 				</tr>
 			<?php } ?>
 				

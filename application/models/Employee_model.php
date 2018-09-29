@@ -286,6 +286,19 @@ class Employee_model extends CI_Model
 	
 	/* bills*/
 	
+	/* task export*/
+	public  function get_export_task_details($emp_id){
+		$this->db->select('comment,reportfile,create_date,date')->from('work_sheet');
+		$this->db->where('work_sheet.emp_id', $emp_id);
+		$this->db->order_by('work_sheet.date', 'desc');
+		return $this->db->get()->result_array();
+	}
+	public  function get_employee_name($emp_id){
+		$this->db->select('emp_id,emp_name')->from('employee');
+		$this->db->where('employee.emp_id', $emp_id);
+		return $this->db->get()->row_array();
+	}
+	
 
 
 }
