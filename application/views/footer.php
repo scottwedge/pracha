@@ -1,3 +1,5 @@
+
+<!-- Chatbox -->
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-3"></div>
@@ -248,16 +250,12 @@
             </div>
         </div>
     </div>
-    <div class="btn-chat" style="position:fixed;
-	bottom:0;
-	right:1%;
-	width:24%;
-	z-index:8;">
-    <span class="btn-chat-box btn btn-rounded open-chat-box bg-dark"><i class="fa fa-comments"></i> Chat</span>
-</div>
+    <div class="btn-chat">
+        <span class="btn-chat-box btn btn-rounded open-chat-box bg-dark"><i class="fa fa-comments"></i> Chat</span>
+    </div>
 
 </div>
-
+<!-- Chatbox -->
 
 
 <section class=" py-4 bg-light-brown" style="overflow:hidden;">
