@@ -17,6 +17,14 @@
                             <div class="box-body">
 
                                 <div class="direct-chat-messages">
+                                    
+                                    <div class="form-group mb-0">
+                                        <input type="text" class="form-control mb-0 pb-0" id="" name="" placeholder="Enter Your Name">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <input type="email" class="form-control pb-0" id="" name="" placeholder="Enter Email Id">
+                                    </div>
 
                                     <div class="direct-chat-msg">
                                         <div class="direct-chat-info clearfix">
