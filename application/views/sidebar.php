@@ -21,10 +21,14 @@
 		<a href="<?php echo base_url('employee/payslip'); ?>"><li>Pay Slips</li></a>
 		<a href="<?php echo base_url('employee/suggestion'); ?>"><li>Complaint/ Suggestion Box</li></a>
 		<a href="<?php echo base_url('employee/task'); ?>"><li>Task Mangagment </li></a>
+		
 		<?php } ?>
 		<?php if($userdetails['role']==1 || $userdetails['role']==4){ ?>
 			<a href="<?php echo base_url('payment/billing'); ?>"><li>Billing</li></a>
 			<a href="<?php echo base_url('payment/bill_list'); ?>"><li>Invoice List</li></a>
+		<?php } ?>
+		<?php if( $userdetails['role']==4){ ?>
+		<a href="<?php echo base_url('employee/sales');?>"><li>Sales</li></a>
 		<?php } ?>
 	</ul>
 </div>

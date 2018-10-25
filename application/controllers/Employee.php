@@ -1292,8 +1292,34 @@ class Employee extends CI_Controller {
 		exit;
 		
 	}
+	public function sales()
+	{	
 	
+	if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$employee_list = $this->Employee_model->get_employee_list_all_details();
+			
+			
+			if($data['userdetails']['role']==4){
+				
+			$data['reports_list']=$this->Employee_model->reports_list_data();
+			 //echo'<pre>';print_r($data);exit;		
+			 
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('reports',$data);
+			//$this->load->view('footer');
+			}else{
+				redirect('employee/sales');
+				
+			}
+	      }else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		} 	
 	
-	
+	}
 	
 }
