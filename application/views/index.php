@@ -7,8 +7,8 @@
 			 <div class="carousel-inner">
 				<div class="carousel-item active">
 				   <img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban1c.png" title="Web Designing Company" alt="web designing company in hyderabad">
-				   <div class="carousel-caption d-md-block">
-					  <h1 class="animated wow fadeInDown text-white text-shadow" data-wow-delay=".4s">Web designing company in hyderabad </h1>
+				   <div class="carousel-caption d-md-block" style="bottom:40%;">
+					  <h1 style="font-family: 'Righteous', cursive;" class="animated wow fadeInDown text-white text-shadow  " data-wow-delay=".4s" >Software Development company in hyderabad </h1>
 				   </div>
 				</div>
 			 </div>
@@ -16,12 +16,12 @@
       <!--Carousel Wrapper-->
 	  </div>
 	   <div  class="col-md-4 ">
-			<div class="h3 side-font text-warning py-3">
+			<div class="h3  text-warning py-3"  style="font-family: 'Righteous', cursive;">
 					Prachatech Business Sale
 			</div>
-			<div class="h3  py-2">
+			<div class="h4  py-2 side-font ">
 					
-					<i>Get a Professional Dynamic Business Webiste for Rs.5,999/-</i>
+					Get a Professional Dynamic Business Webiste for Rs.5,999/-
 			</div>
 			<div class="h5  py-2">
 				<i class="fa fa-arrows" aria-hidden="true"></i> Free Admin Panel

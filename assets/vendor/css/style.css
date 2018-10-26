@@ -5,8 +5,7 @@
 .side-font{
 	 font-weight: 500;
    font-family: 'Merienda', cursive !important;
-    margin: 0;
-    padding: 0;
+   line-height:40px ;
 }
 p{
 	font-size:18px;
@@ -558,7 +557,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin: 0 auto;
 	box-shadow: 1px 1px 149px 0px rgb(24, 25, 25);
 }
-
+.carousel-caption h1 {
+   
+	line-height:80px !important;
+}
 .tabco1 {
   
   width: 40%;
@@ -2366,6 +2368,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     text-align: center;
     color: #444;
     padding: 0px;
+	line-height:48px !important;
 }
 .font-desktop{
 	font-size:12px !important;
