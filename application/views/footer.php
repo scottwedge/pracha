@@ -3,7 +3,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-3"></div>
-        <div class="col-md-3">
+        <div class="col-md-3 ml-auto">
             <div class="chat-div">
                 <div>
                     <div style="display:none" class="chat-box">
@@ -25,57 +25,8 @@
                                     <div class="form-group">
                                         <input type="email" class="form-control pb-0" id="" name="" placeholder="Enter Email Id">
                                     </div>
-
-                                    <div class="direct-chat-msg">
-                                        <div class="direct-chat-info clearfix">
-                                            <span class="direct-chat-name pull-left">Alexander Pierce</span>
-                                            <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
-                                        </div>
-
-                                        <img class="direct-chat-img" src="https://bootdey.com/img/Content/user_1.jpg" alt="Message User Image">
-
-                                        <div class="direct-chat-text">
-                                            Is this template really for free? That's unbelievable!
-                                        </div>
-
-                                    </div>
-
-                                    <div class="direct-chat-msg right">
-                                        <div class="direct-chat-info clearfix">
-                                            <span class="direct-chat-name pull-right">Sarah Bullock</span>
-                                            <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
-                                        </div>
-
-                                        <img class="direct-chat-img" src="https://bootdey.com/img/Content/user_2.jpg" alt="Message User Image">
-
-                                        <div class="direct-chat-text">
-                                            You better believddde it!
-                                        </div>
-
-                                    </div>
-
                                 </div>
-
-                                <div class="direct-chat-contacts">
-                                    <ul class="contacts-list">
-                                        <li>
-                                            <a href="#">
-                                                <img class="contacts-list-img" src="https://bootdey.com/img/Content/user_1.jpg">
-
-                                                <div class="contacts-list-info">
-                                                    <span class="contacts-list-name">
-                                                        Count Dracula
-                                                        <small class="contacts-list-date pull-right">2/28/2015</small>
-                                                    </span>
-                                                    <span class="contacts-list-msg">How have you been? I was...</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-
+								</div>
                             <div class="box-footer">
                                 <form action="" method="">
                                     <div class="input-group">
@@ -86,178 +37,13 @@
                                     </div>
                                 </form>
                             </div>
-
                         </div>
 
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
-            <div class="chat-div">
-                <div>
-                    <div style="display:none" class="chat-box">
-
-                        <div class="direct-chat box box-primary direct-chat-primary">
-                            <div class="box-header with-border">
-                                <h3 class="box-title">Direct Chat</h3>
-                                <a> <i class="fa fa-times-circle pull-right btn-chat-box" aria-hidden="true"></i></a>
-                            </div>
-
-                            <div class="box-body">
-
-                                <div class="direct-chat-messages">
-
-                                    <div class="direct-chat-msg">
-                                        <div class="direct-chat-info clearfix">
-                                            <span class="direct-chat-name pull-left">Alexander Pierce</span>
-                                            <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
-                                        </div>
-
-                                        <img class="direct-chat-img" src="https://bootdey.com/img/Content/user_1.jpg" alt="Message User Image">
-
-                                        <div class="direct-chat-text">
-                                            Is this template really for free? That's unbelievable!
-                                        </div>
-
-                                    </div>
-
-                                    <div class="direct-chat-msg right">
-                                        <div class="direct-chat-info clearfix">
-                                            <span class="direct-chat-name pull-right">Sarah Bullock</span>
-                                            <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
-                                        </div>
-
-                                        <img class="direct-chat-img" src="https://bootdey.com/img/Content/user_2.jpg" alt="Message User Image">
-
-                                        <div class="direct-chat-text">
-                                            You better believddde it!
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="direct-chat-contacts">
-                                    <ul class="contacts-list">
-                                        <li>
-                                            <a href="#">
-                                                <img class="contacts-list-img" src="https://bootdey.com/img/Content/user_1.jpg">
-
-                                                <div class="contacts-list-info">
-                                                    <span class="contacts-list-name">
-                                                        Count Dracula
-                                                        <small class="contacts-list-date pull-right">2/28/2015</small>
-                                                    </span>
-                                                    <span class="contacts-list-msg">How have you been? I was...</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-
-                            <div class="box-footer">
-                                <form action="" method="">
-                                    <div class="input-group">
-                                        <input type="text" name="message" placeholder="Type Message ..." class="form-control">
-                                        <span class="input-group-btn">
-                                            <button type="submit" class="btn btn-warning btn-sm btn-rounded waves-effect waves-light">Send</button>
-                                        </span>
-                                    </div>
-                                </form>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="chat-div">
-                <div>
-                    <div style="display:none" class="chat-box">
-
-                        <div class="direct-chat box box-primary direct-chat-primary">
-                            <div class="box-header with-border">
-                                <h3 class="box-title">Direct Chat</h3>
-                                <a> <i class="fa fa-times-circle pull-right btn-chat-box" aria-hidden="true"></i></a>
-                            </div>
-
-                            <div class="box-body">
-
-                                <div class="direct-chat-messages">
-
-                                    <div class="direct-chat-msg">
-                                        <div class="direct-chat-info clearfix">
-                                            <span class="direct-chat-name pull-left">Alexander Pierce</span>
-                                            <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
-                                        </div>
-
-                                        <img class="direct-chat-img" src="https://bootdey.com/img/Content/user_1.jpg" alt="Message User Image">
-
-                                        <div class="direct-chat-text">
-                                            Is this template really for free? That's unbelievable!
-                                        </div>
-
-                                    </div>
-
-                                    <div class="direct-chat-msg right">
-                                        <div class="direct-chat-info clearfix">
-                                            <span class="direct-chat-name pull-right">Sarah Bullock</span>
-                                            <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
-                                        </div>
-
-                                        <img class="direct-chat-img" src="https://bootdey.com/img/Content/user_2.jpg" alt="Message User Image">
-
-                                        <div class="direct-chat-text">
-                                            You better believddde it!
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="direct-chat-contacts">
-                                    <ul class="contacts-list">
-                                        <li>
-                                            <a href="#">
-                                                <img class="contacts-list-img" src="https://bootdey.com/img/Content/user_1.jpg">
-
-                                                <div class="contacts-list-info">
-                                                    <span class="contacts-list-name">
-                                                        Count Dracula
-                                                        <small class="contacts-list-date pull-right">2/28/2015</small>
-                                                    </span>
-                                                    <span class="contacts-list-msg">How have you been? I was...</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-
-                            <div class="box-footer">
-                                <form action="" method="">
-                                    <div class="input-group">
-                                        <input type="text" name="message" placeholder="Type Message ..." class="form-control">
-                                        <span class="input-group-btn">
-                                            <button type="submit" class="btn btn-warning btn-sm btn-rounded waves-effect waves-light">Send</button>
-                                        </span>
-                                    </div>
-                                </form>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        
     <div class="btn-chat">
         <span class="btn-chat-box btn btn-rounded open-chat-box bg-dark"><i class="fa fa-comments"></i> Chat</span>
     </div>
