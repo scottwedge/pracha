@@ -298,7 +298,11 @@ class Employee_model extends CI_Model
 		$this->db->where('employee.emp_id', $emp_id);
 		return $this->db->get()->row_array();
 	}
-	
+	public function reports_list_data(){
+		$this->db->select('sales_details.*')->from('sales_details');		
+		$this->db->where('status', 1);
+        return $this->db->get()->result_array();	
+	}		
 
 
 }
