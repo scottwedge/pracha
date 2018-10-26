@@ -42,7 +42,7 @@
 				<i class="fa fa-arrows" aria-hidden="true"></i> Basic SEO Compliant
 			</div>
 			<div class=" py-2">
-				<a href="" class="btn btn-success ">Click here to know more</a>
+				<a href="<?php echo base_url('business_sale');?>" class="btn btn-success ">Click here to know more</a>
 			</div>
 	   </div>
 	   </div>
