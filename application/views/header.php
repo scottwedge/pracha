@@ -10,8 +10,10 @@
 	<meta name="keywords" content="<?php echo isset($meta_keywords)?$meta_keywords:''; ?>" />
     <link rel="canonical" href="http://www.prachatech.com"/>
 	<link rel="icon" href="<?php echo base_url(); ?>assets/vendor/img/fav.png" >
+	<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url(); ?>assets/vendor/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
