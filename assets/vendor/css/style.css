@@ -1402,13 +1402,13 @@ z-index:0;
 	padding:10px 20px;
 	border-radius:50px;
 }
-.tit:hover{
-	border:1px solid #343a40;
-	padding:10px 20px;
-	border-radius:50px;
-	background:#343a40;
-	color:#fff;
-}
+/* .tit:hover{ */
+	/* border:1px solid #343a40; */
+	/* padding:10px 20px; */
+	/* border-radius:50px; */
+	/* background:#343a40; */
+	/* color:#fff; */
+/* } */
 /* downlaod pdf */
 .down-pdf{
 	position:absolute;
