@@ -39,7 +39,7 @@
 				<i class="fa fa-arrows" aria-hidden="true"></i> Responsive, User Interactive Design
 			</div>
 			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Basic SEO Compliant
+				<i class="fa fa-arrows" aria-hidden="true"></i> Basic SEO 
 			</div>
 			<div class=" py-2">
 				<a href="<?php echo base_url('business_sale');?>" class="btn btn-success ">Click here to know more</a>
