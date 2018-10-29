@@ -316,8 +316,8 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Web Designing" - Is a short tail keyword. <br> "Web Designing Agency in Hyderabad" - Is a long tail keyword.
- </div>
+            <p class="">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Web Designing" - Is a short tail keyword. <br> "Web Designing Agency in Hyderabad" - Is a long tail keyword.
+ </p>
             
         </div>
         </div>
@@ -331,18 +331,20 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web designing agency" located in Hyderabad, you will find the below listed LSI keywords. 
+             <p class=""> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web designing agency" located in Hyderabad, you will find the below listed LSI keywords. 
+			 </p>
 			<div class="clearfix"> &nbsp;</div>	
 			<div class="lsi-help">		
 			<h3><strong>LSI keywords:</strong></h3>
 			<h2 class="h2-custom">web Designing Agency In Hyd </h2>
             <h2 class="h2-custom">Web Designing Agency In Hyderabad </h2>
             <h2 class="h2-custom">Web Designing Agencies In Hyderabad etc. </h2> 
-			<p> The above mentioned are some of the examples of the LSI keywords. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
+			
             
 
 			
 			</div>
+			<p> The above mentioned are some of the examples of the LSI keywords. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
  </div> 
             
         </div>
@@ -354,10 +356,10 @@
         <!--Grid row-->
         <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
         <div class="col-2 col-md-1">
-            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+            
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3  font-bold font-20">Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</div>
+            <p> The above mentioned are some of the examples of the LSI keywords. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</p>
             <p class="grey-text text-left"></p>
         </div>
         </div>
@@ -421,7 +423,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best web designing agencies in Hyderabad, and we have a proven track record for bringing forth the best websites. </div>
+            <p> Our clients have considered us as one of the best web designing agencies in Hyderabad, and we have a proven track record for bringing forth the best websites. </p>
             
         </div>
         </div>
@@ -435,7 +437,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: UI&UX, Static, Dynamic, Responsive, Custom and Corporate web designs and promote them digitally at affordable prices especially for individuals and startups. </div> 
+             <p> We offer: UI&UX, Static, Dynamic, Responsive, Custom and Corporate web designs and promote them digitally at affordable prices especially for individuals and startups. </p> 
             
         </div>
         </div>
@@ -449,7 +451,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
+             <p>We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</p>
             <p class="grey-text text-left"></p>
         </div>
         </div>

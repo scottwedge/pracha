@@ -136,7 +136,7 @@
                                  <div class="pad-lr30">
                                     <ul>
                                        <li>Custom Application Development </li>
-                                       <li>Content Management System (CMS)</li>
+                                       <li>Content Management System </li>
                                        <li>eCommerce Website Development</li>
                                        <li>MEAN Stack Development</li>
                                        <li>Dynamic Web Development</li>
@@ -234,7 +234,7 @@
                                        <li>Enhanced Filtration</li>
                                        <li>Searching Option</li>
                                        <li>Diverse and Secure Payment Options</li>
-                                       <li>Real-time support (phone, live chat)</li>
+                                       <li>Real-time support </li>
                                        <li>UX for E-Commerce</li>
                                     </ul>
                                     <br>
@@ -331,7 +331,7 @@
                                        <li>Corporate Website Designing</li>
                                        <li>Template Design & Customization</li>
                                     </ul>
-                                 </div>
+                                 </div><br>
                                  <p class="text-center"> 
                      <a href="<?php echo base_url('web-designing-agency-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> </p>
                      </div>
@@ -355,7 +355,7 @@
                                  <div class="pad-lr30">
                                     <ul>
                                        <li>Custom Application Development </li>
-                                       <li>Content Management System (CMS)</li>
+                                       <li>Content Management System</li>
                                        <li>eCommerce Website Development</li>
                                        <li>MEAN Stack Development</li>
                                        <li>Dynamic Web Development</li>
@@ -392,6 +392,7 @@
                                        <li>Mobile Application Security</li>
                                     </ul>
                                  </div>
+								 <br>
                                  <p class="text-center">
                      <a href="<?php echo base_url('mobile-app-development-company-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> <!-- &nbsp;<span class="btn btn-warning btn-sm">View Packages</span>--></p>
                      </div>
@@ -427,6 +428,7 @@
                                     </ul>
                                  </div>
                                  <br>
+                                 <br class="sm-hide">
                                  <br>
                                  <p class="text-center"> 
                      <a href="<?php echo base_url('digital-marketing-company-in-hyderabad'); ?>" class="btn btn-warning btn-sm">Know more...</a> </p>
@@ -454,7 +456,7 @@
                                        <li>Enhanced Filtration</li>
                                        <li>Searching Option</li>
                                        <li>Diverse and Secure Payment Options</li>
-                                       <li>Real-time support (phone, live chat)</li>
+                                       <li>Real-time support </li>
                                        <li>UX for E-Commerce</li>
                                     </ul>
                                     <br>
@@ -488,6 +490,7 @@
                                        <li>Hack Proof Maintenance</li>
                                        <li>Web Designing Maintenance</li>
                                     </ul>
+                                    <br class="sm-hide">
                                     <br class="sm-hide">
                                  </div>
                                  <p class="text-center"> 
@@ -545,7 +548,7 @@
                <div class="card-body text-center">
                   <img src="<?php echo base_url(); ?>assets/vendor/img/ind/sociali.png" class="my-3" alt="social network and web designing">
                   <div class="">
-                     <strong>Social Networking<br></strong><br>
+                     <strong>Social Networking<br></strong>
                   </div>
                </div>
             </div>
@@ -555,7 +558,7 @@
                <div class="card-body text-center">
                   <img src="<?php echo base_url(); ?>assets/vendor/img/ind/food.png" class="my-3" alt="Restaurants web design">
                   <div class="">
-                     <strong>Food & Restaurant <br/><br/> </strong>
+                     <strong>Food & Restaurant <br/> </strong>
                   </div>
                </div>
             </div>
@@ -585,7 +588,7 @@
                <div class="card-body text-center">
                   <img src="<?php echo base_url(); ?>assets/vendor/img/ind/ecommerce.png" class="my-3" alt="ecommerce web designing company in hyderabad">
                   <div class="">
-                     <strong>Ecommerce, Retail, B2B & B2C</strong>
+                     <strong>Ecommerce, B2B & B2C</strong>
                   </div>
                </div>
             </div>
@@ -625,7 +628,7 @@
                <div class="card-body text-center">
                   <img src="<?php echo base_url(); ?>assets/vendor/img/ind/event.png" class="my-3" alt="Event web designing company in hyderabad">
                   <div class="">
-                     <strong>Event and Tickets <br/><br/></strong>
+                     <strong>Event and Tickets <br/></strong>
                   </div>
                </div>
             </div>
@@ -700,7 +703,7 @@
                </div>
                <div class="service_content">
                   <p>
-                     Pracha Technologies Pvt. Ltd. provides a variety of support services to marketing and business development departments, covering key areas ranging from creative to research services. Our team works closely with you to understand your business and   follow the latest marketing style guides, templates and execution guidelines. Marketing is essential for every firm; however, many find it difficult to recruit or afford the skilled resources. So, we at web designing company in Hyderabad provide marketing support services.  
+                     Pracha Technologies Pvt. Ltd. provides a variety of support services to marketing and business development departments, covering key areas ranging from creative to research services. Our team works closely with you to understand your business and   follow the latest marketing style guides, templates and execution guidelines. Marketing is essential for every firm; however, many find it difficult to recruit or afford the skilled resources. 
                   </p>
                </div>
             </div>
@@ -713,7 +716,7 @@
                </div>
                <div class="service_content">
                   <p>
-                     As people need houses to dwell in this world, so also businesses need online houses (websites) to dwell in the digital world. Just like a house, a website also needs to be maintained properly. When things break-up, they need to be fixed! When it gets out dated, it needs to be updated.  Website updating may be difficult and time consuming process; but we, as the best web designing company in Hyderabad are here to help and encourage Startups, and serve them at affordable prices. The whole world is online now! So join us to make your business online.
+                     As people need houses to dwell in this world, so also businesses need online houses (websites) to dwell in the digital world. Just like a house, a website also needs to be maintained properly. When things break-up, they need to be fixed! When it gets out dated, it needs to be updated.  Website updating may be difficult and time consuming process; but we, as the best web designing company in Hyderabad are here to help and encourage Startups, and serve them at affordable prices. 
                   </p>
                   </p>
                </div>
@@ -753,7 +756,7 @@
                </div>
                <div class="col-10 text-left">
                   <h5 class="font-bold">Digital presence makes everything!</h5>
-                  <p class="grey-text">Your digital presence is your online reputation. And the million dollar question is, how have you presented yourself? Without Digital Marketing it is impossible for your business to get online reputation!</p>
+                  <p class="">Your digital presence is your online reputation. And the million dollar question is, how have you presented yourself? Without Digital Marketing it is impossible for your business to get online reputation!</p>
                </div>
             </div>
             <!--Grid row-->
@@ -764,7 +767,7 @@
                </div>
                <div class="col-10 text-left">
                   <h5 class="font-bold">Make your Business to reach the right people.</h5>
-                  <p class="grey-text">By analyzing your business with various digital marketing tools we can measure the traffic driving to your website. Through this analysis, we can target the right people to promote your business online.</p>
+                  <p class="">By analyzing your business with various digital marketing tools we can measure the traffic driving to your website. Through this analysis, we can target the right people to promote your business online.</p>
                </div>
             </div>
             <!--Grid row-->
@@ -774,7 +777,7 @@
                </div>
                <div class="col-10 text-left">
                   <h5 class="font-bold">Market consultation</h5>
-                  <p class="grey-text">Each company and organization has unique requirements. These needs will be identified through Advanced Consultation process, depending upon the requirements your growth plan will be laid out step by step to achieve the desired results. </p>
+                  <p class="">Each company and organization has unique requirements. These needs will be identified through Advanced Consultation process, depending upon the requirements your growth plan will be laid out step by step to achieve the desired results. </p>
                </div>
             </div>
          </div>
@@ -793,7 +796,7 @@
                </div>
                <div class="col-10 text-left">
                   <h5 class="font-bold">Get the right Business </h5>
-                  <p class="grey-text">Every business wants Customers, not Visitors! Watching the number of visitors to your site grow is pretty awesome, but visits alone do not make a successful business. So we, through our expertise will catch the pulse of the visitor and turn them into customer. </p>
+                  <p class="">Every business wants Customers, not Visitors! Watching the number of visitors to your site grow is pretty awesome, but visits alone do not make a successful business. So we, through our expertise will catch the pulse of the visitor and turn them into customer. </p>
                </div>
             </div>
             <!--Grid row--><!--Grid row-->
@@ -803,7 +806,7 @@
                </div>
                <div class="col-10 text-left">
                   <h5 class="font-bold">Marketing  support & Consultation</h5>
-                  <p class="grey-text">We as a web designing company in Hyderabad help you to make effective decisions to target your resources and to achieve accelerated growth.</p>
+                  <p class="">We as a web designing company in Hyderabad help you to make effective decisions to target your resources and to achieve accelerated growth.</p>
                </div>
             </div>
             <div class="row mb-2 wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;" data-wow-duration="3s">
@@ -812,7 +815,7 @@
                </div>
                <div class="col-10 text-left">
                   <h5 class="font-bold">Technical Support</h5>
-                  <p class="grey-text">We, as a digital marketing and web designing company have a highly qualified technical team to provide you a full-time technical support. However this will be applicable depending upon the subscription plan of the client. </p>
+                  <p class="">We, as a digital marketing and web designing company have a highly qualified technical team to provide you a full-time technical support. However this will be applicable depending upon the subscription plan of the client. </p>
                </div>
             </div>
          </div>
@@ -852,8 +855,8 @@
                   <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                </div>
                <div class="col-10">
-                  <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Web Designing" - Is a short tail keyword. <br> "Web Designing Company in Hyderabad" - Is a long tail keyword.
-                  </div>
+                  <p class="">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Web Designing" - Is a short tail keyword. <br> "Web Designing Company in Hyderabad" - Is a long tail keyword.
+                  </p>
                </div>
             </div>
             <!--Grid row-->
@@ -863,28 +866,29 @@
                   <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                </div>
                <div class="col-10">
-                  <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">
-                     There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web designing company" located in Hyderabad, you will find the below listed LSI keywords. 
+                    <p class=""> 
+                     There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "web designing company" located in Hyderabad, you will find the below listed LSI keywords.</p> 
                      <div class="clearfix"> &nbsp;</div>
                      <div class="lsi-help">
                         <h3><strong>LSI keywords:</strong></h3>
                         <h2 class="h2-custom">Web designing company in hyd </h2>
                         <h2 class="h2-custom">Web designing companies in hyderabad </h2>
                         <h2 class="h2-custom">Web designing companies in hyderabad list etc. </h2>
-                        <p> The above mentioned are some of the examples of the LSI keywords, and the best is shown in the side image. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p>
+                        
                      </div>
+					 <p> The above mentioned are some of the examples of the LSI keywords, and the best is shown in the side image. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p>
                   </div>
                </div>
             </div>
             <!--Grid row-->
             <!--Grid row-->
             <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
-               <div class="col-2 col-md-1">
-                  <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+               <div class="col-2 col-md-1 ">
+                  <i class="fa fa-mail-forward fa-lg indigo-text pull-right"></i>
                </div>
                <div class="col-10">
-                  <div class="font-bold text-left mb-3  font-bold font-20">Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</div>
-                  <p class="grey-text text-left"></p>
+                    <p class=""> Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</p>
+                  <p class=" text-left"></p>
                </div>
             </div>
             <!--Grid row-->
@@ -925,7 +929,7 @@
                   <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                </div>
                <div class="col-10">
-                  <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best web designing companies in Hyderabad, and we have a proven track record for bringing forth best website designs, mobile apps and marketing them digitally. </div>
+                  <p> Our clients have considered us as one of the best web designing companies in Hyderabad, and we have a proven track record for bringing forth best website designs, mobile apps and marketing them digitally. </p>
                </div>
             </div>
             <!--Grid row-->
@@ -935,7 +939,7 @@
                   <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                </div>
                <div class="col-10">
-                  <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: web designing services, search engine optimization, social media marketing, Google adwords, email campaigns, mobile app development services at affordable prices especially for individuals and startups. </div>
+                  <p> We offer: web designing services, search engine optimization, social media marketing, Google adwords, email campaigns, mobile app development services at affordable prices especially for individuals and startups. </p>
                </div>
             </div>
             <!--Grid row-->
@@ -945,8 +949,8 @@
                   <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                </div>
                <div class="col-10">
-                  <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We offer a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
-                  <p class="grey-text text-left"></p>
+                  <p>We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We offer a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</p>
+                  <p class=" text-left"></p>
                </div>
             </div>
             <!--Grid row-->

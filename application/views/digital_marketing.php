@@ -300,13 +300,12 @@
     <div class="row pt-2">
 	
 	<div data-wow-iteration="2" class="col-lg-5 mb-r center-on-small-only wow swing center" style="visibility: visible; animation-iteration-count: 2; animation-name: swing;"> 
-	<br> 
-	<br> 
-	<br> 
-	<br> 
-	<br> 
-	<br> 
-	<br> 
+	<br class="sm-hide"> 
+	<br class="sm-hide"> 
+	<br class="sm-hide"> 
+	<br class="sm-hide"> 
+	<br class="sm-hide"> 
+ 
         <img src="<?php echo base_url(); ?>assets/vendor/img/keywords.jpg" title="Searching Keywords " alt="searching keywords for digital marketing" class="img-fluid " style="margin-center:-100px;">
     </div>
 
@@ -324,8 +323,8 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Digital Marketing" - Is a short tail keyword. <br> "Digital Marketing Company in Hyderabad" - Is a long tail keyword.
- </div>
+            <p>  In general there are two types of keywords, namely: Short tail keywords and Long tail keywords. For instance: <br> "Digital Marketing" - Is a short tail keyword. <br> "Digital Marketing Company in Hyderabad" - Is a long tail keyword.
+ </p>
             
         </div>
         </div>
@@ -339,18 +338,19 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "digital marketing company" located in Hyderabad, you will find the below listed LSI keywords. 
+            <p> There is another technique called LSI Keyword technique which means “Latent Semantic Indexing” keywords. These keywords are  semantically related to your primary keywords. For Instance: If you are searching for "digital marketing company" located in Hyderabad, you will find the below listed LSI keywords. </p>
 			<div class="clearfix"> &nbsp;</div>	
 			<div class="lsi-help">		
 			<h3><strong>LSI keywords:</strong></h3>
 			<h2 class="h2-custom">Digital Marketing Company In Hyd </h2>
             <h2 class="h2-custom">Digital Marketing Services In Hyderabad </h2>
             <h2 class="h2-custom">Digital Marketing Agencies In Hyderabad etc. </h2> 
-			<p> The above mentioned are some of the examples of the LSI keywords. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
+		
             
 
 			
 			</div>
+				<p> The above mentioned are some of the examples of the LSI keywords. There is nothing hard to generate these keywords, Google will automatically generate these LSI keywords when you enter your main keyword in the Google search bar.</p> 
  </div> 
             
         </div>
@@ -362,10 +362,10 @@
         <!--Grid row-->
         <div data-wow-duration="1.5s" class="row pb-3 wow lightSpeedIn center" style="visibility: visible; animation-name: lightSpeedIn;">
         <div class="col-2 col-md-1">
-            <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+           
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3  font-bold font-20">Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</div>
+            <p>Depending upon the primary keyword we have to search for the LSI keywords and place it in the content for higher Google rankings.</p>
             <p class="grey-text text-left"></p>
         </div>
         </div>
@@ -429,7 +429,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best digital marketing  companies in Hyderabad, and we have a proven track record for bringing forth best SEO results & SMM promotions. </div>
+            <p> Our clients have considered us as one of the best digital marketing  companies in Hyderabad, and we have a proven track record for bringing forth best SEO results & SMM promotions. </p>
             
         </div>
         </div>
@@ -443,7 +443,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We offer: search engine optimization, social media marketing, Google adwords, Google analytics and email campaigns etc., at affordable prices especially for individuals and startups. </div> 
+           <p> We offer: search engine optimization, social media marketing, Google adwords, Google analytics and email campaigns etc., at affordable prices especially for individuals and startups. </p> 
             
         </div>
         </div>
@@ -457,7 +457,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
+            <p>We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</p>
             <p class="grey-text text-left"></p>
         </div>
         </div>

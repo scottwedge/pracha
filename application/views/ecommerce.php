@@ -26,7 +26,7 @@
 	<section>
 		<div class="jumbotron  text-center text-md-left bg-dark pad-tb-20 help-start py-5">
 			<!-- Name -->
-			<h2 class="h2-responsive text-center font-weight-bold dark-grey-text ">Most Reliable eCommerce Development Company In Hyderabad</h2>
+			<h2 class="h2-responsive text-center font-weight-bold dark- ">Most Reliable eCommerce Development Company In Hyderabad</h2>
 			<h3 class="text-center py-2">CO-OPERATIVE. TRANSPARENT. SUPPORTIVE. STRATEGIC</h3>
 			<div class="row py-4 justify-content-center">
 				<div class="col-12 col-md-10">
@@ -45,38 +45,38 @@
 		<div class="col-md-3">
 			
 			<h5 class="font-weight-bold mt-3">UX for eCommerce</h5>
-			<p class="grey-text">Enhanced Filtration, Searching Option, Clear Navigation, Diverse and Secure Payment Options</p>
+			<p class="">Enhanced Filtration, Searching Option, Clear Navigation, Diverse and Secure Payment Options</p>
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">Omni-Channel Solution</h5>
-			<p class="grey-text">For every unique idea, we offer comfortability & flexibility to suit your business needs
+			<p class="">For every unique idea, we offer comfortability & flexibility to suit your business needs
 			</p>
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">Advanced Features </h5>
-			<p class="grey-text"> Real-time support (phone, live chat) Product Catalog management and many more...</p>
+			<p class=""> Real-time support (phone, live chat) Product Catalog management and many more...</p>
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">Third-Party Integrations</h5>
-			<p class="grey-text">Diverse and secure payment options. Multiple delivery options and order tracking</p>
+			<p class="">Diverse and secure payment options. Multiple delivery options and order tracking</p>
 		</div>
     </div>
 	<div class="row">
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">Client experience</h5>
-			<p class="grey-text"> Sales and marketing automation. Rating and reviews for a faster choice</p>
+			<p class=""> Sales and marketing automation. Rating and reviews for a faster choice</p>
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">Data analysis and business intelligence</h5>
-			<p class="grey-text">Warehouse management, data collection and analysis</p>
+			<p class="">Warehouse management, data collection and analysis</p>
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">Quality and Security</h5>
-			<p class="grey-text">Dedicated Quality Assurance team, automated testing, support & maintenance and high level security services</p>
+			<p class="">Dedicated Quality Assurance team, automated testing, support & maintenance and high level security services</p>
 		</div>
 		<div class="col-md-3">
 			<h5 class="font-weight-bold mt-3">End-End Support</h5>
-			<p class="grey-text">Your queries and doubts are resolved and taken care even after launch</p>
+			<p class="">Your queries and doubts are resolved and taken care even after launch</p>
 		</div>
     </div>
 </section>
