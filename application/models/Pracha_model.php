@@ -14,6 +14,9 @@ class Pracha_model extends CI_Model
 		return $insert_id = $this->db->insert_id();
 	}
 	
-
+public function save_message($data){
+		$this->db->insert('users', $data);
+		return $insert_id = $this->db->insert_id();
+	}
 
 }

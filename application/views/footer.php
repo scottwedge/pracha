@@ -13,26 +13,26 @@
                                 <h3 class="box-title">Direct Chat</h3>
                                 <a> <i class="fa fa-times-circle pull-right btn-chat-box" aria-hidden="true"></i></a>
                             </div>
-
+<div class="box-body chatmessages" id="chatmessages"> </div> 
+                            
+                            <div class="box-footer">
+                                <form action="#" method="post" id="user_message" name="user_message">
+								 
                             <div class="box-body">
-
                                 <div class="direct-chat-messages">
-                                    
                                     <div class="form-group mb-0">
-                                        <input type="text" class="form-control mb-0 pb-0" id="" name="" placeholder="Enter Your Name">
+                                        <input type="text" class="form-control mb-0 pb-0" id="name" name="name" placeholder="Enter Your Name">
                                     </div>
                                     
                                     <div class="form-group">
-                                        <input type="email" class="form-control pb-0" id="" name="" placeholder="Enter Email Id">
+                                        <input type="email" class="form-control pb-0" id="email" name="email" placeholder="Enter Email Id">
                                     </div>
                                 </div>
 								</div>
-                            <div class="box-footer">
-                                <form action="" method="">
                                     <div class="input-group">
-                                        <input type="text" name="message" placeholder="Type Message ..." class="form-control">
+                                        <input type="text" name="message" id="message" placeholder="Type Message ..." class="form-control">
                                         <span class="input-group-btn">
-                                            <button type="submit" class="btn btn-warning btn-sm btn-rounded waves-effect waves-light">Send</button>
+                                            <button type="submit" onclick="send_msg()" class="btn btn-warning btn-sm btn-rounded waves-effect waves-light">Send</button>
                                         </span>
                                     </div>
                                 </form>
@@ -324,3 +324,53 @@
 </body>
 
 </html>
+
+
+
+<script>
+		function send_msg() {
+       
+		var nme = $('#name').val();
+		var emil = $('#email').val();
+        if (nme != ''&& emil!= '') {
+            jQuery.ajax({
+                url: "<?php echo base_url('chat/get_chat_list');?>",
+                data: {
+					name:nme,
+					email: emil,
+                    //int_id: '<?php echo base64_decode($this->uri->segment(3)); ?>',
+                   // msg_type: '<?php echo $this->uri->segment(2); ?>',
+                },
+                type: "POST",
+                format: "html",
+                success: function(data) {
+					$('#name').val('');
+					$('#email').val('');
+                    $("#user_message").empty();
+                    $("#user_message").append(data);
+                    scrollToBottom('div1');
+                }
+            });
+        } else {
+            jQuery.ajax({
+                url: "<?php echo base_url('chat/get_chat_list');?>",
+                data: {
+                   name:nme,
+				   email: emil,
+                    //int_id: '<?php echo base64_decode($this->uri->segment(3)); ?>',
+                   // msg_type: '<?php echo $this->uri->segment(2); ?>',
+                },
+                type: "POST",
+                format: "html",
+                success: function(data) {
+                    $("#user_message").empty();
+                    $("#user_message").append(data);
+                    scrollToBottom('div1');
+                }
+            });
+        }
+    }	
+			
+			
+			
+</script>
