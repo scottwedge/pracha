@@ -132,12 +132,12 @@
         <div class=" " id="">
             <section class="">
                 <div class="container mar-t2">
-                    <div class="row">
+                    <div class="row justify-content-center">
 
                         <!--Grid column-->
-                        <div class="col-lg-4 col-xl-4 pb-3">
+                        <div class="col-lg-8 col-xl-8  pb-3">
                             <!--Featured image-->
-                            <div class="overlay hm-white-slight rounded z-depth-2">
+                            <div class="">
                                 <img src="<?php echo base_url(); ?>assets/vendor/img/business_works.png" title="" alt="How it Works" class="img-fluid">
                                 <a>
                                     <div class="mask"></div>
@@ -147,7 +147,7 @@
                         <!--Grid column-->
 
                         <!--Grid column-->
-                        <div class="col-lg-8 col-xl-8">
+                        <div class="col-lg-12 col-xl-12">
                             <p>Lorem ipsum dollor site amet the best consectuer adipiscing elites sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat insignia the consectuer adipiscing elit.</p>
                             <p>Lorem ipsum dollor site amet the best consectuer adipiscing elites sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat insignia the consectuer adipiscing elit.</p>
                             <p>Lorem ipsum dollor site amet the best consectuer adipiscing elites sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat insignia the consectuer adipiscing elit.</p>

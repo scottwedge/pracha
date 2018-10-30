@@ -44,9 +44,9 @@
             </div>
         </div>
         
-    <div class="btn-chat">
+   <!-- <div class="btn-chat">
         <span class="btn-chat-box btn btn-rounded open-chat-box bg-dark"><i class="fa fa-comments"></i> Chat</span>
-    </div>
+    </div>-->
 
 </div>
 <!-- Chatbox -->
