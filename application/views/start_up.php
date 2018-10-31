@@ -22,7 +22,7 @@
 	<section>
 		<div class="jumbotron  text-center text-md-left bg-dark pad-tb-20 help-start py-5">
 			<!-- Name -->
-			<h2 class="h2-responsive text-center font-weight-bold dark-grey-text ">Partner With Us For Substantial Growth</h2>
+			<h2 class="h2-responsive text-center font-weight-bold dark- ">Partner With Us For Substantial Growth</h2>
 			<h4 class="text-center py-2">We are Co-operative, Dedicated, Transparent, Supportive and Strategic.</h4>
 			<div class="row py-4 justify-content-md-center">
 				<div class="col-12 col-md-10">
@@ -43,26 +43,26 @@
 			<i class="fa fa-users fa-3x red-text"></i>
 			<h5 class="font-weight-bold mt-3">Professional Team
 			</h5>
-			<p class="grey-text">Experts in Android, iOS, E and M-commerce, Magento, PhoneGap, Xamarin, HTML5 & others
+			<p class="">Experts in Android, iOS, E and M-commerce, Magento, PhoneGap, Xamarin, HTML5 & others
 			</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-cogs fa-3x cyan-text"></i>
 			<h5 class="font-weight-bold mt-3">Custom built Solutions</h5>
-			<p class="grey-text">For every unique idea, we offer comfortability & flexibility to suit your business needs
+			<p class="">For every unique idea, we offer comfortability & flexibility to suit your business needs
 			</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-line-chart fa-3x orange-text"></i>
 			<h5 class="font-weight-bold mt-3">Modular Development</h5>
-			<p class="grey-text">A focused and phased approach to build, to market, to scale and to grow
+			<p class="">A focused and phased approach to build, to market, to scale and to grow
 
 			</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-universal-access fa-3x indigo-text"></i>
 			<h5 class="font-weight-bold mt-3">Expertise in Technology</h5>
-			<p class="grey-text">Cloud, Cross & Hybrid platforms, Mobile, Desktop, Tablets- we develop softwares for all versions
+			<p class="">Cloud, Cross & Hybrid platforms, Mobile, Desktop, Tablets- we develop softwares for all versions
 
 			</p>
 		</div>
@@ -72,27 +72,27 @@
 			<i class="fa fa-handshake-o fa-3x orange-text"></i>
 			<h5 class="font-weight-bold mt-3">Value Focused
 			</h5>
-			<p class="grey-text">We keep your attention throughout the decision process on what you hope to achieve
+			<p class="">We keep your attention throughout the decision process on what you hope to achieve
 
 			</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-heart fa-3x indigo-text"></i>
 			<h5 class="font-weight-bold mt-3">Innovation</h5>
-			<p class="grey-text">Innovation is our core value and we love to go beyond the limitations to deliver out-of-the-box
+			<p class="">Innovation is our core value and we love to go beyond the limitations to deliver out-of-the-box
 
 			</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-money fa-3x  red-text"></i>
 			<h5 class="font-weight-bold mt-3">Affordable Services</h5>
-			<p class="grey-text">Be it a low-funded startup or a billion-dollar venture, we guarantee cost-effectiveness
+			<p class="">Be it a low-funded startup or a billion-dollar venture, we guarantee cost-effectiveness
 			</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-headphones fa-3x cyan-text"></i>
 			<h5 class="font-weight-bold mt-3">End-End Support</h5>
-			<p class="grey-text">Your queries and doubts are resolved and taken care of even after launch
+			<p class="">Your queries and doubts are resolved and taken care of even after launch
 			</p>
 		</div>
     </div>

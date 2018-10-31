@@ -288,7 +288,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> Our clients have considered us as one of the best mobile app development companies in Hyderabad, and we have a proven track record for developing mobile applications that support various platforms. </div>
+            <p> Our clients have considered us as one of the best mobile app development companies in Hyderabad, and we have a proven track record for developing mobile applications that support various platforms. </p>
             
         </div>
         </div>
@@ -302,7 +302,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20"> We design: Android mobile apps, iOS mobile apps, Hybrid mobile apps, Mobile optimised websites  at affordable prices especially for individuals and startups. </div> 
+           <p> We design: Android mobile apps, iOS mobile apps, Hybrid mobile apps, Mobile optimised websites  at affordable prices especially for individuals and startups. </p> 
             
         </div>
         </div>
@@ -316,7 +316,7 @@
             <i class="fa fa-mail-forward fa-lg indigo-text"></i>
         </div>
         <div class="col-10">
-            <div class="font-bold text-left mb-3 dark-grey-text font-bold font-20">We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</div>
+           <p>We are entrusted with the most professional and advanced resources. We have a Passionate team of Creativity and problem Solving. We have a dedicative team to focus on your Core Business and to support you, inorder to deliver your projects in time.</p>
             <p class="grey-text text-left"></p>
         </div>
         </div>

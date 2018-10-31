@@ -22,7 +22,7 @@
 	<section>
 		<div class="jumbotron  text-center text-md-left bg-dark pad-tb-20 help-start py-5">
 			<!-- Name -->
-			<h2 class="h2-responsive text-center font-weight-bold dark-grey-text ">WE PARTNER WITH ENTERPRISES FOR THEIR SUBSTANTIAL PERFORMANCE & GROWTH</h2>
+			<h2 class="h2-responsive text-center font-weight-bold dark- ">WE PARTNER WITH ENTERPRISES FOR THEIR SUBSTANTIAL PERFORMANCE & GROWTH</h2>
 			<h3 class="text-center py-2">CO-OPERATIVE. TRANSPARENT. SUPPORTIVE. STRATEGIC</h3>
 			<div class="row py-4 justify-content-md-center">
 				<div class="col-12 col-md-10">
@@ -42,22 +42,22 @@
 		<div class="col-md-3">
 			<i class="fa fa-laptop fa-3x red-text"></i>
 			<h5 class="font-weight-bold mt-3">Enterprise Web Development</h5>
-			<p class="grey-text">Creating enterprise-level web applications like chat applications, omnichannel ecommerce, real-time tracking applications</p>
+			<p class="">Creating enterprise-level web applications like chat applications, omnichannel ecommerce, real-time tracking applications</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-mobile fa-3x cyan-text"></i>
 			<h5 class="font-weight-bold mt-3">Mobile Device Management</h5>
-			<p class="grey-text">Integrating a range of mobile devices and OSes into diverse enterprise infrastructures</p>
+			<p class="">Integrating a range of mobile devices and OSes into diverse enterprise infrastructures</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-line-chart fa-3x orange-text"></i>
 			<h5 class="font-weight-bold mt-3">Field Service Mobile Apps</h5>
-			<p class="grey-text">To speed up the business process, we build field services apps that can be easily customized</p>
+			<p class="">To speed up the business process, we build field services apps that can be easily customized</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-pie-chart fa-3x indigo-text"></i>
 			<h5 class="font-weight-bold mt-3">B2B Desktop & Mobile App Development</h5>
-			<p class="grey-text">Development & deployment of critical B2B apps using strong development and business skills</p>
+			<p class="">Development & deployment of critical B2B apps using strong development and business skills</p>
 		</div>
     </div>
 	<div class="row">
@@ -65,26 +65,26 @@
 			<i class="fa fa-handshake-o fa-3x orange-text"></i>
 			<h5 class="font-weight-bold mt-3">Value Focused
 			</h5>
-			<p class="grey-text">The end-product is assured to add value to your business and deliver it to users
+			<p class="">The end-product is assured to add value to your business and deliver it to users
 
 			</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-heart fa-3x indigo-text"></i>
 			<h5 class="font-weight-bold mt-3">Innovation</h5>
-			<p class="grey-text">Innovation is our core value and we love to go beyond the limitations to deliver out-of-the-box
+			<p class="">Innovation is our core value and we love to go beyond the limitations to deliver out-of-the-box
 
 			</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-th fa-3x  red-text"></i>
 			<h5 class="font-weight-bold mt-3">Cross-Platform Enterprise Apps</h5>
-			<p class="grey-text">Providing mobile access to enterprise applications, we develop seamless apps using tools like Sencha, Xamarin, PhoneGap</p>
+			<p class="">Providing mobile access to enterprise applications, we develop seamless apps using tools like Sencha, Xamarin, PhoneGap</p>
 		</div>
 		<div class="col-md-3">
 			<i class="fa fa-headphones fa-3x cyan-text"></i>
 			<h5 class="font-weight-bold mt-3">End-to-end Support & Security</h5>
-			<p class="grey-text">Using a secured container strategy, we build applications that ensure data protection at rest and in transit</p>
+			<p class="">Using a secured container strategy, we build applications that ensure data protection at rest and in transit</p>
 		</div>
     </div>
 </section>

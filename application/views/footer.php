@@ -50,9 +50,9 @@
             </div>
         </div>
         
-    <div class="btn-chat">
+   <!-- <div class="btn-chat">
         <span class="btn-chat-box btn btn-rounded open-chat-box bg-dark"><i class="fa fa-comments"></i> Chat</span>
-    </div>
+    </div>-->
 
 </div>
 <!-- Chatbox -->
@@ -69,7 +69,7 @@
     <div class="text-center container-sty text-white">
         <div class="row justify-content-center">
             <div class="col-md-10">
-                <div class="py-2 text-shad font-20 font-bold"> Quality work & Customer service are the two main objectives of our company. Our dedicated and proficient team will solve all your issues and leads your projects in a successful way. We will be with you through out the project as per company norms, to achieve the desired results .</div>
+                <p class="py-2 text-shad font-20 "> Quality work & Customer service are the two main objectives of our company. Our dedicated and proficient team will solve all your issues and leads your projects in a successful way. We will be with you through out the project as per company norms, to achieve the desired results .</p>
                 <div class="py-3">
                     <a href="<?php echo base_url('contactus');?>" class="btn btn-warning btn-rounded " style="font-size:20px;">Let’s talk!</a>
 
@@ -277,7 +277,7 @@
             <li>&nbsp;</li>
             <li><a href="https://business.facebook.com/prachatechadmin/" target="_blank" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
             <li><a href="https://twitter.com/Prachatech" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
-            <li><a href="https://plus.google.com/103803990699303943827/" target="_blank" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+            <li><a href="https://plus.google.com/103803990699303943827/" target="_blank" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li><li><a href="https://www.linkedin.com/company/10006577/admin/updates/" target="_blank" class="btn-floating btn-sm btn-ins"><i class="fa fa fa-linkedin"> </i></a></li>
         </ul>
 
     </div>
