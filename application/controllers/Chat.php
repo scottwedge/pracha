@@ -18,21 +18,29 @@ class Chat extends CI_Controller {
 			$sent_data=array(
 			'name'=>$post['name'],
 			'email'=>$post['email'],
-			'message'=>$post['message'],
 			'created_at'=>date('Y-m-d H:i:s'),	
 			);
 		$institue_sent=$this->Pracha_model->save_message($sent_data);
-		
+		if(count($institue_sent)>0){
 		$message=array(
+		'user_id'=>$institue_sent,
 		'message'=>$post['message'],
 		'created_at'=>date('Y-m-d H:i:s'),
 		);
 		$msg_sent=$this->Pracha_model->save_messages($message);
 		
+		if(count($msg_sent)>0){
+						$data['msg_list']=$this->Pracha_model->get_customer_wise_sent_messages_list($post['user_id']);
+						echo $this->db->last_query();
+						//echo '<pre>';print_r($data);
+						$this->load->view('footer_chat',$data);	
+					}else{
+						$data['msg_list']=$this->Pracha_model->get_customer_wise_sent_messages_list($post['user_id']);
+						echo $this->db->last_query();exit;
+						//echo '<pre>';print_r($data);exit;
+						$this->load->view('footer_chat',$data);	
+					}
+		}
 		
-		
-		
-		
-		$this->load->view('footer',$data);
 	}
 }
