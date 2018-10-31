@@ -56,6 +56,9 @@
 
 </div>
 <!-- Chatbox -->
+ <div class="btn-chat">
+        <span class="btn-chat-box btn btn-rounded open-chat-box bg-dark"><i class="fa fa-comments"></i> Chat</span>
+    </div>
 
 
 <section class=" py-4 bg-light-brown" style="overflow:hidden;">
