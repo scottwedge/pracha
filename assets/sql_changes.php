@@ -21,3 +21,5 @@ ALTER TABLE `prachatech`.`users`
   PRIMARY KEY (`id`)
 );
 
+ALTER TABLE `prachatech`.`users`   
+  DROP COLUMN `message`;
