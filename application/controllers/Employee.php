@@ -1260,6 +1260,45 @@ class Employee extends CI_Controller {
 		 redirect('employee');
 		} 	
 	}
+	public  function timecalculation(){
+	
+		$task_list= $this->Employee_model->get_employee_working_hours(date('m'));
+		//echo '<pre>';print_r($task_list);exit;
+		foreach($task_list as $li){
+			if(isset($li['logout_time']) && $li['login_time']=='0000-00-00 00:00:00'){
+						$current_time=date('Y-m-d H:i:s');
+						$datetime1 = new DateTime($li['login_time']);
+						$datetime2 = new DateTime($current_time);
+						$interval = $datetime1->diff($datetime2);
+						$diff_in_hrs =$interval->format('%h');
+						$diff_in_mins =$interval->format('%i');
+					}else{
+						$datetime1 = new DateTime($li['login_time']);
+						$datetime2 = new DateTime($li['logout_time']);
+						$interval = $datetime1->diff($datetime2);
+						$diff_in_hrs =$interval->format('%h');
+						$diff_in_mins =$interval->format('%i');
+					}
+					//$diff_in_mins 
+					
+			$datas[$li['emp_id']]['hours'][] = $diff_in_hrs;
+			$datas[$li['emp_id']]['mins']= $diff_in_mins;
+			$datas[$li['emp_id']]['emp_name']=$li['emp_name'];
+			
+			
+		}
+		
+		foreach($datas as $li){
+			//echo '<pre>';print_r($li);
+			echo $li['emp_name'].'=   Hours : '.array_sum($li['hours']).'------min :'.$li['mins'];
+			echo '<br>';
+			
+		}
+		
+		exit;	
+		
+		
+	}
 	
 	public  function taskexport(){
 		

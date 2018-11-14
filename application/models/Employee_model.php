@@ -302,7 +302,16 @@ class Employee_model extends CI_Model
 		$this->db->select('sales_details.*')->from('sales_details');		
 		$this->db->where('status', 1);
         return $this->db->get()->result_array();	
-	}		
+	}	
+
+	public  function get_employee_working_hours($date){
+		$this->db->select('login_report.*,employee.emp_name')->from('login_report');
+		$this->db->join('employee', 'employee.emp_id = login_report.emp_id', 'left');		
+		//$this->db->where('create_at', $date);
+		$this->db->where('MONTH(login_report.create_at)',$date);
+		//$this->db->where('YEAR(CURRENT_DATE - INTERVAL 1 MONTH)');
+        return $this->db->get()->result_array();	
+	}
 
 
 }
