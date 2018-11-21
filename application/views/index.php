@@ -30,7 +30,7 @@
 				<i class="fa fa-arrows" aria-hidden="true"></i> Free Hosting
 			</div>
 			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Free Domain Setup
+				<i class="fa fa-arrows" aria-hidden="true"></i> Free Domain Setup 
 			</div>
 			<div class="h5  py-2">
 				<i class="fa fa-arrows" aria-hidden="true"></i> Free Annual Maintenance for one year
@@ -43,6 +43,9 @@
 			</div>
            <div class="h5  py-2">
 				<i class="fa fa-arrows" aria-hidden="true"></i> Payment can be done after trail period 
+			</div>
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> For custom domain T&C apply 
 			</div>
 			<div class=" py-2">
 				<!--<a href="<?php echo base_url('business_sale');?>" class="btn btn-success ">Click here to know more</a>-->
