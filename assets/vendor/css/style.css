@@ -9,6 +9,15 @@
 }
 p{
 	font-size:18px;
+	font-weight:400;
+	letter-spacing:0.1px;
+	
+}
+
+.software-details li{
+		font-size:18px;
+	font-weight:400;
+	letter-spacing:0.1px;
 }
 .blink_me {
   animation: blinker 1s linear infinite;

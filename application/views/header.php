@@ -107,6 +107,10 @@
 				
 			<li class="nav-item <?php if($currentURL==base_url('portfolio')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('portfolio');?>" class="nav-link"> <span class=" ">Portfolio</span></a></li>
 			<li class="nav-item <?php if($currentURL==base_url('industries')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('industries');?>" class="nav-link"> <span class=" ">Industries</span></a></li>
+			<li class="nav-item">
+                <a href="<?php echo base_url('Waste_management_software');?>" class="nav-link"> <span class=" ">Waste Management Software</span></a>
+            </li>
+            
 			<li class="nav-item <?php if($currentURL==base_url('careers')){ echo "active-menu"; } ?>" ><a href="<?php echo base_url('careers');?>" class="nav-link"> <span class=" ">Careers</span></a></li>
 				<li class="nav-item <?php if($currentURL==base_url('blog') || $currentURL==base_url('blog/how_to_create_manage_and_optimize_a_youtube_channel') || $currentURL==base_url('blog/social_media_marketing_and_its_benefits') || $currentURL==base_url('blog/what_is_onpage_and_offpage_optimization') || $currentURL==base_url('blog/what_is_ecommerce_and_its_types') || $currentURL==base_url('blog/Web_development_a_practical_guide_to_a_Web_developer') || $currentURL==base_url('blog/importance_of_mobile_apps_in_business') || $currentURL==base_url('blog/key_elements_to_design_a_best_website') || $currentURL==base_url('blog/how_to_start_and_earn_in_affiliate_marketing')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('blog');?>" class="nav-link"> <span class=" ">Blog</span></a></li>
 				<li class="nav-item <?php if($currentURL==base_url('contactus')){ echo "active-menu"; } ?>"><a href="<?php echo base_url('contactus');?>" class="nav-link"> <span class=" ">Contact us</span></a></li>
