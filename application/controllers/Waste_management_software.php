@@ -26,7 +26,7 @@ class Waste_management_software extends CI_Controller {
 		$data['currentURL'] = current_url();
 		$this->load->view('header',$data);
 		$this->load->view('waste_management_software');
-		$this->load->view('footer');
+		//$this->load->view('footer');
 	}
 	
 }
