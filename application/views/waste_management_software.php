@@ -10,7 +10,7 @@
           <div class="col-md-12 wow fadeIn mb-3 smooth-scroll">
             <h1 class="display-3 mb-2 wow fadeInDown white-text" data-wow-delay="0.3s">Bio Waste   <a class="white-text font-weight-bold">Management</a> Software</h1>
             
-           <a class="btn btn-yellow btn-lg wow fadeIn" data-wow-delay="0.4s">Click Here to Contact Us</a>
+           <a href="#contact-waste" class="btn btn-yellow btn-lg wow fadeIn" data-wow-delay="0.4s">Click Here to Contact Us</a>
           </div>
         </div>
       </div>
@@ -134,17 +134,17 @@
 						<div class="section-header col-md-12 py-4">
 							<h3 class="text-site">Admin Panel </h3>
 						</div>
-						<p>Admin can add Health care facility, BMW vehicle & CBWTF, and generates bar code for each hospital. Dashboard contains total number of health care facilities, CBWTF, BMW vehicles. Bar code or QR code label can be pre-printed directly on the designated colour coded bags /containers, which may be procured by HCF through the Operator of a CBWTF. These codes can be pasted on the designated colour coded bags. Pre-printed bar code label is in different colours usually in yellow, red, blue and white.</p>
+						<p >Admin can add Health care facility, BMW vehicle & CBWTF, and generates bar code for each hospital. Dashboard contains total number of health care facilities, CBWTF, BMW vehicles. Bar code or QR code label can be pre-printed directly on the designated colour coded bags /containers, which may be procured by HCF through the Operator of a CBWTF. These codes can be pasted on the designated colour coded bags. Pre-printed bar code label is in different colours usually in yellow, red, blue and white.</p>
 					
 						
 					</div>
 					</div>
 					</section>
 		
-
+<div id="contact-waste">&nbsp;</div>
 
 <!--Section: Contact v.2-->
-<section class="mb-4  py-4" style="background:#333;">
+<section  class="mb-4  py-4" style="background:#333;">
 	<div class="container " >
 		<div class="col-md-12 card">
 		<!--Section heading-->
@@ -212,8 +212,106 @@
     </div>
 
 </section>
-<!--Section: Contact v.2-->
-<!--Projects section v.4-->
+<script>
+    $(document).ready(function() {
+        $(".btn-chat-box").click(function() {
+            $(".chat-box").toggle();
+        });
+    });
+</script>
+<!--/.Footer-->
+<!-- JQuery -->
+
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/popper.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/compiled.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/mdb.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/wow.min.js"></script>
+<!--  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>-->
+
+</body>
+
+</html>
+
+
+
+<script>
+		function send_msg() {
+       
+		var nme = $('#name').val();
+		var emil = $('#email').val();
+		var msg=$('#message').val();
+		
+        if (nme != ''&& emil!= ''&& msg!='') {
+            jQuery.ajax({
+                url: "<?php echo base_url('chat/get_chat_list');?>",
+                data: {
+					name:nme,
+					email: emil,
+					message: msg,
+                    //int_id: '<?php echo base64_decode($this->uri->segment(3)); ?>',
+                   // msg_type: '<?php echo $this->uri->segment(2); ?>',
+                },
+                type: "POST",
+                format: "html",
+                success: function(data) {
+					
+					$('#name').val('');
+					$('#email').val('');
+					$('#message').val('');
+                    $("#chatmessages").empty();
+                    $("#chatmessages").append(data);
+                    $("#user").hide();
+                    scrollToBottom('div1');
+					
+					
+					
+                }
+            });return flag;
+        } else {
+            jQuery.ajax({
+                url: "<?php echo base_url('chat/get_chat_list');?>",
+                data: {
+                   name:nme,
+				   email: emil,
+                    //int_id: '<?php echo base64_decode($this->uri->segment(3)); ?>',
+                   // msg_type: '<?php echo $this->uri->segment(2); ?>',
+                },
+                type: "POST",
+                format: "html",
+                success: function(data) {
+                    $("#user_message").empty();
+                    $("#user_message").append(data);
+                    scrollToBottom('div1');
+                }
+            });
+        }
+    }	
+			
+			
+			
+</script>
  
 
 
