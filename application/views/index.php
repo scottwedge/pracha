@@ -1,4 +1,4 @@
-<div class="selectstate">
+	<div class="selectstate">
    <section class=" bod-st" style="margin-top:75px;min-height:500px;">
       <!--Carousel Wrapper-->
       <div  class="row bg-white">
@@ -17,39 +17,46 @@
 	  </div>
 	   <div  class="col-md-4 ">
 			<div class="h3  text-warning py-3"  style="font-family: 'Righteous', cursive;">
-					Prachatech Business Sale
+					DYNAMIC BUSINESS WEBSITE 
+
 			</div>
-			<div class="h4  py-2 side-font ">
+			<div class="h4   side-font text-center">
 					
-					Get a Professional Dynamic Business Website for Rs.5,999/-
+					Price- Rs. 99/- per Month
+
+			</div>
+			<div class="h5  py-2 ">
+				<i class="fa fa-arrows" aria-hidden="true"></i> For one year you can pay only Rs 1089 /- &nbsp;&nbsp;&nbsp;&nbsp; one month off
+
 			</div>
 			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Free Admin Panel
+				<i class="fa fa-arrows" aria-hidden="true"></i> Professional business website
+
 			</div>
 			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Free Hosting
+				<i class="fa fa-arrows" aria-hidden="true"></i> Free hosting
+
 			</div>
 			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Free Domain Setup 
+				<i class="fa fa-arrows" aria-hidden="true"></i> Website with admin panel
+
 			</div>
 			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Free Annual Maintenance for one year
+				<i class="fa fa-arrows" aria-hidden="true"></i> Free logo
+
 			</div>
 			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Responsive, User Interactive Design
-			</div>
-			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Basic SEO 
+				<i class="fa fa-arrows" aria-hidden="true"></i>User friendly & interactive design
+ 
 			</div>
            <div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Payment can be done after trail period 
+				<i class="fa fa-arrows" aria-hidden="true"></i> Device complaint- Responsive design
+
 			</div>
-			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> For custom domain T&C apply 
-			</div>
+			
 			<div class=" py-2">
 				<!--<a href="<?php echo base_url('business_sale');?>" class="btn btn-success ">Click here to know more</a>-->
-				<a href="<?php echo base_url('contactus');?>" class="btn btn-success ">Click here to know more</a>
+				<a href="" data-toggle="modal" data-target="#pracha_business_website" class="btn btn-success ">Click here to know more</a>
 			</div>
 	   </div>
 	   </div>

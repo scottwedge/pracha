@@ -389,7 +389,101 @@ Pracha Technologies may at any time, without notice to you and in its sole discr
       </div>
   </div>
   <!-- Central Modal Small -->
-    
+    <!-- PRACHA - DYNAMIC BUSINESS WEBSITE  -->
+<div class="modal fade" id="pracha_business_website" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <!-- Change class .modal-sm to change the size of the modal -->
+    <div class="modal-dialog modal-lg" role="document">
+
+
+      <div class="modal-content">
+        <div class="modal-header bg-dark">
+          <h4 class="modal-title w-100" id="myModalLabel">
+			<div class="h3  text-white text-center py-2"  style="font-family: 'Righteous', cursive;">
+					PRACHA DYNAMIC BUSINESS WEBSITE 
+
+			</div>
+</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div  class="col-md-12 ">
+			
+			<div class="h4   side-font ">
+					
+					Price- Rs. 99/- per Month
+
+			</div>
+			<div class="h5  py-2 ">
+				<i class="fa fa-arrows" aria-hidden="true"></i> For one year you can pay only Rs 1089 /-  one month off
+
+			</div>
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> Professional business website
+
+			</div>
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> Free hosting
+
+			</div>
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> Website with admin panel
+
+			</div>
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> Free logo
+
+			</div>
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> User friendly & interactive design
+ 
+			</div>
+           <div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> Device complaint- Responsive design
+
+			</div> 
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> Get enquires directly to your contact details Increase your online presence
+
+			</div>
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> Prime membership- 10% off in Pracha products & services
+
+			</div>
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> Free annual maintenance
+
+			</div>
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> Website will be delivered in 24 hrs.
+
+
+			</div>
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> <a href="http://dynamic.prachatech.com" target="_blank" class="text-site"> http://dynamic.prachatech.com</a>
+
+
+			</div>
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> <a href="http://demo.prachatech.com/pracha-restaurant/" target="_blank" class="text-site"> http://demo.prachatech.com/pracha-restaurant/</a>
+
+
+			</div>
+			
+			
+			
+	   </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+          <a href="<?php echo base_url('contactus');?>"  class="btn btn-primary btn-sm">Click Here To Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- PRACHA - DYNAMIC BUSINESS WEBSITE  -->
 <script>
 $('.scrolltotop').on('click', function() {
           $('html, body').animate({ scrollTop: 0 }, 800);
