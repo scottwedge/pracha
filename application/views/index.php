@@ -22,35 +22,39 @@
 			</div>
 			<div class="h4   side-font text-center">
 					
-					Price- Rs. 99/- per Month
+					Price- Rs. 5999/- per Year
 
 			</div>
-			<div class="h5  py-2 ">
+			<!--<div class="h5  py-2 ">
 				<i class="fa fa-arrows" aria-hidden="true"></i> For one year you can pay only Rs 1089 /- &nbsp;&nbsp;&nbsp;&nbsp; one month off
 
-			</div>
+			</div>-->
 			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Professional business website
+				<i class="fa fa-arrows" aria-hidden="true"></i> Professional dynamic website for all types of businesses
 
 			</div>
 			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Free hosting
+				<i class="fa fa-arrows" aria-hidden="true"></i> Website will be delivered under 48hrs
 
 			</div>
 			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Website with admin panel
+				<i class="fa fa-arrows" aria-hidden="true"></i> Free domain* setup for custom domains
 
 			</div>
 			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Free logo
+				<i class="fa fa-arrows" aria-hidden="true"></i> Free annual maintenance for one year.
 
 			</div>
 			<div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i>User friendly & interactive design
+				<i class="fa fa-arrows" aria-hidden="true"></i>Responsive, user friendly, interactive design
  
 			</div>
            <div class="h5  py-2">
-				<i class="fa fa-arrows" aria-hidden="true"></i> Device complaint- Responsive design
+				<i class="fa fa-arrows" aria-hidden="true"></i> Dedicated support for any kind of service
+
+			</div>
+			<div class="h5  py-2">
+				<i class="fa fa-arrows" aria-hidden="true"></i> Can manage complete website through admin panel
 
 			</div>
 			
