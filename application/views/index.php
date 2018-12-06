@@ -718,7 +718,7 @@
                         </div>
                         <div class="service_content">
                             <p>
-                                Our web designing company in Hyderabad build websites and promotes them digitally through various digital marketing strategies. Through our digital promotions across the web, we bring your business into light that creates more opportunities for you to connect with your targeted audience. Our excelent digital marketing strategies would promote your website digitally on various social media platforms, and on Google and other search engines results page.
+                                Our web designing company in Hyderabad build websites and promotes them digitally through various digital marketing strategies. Through our digital promotions across the web, we bring your business into light that creates more opportunities for you to connect with your targeted audience. Our excellent digital marketing strategies would promote your website digitally on various social media platforms, and on Google and other search engines results page.
                             </p>
                         </div>
                     </div>
