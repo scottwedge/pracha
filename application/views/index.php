@@ -706,8 +706,8 @@
                             <span class="des_t"> Our Support</span>
                         </span>
                     </h3>
-                    <div class="clearfix">&nbsp;</div>
-                    <p class="text-center mb-5 "></p>
+                    <div class="clearfix sm-hide">&nbsp;</div>
+                    <p class="text-center mb-5 sm-hide"></p>
                 </div>
             </div>
             <div class="row mobile-cus-support">
@@ -785,7 +785,7 @@
                         </div>
                         <div class="col-10 text-left">
                             <h5 class="font-bold">Digital presence makes everything!</h5>
-                            <p class="">Your digital presence is your online reputation. And the million dollar question is, how have you presented yourself? Without Digital Marketing it is impossible for your business to get online reputation!</p>
+                            <p class="font-17">Your digital presence is your online reputation. And the million dollar question is, how have you presented yourself? Without Digital Marketing it is impossible for your business to get online reputation!</p>
                         </div>
                     </div>
                     <!--Grid row-->
@@ -796,7 +796,7 @@
                         </div>
                         <div class="col-10 text-left">
                             <h5 class="font-bold">Make your Business to reach the right people.</h5>
-                            <p class="">By analyzing your business with various digital marketing tools we can measure the traffic driving to your website. Through this analysis, we can target the right people to promote your business online.</p>
+                            <p class="font-17">By analyzing your business with various digital marketing tools we can measure the traffic driving to your website. Through this analysis, we can target the right people to promote your business online.</p>
                         </div>
                     </div>
                     <!--Grid row-->
@@ -806,7 +806,7 @@
                         </div>
                         <div class="col-10 text-left">
                             <h5 class="font-bold">Market consultation</h5>
-                            <p class="">Each company and organization has unique requirements. These needs will be identified through Advanced Consultation process, depending upon the requirements your growth plan will be laid out step by step to achieve the desired results. </p>
+                            <p class="font-17">Each company and organization has unique requirements. These needs will be identified through Advanced Consultation process, depending upon the requirements your growth plan will be laid out step by step to achieve the desired results. </p>
                         </div>
                     </div>
                 </div>
@@ -825,7 +825,7 @@
                         </div>
                         <div class="col-10 text-left">
                             <h5 class="font-bold">Get the right Business </h5>
-                            <p class="">Every business wants Customers, not Visitors! Watching the number of visitors to your site grow is pretty awesome, but visits alone do not make a successful business. So we, through our expertise will catch the pulse of the visitor and turn them into customer. </p>
+                            <p class="font-17">Every business wants Customers, not Visitors! Watching the number of visitors to your site grow is pretty awesome, but visits alone do not make a successful business. So we, through our expertise will catch the pulse of the visitor and turn them into customer. </p>
                         </div>
                     </div>
                     <!--Grid row-->
@@ -836,7 +836,7 @@
                         </div>
                         <div class="col-10 text-left">
                             <h5 class="font-bold">Marketing support & Consultation</h5>
-                            <p class="">We as a web designing company in Hyderabad help you to make effective decisions to target your resources and to achieve accelerated growth.</p>
+                            <p class="font-17">We as a web designing company in Hyderabad help you to make effective decisions to target your resources and to achieve accelerated growth.</p>
                         </div>
                     </div>
                     <div class="row mb-2 wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;" data-wow-duration="3s">
@@ -845,7 +845,7 @@
                         </div>
                         <div class="col-10 text-left">
                             <h5 class="font-bold">Technical Support</h5>
-                            <p class="">We, as a digital marketing and web designing company have a highly qualified technical team to provide you a full-time technical support. However this will be applicable depending upon the subscription plan of the client. </p>
+                            <p class="font-17">We, as a digital marketing and web designing company have a highly qualified technical team to provide you a full-time technical support. However this will be applicable depending upon the subscription plan of the client. </p>
                         </div>
                     </div>
                 </div>

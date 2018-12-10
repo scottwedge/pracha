@@ -20,15 +20,16 @@
         <div class="container-sty">
             <div class="row text-center p-2">
                 <div class="col-sm-12 pt-30">
-                    <h2>
+                    <h2 class="sm-hide">
                         <span class="tit">
                             <span class="des_t"> Prachatech Mobile App Development Company</span>
                         </span>
                     </h2>
+                    <h2 class=" col-md-12 text-warning font-bold xs-big md-hide">Prachatech Mobile App Development Company</h2>
                 </div>
             </div>
 
-            <div class="clearfix">&nbsp;</div>
+            <div class="clearfi sm-hide">&nbsp;</div>
             
             <div class="row justify-content-md-center p-2">
                 <p class="font-18 col-md-12">Pracha Technologies Pvt. Ltd. is a mobile app development company in Hyderabad. The company deals with mobile apps for Android, iOS and Hybrid platforms. The company also provides top-notch web designs, eCommerce websites and offers digital marketing services to promote them across the world with various digital marketing techniques. In this digital era, it is required for every business to have a website and a mobile application because as per latest Google reports, two in five Google searches is now being carried out on a mobile device or a smartphone and one out of every three searches is now local, so if you don’t have a mobile app and a mobile optimized version of your website you are throwing away a large chance of your business. Creating a mobile optimised version of your website is faster, easier and less expensive. We are recognised by our clients through our quality work and customer service, and we can assure the most satisfactory outcomes at affordable prices. Let’s have a glimpse about the different types of Mobile Apps.
@@ -38,7 +39,7 @@
             <br>
             
             <div class="row justify-content-md-center p-2">
-                <h2 class=" col-md-12 text-warning font-bold">MOBILE APPLICATIONS</h2>
+                <h2 class=" col-md-12 text-warning font-bold xs-big">MOBILE APPLICATIONS</h2>
             </div>
 
             <div class="row justify-content-md-center p-2">

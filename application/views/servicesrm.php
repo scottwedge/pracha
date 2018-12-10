@@ -16,15 +16,16 @@
         <div class="container-sty">
             <div class="row  text-center">
                 <div class="col-sm-12 mb-20 pt-30">
-                    <h2>
+                    <h2 class="sm-hide">
                         <span class="tit">
                             <span class="des_t"> Prachatech Web Designing Agency
                             </span>
                         </span>
                     </h2>
+                    <h2 class=" col-md-12 text-warning font-bold xs-big md-hide">Prachatech Web Designing Agency</h2>
                 </div>
             </div>
-            <div class="clearfix">&nbsp;</div>
+            <div class="clearfix sm-hide">&nbsp;</div>
             
             <div class="row p-2">
                 <div class="col-md-12 justify-content-md-center">
@@ -329,7 +330,7 @@
     </div>
 </section>
 
-<!--strategy seo-->
+<!--why us-->
 <section class="">
     <div class="container-sty card ">
         

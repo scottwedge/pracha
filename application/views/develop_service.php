@@ -19,15 +19,16 @@
         <div class="container-sty  mar-t2">
             <div class="row text-center">
                 <div class="col-sm-12 mb-20 pt-30">
-                    <h2>
+                    <h2 class="sm-hide">
                         <span class="tit">
                             <span class="des_t"> Prachatech Web Development Company
                             </span>
                         </span>
                     </h2>
+                    <h2 class=" col-md-12 text-warning font-bold xs-big md-hide">Prachatech Web Development Company</h2>
                 </div>
             </div>
-            <div class="clearfix">&nbsp;</div>
+            <div class="clearfix sm-hide">&nbsp;</div>
 
             <div class="row p-2">
                 <div class="col-md-12 justify-content-md-center">
@@ -39,7 +40,7 @@
             <br>
 
             <div class="row justify-content-md-center p-2">
-                <h2 class=" col-md-12 text-warning font-bold">Web Development Services</h2>
+                <h2 class=" col-md-12 text-warning font-bold xs-big">Web Development Services</h2>
             </div>
 
             <div class="row justify-content-md-center p-2">

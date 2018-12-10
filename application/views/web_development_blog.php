@@ -793,8 +793,8 @@
 			<div class="col-md-3">
 				<input class="input-old" type="text" name="mobile" id="mobile" placeholder="Mobile"  class="form-control"required>
 			</div>
-			<div class="col-md-2">
-				<button class="btn btn-warning" type="submit">Register</button>
+			<div class="col-md-2 mt-1">
+				<button class="btn btn-warning btn-md mt-2" type="submit">Register</button>
 			</div>
 		</div>
 		</form>

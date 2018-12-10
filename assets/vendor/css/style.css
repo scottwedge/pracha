@@ -102,7 +102,7 @@ p{
 	font-size:20px;
 }
 .font-16{
-	font-size:15px;
+	font-size:15px !important;
 }
 .font-w-400{
 	font-weight:400;
@@ -141,6 +141,9 @@ p{
 .pad-lr15{
 	padding-left:30px;
 	padding-right:30px;
+}
+.font-17{
+    font-size: 17px;
 }
 .font18{
 	font-size:18px;
@@ -2360,7 +2363,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 }
 .h3-mobile {
 	
-	font-size:16px !important;
+	font-size:25px !important;
 }
 .centered p{
 	font-size:16px !important;
@@ -2467,7 +2470,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     line-height: 1;
     margin: 0 auto;
     padding: 0;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 100;
     position: relative;
     top: 100px;
@@ -2541,6 +2544,9 @@ h2 {
 	height:200px;
 	
 }
+    .xs-big{
+        font-size: 25px;
+    }
 
 }
 @media only screen and (max-width: 320px) {

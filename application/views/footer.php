@@ -1,4 +1,3 @@
-
 <!-- Chatbox -->
 <!--<div class="container-fluid">
     <div class="row">
@@ -56,13 +55,13 @@
 
 <!--</div>-->
 
- <!--<div class="btn-chat">
+<!--<div class="btn-chat">
         <span class="btn-chat-box btn btn-rounded open-chat-box bg-dark"><i class="fa fa-comments"></i> Chat</span>
     </div>-->
 
 
 <section class=" py-4 bg-light-brown" style="overflow:hidden;">
-    
+
     <div class="row justify-content-center">
         <div class="half-circle">
             <div class="text-white" style="line-height:380px;font-size:35px;padding-left:110px;font-weight:400;margin-top:30px">FACT</div>
@@ -84,10 +83,10 @@
             </div>
         </div>
     </div>
-    
+
 </section>
 
-<section class="">
+<section class="com=ntainer-fluid">
     <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/startup.png);height:700px;">
         <div class="full-bg-img">
             <div class="mask ">
@@ -280,16 +279,17 @@
             <li>&nbsp;</li>
             <li><a href="https://business.facebook.com/prachatechadmin/" target="_blank" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
             <li><a href="https://twitter.com/Prachatech" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
-            <li><a href="https://plus.google.com/103803990699303943827/" target="_blank" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li><li><a href="https://www.linkedin.com/company/10006577/admin/updates/" target="_blank" class="btn-floating btn-sm btn-ins"><i class="fa fa fa-linkedin"> </i></a></li>
+            <li><a href="https://plus.google.com/103803990699303943827/" target="_blank" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+            <li><a href="https://www.linkedin.com/company/10006577/admin/updates/" target="_blank" class="btn-floating btn-sm btn-ins"><i class="fa fa fa-linkedin"> </i></a></li>
         </ul>
 
     </div>
-    
+
     <div class="text-center footer-copyright">
         <div class="text-center" style="font-size:16px;font-weight:500;letter-spacing:1px;">Copyright By Pracha Technologies Pvt Ltd. All Rights Reserved. <a href="" data-toggle="modal" data-target="#privacyPolicy">Privacy Policy </a>| <a href="" data-toggle="modal" data-target="#termsConditions">Terms & Conditions</a> | <a href="" data-toggle="modal" data-target="#refundsCance">Refunds / Cancellations </a>
         </div>
     </div>
-    
+
 </footer>
 
 <script>
@@ -337,46 +337,47 @@
 
 
 <script>
-		function send_msg() {
-       
-		var nme = $('#name').val();
-		var emil = $('#email').val();
-		var msg=$('#message').val();
-		
-        if (nme != ''&& emil!= ''&& msg!='') {
+    function send_msg() {
+
+        var nme = $('#name').val();
+        var emil = $('#email').val();
+        var msg = $('#message').val();
+
+        if (nme != '' && emil != '' && msg != '') {
             jQuery.ajax({
                 url: "<?php echo base_url('chat/get_chat_list');?>",
                 data: {
-					name:nme,
-					email: emil,
-					message: msg,
+                    name: nme,
+                    email: emil,
+                    message: msg,
                     //int_id: '<?php echo base64_decode($this->uri->segment(3)); ?>',
-                   // msg_type: '<?php echo $this->uri->segment(2); ?>',
+                    // msg_type: '<?php echo $this->uri->segment(2); ?>',
                 },
                 type: "POST",
                 format: "html",
                 success: function(data) {
-					
-					$('#name').val('');
-					$('#email').val('');
-					$('#message').val('');
+
+                    $('#name').val('');
+                    $('#email').val('');
+                    $('#message').val('');
                     $("#chatmessages").empty();
                     $("#chatmessages").append(data);
                     $("#user").hide();
                     scrollToBottom('div1');
-					
-					
-					
+
+
+
                 }
-            });return flag;
+            });
+            return flag;
         } else {
             jQuery.ajax({
                 url: "<?php echo base_url('chat/get_chat_list');?>",
                 data: {
-                   name:nme,
-				   email: emil,
+                    name: nme,
+                    email: emil,
                     //int_id: '<?php echo base64_decode($this->uri->segment(3)); ?>',
-                   // msg_type: '<?php echo $this->uri->segment(2); ?>',
+                    // msg_type: '<?php echo $this->uri->segment(2); ?>',
                 },
                 type: "POST",
                 format: "html",
@@ -387,8 +388,5 @@
                 }
             });
         }
-    }	
-			
-			
-			
+    }
 </script>
