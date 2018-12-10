@@ -19,7 +19,7 @@
 
 <!--banner-->
 <section title="Web Designing Services In Hyderabad" id="masthead" role="banner" class="bod-st" style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/web-design-and-development.png); ">
-    <h1>
+    <h1 class="services-banner">
         Web Designing Services In Hyderabad<br />
         <br>
         <p style="font-size:10px;text-transform: none;" class="typewrite pulse" data-period="2000" data-type='[ "Digital Marketing", "Web Designing Services ", "Mobile App Development", "eCommerce Web Designing", "Software Maintenance" ]'></p>
@@ -29,38 +29,39 @@
 <!--body-->
 <div class=" " id="navbarSupportedContent">
 
-    <section class="py-4 text-center text-lg-left  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/ui-bac.png'); height: 100%;">
+    <section class="py-4 jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('<?php echo base_url(); ?>assets/vendor/img/ui-bac.png'); height: 100%;">
         <div class="container-sty">
             <div class="row">
-                
-                <div class="col-md-9">
+
+                <div class="col-md-9 col-sm-12 mb-4">
                     <div class="card mar-t2 ">
                         <!-- Tab panels -->
                         <div class="tab-content">
 
                             <!--Panel 1-->
-                            <div class=" active">
-                                
+                            <div class="active">
+
                                 <!--Grid row-->
-                                <div class="row  text-center ">
+                                <div class="row text-center mb-4">
                                     <div class="col-sm-12 mb-20 pt-30">
-                                        <h2>
+                                        <h2 class="sm-hide">
                                             <span class="tit">
                                                 <span class="des_t h3-mobile">Prachatech Web Designing Services
                                                 </span>
                                             </span>
                                         </h2>
+                                        <h2 class="text-warning font-bold xs-big md-hide">Prachatech Web Designing Agency</h2>
                                     </div>
                                 </div>
-                                <h2 style="font-size: 27px;  text-transform: capitalize;" class="h1 font-bold text-center ">Web Designing Services, Mobile Apps & Digital Marketing </h2>
-                                
+                                <h2 style="text-transform: capitalize;" class="h4 font-bold text-center ">Web Designing Services, Mobile Apps & Digital Marketing </h2>
+
                                 <!--Section description-->
                                 <p class="mb-5 py-3">
                                     Pracha Technologies Pvt. Ltd. offers digital marketing and web designing services in Hyderabad for startups and mid-level companies. The company deals with static & complex websites, ecommerce websites, corporate websites, mobile apps (iOS and Android), and promote them across the world digitally through its digital marketing strategies. We nourish our clients websites with organic key-words, and with various analytical researches, to make our clients websites visible in the Google’s search engine results page. We expeditiously promote our clients on social media to shake hand with their new clients. For this reason many of our clients consider our services as the best web designing services in Hyderabad who develop a user-friendly software's, and design responsive websites with various screen resolutions, which are automatically adjusted for a multitude of devices at affordable prices. We have a skillful team of Mobile App developers for Android and iOS platforms.
                                 </p>
-                                
-                                <hr class="mb-5 mt-5 pb-3" id="ui-and-ux-designing">
-                                
+
+                                <hr class="mb-5 mt-4 pb-3" id="ui-and-ux-designing">
+
                                 <div class="row">
 
                                     <!--Grid column-->
@@ -80,9 +81,9 @@
                                         <!--Excerpt-->
 
 
-                                        <h2 class="mb-4 font-bold dark-grey-text">
+                                        <h3 class="mb-4 font-bold dark-grey-text">
                                             <strong>UI & UX DESIGNING</strong>
-                                        </h2>
+                                        </h3>
                                         <p>UI is an acronym for User Interface and UX for User Experience. UI design focuses on attractive and impressive User Interface, whereas UX on positive User Experience. In simple UI aims on website and UX aims on product, though both work differently in their respective ways yet aims at a single goal that is to enhance the satisfaction of the user. The key element of the design is to balance both visual elements and technical functionalities. We offer the best web designing services in Hyderabad to bring forth an extra ordinary UI and UX Design, at affordable prices. We focus on...
 
                                         </p>
@@ -95,7 +96,7 @@
                                 </div>
                                 <!--Grid row-->
 
-                                <hr class="mb-5 mt-5 pb-3" id="web-development">
+                                <hr class="mb-5 mt-4 pb-3" id="web-development">
 
                                 <!--Grid row-->
                                 <div class="row">
@@ -104,9 +105,9 @@
                                     <div class="col-lg-8 col-xl-8 pb-3">
                                         <!--Excerpt-->
 
-                                        <h2 class="mb-4 font-bold dark-grey-text">
+                                        <h3 class="mb-4 font-bold dark-grey-text">
                                             <strong>Web Development</strong>
-                                        </h2>
+                                        </h3>
                                         <p>Web development is the term that we apply to develop a website. Either a single static page or the most complex website must undergo web development. There are 3 kinds of web development specializations they are Front-end, Back-end and Full-stack web developers. Front-end development is client side development and Back-end development is server side development. Our web development services offers all these services to our clients. Prototype methodology, Agile methodology, Scrum methodology etc. are the various types of methodologies that we apply to the websites while developing websites. </p>
 
                                         <a href="<?php echo base_url('web_development'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
@@ -115,7 +116,7 @@
                                     <!--Grid column-->
 
                                     <!--Grid column-->
-                                    <div class="col-lg-4 col-xl-4 mb-5">
+                                    <div class="col-lg-4 col-xl-4">
                                         <!--Featured image-->
                                         <div class=" overlay hm-white-slight rounded z-depth-2">
                                             <img src="<?php echo base_url(); ?>assets/vendor/img/web-development.png" title="web development" alt="our web development services in hyderabad" class="img-fluid">
@@ -132,7 +133,7 @@
                                 <hr class="mb-5 mt-4 pb-3" id="mobile-applications">
 
                                 <!--Grid row-->
-                                <div class="row pb-5">
+                                <div class="row">
 
                                     <!--Grid column-->
                                     <div class="col-lg-4 col-xl-4 pb-3">
@@ -150,9 +151,9 @@
                                     <div class="col-lg-8 col-xl-8">
                                         <!--Excerpt-->
 
-                                        <h2 class="mb-4 font-bold dark-grey-text">
+                                        <h3 class="mb-4 font-bold dark-grey-text">
                                             <strong>Mobile Apps Development</strong>
-                                        </h2>
+                                        </h3>
                                         <p>As per latest Google reports, two in five Google searches is now being carried out on a mobile device or a smartphone. As per the ABI’s latest research Mobile apps help boosting business upto 80%, because people spend more time on mobiles than on TV or Computer. Be it is a simplex app or a complex app, our mobile app developers can design the best mobile applications for your business. In this digital age mobile apps have occupied a prominent role in human lives through smart phones to make life much convenient than earlier. So assuredly mobile apps can benefit your business in a real good manner. Mobile apps are three types namely: Native apps, Web apps and Hybrid apps. </p>
                                         <a href="<?php echo base_url('mobile_applications'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
 
@@ -165,14 +166,14 @@
                                 <hr class="mb-5 mt-4 pb-3" id="digital-marketing">
 
                                 <!--Grid row-->
-                                <div class="row pb-5">
+                                <div class="row">
                                     <!--Grid column-->
                                     <div class="col-lg-8 col-xl-8">
                                         <!--Excerpt-->
 
-                                        <h2 class="mb-4 font-bold dark-grey-text">
+                                        <h3 class="mb-4 font-bold dark-grey-text">
                                             <strong>Digital Marketing</strong>
-                                        </h2>
+                                        </h3>
                                         <p>Digital Marketing is the process of marketing your products or services using digital technologies. As indicated by Google, 97% of shoppers utilize the web to look for nearby organizations, so to catch hold of your potential clients you ought to be on the web. Marketing your website digitally is very essential for you to be identified by your customer. When your customer searches for a product or service with specific keywords on search engines (especially on Google), you must appear to him on the first place of the first page, else your competitor will hold it. So we offer digital marketing services which is our other wing that will make you to achieve the desired result and increase your website traffic that generate sales.
 
                                         </p>
@@ -196,7 +197,8 @@
 
                                 </div>
                                 <!--Grid row-->
-                                <hr class="mb-5 mt-5 pb-3" id="eCommerce">
+
+                                <hr class="mb-5 mt-4 pb-3" id="eCommerce">
 
                                 <!--Grid row-->
                                 <div class="row">
@@ -205,9 +207,9 @@
                                     <div class="col-lg-8 col-xl-8 pb-3">
                                         <!--Excerpt-->
 
-                                        <h2 class="mb-4 font-bold dark-grey-text">
+                                        <h3 class="mb-4 font-bold dark-grey-text">
                                             <strong>E-Commerce Web designing Services</strong>
-                                        </h2>
+                                        </h3>
                                         <p>Electronic Commerce is the buying and selling of products and goods, or transmitting of data or funds majorly on the internet. There are various types of eCommerce, they are: Business to Customer (B2C), Business to Business (B2B), Customer to Customer (C2C), Customer to Business (C2B), Business to Government (B2G), Government To Business (G2B), Government To Citizen (G2C) and Mobile commerce (m-commerce). Among all these commerce sites, Mobile commerce (m-commerce) is particularly done through mobile only. We provide services for existing ecommerce sites, and develop new ecommerce secure websites with highly secured payment transactions, thats why we are considered as the best ecommerce web designing services in Hyderabad.
                                         </p>
                                         <a href="<?php echo base_url('ecommerce'); ?>" class="btn btn-dark btn-md mb-3">Know More</a>
@@ -215,7 +217,7 @@
                                     <!--Grid column-->
 
                                     <!--Grid column-->
-                                    <div class="col-lg-4 col-xl-4 mb-5">
+                                    <div class="col-lg-4 col-xl-4">
                                         <!--Featured image-->
                                         <div class=" overlay hm-white-slight rounded z-depth-2">
                                             <img src="<?php echo base_url(); ?>assets/vendor/img/ecommerce-website.png" title="eCommerce website design" alt="ecommerce web designing services in hyderabad" class="img-fluid">
@@ -229,7 +231,7 @@
                                 </div>
 
                                 <!--Grid row-->
-                                <hr class="mb-5 mt-5 pb-3" id="business-solutions">
+                                <hr class="mb-5 mt-4 pb-3" id="business-solutions">
 
                                 <!--Grid row-->
                                 <div class="row">
@@ -248,7 +250,7 @@
                                     <!--Grid column-->
 
                                     <!--Grid column-->
-                                    <div class="col-lg-4 col-xl-4 mb-5">
+                                    <div class="col-lg-4 col-xl-4">
                                         <!--Featured image-->
                                         <div class=" overlay hm-white-slight rounded z-depth-2">
                                             <img src="<?php echo base_url(); ?>assets/vendor/img/business-solutions.png" title="business solutions" alt="prachatech web designing services in hyderabad" class="img-fluid">
@@ -265,7 +267,7 @@
                                 <hr class="mb-5 mt-4 pb-3" id="software-maintenance">
 
                                 <!--Grid row-->
-                                <div class="row pb-5">
+                                <div class="row">
 
                                     <!--Grid column-->
                                     <div class="col-lg-4 col-xl-4 pb-3">
@@ -289,10 +291,6 @@
                                         <p>Maintenance and Support is a critical perspective towards upgrading and broadening the life of the applications. Typically organizations are battling with lack of specialized specialists to deal with both mission-basic assignments and unforeseen possibilities, to eradicate such typical problems we, as a web designing services in Hyderabad are here to help you in numerous ways. Our Maintenance team, who particularly work on it will guarantee your business applications work consistently to give a protected and superior stage for the clients.
                                         </p>
 
-
-
-
-
                                         <a href="<?php echo base_url('website_maintainence'); ?>" class="btn btn-indigo btn-md mb-3">Know More</a>
                                     </div>
                                     <!--Grid column-->
@@ -312,10 +310,8 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="content"></div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-12">
                     <div class="card" style="padding:5px 15px">
                         <?php if($this->session->flashdata('success')): ?>
                         <div class="alert alert-success">
@@ -367,7 +363,7 @@
                         <!-- Form contact -->
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -392,6 +388,7 @@
             });
         }
     });
+
 </script>
 <script>
     $(function() {
@@ -559,6 +556,7 @@
     window.requestAnimFrame(draw);
 
     //# sourceURL=pen.js
+
 </script>
 <script>
     //made by vipul mirajkar thevipulm.appspot.com
@@ -620,6 +618,7 @@
         css.innerHTML = ".typewrite > .pulse { border-right: 2px solid grey}";
         document.body.appendChild(css);
     };
+
 </script>
 <script>
     $(document).ready(function() {
@@ -697,4 +696,5 @@
         $(window).scrollTop(window_top);
         window.setTimeout(autoscroll, 100);
     }
+
 </script>

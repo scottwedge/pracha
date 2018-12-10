@@ -1,5 +1,5 @@
 <div class="selectstate">
-    <section class="pt-5 mt-4 pb-3 pargh" style="padding:10px;">
+    <section class="pt-5 mt-4  pargh" style="padding:10px;">
         <!--Grid row-->
         <div class="d-flex justify-content-md-center   ">
             <div class="col-md-10 card  pad-lr15">
@@ -49,8 +49,8 @@
                         </h2>
                     </div>
                     <div class="col-md-12">
-                        <h5 class=" text-left  dark-grey-text font-w-400"> Social Media is the computer-mediated tool that require a website or an application to interact with public and allows people to create, share or exchange information, pictures, videos, ideas and opinions etc., by means of virtual
-                            communities and networks.</h5>
+                        <p class=" text-left  dark-grey-text font-w-400"> Social Media is the computer-mediated tool that require a website or an application to interact with public and allows people to create, share or exchange information, pictures, videos, ideas and opinions etc., by means of virtual
+                            communities and networks.</p>
 
                     </div>
                 </div>
@@ -80,28 +80,28 @@
                                 <img class="img-resposive" src="<?php echo base_url(); ?>assets/vendor/img/how-social-media-works.png" alt="How Social Media Marketing And Its Benefits Works">
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-12">
-                                <h5 class=" text-left  dark-grey-text font-w-400"> When you promote your website or a blog post on social media, obviously it reaches to all of your followers. And when your followers perform certain activities like, “Sharing your post”, “Liking your post” or “Commenting”
+                                <p class=" text-left  dark-grey-text font-w-400"> When you promote your website or a blog post on social media, obviously it reaches to all of your followers. And when your followers perform certain activities like, “Sharing your post”, “Liking your post” or “Commenting”
                                     etc., then because of the interactions done through them shows that people are interested on your post and there will be a decent increase in traffic to your website. New visitors will be introduced to your website
                                     when your post is shared by your followers, and this kind of traffic generation is called Referral Traffic. Consistency and discipline is important regarding your postings to gain referral traffic. Else you should pay
-                                    to the channels of social media to reach your post to the maximum which is called as Paid Traffic. </h5>
+                                    to the channels of social media to reach your post to the maximum which is called as Paid Traffic. </p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
 
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400"> Social Media Marketing spreads brand awareness of your product.
-                                </h5>
+                                <p class=" text-left  dark-grey-text font-w-400"> Social Media Marketing spreads brand awareness of your product.
+                                </p>
 
                             </div>
                         </div>
-                        <div class="row pb-3 ">
+                        <div class="row  ">
 
                             <div class="col-md-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400"> There are many platforms for Social Media and the top ten social media channels and their active users are listed below:
-                                </h5>
+                                <p class=" text-left  dark-grey-text font-w-400"> There are many platforms for Social Media and the top ten social media channels and their active users are listed below:
+                                </p>
                                 <table class="table table-bordered table-font-sty">
                                     <thead>
                                         <tr>
@@ -163,16 +163,18 @@
                                     <span class="tit1">Power of social media</span>
                                 </h2>
                             </div>
-                            <p>Social Media is like a sharp knife in the hand of an individual which can be used for good and for bad. Social Media is very helpful for Individuals and for celebrities to share their views and opinions with each other globally.
-                                It also plays a vital role in businesses, and it is the best tool for advertising which has a very great impact on businesses and very cost effective.
-                            </p>
+                            <div class="col-12">
+                                <p>Social Media is like a sharp knife in the hand of an individual which can be used for good and for bad. Social Media is very helpful for Individuals and for celebrities to share their views and opinions with each other globally.
+                                    It also plays a vital role in businesses, and it is the best tool for advertising which has a very great impact on businesses and very cost effective.
+                                </p>
 
-                            <p>Social Media can make you or break you!
-                            </p>
+                                <p>Social Media can make you or break you!
+                                </p>
 
-                            <p>In this digital era, the role of social media is unpredictable. It can make you or break you. Best examples are Mr. Arshid Khan and Mr. Evan Spiegel. Mr. Arshid khan (chaiwala) from Pakistan, a common man, became
-                                overnight celebrity through social media. And Mr. Evan Spiegel, the CEO of Snapchat, who allegedly stated India as a poor country. And after this statement people united together rose against Mr. Evan Spiegel
-                                through social media, and it resulted in downfall of Snapchat ratings in Google Play store, today it has 1-Star rating.</p>
+                                <p>In this digital era, the role of social media is unpredictable. It can make you or break you. Best examples are Mr. Arshid Khan and Mr. Evan Spiegel. Mr. Arshid khan (chaiwala) from Pakistan, a common man, became
+                                    overnight celebrity through social media. And Mr. Evan Spiegel, the CEO of Snapchat, who allegedly stated India as a poor country. And after this statement people united together rose against Mr. Evan Spiegel
+                                    through social media, and it resulted in downfall of Snapchat ratings in Google Play store, today it has 1-Star rating.</p>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-10 mb-20 pt-30 ">
@@ -180,29 +182,33 @@
                                     <span class="tit1">Social Media Strategy</span>
                                 </h2>
                             </div>
-                            <p>Social Media strategy means, it is about how a business or organization will plan, execute, and measure all social media marketing activities. It is the summary of everything you plan to do and hope to achieve for your business using social networks.
-                            </p>
-                            <p>Without strategy, execution is aimless and without execution strategy is useless! Strategy means a plan of action intended to accomplish a specific goal. Business or War, strategy is must!
-                            </p>
-                            <p>Era’s have been changed, we are in digital era now, likewise the way of marketing strategies in business has also been changed. People are very much familiar with social media marketing and its benefits these days, so the best way is to adopt the social media marketing strategy in your business and to explore your website across the world virtually .
-                            </p>
-                            <h3><strong>Some of the Social Media strategies to be focused:</strong></h3>
-                            <ul class="pad-l-20">
-                                <li>Research and know your audience</li>
-                                <li>Create a Social Media Template </li>
-                                <li>Choose your Social Media Networks </li>
-                                <li>Social Media planner or calendar</li>
-                                <li>Focus more on how to be social and less on how to do social media</li>
-                                <li>High quality creativity inspirational messages are necessary</li>
-                                <li>Create and post a relevant content regarding your business </li>
-                                <li>Get ready with high quality images and schedule them time to time, without interruption</li>
-                                <li>Hashtag is very important, Keep the most associated hashtags with your brand</li>
-                                <li>Select your own success metrics through no. of Reaches, Likes, Comments, Shares, Clicks etc. </li>
-                            </ul>
+                            <div class="col-12">
+                                <p>Social Media strategy means, it is about how a business or organization will plan, execute, and measure all social media marketing activities. It is the summary of everything you plan to do and hope to achieve for your business using social networks.
+                                </p>
+                                <p>Without strategy, execution is aimless and without execution strategy is useless! Strategy means a plan of action intended to accomplish a specific goal. Business or War, strategy is must!
+                                </p>
+                                <p>Era’s have been changed, we are in digital era now, likewise the way of marketing strategies in business has also been changed. People are very much familiar with social media marketing and its benefits these days, so the best way is to adopt the social media marketing strategy in your business and to explore your website across the world virtually .
+                                </p>
+                            </div>
+                            <div class="col-12">
+                                <h5 class="font-bold"><strong>Some of the Social Media strategies to be focused:</strong></h5>
+                                <ul class="pad-l-10">
+                                    <li>Research and know your audience</li>
+                                    <li>Create a Social Media Template </li>
+                                    <li>Choose your Social Media Networks </li>
+                                    <li>Social Media planner or calendar</li>
+                                    <li>Focus more on how to be social and less on how to do social media</li>
+                                    <li>High quality creativity inspirational messages are necessary</li>
+                                    <li>Create and post a relevant content regarding your business </li>
+                                    <li>Get ready with high quality images and schedule them time to time, without interruption</li>
+                                    <li>Hashtag is very important, Keep the most associated hashtags with your brand</li>
+                                    <li>Select your own success metrics through no. of Reaches, Likes, Comments, Shares, Clicks etc. </li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <h3><strong>Benefits of Social Media Marketing</strong></h3>
+                                <h5 class="font-bold"><strong>Benefits of Social Media Marketing</strong></h5>
                             </div>
                             <ul class="pad-l-20">
                                 <li>Increased Brand Awareness</li>
@@ -219,12 +225,12 @@
                         </div>
 
 
-
+                    <div class="row">
                         <div class="col-md-10 mb-20 pt-30 ">
                             <h2 class="text-left">
-                                <span class="tit1">Conclusion :
+                                <span class="tit1">Conclusion :</span>
+                            </h2>
                         </div>
-                        </h2>
                     </div>
 
                     <p>To promote a product or service or a blog page or a website on social media you must follow a strategy, then only you will understand the power of the social media marketing and its benefits. Researchers say that 80% of the world population has smartphones these days, so there is a great opportunity to reach the maximum no. of persons when you advertise on Social Media.</p>
@@ -260,7 +266,7 @@
             </div>
         </div>
 </div>
-<div class="d-flex justify-content-md-center   ">
+<div class="d-flex justify-content-md-center mt-20">
     <div class="col-md-10 card  " style="padding:0px;">
         <div class="bg-dark " style="padding:15px;margin:0">
             <div class="row justify-content-md-center ">
@@ -281,7 +287,7 @@
                     <div class="col-md-3">
                         <input class="input-old" type="text" name="mobile" id="mobile" placeholder="Mobile" class="form-control" required>
                     </div>
-                    <div class="col-md-2 mt-1">
+                    <div class="col-md-2 mt-1 text-center">
                         <button class="btn btn-warning btn-md mt-2" type="submit">Register</button>
                     </div>
                 </div>
@@ -323,7 +329,7 @@
                             <input type="email" class="form-control" style="border:1px solid #ddd;padding-left:10px;" id="email" name="email" placeholder="Enter email" required>
                         </div>
                     </div>
-                    <div>
+                    <div class="form-group">
                         <label>Comment</label>
                         <textarea style="border:1px solid #ddd ;padding-left:10px; height:50px;" type="text" id="message" name="message" required></textarea>
                     </div>

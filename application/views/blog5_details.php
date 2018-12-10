@@ -31,12 +31,7 @@
                             <div class="excerpt mt-5" style="padding-top:50px;">
                                 <p> The majority of mobile users who use mobile apps are more than them that access the internet on a personal computer. That means if you are only using a website as a marketing tool without any mobile app related to your business, then you are missing your potential customers in a large range.
                                 </p>
-
-
                             </div>
-
-
-
                         </div>
 
 
@@ -76,15 +71,15 @@
                     <div class="clearfix">&nbsp;</div>
 
                 </div>
-                <p class="pt-4">
-                    <h2>There are 3 kinds of Mobile Apps:</h2>
-                </p>
-                <div class="row py-3">
+                
+                
+                    <h2 class="fw-600 pt-4">There are 3 kinds of Mobile Apps:</h2>
+                <div class="row">
                     <div class="col-2 col-md-1 text-right">
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Web Apps</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Web Apps</p>
 
                     </div>
                 </div>
@@ -93,16 +88,16 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Native Apps</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Native Apps</p>
 
                     </div>
                 </div>
-                <div class="row py-3">
+                <div class="row">
                     <div class="col-2 col-md-1 text-right">
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Hybrid Apps</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Hybrid Apps</p>
 
                     </div>
                 </div>
@@ -112,13 +107,13 @@
                     </h2>
                 </div>
                 <p> These Web Applications are built by using HTML / CSS / Javascript, and these runs inside a web browser (Chrome, Mozilla, Safari etc.). These are built like a regular website or web app that are designed to look good on mobile devices. </p>
-                <h2>Advantages :</h2>
+                <h2 class="fw-600">Advantages :</h2>
                 <div class="row pt-3">
                     <div class="col-2 col-md-1 text-right">
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Easy to build</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Easy to build</p>
 
                     </div>
                 </div>
@@ -127,7 +122,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Easy to maintain </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Easy to maintain </p>
 
                     </div>
                 </div>
@@ -136,7 +131,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Much cheaper than native and hybrid apps </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Much cheaper than native and hybrid apps </p>
 
                     </div>
                 </div>
@@ -145,17 +140,17 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Single application can run on all platforms </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Single application can run on all platforms </p>
 
                     </div>
                 </div>
-                <h2 class="pt-3">Disadvantages :</h2>
+                <h2 class="pt-3 fw-600">Disadvantages :</h2>
                 <div class="row pt-3">
                     <div class="col-2 col-md-1 text-right">
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Need to run in a browser</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Need to run in a browser</p>
 
                     </div>
                 </div>
@@ -164,7 +159,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Less interactive </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Less interactive </p>
 
                     </div>
                 </div>
@@ -173,7 +168,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">No icon on desktop</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">No icon on desktop</p>
 
                     </div>
                 </div>
@@ -182,7 +177,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Cannot interact with device utilities </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Cannot interact with device utilities </p>
 
                     </div>
                 </div>
@@ -191,7 +186,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Slower than Native apps </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Slower than Native apps </p>
 
                     </div>
                 </div>
@@ -201,13 +196,13 @@
                     </h2>
                 </div>
                 <p> Native Mobile apps are built by using native programming languages that runs on specific platforms. This is the most common type of mobile app. </p>
-                <h2>Advantages :</h2>
+                <h2 class="fw-600">Advantages :</h2>
                 <div class="row pt-3">
                     <div class="col-2 col-md-1 text-right">
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Runs very fast on a specific platform</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Runs very fast on a specific platform</p>
 
                     </div>
                 </div>
@@ -216,7 +211,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Distributed in Appstore</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Distributed in Appstore</p>
 
                     </div>
                 </div>
@@ -225,7 +220,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Much Interactive and intuitive </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Much Interactive and intuitive </p>
 
                     </div>
                 </div>
@@ -234,17 +229,17 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Interact with device utilities </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Interact with device utilities </p>
 
                     </div>
                 </div>
-                <h2 class="pt-3">Disadvantages :</h2>
+                <h2 class="pt-3 fw-600">Disadvantages :</h2>
                 <div class="row pt-3">
                     <div class="col-2 col-md-1 text-right">
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Harder Languages</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Harder Languages</p>
 
                     </div>
                 </div>
@@ -253,7 +248,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Single Platform </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Single Platform </p>
 
                     </div>
                 </div>
@@ -262,7 +257,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Very expensive</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Very expensive</p>
 
                     </div>
                 </div>
@@ -271,7 +266,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Hard to maintain</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Hard to maintain</p>
 
                     </div>
                 </div>
@@ -281,13 +276,13 @@
                     </h2>
                 </div>
                 <p> Hybrid mobile apps are the combination of Native applications and Web applications, which are built by HTML / CSS / Javascript and runs inside a webview </p>
-                <h2>Advantages :</h2>
+                <h2 class="fw-600">Advantages :</h2>
                 <div class="row pt-3">
                     <div class="col-2 col-md-1 text-right">
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Single App for all platforms</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Single App for all platforms</p>
 
                     </div>
                 </div>
@@ -296,7 +291,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Much cheaper than a native app </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Much cheaper than a native app </p>
 
                     </div>
                 </div>
@@ -305,7 +300,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Easy to build - HTML / CSS/ Javascript </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Easy to build - HTML / CSS/ Javascript </p>
 
                     </div>
                 </div>
@@ -314,7 +309,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">No browser needed </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">No browser needed </p>
 
                     </div>
                 </div>
@@ -323,7 +318,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Can access device utilities using an API </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Can access device utilities using an API </p>
 
                     </div>
                 </div>
@@ -332,17 +327,17 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Faster to develop that Native Apps</h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Faster to develop that Native Apps</p>
 
                     </div>
                 </div>
-                <h2 class="pt-3">Disadvantages :</h2>
+                <h2 class="pt-3 fw-600">Disadvantages :</h2>
                 <div class="row pt-3">
                     <div class="col-2 col-md-1 text-right">
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Slower than Native Apps </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Slower than Native Apps </p>
 
                     </div>
                 </div>
@@ -351,7 +346,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">More expensive than Web Apps </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">More expensive than Web Apps </p>
 
                     </div>
                 </div>
@@ -360,7 +355,7 @@
                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                     </div>
                     <div class="col-10">
-                        <h5 class=" text-left  dark-grey-text font-w-400">Less interactive than Native Apps </h5>
+                        <p class=" text-left  dark-grey-text font-w-400">Less interactive than Native Apps </p>
 
                     </div>
                 </div>
@@ -374,7 +369,7 @@
                         <div class="row">
                             <div class="col-md-12">
 
-                                <h3><strong class="">Mobile Apps are widely used in the following Businesses:-</strong></h3>
+                                <h5><strong class="font-bold">Mobile Apps are widely used in the following Businesses:-</strong></h5>
                             </div>
                             <ul class="pad-l-20 pt-4 li-fonts-blog">
                                 <li>Retail (online shopping) </li>
@@ -408,8 +403,8 @@
                         </div>
                         <p class="py-4">The key benefits having mobile apps are especially push notifications. When the user downloads the mobile app, then you are able to send messages to your customers mobile, so that they automatically see your offers and promotions. Using your mobile app to allow the customer to have all your information any time, this will result in improved sales, improves service and better user experience of your business. Basically a mobile application can do everything that your website can do like Complex Calculations, Better Personalization, Better Interactivity and Offline access. It can help you in retaining existing and get new customers. </p>
 
-                        <div class="py-4">
-                            <div>
+                        <div class="">
+                            <div class="row">
                                 <div class="col-md-10 mb-20 pt-30 ">
                                     <h2 class="">
                                         <span class="tit1">Conclusion :</span>
@@ -450,7 +445,7 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-md-center   ">
+        <div class="d-flex justify-content-md-center mt-20">
             <div class="col-md-10 card  " style="padding:0px;">
                 <div class="bg-dark " style="padding:15px;margin:0">
                     <div class="row justify-content-md-center ">
@@ -471,7 +466,7 @@
                             <div class="col-md-3">
                                 <input class="input-old" type="text" name="mobile" id="mobile" placeholder="Mobile" class="form-control" required>
                             </div>
-                            <div class="col-md-2 mt-1">
+                            <div class="col-md-2 mt-1 text-center">
                                 <button class="btn btn-warning btn-md mt-2" type="submit">Register</button>
                             </div>
                         </div>
@@ -513,16 +508,15 @@
                                     <input type="email" class="form-control" style="border:1px solid #ddd;padding-left:10px;" id="email" name="email" placeholder="Enter email" required>
                                 </div>
                             </div>
-                            <div>
+                            <div class="form-group">
                                 <label>Comment</label>
                                 <textarea style="border:1px solid #ddd ;padding-left:10px; height:50px;" type="text" id="message" name="message" required></textarea>
                             </div>
                             <div class="">
                                 <button class="btn btn-warning" type="submit">Send</button>
                             </div>
+                        </form>
                     </div>
-
-                    </form>
                 </div>
                 <hr>
                 <?php if(isset($comments_list) && count($comments_list)>0){ ?>

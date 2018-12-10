@@ -125,7 +125,7 @@
 
                 <!-- Card header -->
                 <div class="card-header" role="tab" id="headingTwo">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                         <span class="mb-0">
                             <div class="row">
                                 <div class="col-md-4 col-xs-4 col-sm-4">Marketing Manager</div>
@@ -291,7 +291,7 @@
 
                 <!-- Card header -->
                 <div class="card-header" role="tab" id="headingThree">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                    <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                         <span class="mb-0">
                             <div class="row">
                                 <div class="col-md-4 col-xs-4 col-sm-4">PHP Developer - With Codeigniter Framework</div>
@@ -303,7 +303,7 @@
                 </div>
 
                 <!-- Card body -->
-                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-6">
@@ -373,7 +373,7 @@
 
                 <!-- Card header -->
                 <div class="card-header" role="tab" id="headingFour">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                    <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                         <span class="mb-0">
                             <div class="row">
                                 <div class="col-md-4 col-xs-4 col-sm-4">Graphic Designer </div>
@@ -385,7 +385,7 @@
                 </div>
 
                 <!-- Card body -->
-                <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-6">
@@ -462,7 +462,7 @@
 
                 <!-- Card header -->
                 <div class="card-header" role="tab" id="headingFive">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+                    <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         <span class="mb-0">
                             <div class="row">
                                 <div class="col-md-4 col-xs-4 col-sm-4">Android Developer </div>
@@ -474,7 +474,7 @@
                 </div>
 
                 <!-- Card body -->
-                <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-6">

@@ -9,11 +9,11 @@
 </div>
 <?php endif; ?>
 <div class="selectstate">
-    <section class="pt-5 mt-4 pb-3 pargh" style="padding:10px;">
+    <section class="pt-5 mt-4  pargh" style="padding:10px;">
         <!--Grid row-->
         <div class="d-flex justify-content-md-center   ">
             <div class="col-md-10 card  pad-lr15">
-                <div class="d-flex justify-content-md-center  ptb-15">
+                <div class="row justify-content-md-center  ptb-15">
                     <div class="col-md-12   ptb-15">
                         <!--Featured image-->
 
@@ -36,6 +36,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="row">
                     <div class="col-md-10 mb-20 pt-30 ">
                         <h2 class="text-left">
@@ -45,56 +46,57 @@
                 </div>
 
 
-                <div class="d-flex justify-content-md-center">
+                <div class="row justify-content-md-center">
                     <div class="col-md-12 mb-20 pt-30  ">
                         <p class="font20 text-dark">Follow these simple steps to create your own Youtube channel.</p>
-                        <div class="row pb-3">
+                        <div class="row">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400"> Click on “My Channel” on the Youtube menu, on the left side.</h5>
+                                <p class=" text-left  dark-grey-text"> Click on “My Channel” on the Youtube menu, on the left side.</p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">Now click on “Use a business or other name” .</h5>
+                                <p class=" text-left  dark-grey-text">Now click on “Use a business or other name” .</p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">Assign a name to your channel and also select your business category.</h5>
+                                <p class=" text-left  dark-grey-text">Assign a name to your channel and also select your business category.</p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">Then click on “I agree” icon.</h5>
+                                <p class=" text-left  dark-grey-text">Then click on “I agree” icon.</p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">And click on “Done” icon; now you have created your Youtube channel!</h5>
+                                <p class=" text-left  dark-grey-text">And click on “Done” icon; now you have created your Youtube channel!</p>
 
                             </div>
                         </div>
                     </div>
                 </div>
+                
                 <!--Grid row-->
                 <div class="row ">
                     <div class="col-md-10 mb-20 pt-30 ">
@@ -105,35 +107,34 @@
                     </div>
                 </div>
 
-
                 <div class="row justify-content-md-center">
                     <div class="col-md-12 mb-20 pt-30  ">
 
                         <p class="font20">You can manage your accounts in 3 following ways:</p>
-                        <div class="row pb-3">
+                        <div class="row">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400"> Use your Google Account.</h5>
+                                <p class=" text-left  dark-grey-text"> Use your Google Account.</p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">Use a Brand Account.</h5>
+                                <p class=" text-left  dark-grey-text">Use a Brand Account.</p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">Use Brand Accounts managed by your Google account.</h5>
+                                <p class=" text-left  dark-grey-text">Use Brand Accounts managed by your Google account.</p>
 
                             </div>
                         </div>
@@ -176,75 +177,75 @@
                         </div>
                         <div class="row justify-content-md-center ">
                             <div class="col-md-12">
-                                <div class="row pb-3">
+                                <div class="row">
                                     <div class="col-2 col-md-1 text-right">
                                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                                     </div>
                                     <div class="col-10">
-                                        <h5 class=" text-left  dark-grey-text font-w-400">Youtube is the 2nd largest search engine, behind Google.</h5>
+                                        <p class=" text-left  dark-grey-text">Youtube is the 2nd largest search engine, behind Google.</p>
 
                                     </div>
                                 </div>
-                                <div class="row pb-3">
+                                <div class="row">
                                     <div class="col-2 col-md-1 text-right">
                                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                                     </div>
                                     <div class="col-10">
-                                        <h5 class=" text-left  dark-grey-text font-w-400">Ranks 3rd globally.</h5>
+                                        <p class=" text-left  dark-grey-text">Ranks 3rd globally.</p>
 
                                     </div>
                                 </div>
-                                <div class="row pb-3">
+                                <div class="row">
                                     <div class="col-2 col-md-1 text-right">
                                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                                     </div>
                                     <div class="col-10">
-                                        <h5 class=" text-left  dark-grey-text font-w-400">100 hours of videos are uploaded every minute.</h5>
+                                        <p class=" text-left  dark-grey-text">100 hours of videos are uploaded every minute.</p>
 
                                     </div>
                                 </div>
-                                <div class="row pb-3">
+                                <div class="row">
                                     <div class="col-2 col-md-1 text-right">
                                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                                     </div>
                                     <div class="col-10">
-                                        <h5 class=" text-left  dark-grey-text font-w-400">More than 30 million visitors per day.</h5>
+                                        <p class=" text-left  dark-grey-text">More than 30 million visitors per day.</p>
 
                                     </div>
                                 </div>
-                                <div class="row pb-3">
+                                <div class="row">
                                     <div class="col-2 col-md-1 text-right">
                                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                                     </div>
                                     <div class="col-10">
-                                        <h5 class=" text-left  dark-grey-text font-w-400">5 billion videos are watched per day.</h5>
+                                        <p class=" text-left  dark-grey-text">5 billion videos are watched per day.</p>
 
                                     </div>
                                 </div>
-                                <div class="row pb-3">
+                                <div class="row">
                                     <div class="col-2 col-md-1 text-right">
                                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                                     </div>
                                     <div class="col-10">
-                                        <h5 class=" text-left  dark-grey-text font-w-400">Approximately 75% of views comes from mobile devices.</h5>
+                                        <p class=" text-left  dark-grey-text">Approximately 75% of views comes from mobile devices.</p>
 
                                     </div>
                                 </div>
-                                <div class="row pb-3">
+                                <div class="row">
                                     <div class="col-2 col-md-1 text-right">
                                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                                     </div>
                                     <div class="col-10">
-                                        <h5 class=" text-left  dark-grey-text font-w-400">Approximately 75 countries post content in 80 languages.</h5>
+                                        <p class=" text-left  dark-grey-text">Approximately 75 countries post content in 80 languages.</p>
 
                                     </div>
                                 </div>
-                                <div class="row pb-3">
+                                <div class="row">
                                     <div class="col-2 col-md-1 text-right">
                                         <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                                     </div>
                                     <div class="col-10">
-                                        <h5 class=" text-left  dark-grey-text font-w-400">25% of Internet traffics flows through Youtube.</h5>
+                                        <p class=" text-left  dark-grey-text">25% of Internet traffics flows through Youtube.</p>
 
                                     </div>
                                 </div>
@@ -308,52 +309,51 @@
                     </div>
                 </div>
 
-
                 <div class="row justify-content-md-center">
                     <div class="col-md-12 mb-20 pt-30  ">
 
                         <p class="font20">Considering the following factors Youtube will rank your video:</p>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400"> Overall views - Obviously more views equal to higher ranks. </h5>
+                                <p class=" text-left  dark-grey-text "> Overall views - Obviously more views equal to higher ranks. </p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">Rating (thumbs up and thumbs down) - Users can rate videos by clicking on thumbs up or thumbs down icon.</h5>
+                                <p class=" text-left  dark-grey-text ">Rating (thumbs up and thumbs down) - Users can rate videos by clicking on thumbs up or thumbs down icon.</p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">Subscribers - When a user is inspired by a video, automatically they subscribe.</h5>
+                                <p class=" text-left  dark-grey-text ">Subscribers - When a user is inspired by a video, automatically they subscribe.</p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">Number of social shares - When user likes your video, they will share it too.</h5>
+                                <p class=" text-left  dark-grey-text ">Number of social shares - When user likes your video, they will share it too.</p>
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">Comments - When a video receives plenty of comments, it will also effect in ranking.</h5>
+                                <p class=" text-left  dark-grey-text ">Comments - When a video receives plenty of comments, it will also effect in ranking.</p>
                             </div>
                         </div>
 
@@ -363,47 +363,47 @@
                     <div class="col-md-12 mb-20 pt-30  ">
 
                         <p class="font20">The Following are some of the Benefits of Youtube User:</p>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">You can target your audience worldwide.</h5>
+                                <p class=" text-left  dark-grey-text ">You can target your audience worldwide.</p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">You can build your email list.</h5>
+                                <p class=" text-left  dark-grey-text ">You can build your email list.</p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">Your content will live long.</h5>
+                                <p class=" text-left  dark-grey-text ">Your content will live long.</p>
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">Possibility to build backlinks to your site</h5>
+                                <p class=" text-left  dark-grey-text ">Possibility to build backlinks to your site</p>
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
                             <div class="col-10">
-                                <h5 class=" text-left  dark-grey-text font-w-400">You can earn money through Google’s AdSense.</h5>
+                                <p class=" text-left  dark-grey-text ">You can earn money through Google’s AdSense.</p>
                             </div>
                         </div>
 
@@ -411,7 +411,9 @@
                     <div class="col-md-12 mb-20 pt-30  ">
                         <div class="row justify-content-md-center ">
                             <div class="col-md-12">
-                                <p class="font20 text-dark">Conclusion:</p>
+                                <h2 class="text-left">
+                                    <span class="tit1">Conclusion :</span>
+                                </h2>
                                 <p class="">Youtube is the best platform to market your videos worldwide, to generate more views and likes that eventually elevates your business. However you must create and upload videos time to time, because a single video can never generate business. This is how we optimize a Youtube channel and you will get more traffic by promoting your video across all of your social media channels.</p>
 
                             </div>
@@ -470,7 +472,7 @@
                             <div class="col-md-3">
                                 <input class="input-old" type="text" name="mobile" id="mobile" placeholder="Mobile" class="form-control" required>
                             </div>
-                            <div class="col-md-2 mt-1">
+                            <div class="col-md-2 mt-1 text-center">
                                 <button class="btn btn-warning btn-md mt-2" type="submit">Register</button>
                             </div>
                         </div>
@@ -512,16 +514,15 @@
                                     <input type="email" class="form-control" style="border:1px solid #ddd;padding-left:10px;" id="email" name="email" placeholder="Enter email" required>
                                 </div>
                             </div>
-                            <div>
+                            <div class="form-group">
                                 <label>Comment</label>
                                 <textarea style="border:1px solid #ddd ;padding-left:10px; height:50px;" type="text" id="message" name="message" required></textarea>
                             </div>
                             <div class="">
                                 <button class="btn btn-warning" type="submit">Send</button>
                             </div>
+                        </form>
                     </div>
-
-                    </form>
                 </div>
                 <hr>
                 <?php if(isset($comments_list) && count($comments_list)>0){ ?>

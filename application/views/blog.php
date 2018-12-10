@@ -9,7 +9,7 @@
 
         <!--Grid row-->
         <div class="row justify-content-md-center  mt-4 ">
-            <div class="col-lg-4 col-xs-12 ">
+            <div class="col-lg-4 col-xs-12 mb-4">
                 <div class="card  pad-10">
 
                     <!--Featured image-->
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-xs-12">
+            <div class="col-lg-4 col-xs-12 mb-4">
                 <div class="card  pad-10">
                     <!--Featured image-->
                     <div class="view overlay rounded z-depth-2 mb-2">
@@ -63,7 +63,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-xs-12   ">
+            <div class="col-lg-4 col-xs-12 mb-4">
                 <div class="card  pad-10">
                     <!--Featured image-->
                     <div class="view overlay rounded z-depth-2 mb-2">
@@ -94,8 +94,8 @@
             <!--Grid column-->
         </div>
         
-        <div class="row  pt-5 mt-4 ">
-            <div class="col-lg-4 col-xs-12">
+        <div class="row  ">
+            <div class="col-lg-4 col-xs-12 mb-4">
                 <div class="card  pad-10">
                     <!--Featured image-->
                     <div class="view overlay rounded z-depth-2 mb-2">
@@ -121,7 +121,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-xs-12  ">
+            <div class="col-lg-4 col-xs-12 mb-4">
                 <div class="card  pad-10">
                     <!--Featured image-->
                     <div class="view overlay rounded z-depth-2 mb-2">
@@ -147,7 +147,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-xs-12">
+            <div class="col-lg-4 col-xs-12 mb-4">
                 <div class="card  pad-10">
                     <!--Featured image-->
                     <div class="view overlay rounded z-depth-2 mb-2">
@@ -178,8 +178,8 @@
 
         </div>
         
-        <div class="row  pt-5 mt-4  ">
-            <div class="col-lg-4 col-xs-12  ">
+        <div class="row ">
+            <div class="col-lg-4 col-xs-12 mb-4">
                 <div class="card  pad-10">
                     <!--Featured image-->
                     <div class="view overlay rounded z-depth-2 mb-2">
@@ -207,7 +207,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-xs-12  ">
+            <div class="col-lg-4 col-xs-12 mb-4">
                 <div class="card  pad-10">
                     <!--Featured image-->
                     <div class="view overlay rounded z-depth-2 mb-2">
@@ -236,7 +236,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-xs-12  ">
+            <div class="col-lg-4 col-xs-12 mb-4">
                 <div class="card  pad-10">
                     <!--Featured image-->
                     <div class="view overlay rounded z-depth-2 mb-2">
@@ -265,6 +265,7 @@
             </div>
 
         </div>
+    </div>
 
 </section>
 <!--Section: Blog v.2-->

@@ -1,5 +1,5 @@
 <div class="selectstate">
-    <section class="pt-5 mt-4 pb-3 pargh" style="padding:10px;">
+    <section class="pt-5 mt-4  pargh" style="padding:10px;">
         <!--Grid row-->
         <div class="d-flex justify-content-md-center   ">
             <div class="col-md-10 card  pad-lr15">
@@ -61,7 +61,7 @@
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
@@ -70,7 +70,7 @@
 
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <div class="row ">
                             <div class="col-2 col-md-1 text-right">
                                 <i class="fa fa-mail-forward fa-lg indigo-text"></i>
                             </div>
@@ -93,7 +93,7 @@
                         <img class="img-fluid" src="<?php echo base_url(); ?>assets/vendor/img/the-process-of-ecommerce.png" alt="How Social Media Works">
                     </div>
                 </div>
-                <div class="row pt-5">
+                <div class="row ">
                     <div class="col-md-10 mb-20 pt-30 ">
                         <h2 class="text-left">
                             <span class="tit1">Types Of Business Models In eCommerce:</span>
@@ -102,28 +102,28 @@
                 </div>
 
                 <p>
-                    <h2> Business to Customer (B2C):</h2> This is the commerce between companies and consumers, that involves consumers buying products or services on the online stores through electronic media, which is popularly called as online shopping, this has made ecommerce to be one among the fastest growing sectors of the economy
+                    <h2 class="fw-600"> Business to Customer (B2C):</h2> This is the commerce between companies and consumers, that involves consumers buying products or services on the online stores through electronic media, which is popularly called as online shopping, this has made ecommerce to be one among the fastest growing sectors of the economy
                 </p>
                 <p>
-                    <h2> Business to Business (B2B): </h2> In this, transactions takes place between company to company or in between business and a wholesaler. As per the research, about 80% of the eCommerce in the world is involved in business to business eCommerce, many companies found this way is much better and more profitable where they can quickly promote their products.
+                    <h2 class="fw-600"> Business to Business (B2B): </h2> In this, transactions takes place between company to company or in between business and a wholesaler. As per the research, about 80% of the eCommerce in the world is involved in business to business eCommerce, many companies found this way is much better and more profitable where they can quickly promote their products.
                 </p>
                 <p>
-                    <h2>Consumer to Business (C2B):</h2> In this, consumer will offer services or products to the companies and in return companies will pay for the offers of the consumer, which is quite opposite to the traditional marketing. We can view this type of C2B transactions in blogs, internet forums etc. where the author directs the viewer or reader to his site for purchases.
+                    <h2 class="fw-600">Consumer to Business (C2B):</h2> In this, consumer will offer services or products to the companies and in return companies will pay for the offers of the consumer, which is quite opposite to the traditional marketing. We can view this type of C2B transactions in blogs, internet forums etc. where the author directs the viewer or reader to his site for purchases.
                 </p>
                 <p>
-                    <h2>Customer to Customer (C2C):</h2>In this transactions takes place between customer and customer, generally this kind of sales are facilitated by a third party site that generates the details of the transaction. This kind of transactions benefit both, the seller as well as the buyer because mediator will not be there so there won’t be any extra charges. It is entirely a private transaction between two individuals.
+                    <h2 class="fw-600">Customer to Customer (C2C):</h2>In this transactions takes place between customer and customer, generally this kind of sales are facilitated by a third party site that generates the details of the transaction. This kind of transactions benefit both, the seller as well as the buyer because mediator will not be there so there won’t be any extra charges. It is entirely a private transaction between two individuals.
                 </p>
                 <p>
-                    <h2>Business to Government (B2G): </h2>It is generally defined as the commerce between companies and the public sector. In this a company offers its services or products to various government sectors including federal, state and local governments, especially it is used for public procurement, licensing procedures, request for quotations or information, tenders and other government related operations.
+                    <h2 class="fw-600">Business to Government (B2G): </h2>It is generally defined as the commerce between companies and the public sector. In this a company offers its services or products to various government sectors including federal, state and local governments, especially it is used for public procurement, licensing procedures, request for quotations or information, tenders and other government related operations.
                 </p>
                 <p>
-                    <h2>Government to Business (G2B):</h2>In this model government provides information or services to the business organisation, examples are placing auctions, calling for tenders and application submission functionalities etc.
+                    <h2 class="fw-600">Government to Business (G2B):</h2>In this model government provides information or services to the business organisation, examples are placing auctions, calling for tenders and application submission functionalities etc.
                 </p>
                 <p>
-                    <h2>Government to Citizen (G2C): </h2>The main aim of this G2C commerce is to provide best and effective services through respective websites to each and every citizen, like various welfare schemes, information regarding government departments, or necessary applications to be used by citizens etc.
+                    <h2 class="fw-600">Government to Citizen (G2C): </h2>The main aim of this G2C commerce is to provide best and effective services through respective websites to each and every citizen, like various welfare schemes, information regarding government departments, or necessary applications to be used by citizens etc.
                 </p>
                 <p>
-                    <h2>Mobile Commerce (m-Commerce): </h2>Mobile Commerce is the buying and selling of goods or services especially through mobiles. A research regarding mobile commerce has declared that more than 70% of the online transactions are done through mobiles, mobile commerce has captured the customer as well as the market share. Best examples are mobile banking, mobile ticketing, mobile payments, mobile vouchers and coupons etc.
+                    <h2 class="fw-600">Mobile Commerce (m-Commerce): </h2>Mobile Commerce is the buying and selling of goods or services especially through mobiles. A research regarding mobile commerce has declared that more than 70% of the online transactions are done through mobiles, mobile commerce has captured the customer as well as the market share. Best examples are mobile banking, mobile ticketing, mobile payments, mobile vouchers and coupons etc.
                 </p>
 
                 <div class="row justify-content-md-center">
@@ -131,7 +131,6 @@
 
                         <div class="row">
                             <div class="col-md-12">
-
                                 <h3><strong class="tit1">Top 10 eCommerce Sites In The World:</strong></h3>
                             </div>
                             <ul class="pad-l-20 pt-4">
@@ -183,7 +182,7 @@
                         </div>
 
 
-
+                    <div class="row ">
                         <div class="col-md-10 mb-20 pt-30 ">
                             <h2 class="text-left">
                                 <span class="tit1">Conclusion :</span>
@@ -224,7 +223,7 @@
             </div>
         </div>
 </div>
-<div class="d-flex justify-content-md-center   ">
+<div class="d-flex justify-content-md-center  mt-20 ">
     <div class="col-md-10 card  " style="padding:0px;">
         <div class="bg-dark " style="padding:15px;margin:0">
             <div class="row justify-content-md-center ">
@@ -245,7 +244,7 @@
                     <div class="col-md-3">
                         <input class="input-old" type="text" name="mobile" id="mobile" placeholder="Mobile" class="form-control" required>
                     </div>
-                    <div class="col-md-2 mt-1">
+                    <div class="col-md-2 mt-1 text-center">
                         <button class="btn btn-warning btn-md mt-2" type="submit">Register</button>
                     </div>
                 </div>
@@ -287,16 +286,15 @@
                             <input type="email" class="form-control" style="border:1px solid #ddd;padding-left:10px;" id="email" name="email" placeholder="Enter email" required>
                         </div>
                     </div>
-                    <div>
+                    <div class="form-group">
                         <label>Comment</label>
                         <textarea style="border:1px solid #ddd ;padding-left:10px; height:50px;" type="text" id="message" name="message" required></textarea>
                     </div>
                     <div class="">
                         <button class="btn btn-warning" type="submit">Send</button>
                     </div>
+                </form>
             </div>
-
-            </form>
         </div>
         <hr>
         <?php if(isset($comments_list) && count($comments_list)>0){ ?>

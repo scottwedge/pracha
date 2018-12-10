@@ -554,47 +554,50 @@
         <h2 class="py-5 font-weight-bold text-white" style="font-size:30px;line-height:40px;">YOU ALSO GET..</h2>
         <div class="row pb-5">
             <div class="col ">
-                <div class=" ">
-                    <i class=""><img src="<?php echo base_url(); ?>assets/vendor/img/ondemand/quick-booking.png" alt="Quick Booking Module"></i>
+                <div class="mb-4 ">
+                    <img class="img-fluid" style="width:50%;height:50%;" src="<?php echo base_url(); ?>assets/vendor/img/ondemand/quick-booking.png" alt="Quick Booking Module">
+                    
                     <h5 class="font-weight-bold mt-3">Quick Booking Module</h5>
                 </div>
             </div>
             <div class="col ">
-                <div class=" ">
+                <div class="mb-4 ">
                     <img class="img-fluid" style="width:50%;height:50%;" src="<?php echo base_url(); ?>assets/vendor/img/ondemand/social-media.png" alt="Grocery Services">
                     <h5 class="font-weight-bold mt-3">Social Media</h5>
                 </div>
             </div>
             <div class="col ">
-                <div class=" ">
+                <div class="mb-4 ">
                     <img class="img-fluid" style="width:50%;height:50%;" src="<?php echo base_url(); ?>assets/vendor/img/ondemand/payment.png" alt="Laundry Services">
                     <h5 class="font-weight-bold mt-3">Payment Gateway</h5>
                 </div>
             </div>
             <div class="col ">
-                <div class=" ">
+                <div class="mb-4 ">
                     <img class="img-fluid" style="width:50%;height:50%;" src="<?php echo base_url(); ?>assets/vendor/img/ondemand/alert.png" alt="Instant Alerts">
                     <h5 class="font-weight-bold mt-3">Instant Alerts</h5>
                 </div>
             </div>
             <div class="col ">
-                <div class=" ">
+                <div class="mb-4 ">
                     <img class="img-fluid" style="width:50%;height:50%;" src="<?php echo base_url(); ?>assets/vendor/img/ondemand/location.png" alt="Parking Services">
                     <h5 class="font-weight-bold mt-3">Geo IP Location</h5>
                 </div>
             </div>
             <div class="col ">
-                <div class=" ">
+                <div class="mb-4 ">
                     <img class="img-fluid" style="width:50%;height:50%;" src="<?php echo base_url(); ?>assets/vendor/img/ondemand/analytics.png" alt="Health & Fitness">
                     <h5 class="font-weight-bold mt-3">Analytics </h5>
                 </div>
             </div>
             <div class="col ">
-                <div class="">
+                <div class="mb-4">
                     <img class="img-fluid" style="width:50%;height:50%;" src="<?php echo base_url(); ?>assets/vendor/img/ondemand/feedback.png" alt="Health & Fitness">
                     <h5 class="font-weight-bold mt-3">Feedback System</h5>
                 </div>
             </div>
+            <div class="col md-hide"></div>
+            <div class="col md-hide"></div>
         </div>
     </section>
 </div>

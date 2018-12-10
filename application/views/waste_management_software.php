@@ -1,7 +1,7 @@
 <section class="bod-st py-2">
     <!-- Main layout -->
-    <main>
-        <div class="view jarallax" style="height: 100vh;">
+    <main class="bwm-banner">
+        <div class="view jarallax">
             <img class="jarallax-img" src="<?php echo base_url(); ?>assets/vendor/img/medispace-proccess-banner.png" alt="">
             <div class="mask rgba-blue-slight">
                 <div class="container flex-center text-center">
@@ -148,7 +148,7 @@
 
             <div class="row">
 
-                <div class="col-md-6">
+                <div class="col-md-6 mb-5">
                     <form action="<?php echo base_url('pracha/contactpost');?>" method="post" enctype="multipart/form-data">
 
 
@@ -185,9 +185,9 @@
                     <!-- Form contact -->
 
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mb-5">
                     <div>
-                        <h2>Prachatech Software Solutions</h2>
+                        <h2 class="h5">Prachatech Software Solutions</h2>
                         <p class="pad-6px">Digital Marketing & Web Designing Company</p>
                         <p class="pad-6px">Phone Number :&nbsp; 040-48541273</p>
                         <p class="pad-6px">Plot No. 177, 1st Floor,

@@ -87,30 +87,32 @@
 </section>
 
 <section class="com=ntainer-fluid">
-    <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/startup.png);height:700px;">
+    <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(<?php echo base_url(); ?>assets/vendor/img/startup.png);height:730px;">
         <div class="full-bg-img">
-            <div class="mask ">
-                <div class=" flex-center text-center text-white" style="position:relative">
-                    <div class="row  algin-pos-left">
-                        <div class="col-md-5 ">
+            <div class="mask">
+               <div class="text-center text-white">
+                    <div class="row text-center">
+                        <div class="col-md-5 p-5">
                             <div class="help-foot-banner">
                                 <h4 class="text-warning font-25">End-To-End Solutions</h4>
-                                <p>For every problem there is a solution! </p>
-                                <p>For every bug there is a debugging process.</p>
-                                <p>We have the ability to provide solutions for complicated issues through our vast tech tools & experts for the "WWW."s </p>
+                                <p>For every problem there is a solution! For every bug there is a debugging process. We have the ability to provide solutions for complicated issues through our vast tech tools & experts for the "WWW."s</p>
                             </div>
                         </div>
+                        <div class="col-md-7"></div>
                     </div>
-                    <div class="row  justify-content-center">
-                        <div class="col-md-5 ">
+                    <div class="row text-center">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6 ">
                             <div class="help-foot-banner">
                                 <h4 class="text-warning font-25">Cost-Effective</h4>
                                 <p>We can assure that we are one of the best web designing companies in Hyderabad, who can provide a quality service at affordable prices. We will give you a turnkey solution and will help you end-to-end.</p>
                             </div>
                         </div>
+                        <div class="col-md-3"></div>
                     </div>
-                    <div class="row justify-content-right ">
-                        <div class="col-md-5  algin-pos-right">
+                    <div class="row text-center">
+                        <div class="col-md-7"></div>
+                        <div class="col-md-5 p-5">
                             <div class="help-foot-banner">
                                 <h4 class="text-warning font-25">We are here for you</h4>
                                 <p> Many of our clients have certified that our web designing services and digital marketing services are appraisable. We are here to help and encourage your business to present it online.</p>
@@ -156,11 +158,8 @@
 
         <div class="row container-sty">
 
-            <div class="col-md-6">
+            <div class="col-md-6 mb-5">
                 <form action="<?php echo base_url('pracha/contactpost');?>" method="post" enctype="multipart/form-data">
-
-
-
                     <div class="md-form">
                         <i class="fa fa-user prefix grey-text"></i>
                         <input type="text" id="name" name="name" class="form-control" required>
@@ -193,9 +192,9 @@
                 <!-- Form contact -->
 
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-5">
                 <div>
-                    <h2>Prachatech Software Solutions</h2>
+                    <h2 class="h5">Prachatech Software Solutions</h2>
                     <p class="pad-6px">Digital Marketing & Web Designing Company</p>
                     <p class="pad-6px">Phone Number :&nbsp; 040-48541273</p>
                     <p class="pad-6px">Plot No. 177, 1st Floor,
