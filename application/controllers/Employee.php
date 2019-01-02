@@ -472,7 +472,7 @@ class Employee extends CI_Controller {
 						$diff_in_hrs=$interval->format('%h')." hrs ".$interval->format('%i')." Min ".$interval->format('%s').'sec';
 					}
 					$t=$list['create_at'];
-					$details[$list['id']]['currentday']=date('F').' - '.date("D d",strtotime($t)); 
+					$details[$list['id']]['currentday']=$t; 
 					$details[$list['id']]['name']=$list['emp_name'];
 					$details[$list['id']]['mobile']=$list['emp_mobile'];
 					$details[$list['id']]['workinghours']=$diff_in_hrs;
