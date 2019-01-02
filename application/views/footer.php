@@ -276,7 +276,7 @@
                 <h6 class="title-footer mb-4 mt-3 font-bold font-20" style="letter-spacing: 0px;">Follow us @</h6>
             </li>
             <li>&nbsp;</li>
-            <li><a href="https://business.facebook.com/prachatechadmin/" target="_blank" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+            <li><a href="https://www.facebook.com/prachatechnologiespvt.ltd/" target="_blank" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
             <li><a href="https://twitter.com/Prachatech" target="_blank" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
             <li><a href="https://plus.google.com/103803990699303943827/" target="_blank" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
             <li><a href="https://www.linkedin.com/company/10006577/admin/updates/" target="_blank" class="btn-floating btn-sm btn-ins"><i class="fa fa fa-linkedin"> </i></a></li>
