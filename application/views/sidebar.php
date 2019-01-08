@@ -1,6 +1,6 @@
 <?php //echo '<pre>';print_r($userdetails);exit;?>
 <div class="col-md-3 bg-dark col-xs-12 pos-fix sm-hide" style="width:20%;">
-	<ul class="side-bar">
+	<ul class="side-bar" style="height: 600px;overflow-y:scroll ">
 		<a href="<?php echo base_url('employee/profile'); ?>"><li> Employee Profile</li></a>
 		<?php if($userdetails['role']==1 || $userdetails['role']==2){ ?>
 		<a href="<?php echo base_url('employee/reportlist'); ?>"><li>Daily WorkMangagment  </li></a>
@@ -30,6 +30,12 @@
 		<?php if( $userdetails['role']==4){ ?>
 		<a href="<?php echo base_url('employee/sales');?>"><li>Sales</li></a>
 		<?php } ?>
+        <a href="<?php echo base_url('project/add_website'); ?>"><li>Add Project Type </li></a>
+        <a href="<?php echo base_url('project/project_type_list'); ?>"><li>Project Type List</li></a>
+        <a href="<?php echo base_url('role/add_role'); ?>"><li>Add Role </li></a>
+        <a href="<?php echo base_url('role/role_list'); ?>"><li>Role List</li></a>
+        <a href="<?php echo base_url('project/add_project'); ?>"><li>Add Project Details</li></a>
+        <a href="<?php echo base_url('project/assign_project'); ?>"><li>Assign Project </li></a>
 	</ul>
 </div>
 

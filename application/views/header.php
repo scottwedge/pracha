@@ -107,7 +107,7 @@
 				
 			<li class="nav-item <?php if($currentURL==base_url('portfolio')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('portfolio');?>" class="nav-link"> <span class=" ">Portfolio</span></a></li>
 			<li class="nav-item <?php if($currentURL==base_url('industries')){ echo "active-menu"; } ?>"> <a href="<?php echo base_url('industries');?>" class="nav-link"> <span class=" ">Industries</span></a></li>
-			<li class="nav-item">
+			<li class="nav-item <?php if($currentURL==base_url('Waste_management_software')){ echo "active-menu"; } ?>">
                 <a href="<?php echo base_url('Waste_management_software');?>" class="nav-link"> <span class=" ">Waste Management Software</span></a>
             </li>
             
