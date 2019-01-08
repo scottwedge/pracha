@@ -17,7 +17,7 @@
     <!-- Your custom styles (optional) -->
     <link href="<?php echo base_url(); ?>assets/vendor/css/style.css" rel="stylesheet">
 	<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/jquery-3.2.1.min.js"></script>
-	
+
 	  
 </head>
 
