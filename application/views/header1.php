@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url(); ?>assets/vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/vendor/css/bootstrapValidator.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="<?php echo base_url(); ?>assets/vendor/css/mdb.min.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>assets/vendor/css/compiled.min.css" rel="stylesheet">

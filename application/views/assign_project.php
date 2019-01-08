@@ -23,7 +23,7 @@
                                 <hr>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Choose Project</label>
+                                <label>Choose Project</label>
                                 <select class="mdb-select" id="" name="project" required>
 
                                     <option value="" disabled selected>select</option>
@@ -35,11 +35,9 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Choose Work Type</label>
+                                <label>Choose Work Type</label>
                                 <select class="mdb-select" id="" name="work_type" required>
-
                                     <option value="" disabled selected>select</option>
-
                                     <option value="1" >New</option>
                                     <option value="2" >Errors</option>
                                     <option value="3" >Bugs</option>
@@ -47,78 +45,61 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Choose Role</label>
+                                <label>Choose Role</label>
                                 <select class="mdb-select" id="" name="work_type" required>
-
                                     <option value="" disabled selected>select</option>
                                     <?php foreach ($roles as $role){ ?>
                                         <option value="<?php echo $role->role_id; ?>"><?php echo $role->role_name; ?></option>
                                     <?php }?>
-
-
                                 </select>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Choose Employee</label>
+                                <label>Choose Employee</label>
                                 <select class="mdb-select" id="" name="emp" required>
-
                                     <option value="" disabled selected>select</option>
-
-
                                 </select>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Work Title</label>
-                                <input type="text" class="form-control" name="wtitle" id=""   value=""  required>
+                                <label>Work Title</label>
+                                <input type="text" class="form-control" name="wtitle" id="wtitle" value="">
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Work Description</label>
-                                <input type="text" class="form-control" name="wdesc" id=""   value=""  required>
+                                <label>Work Description</label>
+                                <input type="text" class="form-control" name="wdesc" id=""   value="" >
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername"> Required Files </label>
+                                <label> Required Files </label>
                                 <input type="file" class="form-control" name='rfiles[]' id=''   value=""  multiple>
                             </div>
-
-
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Start Date</label>
-                                <input type="date" class="form-control" name="sdate" id=""   value=""  required>
+                                <label>Start Date</label>
+                                <input type="date" class="form-control" name="sdate" id=""   value="">
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">End Date</label>
-                                <input type="date" class="form-control" name="edate" id=""   value=""  required>
+                                <label>End Date</label>
+                                <input type="date" class="form-control" name="edate" id=""   value="">
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Number of Days</label>
-                                <input type="text" class="form-control" name="w_days" id="" placeholder=""  value=""  required>
+                                <label>Number of Days</label>
+                                <input type="text" class="form-control" name="w_days" id="" placeholder=""  value="">
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Proirty</label>
+                                <label>Proirty</label>
                                 <select class="mdb-select" id="" name="priority" required>
-
                                     <option value="" disabled selected>select</option>
-
                                     <option value="1" >High</option>
                                     <option value="2" >Medium</option>
                                     <option value="3" >Low</option>
-
                                 </select>
                             </div>
-
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Comments</label>
+                                <label>Comments</label>
                                 <textarea  name="comment" id=""  value="" ></textarea>
                             </div>
-
-
-
-
-
                         </div>
-                        <button type="submit" class="btn btn-dark">Add</button>
-
-
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-md waves-effect waves-light">Submit</button>
+                        </div>
                     </div>
 
                 </form>
@@ -129,13 +110,14 @@
 </div>
 <script>
     $(document).ready(function() {
-
         $('select').addClass('mdb-select');
         $('.mdb-select').material_select();
     });
-
 </script>
-<script type="text/javascript">
+
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/bootstrapValidator.min.js"></script>
+
+<!--<script type="text/javascript">
     $(document).ready(function() {
         $('#add_type').bootstrapValidator({
 
@@ -166,12 +148,21 @@
 
     });
 
+</script>-->
+<script type="text/javascript">
+$(document).ready(function() {
+	
+    $('#add_type').bootstrapValidator({
+//     
+        fields: {
+            wtitle: {
+               validators: {
+					notEmpty: {
+						message: 'Email is required'
+					}
+				}
+            }
+        }
+    });
+});
 </script>
-
-<script src="https://unpkg.com/vue/dist/vue.js"></script>
-<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-<script>
-
-</script>
-
-
