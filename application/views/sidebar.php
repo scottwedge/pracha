@@ -1,6 +1,32 @@
 <?php //echo '<pre>';print_r($userdetails);exit;?>
-<div class="col-md-3 bg-dark col-xs-12 pos-fix sm-hide" style="width:20%;">
-	<ul class="side-bar" style="height: 600px;overflow-y:scroll ">
+<style>
+.side-bar{
+    height: 600px;
+    overflow-y:scroll;
+    padding-bottom:100px;
+}
+/* width */
+.side-bar::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.side-bar::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.side-bar::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.side-bar::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+</style>
+<div class="col-md-3 bg-dark col-xs-12 pos-fix sm-hide" style="width:20%;padding-right:0px;">
+	<ul class="side-bar">
 		<a href="<?php echo base_url('employee/profile'); ?>"><li> Employee Profile</li></a>
 		<?php if($userdetails['role']==1 || $userdetails['role']==2){ ?>
 		<a href="<?php echo base_url('employee/reportlist'); ?>"><li>Daily WorkMangagment  </li></a>
