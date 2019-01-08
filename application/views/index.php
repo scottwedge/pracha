@@ -2,7 +2,7 @@
    <section class=" bod-st" style="margin-top:75px;min-height:500px;">
       <!--Carousel Wrapper-->
       <div  class="row bg-white">
-      <div  class="col-md-8 ">
+      <div  class="col-md-12 ">
 		  <div id="main-slide" class="carousel slide" data-ride="carousel">
 			 <div class="carousel-inner">
 				<div class="carousel-item active">
@@ -15,12 +15,14 @@
 		  </div>
       <!--Carousel Wrapper-->
 	  </div>
+	   <div  class="col-md-4 ">&nbsp;
+	   </div>
 	   <div  class="col-md-4 ">
 			<div class="h3  text-warning py-3"  style="font-family: 'Righteous', cursive;">
 					DYNAMIC BUSINESS WEBSITE 
 
 			</div>
-			<div class="h4   side-font text-center">
+			<div class="h4   side-font ">
 					
 					Price- Rs. 5999/- per Year
 
