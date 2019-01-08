@@ -10,7 +10,7 @@ class Role_model extends CI_Model
     }
     public function check_role_type($name){
 
-        $this->db->select('1')->from('roles_tab')->where('role_name',$name)
+        $this->db->select('1')->from('roles_tab')->where('role_name',$name)->where('status !=',0);
           ;
         return $this->db->get()->result()?1:0;
     }
@@ -30,7 +30,8 @@ class Role_model extends CI_Model
 
     }
     public function check_edit_role($name,$role_id){
-        $this->db->select('*')->from('roles_tab')->where('role_id !=',$role_id)->where('role_name',$name);
+        $this->db->select('*')->from('roles_tab')->where('role_id !=',$role_id)->where('role_name',$name)
+            ->where('status !=',0);;
         $res= $this->db->get()->result_array();
 
         $list = array_column($res, 'role_name');

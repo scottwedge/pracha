@@ -35,7 +35,10 @@
         <a href="<?php echo base_url('role/add_role'); ?>"><li>Add Role </li></a>
         <a href="<?php echo base_url('role/role_list'); ?>"><li>Role List</li></a>
         <a href="<?php echo base_url('project/add_project'); ?>"><li>Add Project Details</li></a>
+        <a href="<?php echo base_url('project/project_list'); ?>"><li>Project List</li></a>
         <a href="<?php echo base_url('project/assign_project'); ?>"><li>Assign Project </li></a>
+        <a href="<?php echo base_url('department/add_department'); ?>"><li>Add Department </li></a>
+        <a href="<?php echo base_url('department/department_list'); ?>"><li>Department List</li></a>
 	</ul>
 </div>
 

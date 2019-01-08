@@ -251,6 +251,12 @@ public function save_project(){
         $clt_num = $this->input->post('clt_num');
         $clt_email = $this->input->post('clt_email');
         //$roles=$this->input->post('roles');
+       $flag=$this->Project_model->check_project_name($p_name);
+       if($flag==1){
+           $this->session->set_flashdata('error', 'Project Name Existed ');
+           redirect($_SERVER[HTTP_REFERER]);
+
+       }
         $data = array('project_name' => $p_name,
             'est_days' => $est_days,
             'start_date' => $p_st_dt,
@@ -270,6 +276,21 @@ public function save_project(){
         redirect('employee');
     }
 
+    }
+    public function project_list(){
+        if ($this->session->userdata('userdetails')) {
+            $userdetails = $this->session->userdata('userdetails');
+            $data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+            $data['project_list']=$this->Project_model->get_all_projects();
+            $this->load->view('header1');
+            $this->load->view('sidebar',$data);
+            $this->load->view('project_list',$data);
+
+        }
+        else{
+
+            redirect('employee');
+        }
     }
     public function assign_project()
     {
@@ -291,4 +312,36 @@ public function save_project(){
         }
     }
 
+    public function save_assign_project()
+    {
+        if ($this->session->userdata('userdetails')) {
+            $userdetails = $this->session->userdata('userdetails');
+            $data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+            $pname=$this->input->post('project');
+
+
+
+
+
+
+        }
+        else{
+
+            redirect('employee');
+        }
+    }
 }

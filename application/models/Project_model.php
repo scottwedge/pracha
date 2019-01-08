@@ -11,7 +11,7 @@ class Project_model extends CI_Model
     public function check_project_type($name,$apptype){
 
         $this->db->select('1')->from('project_type_tab')->where('project_type',$name)
-            ->where('application_type',$apptype);
+            ->where('application_type',$apptype)->where('status !=',0);
         return $this->db->get()->result()?1:0;
     }
     public function save_project_type($data){
@@ -109,6 +109,18 @@ class Project_model extends CI_Model
     }
     public function get_projects(){
         $this->db->select('*')->from('project_tab')->where('status !=',0);
+        return $this->db->get()->result();
+
+
+    }
+    public function check_project_name($p_name){
+        $this->db->select('1')->from('project_tab')->where('project_name',$p_name)
+            ->where('status !=',0);
+        return $this->db->get()->result()?1:0;
+    }
+    public function get_all_projects(){
+        $this->db->select('*')->from('project_tab')
+            ->where('status !=',0);
         return $this->db->get()->result();
 
 

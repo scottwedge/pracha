@@ -23,12 +23,15 @@
 				</div>
 		  			<div class="form-group col-md-6">
 		  				<label for="exampleInputUsername">Employee Role</label>
-						<select class="mdb-select" id="role" name="role" required>
-						<option value="" disabled selected>Choose Role</option>
-						<option value="1">HR</option>
-						<option value="3" >Employee</option>
-						<option value="4" >Sales</option>
-						</select>
+                        <select class="mdb-select" id="role" name="role" required>
+                            <option value="" disabled selected>Choose Role</option>
+                            <?php foreach ($role_list as $role) {?>
+                                <option value="<?php echo $role->role_id;?>">
+                                    <?php echo $role->role_name;?>
+                                </option>
+                            <?php } ?>
+
+                        </select>
 			  		</div>
 					<div class="form-group col-md-6">
 		  				<label for="exampleInputUsername">Name</label>
@@ -36,9 +39,22 @@
 			  		</div>
 			  		<div class="form-group col-md-6">
 				    	<label for="exampleInputEmail">Designation</label>
-				    	<input type="text" class="form-control" id="designation" required="true" name="designation" placeholder=" Enter Designation" value="">
-				  	</div>	
-				  	<div class="form-group col-md-6">
+				    	<input type="text" class="form-control" id="designation" required="true" name=" " placeholder=" Enter Designation" value="">
+				  	</div>
+                    <div class="form-group col-md-6">
+                        <label for="exampleInputEmail">Department</label>
+                        <select class="mdb-select" id="role" name="dept" required>
+                            <option value="" disabled selected>Choose Department</option>
+                            <?php foreach ($dept_list as $dept) {?>
+                            <option value="<?php echo base64_encode($dept->department_id);?>">
+                                <?php echo $dept->department_name;?>
+                            </option>
+                            <?php } ?>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-6">
 				    	<label for="telephone">Responsibilites</label>
 				    	<input type="text" class="form-control"  required="true" name="responsibilites" id="responsibilites"  placeholder=" Enter Responsibilites" value="">
 		  			</div>

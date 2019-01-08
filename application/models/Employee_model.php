@@ -312,6 +312,16 @@ class Employee_model extends CI_Model
 		//$this->db->where('YEAR(CURRENT_DATE - INTERVAL 1 MONTH)');
         return $this->db->get()->result_array();	
 	}
+    public  function role_list(){
+        $this->db->select('role_id, role_name')->from('roles_tab')->where('status !=0')->order_by('updated_at','desc');
+        return $this->db->get()->result();
+
+    }
+    public  function department_list(){
+        $this->db->select('department_id,department_name')->from('department_tab')->where('status !=0')->order_by('updated_at','desc');
+        return $this->db->get()->result();
+
+    }
 
 
 }

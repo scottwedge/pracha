@@ -67,10 +67,7 @@
 <!--                            </div>-->
 
 
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline1">
-                                <label class="custom-control-label" for="defaultInline1">1</label>
-                            </div>
+
 
 
                         </div>

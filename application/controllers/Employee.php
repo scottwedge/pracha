@@ -603,6 +603,8 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+			    $data['role_list']=$this->Employee_model->role_list();
+                $data['dept_list']=$this->Employee_model->department_list();
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('addemployee',$data);
@@ -908,6 +910,7 @@ class Employee extends CI_Controller {
 						'role'=>isset($post['role'])?$post['role']:'',
 						'status'=>1,
 						'create'=>date('Y-m-d H:i:s'),
+                            'department'=>base64_decode($this->input->post('dept'))
 						);
 					$addemployee = $this->Employee_model->save_employee($addemp);
 					//echo $this->db->last_query();exit;

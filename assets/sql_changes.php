@@ -104,3 +104,6 @@ CREATE TABLE `type_of_project_tab` (
   `project_type` int(11) DEFAULT NULL,
   KEY `id` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+ALTER TABLE `prachatech`.`employee`
+CHANGE `department` `department` INT(11) NULL;

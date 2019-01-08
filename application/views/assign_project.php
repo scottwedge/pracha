@@ -29,7 +29,7 @@
                                     <option value="" disabled selected>select</option>
 
                                     <?php foreach ($projects as $project){ ?>
-                                        <option value="<?php echo $project->project_id; ?>"><?php echo $project->project_name; ?></option>
+                                        <option value="<?php echo base64_encode($project->project_id); ?>"><?php echo $project->project_name; ?></option>
                                     <?php }?>
 
                                 </select>
@@ -47,8 +47,8 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Choose Role</label>
-                                <select class="mdb-select" id="" name="work_type" required>
+                                <label for="exampleInputUsername">Choose Department</label>
+                                <select class="mdb-select" id="" name="dept" required>
 
                                     <option value="" disabled selected>select</option>
                                     <?php foreach ($roles as $role){ ?>
@@ -168,10 +168,6 @@
 
 </script>
 
-<script src="https://unpkg.com/vue/dist/vue.js"></script>
-<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-<script>
 
-</script>
 
 
