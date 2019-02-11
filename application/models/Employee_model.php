@@ -1,24 +1,24 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Employee_model extends CI_Model 
+class Employee_model extends CI_Model
 
 {
-	function __construct() 
+	function __construct()
 	{
 		parent::__construct();
 		$this->load->database("default");
 	}
 	public function login_details($email,$pass){
 		$sql = "SELECT * FROM employee WHERE (emp_email ='".$email."' AND emp_password='".$pass."'  AND status='1') OR (emp_username ='".$email."' AND emp_password='".$pass."' AND status='1')";
-		return $this->db->query($sql)->row_array();	
+		return $this->db->query($sql)->row_array();
 	}
 	public function check_employee_email($email){
 		$sql = "SELECT * FROM employee WHERE emp_email ='".$email."'AND status='1'";
-		return $this->db->query($sql)->row_array();	
+		return $this->db->query($sql)->row_array();
 	}
 	public function get_employee_details($id){
 		$sql = "SELECT * FROM employee WHERE emp_id ='".$id."'";
-		return $this->db->query($sql)->row_array();	
+		return $this->db->query($sql)->row_array();
 	}
 	public function save_login_time_status($data){
 		$this->db->insert('login_report', $data);
@@ -26,7 +26,7 @@ class Employee_model extends CI_Model
 	}
 	public function getcustomer_oldpassword($empid){
 		$sql="SELECT * FROM employee WHERE emp_id ='".$empid."'";
-        return $this->db->query($sql)->row_array(); 
+        return $this->db->query($sql)->row_array();
 	}
 	public function set_password($empid,$pass,$orgpass){
 		$sql1="UPDATE employee SET emp_password ='".$pass."', emp_org_password ='".$orgpass."' WHERE emp_id = '".$empid."'";
@@ -34,8 +34,8 @@ class Employee_model extends CI_Model
 	}
 	public function check_today_login($empid,$date){
 		$this->db->select('*')->from('login_report');
-		$this->db->where('emp_id', $empid);	
-		$this->db->where('create_at', $date);	
+		$this->db->where('emp_id', $empid);
+		$this->db->where('create_at', $date);
         return $this->db->get()->row_array();
 	}
 	public function get_employee_list_all_details(){
@@ -68,56 +68,56 @@ class Employee_model extends CI_Model
 	}
 	public function get_employee_logindetails($empid,$date){
 		$this->db->select('*')->from('login_report');
-		$this->db->where('emp_id', $empid);	
-		$this->db->where('create_at', $date);	
+		$this->db->where('emp_id', $empid);
+		$this->db->where('create_at', $date);
         return $this->db->get()->row_array();
 	}
 	public function save_daily_report($data){
 		$this->db->insert('work_sheet', $data);
-		return $insert_id = $this->db->insert_id(); 
+		return $insert_id = $this->db->insert_id();
 	}
 	public function sae_invoice_data($data){
 		$this->db->insert('payslips', $data);
-		return $insert_id = $this->db->insert_id(); 
+		return $insert_id = $this->db->insert_id();
 	}
 	public function save_task_data($data){
 		$this->db->insert('task', $data);
-		return $insert_id = $this->db->insert_id(); 
+		return $insert_id = $this->db->insert_id();
 	}
 	public function save_leaves_data($data){
 		$this->db->insert('leaves', $data);
-		return $insert_id = $this->db->insert_id(); 
+		return $insert_id = $this->db->insert_id();
 	}
 	public function save_suggetion_data($data){
 		$this->db->insert('suggestion_list', $data);
-		return $insert_id = $this->db->insert_id(); 
+		return $insert_id = $this->db->insert_id();
 	}
 	public function save_holidays_data($data){
 		$this->db->insert('holidays_list', $data);
-		return $insert_id = $this->db->insert_id(); 
+		return $insert_id = $this->db->insert_id();
 	}
 	public function save_employee($data){
 		$this->db->insert('employee', $data);
-		return $insert_id = $this->db->insert_id(); 
+		return $insert_id = $this->db->insert_id();
 	}
 	public function get_employee_task_list($emp_id,$l_id){
 		$this->db->select('login_report.create_at,login_report.emp_id,login_report.id')->from('login_report');
-		$this->db->where('emp_id', $emp_id);	
+		$this->db->where('emp_id', $emp_id);
 		$this->db->like('create_at', date('Y-m'));
 		$this->db->order_by('login_report.create_at desc');
-        $this->db->group_by('create_at'); 		
+        $this->db->group_by('create_at');
         return $this->db->get()->result_array();
 	}
 	public function get_employee_daily_task_list($emp_id,$l_id){
 		$this->db->select('work_sheet.comment,work_sheet.reportfile,work_sheet.create_date')->from('work_sheet');
-		$this->db->where('emp_id', $emp_id);	
-		$this->db->where('login_id', $l_id);	
+		$this->db->where('emp_id', $emp_id);
+		$this->db->where('login_id', $l_id);
         return $this->db->get()->result_array();
 	}
 	public function get_employee_login_logout($emp_id,$date){
 		$this->db->select('*')->from('login_report');
-		$this->db->where('emp_id', $emp_id);	
-		$this->db->where('create_at', $date);	
+		$this->db->where('emp_id', $emp_id);
+		$this->db->where('create_at', $date);
         return $this->db->get()->row_array();
 	}
 	public function get_all_employees_dailyreport(){
@@ -135,22 +135,22 @@ class Employee_model extends CI_Model
 	}
 	public function get_employee_daily_task_lists($emp_id,$l_id){
 		$this->db->select('work_sheet.comment,work_sheet.reportfile,work_sheet.create_date')->from('work_sheet');
-		$this->db->where('emp_id', $emp_id);	
-		$this->db->where('login_id', $l_id);	
+		$this->db->where('emp_id', $emp_id);
+		$this->db->where('login_id', $l_id);
         return $this->db->get()->result_array();
 	}
 	public function get_leaves_data($emp_id){
 		$this->db->select('leaves.*,employee.emp_name,leaveemp.emp_name as create_name')->from('leaves');
 		$this->db->join('employee', 'employee.emp_id = leaves.emp_id', 'left');
 		$this->db->join('employee as leaveemp', 'leaveemp.emp_id = leaves.create_by', 'left');
-		$this->db->where('leaves.emp_id', $emp_id);	
+		$this->db->where('leaves.emp_id', $emp_id);
         return $this->db->get()->result_array();
 	}
 	public function get_suggestion_data($emp_id){
 		$this->db->select('suggestion_list.*,employee.emp_name,employee.emp_profilepic, replayed.emp_name as empreplyname,, replayed.emp_profilepic as empreplyimage,')->from('suggestion_list');
 		$this->db->join('employee', 'employee.emp_id = suggestion_list.emp_id', 'left');
 		$this->db->join('employee as replayed', 'replayed.emp_id = suggestion_list.replayed_id', 'left');
-		$this->db->where('suggestion_list.emp_id', $emp_id);	
+		$this->db->where('suggestion_list.emp_id', $emp_id);
         return $this->db->get()->result_array();
 	}
 	public function get_all_suggestion_data(){
@@ -256,11 +256,11 @@ class Employee_model extends CI_Model
 		$this->db->where('leaves.leavetype', 3);
 		return $this->db->get()->result_array();
 	}
-	
+
 	/* bills*/
 	public function save_project_bills($data){
 		$this->db->insert('bills', $data);
-		return $insert_id = $this->db->insert_id(); 
+		return $insert_id = $this->db->insert_id();
 	}
 	public function get_billing_details($bid){
 		$this->db->select('*')->from('bills');
@@ -283,9 +283,9 @@ class Employee_model extends CI_Model
 		$this->db->where('b_id', $bid);
 		return $this->db->update('bills', $data);
 	}
-	
+
 	/* bills*/
-	
+
 	/* task export*/
 	public  function get_export_task_details($emp_id){
 		$this->db->select('comment,reportfile,create_date,date')->from('work_sheet');
@@ -299,18 +299,18 @@ class Employee_model extends CI_Model
 		return $this->db->get()->row_array();
 	}
 	public function reports_list_data(){
-		$this->db->select('sales_details.*')->from('sales_details');		
+		$this->db->select('sales_details.*')->from('sales_details');
 		$this->db->where('status', 1);
-        return $this->db->get()->result_array();	
-	}	
+        return $this->db->get()->result_array();
+	}
 
 	public  function get_employee_working_hours($date){
 		$this->db->select('login_report.*,employee.emp_name')->from('login_report');
-		$this->db->join('employee', 'employee.emp_id = login_report.emp_id', 'left');		
+		$this->db->join('employee', 'employee.emp_id = login_report.emp_id', 'left');
 		//$this->db->where('create_at', $date);
 		$this->db->where('MONTH(login_report.create_at)',$date);
 		//$this->db->where('YEAR(CURRENT_DATE - INTERVAL 1 MONTH)');
-        return $this->db->get()->result_array();	
+        return $this->db->get()->result_array();
 	}
     public  function role_list(){
         $this->db->select('role_id, role_name')->from('roles_tab')->where('status !=0')->order_by('updated_at','desc');

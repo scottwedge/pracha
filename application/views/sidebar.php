@@ -12,21 +12,25 @@
 
 /* Track */
 .side-bar::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 .side-bar::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
 /* Handle on hover */
 .side-bar::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 </style>
 <div class="col-md-3 bg-dark col-xs-12 pos-fix sm-hide" style="width:20%;padding-right:0px;">
 	<ul class="side-bar">
+    <?php if($userdetails['role']==9) { ?>
+      <a href="<?php echo base_url('employee/profile'); ?>"><li> Employee Profile</li></a>
+    <?php }else{ ?>
+
 		<a href="<?php echo base_url('employee/profile'); ?>"><li> Employee Profile</li></a>
 		<?php if($userdetails['role']==1 || $userdetails['role']==2){ ?>
 		<a href="<?php echo base_url('employee/reportlist'); ?>"><li>Daily WorkMangagment  </li></a>
@@ -47,7 +51,7 @@
 		<a href="<?php echo base_url('employee/payslip'); ?>"><li>Pay Slips</li></a>
 		<a href="<?php echo base_url('employee/suggestion'); ?>"><li>Complaint/ Suggestion Box</li></a>
 		<a href="<?php echo base_url('employee/task'); ?>"><li>Task Mangagment </li></a>
-		
+
 		<?php } ?>
 		<?php if($userdetails['role']==1 || $userdetails['role']==4){ ?>
 			<a href="<?php echo base_url('payment/billing'); ?>"><li>Billing</li></a>
@@ -65,6 +69,6 @@
         <a href="<?php echo base_url('project/assign_project'); ?>"><li>Assign Project </li></a>
         <a href="<?php echo base_url('department/add_department'); ?>"><li>Add Department </li></a>
         <a href="<?php echo base_url('department/department_list'); ?>"><li>Department List</li></a>
+      <?php }?>
 	</ul>
 </div>
-
