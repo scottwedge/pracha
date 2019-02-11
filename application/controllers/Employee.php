@@ -3,9 +3,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Employee extends CI_Controller {
 
-	public function __construct() 
+	public function __construct()
 	{
-		parent::__construct();	
+		parent::__construct();
 		$this->load->helper(array('url','html','form'));
 		$this->load->library('session','form_validation');
 		$this->load->library('email');
@@ -25,14 +25,14 @@ class Employee extends CI_Controller {
 	}
 	public function index()
 	{
-		
+
 		if(!$this->session->userdata('userdetails'))
 		{
 		$this->load->view('header1');
 		$this->load->view('login');
 		//$this->load->view('footer');
 		}else{
-			redirect('employee/profile');	
+			redirect('employee/profile');
 		}
 	}
 	public function loginpost(){
@@ -52,7 +52,7 @@ class Employee extends CI_Controller {
 			if(count($checklogin)==0){
 				$logindatasave = $this->Employee_model->save_login_time_status($login_data);
 				if(count($logindatasave)>0){
-					redirect('employee/profile');	
+					redirect('employee/profile');
 				}else{
 					$this->session->set_flashdata('loginerror',"Technical problem will occured. Please try again.");
 					redirect('employee');
@@ -60,19 +60,21 @@ class Employee extends CI_Controller {
 			}else{
 				redirect('employee/profile');
 			}
-					
+
 		}else{
 			$this->session->set_flashdata('loginerror',"Invalid Email Address or Password!");
 			redirect('employee');
 		}
-		
+
 	}
 	public function profile(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+		//	echo '<pre>';print_r($data);exit;
+
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('profile',$data);
@@ -80,12 +82,12 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function payslip(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -99,12 +101,12 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function payslips(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -118,12 +120,12 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function payslippost(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -134,17 +136,17 @@ class Employee extends CI_Controller {
 				$data['grossearningwords']=$this->livemumtowordclsconvert->mycustom_convert_num($post['grossearning']);
 				$path = rtrim(FCPATH,"/");
 				$file_name =$post['month'].'_Month_payslip_'.$data['userdetails']['emp_office_id'].'.pdf';
-				$data['name']=$file_name;		
-				$data['month']=$post['month'];			
-				$data['workeddays']=$post['workeddays'];			
-				$data['workingdays']=$post['workingdays'];			
-				$data['grossearning']= $post['grossearning'];			
-				$data['grossearning_lop']= ($post['grossearning'])- ($post['grossdeduction']);			
-				$data['grossdeduction']=$post['grossdeduction'];		
+				$data['name']=$file_name;
+				$data['month']=$post['month'];
+				$data['workeddays']=$post['workeddays'];
+				$data['workingdays']=$post['workingdays'];
+				$data['grossearning']= $post['grossearning'];
+				$data['grossearning_lop']= ($post['grossearning'])- ($post['grossdeduction']);
+				$data['grossdeduction']=$post['grossdeduction'];
 				$data['grossearning_lop_inwords']=$this->livemumtowordclsconvert->mycustom_convert_num($data['grossearning_lop']);
 
-				$data['lop']=$post['workingdays']- $post['workeddays'];		
-				$data['heading']=$post['month'].' '.date('Y');	
+				$data['lop']=$post['workingdays']- $post['workeddays'];
+				$data['heading']=$post['month'].' '.date('Y');
 				$pdfFilePath = $path."/assets/payslips/".$file_name;
 				ini_set('memory_limit','320M'); // boost the memory limit if it's low <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="??" draggable="false" class="emoji">
 				$html =$this->load->view('pdf',$data, true); // render the view into HTML
@@ -155,7 +157,7 @@ class Employee extends CI_Controller {
 				$pdf->SetDisplayMode('fullpage');
 				$pdf->list_indent_first_level = 0;	// 1 or 0 - whether to indent the first level of a list
 				$pdf->WriteHTML($html); // write the HTML into the PDF
-				$pdf->Output($pdfFilePath, 'F'); 
+				$pdf->Output($pdfFilePath, 'F');
 				$monthname = date("m", strtotime($post['month']));
 				$displaydate= date('Y').'-'.$monthname.'-1';
 				$invoicedata=array(
@@ -170,15 +172,15 @@ class Employee extends CI_Controller {
 				$this->session->set_flashdata('success','Pay Slip successfully created');
 				redirect('employee/payslips');
 
-			
-			
+
+
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
+		}
 	}
 	public function holidays_list(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -196,16 +198,16 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
+		}
 	}
 	public function task(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			if($data['userdetails']['role']==3){
-				
+
 			$data['task_list']=$this->Employee_model->get_task_list_data($userdetails['emp_id']);
 			}else{
 			$data['task_list']=$this->Employee_model->get_task_list_data('');
@@ -219,10 +221,10 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
+		}
 	}
 	public function suggestion(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -242,21 +244,21 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
+		}
 	}
 	public function suggestionpost(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$post=$this->input->post();
-			//echo '<pre>';print_r($post);exit; 
+			//echo '<pre>';print_r($post);exit;
 			if(isset($post['emp_id']) && $post['emp_id']!=''){
 				$emp=$post['emp_id'];
 				$replyemp=$data['userdetails']['emp_id'];
 				$type='Replayed';
-			}else{  
+			}else{
 				$emp=$data['userdetails']['emp_id'];
 				$replyemp=$data['userdetails']['emp_id'];
 				$type='Replay';
@@ -278,14 +280,14 @@ class Employee extends CI_Controller {
 				$this->session->set_flashdata('error','Technical problem will occurred .please try again');
 				redirect('employee/suggestion');
 			}
-			
+
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
+		}
 	}
 	public function leaves(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -306,10 +308,10 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
+		}
 	}
 	public function leaveslist(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -329,20 +331,20 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
+		}
 	}
 	public function leavepost(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$post=$this->input->post();
-			
+
 				$timestamp = strtotime($post['fromdate']);
 				$timestamp1 = strtotime($post['todate']);
-				$currentDate = date('Y-m-d', $timestamp); 
-				$newDate = date('Y-m-d', $timestamp1); 
+				$currentDate = date('Y-m-d', $timestamp);
+				$newDate = date('Y-m-d', $timestamp1);
 				if(isset($post['type']) && $post['type']==1){
 					$emp_id=$post['emp_id'];
 				}else{
@@ -381,14 +383,14 @@ class Employee extends CI_Controller {
 					redirect('employee/leaves');
 				}
 			}
-			
+
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
+		}
 	}
 	public function taskpost(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -412,14 +414,14 @@ class Employee extends CI_Controller {
 				$this->session->set_flashdata('error','Technical problem will occurred .please try again');
 				redirect('employee/task');
 			}
-			
+
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
+		}
 	}
 	public function holiydayadd(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -443,14 +445,14 @@ class Employee extends CI_Controller {
 				$this->session->set_flashdata('error','Technical problem will occurred .please try again');
 				redirect('employee/holidays_list');
 			}
-			
+
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
+		}
 	}
 	public function reportlist(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -472,14 +474,14 @@ class Employee extends CI_Controller {
 						$diff_in_hrs=$interval->format('%h')." hrs ".$interval->format('%i')." Min ".$interval->format('%s').'sec';
 					}
 					$t=$list['create_at'];
-					$details[$list['id']]['currentday']=$t; 
+					$details[$list['id']]['currentday']=$t;
 					$details[$list['id']]['name']=$list['emp_name'];
 					$details[$list['id']]['mobile']=$list['emp_mobile'];
 					$details[$list['id']]['workinghours']=$diff_in_hrs;
 					$details[$list['id']]['intime']=$list['login_time'];
 					$details[$list['id']]['outtime']=$list['logout_time'];
 					$details[$list['id']]['dailywork']=$this->Employee_model->get_employee_daily_task_list($list['emp_id'],$list['id']);
-					
+
 				}
 				//echo '<pre>';print_r($details);exit;
 				if(count($details)>0){
@@ -498,12 +500,12 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function report(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -514,7 +516,7 @@ class Employee extends CI_Controller {
 			$diff_in_hrs=$times='';
 			foreach ($task_list as $list){
 				$times=$this->Employee_model->get_employee_login_logout($list['emp_id'],$list['create_at']);
-				
+
 				if(isset($times['logout_time']) && $times['logout_time']=='0000-00-00 00:00:00'){
 					$current_time=date('Y-m-d H:i:s');
 					$datetime1 = new DateTime($times['login_time']);
@@ -522,24 +524,24 @@ class Employee extends CI_Controller {
 					$interval = $datetime1->diff($datetime2);
 					$diff_in_hrs=$interval->format('%h')." Hr ".$interval->format('%i')." Min ".$interval->format('%s').'sec';
 				}else{
-					
+
 					$datetime1 = new DateTime($times['login_time']);
 					$datetime2 = new DateTime($times['logout_time']);
 					$interval = $datetime1->diff($datetime2);
 					$diff_in_hrs=$interval->format('%h')." hrs ".$interval->format('%i')." Min ".$interval->format('%s').'sec';
-				
-				
+
+
 				}
-				
+
 				$details[$list['create_at']]['task']=$this->Employee_model->get_employee_daily_task_list($list['emp_id'],$list['id']);
 				$t=$list['create_at'];
-				
-				$details[$list['create_at']]['currentday']=date('F').' - '.date("D d",strtotime($t)); 
+
+				$details[$list['create_at']]['currentday']=date('F').' - '.date("D d",strtotime($t));
 				$details[$list['create_at']]['workinghours']=$diff_in_hrs;
 				$details[$list['create_at']]['intime']=$times['login_time'];
 				$details[$list['create_at']]['outtime']=$times['logout_time'];
 			}
-			$data['title']=date('F').' - '.date("Y",strtotime(date('Y-m-d'))); 
+			$data['title']=date('F').' - '.date("Y",strtotime(date('Y-m-d')));
 			if(count($details)>0){
 				$data['reportlist']=$details;
 			}else{
@@ -553,12 +555,12 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function edit(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -571,12 +573,12 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function employeeedit(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -592,12 +594,12 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function addemployee(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -616,12 +618,12 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function employeelist(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -650,11 +652,11 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}public function status(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -664,7 +666,7 @@ class Employee extends CI_Controller {
 				$empid=base64_decode($this->uri->segment(3));
 				$status=base64_decode($this->uri->segment(4));
 				if($status==1){
-					$active=array('status'=>0);	
+					$active=array('status'=>0);
 				}else{
 					$active=array('status'=>1);
 				}
@@ -677,7 +679,7 @@ class Employee extends CI_Controller {
 						}
 					}else{
 						$this->session->set_flashdata('error','Technical problem will occurred .please try again');
-						
+
 					}
 					redirect('employee/employeelist');
 
@@ -688,12 +690,12 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function holidaystatus(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -703,24 +705,24 @@ class Employee extends CI_Controller {
 				$hid=base64_decode($this->uri->segment(3));
 				$status=base64_decode($this->uri->segment(4));
 				if($status==1){
-					$active=array('status'=>0);	
+					$active=array('status'=>0);
 				}else{
 					$active=array('status'=>1);
 				}
 				if($status==2){
-					
+
 					$statuschange= $this->Employee_model->delete_holiday_details($hid);
 					//echo $this->db->last_query();exit;
 					if(count($statuschange)>0){
 						$this->session->set_flashdata('success','Holiday Successfully Deleted');
-							
+
 						}else{
 							$this->session->set_flashdata('error','Technical problem will occurred .please try again');
-							
+
 					}
-					
+
 				}else{
-					
+
 					$statuschange= $this->Employee_model->update_holiday_details($hid,$active);
 					if(count($statuschange)>0){
 							if($status==1){
@@ -730,10 +732,10 @@ class Employee extends CI_Controller {
 							}
 						}else{
 							$this->session->set_flashdata('error','Technical problem will occurred .please try again');
-							
+
 						}
 				}
-	
+
 					redirect('employee/holidays_list');
 
 			}else{
@@ -743,12 +745,12 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function leavestatus(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -758,7 +760,7 @@ class Employee extends CI_Controller {
 				$empid=base64_decode($this->uri->segment(3));
 				$status=base64_decode($this->uri->segment(4));
 				$leave_id=base64_decode($this->uri->segment(5));
-				$active=array('status'=>$status);	
+				$active=array('status'=>$status);
 				$statuschange= $this->Employee_model->update_leave_details($empid,$active,$leave_id);
 				if(count($statuschange)>0){
 						if($status==2){
@@ -768,7 +770,7 @@ class Employee extends CI_Controller {
 						}
 					}else{
 						$this->session->set_flashdata('error','Technical problem will occurred .please try again');
-						
+
 					}
 					redirect('employee/leaveslist');
 
@@ -779,12 +781,12 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function taskstatus(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -795,7 +797,7 @@ class Employee extends CI_Controller {
 				$status=base64_decode($this->uri->segment(4));
 				$task_id=base64_decode($this->uri->segment(5));
 				$active=array('status'=>$status);
-			if($status==4){				
+			if($status==4){
 				$statuschange= $this->Employee_model->delete_task_details($task_id);
 				//echo $this->db->last_query();exit;
 				if(count($statuschange)>0){
@@ -806,9 +808,9 @@ class Employee extends CI_Controller {
 						}
 					}else{
 						$this->session->set_flashdata('error','Technical problem will occurred .please try again');
-						
+
 					}
-					
+
 			}else{
 				$statuschange= $this->Employee_model->update_task_details($empid,$active,$task_id);
 				//echo $this->db->last_query();exit;
@@ -820,9 +822,9 @@ class Employee extends CI_Controller {
 						}
 					}else{
 						$this->session->set_flashdata('error','Technical problem will occurred .please try again');
-						
+
 					}
-				
+
 			}
 					redirect('employee/task');
 
@@ -833,12 +835,12 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function addeployeepost(){
-		
+
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
@@ -910,7 +912,7 @@ class Employee extends CI_Controller {
 						'role'=>isset($post['role'])?$post['role']:'',
 						'status'=>1,
 						'create'=>date('Y-m-d H:i:s'),
-                            'department'=>base64_decode($this->input->post('dept'))
+                            'department'=>'IT'
 						);
 					$addemployee = $this->Employee_model->save_employee($addemp);
 					//echo $this->db->last_query();exit;
@@ -932,9 +934,9 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 		
-		
-		
+		}
+
+
 	}
 	public function update(){
 		if($this->session->userdata('userdetails'))
@@ -977,39 +979,39 @@ class Employee extends CI_Controller {
 			if($post['role_type']=='admin'){
 					$salary=$post['salary'];
 					$dob=$cust_upload_file['emp_dob'];
-					$responsibilites=$post['responsibilites'];	
-					$basicsalary=$post['basicsalary'];	
-					$hra=$post['hra'];	
-					$specialallowance=$post['specialallowance'];	
-					$conveyance=$post['conveyance'];	
-					$medicalreimbursement=$post['medicalreimbursement'];	
+					$responsibilites=$post['responsibilites'];
+					$basicsalary=$post['basicsalary'];
+					$hra=$post['hra'];
+					$specialallowance=$post['specialallowance'];
+					$conveyance=$post['conveyance'];
+					$medicalreimbursement=$post['medicalreimbursement'];
 					$pfnumber=$post['pfnumber'];
-					$pfamount=$post['pfamount'];	
-					$pt=$post['pt'];	
-					$esi=$post['esi'];	
-					$others=$post['others'];						
-					$advance=$post['advance'];						
-					$bankname=$post['bankname'];	
-					$bankaccountnumber=$post['bankaccountnumber'];		
-					$salary_increment=$post['salary_increment'];		
+					$pfamount=$post['pfamount'];
+					$pt=$post['pt'];
+					$esi=$post['esi'];
+					$others=$post['others'];
+					$advance=$post['advance'];
+					$bankname=$post['bankname'];
+					$bankaccountnumber=$post['bankaccountnumber'];
+					$salary_increment=$post['salary_increment'];
 				}else{
 					$salary=$cust_upload_file['salary'];
-					$dob=$post['dob'];	
+					$dob=$post['dob'];
 					$responsibilites=$cust_upload_file['responsibilities'];
-					$basicsalary=$cust_upload_file['basicsalary'];	
-					$hra=$cust_upload_filecust_upload_file['hra'];	
-					$specialallowance=$cust_upload_file['specialallowance'];	
-					$conveyance=$cust_upload_file['conveyance'];	
-					$medicalreimbursement=$cust_upload_file['medicalreimbursement'];	
+					$basicsalary=$cust_upload_file['basicsalary'];
+					$hra=$cust_upload_filecust_upload_file['hra'];
+					$specialallowance=$cust_upload_file['specialallowance'];
+					$conveyance=$cust_upload_file['conveyance'];
+					$medicalreimbursement=$cust_upload_file['medicalreimbursement'];
 					$pfnumber=$cust_upload_file['pfnumber'];
-					$pfamount=$cust_upload_file['pfamount'];	
-					$pt=$cust_upload_file['pt'];	
-					$esi=$cust_upload_file['esi'];	
-					$others=$cust_upload_file['others'];						
-					$advance=$cust_upload_file['advance'];					
-					$bankname=$cust_upload_file['bankname'];	
-					$bankaccountnumber=$cust_upload_file['bankaccountnumber'];					
-					$salary_increment=$cust_upload_file['salary_increment'];					
+					$pfamount=$cust_upload_file['pfamount'];
+					$pt=$cust_upload_file['pt'];
+					$esi=$cust_upload_file['esi'];
+					$others=$cust_upload_file['others'];
+					$advance=$cust_upload_file['advance'];
+					$bankname=$cust_upload_file['bankname'];
+					$bankaccountnumber=$cust_upload_file['bankaccountnumber'];
+					$salary_increment=$cust_upload_file['salary_increment'];
 				}
 			$editdata=array(
 			'emp_name'=>isset($post['name'])?$post['name']:'',
@@ -1045,16 +1047,16 @@ class Employee extends CI_Controller {
 			);
 			//echo '<pre>';print_r($editdata);exit;
 			$updateprofile= $this->Employee_model->update_profile_details($post['emp_id'],$editdata);
-			
+
 			//echo $this->db->last_query();exit;
 			if(count($updateprofile)>0){
 				$this->session->set_flashdata('success','Profile Successfully updated');
 				if($post['role_type']=='admin'){
 					redirect('employee/employeelist');
 				}else{
-				redirect('employee/profile');	
+				redirect('employee/profile');
 				}
-				
+
 			}else{
 				 $this->session->set_flashdata('error','Technical problem will occurred .please try again');
 				 redirect('employee/edit');
@@ -1148,7 +1150,7 @@ class Employee extends CI_Controller {
 	}
 	public function forgotpassword()
 	{
-		
+
 		if(!$this->session->userdata('userdetails'))
 		{
 				$post=$this->input->post();
@@ -1161,7 +1163,7 @@ class Employee extends CI_Controller {
 						$this->email->from('prachatech.com');
 						$this->email->to($check_email['emp_email']);
 						$this->email->subject('Login - Password');
-						$html = $check_email['emp_name'].'Your login password id <strong>'.$check_email['emp_org_password'].'</strong>'; 
+						$html = $check_email['emp_name'].'Your login password id <strong>'.$check_email['emp_org_password'].'</strong>';
 						//echo $html;exit;
 						$this->email->message($html);
 						if($this->email->send()){
@@ -1171,13 +1173,13 @@ class Employee extends CI_Controller {
 							$this->session->set_flashdata('loginerror',"In Our local  emails  are  not  sent");
 							redirect('employee');
 						}
-						
+
 				}else{
 					$this->session->set_flashdata('loginerror',"Invalid Email Address. please try again");
 					redirect('employee');
 				}
 		}else{
-			redirect('employee/profile');	
+			redirect('employee/profile');
 		}
 	}
 	public function logout(){
@@ -1194,10 +1196,10 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 
+		}
 	}
 	public function getpayslips(){
-		
+
 		$post=$this->input->post();
 		$ids=explode('_',$post['emp_id']);
 		$getpayslip= $this->Employee_model->get_payslip_data($ids[0],$ids[1]);
@@ -1205,23 +1207,23 @@ class Employee extends CI_Controller {
 		{
 			$data['msg']=1;
 			$data=$getpayslip;
-			echo json_encode($data);	
+			echo json_encode($data);
 		}else{
 			$data['msg']=0;
 			echo json_encode($data);
 		}
-		
+
 	}
 	public function last_month_login_report(){
 		if($this->session->userdata('userdetails'))
 		{
 			$currentMonth = date('F');
-			$file_name= Date('F', strtotime($currentMonth . " last month"));			
+			$file_name= Date('F', strtotime($currentMonth . " last month"));
 			header("Content-type: application/csv");
             header("Content-Disposition: attachment; filename=\"$file_name"."_employees".".csv\"");
             header("Pragma: no-cache");
             header("Expires: 0");
-			
+
 			$userdetails=$this->session->userdata('userdetails');
 			//$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 				$task_list= $this->Employee_model->get_all_employees_monthreport();
@@ -1240,17 +1242,17 @@ class Employee extends CI_Controller {
 						$diff_in_hrs=$interval->format('%h')." hrs ".$interval->format('%i')." Min ".$interval->format('%s').'sec';
 					}
 					$t=$list['create_at'];
-					$details[$list['id']]['currentday']=date("D d",strtotime($t)); 
+					$details[$list['id']]['currentday']=date("D d",strtotime($t));
 					$details[$list['id']]['name']=$list['emp_name'];
 					$details[$list['id']]['mobile']=$list['emp_mobile'];
 					$details[$list['id']]['workinghours']=$diff_in_hrs;
 					$details[$list['id']]['intime']=$list['login_time'];
 					$details[$list['id']]['outtime']=$list['logout_time'];
 					//$details[$list['id']]['dailywork']=$this->Employee_model->get_employee_daily_task_list($list['emp_id'],$list['id']);
-					
+
 				$data[] = array('Date'=> $details[$list['id']]['currentday'], 'Name'=> $details[$list['id']]['name'], 'Login time'=> $details[$list['id']]['intime'],'Outime'=>$details[$list['id']]['outtime'], 'Working Hours'=> $details[$list['id']]['workinghours'],);
 				}
-			
+
             $handle = fopen('php://output', 'w');
 			foreach ($data as $data) {
                 fputcsv($handle, $data);
@@ -1261,10 +1263,10 @@ class Employee extends CI_Controller {
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 	
+		}
 	}
 	public  function timecalculation(){
-	
+
 		$task_list= $this->Employee_model->get_employee_working_hours(date('m'));
 		//echo '<pre>';print_r($task_list);exit;
 		foreach($task_list as $li){
@@ -1282,30 +1284,30 @@ class Employee extends CI_Controller {
 						$diff_in_hrs =$interval->format('%h');
 						$diff_in_mins =$interval->format('%i');
 					}
-					//$diff_in_mins 
-					
+					//$diff_in_mins
+
 			$datas[$li['emp_id']]['hours'][] = $diff_in_hrs;
 			$datas[$li['emp_id']]['mins']= $diff_in_mins;
 			$datas[$li['emp_id']]['emp_name']=$li['emp_name'];
-			
-			
+
+
 		}
-		
+
 		foreach($datas as $li){
 			//echo '<pre>';print_r($li);
 			echo $li['emp_name'].'=   Hours : '.array_sum($li['hours']).'------min :'.$li['mins'];
 			echo '<br>';
-			
+
 		}
-		
-		exit;	
-		
-		
+
+		exit;
+
+
 	}
-	
+
 	public  function taskexport(){
-		
-		 
+
+
 		$emp_id=base64_decode($this->uri->segment(3));
 		$filename=$emp_id;
 		$usersdetails=$this->Employee_model->get_employee_name($emp_id);
@@ -1315,7 +1317,7 @@ class Employee extends CI_Controller {
 		//echo '<pre>';print_r($filename);exit;
 		header("Content-Description: File Transfer");
 		header("Content-Disposition: attachment; filename=$filename");
-		header("Content-Type: application/csv; "); 
+		header("Content-Type: application/csv; ");
 
 		// get data
 		//$usersData = $this->Main_model->getUserDetails();
@@ -1332,36 +1334,36 @@ class Employee extends CI_Controller {
 
 		fclose($file);
 		exit;
-		
+
 	}
 	public function sales()
-	{	
-	
+	{
+
 	if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$employee_list = $this->Employee_model->get_employee_list_all_details();
-			
-			
+
+
 			if($data['userdetails']['role']==4){
-				
+
 			$data['reports_list']=$this->Employee_model->reports_list_data();
-			 //echo'<pre>';print_r($data);exit;		
-			 
+			 //echo'<pre>';print_r($data);exit;
+
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('reports',$data);
 			//$this->load->view('footer');
 			}else{
 				redirect('employee/sales');
-				
+
 			}
 	      }else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
-		} 	
-	
+		}
+
 	}
-	
+
 }

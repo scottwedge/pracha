@@ -4,17 +4,17 @@
 			<div class="row">
 		<form action="<?php echo base_url('employee/addeployeepost');?>" method="post" enctype="multipart/form-data">
 			<div class="col-md-12">
-			    
+
 			    <div class="row">
 				<?php if($this->session->flashdata('success')): ?>
 		<div class="alert alert-success">
-		<strong><?php echo $this->session->flashdata('success'); ?></strong> 
+		<strong><?php echo $this->session->flashdata('success'); ?></strong>
 		</div>
 
 		<?php endif; ?>
 		<?php if($this->session->flashdata('error')): ?>
 		<div class="alert alert-warning">
-		<strong><?php echo $this->session->flashdata('error'); ?></strong> 
+		<strong><?php echo $this->session->flashdata('error'); ?></strong>
 		</div>
 		<?php endif; ?>
 				<div class="col-md-12">
@@ -41,7 +41,7 @@
 				    	<label for="exampleInputEmail">Designation</label>
 				    	<input type="text" class="form-control" id="designation" required="true" name=" " placeholder=" Enter Designation" value="">
 				  	</div>
-                    <div class="form-group col-md-6">
+                    <!-- <div class="form-group col-md-6">
                         <label for="exampleInputEmail">Department</label>
                         <select class="mdb-select" id="role" name="dept" required>
                             <option value="" disabled selected>Choose Department</option>
@@ -52,7 +52,7 @@
                             <?php } ?>
 
                         </select>
-                    </div>
+                    </div> -->
 
                     <div class="form-group col-md-6">
 				    	<label for="telephone">Responsibilites</label>
@@ -102,7 +102,7 @@
 				    	<label for="telephone">PF Number</label>
 				    	<input type="text" class="form-control" name="pfnumber" id="pfnumber" required="true"  placeholder="PF Number" value="<?php echo isset($userdetails['pfnumber'])?$userdetails['pfnumber']:''; ?>">
 		  			</div>
-					
+
 		  			<div class="form-group col-md-6">
 				    	<label for="telephone">PF Amount</label>
 				    	<input type="text" class="form-control" name="pfamount" id="pfamount" required="true" placeholder="PF Amount" value="<?php echo isset($userdetails['pfamount'])?$userdetails['pfamount']:''; ?>">
@@ -135,7 +135,7 @@
 				    	<label for="telephone">Salary</label>
 				    	<input type="text" class="form-control" name="salary" id="salary" placeholder="Salary" value="<?php echo isset($userdetails['salary'])?$userdetails['salary']:''; ?>">
 		  			</div>
-					
+
 					<div class="form-group col-md-6">
 				    	<label for="telephone">Adhar Card Number</label>
 				    	<input type="text" class="form-control" name="aadharnumber" id="aadharnumber" placeholder="Aadhar Card number" value="">
@@ -170,22 +170,21 @@
 		  			</div>
 		  		</div>
 				<button type="submit" class="btn btn-dark">Add</button>
-	  			
-	  			
+
+
 	  		</div>
-	  		
+
 		</form>
 	</div>
-	
+
 	</div>
 </div>
 </div>
 		<script>
 	$(document).ready(function() {
-  
+
     $('select').addClass('mdb-select');
     $('.mdb-select').material_select();
 });
-       
+
 	</script>
-	
