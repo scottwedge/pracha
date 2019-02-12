@@ -86,6 +86,75 @@ class Employee extends CI_Controller {
 
 
 	}
+	
+	public function add_project(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+		//	echo '<pre>';print_r($data);exit;
+
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('add_project',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	public function project_type_list(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+		//	echo '<pre>';print_r($data);exit;
+
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('project_type_list',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	public function project_work_assign(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+		//	echo '<pre>';print_r($data);exit;
+
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('project-work-assign',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	public function project_work_assign_list(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+		//	echo '<pre>';print_r($data);exit;
+
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('project-work-assign-list',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
 	public function payslip(){
 
 		if($this->session->userdata('userdetails'))

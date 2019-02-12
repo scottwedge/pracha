@@ -10,21 +10,38 @@
                            
 
                             <div class="col-md-12">
-                                <h3 class=" text-center"> Add Project Details</h3>
+                                <h3 class=" text-center"> Work Assign</h3>
                                 <hr>
                             </div>
-                            <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Project Name</label>
-                                <input type="text" class="form-control" name="name" id="name" placeholder=" Enter Project Name"  value=""  required>
-                            </div>  
+                            
 							<div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Project Type</label>
-                             <select class="mdb-select md-form">
-							  <option value="" disabled selected>Choose your Project Type</option>
-							  <option value="1">Dynamic</option>
-							  <option value="2">Static</option>
-							  
-							</select>
+                                <label for="exampleInputUsername">Project</label>
+								 <select class="mdb-select md-form">
+								  <option value="" disabled selected>Select  Project </option>
+								  <option value="1">Pracha EDu</option>
+								  <option value="2">SRB</option>
+								  <option value="3">VMs</option>
+								</select>
+                            </div>
+							<div class="form-group col-md-6">
+                                <label for="exampleInputUsername">Select Role</label>
+								 <select class="mdb-select md-form">
+								  <option value="" disabled selected>Select Role </option>
+								  <option value="1">Research & Documentation</option>
+								  <option value="2">Designing</option>
+								  <option value="3">Development</option>
+								  <option value="4">Testing</option>
+								</select>
+                            </div>
+							<div class="form-group col-md-6">
+                                <label for="exampleInputUsername">Select Employee</label>
+								 <select class="mdb-select md-form" multiple >
+								  <option value="" disabled selected>Select Employees </option>
+								  <option value="1">Bayapu Reddy</option>
+								  <option value="2">Sathwik</option>
+								  <option value="3">jhanavi</option>
+								 
+								</select>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Project Started Date</label>
@@ -39,19 +56,7 @@
                                 <input type="text" class="form-control" name="est" id="name" placeholder=" Enter Estimated Days"  value=""  required>
                             </div>
 
-                            <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Client Name</label>
-                                <input type="text" class="form-control" name="clt_name" id="name" placeholder=" Enter Client Name"  value=""  required>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Client Number</label>
-                                <input type="text" class="form-control" name="clt_num" id="name" placeholder=" Enter Client Number"  value=""  required>
-                            </div>
-
-                            <div class="form-group col-md-6">
-                                <label for="exampleInputUsername">Client Email</label>
-                                <input type="text" class="form-control" name="clt_email" id="name" placeholder=" Enter Client Email"  value=""  required>
-                            </div> 
+                            
 							<div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Upload Project Document or Description</label>
                                 <input type="file" class="form-control" name="clt_email"  value=""  required>

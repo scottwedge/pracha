@@ -26,9 +26,34 @@
 }
 </style>
 <div class="col-md-3 bg-dark col-xs-12 pos-fix sm-hide" style="width:20%;padding-right:0px;">
-	<ul class="side-bar">
+	<ul class="side-bar collapsible collapsible-accordions">
     <?php if($userdetails['role']==9) { ?>
       <a href="<?php echo base_url('employee/profile'); ?>"><li> Employee Profile</li></a>
+					<li class="arrow-r">
+						<a class="collapsible-header waves-effect ">Projects</a><i class="fa fa-angle-down rotate-icon pull-right"></i>
+                            <div class="collapsible-body" style="display: none;">
+                                <ul class="list-unstyled">
+                                    <li><a href="<?php echo base_url('employee/add_project'); ?>" class="waves-effect">Add Project</a>
+                                    </li>  
+									<li><a href="<?php echo base_url('employee/project_type_list'); ?>" class="waves-effect"> Project List</a>
+                                    </li>	
+									
+                                    
+                                </ul>
+                            </div>
+                        </li>
+						<li class="arrow-r">
+						<a class="collapsible-header waves-effect ">Work Assign</a><i class="fa fa-angle-down rotate-icon pull-right"></i>
+                            <div class="collapsible-body" style="display: none;">
+                                <ul class="list-unstyled">
+									<li><a href="<?php echo base_url('employee/project_work_assign'); ?>" class="waves-effect">Work Assign</a>
+                                    </li>
+									<li><a href="<?php echo base_url('employee/project_work_assign_list'); ?>" class="waves-effect">Work Assign List</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+	 
     <?php }else{ ?>
 
 		<a href="<?php echo base_url('employee/profile'); ?>"><li> Employee Profile</li></a>

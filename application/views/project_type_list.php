@@ -5,7 +5,67 @@
     <script src="<?php echo base_url(); ?>assets/vendor/js/dataTables.bootstrap.js"></script>
     <script src="<?php echo base_url(); ?>assets/vendor/js/datepicker.js"></script>
 </head>
+<style>
+.step {
+  list-style: none;
+  margin: .2rem 0;
+  width: 100%;
+}
 
+.step .step-item {
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+  margin-top: 0;
+  min-height: 1rem;
+  position: relative; 
+  text-align: center;
+}
+
+.step .step-item:not(:first-child)::before {
+  background: #0069d9;
+  content: "";
+  height: 2px;
+  left: -50%;
+  position: absolute;
+  top: 9px;
+  width: 100%;
+}
+
+.step .step-item a {
+  color: #acb3c2;
+  display: inline-block;
+  padding: 20px 10px 0;
+  text-decoration: none;
+}
+
+.step .step-item a::before {
+  background: #0069d9;
+  border: .1rem solid #fff;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: .9rem;
+  left: 50%;
+  position: absolute;
+  top: .2rem;
+  transform: translateX(-50%);
+  width: .9rem;
+  z-index: 1;
+}
+
+.step .step-item.active a::before {
+  background: #fff;
+  border: .1rem solid #0069d9;
+}
+
+.step .step-item.active ~ .step-item::before {
+  background: #e7e9ed;
+}
+
+.step .step-item.active ~ .step-item a::before {
+  background: #e7e9ed;
+}
+</style>
 
 <div class="container-sty-adm ">
     <div class="col-md-12 ">
@@ -13,79 +73,105 @@
         <hr>
     </div>
     <div class=" row justify-content-md-end ">
-        <div class="col-md-9   mar_t20 ">
+        <div class="col-md-9   mar_t20 mx-0  table-responsive">
 
 
-            <div class="clearfix">&nbsp;</div>
-            <?php if($this->session->flashdata('success')): ?>
-                <div class="alert alert-success">
-                    <strong><?php echo $this->session->flashdata('success'); ?></strong>
-                </div>
-
-            <?php endif; ?>
-            <?php if($this->session->flashdata('error')): ?>
-                <div class="alert alert-warning">
-                    <strong><?php echo $this->session->flashdata('error'); ?></strong>
-                </div>
-            <?php endif; ?>
+            
+            
 
             <table id="example" class="table table-striped table-bordered table-responsive-md" cellspacing="0" width="100%">
 
                 <thead>
-                <tr>
-                    <th style="display:none"></th>
-                    <th>Application Type</th>
-                    <th>Project Type</th>
-                    <th> Created Date</th>
-
-                        <th>Status</th>
-                        <th>Action</th>
-
-
-                </tr>
+					<tr>
+						<th>Project Name</th>
+						<th>Project Type</th>
+						<th> Created Date</th>
+						<th>Estimated Date</th>
+						<th>Client Name</th>
+						<th>Client Phone Number</th>
+						<th>Client Mail</th>
+						<th>Document</th>
+						<th>Status</th>
+						<th>Action</th>
+					</tr>
                 </thead>
-                <tfoot>
-                <tr>
-                    <th style="display:none"></th>
-                    <th>Application Type</th>
-                    <th>Project Type</th>
-                    <th> Created Date</th>
-
-                    <th>Status</th>
-                    <th>Action</th>
-                </tr>
-                </tfoot>
-                <tbody>
-                <?php foreach ($list as $lis){ $count=1; ?>
-                    <tr>
-                        <td style="display:none"><?php echo $count; ?></td>
-                        <td><?php if($lis->application_type==1){echo 'WebSite';}
-                            if($lis->application_type==2){echo 'Mobile Application';}
-                            if($lis->application_type==3){echo 'Web App';} ?>
-                          </td>
-                        <td><?php echo $lis->project_type; ?></td>
-                        <td><?php $myDateTime = DateTime::createFromFormat('Y-m-d H:i:s', $lis->created_at);
-                            $newDateString = $myDateTime->format('d-m-Y H:i:s');echo $newDateString ; ?></td>
-
-                            <td><?php if($lis->status==1){ echo "Active" ;}else{ echo "Deactive"; } ?></td>
-                            <th>
-                                <a class="text-warning" href="<?php echo base_url('project/ptype_edit/'.base64_encode($lis->type_id)); ?>">
-                                   Edit</a> |
-                                <a class="text-warning" href="<?php echo base_url('project/ptype_status/'.base64_encode($lis->type_id).'/'.base64_encode($lis->status)); ?>">
-                                    <?php if($lis->status==2){ echo "Active" ;}else{ echo "Deactive"; } ?></a> | <a class="text-warning"
-                                                                                                                    href="<?php echo base_url('project/delete_project_type/'.base64_encode($lis->type_id).'/'); ?>">Delete</a></th>
-
-
-
-
-                    </tr>
-                <?php $count++;} ?>
+				  <tbody>
+					<tr>
+						<td>Pracha</td>
+						<td>Dynamic</td>
+						<td>12-02-2019</td>
+						<td>02-04-2019</td>
+						<td>Pushkar</td>
+						<td>944xxxxx</td>
+						<td>pushakar@prachatech.com</td>
+						<td>
+							<button class="btn btn-success btn-sm my-0 waves-effect waves-light ">Download Document</button>
+						</td>
+						<td><a href="" class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2" data-toggle="modal" data-target="#basicExampleModal">View </a> </td>
+						<td>
+							<a href="" class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2">Edit</a> 
+							
+							<a href="" class="btn btn-danger btn-sm my-0 waves-effect waves-light">Delete</a>
+						</td>
+					</tr>
                 </tbody>
+       
+              
             </table>
 
             <div class="clearfix">&nbsp;</div>
         </div>
+		
     </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Project Progress</h5> 
+		
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		<div class="container">
+			<ul class="step d-flex flex-nowrap">
+			  <li class="step-item">
+				<a href="#!" class="">Research & Documentation</a>
+			  </li>
+			  <li class="step-item">
+				<a href="#!" class="">Designing</a>
+			  </li>
+			  <li class="step-item active">
+				<a href="#!" class="">Development</a>
+			  </li>
+			  <li class="step-item">
+				<a href="#!" class="">Testing</a>
+			  </li>
+			</ul> 
+			<hr>
+			<div class="py-4 row">
+				<div class="col-md-6">
+					<strong>Starting Date :</strong> 12-02-2019
+				</div>
+				<div class="col-md-6">
+					<strong>Estimated Date :</strong> 02-04-2019
+				</div>
+				
+			</div>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
 </div>
 <script>
     $(document).ready(function() {
