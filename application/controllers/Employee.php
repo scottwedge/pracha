@@ -10,6 +10,7 @@ class Employee extends CI_Controller {
 		$this->load->library('session','form_validation');
 		$this->load->library('email');
 		$this->load->model('Employee_model');
+		 $this->load->model('Projectmanager_model');
 		$this->load->library('user_agent');
 		$this->load->library('pdf');
 		$ip = $this->input->ip_address();
@@ -93,8 +94,7 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
-		//	echo '<pre>';print_r($data);exit;
-
+			//echo '<pre>';print_r($data);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('add_project',$data);
@@ -104,6 +104,56 @@ class Employee extends CI_Controller {
 		 redirect('employee');
 		}
 	}
+	
+	
+	public function add_project_post(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			//echo '<pre>';print_r($data);exit;
+             $post=$this->input->post();
+			//echo '<pre>';print_r($post);exit;
+			if(isset($_FILES['project_document']['name']) && $_FILES['project_document']['name']!=''){
+							$temp = explode(".", $_FILES["project_document"]["name"]);
+							$documents = round(microtime(true)) . '.' . end($temp);
+							move_uploaded_file($_FILES['project_document']['tmp_name'], "assets/projectdocument/" . $documents);
+						}else{
+							$documents='';
+						}
+			     $save_data=array(
+	            'project_name'=>isset($post['project_name'])?$post['project_name']:'',
+	            'project_type'=>isset($post['project_type'])?$post['project_type']:'',
+	            'p_strat_date'=>isset($post['p_strat_date'])?$post['p_strat_date']:'',
+	            'frame_work'=>isset($post['frame_work'])?$post['frame_work']:'',
+	            'estimated_days'=>isset($post['estimated_days'])?$post['estimated_days']:'',
+	            'client_name'=>isset($post['client_name'])?$post['client_name']:'',
+	            'client_number'=>isset($post['client_number'])?$post['client_number']:'',
+	            'client_email'=>isset($post['client_email'])?$post['client_email']:'',
+	            'project_document'=>isset($documents)?$documents:'',
+				'status'=>1,
+				'created_at'=>date('Y-m-d H:i:s'),
+				'updated_at'=>date('Y-m-d H:i:s'),
+				'created_by'=>isset($userdetails['emp_id'])?$userdetails['emp_id']:''
+				 );
+			//echo '<pre>';print_r($save_data);exit;
+			$save=$this->Projectmanager_model->save_project_details($save_data);	
+				 //echo '<pre>';print_r($save);exit;
+				   if(count($save)>0){
+						$this->session->set_flashdata('success',"Project successfully added");	
+						redirect('employee/project_type_list');	
+					}else{
+						$this->session->set_flashdata('error',"technical problem occurred. please try again once");
+						redirect('employee/add_project');
+					}  
+			
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	
 	public function project_type_list(){
 
 		if($this->session->userdata('userdetails'))
@@ -111,7 +161,8 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 		//	echo '<pre>';print_r($data);exit;
-
+            $data['project_list']=$this->Projectmanager_model->get_project_list();
+				//echo '<pre>';print_r($data);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('project_type_list',$data);
@@ -121,6 +172,221 @@ class Employee extends CI_Controller {
 		 redirect('employee');
 		}
 	}
+	public function projectedit(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			//echo '<pre>';print_r($data);exit;
+			$project=base64_decode ($this->uri->segment(3));
+			$data['edit_project']=$this->Projectmanager_model->edit_project_details($project);
+			//echo '<pre>';print_r($data);exit;
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('edit_project',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	public function editprojectpost(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			//echo '<pre>';print_r($data);exit;
+             $post=$this->input->post();
+			//echo '<pre>';print_r($post);exit;
+			$edit_project=$this->Projectmanager_model->edit_project_details($post['p_id']);
+			//echo '<pre>';print_r($edit_project);exit;
+			if(isset($_FILES['project_document']['name']) && $_FILES['project_document']['name']!=''){
+							$temp = explode(".", $_FILES["project_document"]["name"]);
+							$documents = round(microtime(true)) . '.' . end($temp);
+							move_uploaded_file($_FILES['project_document']['tmp_name'], "assets/projectdocument/" . $documents);
+						}else{
+							$documents=$edit_project['project_document'];
+						}
+			     $update_data=array(
+	            'project_name'=>isset($post['project_name'])?$post['project_name']:'',
+	            'project_type'=>isset($post['project_type'])?$post['project_type']:'',
+	            'p_strat_date'=>isset($post['p_strat_date'])?$post['p_strat_date']:'',
+	            'frame_work'=>isset($post['frame_work'])?$post['frame_work']:'',
+	            'estimated_days'=>isset($post['estimated_days'])?$post['estimated_days']:'',
+	            'client_name'=>isset($post['client_name'])?$post['client_name']:'',
+	            'client_number'=>isset($post['client_number'])?$post['client_number']:'',
+	            'client_email'=>isset($post['client_email'])?$post['client_email']:'',
+	            'project_document'=>isset($documents)?$documents:'',
+				'status'=>1,
+				'created_at'=>date('Y-m-d H:i:s'),
+				'updated_at'=>date('Y-m-d H:i:s'),
+				'created_by'=>isset($userdetails['emp_id'])?$userdetails['emp_id']:''
+				 );
+			//echo '<pre>';print_r($update_data);exit;
+			$update=$this->Projectmanager_model->update_project_details($post['p_id'],$update_data);	
+				 //echo '<pre>';print_r($update);exit;
+				   if(count($update)>0){
+						$this->session->set_flashdata('success',"Project successfully updated");	
+						redirect('employee/project_type_list');	
+					}else{
+						$this->session->set_flashdata('error',"technical problem occurred. please try again once");
+						redirect('employee/project_type_list');
+					}  
+			
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	public function projectdelete(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			//echo '<pre>';print_r($data);exit;
+			$project=base64_decode ($this->uri->segment(3));
+			$delete_details =$this->Projectmanager_model->delete_project_details($project);
+						 //echo'<pre>';print_r($delete_details);exit;  		
+                  	if(count($delete_details)>0){				 
+					$this->session->set_flashdata('success'," Project successfully deleted");		 
+					redirect('employee/project_type_list');			  					  
+					}else{
+					$this->session->set_flashdata('error',"technical problem will occurred. Please try again.");
+
+			  redirect('employee/project_type_list');	
+				 } 
+			
+			
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	
+	public function role(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			//echo '<pre>';print_r($data);exit;
+			
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('role/role',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	
+	public function addrole(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$post=$this->input->post();
+			//echo '<pre>';print_r($post);exit;
+			
+			$save_data=array(
+	            'role'=>isset($post['role'])?$post['role']:'',
+				'status'=>1,
+				'created_at'=>date('Y-m-d H:i:s'),
+				'updated_at'=>date('Y-m-d H:i:s'),
+				'created_by'=>isset($userdetails['emp_id'])?$userdetails['emp_id']:''
+				 );
+			//echo '<pre>';print_r($save_data);exit;
+			$save=$this->Projectmanager_model->save_role_details($save_data);	
+				// echo '<pre>';print_r($save);exit;
+				   if(count($save)>0){
+						$this->session->set_flashdata('success',"Role successfully added");	
+						redirect('employee/rolelist');	
+					}else{
+						$this->session->set_flashdata('error',"technical problem occurred. please try again once");
+						redirect('employee/addrole');
+					}  
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	
+	public function rolelist(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			
+			$data['role_list']=$this->Projectmanager_model->get_role_list();
+			//echo '<pre>';print_r($data);exit;
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('role/role-list',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	public function addemployees(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			//echo '<pre>';print_r($data);exit;
+			$data['role_list']=$this->Projectmanager_model->role_details_data();
+			//echo '<pre>';print_r($data);exit;
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('role/add-employee',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	public function addemployeespost(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$post=$this->input->post();
+			//echo '<pre>';print_r($post);exit;
+			
+			$save_data=array(
+	            'role'=>isset($post['role'])?$post['role']:'',
+				'status'=>1,
+				'created_at'=>date('Y-m-d H:i:s'),
+				'updated_at'=>date('Y-m-d H:i:s'),
+				'created_by'=>isset($userdetails['emp_id'])?$userdetails['emp_id']:''
+				 );
+			//echo '<pre>';print_r($save_data);exit;
+			$save=$this->Projectmanager_model->save_role_wise_employee_details($save_data);	
+				// echo '<pre>';print_r($save);exit;
+				   if(count($save)>0){
+						$this->session->set_flashdata('success',"Role successfully added");	
+						redirect('employee/addemployees');	
+					}else{
+						$this->session->set_flashdata('error',"technical problem occurred. please try again once");
+						redirect('employee/addemployees');
+					}  
+			
+			
+			
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	
+	
+	
 	public function project_work_assign(){
 
 		if($this->session->userdata('userdetails'))
@@ -128,7 +394,9 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 		//	echo '<pre>';print_r($data);exit;
-
+            $data['project_data']=$this->Projectmanager_model->get_project_data();
+			//echo '<pre>';print_r($data);exit;
+			
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('project-work-assign',$data);

@@ -73,9 +73,10 @@
         <hr>
     </div>
     <div class=" row justify-content-md-end ">
+	
         <div class="col-md-9   mar_t20 mx-0  table-responsive">
 
-
+            
             
             
 
@@ -85,7 +86,7 @@
 					<tr>
 						<th>Project Name</th>
 						<th>Project Type</th>
-						<th> Created Date</th>
+						<th>Created Date</th>
 						<th>Estimated Date</th>
 						<th>Client Name</th>
 						<th>Client Phone Number</th>
@@ -96,27 +97,35 @@
 					</tr>
                 </thead>
 				  <tbody>
+				  <?php if(isset($project_list) && count($project_list)>0){ ?>
+				  <?php foreach($project_list as $list){?>
 					<tr>
-						<td>Pracha</td>
-						<td>Dynamic</td>
-						<td>12-02-2019</td>
-						<td>02-04-2019</td>
-						<td>Pushkar</td>
-						<td>944xxxxx</td>
-						<td>pushakar@prachatech.com</td>
+						<td><?php echo isset($list['project_name'])?$list['project_name']:''?></td>
+						<td><?php echo isset($list['project_type'])?$list['project_type']:''?></td>
+						<td><?php echo isset($list['p_strat_date'])?$list['p_strat_date']:''?></td>
+						<td><?php echo isset($list['estimated_days'])?$list['estimated_days']:''?></td>
+						<td><?php echo isset($list['client_name'])?$list['client_name']:''?></td>
+						<td><?php echo isset($list['client_number'])?$list['client_number']:''?></td>
+						<td><?php echo isset($list['client_email'])?$list['client_email']:''?></td>
+						
 						<td>
-							<button class="btn btn-success btn-sm my-0 waves-effect waves-light ">Download Document</button>
-						</td>
+							 <?php if($list['project_document']!=''){ ?>
+							<a  href="<?php echo base_url('assets/projectdocument/'.$list['project_document']); ?> " class="btn btn-success btn-sm my-0 waves-effect waves-light ">Download Document</a>
+							<?php } ?>
+							
+							</td>
+						
+						
 						<td><a href="" class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2" data-toggle="modal" data-target="#basicExampleModal">View </a> </td>
 						<td>
-							<a href="" class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2">Edit</a> 
+						 <a  class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2" href="<?php echo base_url('employee/projectedit/'.base64_encode($list['p_id'])); ?>"  data-toggle="tooltip" title="Edit" >Edit</a>
 							
-							<a href="" class="btn btn-danger btn-sm my-0 waves-effect waves-light">Delete</a>
+							<a href="<?php echo base_url('employee/projectdelete/'.base64_encode($list['p_id'])); ?>" class="btn btn-danger btn-sm my-0 waves-effect waves-light">Delete</a>
 						</td>
 					</tr>
                 </tbody>
-       
-              
+				  <?php }?>
+              <?php }?>
             </table>
 
             <div class="clearfix">&nbsp;</div>

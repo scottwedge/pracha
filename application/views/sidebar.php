@@ -53,6 +53,33 @@
                                 </ul>
                             </div>
                         </li>
+	                    <li class="arrow-r">
+						<a class="collapsible-header waves-effect ">Role</a><i class="fa fa-angle-down rotate-icon pull-right"></i>
+                            <div class="collapsible-body" style="display: none;">
+                                <ul class="list-unstyled">
+									<li><a href="<?php echo base_url('employee/role'); ?>" class="waves-effect">Role</a>
+                                    </li>
+									<li><a href="<?php echo base_url('employee/rolelist'); ?>" class="waves-effect">Role List</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>  
+	 
+	                     <li class="arrow-r">
+						<a class="collapsible-header waves-effect ">Role Wise Employees</a><i class="fa fa-angle-down rotate-icon pull-right"></i>
+                            <div class="collapsible-body" style="display: none;">
+                                <ul class="list-unstyled">
+									<li><a href="<?php echo base_url('employee/addemployees'); ?>" class="waves-effect">add Employees</a>
+                                    </li>
+									<li><a href="<?php echo base_url('employee/employeeslist'); ?>" class="waves-effect">Employees List</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>   
+	 
+	 
+	 
+	 
 	 
     <?php }else{ ?>
 

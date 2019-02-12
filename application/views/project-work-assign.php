@@ -16,16 +16,16 @@
                             
 							<div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Project</label>
-								 <select class="mdb-select md-form">
-								  <option value="" disabled selected>Select  Project </option>
-								  <option value="1">Pracha EDu</option>
-								  <option value="2">SRB</option>
-								  <option value="3">VMs</option>
+								 <select class="mdb-select md-form" name="work_project_name">
+								 <option value="">Select</option>
+								<?php foreach ($project_data as $list){ ?>
+								<option value="<?php echo $list['p_id']; ?>"><?php echo $list['project_name']; ?></option>
+								<?php }?>
 								</select>
                             </div>
 							<div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Select Role</label>
-								 <select class="mdb-select md-form">
+								 <select class="mdb-select md-form" name="role_type">
 								  <option value="" disabled selected>Select Role </option>
 								  <option value="1">Research & Documentation</option>
 								  <option value="2">Designing</option>
@@ -35,7 +35,7 @@
                             </div>
 							<div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Select Employee</label>
-								 <select class="mdb-select md-form" multiple >
+								 <select class="mdb-select md-form" multiple  name="employee_name">
 								  <option value="" disabled selected>Select Employees </option>
 								  <option value="1">Bayapu Reddy</option>
 								  <option value="2">Sathwik</option>
@@ -45,21 +45,21 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Project Started Date</label>
-                                <input type="date" class="form-control" name='sdate' id="name" placeholder=" Enter Start Date"  value=""  required>
+                                <input type="date" class="form-control" name='p_s_date' id="p_s_date" placeholder=" Enter Start Date"  value=""  required>
                             </div>
 							<div class="form-group col-md-6">
                                 <label for="">Framework</label>
-                                <input type="text" class="form-control" name='sdate' id="name" placeholder=" Enter frame work"  value=""  required>
+                                <input type="text" class="form-control" name='f_work' id="f_work" placeholder=" Enter frame work"  value=""  required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Estimated Days</label>
-                                <input type="text" class="form-control" name="est" id="name" placeholder=" Enter Estimated Days"  value=""  required>
+                                <input type="text" class="form-control" name="e_days" id="e_days" placeholder=" Enter Estimated Days"  value=""  required>
                             </div>
 
                             
 							<div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Upload Project Document or Description</label>
-                                <input type="file" class="form-control" name="clt_email"  value=""  required>
+                                <input type="file" class="form-control" name="document"  value="document"  required>
                             </div>
                          
 
@@ -68,7 +68,7 @@
 
 
                         </div>
-                        <a href="<?php echo base_url('employee/project_type_list'); ?>" class="btn btn-primary btn-sm"  class="btn btn-dark">Add</a>
+						<button  type="submit" class="btn btn-primary btn-sm"  class="btn btn-dark" name="signup" value="Sign up">Add</button>
 
 
                     </div>
