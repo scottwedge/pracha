@@ -1,35 +1,41 @@
-<head>
-     <link href="<?php echo base_url(); ?>assets/vendor/css/custom.css" rel="stylesheet" type="text/css" /> 
-</head>
 <div class="container-sty-adm ">
     <div class=" row justify-content-md-end">
 	
         <div class="col-md-9   card mt-10">
             <div class="row">
-                <form  id="add_type" action="<?php echo base_url('employee/addemployeespost'); ?>" method="post" enctype="multipart/form-data">
-                    <div class="col-md-12">
+                <form  id="add_type" action="<?php echo base_url('employee/editemployeespost'); ?>" method="post" enctype="multipart/form-data">
+                     <input type="hidden" id="r_w_id" name="r_w_id" value="<?php echo isset($edit_employee['r_w_id'])?$edit_employee['r_w_id']:'' ?>">
+					<div class="col-md-12">
 
                         <div class="row">
                            
 
                             <div class="col-md-12">
-                                <h3 class=" text-center"> Add Role wise employee Details</h3>
+                                <h3 class=" text-center"> Edit Role wise employee Details</h3>
                                 <hr>
                             </div>
                             
 							<div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Role Name</label>
-								 <select class="mdb-select md-form" name="role_name">
+								 <select class="mdb-select md-form" name="role_name" required>
 								 <option value="">Select</option>
-								<?php foreach ($role_list as $list){ ?>
-								<option value="<?php echo $list['p_r_id']; ?>"><?php echo $list['role']; ?></option>
-								<?php }?>
+								 <?php if(isset($role_list) && count($role_list)>0){ ?>
+											<?php foreach($role_list as $list){ ?>
+											
+													<?php if($edit_employee['role_name']==$list['p_r_id']){ ?>
+															<option selected value="<?php echo $list['p_r_id']; ?>"><?php echo $list['role']; ?></option>
+													<?php }else{ ?>
+															<option value="<?php echo $list['p_r_id']; ?>"><?php echo $list['role']; ?></option>
+													<?php } ?>
+											<?php } ?>
+										<?php } ?>
+								
 								</select>
                             </div>
 							
 							<div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Employees Name</label>
-                                <input type="text" class="form-control" name="employe_name" id="employe_name" placeholder=" Enter Role"  value=""  required>
+                                <input type="text" class="form-control" name="employe_name" id="employe_name" placeholder=" Enter Role"  value="<?php echo isset($edit_employee['employe_name'])?$edit_employee['employe_name']:'' ?>"  required>
                             </div>  
 
                         </div>
@@ -46,16 +52,6 @@
         </div>
     </div>
 </div>
-<?php if($this->session->flashdata('success')): ?>
-				<div class="alert_msg1 animated slideInUp bg-succ">
-				<?php echo $this->session->flashdata('success');?> &nbsp; <i class="fa fa-check text-success ico_bac" aria-hidden="true"></i>
-				</div>
-			<?php endif; ?>
-			<?php if($this->session->flashdata('error')): ?>
-				<div class="alert_msg1 animated slideInUp bg-warn">
-				<?php echo $this->session->flashdata('error');?> &nbsp; <i class="fa fa-exclamation-triangle text-warning ico_bac" aria-hidden="true"></i>
-				</div>
-			<?php endif; ?>
 <script>
     $(document).ready(function() {
 

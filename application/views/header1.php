@@ -81,7 +81,22 @@
     </nav>
 	
 
-</header><a class="btn-floating btn-lg scrolltotop bg-dark">
+</header>
+<!-- JQuery -->
+	
+	<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/bootstrap.min.js"></script>
+	
+    
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/popper.min.js"></script>
+    
+	<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/compiled.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/mdb.min.js"></script>
+
+<a class="btn-floating btn-lg scrolltotop bg-dark">
 <i class="fa fa-arrow-up"></i></span></a>
 <script>
 $('.scrolltotop').on('click', function() {
@@ -129,15 +144,4 @@ $(document).ready(function(){
   });
 });
 </script>
- <!-- JQuery -->
-	
-	<script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/bootstrap.min.js"></script>
-	
-    
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/popper.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/compiled.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/vendor/js/mdb.min.js"></script>
+ 

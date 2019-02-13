@@ -20,10 +20,10 @@
                             </div>  
 							<div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Project Type</label>
-                             <select class="mdb-select md-form" name="project_type" id="project_type" value="<?php echo isset($edit_project['project_type'])?$edit_project['project_type']:'' ?>">
+                             <select class="mdb-select md-form" name="project_type" id="project_type" >
 							  <option value="" disabled selected>Choose your Project Type</option>
-							  <option value="Dynamic">Dynamic</option>
-							  <option value="Static">Static</option>
+							  <option value="Dynamic" <?php if($edit_project['project_type']=='Dynamic'){ echo "selected"; } ?>>Dynamic</option>
+							  <option value="Static" <?php if($edit_project['project_type']=='Static'){ echo "selected"; } ?>>Static</option>
 							  
 							</select>
                             </div>

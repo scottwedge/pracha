@@ -1,93 +1,91 @@
-
-            <div class="page-wrapper">
-                <div class="content container-fluid bg-white">	
-					<div class="row">
-						<div class="col-xs-4">
-							<h4 class="page-title"> Edit Area</h4>
-						</div>
-						
-					</div>
-					 <div class="nav-tabs-custom">
-			
-			
-			       <div class="tab-content">
-             
-					<form id="defaultForm" method="post" class="m-b-30" action="<?php echo base_url('employee/editareapost');?>" enctype="multipart/form-data">
-					<input type="hidden" id="a_id" name="a_id" value="<?php echo $edit_area['a_id'] ?>">
-
-								<div class="row">
-								
-									<div class="col-sm-4">  
-										<div class="form-group">
-											<label class="control-label">Area </label>
-											<input  type="text" class="form-control" name="area" value="<?php echo isset($edit_area['area'])?$edit_area['area']:''; ?>" >
-										</div>
-									</div>
-										
-										
-										
-										
-									</div>
-									
-								    
-							
-								
-								<div class="m-t-20 text-center">
-								<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Update Area</button>
-									
-								</div>
-							</form>
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-						</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-<script>
-
-$(document).ready(function() {
- 
-   $('#defaultForm').bootstrapValidator({
-//       
-        fields: {
-			
-            area: {
-                validators: {
-					notEmpty: {
-						message: 'Area is required'
-					}
-				}
-            },
-			
-			
-			
-			
-        }
-    });
-    // Validate the form manually
-    $('#validateBtn').click(function() {
-        $('#defaultForm').bootstrapValidator('validate');
-    });
-
-    $('#resetBtn').click(function() {
-        $('#defaultForm').data('bootstrapValidator').resetForm(true);
-    });
+<head>
+     <link href="<?php echo base_url(); ?>assets/vendor/css/custom.css" rel="stylesheet" type="text/css" /> 
+</head>
+<div class="container-sty-adm ">
+    <div class=" row justify-content-md-end">
 	
-});
+        <div class="col-md-9   card mt-10">
+            <div class="row">
+                <form  id="add_type" action="<?php echo base_url('employee/editrolepost'); ?>" method="post" enctype="multipart/form-data">
+                    <input type="hidden" id="p_r_id" name="p_r_id" value="<?php echo isset($edit_role['p_r_id'])?$edit_role['p_r_id']:'' ?>">
+					<div class="col-md-12">
 
+                        <div class="row">
+                           
+
+                            <div class="col-md-12">
+                                <h3 class=" text-center"> Edit Role Details</h3>
+                                <hr>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="exampleInputUsername">Role</label>
+                                <input type="text" class="form-control" name="role" id="role" placeholder=" Enter Role"  value="<?php echo isset($edit_role['role'])?$edit_role['role']:'' ?>"  required>
+                            </div>  
+							
+
+                        </div>
+                        <button  type="submit" class="btn btn-primary btn-sm" class="btn btn-dark" name="signup" value="Sign up">Add</button>
+						
+						<!--<a href="<?php echo base_url('employee/project_type_list'); ?>" class="btn btn-primary btn-sm"  class="btn btn-dark">Add</a>-->
+
+
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<?php if($this->session->flashdata('success')): ?>
+				<div class="alert_msg1 animated slideInUp bg-succ">
+				<?php echo $this->session->flashdata('success');?> &nbsp; <i class="fa fa-check text-success ico_bac" aria-hidden="true"></i>
+				</div>
+			<?php endif; ?>
+			<?php if($this->session->flashdata('error')): ?>
+				<div class="alert_msg1 animated slideInUp bg-warn">
+				<?php echo $this->session->flashdata('error');?> &nbsp; <i class="fa fa-exclamation-triangle text-warning ico_bac" aria-hidden="true"></i>
+				</div>
+			<?php endif; ?>
+<script>
+    $(document).ready(function() {
+
+        $('select').addClass('mdb-select');
+        $('.mdb-select').material_select();
+    });
 
 </script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#add_type').bootstrapValidator({
+
+            fields: {
+                name: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Name is required'
+                        },
+                        regexp: {
+                            regexp:/^[ A-Za-z0-9_@.,/!;:}{@#&`~"\\|^?$*)(_+-]*$/,
+                            message:'Question wont allow <> [] = % '
+                        },
+                        remote: {
+                            message: 'Type already exists',
+                            url: '<?php echo base_url('project/check_project_type'); ?>',
+                            data: {
+                                type: 'name'
+                            }
+                        }
+                    }
+                },
 
 
+
+            }
+        })
+
+    });
+
+</script>
 
 

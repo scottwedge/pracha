@@ -1,3 +1,7 @@
+<head>
+     <link href="<?php echo base_url(); ?>assets/vendor/css/custom.css" rel="stylesheet" type="text/css" /> 
+</head>
+
 <div class="container-sty-adm ">
     <div class=" row justify-content-md-end">
 	
@@ -33,6 +37,17 @@
         </div>
     </div>
 </div>
+<?php if($this->session->flashdata('success')): ?>
+				<div class="alert_msg1 animated slideInUp bg-succ">
+				<?php echo $this->session->flashdata('success');?> &nbsp; <i class="fa fa-check text-success ico_bac" aria-hidden="true"></i>
+				</div>
+			<?php endif; ?>
+			<?php if($this->session->flashdata('error')): ?>
+				<div class="alert_msg1 animated slideInUp bg-warn">
+				<?php echo $this->session->flashdata('error');?> &nbsp; <i class="fa fa-exclamation-triangle text-warning ico_bac" aria-hidden="true"></i>
+				</div>
+			<?php endif; ?>
+
 <script>
     $(document).ready(function() {
 

@@ -1,6 +1,6 @@
 <head>
     <link href="<?php echo base_url(); ?>assets/vendor/css/dataTables.css" rel="stylesheet">
-
+     <link href="<?php echo base_url(); ?>assets/vendor/css/custom.css" rel="stylesheet" type="text/css" /> 
     <script src="<?php echo base_url(); ?>assets/vendor/js/jquery.dataTables.js"></script>
     <script src="<?php echo base_url(); ?>assets/vendor/js/dataTables.bootstrap.js"></script>
     <script src="<?php echo base_url(); ?>assets/vendor/js/datepicker.js"></script>
@@ -69,7 +69,7 @@
 
 <div class="container-sty-adm ">
     <div class="col-md-12 ">
-        <h3 class=" text-center" >  Project Type List</h3>
+        <h3 class=" text-center" >  Role List</h3>
         <hr>
     </div>
     <div class=" row justify-content-md-end ">
@@ -102,9 +102,9 @@
 						
 						<td>
 						
-						 <a  class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2" href="<?php echo base_url('employee/projectedit/'.base64_encode($list['p_r_id'])); ?>"  data-toggle="tooltip" title="Edit" >Edit</a>
+						 <a  class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2" href="<?php echo base_url('employee/editrole/'.base64_encode($list['p_r_id'])); ?>"  data-toggle="tooltip" title="Edit" >Edit</a>
 							
-						<a href="<?php echo base_url('employee/projectdelete/'.base64_encode($list['p_r_id'])); ?>" class="btn btn-danger btn-sm my-0 waves-effect waves-light">Delete</a>
+						<a href="<?php echo base_url('employee/roledelete/'.base64_encode($list['p_r_id'])); ?>" class="btn btn-danger btn-sm my-0 waves-effect waves-light">Delete</a>
 						</td>
 					</tr>
                 </tbody>
@@ -117,7 +117,16 @@
 		
     </div>
 </div>
-
+<?php if($this->session->flashdata('success')): ?>
+				<div class="alert_msg1 animated slideInUp bg-succ">
+				<?php echo $this->session->flashdata('success');?> &nbsp; <i class="fa fa-check text-success ico_bac" aria-hidden="true"></i>
+				</div>
+			<?php endif; ?>
+			<?php if($this->session->flashdata('error')): ?>
+				<div class="alert_msg1 animated slideInUp bg-warn">
+				<?php echo $this->session->flashdata('error');?> &nbsp; <i class="fa fa-exclamation-triangle text-warning ico_bac" aria-hidden="true"></i>
+				</div>
+			<?php endif; ?>
 
 
 <script>
