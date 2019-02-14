@@ -1,82 +1,21 @@
 <head>
     <link href="<?php echo base_url(); ?>assets/vendor/css/dataTables.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>assets/vendor/css/custom.css" rel="stylesheet" type="text/css" /> 
+     <link href="<?php echo base_url(); ?>assets/vendor/css/custom.css" rel="stylesheet" type="text/css" /> 
     <script src="<?php echo base_url(); ?>assets/vendor/js/jquery.dataTables.js"></script>
     <script src="<?php echo base_url(); ?>assets/vendor/js/dataTables.bootstrap.js"></script>
     <script src="<?php echo base_url(); ?>assets/vendor/js/datepicker.js"></script>
 </head>
-<style>
-.step {
-  list-style: none;
-  margin: .2rem 0;
-  width: 100%;
-}
 
-.step .step-item {
-  -ms-flex: 1 1 0;
-  flex: 1 1 0;
-  margin-top: 0;
-  min-height: 1rem;
-  position: relative; 
-  text-align: center;
-}
-
-.step .step-item:not(:first-child)::before {
-  background: #0069d9;
-  content: "";
-  height: 2px;
-  left: -50%;
-  position: absolute;
-  top: 9px;
-  width: 100%;
-}
-
-.step .step-item a {
-  color: #acb3c2;
-  display: inline-block;
-  padding: 20px 10px 0;
-  text-decoration: none;
-}
-
-.step .step-item a::before {
-  background: #0069d9;
-  border: .1rem solid #fff;
-  border-radius: 50%;
-  content: "";
-  display: block;
-  height: .9rem;
-  left: 50%;
-  position: absolute;
-  top: .2rem;
-  transform: translateX(-50%);
-  width: .9rem;
-  z-index: 1;
-}
-
-.step .step-item.active a::before {
-  background: #fff;
-  border: .1rem solid #0069d9;
-}
-
-.step .step-item.active ~ .step-item::before {
-  background: #e7e9ed;
-}
-
-.step .step-item.active ~ .step-item a::before {
-  background: #e7e9ed;
-}
-</style>
 
 <div class="container-sty-adm ">
     <div class="col-md-12 ">
-        <h3 class=" text-center" >  Project Type List</h3>
+        <h3 class=" text-center" >Work assgin list</h3>
         <hr>
     </div>
     <div class=" row justify-content-md-end ">
-	
         <div class="col-md-9   mar_t20 mx-0  table-responsive">
 
-            
+
             
             
 
@@ -89,7 +28,7 @@
 						<th>Employes</th>
 						<th>Frame Work</th>
 						<th>Created Date</th>
-						<th>Estimated Days</th>
+						<th>Estimated Date</th>
 						<th>Document</th>
 						<th>Status</th>
 						<th>Action</th>
@@ -118,7 +57,7 @@
 							
 						</td>
 						<td><?php if($list['status']==1){ echo "Active";}else{ echo "Deactive"; } ?></td>
-						<td><a href="<?php echo base_url('employee/workview/'.base64_encode($list['w_id'])); ?>" class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2" >View </a> </td>
+						<td><a href="" class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2" data-toggle="modal" data-target="#basicExampleModal">View </a> </td>
 						<td>
 							<a href="<?php echo base_url('employee/workedit/'.base64_encode($list['w_id'])); ?>" class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2">Edit</a> 
 							<a href="<?php echo base_url('employee/workstatus/'.base64_encode($list['w_id']).'/'.base64_encode($list['status'])); ?>" data-toggle="tooltip" title="status" ><i class="fa fa-info-circle btn btn-warning"></i></a>
@@ -134,7 +73,6 @@
 
             <div class="clearfix">&nbsp;</div>
         </div>
-		
     </div>
 </div>
 
@@ -154,22 +92,18 @@
       <div class="modal-body">
 		<div class="container">
 			<ul class="step d-flex flex-nowrap">
-			
-			  <li class="step-item ">
-				<a href="#!" class="">Research</a>
+			  <li class="step-item">
+				<a href="#!" class="">Research & Documentation</a>
 			  </li>
-			
 			  <li class="step-item">
 				<a href="#!" class="">Designing</a>
 			  </li>
-			
 			  <li class="step-item active">
 				<a href="#!" class="">Development</a>
 			  </li>
 			  <li class="step-item">
 				<a href="#!" class="">Testing</a>
 			  </li>
-			
 			</ul> 
 			<hr>
 			<div class="py-4 row">
@@ -190,6 +124,13 @@
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
 <?php if($this->session->flashdata('success')): ?>
 				<div class="alert_msg1 animated slideInUp bg-succ">
 				<?php echo $this->session->flashdata('success');?> &nbsp; <i class="fa fa-check text-success ico_bac" aria-hidden="true"></i>

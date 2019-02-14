@@ -73,7 +73,6 @@
         <hr>
     </div>
     <div class=" row justify-content-md-end ">
-	
         <div class="col-md-9   mar_t20 mx-0  table-responsive">
 
             
@@ -81,11 +80,12 @@
             
 
             <table id="example" class="table table-striped table-bordered table-responsive-md" cellspacing="0" width="100%">
+	<a  href="<?php echo base_url('employee/role'); ?>" type="button" class="btn btn-info btn-rounded pull-right">Add</a>
 
                 <thead>
 					<tr>
 						<th>Role Name</th>
-						<th>Status</th>
+						<th>Created At</th>
 						<th>Action</th>
 					</tr>
                 </thead>
@@ -95,16 +95,16 @@
 					<tr>
 						<td><?php echo isset($list['role'])?$list['role']:''?></td>
 						
-						 <td><?php if($list['status']==1){ echo "Active";}else{ echo "Deactive"; } ?></td>
+						 <td><?php echo isset($list['created_at'])?$list['created_at']:''?></td>
 						
 						
 						
 						
 						<td>
 						
-						 <a  class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2" href="<?php echo base_url('employee/editrole/'.base64_encode($list['p_r_id'])); ?>"  data-toggle="tooltip" title="Edit" >Edit</a>
+						 <a  class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2" href="<?php echo base_url('employee/editrole/'.base64_encode($list['role_id'])); ?>"  data-toggle="tooltip" title="Edit" >Edit</a>
 							
-						<a href="<?php echo base_url('employee/roledelete/'.base64_encode($list['p_r_id'])); ?>" class="btn btn-danger btn-sm my-0 waves-effect waves-light">Delete</a>
+						<a href="<?php echo base_url('employee/roledelete/'.base64_encode($list['role_id'])); ?>" class="btn btn-danger btn-sm my-0 waves-effect waves-light">Delete</a>
 						</td>
 					</tr>
                 </tbody>

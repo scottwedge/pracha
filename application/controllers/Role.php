@@ -94,8 +94,6 @@ class Role extends CI_Controller
 
             $data=array(
                 'role_name'=>$name,
-
-
                 'updated_at'=>date('Y-m-d H:i:s'),
                 'updated_by'=>$userdetails['emp_id']);
 

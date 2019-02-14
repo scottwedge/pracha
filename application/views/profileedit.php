@@ -23,7 +23,8 @@
 				</div>
 				<input type="hidden" class="form-control" name="emp_id" id="emp_id" value="<?php echo isset($userdetails['emp_id'])?$userdetails['emp_id']:''; ?>">
 				<input type="hidden" class="form-control" name="role_type" id="role_type" value="<?php echo isset($role_type)?$role_type:''; ?>">
-		  			<div class="form-group col-md-6">
+		  			
+					<div class="form-group col-md-6">
 		  				<label for="exampleInputUsername">Name</label>
 				    	<input type="text" class="form-control" name="name" id="name" required="true" placeholder=" Enter Name" value="<?php echo isset($userdetails['emp_name'])?$userdetails['emp_name']:''; ?>">
 			  		</div>

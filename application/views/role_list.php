@@ -61,8 +61,7 @@
                         <td style="display:none"><?php echo $count; ?></td>
 
                         <td><?php echo $lis->role_name; ?> </td>
-                        <td><?php $myDateTime = DateTime::createFromFormat('Y-m-d H:i:s', $lis->created_at);
-                            $newDateString = $myDateTime->format('d-m-Y H:i:s');echo $newDateString ; ?></td>
+                        <td>xx</td>
 
                         <td><?php if($lis->status==1){ echo "Active" ;}else{ echo "Deactive"; } ?></td>
                         <th>

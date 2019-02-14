@@ -25,7 +25,7 @@
 
                             <div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Role Type</label>
-                                <input type="text" class="form-control" name="name" id="name" placeholder=" Enter Project Type"  value=""  required>
+                                <input type="text" class="form-control" name="name" id="name" placeholder=" Enter Role Type"  value=""  required>
                             </div>
 
                         </div>

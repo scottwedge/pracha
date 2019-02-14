@@ -21,18 +21,17 @@
 						<h3 class=" text-center"> Add Employee</h3>
 						<hr>
 				</div>
-		  			<div class="form-group col-md-6">
-		  				<label for="exampleInputUsername">Employee Role</label>
-                        <select class="mdb-select" id="role" name="role" required>
-                            <option value="" disabled selected>Choose Role</option>
-                            <?php foreach ($role_list as $role) {?>
-                                <option value="<?php echo $role->role_id;?>">
-                                    <?php echo $role->role_name;?>
-                                </option>
-                            <?php } ?>
-
-                        </select>
-			  		</div>
+				
+				<div class="form-group col-md-6">
+                                <label for="exampleInputUsername">Role Name</label>
+								 <select class="mdb-select md-form" id="role" name="role">
+								 <option value="">Select</option>
+								<?php foreach ($role_list as $list){ ?>
+								<option value="<?php echo $list['role_id']; ?>"><?php echo $list['role']; ?></option>
+								<?php }?>
+								</select>
+                            </div>
+				
 					<div class="form-group col-md-6">
 		  				<label for="exampleInputUsername">Name</label>
 				    	<input type="text" class="form-control" name="name" id="name" placeholder=" Enter Name" required="true" value="" >

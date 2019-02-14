@@ -240,6 +240,48 @@ class Employee extends CI_Controller {
 		 redirect('employee');
 		}
 	}
+	
+	public function projectstatus()
+	{
+if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+	             $p_id=base64_decode($this->uri->segment(3));
+					$status=base64_decode($this->uri->segment(4));
+					if($status==1){
+						$statu=0;
+					}else{
+						$statu=1;
+					}
+					if($p_id!=''){
+						$stusdetails=array(
+							'status'=>$statu,
+							'updated_at'=>date('Y-m-d H:i:s')
+							);
+							$statusdata=$this->Projectmanager_model->update_project_details($p_id,$stusdetails);
+							if(count($statusdata)>0){
+								if($status==1){
+								$this->session->set_flashdata('success',"Project successfully  Deactivate.");
+								}else{
+									$this->session->set_flashdata('success',"Project successfully  Activate.");
+								}
+								redirect('employee/project_type_list');
+							}else{
+									$this->session->set_flashdata('error',"technical problem will occurred. Please try again.");
+									redirect('employee/project_type_list');
+							}
+						}else{
+						$this->session->set_flashdata('error',"technical problem will occurred. Please try again.");
+						redirect('employee');
+					}	
+	
+        }else{
+		 $this->session->set_flashdata('error',"Please login and continue");
+		 redirect('employee');  
+	   }
+    }
+	
+	
 	public function projectdelete(){
 
 		if($this->session->userdata('userdetails'))
@@ -305,7 +347,6 @@ class Employee extends CI_Controller {
 				'status'=>1,
 				'created_at'=>date('Y-m-d H:i:s'),
 				'updated_at'=>date('Y-m-d H:i:s'),
-				'created_by'=>isset($userdetails['emp_id'])?$userdetails['emp_id']:''
 				 );
 			//echo '<pre>';print_r($save_data);exit;
 			$save=$this->Projectmanager_model->save_role_details($save_data);	
@@ -367,7 +408,7 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$post=$this->input->post();
 			//echo '<pre>';print_r($post);exit;
-			$role_details=$this->Projectmanager_model->get_edit_role($post['p_r_id']);
+			$role_details=$this->Projectmanager_model->get_edit_role($post['role_id']);
 		 if($role_details['role']!=$post['role']){
 						$check=$this->Projectmanager_model->check_role_data_exsists($post['role']);
 						if(count($check)>0){
@@ -380,10 +421,9 @@ class Employee extends CI_Controller {
 				'status'=>1,
 				'created_at'=>date('Y-m-d H:i:s'),
 				'updated_at'=>date('Y-m-d H:i:s'),
-				'created_by'=>isset($userdetails['emp_id'])?$userdetails['emp_id']:''
 				 );
 			//echo '<pre>';print_r($save_data);exit;
-			$save=$this->Projectmanager_model->edit_role_details($post['p_r_id'],$save_data);	
+			$save=$this->Projectmanager_model->edit_role_details($post['role_id'],$save_data);	
 				//echo '<pre>';print_r($save);exit;
 				   if(count($save)>0){
 						$this->session->set_flashdata('success',"Role successfully updated");	
@@ -661,17 +701,30 @@ class Employee extends CI_Controller {
 				 );
 			//echo '<pre>';print_r($save_data);exit;
 			$save=$this->Projectmanager_model->save_work_details($save_data);	
-				//echo '<pre>';print_r($save);exit;
-				   if(count($save)>0){
-						$this->session->set_flashdata('success',"work successfully added");	
+			if(count($save)>0){
+			if(isset($post['employee_name']) && count($post['employee_name'])>0){
+					$cnt=0;foreach($post['employee_name'] as $list){ 
+						  $add_data=array(
+						  'w_id'=>isset($save)?$save:'',
+						  'employee_name'=>$list,
+						  'status'=>1,
+						  'created_at'=>date('Y-m-d H:i:s'),
+						  'updated_at'=>date('Y-m-d H:i:s'),
+						  'created_by'=>isset($userdetails['emp_id'])?$userdetails['emp_id']:''
+						  );
+						   //echo '<pre>';print_r($add_data);
+						  $this->Projectmanager_model->save_work_employee_details($add_data);	
+
+				       $cnt++;}
+					}
+					//exit;
+					  $this->session->set_flashdata('success',"work successfully added");	
 						redirect('employee/project_work_assign_list');	
-					}else{
+				    }else{
 						$this->session->set_flashdata('error',"technical problem occurred. please try again once");
 						redirect('employee/project_work_assign');
 					}  
-			
-			
-			
+		
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
@@ -688,6 +741,7 @@ class Employee extends CI_Controller {
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 		//	echo '<pre>';print_r($data);exit;
           $data['work_assign_list']=$this->Projectmanager_model->get_work_assign_list();
+		  
 		  	//echo '<pre>';print_r($data);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
@@ -709,6 +763,7 @@ class Employee extends CI_Controller {
 			$data['edit_work']=$this->Projectmanager_model->edit_work_details($project);
 			$data['project_data']=$this->Projectmanager_model->get_project_data();
 			$data['role_types']=$this->Projectmanager_model->get_role_type_list();
+			$data['employee_data']=$this->Projectmanager_model->get_role_wise_list($data['edit_work']['role_type']);
 			//echo '<pre>';print_r($data);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
@@ -719,6 +774,29 @@ class Employee extends CI_Controller {
 		 redirect('employee');
 		}
 	}
+	
+	public function workview(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			//echo '<pre>';print_r($data);exit;
+			$project=base64_decode ($this->uri->segment(3));
+			$data['edit_work']=$this->Projectmanager_model->edit_work_details($project);
+			
+			//echo '<pre>';print_r($data);exit;
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('edit_work_view',$data);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	
+	
 	public function editworkpost(){
 
 		if($this->session->userdata('userdetails'))
@@ -749,22 +827,86 @@ class Employee extends CI_Controller {
 				 );
 			//echo '<pre>';print_r($update_data);exit;
 			$update=$this->Projectmanager_model->upadte_work_details($post['w_id'],$update_data);	
-				//echo '<pre>';print_r($update);exit;
-				   if(count($update)>0){
-						$this->session->set_flashdata('success',"work successfully updated");	
-						redirect('employee/project_work_assign_list');	
-					}else{
-						$this->session->set_flashdata('error',"technical problem occurred. please try again once");
-						redirect('employee/project_work_assign_list');
-					}  
+				if(count($update)>0){
+			$details=$this->Projectmanager_model->get_edit_role_wise_employee_list($post['w_id']);
+				  if(count($details)>0){
+					  foreach($details as $lis){
+						 $this->Projectmanager_model->delete_employee_role_wisedetails($lis['w_a_e']); 
+					  }
+					}
+					if(isset($post['employee_name']) && count($post['employee_name'])>0){
+					$cnt=0;foreach($post['employee_name'] as $list){ 
+						  $add_data=array(
+						  'w_id'=>isset($post['w_id'])?$post['w_id']:'',
+						  'employee_name'=>$list,
+						  'status'=>1,
+						  'created_at'=>date('Y-m-d H:i:s'),
+						  'updated_at'=>date('Y-m-d H:i:s'),
+						  'created_by'=>isset($userdetails['emp_id'])?$userdetails['emp_id']:''
+						  );
+						   //echo '<pre>';print_r($add_data);
+						  $this->Projectmanager_model->save_role_wise_list_details_data($add_data);	
+
+				       $cnt++;}
+					}
+			//exit;
+			$this->session->set_flashdata('success',"work successfully updated");	
+			redirect('employee/project_work_assign_list');		
 			
-			
+			}else{
+			$this->session->set_flashdata('error',"technical problem occurred. please try again once");
+			redirect('employee/project_work_assign_list');
+			}  
 			
 		}else{
 		 $this->session->set_flashdata('loginerror','Please login to continue');
 		 redirect('employee');
 		}
 	}
+	
+	public function workstatus()
+	{
+if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+	             $w_id=base64_decode($this->uri->segment(3));
+					$status=base64_decode($this->uri->segment(4));
+					if($status==1){
+						$statu=0;
+					}else{
+						$statu=1;
+					}
+					if($w_id!=''){
+						$stusdetails=array(
+							'status'=>$statu,
+							'updated_at'=>date('Y-m-d H:i:s')
+							);
+							$statusdata=$this->Projectmanager_model->upadte_work_details($w_id,$stusdetails);
+							if(count($statusdata)>0){
+								if($status==1){
+								$this->session->set_flashdata('success',"Work Assign successfully  Deactivate.");
+								}else{
+									$this->session->set_flashdata('success',"Work Assign successfully  Activate.");
+								}
+								redirect('employee/project_work_assign_list');
+							}else{
+									$this->session->set_flashdata('error',"technical problem will occurred. Please try again.");
+									redirect('employee/project_work_assign_list');
+							}
+						}else{
+						$this->session->set_flashdata('error',"technical problem will occurred. Please try again.");
+						redirect('employee');
+					}	
+	
+        }else{
+		 $this->session->set_flashdata('error',"Please login and continue");
+		 redirect('employee');  
+	   }
+    }
+	
+	
+	
+	
 	public function workdelete(){
 
 		if($this->session->userdata('userdetails'))
@@ -790,10 +932,6 @@ class Employee extends CI_Controller {
 		 redirect('employee');
 		}
 	}
-	
-	
-	
-	
 	
 	
 	public function payslip(){
@@ -1276,6 +1414,7 @@ class Employee extends CI_Controller {
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$data['roleid'] = $data['userdetails']['role'];
+			//echo '<pre>';print_r($data);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('profileedit',$data);
@@ -1314,9 +1453,12 @@ class Employee extends CI_Controller {
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			//echo '<pre>';print_r($data['userdetails'] );exit;
 			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
 			    $data['role_list']=$this->Employee_model->role_list();
+				
                 $data['dept_list']=$this->Employee_model->department_list();
+				//echo '<pre>';print_r($data);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('addemployee',$data);

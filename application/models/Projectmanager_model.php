@@ -32,35 +32,35 @@ class Projectmanager_model extends CI_Model
 	}
 	/* role */
 	public function save_role_details($data){
-	$this->db->insert('project_roles', $data);
+	$this->db->insert('roles', $data);
 	return $insert_id = $this->db->insert_id();
 	}
 	public function get_role_list(){
-	$this->db->select('project_roles.*')->from('project_roles');
-	$this->db->where('project_roles.status!=',2);
+	$this->db->select('roles.*')->from('roles');
+	$this->db->where('roles.status!=',2);
 	return $this->db->get()->result_array();
 	} 
-	public function get_edit_role($p_r_id){
-	$this->db->select('project_roles.*')->from('project_roles');
-	$this->db->where('project_roles.p_r_id',$p_r_id);
+	public function get_edit_role($role_id){
+	$this->db->select('roles.*')->from('roles');
+	$this->db->where('roles.role_id',$role_id);
 	return $this->db->get()->row_array();
 	} 
-	public function edit_role_details($p_r_id,$data){
-	$this->db->where('p_r_id', $p_r_id);
-	return $this->db->update('project_roles', $data);
+	public function edit_role_details($role_id,$data){
+	$this->db->where('role_id', $role_id);
+	return $this->db->update('roles', $data);
 	}
-	public function delete_role_details($p_r_id){
-	$this->db->where('p_r_id',$p_r_id);
-    return $this->db->delete('project_roles');
+	public function delete_role_details($role_id){
+	$this->db->where('role_id',$role_id);
+    return $this->db->delete('roles');
 	}
 	public function check_role_already($role){
-	$this->db->select('project_roles.*')->from('project_roles');
-		$this->db->where('project_roles.role',$role);
-		$this->db->where('project_roles.status ',1);
+	$this->db->select('roles.*')->from('roles');
+		$this->db->where('roles.role',$role);
+		$this->db->where('roles.status ',1);
 		return $this->db->get()->row_array();
 	}
 	public function check_role_data_exsists($role){
-	$this->db->select('*')->from('project_roles');
+	$this->db->select('*')->from('roles');
 	$this->db->where('role',$role);
 	$this->db->where('status !=',2);
 	return $this->db->get()->row_array();
@@ -115,26 +115,25 @@ class Projectmanager_model extends CI_Model
 	return $this->db->get()->result_array();
 	} 
 	public function  get_role_type_list(){
-	$this->db->select('project_roles.p_r_id,project_roles.role')->from('project_roles');
-	$this->db->where('project_roles.status',1);
+	$this->db->select('roles.role_id ,roles.role as rolename,employee.emp_id,employee.role')->from('employee');
+	$this->db->join('roles', 'roles.role_id = employee.role', 'left');
+	$this->db->group_by('employee.role ');
+	$this->db->where('employee.role !=',1);
+	$this->db->where('employee.role !=',2);
+	$this->db->where('employee.status',1);
 	return $this->db->get()->result_array();
 	} 
+	
+	
 	public function save_work_details($data){
 	$this->db->insert('work_assign', $data);
 	return $insert_id = $this->db->insert_id();
 	}
-	public function get_work_assign_list(){
-	$this->db->select('work_assign.*,project.project_name,project_roles.role')->from('work_assign');
-	$this->db->join('project', 'project.p_id = work_assign.work_project_name', 'left');
-	$this->db->join('project_roles', 'project_roles.p_r_id = work_assign.role_type', 'left');
-	$this->db->where('work_assign.status!=',2);
-	return $this->db->get()->result_array();
-	} 
-	public function edit_work_details($w_id){
-	$this->db->select('work_assign.*')->from('work_assign');
-	$this->db->where('work_assign.w_id',$w_id);
-	return $this->db->get()->row_array();
-	} 
+	
+	
+	
+	
+	
 	public function upadte_work_details($w_id,$data){
 	$this->db->where('w_id', $w_id);
 	return $this->db->update('work_assign', $data);
@@ -146,7 +145,7 @@ class Projectmanager_model extends CI_Model
 	
 	
 	
-	
+	/*
 	
 	public  function get_role_wise_list($role_type){
 			$this->db->select('role_wise_employee.r_w_id,role_wise_employee.employe_name')->from('role_wise_employee');
@@ -154,12 +153,87 @@ class Projectmanager_model extends CI_Model
 			$this->db->where('role_wise_employee.role_name',$role_type);
 			return $this->db->get()->result_array();
 		}
+	*/
+	
+	
+	public  function get_role_wise_list($role_type){
+			$this->db->select('employee.emp_id,employee.emp_name')->from('employee');
+			$this->db->join('roles', 'roles.role_id = employee.role', 'left');
+			$this->db->where('employee.role',$role_type);
+			return $this->db->get()->result_array();
+		}
 	
 	
 	
+	public function save_work_employee_details($data){
+	$this->db->insert('work_assign_employees', $data);
+	return $insert_id = $this->db->insert_id();
+	}
 	
 	
+	public function get_work_assign_list(){
+	$this->db->select('work_assign.*,roles.role,project.project_name')->from('work_assign');
+	$this->db->join('roles', 'roles.role_id = work_assign.role_type', 'left');
+	$this->db->join('project', 'project.p_id = work_assign.work_project_name', 'left');
+	$this->db->where('work_assign.status!=',2);
+	$return=$this->db->get()->result_array();
+	  foreach($return as $list){
+	   $lists=$this->get_role_employees_work_report($list['w_id']);
+	   //echo '<pre>';print_r($lists);exit;
+	   $data[$list['w_id']]=$list;
+	   $data[$list['w_id']]['employee_list']=$lists;
+	   
+	  }
+	if(!empty($data)){
+	   
+	   return $data;
+	   
+	  }
+ }
+	public function get_role_employees_work_report($w_id){
+	 $this->db->select('work_assign_employees.*,employee.emp_name')->from('work_assign_employees');
+	 $this->db->join('employee', 'employee.emp_id = work_assign_employees.employee_name', 'left');
+     $this->db->where('work_assign_employees.w_id',$w_id);
+     $this->db->where('work_assign_employees.status !=',2);
+	 return $this->db->get()->result_array();
+	}
 	
+	
+	public function edit_work_details($w_id){
+	$this->db->select('work_assign.*')->from('work_assign');
+	$this->db->where('work_assign.w_id',$w_id);
+	$return=$this->db->get()->row_array();
+		$emp_list=$this->get_edit_role_wise_employee_list($return['w_id']);
+		$data=$return;
+		$data['employees_list']=$emp_list;
+		if(!empty($data)){
+			return $data;
+		}
+	}
+	public  function get_edit_role_wise_employee_list($w_id){
+		$this->db->select('*')->from('work_assign_employees');
+		$this->db->where('work_assign_employees.w_id',$w_id);
+		return $this->db->get()->result_array();
+		
+	}
+	
+	
+	public function delete_employee_role_wisedetails($w_a_e){
+	$this->db->where('w_a_e',$w_a_e);
+	return $this->db->delete('work_assign_employees');
+	}
+	public  function save_role_wise_list_details_data($data){
+	$this->db->insert('work_assign_employees',$data);	
+	return $this->db->insert_id();
+	}
+	
+	
+	public function edit_work_view_details($w_id){
+	$this->db->select('*')->from('work_assign');
+		$this->db->where('work_assign.w_id',$w_id);
+		return $this->db->get()->row_array();
+		
+	}
 	
 	
 	

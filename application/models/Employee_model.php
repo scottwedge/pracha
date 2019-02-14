@@ -313,10 +313,11 @@ class Employee_model extends CI_Model
         return $this->db->get()->result_array();
 	}
     public  function role_list(){
-        $this->db->select('role_id, role_name')->from('roles_tab')->where('status !=0')->order_by('updated_at','desc');
-        return $this->db->get()->result();
-
-    }
+	$this->db->select('roles.*')->from('roles');
+	$this->db->where('status', 1);
+    return $this->db->get()->result_array();
+	}
+        
     public  function department_list(){
         $this->db->select('department_id,department_name')->from('department_tab')->where('status !=0')->order_by('updated_at','desc');
         return $this->db->get()->result();

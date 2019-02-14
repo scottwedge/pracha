@@ -20,7 +20,7 @@
 								 <select class="mdb-select md-form" name="role_type" id="role_type" onchange="get_role_list(this.value);" class="form-control" required >
 								  <option value="" >Select Role </option>
 								  <?php foreach ($role_types as $list){ ?>
-								<option value="<?php echo $list['p_r_id']; ?>"><?php echo $list['role']; ?></option>
+								<option value="<?php echo $list['role_id']; ?>"><?php echo $list['rolename']; ?></option>
 								<?php }?>
 								</select>
                             </div>
@@ -30,7 +30,7 @@
 							
 								 <label for="exampleInputUsername">Select Employee</label>
 								<div class="">
-									<select  class='mdb-select' multiple id="employee_name"  name="employee_name"  >
+									<select  class='mdb-select' multiple id="employee_name"  name="employee_name[]"  >
 									<option value="">Select</option>
 									</select>
 								</div>
@@ -91,6 +91,7 @@
 
 <script>
 function get_role_list(role_type){
+	//alert('ssss');
 	if(role_type !=''){
 		    jQuery.ajax({
    			url: "<?php echo base_url('Employee/get_role_wise_list');?>",
@@ -103,17 +104,17 @@ function get_role_list(role_type){
 						
 						if(data.msg=1){
 							var parsedData = JSON.parse(data);
-						//alert(parsedData.list.length);
+						//alert('dd');
 						$('.mdb-select').material_select('destroy');
 							$('#employee_name').empty();
-							$('#employee_name').append("<option>select</option>");
+							$('#employee_name').append("<option disabled>select</option>");
 							
 							
 							for(i=0; i < parsedData.list.length; i++) {
 								
 								
-								//console.log(parsedData.list);
-							$('#employee_name').append("<option value="+parsedData.list[i].r_w_id+">"+parsedData.list[i].employe_name+"</option>");                      
+								console.log(parsedData.list);
+							$('#employee_name').append("<option value="+parsedData.list[i].emp_id+">"+parsedData.list[i].emp_name+"</option>");                      
                     
 								
 							 

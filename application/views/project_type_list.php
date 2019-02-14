@@ -87,7 +87,7 @@
 						<th>Project Name</th>
 						<th>Project Type</th>
 						<th>Created Date</th>
-						<th>Estimated Date</th>
+						<th>Estimated Days</th>
 						<th>Client Name</th>
 						<th>Client Phone Number</th>
 						<th>Client Mail</th>
@@ -114,12 +114,11 @@
 							<?php } ?>
 							
 							</td>
+						<td><?php if($list['status']==1){ echo "Active";}else{ echo "Deactive"; } ?></td>
 						
-						
-						<td><a href="" class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2" data-toggle="modal" data-target="#basicExampleModal">View </a> </td>
 						<td>
 						 <a  class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2" href="<?php echo base_url('employee/projectedit/'.base64_encode($list['p_id'])); ?>"  data-toggle="tooltip" title="Edit" >Edit</a>
-							
+						<a href="<?php echo base_url('employee/projectstatus/'.base64_encode($list['p_id']).'/'.base64_encode($list['status'])); ?>" data-toggle="tooltip" title="status" ><i class="fa fa-info-circle btn btn-warning"></i></a>
 							<a href="<?php echo base_url('employee/projectdelete/'.base64_encode($list['p_id'])); ?>" class="btn btn-danger btn-sm my-0 waves-effect waves-light">Delete</a>
 						</td>
 					</tr>
@@ -135,53 +134,7 @@
 </div>
 
 
-<!-- Modal -->
-<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Project Progress</h5> 
-		
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-		<div class="container">
-			<ul class="step d-flex flex-nowrap">
-			  <li class="step-item">
-				<a href="#!" class="">Research & Documentation</a>
-			  </li>
-			  <li class="step-item">
-				<a href="#!" class="">Designing</a>
-			  </li>
-			  <li class="step-item active">
-				<a href="#!" class="">Development</a>
-			  </li>
-			  <li class="step-item">
-				<a href="#!" class="">Testing</a>
-			  </li>
-			</ul> 
-			<hr>
-			<div class="py-4 row">
-				<div class="col-md-6">
-					<strong>Starting Date :</strong> 12-02-2019
-				</div>
-				<div class="col-md-6">
-					<strong>Estimated Date :</strong> 02-04-2019
-				</div>
-				
-			</div>
-		</div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+
 <?php if($this->session->flashdata('success')): ?>
 				<div class="alert_msg1 animated slideInUp bg-succ">
 				<?php echo $this->session->flashdata('success');?> &nbsp; <i class="fa fa-check text-success ico_bac" aria-hidden="true"></i>
