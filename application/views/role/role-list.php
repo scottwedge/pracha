@@ -86,6 +86,7 @@
 					<tr>
 						<th>Role Name</th>
 						<th>Created At</th>
+						<th>Status</th>
 						<th>Action</th>
 					</tr>
                 </thead>
@@ -96,14 +97,14 @@
 						<td><?php echo isset($list['role'])?$list['role']:''?></td>
 						
 						 <td><?php echo isset($list['created_at'])?$list['created_at']:''?></td>
-						
+						<td><?php if($list['status']==1){ echo "Active";}else{ echo "Deactive"; } ?></td>
 						
 						
 						
 						<td>
 						
 						 <a  class="btn btn-warning btn-sm my-0 waves-effect waves-light my-2" href="<?php echo base_url('employee/editrole/'.base64_encode($list['role_id'])); ?>"  data-toggle="tooltip" title="Edit" >Edit</a>
-							
+						<a href="<?php echo base_url('employee/rolestatus/'.base64_encode($list['role_id']).'/'.base64_encode($list['status'])); ?>" data-toggle="tooltip" title="status" ><i class="fa fa-info-circle btn btn-warning"></i></a>
 						<a href="<?php echo base_url('employee/roledelete/'.base64_encode($list['role_id'])); ?>" class="btn btn-danger btn-sm my-0 waves-effect waves-light">Delete</a>
 						</td>
 					</tr>

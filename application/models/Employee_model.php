@@ -43,6 +43,10 @@ class Employee_model extends CI_Model
 		$this->db->order_by('employee.emp_id asc');
 		return $this->db->get()->result_array();
 	}
+	
+	
+	
+	
 	public function get_employee_list_details(){
 		$this->db->select('*')->from('employee');
 		$this->db->order_by('employee.emp_id asc');
@@ -314,10 +318,20 @@ class Employee_model extends CI_Model
 	}
     public  function role_list(){
 	$this->db->select('roles.*')->from('roles');
+	$this->db->where('roles.role_id =',2);
 	$this->db->where('status', 1);
     return $this->db->get()->result_array();
 	}
-        
+      
+   public  function role_list_data_hr(){
+	$this->db->select('roles.*')->from('roles');
+	$this->db->where('roles.role_id !=',2);
+	$this->db->where('roles.role_id !=',1);
+	$this->db->where('status', 1);
+    return $this->db->get()->result_array();
+	}
+
+	  
     public  function department_list(){
         $this->db->select('department_id,department_name')->from('department_tab')->where('status !=0')->order_by('updated_at','desc');
         return $this->db->get()->result();

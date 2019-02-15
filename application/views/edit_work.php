@@ -14,7 +14,8 @@
                                 <h3 class=" text-center"> Edit Work Assign</h3>
                                 <hr>
                             </div>
-                            <div class="form-group col-md-6">
+							
+							<div class="form-group col-md-6">
                                 <label for="exampleInputUsername">Select Role</label>
 								 <select class="mdb-select md-form" name="role_type" id="role_type" onchange="get_role_list(this.value);" class="form-control" required >
 								  <option value="" >Select Role </option>
@@ -30,7 +31,6 @@
 										<?php } ?>
 								</select>
                             </div>
-							
 							<?php //echo'<pre>';print_r($vechical_details['stop_list']);
 						foreach($edit_work['employees_list'] as $list){
 
@@ -41,13 +41,12 @@
 						//$tt=explode();
 						//exit; ?>
 							
-							
 							<div class="form-group col-md-6">
 							
 								 <label for="exampleInputUsername">Select Employee</label>
 								<div class="">
-									<select  class='mdb-select' multiple id="employee_name[]"  name="employee_name[]"  required>
-									<option value="">Select</option>
+									<select  class='mdb-select' multiple id="employee_name"  name="employee_name[]"  >
+									<option value="" disabled>Select</option>
 									<?php foreach($employee_data as $lis){ ?>
 													<?php if (in_array($lis['emp_id'], $rr)){ ?>
 															<option selected value="<?php echo $lis['emp_id']; ?>"><?php echo $lis['emp_name']; ?></option>
@@ -60,8 +59,6 @@
 								</div>
 
                         </div>	
-							
-							
 							
 							
 							<div class="form-group col-md-6">
@@ -138,7 +135,7 @@ function get_role_list(role_type){
 						//alert('dd');
 						$('.mdb-select').material_select('destroy');
 							$('#employee_name').empty();
-							$('#employee_name').append("<option disabled>select</option>");
+							$('#employee_name').append("<option disabled></option>");
 							
 							
 							for(i=0; i < parsedData.list.length; i++) {

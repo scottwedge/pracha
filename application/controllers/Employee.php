@@ -437,6 +437,52 @@ if($this->session->userdata('userdetails'))
 		 redirect('employee');
 		}
 	}
+	
+	public function rolestatus()
+	{
+if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+	             $role_id=base64_decode($this->uri->segment(3));
+					$status=base64_decode($this->uri->segment(4));
+					if($status==1){
+						$statu=0;
+					}else{
+						$statu=1;
+					}
+					if($role_id!=''){
+						$stusdetails=array(
+							'status'=>$statu,
+							'updated_at'=>date('Y-m-d H:i:s')
+							);
+							$statusdata=$this->Projectmanager_model->edit_role_details($role_id,$stusdetails);
+							if(count($statusdata)>0){
+								if($status==1){
+								$this->session->set_flashdata('success',"Role successfully  Deactivate.");
+								}else{
+									$this->session->set_flashdata('success',"Role successfully  Activate.");
+								}
+								redirect('employee/rolelist');
+							}else{
+									$this->session->set_flashdata('error',"technical problem will occurred. Please try again.");
+									redirect('employee/rolelist');
+							}
+						}else{
+						$this->session->set_flashdata('error',"technical problem will occurred. Please try again.");
+						redirect('employee');
+					}	
+	
+        }else{
+		 $this->session->set_flashdata('error',"Please login and continue");
+		 redirect('employee');  
+	   }
+    }
+	
+	
+	
+	
+	
+	
 	public function roledelete(){
 
 		if($this->session->userdata('userdetails'))
@@ -783,7 +829,7 @@ if($this->session->userdata('userdetails'))
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			//echo '<pre>';print_r($data);exit;
 			$project=base64_decode ($this->uri->segment(3));
-			$data['edit_work']=$this->Projectmanager_model->edit_work_details($project);
+			$data['edit_work']=$this->Projectmanager_model->edit_work_view_details($project);
 			
 			//echo '<pre>';print_r($data);exit;
 			$this->load->view('header1');
@@ -1447,6 +1493,35 @@ if($this->session->userdata('userdetails'))
 
 
 	}
+	public function allemployeeedit(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$emp_id=base64_decode($this->uri->segment(3));
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$employee['roleid'] = $data['userdetails']['role'];
+			$employee['role_type'] = 'admin';
+			$employee['userdetails'] = $this->Employee_model->get_employee_details($emp_id);
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('allprofileedit',$employee);
+			//$this->load->view('footer');
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 	public function addemployee(){
 
 		if($this->session->userdata('userdetails'))
@@ -1454,10 +1529,11 @@ if($this->session->userdata('userdetails'))
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			//echo '<pre>';print_r($data['userdetails'] );exit;
-			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+			if($data['userdetails']['role']==1 ){
 			    $data['role_list']=$this->Employee_model->role_list();
 				
                 $data['dept_list']=$this->Employee_model->department_list();
+				//echo '<pre>';print_r($data);exit;
 				//echo '<pre>';print_r($data);exit;
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
@@ -1474,7 +1550,38 @@ if($this->session->userdata('userdetails'))
 
 
 	}
-	public function employeelist(){
+	
+	
+	public function allemployees(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			//echo '<pre>';print_r($data['userdetails'] );exit;
+			if($data['userdetails']['role']==2){
+			    $data['role_list']=$this->Employee_model->role_list_data_hr();
+				
+                $data['dept_list']=$this->Employee_model->department_list();
+				//echo '<pre>';print_r($data);exit;
+				//echo '<pre>';print_r($data);exit;
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('allemployees',$data);
+			//$this->load->view('footer');
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+
+
+	}
+	
+	public function allemployeelist(){
 
 		if($this->session->userdata('userdetails'))
 		{
@@ -1492,7 +1599,46 @@ if($this->session->userdata('userdetails'))
 			}
 			$data['employee_list']=$all_list;
 			//echo '<pre>';print_r($all_list);exit;
-			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+			if($data['userdetails']['role']==2){
+			$this->load->view('header1');
+			$this->load->view('sidebar',$data);
+			$this->load->view('allemployeelist',$data);
+			//$this->load->view('footer');
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+
+
+	}
+	
+	
+	
+	
+	public function employeelist(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$employee_list = $this->Employee_model->get_employee_list_all_details();
+			//echo'<pre>';print_r($employee_list);exit;
+			foreach($employee_list as $list){
+				$sick=$this->Employee_model->get_sick_leave_count($list['emp_id']);
+				$casual=$this->Employee_model->get_casual_leave_count($list['emp_id']);
+				$paid=$this->Employee_model->get_paid_leave_count($list['emp_id']);
+				$all_list[$list['emp_id']]=$list;
+				$all_list[$list['emp_id']]['sick_leaves']=$sick['sick_count'];
+				$all_list[$list['emp_id']]['causal_leaves']=$casual['casual_count'];
+				$all_list[$list['emp_id']]['paid_leaves']=$paid['paid_count'];
+			}
+			$data['employee_list']=$all_list;
+			//echo '<pre>';print_r($all_list);exit;
+			if($data['userdetails']['role']==1){
 			$this->load->view('header1');
 			$this->load->view('sidebar',$data);
 			$this->load->view('emplist',$data);
@@ -1507,14 +1653,15 @@ if($this->session->userdata('userdetails'))
 		}
 
 
-	}public function status(){
+	}
+	public function status(){
 
 		if($this->session->userdata('userdetails'))
 		{
 			$userdetails=$this->session->userdata('userdetails');
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$data['employee_list'] = $this->Employee_model->get_employee_list_details();
-			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+			if($data['userdetails']['role']==1){
 				$empid=base64_decode($this->uri->segment(3));
 				$status=base64_decode($this->uri->segment(4));
 				if($status==1){
@@ -1546,6 +1693,54 @@ if($this->session->userdata('userdetails'))
 
 
 	}
+	public function allemployeestatus(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$data['employee_list'] = $this->Employee_model->get_employee_list_details();
+			if($data['userdetails']['role']==2){
+				$empid=base64_decode($this->uri->segment(3));
+				$status=base64_decode($this->uri->segment(4));
+				if($status==1){
+					$active=array('status'=>0);
+				}else{
+					$active=array('status'=>1);
+				}
+				$statuschange= $this->Employee_model->update_profile_details($empid,$active);
+				if(count($statuschange)>0){
+						if($status==1){
+							$this->session->set_flashdata('success','Employee  Successfully Deactive');
+						}else{
+							$this->session->set_flashdata('success','Employee  Successfully Active');
+						}
+					}else{
+						$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+
+					}
+					redirect('employee/allemployeelist');
+
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public function holidaystatus(){
 
 		if($this->session->userdata('userdetails'))
@@ -1699,7 +1894,7 @@ if($this->session->userdata('userdetails'))
 			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
 			$post=$this->input->post();
 			//echo '<pre>';print_r($post);exit;
-			if($data['userdetails']['role']==1 ||$data['userdetails']['role']==2){
+			if($data['userdetails']['role']==1){
 						if($_FILES['profilepic']['name']!=''){
 						$profilepic=$_FILES['profilepic']['name'];
 						move_uploaded_file($_FILES['profilepic']['tmp_name'], "assets/emp_pics/" . $_FILES['profilepic']['name']);
@@ -1790,6 +1985,238 @@ if($this->session->userdata('userdetails'))
 
 
 	}
+	public function alleployeepost(){
+
+		if($this->session->userdata('userdetails'))
+		{
+			$userdetails=$this->session->userdata('userdetails');
+			$data['userdetails'] = $this->Employee_model->get_employee_details($userdetails['emp_id']);
+			$post=$this->input->post();
+			//echo '<pre>';print_r($post);exit;
+			if($data['userdetails']['role']==2){
+						if($_FILES['profilepic']['name']!=''){
+						$profilepic=$_FILES['profilepic']['name'];
+						move_uploaded_file($_FILES['profilepic']['tmp_name'], "assets/emp_pics/" . $_FILES['profilepic']['name']);
+
+						}else{
+							$profilepic='';
+						}
+						if($_FILES['aadharcard']['name']!=''){
+						$aadhar=$_FILES['aadharcard']['name'];
+						move_uploaded_file($_FILES['aadharcard']['tmp_name'], "assets/documents/" . $_FILES['aadharcard']['name']);
+
+						}else{
+							$aadhar='';
+						}
+						if($_FILES['pancard']['name']!=''){
+						$pancard=$_FILES['pancard']['name'];
+						move_uploaded_file($_FILES['pancard']['tmp_name'], "assets/documents/" . $_FILES['pancard']['name']);
+
+						}else{
+							$pancard='';
+						}
+						if($_FILES['kyc']['name']!=''){
+						$kyc=$_FILES['kyc']['name'];
+						move_uploaded_file($_FILES['kyc']['tmp_name'], "assets/documents/" . $_FILES['kyc']['name']);
+
+						}else{
+							$kyc='';
+						}
+						$addemp=array(
+						'emp_name'=>isset($post['name'])?$post['name']:'',
+						'emp_role'=>isset($post['designation'])?$post['designation']:'',
+						'salary'=>isset($post['salary'])?$post['salary']:'',
+						'responsibilities'=>isset($post['responsibilites'])?$post['responsibilites']:'',
+						'emp_username'=>isset($post['email'])?$post['email']:'',
+						'emp_email'=>isset($post['email'])?$post['email']:'',
+						'emp_password'=>isset($post['password'])?md5($post['password']):'',
+						'emp_org_password'=>isset($post['password'])?$post['password']:'',
+						'emp_mobile'=>isset($post['mobile'])?$post['mobile']:'',
+						'emp_altermobile'=>isset($post['altermobile'])?$post['altermobile']:'',
+						'emp_doj'=>isset($post['doj'])?$post['doj']:'',
+						'basicsalary'=>isset($post['basicsalary'])?$post['basicsalary']:'',
+						'hra'=>isset($post['hra'])?$post['hra']:'',
+						'specialallowance'=>isset($post['specialallowance'])?$post['specialallowance']:'',
+						'conveyance'=>isset($post['conveyance'])?$post['conveyance']:'',
+						'medicalreimbursement'=>isset($post['medicalreimbursement'])?$post['medicalreimbursement']:'',
+						'pfnumber'=>isset($post['pfnumber'])?$post['pfnumber']:'',
+						'pfamount'=>isset($post['pfamount'])?$post['pfamount']:'',
+						'pt'=>isset($post['pt'])?$post['pt']:'',
+						'esi'=>isset($post['esi'])?$post['esi']:'',
+						'others'=>isset($post['others'])?$post['others']:'',
+						'advance'=>isset($post['advance'])?$post['advance']:'',
+						'bankname'=>isset($post['bankname'])?$post['bankname']:'',
+						'bankaccountnumber'=>isset($post['bankaccountnumber'])?$post['bankaccountnumber']:'',
+						'emp_profilepic'=>$profilepic,
+						'emp_resaddress'=>isset($post['resaddress'])?$post['resaddress']:'',
+						'emp_peraddress'=>isset($post['peraddress'])?$post['peraddress']:'',
+						'aadharcardno'=>isset($post['aadharnumber'])?$post['aadharnumber']:'',
+						'aadharcard'=>$aadhar,
+						'pancardno'=>isset($post['pannumber'])?$post['pannumber']:'',
+						'pancard'=>$pancard,
+						'otherkye'=>$kyc,
+						'role'=>isset($post['role'])?$post['role']:'',
+						'status'=>1,
+						'create'=>date('Y-m-d H:i:s'),
+                            'department'=>'IT'
+						);
+					$addemployee = $this->Employee_model->save_employee($addemp);
+					//echo $this->db->last_query();exit;
+					if(count($addemployee)>0){
+						$id='PT000'.$addemployee;
+						$empid=array('emp_office_id'=>$id);
+						$this->Employee_model->update_profile_details($addemployee,$empid);
+						$this->session->set_flashdata('success','Employee Successfully Added');
+						redirect('employee/allemployeelist');
+					}else{
+						$this->session->set_flashdata('error','Technical problem will occurred .please try again');
+						redirect('employee/allemployees');
+					}
+
+			}else{
+				$this->session->set_flashdata("error","You don't have permissions to access that page");
+				redirect('employee/profile');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+
+
+	}
+	public function allupdate(){
+		if($this->session->userdata('userdetails'))
+		{
+			$post=$this->input->post();
+			//echo '<pre>';print_r($post);exit;
+			$userdetails=$this->session->userdata('userdetails');
+			$cust_upload_file= $this->Employee_model->get_employee_details($post['emp_id']);
+			if($_FILES['profilepic']['name']!=''){
+			$profilepic=$_FILES['profilepic']['name'];
+			move_uploaded_file($_FILES['profilepic']['tmp_name'], "assets/emp_pics/" . $_FILES['profilepic']['name']);
+
+			}else{
+				$profilepic=$cust_upload_file['emp_profilepic'];
+			}
+			if($_FILES['aadharcard']['name']!=''){
+			$aadhar=$_FILES['aadharcard']['name'];
+			unlink( "assets/documents/".$cust_upload_file['aadharcard']);
+			move_uploaded_file($_FILES['aadharcard']['tmp_name'], "assets/documents/" . $_FILES['aadharcard']['name']);
+
+			}else{
+				$aadhar=$cust_upload_file['aadharcard'];
+			}
+			if($_FILES['pancard']['name']!=''){
+			$pancard=$_FILES['pancard']['name'];
+			unlink( "assets/documents/".$cust_upload_file['pancard']);
+			move_uploaded_file($_FILES['pancard']['tmp_name'], "assets/documents/" . $_FILES['pancard']['name']);
+
+			}else{
+				$pancard=$cust_upload_file['pancard'];
+			}
+			if($_FILES['kyc']['name']!=''){
+			$kyc=$_FILES['kyc']['name'];
+			unlink( "assets/documents/".$cust_upload_file['otherkye']);
+			move_uploaded_file($_FILES['kyc']['tmp_name'], "assets/documents/" . $_FILES['kyc']['name']);
+
+			}else{
+				$kyc=$cust_upload_file['otherkye'];
+			}
+			if($post['role_type']=='admin'){
+					$salary=$post['salary'];
+					$dob=$cust_upload_file['emp_dob'];
+					$responsibilites=$post['responsibilites'];
+					$basicsalary=$post['basicsalary'];
+					$hra=$post['hra'];
+					$specialallowance=$post['specialallowance'];
+					$conveyance=$post['conveyance'];
+					$medicalreimbursement=$post['medicalreimbursement'];
+					$pfnumber=$post['pfnumber'];
+					$pfamount=$post['pfamount'];
+					$pt=$post['pt'];
+					$esi=$post['esi'];
+					$others=$post['others'];
+					$advance=$post['advance'];
+					$bankname=$post['bankname'];
+					$bankaccountnumber=$post['bankaccountnumber'];
+					$salary_increment=$post['salary_increment'];
+				}else{
+					$salary=$cust_upload_file['salary'];
+					$dob=$post['dob'];
+					$responsibilites=$cust_upload_file['responsibilities'];
+					$basicsalary=$cust_upload_file['basicsalary'];
+					$hra=$cust_upload_filecust_upload_file['hra'];
+					$specialallowance=$cust_upload_file['specialallowance'];
+					$conveyance=$cust_upload_file['conveyance'];
+					$medicalreimbursement=$cust_upload_file['medicalreimbursement'];
+					$pfnumber=$cust_upload_file['pfnumber'];
+					$pfamount=$cust_upload_file['pfamount'];
+					$pt=$cust_upload_file['pt'];
+					$esi=$cust_upload_file['esi'];
+					$others=$cust_upload_file['others'];
+					$advance=$cust_upload_file['advance'];
+					$bankname=$cust_upload_file['bankname'];
+					$bankaccountnumber=$cust_upload_file['bankaccountnumber'];
+					$salary_increment=$cust_upload_file['salary_increment'];
+				}
+			$editdata=array(
+			'emp_name'=>isset($post['name'])?$post['name']:'',
+			'salary'=>$salary,
+			'emp_role'=>isset($post['designation'])?$post['designation']:'',
+			'responsibilities'=>$responsibilites,
+			'emp_mobile'=>isset($post['mobile'])?$post['mobile']:'',
+			'emp_altermobile'=>isset($post['altermobile'])?$post['altermobile']:'',
+			'basicsalary'=>$basicsalary,
+			'hra'=>$hra,
+			'specialallowance'=>$specialallowance,
+			'conveyance'=>$conveyance,
+			'medicalreimbursement'=>$medicalreimbursement,
+			'pfnumber'=>$pfnumber,
+			'pfamount'=>$pfamount,
+			'pt'=>$pt,
+			'esi'=>$esi,
+			'others'=>$others,
+			'advance'=>$advance,
+			'bankname'=>$bankname,
+			'bankaccountnumber'=>$bankaccountnumber,
+			'salary_increment'=>$salary_increment,
+			'emp_dob'=>$dob,
+			'emp_profilepic'=>$profilepic,
+			'emp_resaddress'=>isset($post['resaddress'])?$post['resaddress']:'',
+			'emp_peraddress'=>isset($post['peraddress'])?$post['peraddress']:'',
+			'aadharcardno'=>isset($post['aadharnumber'])?$post['aadharnumber']:'',
+			'aadharcard'=>$aadhar,
+			'pancardno'=>isset($post['pannumber'])?$post['pannumber']:'',
+			'pancard'=>$pancard,
+			'otherkye'=>$kyc,
+			'create'=>date('Y-m-d H:i:s'),
+			);
+			//echo '<pre>';print_r($editdata);exit;
+			$updateprofile= $this->Employee_model->update_profile_details($post['emp_id'],$editdata);
+
+			//echo $this->db->last_query();exit;
+			if(count($updateprofile)>0){
+				$this->session->set_flashdata('success','Profile Successfully updated');
+				if($post['role_type']=='admin'){
+					redirect('employee/allemployeelist');
+				}else{
+				redirect('employee/profile');
+				}
+
+			}else{
+				 $this->session->set_flashdata('error','Technical problem will occurred .please try again');
+				 redirect('employee/edit');
+			}
+		}else{
+		 $this->session->set_flashdata('loginerror','Please login to continue');
+		 redirect('employee');
+		}
+	}
+	
+	
+	
+	
+	
 	public function update(){
 		if($this->session->userdata('userdetails'))
 		{
@@ -2156,6 +2583,38 @@ if($this->session->userdata('userdetails'))
 
 
 	}
+	public  function alltaskexport(){
+
+
+		$emp_id=base64_decode($this->uri->segment(3));
+		$filename=$emp_id;
+		$usersdetails=$this->Employee_model->get_employee_name($emp_id);
+		$name=str_replace(" ","_",$usersdetails['emp_name']);
+		$usersData=$this->Employee_model->get_export_task_details($emp_id);
+		$filename = $name.'_daily_work_update_sheet_'.date('Ymd').'.csv';
+		//echo '<pre>';print_r($filename);exit;
+		header("Content-Description: File Transfer");
+		header("Content-Disposition: attachment; filename=$filename");
+		header("Content-Type: application/csv; ");
+
+		// get data
+		//$usersData = $this->Main_model->getUserDetails();
+
+		// file creation
+		$file = fopen('php://output', 'w');
+
+		$header = array("Comment","Upload File","Upload Date & Time","Date");
+		fputcsv($file, $header);
+
+		foreach ($usersData as $key=>$line){
+		 fputcsv($file,$line);
+		}
+
+		fclose($file);
+		exit;
+
+	}
+	
 
 	public  function taskexport(){
 

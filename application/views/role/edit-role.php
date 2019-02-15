@@ -7,7 +7,7 @@
         <div class="col-md-9   card mt-10">
             <div class="row">
                 <form  id="add_type" action="<?php echo base_url('employee/editrolepost'); ?>" method="post" enctype="multipart/form-data">
-                    <input type="hidden" id="p_r_id" name="p_r_id" value="<?php echo isset($edit_role['p_r_id'])?$edit_role['p_r_id']:'' ?>">
+                    <input type="hidden" id="role_id" name="role_id" value="<?php echo isset($edit_role['role_id'])?$edit_role['role_id']:'' ?>">
 					<div class="col-md-12">
 
                         <div class="row">

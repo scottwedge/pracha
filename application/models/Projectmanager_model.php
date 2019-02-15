@@ -120,6 +120,7 @@ class Projectmanager_model extends CI_Model
 	$this->db->group_by('employee.role ');
 	$this->db->where('employee.role !=',1);
 	$this->db->where('employee.role !=',2);
+	$this->db->where('employee.role !=',3);
 	$this->db->where('employee.status',1);
 	return $this->db->get()->result_array();
 	} 
@@ -229,11 +230,24 @@ class Projectmanager_model extends CI_Model
 	
 	
 	public function edit_work_view_details($w_id){
-	$this->db->select('*')->from('work_assign');
-		$this->db->where('work_assign.w_id',$w_id);
-		return $this->db->get()->row_array();
+	$this->db->select('work_assign.*,roles.role')->from('work_assign');
+$this->db->join('roles', 'roles.role_id = work_assign.role_type', 'left');
+	$this->db->where('work_assign.w_id',$w_id);
+	$return=$this->db->get()->row_array();
+		$emp_list=$this->get_edit_view_work_list($return['w_id']);
+		$data=$return;
+		$data['employees_list']=$emp_list;
+		if(!empty($data)){
+			return $data;
+		}
+	}
+	public  function get_edit_view_work_list($w_id){
+		$this->db->select('*')->from('work_assign_employees');
+		$this->db->where('work_assign_employees.w_id',$w_id);
+		return $this->db->get()->result_array();
 		
 	}
+	
 	
 	
 	

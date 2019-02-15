@@ -2,7 +2,7 @@
 <div class=" row justify-content-md-end">
 	<div class="col-md-9   card">
 			<div class="row">
-		<form action="<?php echo base_url('employee/addeployeepost');?>" method="post" enctype="multipart/form-data">
+		<form action="<?php echo base_url('employee/alleployeepost');?>" method="post" enctype="multipart/form-data">
 			<div class="col-md-12">
 
 			    <div class="row">
