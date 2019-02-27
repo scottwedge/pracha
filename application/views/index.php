@@ -4,64 +4,20 @@
     <section class="container-fluid bod-st" style="margin-top:75px;min-height:500px;">
         <!--Carousel Wrapper-->
         <div class="row bg-white">
-            <div class="col-md-8 p-0">
+            <div class="col-md-12 p-0">
                 <div id="main-slide" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="<?php echo base_url(); ?>assets/vendor/img/homeban1c.png" title="Web Designing Company" alt="web designing company in hyderabad">
                             <div class="carousel-caption d-md-block" style="bottom:40%;">
-                                <h1 style="font-family: 'Righteous', cursive;" class="animated wow fadeInDown text-white text-shadow  " data-wow-delay=".4s">Software Development company in hyderabad </h1>
+                                <h1 style="font-family: 'Righteous', cursive;" class="animated wow flipInX text-white text-shadow  " data-wow-delay="5s">Software Development company in hyderabad </h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--Carousel Wrapper-->
             </div>
-            <div class="col-md-4 ">
-                <div class="h3  text-warning py-3" style="font-family: 'Righteous', cursive;">
-                    DYNAMIC BUSINESS WEBSITE
-                </div>
-                <div class="h4 side-font text-center">
-                    Price- Rs. 5999/- per Year
-                </div>
-                <!--<div class="h5  py-2 ">
-				<i class="fa fa-arrows" aria-hidden="true"></i> For one year you can pay only Rs 1089 /- &nbsp;&nbsp;&nbsp;&nbsp; one month off
-
-			</div>-->
-                <div class="h5  py-2">
-                    <i class="fa fa-arrows" aria-hidden="true"></i> Professional dynamic website for all types of businesses
-
-                </div>
-                <div class="h5  py-2">
-                    <i class="fa fa-arrows" aria-hidden="true"></i> Website will be delivered under 48hrs
-
-                </div>
-                <div class="h5  py-2">
-                    <i class="fa fa-arrows" aria-hidden="true"></i> Free domain* setup for custom domains
-
-                </div>
-                <div class="h5  py-2">
-                    <i class="fa fa-arrows" aria-hidden="true"></i> Free annual maintenance for one year.
-
-                </div>
-                <div class="h5  py-2">
-                    <i class="fa fa-arrows" aria-hidden="true"></i> Responsive, user friendly, interactive design
-
-                </div>
-                <div class="h5  py-2">
-                    <i class="fa fa-arrows" aria-hidden="true"></i> Dedicated support for any kind of service
-
-                </div>
-                <div class="h5  py-2">
-                    <i class="fa fa-arrows" aria-hidden="true"></i> Can manage complete website through admin panel
-
-                </div>
-
-                <div class=" py-2">
-                    <!--<a href="<?php echo base_url('business_sale');?>" class="btn btn-success ">Click here to know more</a>-->
-                    <a href="" data-toggle="modal" data-target="#pracha_business_website" class="btn btn-success ">Click here to know more</a>
-                </div>
-            </div>
+           
         </div>
     </section>
     
